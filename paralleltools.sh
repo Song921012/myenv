@@ -1,22 +1,22 @@
 conda deactivate
-myenv
-cd GKlib
-git pull
-sudo rm -rf build
-make config prefix=/usr/local openmp=set
-sudo make install
-myenv
-cd METIS
-git pull
-sudo rm -rf build
-make config shared=1 cc=gcc prefix=/usr/local
-sudo make install
-myenv
-cd ParMETIS
-git pull
-sudo rm -rf build
-make config cc=mpicc prefix=/usr/local
-sudo make install
+#myenv
+#cd GKlib
+#git pull
+#sudo rm -rf build
+#make config prefix=/usr/local openmp=set
+#sudo make install
+#myenv
+#cd METIS
+#git pull
+#sudo rm -rf build
+#make config shared=1 cc=gcc prefix=/usr/local
+#sudo make install
+#myenv
+#cd ParMETIS
+#git pull
+#sudo rm -rf build
+#make config cc=mpicc prefix=/usr/local
+#sudo make install
 myenv
 cd ADIOS2
 git pull

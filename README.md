@@ -2,11 +2,7 @@
 
 注意:特别针对的是POP!_os系统, Ubuntu和Debian系应该也是适用的
 
-Modify `myenv.sh` to setup linux environment.
-
-Then copy `.zshrc`  spacevim `init.toml` to .Space.d folder
-
-并设置好Git个人访问令牌
+设置好Git个人访问令牌
 [创建个人访问令牌 - GitHub Docs](https://docs.github.com/cn/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 具体也可以把obsidiannote里的git文件复制到home目录
@@ -16,6 +12,10 @@ git clone <https://github.com/Song921012/myenv.git>
 
 git clone <https://github.com/Song921012/myhsl.git>
 
+Modify `myenv.sh` to setup linux environment.
+
+Then copy `.zshrc`  spacevim `init.toml` to .Space.d folder
+
 # Setup Development environment
 
 注意中途可能要unset一些环境变量
@@ -24,18 +24,20 @@ Install texlive from sources
 
 [tlmgr无法更新](https://tex.stackexchange.com/questions/203874/sudo-does-not-find-tlmgr)
 
-Install Vscode from sources
-
 ```
 myenv
 source gitinstall.sh
+```
 
-#然后把HSL文件放到Ipopt thirdpartyhsl文件夹中
+把HSL文件放到Ipopt thirdpartyhsl文件夹中
 
+```
 source packagesup.sh
 ```
 
 从官网安装miniconda
+
+从官网安装Rstudio
 
 ```
 conda update conda
@@ -43,25 +45,19 @@ conda install python=3.10.6 #记得修改
 source install_python.sh
 source install_julia.sh
 install_julia v1.8 1.8.1 #记得修改
+R --no-save <~/myenv/importr.r
+cd ~/myenv
+conda env create -f fenicsxenvironment.yml
+conda env create -f fenicsenvironment.yml
+cd ~/myenv
+source firedrakeinstall.sh
 ```
 
 copy julia toml and startupfile到~/.julia里边文件夹里
 
-也可以Install conda from `environment.toml`
+base环境也可以Install conda from `environment.toml`
 
-从官网下在Rstudio
-
-运行 `import.r` 就把R包都安装了
-
-## 一些复杂的环境
-
-firedrake安装, 查官网
-
-fenics安装,直接用fenics环境yml
-
-fenicsx安装, 直接用fenicsx环境yml
-
-另外
+另外也可以申请
 
 - 申请COPT的license
 - mosek的license
@@ -102,7 +98,7 @@ zoom
 
 [Pop!_OS 21.04 安装 Fcitx + rime 输入法 - Jixun's Blog](https://jixun.uk/posts/2021/pop-os-21-04-install-fcitx-rime/)
 
-搜狗输入法
+搜狗输入法从官网下
 
 - 图片
 
@@ -130,7 +126,7 @@ PDF arrange (处理单页pdf)
 
 libre office
 
-WPS
+WPS从官网下
 
 - 重复文件
 

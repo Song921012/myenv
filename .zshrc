@@ -26,6 +26,8 @@ alias refresh="up && clean && quartoup && juliaup && pythonup && source ~/myenv/
 alias fireenv="conda deactivate && source /home/aidishage/firedrake/bin/activate"
 alias myenv="cd ~/myenv/src"
 alias pythonup="source ~/myenv/pythonup.sh"
+alias fireup="source ~/myenv/firedrakeup.sh && firedrakeup"
+alias fireinstall="source ~/myenv/firedrakeup.sh && firedrakeinstall"
 #alias julia="conda deactivate && julia"
 # Path
 export JULIA_NUM_THREADS=6
