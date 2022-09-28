@@ -2,14 +2,15 @@ conda deactivate
 myenv
 sudo apt-get install gcc g++ gfortran git patch wget pkg-config liblapack-dev libmetis-dev
 ## cmdstan
+myenv
 cd cmdstan
 git pull
 make -j6 build  
 ## Ipopt
 cd Ipopt
 git pull
-sudo rm -rf build
-mkdir build
+#sudo rm -rf build
+#mkdir build
 cd build
 ./configure
 make
@@ -20,8 +21,8 @@ sudo make install
 myenv
 cd nlopt
 git pull
-sudo rm -rf build
-mkdir build
+#sudo rm -rf build
+#mkdir build
 cd build
 cmake ..
 make
@@ -31,8 +32,8 @@ myenv
 
 ## psopt
 cd psopt
-sudo rm -rf build
-mkdir build
+#sudo rm -rf build
+#mkdir build
 cd build
 cmake -DBUILD_EXAMPLES=ON ..
 sudo make
@@ -45,8 +46,10 @@ cd ./psopt/build/examples/delay1
 myenv
 cd ifopt
 sudo rm -rf build
-mkdir build && cd build
+mkdir build
+cd build
 cmake ..
 make
 sudo make install
+myenv
 

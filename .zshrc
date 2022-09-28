@@ -22,17 +22,18 @@ alias wkspace="cd /home/aidishage/Desktop/MyProjects"
 alias quartoup="source ~/myenv/quartoup.sh"
 alias fdu="du -lh --max-depth=1"
 alias juliaup="julia -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
-alias refresh="up && clean && quartoup && juliaup && pythonup && source ~/myenv/othersoftwaresup.sh"
+alias refresh="up && clean && quartoup && juliaup && pythonup && source ~/myenv/othersoftwaresup.sh && cd"
 alias fireenv="conda deactivate && source /home/aidishage/firedrake/bin/activate"
 alias myenv="cd ~/myenv/src"
 alias pythonup="source ~/myenv/pythonup.sh"
+#alias julia="conda deactivate && julia"
 # Path
 export JULIA_NUM_THREADS=6
 export CMDSTAN="/home/aidishage/myenv/src/cmdstan"
 export STAN_BACKEND=CMDSTANPY
-export PATH=/opt/gurobi952/linux64/bin:$PATH
-export PATH=/home/aidishage/.local/bin:$PATH
-export PATH=$CMDSTAN:$PATH
+export PATH=$PATH:/opt/gurobi952/linux64/bin
+export PATH=$PATH:/home/aidishage/.local/bin
+export PATH=$PATH:$CMDSTAN
 export CUDA_HOME=/usr/local/cuda
 export PATH=$PATH:$CUDA_HOME/bin
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
@@ -42,21 +43,21 @@ export HSL_MA97_PATH=/home/aidishage/hsl/hsl_ma97-2.7.2.tar.gz
 export PATH=/usr/local/texlive/2022/bin/x86_64-linux:$PATH
 export COPT_HOME=/opt/copt50
 export COPT_LICENSE_DIR=/opt/copt50
-export PATH=$COPT_HOME/bin:$PATH
-export LD_LIBRARY_PATH=$COPT_HOME/lib:$LD_LIBRARY_PATH
+export PATH=$PATH:$COPT_HOME/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$COPT_HOME/lib
 export ALGENCAN_LIB_DIR=/usr/lib
-export PATH=/opt/openrobots/bin:$PATH
-export PKG_CONFIG_PATH=/usr/local/lib64/pkgconfig:/opt/openrobots/lib/pkgconfig:$PKG_CONFIG_PATH
-export LD_LIBRARY_PATH=/usr/local/lib64:/opt/openrobots/lib:$LD_LIBRARY_PATH
-export PYTHONPATH=/home/aidishage/myenv/src/Optizelle/lib/python3.8/site-packages:/opt/openrobots/lib/python3.10/site-packages:$PYTHONPATH
+export PATH=$PATH:/opt/openrobots/bin
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib64/pkgconfig:/opt/openrobots/lib/pkgconfig
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib64:/opt/openrobots/lib
+export PYTHONPATH=$PYTHONPATH:/home/aidishage/myenv/src/Optizelle/lib/python3.8/site-packages:/opt/openrobots/lib/python3.10/site-packages
 export SNOPT_LICENSE=$HOME/licenses/snopt7.lic
 export GALAHAD=/home/aidishage/Galahad/galahad
-export PETSC_ARCH=arch-linux-c-debug
-export PETSC_DIR=$HOME/myenv/src/petsc
-export PYTHONPATH=$PETSC_DIR/$PETSC_ARCH/lib:$PYTHONPATH
-export SLEPC_DIR=$HOME/myenv/src/slepc
-export PYTHONPATH=$SLEPC_DIR/$PETSC_ARCH/lib:$PYTHONPATH
-
+#export PETSC_ARCH=arch-linux-c-debug
+#export PETSC_DIR=$HOME/myenv/src/petsc
+#export PYTHONPATH=$PYTHONPATH:$PETSC_DIR/$PETSC_ARCH/lib
+#export SLEPC_DIR=$HOME/myenv/src/slepc
+#export PYTHONPATH=$PYTHONPATH:$SLEPC_DIR/$PETSC_ARCH/lib
+export OMP_NUM_THREADS=1
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

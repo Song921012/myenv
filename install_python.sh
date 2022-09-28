@@ -12,8 +12,27 @@ pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels network
   Casadi sbi pints elfi POT lifelines casadi Pulp lmfit pysindy pysr pydmd cvxpy probnum POT pylops pyproximal\
   pyomo gekko dymos leafmap optax flax numpyro distrax efax mpi4jax diffrax jaxopt sgmcmcjax gpjax blackjax pyvista
   
+pip install -U pyecharts seaborn plotly dash
+
+pip install keplergl osmnx
+  
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-countries-pypkg
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-provinces-pypkg
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-cities-pypkg
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-counties-pypkg
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-misc-pypkg
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-united-kingdom-pypkg
+
+pip install pyecharts_snapshot
   
 sudo npm install -g yarn
 sudo npm install -g hexo
+
+jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
 
 

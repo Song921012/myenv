@@ -4,27 +4,16 @@ unset SLEPC_DIR
 unset PETSC_DIR
 unset PETSC_ARCH
 #sudo apt install libpugixml-dev
-myenv
-#cd ufl
-#git pull
-#pip install .
-#myenv
-#pip install git+https://github.com/FEniCS/basix.git
-#myenv
-#cd ffcx
-#git pull
-#pip install .
-#myenv
 #echo "please setup parallel hdf5 if not"
 # Install Petsc
 myenv
-sudo rm -rf petsc && git clone https://gitlab.com/petsc/petsc.git
+#sudo rm -rf petsc && git clone https://gitlab.com/petsc/petsc.git
 cd petsc
 git pull
-./configure --download-mpich --download-fblaslapack --download-ptscotch --download-suitesparse --download-mumps --download-hypre --download-scalapack --download-parmetis --download-metis --with-petsc4py=1 --download-eigen
+./configure --download-fblaslapack --download-ptscotch --download-suitesparse --download-mumps --download-hypre --download-scalapack --download-parmetis --download-metis --with-petsc4py=1 --download-eigen
 make all check
 myenv
-sudo rm -rf slepc && git clone https://gitlab.com/slepc/slepc
+#sudo rm -rf slepc && git clone https://gitlab.com/slepc/slepc
 cd slepc
 git pull
 export SLEPC_DIR=$HOME/myenv/src/slepc
@@ -34,6 +23,12 @@ cd $SLEPC_DIR
 ./configure --with-slepc4py=1
 make
 make check
+
+## Fenics
+myenv
+pip install git+https://github.com/FEniCS/basix.git
+pip install git+https://github.com/FEniCS/ffcx.git
+myenv
 
 #myenv
 #sudo rm -rf dolfinx && git clone https://github.com/FEniCS/dolfinx.git
