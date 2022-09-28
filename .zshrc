@@ -16,7 +16,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Alias
 alias up="sudo apt update && sudo apt upgrade"
-alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./.pip"
+alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip"
 #alias make="sudo make"
 alias wkspace="cd /home/aidishage/Desktop/MyProjects"
 alias quartoup="source ~/myenv/quartoup.sh"

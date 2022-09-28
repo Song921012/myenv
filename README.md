@@ -71,7 +71,86 @@ sudo apt --fix-broken install
 
 [ubuntu18.04已匹配蓝牙耳机但是连接不上_light-124的博客-CSDN博客_ubuntu连接蓝牙耳机](https://blog.csdn.net/handsomeandge/article/details/121529718)
 
+# Other applications
 
+obsidian
+
+
+Wechat
+
+qq
+
+zoom
+
+腾讯视频
+
+- 输入法
+
+[Pop!_OS 21.04 安装 Fcitx + rime 输入法 - Jixun's Blog](https://jixun.uk/posts/2021/pop-os-21-04-install-fcitx-rime/)
+
+搜狗输入法
+
+
+- 图片
+
+gthumb
+
+- 音乐
+
+网易
+
+- 视频
+
+MPC: 简约简单,好用
+
+VLC: 最多东西,有时不好用
+
+- PDF
+
+Okular查看
+
+PDF chain, PDFtk 命令行处理PDF
+
+PDF arrange (处理单页pdf)
+
+- Office
+
+libre office
+
+WPS
+
+- 重复文件
+
+dupeguru
+
+- 种子
+
+sudo add-apt-repository ppa:poplite/qbittorrent-enhanced
+sudo apt update
+sudo apt install qbittorrent-enhanced
+
+- xmind
+
+
+- 下载
+
+xdm
+
+- 翻译
+
+- thunderbird
+
+gmail只用登陆
+
+stu.xjtu.edu.cn自己配置服务器,都是stu.xjtu.edu.cn
+
+xjtu.xjtu.edu登陆界面有服务器
+
+qq要在qq邮箱中设置生成密钥
+
+- 杀毒
+
+clamav
 
 # update environment
 
