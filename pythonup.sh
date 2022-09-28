@@ -1,0 +1,13 @@
+conda activate
+pip install -U radian conan flake8 pylint yapf\
+  SAlib deepxde streamlit streamlit-pandas-profiling pandas-profiling plotly-express\
+  tensorflow-probability gplearn gpflow\
+  gpytorch botorch pytorch-forecasting neuralprophet torchdyn torchgan torchsde torchcde torchdiffeq torchmetrics pytorch-lightning  pyro-ppl\
+  Casadi sbi pints elfi POT lifelines Pulp pysindy pysr pydmd cvxpy probnum POT pylops pyproximal\
+  pyomo gekko dymos leafmap darts pydeck nlopt optax flax numpyro distrax efax mpi4jax diffrax jaxopt sgmcmcjax gpjax blackjax pyvista
+pip install -U "sktime[all_extras]"
+pip install --upgrade pip
+pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install -U tensorflow
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+
