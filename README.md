@@ -12,9 +12,9 @@ Then copy `.zshrc`  spacevim `init.toml` to .Space.d folder
 具体也可以把obsidiannote里的git文件复制到home目录
 
 然后
-git clone https://github.com/Song921012/myenv.git
+git clone <https://github.com/Song921012/myenv.git>
 
-git clone https://github.com/Song921012/myhsl.git
+git clone <https://github.com/Song921012/myhsl.git>
 
 # Setup Development environment
 
@@ -23,10 +23,6 @@ git clone https://github.com/Song921012/myhsl.git
 Install texlive from sources
 
 [tlmgr无法更新](https://tex.stackexchange.com/questions/203874/sudo-does-not-find-tlmgr)
-
-Install nodejs from sources
-
-Install java from sources
 
 Install Vscode from sources
 
@@ -48,6 +44,7 @@ source install_python.sh
 source install_julia.sh
 install_julia v1.8 1.8.1 #记得修改
 ```
+
 copy julia toml and startupfile到~/.julia里边文件夹里
 
 也可以Install conda from `environment.toml`
@@ -60,7 +57,6 @@ copy julia toml and startupfile到~/.julia里边文件夹里
 
 firedrake安装, 查官网
 
-
 fenics安装,直接用fenics环境yml
 
 fenicsx安装, 直接用fenicsx环境yml
@@ -69,7 +65,6 @@ fenicsx安装, 直接用fenicsx环境yml
 
 - 申请COPT的license
 - mosek的license
-
 
 # 一些疑难杂症
 
@@ -95,7 +90,6 @@ sudo apt --fix-broken install
 
 obsidian
 
-
 Wechat
 
 qq
@@ -109,7 +103,6 @@ zoom
 [Pop!_OS 21.04 安装 Fcitx + rime 输入法 - Jixun's Blog](https://jixun.uk/posts/2021/pop-os-21-04-install-fcitx-rime/)
 
 搜狗输入法
-
 
 - 图片
 
@@ -150,7 +143,6 @@ sudo apt update
 sudo apt install qbittorrent-enhanced
 
 - xmind
-
 
 - 下载
 
