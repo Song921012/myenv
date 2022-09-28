@@ -14,6 +14,8 @@ Then copy `.zshrc`  spacevim `init.toml` to .Space.d folder
 然后
 git clone https://github.com/Song921012/myenv.git
 
+git clone https://github.com/Song921012/myhsl.git
+
 # Setup Development environment
 
 注意中途可能要unset一些环境变量
@@ -31,6 +33,9 @@ Install Vscode from sources
 ```
 myenv
 source gitinstall.sh
+
+#然后把HSL文件放到Ipopt thirdpartyhsl文件夹中
+
 source packagesup.sh
 ```
 
@@ -50,6 +55,21 @@ copy julia toml and startupfile到~/.julia里边文件夹里
 从官网下在Rstudio
 
 运行 `import.r` 就把R包都安装了
+
+## 一些复杂的环境
+
+firedrake安装, 查官网
+
+
+fenics安装,直接用fenics环境yml
+
+fenicsx安装, 直接用fenicsx环境yml
+
+另外
+
+- 申请COPT的license
+- mosek的license
+
 
 # 一些疑难杂症
 
