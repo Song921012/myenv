@@ -15,19 +15,30 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 
 # Alias
+## Upadate
+alias refresh="up && clean && quartoup && juliaup && pythonup && othersup"
 alias up="sudo apt update && sudo apt upgrade"
-alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip"
-#alias make="sudo make"
-alias wkspace="cd /home/aidishage/Desktop/MyProjects"
 alias quartoup="source ~/myenv/quartoup.sh"
-alias fdu="du -lh --max-depth=1"
 alias juliaup="julia -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
-alias refresh="up && clean && quartoup && juliaup && pythonup && source ~/myenv/othersoftwaresup.sh && cd"
+alias fireup="source ~/myenv/firedrakeup.sh && firedrakeup"
+alias pythonup="source ~/myenv/pythonup.sh"
+alias othersup="source ~/myenv/othersoftwaresup.sh"
+alias fireinstall="source ~/myenv/firedrakeup.sh && firedrakeinstall"
+
+## Clean
+alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip"
+
+## CD
+alias wkspace="cd /home/aidishage/Desktop/MyProjects"
+alias testspace="cd $HOME/Desktop/Test_repo"
 alias fireenv="conda deactivate && source /home/aidishage/firedrake/bin/activate"
 alias myenv="cd ~/myenv/src"
-alias pythonup="source ~/myenv/pythonup.sh"
-alias fireup="source ~/myenv/firedrakeup.sh && firedrakeup"
-alias fireinstall="source ~/myenv/firedrakeup.sh && firedrakeinstall"
+alias mytutor="cd ~/Desktop/MyProjects/MathEpiDeepLearningTutorial"
+
+## Others
+alias fdu="du -l --max-depth=1 | sort -nr"
+
+#alias make="sudo make"
 #alias julia="conda deactivate && julia"
 # Path
 export JULIA_NUM_THREADS=6

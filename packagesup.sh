@@ -53,3 +53,11 @@ make
 sudo make install
 myenv
 
+## psopt
+myenv
+sudo rm -rf pyOpt
+git clone https://github.com/madebr/pyOpt.git
+cd pyOpt
+python setup.py build_ext --inplace
+myenv
+

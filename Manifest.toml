@@ -211,9 +211,9 @@ version = "0.13.9"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "bd675a3d71337d9f956f0c0392902ab64b83382e"
+git-tree-sha1 = "f6d279cb573a410e364eace63dcafdf2d5be80bf"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.7.11"
+version = "0.7.13"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport"]
@@ -3459,9 +3459,9 @@ version = "1.3.5"
 
 [[deps.MethodAnalysis]]
 deps = ["AbstractTrees"]
-git-tree-sha1 = "18334d5202fc1e56681bdd88c5435bb1b523951a"
+git-tree-sha1 = "53b57aabcbafbd57bb5e31167b28a6e99bfed2bb"
 uuid = "85b6ec6f-f7df-4429-9514-a64bcd9ee824"
-version = "0.4.9"
+version = "0.4.10"
 
 [[deps.MethodOfLines]]
 deps = ["Combinatorics", "DiffEqBase", "DomainSets", "IfElse", "Interpolations", "LinearAlgebra", "ModelingToolkit", "NonlinearSolve", "OrdinaryDiffEq", "SafeTestsets", "SciMLBase", "StableRNGs", "StaticArrays", "SymbolicUtils", "Symbolics", "TermInterface", "Test"]
@@ -3821,10 +3821,10 @@ uuid = "fb352abc-de7b-48de-9ebd-665b54b5d9b3"
 version = "0.1.4"
 
 [[deps.NonconvexCore]]
-deps = ["ChainRulesCore", "ForwardDiff", "IntervalArithmetic", "JuMP", "LinearAlgebra", "MathOptInterface", "NamedTupleTools", "OrderedCollections", "Parameters", "Random", "Reexport", "Requires", "Setfield", "SparseArrays", "Zygote"]
-git-tree-sha1 = "3418cfdc5afda0ecc8b76e7df3425b4c7eef5f4a"
+deps = ["ChainRulesCore", "ForwardDiff", "IntervalArithmetic", "JuMP", "LinearAlgebra", "MathOptInterface", "NamedTupleTools", "OrderedCollections", "Parameters", "Random", "Reexport", "Requires", "Setfield", "SolverCore", "SparseArrays", "Zygote"]
+git-tree-sha1 = "3e54e63457fee5dad96131bf1495cd1ad9cffc23"
 uuid = "035190e5-69f1-488f-aaab-becca2889735"
-version = "1.1.2"
+version = "1.2.0"
 
 [[deps.NonconvexIpopt]]
 deps = ["Ipopt", "LinearAlgebra", "NonconvexCore", "NonconvexUtils", "Parameters", "Reexport", "SparseArrays", "Zygote"]
@@ -3840,9 +3840,9 @@ version = "0.3.1"
 
 [[deps.NonconvexMMA]]
 deps = ["ChainRulesCore", "ForwardDiff", "LinearAlgebra", "NonconvexCore", "Optim", "Parameters", "Reexport", "Zygote"]
-git-tree-sha1 = "fb91c23a995dad36f00535fda33452d8af3e9a36"
+git-tree-sha1 = "e88e053c5a6d211915259dcd0518a54b2ede9b0a"
 uuid = "d3d89cbb-4ecd-4604-818d-8d1ff343e4da"
-version = "0.1.4"
+version = "1.0.0"
 
 [[deps.NonconvexMetaheuristics]]
 deps = ["Metaheuristics", "NonconvexCore", "Parameters", "Random", "Reexport", "Setfield"]

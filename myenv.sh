@@ -48,7 +48,8 @@ sudo apt -y install clang lldb lld
 sudo apt-get -y install ninja-build
 sudo apt install cmake
 sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev
-libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev # lapack blas metis
+libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig # lapack blas metis
+sudo apt-get install graphviz
 sudo apt install libeigen3-dev libadolc-dev # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
 # Install R
