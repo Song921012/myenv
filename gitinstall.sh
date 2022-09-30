@@ -27,6 +27,11 @@ myenv
 echo " Copy HSL Files to Ipopt/ThirdParty-HSL"
 
 
+# CppAD
+myenv
+git clone https://github.com/coin-or/CppAD.git
+
+
 #sudo rm -rf ParMETIS && git clone https://github.com/KarypisLab/ParMETIS.git
 #sudo rm -rf GKlib && git clone https://github.com/KarypisLab/GKlib.git
 #sudo rm -rf METIS && git clone https://github.com/KarypisLab/METIS.git

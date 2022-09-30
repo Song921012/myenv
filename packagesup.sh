@@ -1,16 +1,28 @@
 conda deactivate
 myenv
 sudo apt-get install gcc g++ gfortran git patch wget pkg-config liblapack-dev libmetis-dev
+
+## cppad
+myenv
+sudo rm -rf CppAD
+git clone https://github.com/coin-or/CppAD.git
+cd CppAD
+git pull
+sudo rm -rf build
+mkdir build
+cd build && cmake ..
+sudo make install
 ## cmdstan
 myenv
 cd cmdstan
 git pull
 make -j6 build  
 ## Ipopt
+myenv
 cd Ipopt
 git pull
-#sudo rm -rf build
-#mkdir build
+sudo rm -rf build
+mkdir build
 cd build
 ./configure
 make
@@ -21,19 +33,21 @@ sudo make install
 myenv
 cd nlopt
 git pull
-#sudo rm -rf build
-#mkdir build
+sudo rm -rf build
+mkdir build
 cd build
 cmake ..
 make
 sudo make install
-pip install nlopt
+
+
 myenv
 
 ## psopt
+myenv
 cd psopt
-#sudo rm -rf build
-#mkdir build
+sudo rm -rf build
+mkdir build
 cd build
 cmake -DBUILD_EXAMPLES=ON ..
 sudo make
@@ -53,11 +67,13 @@ make
 sudo make install
 myenv
 
-## psopt
+## pyopt
 myenv
 sudo rm -rf pyOpt
 git clone https://github.com/madebr/pyOpt.git
 cd pyOpt
 python setup.py build_ext --inplace
 myenv
+
+
 

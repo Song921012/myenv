@@ -84,15 +84,15 @@ sudo apt --fix-broken install
 
 # Other applications
 
-obsidian
+- obsidian: deb安装
 
-Wechat
+- Wechat: deepwine
 
-qq
+- qq: 放弃安装
 
-zoom
+- zoom: app store
 
-腾讯视频
+- 腾讯视频: app store
 
 - 输入法
 
@@ -100,53 +100,45 @@ zoom
 
 搜狗输入法从官网下
 
-- 图片
+- 图片 gthumb: app store
 
-gthumb
+- 音乐 网易: app store
 
-- 音乐
-
-网易
-
-- 视频
-
-MPC: 简约简单,好用
-
-VLC: 最多东西,有时不好用
+- 视频 VLC: app store
 
 - PDF
 
-Okular查看
+Okular查看 app store
 
-PDF chain, PDFtk 命令行处理PDF
+PDF chain, PDFtk 命令行处理PDF app store
 
-PDF arrange (处理单页pdf)
+PDF arrange (处理单页pdf) app store
 
 - Office
 
-libre office
+libre office 自带
 
 WPS从官网下
 
 - 重复文件
 
-dupeguru
+dupeguru app store
 
-- 种子
+- 种子(自动下载了)
 
 sudo add-apt-repository ppa:poplite/qbittorrent-enhanced
 sudo apt update
 sudo apt install qbittorrent-enhanced
 
-- xmind
+- xmind(app store)
 
 - 下载
 
-xdm
+xdm (app store)
 
 - 翻译
 
-- thunderbird
+- thunderbird (app store)
 
 gmail只用登陆
 
@@ -158,7 +150,7 @@ qq要在qq邮箱中设置生成密钥
 
 - 杀毒
 
-clamav
+clamav (app store)
 
 # update environment
 

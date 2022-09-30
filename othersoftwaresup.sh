@@ -46,5 +46,5 @@ cd ~/.julia/dev/MathepiaModels
 git pull
 cd ~/.julia/dev/OptLibrary
 git pull
-
+cd
 

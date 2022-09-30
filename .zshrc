@@ -24,7 +24,7 @@ alias fireup="source ~/myenv/firedrakeup.sh && firedrakeup"
 alias pythonup="source ~/myenv/pythonup.sh"
 alias othersup="source ~/myenv/othersoftwaresup.sh"
 alias fireinstall="source ~/myenv/firedrakeup.sh && firedrakeinstall"
-
+alias cppup="source ~/myenv/packagesup.sh && cd"
 ## Clean
 alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip"
 
@@ -62,8 +62,11 @@ export ALGENCAN_LIB_DIR=/usr/lib
 export PATH=$PATH:/opt/openrobots/bin
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib64/pkgconfig:/opt/openrobots/lib/pkgconfig
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib64:/opt/openrobots/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/myenv/lib
+export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$HOME/myenv/include
 export PYTHONPATH=$PYTHONPATH:/home/aidishage/myenv/src/Optizelle/lib/python3.8/site-packages:/opt/openrobots/lib/python3.10/site-packages
 export SNOPT_LICENSE=$HOME/licenses/snopt7.lic
+export PARDISO_LIC_PATH=$HOME/licenses
 export GALAHAD=/home/aidishage/Galahad/galahad
 #export PETSC_ARCH=arch-linux-c-debug
 #export PETSC_DIR=$HOME/myenv/src/petsc
