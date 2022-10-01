@@ -2,6 +2,10 @@
 sudo apt-get install software-properties-common
 sudo apt install aptitude
 sudo apt install vim vim-scripts vim-gtk
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+sudo apt install python3-neovim
 curl -sLf https://spacevim.org/install.sh | bash # spacevim
 sudo apt install zsh
 chsh -s $(which zsh)
@@ -61,6 +65,9 @@ sudo apt install --no-install-recommends r-base
 sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
 
 # Install texlive
+sudo add-apt-repository ppa:sunderme/texstudio
+sudo apt update
+sudo apt install texstudio
 # sudo apt install texlive-full -y
 # sudo visudo
 

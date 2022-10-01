@@ -20,13 +20,14 @@ alias refresh="up && clean && quartoup && juliaup && pythonup && othersup"
 alias up="sudo apt update && sudo apt upgrade"
 alias quartoup="source ~/myenv/quartoup.sh"
 alias juliaup="julia -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
+alias juliadevup="juliadev -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
 alias fireup="source ~/myenv/firedrakeup.sh && firedrakeup"
 alias pythonup="source ~/myenv/pythonup.sh"
 alias othersup="source ~/myenv/othersoftwaresup.sh"
 alias fireinstall="source ~/myenv/firedrakeup.sh && firedrakeinstall"
 alias cppup="source ~/myenv/packagesup.sh && cd"
 ## Clean
-alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip"
+alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
 
 ## CD
 alias wkspace="cd /home/aidishage/Desktop/MyProjects"
@@ -47,9 +48,10 @@ export STAN_BACKEND=CMDSTANPY
 export PATH=$PATH:/opt/gurobi952/linux64/bin
 export PATH=$PATH:/home/aidishage/.local/bin
 export PATH=$PATH:$CMDSTAN
-export CUDA_HOME=/usr/local/cuda
+export CUDA_HOME=/usr/lib/cuda # 记得链接cuda
+export CUDA_TOOLKIT_ROOT_DIR=$CUDA_HOME
 export PATH=$PATH:$CUDA_HOME/bin
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 export MA57_SOURCE=/home/aidishage/hsl/hsl_ma57-5.3.2.tar.gz
 export HSL_MA57_PATH=/home/aidishage/hsl/hsl_ma57-5.3.2.tar.gz
 export HSL_MA97_PATH=/home/aidishage/hsl/hsl_ma97-2.7.2.tar.gz
@@ -66,14 +68,37 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/myenv/lib
 export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$HOME/myenv/include
 export PYTHONPATH=$PYTHONPATH:/home/aidishage/myenv/src/Optizelle/lib/python3.8/site-packages:/opt/openrobots/lib/python3.10/site-packages
 export SNOPT_LICENSE=$HOME/licenses/snopt7.lic
+
+# Pardiso
 export PARDISO_LIC_PATH=$HOME/licenses
-export GALAHAD=/home/aidishage/Galahad/galahad
-#export PETSC_ARCH=arch-linux-c-debug
-#export PETSC_DIR=$HOME/myenv/src/petsc
-#export PYTHONPATH=$PYTHONPATH:$PETSC_DIR/$PETSC_ARCH/lib
-#export SLEPC_DIR=$HOME/myenv/src/slepc
-#export PYTHONPATH=$PYTHONPATH:$SLEPC_DIR/$PETSC_ARCH/lib
+
+
+# PETSC
+export PETSC_ARCH=arch-linux-c-debug
+export PETSC_DIR=$HOME/myenv/src/petsc
+export PYTHONPATH=$PYTHONPATH:$PETSC_DIR/$PETSC_ARCH/lib
+export SLEPC_DIR=$HOME/myenv/src/slepc
+export PYTHONPATH=$PYTHONPATH:$SLEPC_DIR/$PETSC_ARCH/lib
 export OMP_NUM_THREADS=1
+
+# Galahad
+export GALAHAD=/home/aidishage/myenv/src/Galahad/galahad
+export PATH=$PATH:$GALAHAD/bin
+export ARCHDEFS="/home/aidishage/myenv/src/Galahad/archdefs/../archdefs"
+export SIFDECODE="/home/aidishage/myenv/src/Galahad/sifdecode"
+export CUTEST="/home/aidishage/myenv/src/Galahad/cutest"
+export GALAHAD="/home/aidishage/myenv/src/Galahad/galahad"
+export PATH="${SIFDECODE}/bin:${PATH}"
+export PATH="${CUTEST}/bin:${PATH}"
+export PATH="${GALAHAD}/bin:${PATH}"
+export MANPATH="${SIFDECODE}/man:${MANPATH}"
+export MANPATH="${CUTEST}/man:${MANPATH}"
+export MANPATH="${GALAHAD}/man:${MANPATH}"
+export INCLUDE="${GALAHAD}/include:${INCLUDE}"
+export MYARCH="pc64.lnx.gfo"
+
+
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -206,3 +231,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+[[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

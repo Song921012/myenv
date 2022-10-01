@@ -61,6 +61,16 @@ base环境也可以Install conda from `environment.toml`
 
 - 申请COPT的license
 - mosek的license
+- Pardiso的license
+
+HSL系列软件
+
+- algencan-3.1.1: 从hsl中copy到myenv/src
+- algencan-4.0.0: 从hsl中copy到myenv/src
+- Galahad: see pacakgesup.sh
+  [home · ralna/GALAHAD Wiki](https://github.com/ralna/GALAHAD/wiki)
+  [raw.githubusercontent.com/ralna/GALAHAD/master/doc/README](https://raw.githubusercontent.com/ralna/GALAHAD/master/doc/README)
+
 
 # 一些疑难杂症
 

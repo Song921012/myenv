@@ -24,7 +24,7 @@ git pull
 sudo rm -rf build
 mkdir build
 cd build
-./configure
+../configure
 make
 make test
 sudo make install
@@ -74,6 +74,32 @@ git clone https://github.com/madebr/pyOpt.git
 cd pyOpt
 python setup.py build_ext --inplace
 myenv
+
+
+##
+myenv
+#sudo rm -rf sundials
+#git clone https://github.com/LLNL/sundials.git
+cd sundials
+git pull
+sudo rm -rf build
+mkdir build
+cd build
+cmake -DEXAMPLES_ENABLE_CXX=ON -DENABLE_LAPACK=ON -DENABLE_MPI=ON .. #-DENABLE_PETSC=ON -DPETSC_DIR=/home/aidishage/myenv/src/petsc ..
+make -j 6
+sudo make install
+
+## Galahad
+### after gitinstallation
+### copy hsl-archive-galahad hsl-galahad to folder ~/myenv/src/Galahad
+#cp -r ~/hsl/hslarchive-galahad ~/myenv/src/Galahad/hslarchive-galahad
+#cp -r ~/hsl/hsl-galahad ~/myenv/src/Galahad/hsl-galahad
+#myenv
+#cd archdefs
+#./install_optrove
+
+## algencan
+
 
 
 

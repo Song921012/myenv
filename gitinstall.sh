@@ -31,7 +31,19 @@ echo " Copy HSL Files to Ipopt/ThirdParty-HSL"
 myenv
 git clone https://github.com/coin-or/CppAD.git
 
+# Sundials
+#sudo rm -rf sundials
+git clone https://github.com/LLNL/sundials.git
 
+# Galahad
+myenv
+mkdir Galahad
+cd Galahad
+git clone https://github.com/ralna/ARCHDefs ./archdefs
+git clone https://github.com/ralna/GALAHAD ./galahad
+git clone https://github.com/ralna/SIFDecode ./sifdecode
+git clone https://github.com/ralna/CUTEst ./cutest
+myenv
 #sudo rm -rf ParMETIS && git clone https://github.com/KarypisLab/ParMETIS.git
 #sudo rm -rf GKlib && git clone https://github.com/KarypisLab/GKlib.git
 #sudo rm -rf METIS && git clone https://github.com/KarypisLab/METIS.git
