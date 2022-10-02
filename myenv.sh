@@ -3,6 +3,7 @@ sudo apt-get install software-properties-common
 sudo apt install aptitude
 sudo apt install vim vim-scripts vim-gtk
 sudo add-apt-repository ppa:neovim-ppa/stable
+sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
 sudo apt install python3-neovim
@@ -54,7 +55,7 @@ sudo apt install cmake
 sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev
 libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig libcppad-dev# lapack blas metis
 sudo apt-get install graphviz pandoc inkscape
-sudo apt install libeigen3-dev libadolc-dev # eigen3 adolc
+sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
 # Install R
 sudo apt update -qq

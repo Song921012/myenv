@@ -5,7 +5,7 @@ pip install -U "sktime[all_extras]"
 pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pip install -U tensorflow
 pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx  seaborn jupyter jupyterlab jupyter_contrib_nbextensions nbconvert\
-  radian conan flake8 pylint huggingface-hub yapf virtualenv virtualenvwrapper-win rich pygments talk2stat\
+  radian conan flake8 pylint huggingface-hub yapf virtualenv virtualenvwrapper-win rich pygments talk2stat isort\
   SAlib deepxde streamlit streamlit-pandas-profiling pandas-profiling plotly-express\
   tensorflow-probability gplearn gpflow\
   gpytorch botorch pytorch-forecasting neuralprophet torchdyn torchgan torchsde torchcde torchdiffeq torchmetrics pytorch-lightning  pyro-ppl\

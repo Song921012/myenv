@@ -52,6 +52,10 @@ Plug 'neovim/nvim-lspconfig'
 " Plugin 'vim-pandoc/vim-pandoc-syntax'
 " Plugin 'quarto-dev/quarto-vim'
 
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+Plug 'williamboman/nvim-lsp-installer'
+
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()

@@ -4,6 +4,7 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
+  - ampl-mp=3.1.0=h2cc385e_1006
   - binutils_impl_linux-64=2.36.1=h193b22a_2
   - binutils_linux-64=2.36=hf3e587d_10
   - boost-cpp=1.74.0=h75c5d50_8
@@ -11,6 +12,7 @@ dependencies:
   - bzip2=1.0.8=h7f98852_4
   - c-ares=1.18.1=h7f98852_0
   - ca-certificates=2022.9.24=ha878542_0
+  - casadi=3.5.5=py310hc77112e_12
   - cffi=1.15.1=py310h255011f_0
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
   - cmake=3.24.2=h5432695_0
@@ -37,6 +39,7 @@ dependencies:
   - hdf5=1.12.2=mpi_openmpi_hb3f3608_0
   - hypre=2.25.0=mpi_openmpi_ha709252_0
   - icu=70.1=h27087fc_0
+  - ipopt=3.14.9=hf60ba86_1
   - kernel-headers_linux-64=2.6.32=he073ed8_15
   - keyutils=1.6.1=h166bdaf_0
   - krb5=1.19.3=h3790be6_0
@@ -52,10 +55,12 @@ dependencies:
   - libgfortran-ng=12.1.0=h69a702a_16
   - libgfortran5=12.1.0=hdcd56e2_16
   - libgomp=12.1.0=h8d9b700_16
+  - libiconv=1.17=h166bdaf_0
   - liblapack=3.9.0=16_linux64_openblas
   - libnghttp2=1.47.0=hdcd2b5c_1
   - libnsl=2.0.0=h7f98852_0
   - libopenblas=0.3.21=pthreads_h78a6416_3
+  - libosqp=0.6.2=h9c3ff4c_3
   - libsanitizer=10.4.0=hde28e3b_16
   - libsqlite=3.39.2=h753d276_1
   - libssh2=1.10.0=haa6b8db_3
@@ -73,6 +78,7 @@ dependencies:
   - mshr=2019.1.0=py310hffed6ae_5
   - mumps-include=5.2.1=ha770c72_11
   - mumps-mpi=5.2.1=hfb3545b_11
+  - mumps-seq=5.2.1=h2104b81_11
   - ncurses=6.3=h27087fc_1
   - numpy=1.23.3=py310h53a5b5f_0
   - openmpi=4.1.4=ha1ae619_101
@@ -111,6 +117,7 @@ dependencies:
   - toolz=0.12.0=pyhd8ed1ab_0
   - tqdm=4.64.0=pyhd8ed1ab_0
   - tzdata=2022c=h191b570_0
+  - unixodbc=2.3.10=h583eb01_0
   - wheel=0.37.1=pyhd8ed1ab_0
   - xz=5.2.6=h166bdaf_0
   - yaml=0.2.5=h7f98852_2

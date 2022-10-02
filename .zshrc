@@ -16,7 +16,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Alias
 ## Upadate
-alias refresh="up && clean && quartoup && juliaup && pythonup && othersup"
+alias refresh="up && clean && quartoup && juliaup && pythonup && othersup && juliadevup && rup && cd"
 alias up="sudo apt update && sudo apt upgrade"
 alias quartoup="source ~/myenv/quartoup.sh"
 alias juliaup="julia -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
@@ -26,6 +26,7 @@ alias pythonup="source ~/myenv/pythonup.sh"
 alias othersup="source ~/myenv/othersoftwaresup.sh"
 alias fireinstall="source ~/myenv/firedrakeup.sh && firedrakeinstall"
 alias cppup="source ~/myenv/packagesup.sh && cd"
+alias rup="R -e 'update.packages()'"
 ## Clean
 alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
 

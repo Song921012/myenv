@@ -89,6 +89,7 @@ cmake -DEXAMPLES_ENABLE_CXX=ON -DENABLE_LAPACK=ON -DENABLE_MPI=ON .. #-DENABLE_P
 make -j 6
 sudo make install
 
+
 ## Galahad
 ### after gitinstallation
 ### copy hsl-archive-galahad hsl-galahad to folder ~/myenv/src/Galahad
@@ -100,6 +101,7 @@ sudo make install
 
 ## algencan
 
+cd
 
 
 
