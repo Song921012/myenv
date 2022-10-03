@@ -4,6 +4,16 @@
 
 The easiest way is run `AllInOne.sh` (remember to revise python and julia version).  The followings are descriptions.
 
+平时记得维护Linux, CPP, Python, Firedrake, Fenics, Others环境: 
+- 安装linux包后添加myenv.sh. 更新用up
+- 安装C/C++/Fortran包后添加gitinstall.sh和packagesup.sh. 更新用cppup
+- 安装python包后更新install_python.sh, pythonup.sh. 更新用pythonup
+- 安装firedrake包后(fireadd),更新firedrakeinstall.sh. 更新用fireup
+- 安装fenics包后,更新fenicsup.sh. 更新用fenicsup
+- (平时不用维护)julia包更新用juliaup,juliadevup
+- (平时不用维护)R包更新用rup
+- 其它包和同步用othersup
+
 ## 先把中文路径改为英文路径
 
 [Ubuntu /home下中文目录如何修改成英文_fei2636的博客-CSDN博客_ubuntu 文件夹英文](https://blog.csdn.net/fei2636/article/details/79202102)

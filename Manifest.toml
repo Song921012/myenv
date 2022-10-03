@@ -2645,9 +2645,9 @@ version = "0.5.11"
 
 [[deps.KernelFunctions]]
 deps = ["ChainRulesCore", "Compat", "CompositionsBase", "Distances", "FillArrays", "Functors", "IrrationalConstants", "LinearAlgebra", "LogExpFunctions", "Random", "Requires", "SpecialFunctions", "Statistics", "StatsBase", "TensorCore", "Test", "ZygoteRules"]
-git-tree-sha1 = "937765c9579738fd3da5d5ebb1fb574ed2296aa2"
+git-tree-sha1 = "5e29fbb05bc7821d27e5c1d7b24609920b0568ce"
 uuid = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
-version = "0.10.45"
+version = "0.10.46"
 
 [[deps.Kronecker]]
 deps = ["LinearAlgebra", "NamedDims", "SparseArrays", "StatsBase"]
@@ -3165,10 +3165,10 @@ uuid = "cc2ba9b6-d476-5e6d-8eaf-a92d5412d41d"
 version = "0.5.4"
 
 [[deps.MLDatasets]]
-deps = ["CSV", "DataDeps", "DataFrames", "DelimitedFiles", "FileIO", "FixedPointNumbers", "GZip", "Glob", "HDF5", "ImageShow", "JLD2", "JSON3", "LazyModules", "MAT", "MLUtils", "NPZ", "Pickle", "Requires", "SparseArrays", "Tables"]
-git-tree-sha1 = "6de5b8a75e30d28f0119b31db44a00b6fd905d85"
+deps = ["CSV", "DataDeps", "DataFrames", "DelimitedFiles", "FileIO", "FixedPointNumbers", "GZip", "Glob", "HDF5", "ImageShow", "JLD2", "JSON3", "LazyModules", "MAT", "MLUtils", "NPZ", "Pickle", "Printf", "Requires", "SparseArrays", "Tables"]
+git-tree-sha1 = "0def460f055098092043c9533e245ef77b6a8cc8"
 uuid = "eb30cadb-4394-5ae3-aed4-317e484a6458"
-version = "0.7.4"
+version = "0.7.5"
 
 [[deps.MLJ]]
 deps = ["CategoricalArrays", "ComputationalResources", "Distributed", "Distributions", "LinearAlgebra", "MLJBase", "MLJEnsembles", "MLJIteration", "MLJModels", "MLJTuning", "OpenML", "Pkg", "ProgressMeter", "Random", "ScientificTypes", "Statistics", "StatsBase", "Tables"]
@@ -3248,9 +3248,9 @@ version = "0.19.2"
 
 [[deps.MPICH_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "MPIPreferences", "Pkg", "TOML"]
-git-tree-sha1 = "089ec72dbf7d7a853626f438d140d0a642ddbda4"
+git-tree-sha1 = "6d4fa43afab4611d090b11617ecea1a144b21d35"
 uuid = "7cb0a576-ebde-5e09-9194-50597f1243b4"
-version = "4.0.2+4"
+version = "4.0.2+5"
 
 [[deps.MPIPreferences]]
 deps = ["Libdl", "Preferences"]
@@ -3260,9 +3260,9 @@ version = "0.1.4"
 
 [[deps.MPItrampoline_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "MPIPreferences", "Pkg", "TOML"]
-git-tree-sha1 = "d43e3bc0c0d3dd24d6fcdaf4a816142afbc0b1a0"
+git-tree-sha1 = "b3f9e42685b4ad614eca0b44bd863cd41b1c86ea"
 uuid = "f1f71cc9-e9ae-5b93-9b94-4fe0e1ad3748"
-version = "5.0.2+0"
+version = "5.0.2+1"
 
 [[deps.MUMPS]]
 deps = ["Libdl", "LinearAlgebra", "MPI", "MUMPS_jll", "SparseArrays"]
@@ -3338,9 +3338,9 @@ version = "0.8.29"
 
 [[deps.ManifoldsBase]]
 deps = ["LinearAlgebra", "Markdown"]
-git-tree-sha1 = "3e0dc4ae917310b1d7952c8741ecfd9942c93540"
+git-tree-sha1 = "d39d5f8f117c9b370f4b8520182f48ecf9e32620"
 uuid = "3362f125-f0bb-47a3-aa74-596ffd7ef2fb"
-version = "0.13.20"
+version = "0.13.21"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "StaticArrays", "Statistics", "Test"]
@@ -4020,9 +4020,9 @@ version = "0.3.0"
 
 [[deps.OpenMPI_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "MPIPreferences", "Pkg", "TOML"]
-git-tree-sha1 = "f603a060218ca6818055be3608d4969e937d81bb"
+git-tree-sha1 = "346d6b357a480300ed7854dbc70e746ac52e10fd"
 uuid = "fe0851c0-eecd-5654-98d4-656369965a5c"
-version = "4.1.3+2"
+version = "4.1.3+3"
 
 [[deps.OpenSSH_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "OpenSSL_jll", "Pkg", "Zlib_jll"]

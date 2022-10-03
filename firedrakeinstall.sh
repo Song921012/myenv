@@ -20,5 +20,6 @@ unset PETSC_ARCH
 firedrake-update --pip-install git+https://github.com/IvanYashchuk/fecr@master --pip-install jax --pip-install jaxlib --pip-install git+https://github.com/IvanYashchuk/jax-fenics-adjoint.git@master --pip-install git+https://github.com/IvanYashchuk/firedrake-ts.git@master
 
 pip install pyvista meshio gmsh
-
+cd
+source ~/.zshrc
 

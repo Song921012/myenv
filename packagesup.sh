@@ -103,11 +103,12 @@ make
 #myenv
 #cp -r ~/hsl/hslarchive-galahad ~/myenv/src/Galahad
 #cp -r ~/hsl/hsl-galahad ~/myenv/src/Galahad
-myenv
-cd archdefs
-./install_optrove
+#myenv
+#cd archdefs
+#./install_optrove
 ## algencan
 cd
+source ~/.zshrc
 
 
 

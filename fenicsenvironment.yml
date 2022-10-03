@@ -63,7 +63,7 @@ dependencies:
   - libopenblas=0.3.21=pthreads_h78a6416_3
   - libosqp=0.6.2=h9c3ff4c_3
   - libsanitizer=10.4.0=hde28e3b_16
-  - libsqlite=3.39.3=h753d276_0
+  - libsqlite=3.39.4=h753d276_0
   - libssh2=1.10.0=haa6b8db_3
   - libstdcxx-devel_linux-64=10.4.0=h74af60c_16
   - libstdcxx-ng=12.1.0=ha89aaad_16
@@ -105,7 +105,7 @@ dependencies:
   - ruamel_yaml=0.15.80=py310h5764c6d_1007
   - scalapack=2.2.0=h67de57e_1
   - scotch=6.0.9=hb2e6521_2
-  - setuptools=65.4.0=pyhd8ed1ab_0
+  - setuptools=65.4.1=pyhd8ed1ab_0
   - six=1.16.0=pyh6c4a22f_0
   - slepc=3.17.2=real_h624bf36_100
   - slepc4py=3.17.2=real_hd732961_100

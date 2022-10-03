@@ -79,5 +79,5 @@ conda update --all
 # pip install -U pyvista
 cd
 conda deactivate
-conda activate
+source ~/.zshrc
 conda clean --all

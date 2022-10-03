@@ -55,4 +55,4 @@ cp -f ~/.julia/environments/v$juliabigversion/* ~/.julia/environments/v$juliadev
 juliadevup
 
 # Update all
-refresh
+refreshall

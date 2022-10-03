@@ -5,17 +5,20 @@ unset PYTHONPATH;
 unset SLEPC_DIR;
 unset PETSC_DIR;
 unset PETSC_ARCH;
-firedrake-update
-cd
+firedrake-update;
+deactivate;
+source ~/.zshrc;
+cd;
 }
-
-firedrakeinstall(){
+fireinstall(){
 fireenv;
 unset PYTHONPATH;
 unset SLEPC_DIR;
 unset PETSC_DIR;
 unset PETSC_ARCH;
-firedrake-update --pip-install $1
-cd
+firedrake-update --pip-install $1;
+deactivate;
+source ~/.zshrc;
+cd;
 }
 
