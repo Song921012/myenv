@@ -4,11 +4,12 @@ tar -xvzf julia-$2-linux-x86_64.tar.gz;
 sudo cp -r julia-$2 /opt/;
 sudo ln -sf /opt/julia-$2/bin/julia /usr/local/bin/julia;
 cd;
-sudo rm -rf julia-$2*}
+sudo rm -rf julia-$2*;
+sudo rm -rf ~/.julia/compiled/v$1}
 
 install_julia_dev(){
 sudo rm -rf /opt/julia-dev && sudo mkdir /opt/julia-dev
-sudo rm -rf ~/.julia/compiled/v1.9
+#sudo rm -rf ~/.julia/compiled/v1.9
 cd ~/Downloads
 sudo rm -rf julia-*
 wget https://julialangnightlies-s3.julialang.org/bin/linux/x86_64/julia-latest-linux-x86_64.tar.gz

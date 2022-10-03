@@ -20,11 +20,16 @@ alias refresh="up && clean && quartoup && juliaup && pythonup && othersup && jul
 alias up="sudo apt update && sudo apt upgrade"
 alias quartoup="source ~/myenv/quartoup.sh"
 alias juliaup="julia -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
+alias juliainstall="source ~/myenv/install_julia.sh && install_julia"
 alias juliadevup="juliadev -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
-alias fireup="source ~/myenv/firedrakeup.sh && firedrakeup"
+alias juliadevinstall="source ~/myenv/install_julia.sh && install_julia_dev"
 alias pythonup="source ~/myenv/pythonup.sh"
+alias pythoninstall="source ~/myenv/install_python.sh"
 alias othersup="source ~/myenv/othersoftwaresup.sh"
+alias fireup="source ~/myenv/firedrakeup.sh && firedrakeup"
 alias fireinstall="source ~/myenv/firedrakeup.sh && firedrakeinstall"
+alias firedrakeinstall="source ~/myenv/firedrakeinstall.sh"
+alias fenicsup="source ~/myenv/fenicsup.sh"
 alias cppup="source ~/myenv/packagesup.sh && cd"
 alias rup="R -e 'update.packages()'"
 ## Clean
@@ -73,6 +78,8 @@ export SNOPT_LICENSE=$HOME/licenses/snopt7.lic
 # Pardiso
 export PARDISO_LIC_PATH=$HOME/licenses
 
+#Gurobi
+export PATH=$PATH:/opt/gurobi952/linux64/bin
 
 # PETSC
 export PETSC_ARCH=arch-linux-c-debug

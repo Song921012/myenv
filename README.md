@@ -2,6 +2,10 @@
 
 注意:特别针对的是POP!_os系统, Ubuntu和Debian系应该也是适用的
 
+The easiest way is
+
+run `AllInOne.sh`. The following is descriptions.
+
 ## 先把中文路径改为英文路径
 
 [Ubuntu /home下中文目录如何修改成英文_fei2636的博客-CSDN博客_ubuntu 文件夹英文](https://blog.csdn.net/fei2636/article/details/79202102)
@@ -34,14 +38,13 @@ sudo unzip '*.zip' -d /usr/share/fonts/  # 或者 for z in *.zip; do unzip $z; d
 sudo fc-cache -fv
 ```
 
-然后修改终端字体为CaskaydiaCove Nerd Font Mono. 
-
+然后修改终端字体为CaskaydiaCove Nerd Font Mono.
 
 ## 设置好Git个人访问令牌
+
 [创建个人访问令牌 - GitHub Docs](https://docs.github.com/cn/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 具体也可以把obsidiannote里的git文件复制到home目录
-
 
 ## myenv和myhsl配置系统环境
 
@@ -51,7 +54,7 @@ git clone <https://github.com/Song921012/myhsl.git>
 
 Modify `myenv.sh` to setup linux environment.
 
-Then copy `.zshrc`  spacevim `init.toml` to .Space.d folder
+Then copy `.zshrc`  spacevim `init.toml` to .SpaceVim.d folder
 
 ## 配置完之后可以大致设置一下
 
@@ -75,8 +78,6 @@ Install texlive from sources
 myenv
 source gitinstall.sh
 ```
-
-把HSL文件放到Ipopt thirdpartyhsl文件夹中
 
 ```
 source packagesup.sh
@@ -109,6 +110,7 @@ base环境也可以Install conda from `environment.toml`
 - 申请COPT的license
 - mosek的license
 - Pardiso的license
+- Gurobi的license
 
 HSL系列软件
 
@@ -117,7 +119,6 @@ HSL系列软件
 - Galahad: see pacakgesup.sh
   [home · ralna/GALAHAD Wiki](https://github.com/ralna/GALAHAD/wiki)
   [raw.githubusercontent.com/ralna/GALAHAD/master/doc/README](https://raw.githubusercontent.com/ralna/GALAHAD/master/doc/README)
-
 
 # 一些疑难杂症
 

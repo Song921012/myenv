@@ -89,18 +89,24 @@ cmake -DEXAMPLES_ENABLE_CXX=ON -DENABLE_LAPACK=ON -DENABLE_MPI=ON .. #-DENABLE_P
 make -j 6
 sudo make install
 
+# algencan
+myenv
+cd algencan-4.0.0
+make
+myenv
+cd algencan-3.1.1
+make
 
 ## Galahad
 ### after gitinstallation
 ### copy hsl-archive-galahad hsl-galahad to folder ~/myenv/src/Galahad
-#cp -r ~/hsl/hslarchive-galahad ~/myenv/src/Galahad/hslarchive-galahad
-#cp -r ~/hsl/hsl-galahad ~/myenv/src/Galahad/hsl-galahad
 #myenv
-#cd archdefs
-#./install_optrove
-
+#cp -r ~/hsl/hslarchive-galahad ~/myenv/src/Galahad
+#cp -r ~/hsl/hsl-galahad ~/myenv/src/Galahad
+myenv
+cd archdefs
+./install_optrove
 ## algencan
-
 cd
 
 

@@ -4,7 +4,7 @@ sudo rm -rf ifopt && git clone https://github.com/ethz-adrl/ifopt.git
 sudo rm -rf nlopt && git clone https://github.com/stevengj/nlopt.git
 sudo rm -rf petsc && git clone https://gitlab.com/petsc/petsc.git
 sudo rm -rf slepc && git clone https://gitlab.com/slepc/slepc
-git clone https://github.com/stan-dev/cmdstan.git --recursive
+sudo rm -rf cmdstan && git clone https://github.com/stan-dev/cmdstan.git --recursive
 
 sudo rm -rf Ipopt && git clone https://github.com/coin-or/Ipopt.git
 cd Ipopt
@@ -17,11 +17,11 @@ sudo make install
 myenv
 cd Ipopt
 git clone https://github.com/coin-or-tools/ThirdParty-HSL.git
+cp -r ~/hsl/coinhsl ~/myenv/src/Ipopt/ThirdParty-HSL/
 cd ThirdParty-HSL
-# copy hsl files
-#./configure
-#make
-#sudo make install
+./configure
+make
+sudo make install
 myenv
 
 echo " Copy HSL Files to Ipopt/ThirdParty-HSL"
@@ -43,7 +43,11 @@ git clone https://github.com/ralna/ARCHDefs ./archdefs
 git clone https://github.com/ralna/GALAHAD ./galahad
 git clone https://github.com/ralna/SIFDecode ./sifdecode
 git clone https://github.com/ralna/CUTEst ./cutest
+cp -r ~/hsl/hslarchive-galahad ~/myenv/src/Galahad
+cp -r ~/hsl/hsl-galahad ~/myenv/src/Galahad
 myenv
+cp -r ~/hsl/algencan-3.1.1 ~/myenv/src
+cp -r ~/hsl/algencan-4.0.0 ~/myenv/src
 #sudo rm -rf ParMETIS && git clone https://github.com/KarypisLab/ParMETIS.git
 #sudo rm -rf GKlib && git clone https://github.com/KarypisLab/GKlib.git
 #sudo rm -rf METIS && git clone https://github.com/KarypisLab/METIS.git
