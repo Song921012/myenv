@@ -11,6 +11,19 @@ conda activate fenicsx
 conda env export >fenicsxenvironment.yml
 R --no-save <~/myenv/exportrenv.r
 conda activate base
+
+#cd
+
+#ln -f .profile ~/myenv/.profile
+#ln -f .zshrc ~/myenv/.zshrc
+#ln -f ~/.SpaceVim.d/init.toml ~/myenv/init.toml
+#ln -f ~/.config/nvim/init.vim ~/myenv/init.vim
+
+
+
+
+
+
 cd
 cd ~/Desktop/MyStudyBook
 git pull

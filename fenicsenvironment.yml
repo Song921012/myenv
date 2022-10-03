@@ -17,8 +17,8 @@ dependencies:
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
   - cmake=3.24.2=h5432695_0
   - colorama=0.4.5=pyhd8ed1ab_0
-  - conda=4.14.0=py310hff52083_0
-  - conda-package-handling=1.8.1=py310h5764c6d_1
+  - conda=22.9.0=py310hff52083_1
+  - conda-package-handling=1.9.0=py310h5764c6d_0
   - cryptography=37.0.4=py310h597c629_0
   - eigen=3.4.0=h4bd325d_0
   - expat=2.4.9=h27087fc_0
@@ -39,6 +39,7 @@ dependencies:
   - hdf5=1.12.2=mpi_openmpi_hb3f3608_0
   - hypre=2.25.0=mpi_openmpi_ha709252_0
   - icu=70.1=h27087fc_0
+  - idna=3.4=pyhd8ed1ab_0
   - ipopt=3.14.9=hf60ba86_1
   - kernel-headers_linux-64=2.6.32=he073ed8_15
   - keyutils=1.6.1=h166bdaf_0
@@ -62,13 +63,13 @@ dependencies:
   - libopenblas=0.3.21=pthreads_h78a6416_3
   - libosqp=0.6.2=h9c3ff4c_3
   - libsanitizer=10.4.0=hde28e3b_16
-  - libsqlite=3.39.2=h753d276_1
+  - libsqlite=3.39.3=h753d276_0
   - libssh2=1.10.0=haa6b8db_3
   - libstdcxx-devel_linux-64=10.4.0=h74af60c_16
   - libstdcxx-ng=12.1.0=ha89aaad_16
   - libuuid=2.32.1=h7f98852_1000
   - libuv=1.44.2=h166bdaf_0
-  - libzlib=1.2.12=h166bdaf_2
+  - libzlib=1.2.12=h166bdaf_3
   - metis=5.1.0=h58526e2_1006
   - mpc=1.2.1=h9f54685_0
   - mpfr=4.1.0=h9202a9a_1
@@ -94,34 +95,35 @@ dependencies:
   - pybind11-global=2.10.0=py310hbf28c38_0
   - pycosat=0.6.3=py310h5764c6d_1010
   - pycparser=2.21=pyhd8ed1ab_0
-  - pyopenssl=22.0.0=pyhd8ed1ab_0
-  - pysocks=1.7.1=py310hff52083_5
+  - pyopenssl=22.0.0=pyhd8ed1ab_1
+  - pysocks=1.7.1=pyha2e5f31_6
   - python=3.10.6=h582c2e5_0_cpython
   - python_abi=3.10=2_cp310
   - readline=8.1.2=h0f457ee_0
-  - requests=2.28.1=pyhd8ed1ab_0
+  - requests=2.28.1=pyhd8ed1ab_1
   - rhash=1.4.3=h166bdaf_0
   - ruamel_yaml=0.15.80=py310h5764c6d_1007
   - scalapack=2.2.0=h67de57e_1
   - scotch=6.0.9=hb2e6521_2
+  - setuptools=65.4.0=pyhd8ed1ab_0
   - six=1.16.0=pyh6c4a22f_0
   - slepc=3.17.2=real_h624bf36_100
   - slepc4py=3.17.2=real_hd732961_100
   - suitesparse=5.10.1=h9e50725_1
   - superlu=5.2.2=h00795ac_0
   - superlu_dist=7.2.0=h34f6f4d_0
-  - sympy=1.10.1=py310hff52083_1
+  - sympy=1.11.1=py310hff52083_1
   - sysroot_linux-64=2.12=he073ed8_15
   - tbb=2021.6.0=h924138e_0
   - tk=8.6.12=h27826a3_0
   - toolz=0.12.0=pyhd8ed1ab_0
-  - tqdm=4.64.0=pyhd8ed1ab_0
-  - tzdata=2022c=h191b570_0
+  - tqdm=4.64.1=pyhd8ed1ab_0
+  - tzdata=2022d=h191b570_0
   - unixodbc=2.3.10=h583eb01_0
   - wheel=0.37.1=pyhd8ed1ab_0
   - xz=5.2.6=h166bdaf_0
   - yaml=0.2.5=h7f98852_2
-  - zlib=1.2.12=h166bdaf_2
+  - zlib=1.2.12=h166bdaf_3
   - zstd=1.5.2=h6239696_4
   - pip:
     - appdirs==1.4.4
@@ -138,10 +140,9 @@ dependencies:
     - fonttools==4.37.3
     - gmsh==4.10.5
     - h5py==3.7.0
-    - idna==3.4
-    - jax==0.3.19
+    - jax==0.3.20
     - jaxfenics-adjoint==1.0.0
-    - jaxlib==0.3.15+cuda11.cudnn82
+    - jaxlib==0.3.20+cuda11.cudnn82
     - jupyter-client==7.3.5
     - kiwisolver==1.4.4
     - lxml==4.9.1
@@ -153,16 +154,17 @@ dependencies:
     - pillow==9.2.0
     - pygments==2.13.0
     - pyparsing==3.0.9
+    - pyvista==0.36.1
     - rich==12.5.1
     - scipy==1.9.1
-    - setuptools==65.4.0
     - soupsieve==2.3.2.post1
-    - torch==1.12.1
+    - torch==1.12.1+cu116
     - torch-fenics==0.1
     - torchaudio==0.12.1+cu116
     - torchvision==0.13.1+cu116
     - tornado==6.2
     - urllib3==1.26.12
+    - vtk==9.2.2
     - webencodings==0.5.1
     - zipp==3.8.1
 prefix: /home/aidishage/miniconda3/envs/fenics

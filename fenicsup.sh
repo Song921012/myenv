@@ -24,23 +24,43 @@ cd $SLEPC_DIR
 make
 make check
 
-## Fenics
-myenv
-pip install git+https://github.com/FEniCS/basix.git
-pip install git+https://github.com/FEniCS/ffcx.git
-myenv
 
-#myenv
-#sudo rm -rf dolfinx && git clone https://github.com/FEniCS/dolfinx.git
-#cd dolfinx
-#git pull
-#cd cpp
-#rm -rf build
-#mkdir build
-#cd build
-#cmake ..
-#sudo make install
-#source /usr/local/lib/dolfinx/dolfinx.conf
+## update fenics
+
+conda deactivate
+#conda create -n fenics -c conda-forge fenics python=3.10.6
+conda activate fenics
+conda update --all
+pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install -U torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+pip install -U git+https://github.com/dolfin-adjoint/pyadjoint.git@master git+https://github.com/funsim/moola.git@master git+https://github.com/IvanYashchuk/fecr@master git+https://github.com/IvanYashchuk/jax-fenics-adjoint.git@master cashocs "meshio[all]" gmsh pyvista #git+https://github.com/barkm/torch-fenics.git@master
+
+## update fenicsx
+conda deactivate
+# conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=3.10.6
+conda activate fenicsx
+conda update --all
+
+
+## Fenics
+# conda activate base
+# myenv
+# pip install git+https://github.com/FEniCS/basix.git
+# pip install git+https://github.com/FEniCS/ufl.git
+# pip install git+https://github.com/FEniCS/ffcx.git
+# myenv
+
+# myenv
+# sudo rm -rf dolfinx && git clone https://github.com/FEniCS/dolfinx.git
+# cd dolfinx
+# git pull
+# cd cpp
+# rm -rf build
+# mkdir build
+# cd build
+# cmake ..
+# sudo make install
+# source /usr/local/lib/dolfinx/dolfinx.conf
 
 #myenv
 #sudo rm -rf pybind*
@@ -52,7 +72,12 @@ myenv
 #cmake -DPYBIND11_TEST=off -DCMAKE_INSTALL_PREFIX=/path/to/pybind11/install ..
 #sudo make install
 #export PYBIND11_DIR=/home/aidishage/myenv/src/pybind11-2.2.1
-#cd ~/myenv/src/dolfinx/python
-#pip install .
-#myenv
-#pip install -U pyvista
+# source ~/.zshrc
+# cd ~/myenv/src/dolfinx/python
+# pip install .
+# myenv
+# pip install -U pyvista
+cd
+conda deactivate
+conda activate
+conda clean --all
