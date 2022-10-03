@@ -1,6 +1,7 @@
 export pythonversion=3.10.6
 export juliabigversion=1.8
 export juliasmallversion=1.8.2
+export juliadevversion=1.9
 # linux
 cd
 git clone https://github.com/Song921012/myenv.git
@@ -49,6 +50,9 @@ cp ~/myenv/Manifest.toml ~/.julia/environments/v$juliabigversion
 ln -f ~/.julia/environments/v$juliabigversion/Manifest.toml ~/myenv/Manifest.toml
 cd
 juliaup
+mkdir ~/.julia/environments/v$juliadevversion
+cp -f ~/.julia/environments/v$juliabigversion/* ~/.julia/environments/v$juliadevversion
+juliadevup
 
 # Update all
 refresh

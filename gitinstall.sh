@@ -1,4 +1,5 @@
 myenv
+cp ~/hsl/libalgencan.so ~/myenv/lib
 sudo rm -rf psopt && git clone https://github.com/PSOPT/psopt.git
 sudo rm -rf ifopt && git clone https://github.com/ethz-adrl/ifopt.git
 sudo rm -rf nlopt && git clone https://github.com/stevengj/nlopt.git
