@@ -2,9 +2,7 @@
 
 注意:特别针对的是POP!_os系统, Ubuntu和Debian系应该也是适用的
 
-The easiest way is
-
-run `AllInOne.sh`. The following is descriptions.
+The easiest way is run `AllInOne.sh` (remember to revise python and julia version).  The followings are descriptions.
 
 ## 先把中文路径改为英文路径
 

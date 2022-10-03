@@ -1,3 +1,6 @@
+export pythonversion=3.10.6
+export juliabigversion=1.8
+export juliasmallversion=1.8.2
 # linux
 cd
 git clone https://github.com/Song921012/myenv.git
@@ -12,7 +15,7 @@ cp -f ~/myenv/init.vim ~/.config/nvim
 ln -f ~/.config/nvim/init.vim ~/myenv/init.vim
 ## Install miniconda
 conda update conda
-conda install python=3.10.6
+conda install python=$pythonversion
 ## Install texlive
 ## Install Rstudio
 # Cpp
@@ -22,13 +25,13 @@ cppup
 # Install Python
 pythoninstall
 # Install julia
-juliainstall 1.8 1.8.2
+juliainstall $juliabigversion $juliasmallversion
 juliadevinstall
 # Install r
 R --no-save <~/myenv/importr.r
 # Install fenics/firedrake
-conda create -n fenics -c conda-forge fenics python=3.10.6
-conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=3.10.6
+conda create -n fenics -c conda-forge fenics python=$pythonversion
+conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=$pythonversion
 fenicsup
 # firedrake
 firedrakeinstall
@@ -40,5 +43,12 @@ cp ~/myenv/startup.jl ~/.julia/config
 ln -f ~/.julia/config/startup.jl ~/myenv/startup.jl
 cp ~/myenv/startup_ijulia.jl ~/.julia/config
 ln -f ~/.julia/config/startup_ijulia.jl ~/myenv/startup_ijulia.jl
-#cp ~/myenv/Project.toml ~/.julia/environments/v1.8
-#cp ~/myenv/Manifest.toml ~/.julia/environments/v1.8
+cp ~/myenv/Project.toml ~/.julia/environments/v$juliabigversion
+ln -f ~/.julia/environments/v$juliabigversion/Project.toml ~/myenv/Project.toml
+cp ~/myenv/Manifest.toml ~/.julia/environments/v$juliabigversion
+ln -f ~/.julia/environments/v$juliabigversion/Manifest.toml ~/myenv/Manifest.toml
+cd
+juliaup
+
+# Update all
+refresh
