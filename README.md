@@ -2,12 +2,49 @@
 
 注意:特别针对的是POP!_os系统, Ubuntu和Debian系应该也是适用的
 
-设置好Git个人访问令牌
+## 先把中文路径改为英文路径
+
+[Ubuntu /home下中文目录如何修改成英文_fei2636的博客-CSDN博客_ubuntu 文件夹英文](https://blog.csdn.net/fei2636/article/details/79202102)
+
+也可以安装系统时默认英文
+
+## 下载好字体
+
+[Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/font-downloads)
+
+```
+cd ~/Downloads
+git clone https://github.com/ryanoasis/nerd-fonts.git
+sudo ./install.sh Ubuntu
+sudo ./install.sh UbuntuMono
+sudo ./install.sh Mononoki
+sudo ./install.sh Meslo
+sudo ./install.sh Hack
+sudo ./install.sh FiraMono
+sudo ./install.sh FiraCode
+sudo ./install.sh FantasqueSansMono
+sudo ./install.sh DejaVuSansMono
+sudo ./install.sh CascadiaCode
+```
+
+Repo很大, 10几个G, 推荐手动下载安装上面提到的字体.
+
+```
+sudo unzip '*.zip' -d /usr/share/fonts/  # 或者 for z in *.zip; do unzip $z; done
+sudo fc-cache -fv
+```
+
+然后修改终端字体为CaskaydiaCove Nerd Font Mono. 
+
+
+## 设置好Git个人访问令牌
 [创建个人访问令牌 - GitHub Docs](https://docs.github.com/cn/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 具体也可以把obsidiannote里的git文件复制到home目录
 
-然后
+
+## myenv和myhsl配置系统环境
+
 git clone <https://github.com/Song921012/myenv.git>
 
 git clone <https://github.com/Song921012/myhsl.git>
@@ -15,6 +52,16 @@ git clone <https://github.com/Song921012/myhsl.git>
 Modify `myenv.sh` to setup linux environment.
 
 Then copy `.zshrc`  spacevim `init.toml` to .Space.d folder
+
+## 配置完之后可以大致设置一下
+
+例如系统字体, 在优化工具, gonme tweaks中修改为
+
+- 界面: Hack Nerd Font Bold 12
+- 文档: Dejavu Sans Mono Bold 14
+- 等宽: Hack Nerd Font Regular 12
+
+开机启动添加vscode, thunderbird, firefox, zotero等等
 
 # Setup Development environment
 

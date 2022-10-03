@@ -211,9 +211,9 @@ version = "0.13.10"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "5b45946fc2c65a331dd83f0fa80875536ae9a450"
+git-tree-sha1 = "7fa059bcaa965fb226cecc759111ca79972a8dd8"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.7.16"
+version = "0.7.17"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport"]
@@ -1065,9 +1065,9 @@ uuid = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 version = "0.7.7"
 
 [[deps.DataAPI]]
-git-tree-sha1 = "1106fa7e1256b402a86a8e7b15c00c85036fef49"
+git-tree-sha1 = "46d2680e618f8abd007bce0c3026cb0c4a8f2032"
 uuid = "9a962f9c-6df0-11e9-0e5d-c546b8b5ee8a"
-version = "1.11.0"
+version = "1.12.0"
 
 [[deps.DataDeps]]
 deps = ["HTTP", "Libdl", "Reexport", "SHA", "p7zip_jll"]
@@ -3561,16 +3561,16 @@ uuid = "e94cdb99-869f-56ef-bcf0-1ae2bcbe0389"
 version = "0.3.3"
 
 [[deps.Mosek]]
-deps = ["Libdl", "Pkg", "Printf", "SparseArrays", "WinReg"]
-git-tree-sha1 = "704af9ebc13b4dd1f92cc0254302f68ca51e60a8"
+deps = ["Libdl", "Pkg", "Printf", "SparseArrays"]
+git-tree-sha1 = "ccd071e9f09ded8bdf8d0153489499cc575cb20b"
 uuid = "6405355b-0ac2-5fba-af84-adbd65488c0e"
-version = "1.2.3"
+version = "10.0.1"
 
 [[deps.MosekTools]]
 deps = ["MathOptInterface", "Mosek", "Printf"]
-git-tree-sha1 = "f3e83f5ecd75bbb5d82d146c4393a16101e98fd5"
+git-tree-sha1 = "2173cb340aac78a90bb4325e773d11c5793a9e34"
 uuid = "1ec41992-ff65-5c91-ac43-2df89e9693a4"
-version = "0.12.1"
+version = "0.13.0"
 
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
@@ -4889,9 +4889,9 @@ version = "1.1.1"
 
 [[deps.ReverseDiff]]
 deps = ["ChainRulesCore", "DiffResults", "DiffRules", "ForwardDiff", "FunctionWrappers", "LinearAlgebra", "LogExpFunctions", "MacroTools", "NaNMath", "Random", "SpecialFunctions", "StaticArrays", "Statistics"]
-git-tree-sha1 = "b8e2eb3d8e1530acb73d8949eab3cedb1d43f840"
+git-tree-sha1 = "af3dcf5c1ba51a671db61789fff2534c58eb50f5"
 uuid = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
-version = "1.14.1"
+version = "1.14.3"
 
 [[deps.Revise]]
 deps = ["CodeTracking", "Distributed", "FileWatching", "JuliaInterpreter", "LibGit2", "LoweredCodeUtils", "OrderedCollections", "Pkg", "REPL", "Requires", "UUIDs", "Unicode"]
@@ -5483,9 +5483,9 @@ version = "6.54.0"
 
 [[deps.StrideArrays]]
 deps = ["ArrayInterface", "LinearAlgebra", "LoopVectorization", "Octavian", "Random", "SLEEFPirates", "Static", "StrideArraysCore", "VectorizationBase", "VectorizedRNG"]
-git-tree-sha1 = "c964a55d05369bbd0eac701ac9ec07bd845940bb"
+git-tree-sha1 = "0848d5397328ca1ee696a788e8d5ac58a6f3272d"
 uuid = "d1fa6d79-ef01-42a6-86c9-f7c551f8593b"
-version = "0.1.19"
+version = "0.1.20"
 
 [[deps.StrideArraysCore]]
 deps = ["ArrayInterface", "CloseOpenIntervals", "IfElse", "LayoutPointers", "ManualMemory", "SIMDTypes", "Static", "ThreadingUtilities"]
