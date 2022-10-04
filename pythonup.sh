@@ -1,4 +1,5 @@
-conda activate
+conda deactivate
+conda activate base
 pip install -U radian conan flake8 pylint yapf\
   SAlib deepxde streamlit plotly-express\
   tensorflow-probability gplearn gpflow\

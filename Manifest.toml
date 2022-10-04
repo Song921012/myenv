@@ -223,9 +223,9 @@ version = "0.3.2"
 
 [[deps.ApproxFunOrthogonalPolynomials]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "DomainSets", "FFTW", "FastGaussQuadrature", "FastTransforms", "FillArrays", "IntervalSets", "LinearAlgebra", "Reexport", "SpecialFunctions", "Statistics"]
-git-tree-sha1 = "649edd27b5fd47b0c3862a76f46772a6579134cf"
+git-tree-sha1 = "e5857cac954dd75870154d608ad9e839bd11f15d"
 uuid = "b70543e2-c0d9-56b8-a290-0d4d6d4de211"
-version = "0.5.9"
+version = "0.5.10"
 
 [[deps.ApproxFunSingularities]]
 deps = ["ApproxFunBase", "ApproxFunOrthogonalPolynomials", "DomainSets", "IntervalSets", "LinearAlgebra", "Reexport", "Statistics"]
@@ -432,9 +432,9 @@ version = "0.3.7"
 
 [[deps.BasisFunctions]]
 deps = ["BlockArrays", "CompositeTypes", "DSP", "DomainIntegrals", "DomainSets", "FFTW", "FastGaussQuadrature", "FillArrays", "GaussQuadrature", "GenericFFT", "GenericLinearAlgebra", "GridArrays", "IterativeSolvers", "LinearAlgebra", "MacroTools", "OrderedCollections", "PGFPlotsX", "Pkg", "QuadGK", "RecipesBase", "Reexport", "SparseArrays", "SpecialFunctions", "StaticArrays", "Test", "ToeplitzMatrices"]
-git-tree-sha1 = "906c1e6dbe56f867c521219f21563d647e4a1bd9"
+git-tree-sha1 = "049a9d18445be9a836042047eacb9f126227a207"
 uuid = "4343a256-5453-507d-8aad-01a9d7189916"
-version = "0.5.1"
+version = "0.5.2"
 
 [[deps.BayesianLinearRegressors]]
 deps = ["AbstractGPs", "LinearAlgebra", "PDMats", "Random", "Statistics"]
@@ -1150,9 +1150,9 @@ version = "5.38.0"
 
 [[deps.DelayEmbeddings]]
 deps = ["Distances", "Distributions", "LinearAlgebra", "Neighborhood", "Random", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "4bde79d230dd77e34869943e1d501ca4068f04b2"
+git-tree-sha1 = "9c26394c2f6c4cf36ad93660b495b152d4b4261d"
 uuid = "5732040d-69e3-5649-938a-b6b4f237613f"
-version = "2.3.2"
+version = "2.3.4"
 
 [[deps.DelimitedFiles]]
 deps = ["Mmap"]
@@ -1361,9 +1361,9 @@ version = "0.6.8"
 
 [[deps.Dualization]]
 deps = ["JuMP", "LinearAlgebra", "MathOptInterface"]
-git-tree-sha1 = "e6d07b335d1f44c3cc35713cda4745f087cfbc1c"
+git-tree-sha1 = "277bf892de8c5327c7d8b54fc4140a7a27056dd1"
 uuid = "191a621a-6537-11e9-281d-650236a99e60"
-version = "0.5.4"
+version = "0.5.5"
 
 [[deps.DynamicHMC]]
 deps = ["ArgCheck", "DocStringExtensions", "LinearAlgebra", "LogDensityProblems", "Parameters", "ProgressMeter", "Random", "Statistics", "TensorCast"]
@@ -2376,9 +2376,9 @@ version = "0.3.1"
 
 [[deps.InlineStrings]]
 deps = ["Parsers"]
-git-tree-sha1 = "d19f9edd8c34760dca2de2b503f969d8700ed288"
+git-tree-sha1 = "d0ca109edbae6b4cc00e751a29dcb15a124053d6"
 uuid = "842dd82b-1e85-43dc-bf29-5d0ee9dffc48"
-version = "1.1.4"
+version = "1.2.0"
 
 [[deps.InplaceOps]]
 deps = ["LinearAlgebra", "Test"]
@@ -3254,9 +3254,9 @@ version = "4.0.2+5"
 
 [[deps.MPIPreferences]]
 deps = ["Libdl", "Preferences"]
-git-tree-sha1 = "06b491d0f3ed82b5f81a1e72d279775b4921f2fe"
+git-tree-sha1 = "9959c42b41220206eeda9004f695d913e2245658"
 uuid = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
-version = "0.1.4"
+version = "0.1.5"
 
 [[deps.MPItrampoline_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "MPIPreferences", "Pkg", "TOML"]
@@ -4032,9 +4032,9 @@ version = "8.9.0+1"
 
 [[deps.OpenSSL]]
 deps = ["BitFlags", "Dates", "MozillaCACerts_jll", "OpenSSL_jll", "Sockets"]
-git-tree-sha1 = "02be9f845cb58c2d6029a6d5f67f4e0af3237814"
+git-tree-sha1 = "b3ead4cff23eceeae527dbeb7d39b977aaa0c436"
 uuid = "4d8831e6-92b7-49fb-bdf8-b643e874388c"
-version = "1.1.3"
+version = "1.2.0"
 
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -4193,9 +4193,9 @@ version = "0.10800.600+0"
 
 [[deps.P4est]]
 deps = ["CBinding", "MPI", "P4est_jll", "Reexport"]
-git-tree-sha1 = "f368b7b1c83e22b398d5c1f1c7ed48017eb7c86c"
+git-tree-sha1 = "6c9ea2aba727a538eb29f72242732a0f6208ecee"
 uuid = "7d669430-f675-4ae7-b43e-fab78ec5a902"
-version = "0.3.1"
+version = "0.3.2"
 
 [[deps.P4est_jll]]
 deps = ["Artifacts", "JLLWrappers", "LazyArtifacts", "Libdl", "MPICH_jll", "MPIPreferences", "MPItrampoline_jll", "MicrosoftMPI_jll", "OpenMPI_jll", "Pkg", "TOML", "Zlib_jll"]

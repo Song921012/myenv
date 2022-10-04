@@ -16,7 +16,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Alias
 ## Upadate
-alias refresh="up && clean && quartoup && juliaup && pythonup && othersup && juliadevup && rup && cd"
+alias refresh="up && clean && quartoup && juliaup && pythonup && othersup && rup && cd"
 alias refreshall="up && clean && quartoup && juliaup && pythonup && othersup && juliadevup && rup && fireup && cppup && fenicsup &&  cd"
 alias up="sudo apt update && sudo apt upgrade"
 alias quartoup="source ~/myenv/quartoup.sh"
@@ -34,7 +34,7 @@ alias fenicsup="source ~/myenv/fenicsup.sh"
 alias cppup="source ~/myenv/packagesup.sh && cd"
 alias rup="R -e 'update.packages()'"
 ## Clean
-alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
+alias clean="sudo apt autoremove && sudo apt autoclean && sudo apt clean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
 
 ## CD
 alias wkspace="cd /home/aidishage/Desktop/MyProjects"

@@ -140,7 +140,7 @@ dependencies:
     - fonttools==4.37.3
     - gmsh==4.10.5
     - h5py==3.7.0
-    - jax==0.3.20
+    - jax==0.3.21
     - jaxfenics-adjoint==1.0.0
     - jaxlib==0.3.20+cuda11.cudnn82
     - jupyter-client==7.3.5

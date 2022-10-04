@@ -144,7 +144,7 @@ dependencies:
     - flask==2.2.2
     - flask-compress==1.13
     - flatbuffers==2.0.7
-    - flax==0.6.0
+    - flax==0.6.1
     - folium==0.12.1.post1
     - fonttools==4.37.3
     - formulaic==0.5.2
@@ -194,7 +194,7 @@ dependencies:
     - isort==5.10.1
     - itsdangerous==2.1.2
     - jabbar==0.0.15
-    - jax==0.3.20
+    - jax==0.3.21
     - jaxlib==0.3.20+cuda11.cudnn82
     - jaxopt==0.5
     - jaxtyping==0.2.7
