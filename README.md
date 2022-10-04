@@ -4,7 +4,8 @@
 
 The easiest way is run `AllInOne.sh` (remember to revise python and julia version).  The followings are descriptions.
 
-平时记得维护Linux, CPP, Python, Firedrake, Fenics, Others环境: 
+平时记得维护Linux, CPP, Python, Firedrake, Fenics, Others环境:
+
 - 安装linux包后添加myenv.sh. 更新用up
 - 安装C/C++/Fortran包后添加gitinstall.sh和packagesup.sh. 更新用cppup
 - 安装python包后更新install_python.sh, pythonup.sh. 更新用pythonup
@@ -185,6 +186,10 @@ PDF arrange (处理单页pdf) app store
 libre office 自带
 
 WPS从官网下
+
+- 清理
+  
+  bleachkit
 
 - 重复文件
 

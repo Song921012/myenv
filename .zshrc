@@ -42,7 +42,8 @@ alias testspace="cd $HOME/Desktop/Test_repo"
 alias fireenv="conda deactivate && source /home/aidishage/firedrake/bin/activate"
 alias myenv="cd ~/myenv/src"
 alias mytutor="cd ~/Desktop/MyProjects/MathEpiDeepLearningTutorial"
-
+## ShortCuts
+alias shortcuts="code ~/myenv/shortcuts.md"
 ## Others
 alias fdu="du -l --max-depth=1 | sort -nr"
 
