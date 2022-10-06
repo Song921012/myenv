@@ -51,6 +51,7 @@ Plug 'quarto-dev/quarto-nvim'
 Plug 'neovim/nvim-lspconfig'
 " Plugin 'vim-pandoc/vim-pandoc-syntax'
 " Plugin 'quarto-dev/quarto-vim'
+" Vim Script
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
@@ -59,6 +60,8 @@ Plug 'williamboman/nvim-lsp-installer'
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
+
+
 " You can revert the settings after the call like so:
 "   filetype indent off   " Disable file-type-specific indentation
 "   syntax off            " Disable syntax highlighting

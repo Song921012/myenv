@@ -27,6 +27,12 @@ sudo apt install fsearch -y
 sudo apt install snapd
 sudo apt install ubuntu-restricted-extras
 sudo apt install gnome-tweaks
+#git clone https://github.com/alvatip/Nordzy-cursors
+#cd Nordzy-cursors
+#sudo ./install.sh
+sudo apt-get install dconf-cli uuid-runtime
+bash -c "$(wget -qO- https://git.io/vQgMr)"
+#cd
 # cuda
 sudo apt install system76-cuda-latest
 sudo apt install system76-cudnn-11.2

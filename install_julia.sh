@@ -1,4 +1,3 @@
-export juliadevversion=1.9
 install_julia(){
 wget https://julialang-s3.julialang.org/bin/linux/x64/$1/julia-$2-linux-x86_64.tar.gz;
 tar -xvzf julia-$2-linux-x86_64.tar.gz;
@@ -9,12 +8,14 @@ sudo rm -rf julia-$2*;
 sudo rm -rf ~/.julia/compiled/v$1}
 
 install_julia_dev(){
-sudo rm -rf /opt/julia-dev && sudo mkdir /opt/julia-dev
-sudo rm -rf ~/.julia/compiled/v$juliadevversion
+echo "please input julia dev big version, e.g., 1.9"
+read juliadevversion
 cd ~/Downloads
 sudo rm -rf julia-*
 wget https://julialangnightlies-s3.julialang.org/bin/linux/x86_64/julia-latest-linux-x86_64.tar.gz
 tar -xvzf julia-latest-linux-x86_64.tar.gz;
+sudo rm -rf /opt/julia-dev && sudo mkdir /opt/julia-dev
+sudo rm -rf ~/.julia/compiled/v$juliadevversion
 sudo rm -rf julia-latest-linux-x86_64.tar.gz;
 sudo cp -rf ./julia-*/* /opt/julia-dev;
 sudo ln -sf /opt/julia-dev/bin/julia /usr/local/bin/juliadev;

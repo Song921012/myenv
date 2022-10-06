@@ -34,7 +34,8 @@ conda update --all
 pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pip install -U torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -U git+https://github.com/dolfin-adjoint/pyadjoint.git@master git+https://github.com/funsim/moola.git@master git+https://github.com/IvanYashchuk/fecr@master git+https://github.com/IvanYashchuk/jax-fenics-adjoint.git@master cashocs "meshio[all]" gmsh pyvista #git+https://github.com/barkm/torch-fenics.git@master
-
+julia -e 'using Pkg;Pkg.add(url="https://github.com/IvanYashchuk/PyFenicsAD.jl");Pkg.add(url="https://github.com/Song921012/FEniCS.jl.git");'
+juliaup
 ## update fenicsx
 conda deactivate
 # conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=3.10.6

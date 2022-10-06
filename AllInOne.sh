@@ -6,6 +6,8 @@ export juliadevversion=1.9
 cd
 git clone https://github.com/Song921012/myenv.git
 git clone https://github.com/Song921012/myhsl.git
+mkdir Templates
+cp -rf ~/myenv/template/* ~/Templates
 source ~/myenv/myenv.sh
 cp -f ~/myenv/.zshrc ~
 ln -f ~/.zshrc ~/myenv/.zshrc
@@ -31,7 +33,7 @@ juliadevinstall
 # Install r
 R --no-save <~/myenv/importr.r
 # Install fenics/firedrake
-conda create -n fenics -c conda-forge fenics python=$pythonversion
+conda create -n fenics -c conda-forge fenics julia python=$pythonversion
 conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=$pythonversion
 fenicsup
 # firedrake

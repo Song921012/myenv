@@ -78,10 +78,6 @@ nvdia-smi, nvcc -V
 
 查询的几个模式
 
-* | more 最多
-* | less 显示比较少
-* | grep *过滤模式
-
 ### 查安装的软件
 
 apt list --installed | more复杂
@@ -191,7 +187,7 @@ b: 文件改动记录
 
 * space数字跳buffer窗口, ctrl上下左右.
 
-* f3文件夹树, f2 tagbar, space t t打开tab(r命名, o打开)
+* f3文件夹树(o打开文件树,d删,r重命名,y复制,x剪,p,a打开文件,A打开文件夹), f2 tagbar, space t t打开tab(r命名, o打开)
 
 * space l r运行代码(记得先保存代码!!!), space l s i逐行运行, space l ss运行选中
 
@@ -205,22 +201,65 @@ b: 文件改动记录
 
 ### 单文件操作
 
-* ggvG选中全文
-* }{跳段落
-* ctrl f/b翻页, d/u滚屏
-* 插入模式就可以复制粘贴
-* 选中模式:y复制,/y复制到粘贴板,d删除
-* 删除n行:nd, n,m d删除n到m行
-* 文本内复制粘贴: yy, nyy, p
-* 跨区域:\y,\p
-* gg跳转首行, ctral a行首
-* tab跳转匹配,shift tab
-* :<range> s/<search_string>/<replace_string>/<modifier>
+vim几个重要概念
+
+#### 操作符(d,dd,y,v,p,c)
+
+删除d(delete),dd删除单行,x删除单词,
+
+黏贴最后一次删除的东西p(paste),
+
+选中v,复制y(和d类似),
+
+替换r(replace)字符
+
+替换c(change)词和段,
+
+/搜索,tab跳转匹配,shift tab
+
+%匹配括号
+
+*/#匹配下/上一个同样的词
+
+:<range> s/<search_string>/<replace_string>/<modifier>
 range就是选中的内容, 可以v模式选中,自动会加.
 
 s后边可以加\c表示区分大小写
 
 modifier: g
+
+u(undo)撤销,
+
+ctrl r恢复
+
+ctrl f/b翻页, d/u滚屏
+
+* 选中模式:y复制,/y复制到粘贴板,d删除
+* 跨区域:\y,\p
+
+#### 动作(e,w,$,0,}{,gg,G,nG,n)
+
+上下左右移动光标, ctrol o/I之前/新位置,
+
+单词:e到单词末尾, w到下一个单词开始
+
+行:$行尾, 0行首,
+
+段落:}一个段落, {上一个段落,
+
+全文:gg文首,G文末,行数+G
+
+#### 操作次数:动作前加数字变成重复很多次动作
+
+#### :!运行shell命令(很重要)
+
+#### 文件操作(配合:!)
+
+:e 打开文件, :w保存文件
+
+#### 范围range
+
+:n,m
 
 ### Checkers: space e
 

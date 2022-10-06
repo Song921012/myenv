@@ -120,7 +120,7 @@ base环境也可以Install conda from `environment.toml`
 - mosek的license
 - Pardiso的license
 - Gurobi的license
-
+- Knitro的license
 HSL系列软件
 
 - algencan-3.1.1: 从hsl中copy到myenv/src
@@ -189,7 +189,11 @@ WPS从官网下
 
 - 清理
   
-  bleachkit
+  bleachkit(app store)
+
+- 显示按键
+
+ screenkey
 
 - 重复文件
 

@@ -16,7 +16,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Alias
 ## Upadate
-alias refresh="up && clean && quartoup && juliaup && pythonup && othersup && rup && cd"
+alias refresh="up && clean && quartoup && juliaup && pythonup && rup && othersup && cd"
 alias refreshall="up && clean && quartoup && juliaup && pythonup && othersup && juliadevup && rup && fireup && cppup && fenicsup &&  cd"
 alias up="sudo apt update && sudo apt upgrade"
 alias quartoup="source ~/myenv/quartoup.sh"
@@ -34,9 +34,13 @@ alias fenicsup="source ~/myenv/fenicsup.sh"
 alias cppup="source ~/myenv/packagesup.sh && cd"
 alias rup="R -e 'update.packages()'"
 ## Clean
-alias clean="sudo apt autoremove && sudo apt autoclean && sudo apt clean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
+alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
 
+
+## change Terminal theme
+### bash -c  "$(wget -qO- https://git.io/vQgMr)" 
 ## CD
+
 alias wkspace="cd /home/aidishage/Desktop/MyProjects"
 alias testspace="cd $HOME/Desktop/Test_repo"
 alias fireenv="conda deactivate && source /home/aidishage/firedrake/bin/activate"
@@ -80,6 +84,10 @@ export SNOPT_LICENSE=$HOME/licenses/snopt7.lic
 # Pardiso
 export PARDISO_LIC_PATH=$HOME/licenses
 
+# Knitro
+export ARTELYS_LICENSE=$HOME/licenses
+export KNITRODIR="/opt/knitro-13.1.0-Linux-64"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$KNITRODIR/lib"
 #Gurobi
 export PATH=$PATH:/opt/gurobi952/linux64/bin
 
@@ -245,3 +253,6 @@ unset __conda_setup
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+#eval "$(starship init zsh)"
+
