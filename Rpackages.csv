@@ -6,7 +6,7 @@ parallel, Rcpp (>= 0.12.0)","Rcpp","gee, expm, igraph, phangorn",NA,"GPL-2 | GPL
 "ash","ash","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0-15",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "askpass","askpass","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1",NA,NA,"sys (>= 2.1)",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "assertthat","assertthat","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.1",NA,NA,"tools",NA,"testthat, covr",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
-"aweek","aweek","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.2",NA,"R (>= 3.0)",NA,NA,"testthat, stats, roxygen2, knitr, rmarkdown, covr, spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
+"aweek","aweek","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.3",NA,"R (>= 3.0)",NA,NA,"testthat, stats, roxygen2, knitr, rmarkdown, covr, spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "backports","backports","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.1",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
 "base64","base64","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.1",NA,NA,"openssl",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "base64enc","base64enc","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1-3",NA,"R (>= 2.9.0)",NA,NA,NA,"png","GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
@@ -109,7 +109,7 @@ testthat, tibble, utils, vctrs, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no",
 "crayon","crayon","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.5.2",NA,NA,"grDevices, methods, utils",NA,"mockery, rstudioapi, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "credentials","credentials","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.2",NA,NA,"openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass",NA,"testthat, knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "crosstalk","crosstalk","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.0",NA,NA,"htmltools (>= 0.3.6), jsonlite, lazyeval, R6",NA,"shiny, ggplot2, testthat (>= 2.1.0), sass, bslib",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"curl","curl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.3.2",NA,"R (>= 3.0.0)",NA,NA,"spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown,
+"curl","curl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.3.3",NA,"R (>= 3.0.0)",NA,NA,"spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown,
 magrittr, httpuv (>= 1.4.4), webutils",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "cyclocomp","cyclocomp","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.0",NA,NA,"callr, crayon, desc, remotes, withr",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "data.table","data.table","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.14.2",NA,"R (>= 3.1.0)","methods",NA,"bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts,
@@ -350,7 +350,7 @@ parsnip, pbkrtest, performance, plm, poorman, pscl, psych,
 quantreg, rmarkdown, rms, robustbase, robustlmm, rstanarm (>=
 2.21.1), rstantools, rstudioapi, sandwich, speedglm, splines,
 statmod, survey, survival, testthat, truncreg, tweedie, VGAM",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
-"isoband","isoband","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.5",NA,NA,"grid, utils",NA,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+"isoband","isoband","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.6",NA,NA,"grid, utils",NA,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
 testthat, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "iterators","iterators","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.14",NA,"R (>= 2.5.0), utils",NA,NA,"RUnit, foreach",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.2.1"
 "jquerylib","jquerylib","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.4",NA,NA,"htmltools",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
@@ -378,8 +378,8 @@ withr (>= 2.3.0), rmarkdown (>= 2.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes",
 "lgr","lgr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.4",NA,"R (>= 3.2.0)","R6 (>= 2.4.0)",NA,"cli, covr, crayon, data.table, desc, future, future.apply,
 glue, jsonlite, knitr, rmarkdown, rotor (>= 0.3.5), rprojroot,
 testthat, tibble, tools, utils, whoami, yaml",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"lifecycle","lifecycle","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.2",NA,"R (>= 3.4)","glue, rlang (>= 1.0.5)",NA,"covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
-tibble, tidyverse, tools, vctrs",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
+"lifecycle","lifecycle","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.3",NA,"R (>= 3.4)","cli (>= 3.4.0), glue, rlang (>= 1.0.6)",NA,"covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
+tibble, tidyverse, tools, vctrs, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "lintr","lintr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.0.1",NA,"R (>= 3.2)","backports, codetools, crayon, cyclocomp, digest, glue,
 jsonlite, knitr, rex, stats, utils, xml2 (>= 1.0.0),
 xmlparsedata (>= 1.0.5)",NA,"covr, httr (>= 1.2.1), mockery, patrick, pkgdown, rmarkdown,
@@ -435,7 +435,7 @@ tidyr (>= 0.8.0), tidyselect, vctrs",NA,"compiler, covr, ggplot2, testthat",NA,"
 shiny, shinyBS, shinydashboard, shinycssloaders, remotes,
 utils, plotly, prettydoc, knitr, rmarkdown, reshape2, ggrepel,
 shadowtext, tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"network","network","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.17.2",NA,"R (>= 2.10), utils","tibble, magrittr, statnet.common (>= 4.5), stats",NA,"sna, testthat, covr",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
+"network","network","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.18.0",NA,"R (>= 2.10), utils","tibble, magrittr, statnet.common (>= 4.5), stats",NA,"sna, testthat, covr",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "networkDynamic","networkDynamic","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.11.2",NA,"R (>= 3.0.0), network (>= 1.17.0)","statnet.common, methods","network","testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.1"
 "nlme","nlme","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.1-159","recommended","R (>= 3.5.0)","graphics, stats, utils, lattice",NA,"Hmisc, MASS, SASmixed",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "nloptr","nloptr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.3",NA,NA,NA,"testthat","knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr",NA,"LGPL (>= 3)",NA,NA,NA,NA,"yes","4.2.1"
@@ -545,8 +545,8 @@ knitr, rmarkdown, vembedr, spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","
 "PRROC","PRROC","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.1",NA,NA,NA,NA,"testthat, ggplot2, ROCR",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
 "ps","ps","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7.1",NA,"R (>= 3.4)","utils",NA,"callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6,
 rlang, testthat (>= 3.0.0),",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
-"purrr","purrr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.4",NA,"R (>= 3.2)","magrittr (>= 1.5), rlang (>= 0.3.1)",NA,"covr, crayon, dplyr (>= 0.7.8), knitr, rmarkdown, testthat,
-tibble, tidyselect",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
+"purrr","purrr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.5",NA,"R (>= 3.2)","magrittr (>= 1.5), rlang (>= 0.3.1)",NA,"covr, crayon, dplyr (>= 0.7.8), httr, knitr, rmarkdown,
+testthat, tibble, tidyselect, vctrs",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "quantreg","quantreg","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","5.94",NA,"R (>= 3.5), stats, SparseM","methods, graphics, Matrix, MatrixModels, survival, MASS",NA,"tripack, interp, rgl, logspline, nor1mix, Formula, zoo,
 R.rsp, conquer",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "R.cache","R.cache","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.16.0",NA,"R (>= 2.14.0)","utils, R.methodsS3 (>= 1.8.1), R.oo (>= 1.24.0), R.utils (>=

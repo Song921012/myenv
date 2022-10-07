@@ -18,6 +18,9 @@ git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+#Install starship
+curl -sS https://starship.rs/install.sh | sh
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3
 sudo apt install python3-dev
@@ -31,7 +34,8 @@ sudo apt install gnome-tweaks
 #cd Nordzy-cursors
 #sudo ./install.sh
 sudo apt-get install dconf-cli uuid-runtime
-bash -c "$(wget -qO- https://git.io/vQgMr)"
+# Change Terminal Theme
+#bash -c "$(wget -qO- https://git.io/vQgMr)"
 #cd
 # cuda
 sudo apt install system76-cuda-latest

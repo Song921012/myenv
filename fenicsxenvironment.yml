@@ -16,7 +16,7 @@ dependencies:
   - bzip2=1.0.8=h7b6447c_0
   - c-ares=1.18.1=h7f8727e_0
   - ca-certificates=2022.07.19=h06a4308_0
-  - certifi=2022.9.14=py310h06a4308_0
+  - certifi=2022.9.24=py310h06a4308_0
   - cffi=1.15.1=py310h74dc2b5_0
   - curl=7.84.0=h5eee18b_0
   - dbus=1.13.18=hb2f20db_0

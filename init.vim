@@ -65,3 +65,98 @@ call plug#end()
 " You can revert the settings after the call like so:
 "   filetype indent off   " Disable file-type-specific indentation
 "   syntax off            " Disable syntax highlighting
+
+
+function! CheckChineseMark()  
+        "依次检查  
+        if search('。')  
+            let s:line=search('。')  
+            execute s:line . "s/。/\./g" 
+        endif  
+     
+        if search('，')  
+            let s:line=search('，')  
+            execute s:line . "s/，/,/g" 
+        endif  
+     
+        if search('；')  
+            let s:line=search('；')  
+            execute s:line . "s/；/,/g" 
+     
+        endif  
+          
+        if  search('？')  
+            let s:line=search('？')  
+            execute s:line . "s/？/?/g" 
+        endif  
+     
+        if search('：')  
+            let s:line=search('：')  
+            execute s:line . "s/：/\:/g" 
+        endif  
+     
+        if search('‘')  
+            let s:line=search('‘')  
+            execute s:line . "s/‘/\'/g" 
+        endif  
+     
+        if search('’')  
+            let s:line=search('’')  
+            execute s:line . "s/’/\'/g" 
+        endif  
+     
+        if search('”')  
+            let s:line=search('”')  
+            execute s:line . "s/”/\"/g" 
+        endif  
+     
+        if search('“')  
+            let s:line=search('“')  
+            execute s:line . "s/“/\"/g" 
+        endif  
+     
+        if search('《')  
+            let s:line=search('《')  
+            execute s:line . "s/《/\</g" 
+        endif  
+     
+        if search('》')  
+            let s:linie=search('》')  
+            execute s:line . "s/》/\>/g" 
+        endif  
+     
+        if search('——')  
+            let s:line=search('——')  
+            execute s:line . "s/——/-/g" 
+        endif  
+     
+        if search('）')  
+            let s:line=search('）')  
+            execute s:line . "s/）/\)/g" 
+        endif  
+     
+        if search('（')  
+            let s:line=search('（')  
+            execute s:line . "s/（/\(/g" 
+        endif  
+     
+        if search('……')  
+            let s:line=search('……')  
+            execute s:line . "s/……/^/g" 
+        endif  
+     
+        if search('￥')  
+            let s:line=search('￥')  
+            execute s:line . "s/￥/$/g" 
+        endif  
+     
+        if search('！')  
+            let s:line=search('！')  
+            execute s:line . "s/！/!/g" 
+        endif  
+     
+        if  search('·')  
+            let s:line=search('·')  
+            execute s:line . "s/·/`/g" 
+        endif  
+endfunction  

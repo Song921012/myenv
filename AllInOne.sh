@@ -16,6 +16,8 @@ cp -f ~/myenv/init.toml ~/.SpaceVim.d
 ln -f ~/.SpaceVim.d/init.toml ~/myenv/init.toml
 cp -f ~/myenv/init.vim ~/.config/nvim
 ln -f ~/.config/nvim/init.vim ~/myenv/init.vim
+cp -f ~/myenv/starship.toml ~/.config
+ln -f ~/.config/starship.toml ~/myenv/starship.toml
 ## Install miniconda
 conda update conda
 conda install python=$pythonversion

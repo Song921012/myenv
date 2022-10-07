@@ -59,6 +59,7 @@ export CMDSTAN="/home/aidishage/myenv/src/cmdstan"
 export STAN_BACKEND=CMDSTANPY
 export PATH=$PATH:/opt/gurobi952/linux64/bin
 export PATH=$PATH:/home/aidishage/.local/bin
+export PATH=$HOME/.julia/bin:$PATH
 export PATH=$PATH:$CMDSTAN
 export CUDA_HOME=/usr/lib/cuda # 记得链接cuda
 export CUDA_TOOLKIT_ROOT_DIR=$CUDA_HOME
@@ -87,7 +88,6 @@ export PARDISO_LIC_PATH=$HOME/licenses
 # Knitro
 export ARTELYS_LICENSE=$HOME/licenses
 export KNITRODIR="/opt/knitro-13.1.0-Linux-64"
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$KNITRODIR/lib"
 #Gurobi
 export PATH=$PATH:/opt/gurobi952/linux64/bin
 
@@ -121,7 +121,8 @@ export MYARCH="pc64.lnx.gfo"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+
+#ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -254,5 +255,4 @@ unset __conda_setup
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-#eval "$(starship init zsh)"
-
+eval "$(starship init zsh)"
