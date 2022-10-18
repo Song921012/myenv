@@ -50,6 +50,7 @@ alias mytutor="cd ~/Desktop/MyProjects/MathEpiDeepLearningTutorial"
 alias shortcuts="code ~/myenv/shortcuts.md"
 ## Others
 alias fdu="du -l --max-depth=1 | sort -nr"
+alias mathpix="/home/aidishage/myenv/src/Mathpix_Snipping_Tool-x86_64.v03.00.0091.AppImage"
 
 #alias make="sudo make"
 #alias julia="conda deactivate && julia"
@@ -92,13 +93,13 @@ export KNITRODIR="/opt/knitro-13.1.0-Linux-64"
 export PATH=$PATH:/opt/gurobi952/linux64/bin
 
 # PETSC
-export PETSC_ARCH=arch-linux-c-debug
-export PETSC_DIR=$HOME/myenv/src/petsc
-export PYTHONPATH=$PYTHONPATH:$PETSC_DIR/$PETSC_ARCH/lib
-export SLEPC_DIR=$HOME/myenv/src/slepc
-export PYTHONPATH=$PYTHONPATH:$SLEPC_DIR/$PETSC_ARCH/lib
+#export PETSC_ARCH=arch-linux-c-debug
+#export PETSC_DIR=$HOME/myenv/src/petsc
+#export PYTHONPATH=$PYTHONPATH:$PETSC_DIR/$PETSC_ARCH/lib
+#export SLEPC_DIR=$HOME/myenv/src/slepc
+#export PYTHONPATH=$PYTHONPATH:$SLEPC_DIR/$PETSC_ARCH/lib
 export OMP_NUM_THREADS=1
-
+#export PYTHONPATH=$PYTHONPATH:$HOME/myenv/src/dolfinx/python/build/lib.linux-x86_64-3.10
 # Galahad
 export GALAHAD=/home/aidishage/myenv/src/Galahad/galahad
 export PATH=$PATH:$GALAHAD/bin

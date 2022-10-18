@@ -139,15 +139,22 @@ sudo apt install -y
 
 sudo apt --fix-broken install
 
+
+
+
 - tlmgr问题
 
 [tlmgr无法更新](https://tex.stackexchange.com/questions/203874/sudo-does-not-find-tlmgr)
 
-右键打开 vscode
+- 右键打开 vscode
 
 [右键打开](https://zhuanlan.zhihu.com/p/143533486)
 
+- 蓝牙连接
+
 [ubuntu18.04已匹配蓝牙耳机但是连接不上_light-124的博客-CSDN博客_ubuntu连接蓝牙耳机](https://blog.csdn.net/handsomeandge/article/details/121529718)
+
+- 桌面图标: 在applications文件夹新建desktop文件
 
 # Other applications
 

@@ -17,20 +17,20 @@ dependencies:
   - bzip2=1.0.8=h7f98852_4
   - c-ares=1.18.1=h7f98852_0
   - ca-certificates=2022.9.24=ha878542_0
-  - casadi=3.5.5=py310hc77112e_12
+  - casadi=3.5.5=py310h21519b1_13
   - cffi=1.15.1=py310h255011f_0
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
   - cmake=3.24.2=h5432695_0
   - colorama=0.4.5=pyhd8ed1ab_0
   - conda=22.9.0=py310hff52083_1
   - conda-package-handling=1.9.0=py310h5764c6d_0
-  - cryptography=38.0.1=py310h597c629_0
+  - cryptography=38.0.2=py310h597c629_0
   - curl=7.85.0=h7bff187_0
   - debugpy=1.6.3=py310hd8f1fbe_0
   - decorator=5.1.1=pyhd8ed1ab_0
   - eigen=3.4.0=h4bd325d_0
   - entrypoints=0.4=pyhd8ed1ab_0
-  - executing=1.1.0=pyhd8ed1ab_0
+  - executing=1.1.1=pyhd8ed1ab_0
   - expat=2.4.9=h27087fc_0
   - fenics=2019.1.0=py310hff52083_31
   - fenics-dijitso=2019.1.0=py310hff52083_31
@@ -42,7 +42,7 @@ dependencies:
   - fftw=3.3.10=mpi_openmpi_hdeb57f9_5
   - gcc_impl_linux-64=10.4.0=h7ee1905_16
   - gcc_linux-64=10.4.0=h9215b83_10
-  - gettext=0.19.8.1=h27087fc_1009
+  - gettext=0.21.1=h27087fc_0
   - git=2.38.0=pl5321h5fbbf19_0
   - gmp=6.2.1=h58526e2_0
   - gmpy2=2.1.2=py310h92f7908_0
@@ -52,12 +52,12 @@ dependencies:
   - hypre=2.25.0=mpi_openmpi_ha709252_0
   - icu=70.1=h27087fc_0
   - idna=3.4=pyhd8ed1ab_0
-  - ipopt=3.14.9=hf60ba86_1
+  - ipopt=3.14.10=hf60ba86_0
   - ipykernel=6.16.0=pyh210e3f2_0
   - ipython=8.5.0=pyh41d4057_1
   - jedi=0.18.1=pyhd8ed1ab_2
   - julia=1.8.2=h6f5dd7c_0
-  - jupyter_client=7.3.5=pyhd8ed1ab_0
+  - jupyter_client=7.4.2=pyhd8ed1ab_0
   - jupyter_core=4.11.1=py310hff52083_0
   - kernel-headers_linux-64=2.6.32=he073ed8_15
   - keyutils=1.6.1=h166bdaf_0
@@ -70,11 +70,11 @@ dependencies:
   - libev=4.33=h516909a_1
   - libffi=3.4.2=h7f98852_5
   - libgcc-devel_linux-64=10.4.0=h74af60c_16
-  - libgcc-ng=12.1.0=h8d9b700_16
-  - libgfortran-ng=12.1.0=h69a702a_16
-  - libgfortran5=12.1.0=hdcd56e2_16
+  - libgcc-ng=12.2.0=h65d4601_18
+  - libgfortran-ng=12.2.0=h69a702a_18
+  - libgfortran5=12.2.0=h337968e_18
   - libgit2=1.5.0=h6529ace_0
-  - libgomp=12.1.0=h8d9b700_16
+  - libgomp=12.2.0=h65d4601_18
   - libiconv=1.17=h166bdaf_0
   - liblapack=3.9.0=16_linux64_openblas
   - libnghttp2=1.47.0=hdcd2b5c_1
@@ -87,12 +87,12 @@ dependencies:
   - libsqlite=3.39.4=h753d276_0
   - libssh2=1.10.0=haa6b8db_3
   - libstdcxx-devel_linux-64=10.4.0=h74af60c_16
-  - libstdcxx-ng=12.1.0=ha89aaad_16
+  - libstdcxx-ng=12.2.0=h46fd767_18
   - libunwind=1.6.2=h9c3ff4c_0
   - libutf8proc=2.7.0=h7f98852_0
   - libuuid=2.32.1=h7f98852_1000
   - libuv=1.44.2=h166bdaf_0
-  - libzlib=1.2.12=h166bdaf_4
+  - libzlib=1.2.13=h166bdaf_4
   - matplotlib-inline=0.1.6=pyhd8ed1ab_0
   - mbedtls=3.2.1=h27087fc_0
   - metis=5.1.0=h58526e2_1006
@@ -107,7 +107,7 @@ dependencies:
   - mumps-seq=5.2.1=h2104b81_11
   - ncurses=6.3=h27087fc_1
   - nest-asyncio=1.5.6=pyhd8ed1ab_0
-  - numpy=1.23.3=py310h53a5b5f_0
+  - numpy=1.23.4=py310h53a5b5f_0
   - openblas-ilp64=0.3.21=pthreads_h3d04fff_3
   - openlibm=0.8.1=h7f98852_0
   - openmpi=4.1.4=ha1ae619_101
@@ -122,7 +122,7 @@ dependencies:
   - petsc4py=3.17.4=real_h12586c4_100
   - pexpect=4.8.0=pyh9f0ad1d_2
   - pickleshare=0.7.5=py_1003
-  - pip=22.2.2=pyhd8ed1ab_0
+  - pip=22.3=pyhd8ed1ab_0
   - pkg-config=0.29.2=h36c2ea0_1008
   - pkgconfig=1.5.5=py310hff52083_2
   - prompt-toolkit=3.0.31=pyha770c72_0
@@ -135,7 +135,7 @@ dependencies:
   - pycosat=0.6.3=py310h5764c6d_1010
   - pycparser=2.21=pyhd8ed1ab_0
   - pygments=2.13.0=pyhd8ed1ab_0
-  - pyopenssl=22.0.0=pyhd8ed1ab_1
+  - pyopenssl=22.1.0=pyhd8ed1ab_0
   - pyparsing=3.0.9=pyhd8ed1ab_0
   - pysocks=1.7.1=pyha2e5f31_6
   - python=3.10.6=h582c2e5_0_cpython
@@ -148,7 +148,7 @@ dependencies:
   - ruamel_yaml=0.15.80=py310h5764c6d_1007
   - scalapack=2.2.0=h67de57e_1
   - scotch=6.0.9=hb2e6521_2
-  - setuptools=65.4.1=pyhd8ed1ab_0
+  - setuptools=65.5.0=pyhd8ed1ab_0
   - six=1.16.0=pyh6c4a22f_0
   - slepc=3.17.2=real_h624bf36_100
   - slepc4py=3.17.2=real_hd732961_100
@@ -164,17 +164,20 @@ dependencies:
   - tornado=6.2=py310h5764c6d_0
   - tqdm=4.64.1=pyhd8ed1ab_0
   - traitlets=5.4.0=pyhd8ed1ab_0
-  - tzdata=2022d=h191b570_0
+  - tzdata=2022e=h191b570_0
   - unixodbc=2.3.10=h583eb01_0
   - wcwidth=0.2.5=pyh9f0ad1d_2
   - wheel=0.37.1=pyhd8ed1ab_0
   - xz=5.2.6=h166bdaf_0
   - yaml=0.2.5=h7f98852_2
   - zeromq=4.3.4=h9c3ff4c_1
-  - zlib=1.2.12=h166bdaf_4
+  - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=h6239696_4
   - pip:
     - appdirs==1.4.4
+    - argon2-cffi==21.3.0
+    - argon2-cffi-bindings==21.2.0
+    - astroid==2.12.11
     - attrs==22.1.0
     - beautifulsoup4==4.11.1
     - cashocs==1.8.11
@@ -183,35 +186,65 @@ dependencies:
     - commonmark==0.9.1
     - contourpy==1.0.5
     - cycler==0.11.0
+    - dill==0.3.5.1
+    - distlib==0.3.6
     - dolfin-adjoint==2019.1.2
     - fecr==0.1
+    - filelock==3.8.0
     - flake8==5.0.4
     - fonttools==4.37.3
     - gmsh==4.10.5
     - h5py==3.7.0
-    - jax==0.3.21
+    - ipython-genutils==0.2.0
+    - ipywidgets==8.0.2
+    - isort==5.10.1
+    - jax==0.3.23
     - jaxfenics-adjoint==1.0.0
-    - jaxlib==0.3.20+cuda11.cudnn82
+    - jaxlib==0.3.22+cuda11.cudnn82
+    - jupyter==1.0.0
+    - jupyter-console==6.4.4
+    - jupyterlab-widgets==3.0.3
     - kiwisolver==1.4.4
+    - lazy-object-proxy==1.7.1
     - lxml==4.9.1
     - matplotlib==3.6.0
     - mccabe==0.7.0
     - meshio==5.3.4
     - moola==0.1.6
     - netcdf4==1.6.1
+    - notebook==6.4.12
+    - pandas==1.5.0
+    - patsy==0.5.3
     - pillow==9.2.0
+    - platformdirs==2.5.2
+    - prometheus-client==0.14.1
     - pycodestyle==2.9.1
     - pyflakes==2.5.0
+    - pylint==2.15.4
+    - pytz==2022.4
     - pyvista==0.36.1
+    - qtconsole==5.3.2
+    - qtpy==2.2.1
+    - radian==0.6.4
+    - rchitect==0.3.39
     - rich==12.5.1
     - scipy==1.9.1
+    - send2trash==1.8.0
     - soupsieve==2.3.2.post1
+    - statsmodels==0.13.2
+    - terminado==0.16.0
+    - tomli==2.0.1
+    - tomlkit==0.11.5
     - torch==1.12.1+cu116
     - torch-fenics==0.1
     - torchaudio==0.12.1+cu116
     - torchvision==0.13.1+cu116
     - urllib3==1.26.12
+    - virtualenv==20.16.5
     - vtk==9.2.2
     - webencodings==0.5.1
+    - widgetsnbextension==4.0.3
+    - wrapt==1.14.1
+    - yapf==0.32.0
     - zipp==3.8.1
 prefix: /home/aidishage/miniconda3/envs/fenics

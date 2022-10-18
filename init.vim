@@ -8,6 +8,7 @@
 
 execute 'source' fnamemodify(expand('<sfile>'), ':h').'/main.vim'
 
+
 call plug#begin()
 " The default plugin directory will be as follows:
 "   - Vim (Linux/macOS): '~/.vim/plugged'
@@ -68,95 +69,97 @@ call plug#end()
 
 
 function! CheckChineseMark()  
-        "依次检查  
-        if search('。')  
-            let s:line=search('。')  
-            execute s:line . "s/。/\./g" 
-        endif  
-     
-        if search('，')  
-            let s:line=search('，')  
-            execute s:line . "s/，/,/g" 
-        endif  
-     
-        if search('；')  
-            let s:line=search('；')  
-            execute s:line . "s/；/,/g" 
-     
-        endif  
-          
-        if  search('？')  
-            let s:line=search('？')  
-            execute s:line . "s/？/?/g" 
-        endif  
-     
-        if search('：')  
-            let s:line=search('：')  
-            execute s:line . "s/：/\:/g" 
-        endif  
-     
-        if search('‘')  
-            let s:line=search('‘')  
-            execute s:line . "s/‘/\'/g" 
-        endif  
-     
-        if search('’')  
-            let s:line=search('’')  
-            execute s:line . "s/’/\'/g" 
-        endif  
-     
-        if search('”')  
-            let s:line=search('”')  
-            execute s:line . "s/”/\"/g" 
-        endif  
-     
-        if search('“')  
-            let s:line=search('“')  
-            execute s:line . "s/“/\"/g" 
-        endif  
-     
-        if search('《')  
-            let s:line=search('《')  
-            execute s:line . "s/《/\</g" 
-        endif  
-     
-        if search('》')  
-            let s:linie=search('》')  
-            execute s:line . "s/》/\>/g" 
-        endif  
-     
-        if search('——')  
-            let s:line=search('——')  
-            execute s:line . "s/——/-/g" 
-        endif  
-     
-        if search('）')  
-            let s:line=search('）')  
-            execute s:line . "s/）/\)/g" 
-        endif  
-     
-        if search('（')  
-            let s:line=search('（')  
-            execute s:line . "s/（/\(/g" 
-        endif  
-     
-        if search('……')  
-            let s:line=search('……')  
-            execute s:line . "s/……/^/g" 
-        endif  
-     
-        if search('￥')  
-            let s:line=search('￥')  
-            execute s:line . "s/￥/$/g" 
-        endif  
-     
-        if search('！')  
-            let s:line=search('！')  
-            execute s:line . "s/！/!/g" 
-        endif  
-     
-        if  search('·')  
-            let s:line=search('·')  
-            execute s:line . "s/·/`/g" 
-        endif  
+  "依次检查  
+  if search('。')  
+      let s:line=search('。')  
+      execute s:line . "s/。/\./g" 
+  endif  
+
+  if search('，')  
+      let s:line=search('，')  
+      execute s:line . "s/，/,/g" 
+  endif  
+
+  if search('；')  
+      let s:line=search('；')  
+      execute s:line . "s/；/,/g" 
+
+  endif  
+    
+  if  search('？')  
+      let s:line=search('？')  
+      execute s:line . "s/？/?/g" 
+  endif  
+
+  if search('：')  
+      let s:line=search('：')  
+      execute s:line . "s/：/\:/g" 
+  endif  
+
+  if search('‘')  
+      let s:line=search('‘')  
+      execute s:line . "s/‘/\'/g" 
+  endif  
+
+  if search('’')  
+      let s:line=search('’')  
+      execute s:line . "s/’/\'/g" 
+  endif  
+
+  if search('”')  
+      let s:line=search('”')  
+      execute s:line . "s/”/\"/g" 
+  endif  
+
+  if search('“')  
+      let s:line=search('“')  
+      execute s:line . "s/“/\"/g" 
+  endif  
+
+  if search('《')  
+      let s:line=search('《')  
+      execute s:line . "s/《/\</g" 
+  endif  
+
+  if search('》')  
+      let s:linie=search('》')  
+      execute s:line . "s/》/\>/g" 
+  endif  
+
+  if search('——')  
+      let s:line=search('——')  
+      execute s:line . "s/——/-/g" 
+  endif  
+
+  if search('）')  
+      let s:line=search('）')  
+      execute s:line . "s/）/\)/g" 
+  endif  
+
+  if search('（')  
+      let s:line=search('（')  
+      execute s:line . "s/（/\(/g" 
+  endif  
+
+  if search('……')  
+      let s:line=search('……')  
+      execute s:line . "s/……/^/g" 
+  endif  
+
+  if search('￥')  
+      let s:line=search('￥')  
+      execute s:line . "s/￥/$/g" 
+  endif  
+
+  if search('！')  
+      let s:line=search('！')  
+      execute s:line . "s/！/!/g" 
+  endif  
+
+  if  search('·')  
+      let s:line=search('·')  
+      execute s:line . "s/·/`/g" 
+  endif  
 endfunction  
+
+set wrap

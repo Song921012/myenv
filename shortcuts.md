@@ -148,6 +148,86 @@ ctrl x:删除一行
 
 你可以通过打开命令面板(Ctrl + Shift + P)并输入Show running extensions来查看所有你安装的正在运行的插件。
 
+Ctrl+P 快速打开最近打开的文件
+
+Ctrl+Shift+E  到资源管理器
+
+Ctrl+Alt+X到Tex
+
+
+窗口
+
+Ctrl + R打开最近文件夹
+
+Ctrl+Shift+N 打开新的编辑器窗口
+
+Ctrl+Shift+W 关闭编辑器窗口
+
+==文本操作==
+
+Ctrl /注释取消注释
+
+Shift + Alt +A 块区域注释
+
+
+-   重开一行：光标在行尾的话，回车即可；不在行尾，ctrl `+ enter` 向下重开一行；ctrl+`shift + enter` 则是在上一行重开一行
+-   删除一行：光标没有选择内容时，ctrl `+ x` 剪切一行；ctrl +`shift + k` 直接删除一行
+-   移动一行：`alt + ↑` 向上移动一行；`alt + ↓` 向下移动一行
+-   复制一行：`shift + alt + ↓` 向下复制一行；`shift + alt + ↑` 向上复制一行
+
+
+### 查看信息
+
+跳转悬停，Ctrl，space, Alt， F12中的一个
+
+==多行操作==
+1. Ctrl点击，Ctrl+Alt+上下左右，产生多个cursor
+
+1. shift+Alt上下左右选中
+
+### 查找替换
+
+Ctrl+D双击 Ctrl Shift L查找类似词
+
+Ctrl F查找 Ctrl shift F跨越文件查找
+
+F2重命名变量
+
+-   ctrl `+ alt + f`： 替换
+
+### 格式化
+
+Shift+ Alt+ F格式化
+
+### Python
+
+Ctrl Alt N运行代码
+
+Ctrl enter
+
+Shift enter运行代码
+
+Ctrl + Shift + [ 折叠区域代码
+
+Ctrl + Shift + ] 展开区域代码
+
+### Latex
+
+[Snippets · James-Yu/LaTeX-Workshop Wiki](https://github.com/James-Yu/LaTeX-Workshop/wiki/Snippets)
+
+活用@. @(, [, |{等等
+
+ctrl+alt+B 编译
+
+ctrl+alt+V 查看PDF
+
+Ctrl /注释取消注释
+
+
+反向搜索 ctrl+
+
+正向搜索 ctrl+alt+J
+
 ## zotero
 
 +/-: 展开关闭文献

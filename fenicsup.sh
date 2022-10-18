@@ -43,26 +43,26 @@ conda deactivate
 conda activate fenicsx
 conda update --all
 pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv rich pygments
+conda deactivate
+# Fenics
+#conda activate base
+#myenv
+#pip install git+https://github.com/FEniCS/basix.git
+#pip install git+https://github.com/FEniCS/ufl.git
+#pip install git+https://github.com/FEniCS/ffcx.git
+#myenv
 
-## Fenics
-# conda activate base
-# myenv
-# pip install git+https://github.com/FEniCS/basix.git
-# pip install git+https://github.com/FEniCS/ufl.git
-# pip install git+https://github.com/FEniCS/ffcx.git
-# myenv
-
-# myenv
-# sudo rm -rf dolfinx && git clone https://github.com/FEniCS/dolfinx.git
-# cd dolfinx
-# git pull
-# cd cpp
-# rm -rf build
-# mkdir build
-# cd build
-# cmake ..
-# sudo make install
-# source /usr/local/lib/dolfinx/dolfinx.conf
+#myenv
+#sudo rm -rf dolfinx && git clone https://github.com/FEniCS/dolfinx.git
+#cd dolfinx
+#git pull
+#cd cpp
+#rm -rf build
+#mkdir build
+#cd build
+#cmake ..
+#sudo make install
+#source /usr/local/lib/dolfinx/dolfinx.conf
 
 #myenv
 #sudo rm -rf pybind*
@@ -74,12 +74,11 @@ pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake
 #cmake -DPYBIND11_TEST=off -DCMAKE_INSTALL_PREFIX=/path/to/pybind11/install ..
 #sudo make install
 #export PYBIND11_DIR=/home/aidishage/myenv/src/pybind11-2.2.1
-# source ~/.zshrc
-# cd ~/myenv/src/dolfinx/python
-# pip install .
-# myenv
-# pip install -U pyvista
+#source ~/.zshrc
+#cd ~/myenv/src/dolfinx/python
+#python3 setup.py build
+#myenv
+#pip install -U pyvista
 cd
-conda deactivate
 source ~/.zshrc
 conda clean --all

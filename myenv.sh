@@ -1,8 +1,8 @@
 # Basic setup
 sudo apt-get install software-properties-common
 sudo apt install aptitude
-sudo apt install vim vim-scripts vim-gtk
-sudo add-apt-repository ppa:neovim-ppa/stable
+#sudo apt install vim vim-scripts vim-gtk
+#sudo add-apt-repository ppa:neovim-ppa/stable
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
@@ -13,11 +13,16 @@ chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 sudo apt install tmux
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+sudo apt-add-repository ppa:fish-shell/release-3
+sudo apt update
+sudo apt install fish
 
 #Install starship
 curl -sS https://starship.rs/install.sh | sh
@@ -62,15 +67,16 @@ sudo apt install zotero
 
 # Install develop environment
 sudo apt install build-essential
-sudo apt -y install clang
 sudo apt -y install clang lldb lld
 sudo apt-get -y install ninja-build
 sudo apt install cmake
 sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev
-libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig libcppad-dev# lapack blas metis
+libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig libcppad-dev
 sudo apt-get install graphviz pandoc inkscape
 sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
+sudo apt install mpich
+
 # Install R
 sudo apt update -qq
 sudo apt install --no-install-recommends software-properties-common dirmngr
@@ -83,6 +89,12 @@ sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
 sudo add-apt-repository ppa:sunderme/texstudio
 sudo apt update
 sudo apt install texstudio
+
+cpan Unicode::GCString
+cpan App::cpanminus
+cpan YAML::Tiny
+perl -MCPAN -e 'install "File::HomeDir"'
+
 # sudo apt install texlive-full -y
 # sudo visudo
 
