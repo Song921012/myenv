@@ -33,6 +33,7 @@ alias firedrakeinstall="source ~/myenv/firedrakeinstall.sh"
 alias fenicsup="source ~/myenv/fenicsup.sh"
 alias cppup="source ~/myenv/packagesup.sh && cd"
 alias rup="R -e 'update.packages()'"
+alias wkinstall="source ~/myenv/mywkenvsetup.sh"
 ## Clean
 alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
 

@@ -280,3 +280,10 @@ source fenicsup.sh
 ## update firedrake environment
 
 source firedrakeup.sh
+
+## vscode.vim
+
+configure vscode neovim
+
+## texstudioconfig.txs
+configure texstudio
