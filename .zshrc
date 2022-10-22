@@ -16,9 +16,10 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Alias
 ## Upadate
-alias refresh="up && clean && quartoup && juliaup && pythonup && rup && othersup && cd"
-alias refreshall="up && clean && quartoup && juliaup && pythonup && othersup && juliadevup && rup && fireup && cppup && fenicsup &&  cd"
+alias refresh="up && clean && quartoup && juliaup && pythonup && rup && othersup && gitup && cd"
+alias refreshall="up && clean && quartoup && juliaup && pythonup && othersup && juliadevup && rup && fireup && cppup && fenicsup && gitup &&  cd"
 alias up="sudo apt update && sudo apt upgrade"
+alias gitup="source ~/myenv/gitup.sh"
 alias quartoup="source ~/myenv/quartoup.sh"
 alias juliaup="julia -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
 alias juliainstall="source ~/myenv/install_julia.sh && install_julia"
@@ -52,7 +53,7 @@ alias shortcuts="code ~/myenv/shortcuts.md"
 ## Others
 alias fdu="du -l --max-depth=1 | sort -nr"
 alias mathpix="/home/aidishage/myenv/src/Mathpix_Snipping_Tool-x86_64.v03.00.0091.AppImage"
-
+alias gitsync="git pull && git add -A && git commit -m 'update' && git push"
 #alias make="sudo make"
 #alias julia="conda deactivate && julia"
 # Path

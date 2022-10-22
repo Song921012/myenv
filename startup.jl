@@ -17,6 +17,12 @@ ENV["JUPYTER"] = "/home/aidishage/.local/bin/jupyter"
 ENV["JULIA_PYTHONCALL_EXE"] = "@PyCall" # optional
 ENV["JULIA_CONDAPKG_BACKEND"] = "Null"  # optional
 ENV["JULIA_PARDISO"] = "/home/aidishage/myenv/lib"
+#ENV["JULIA_PKG_SERVER"] = "https://pkg.julialang.org"
+#try
+#    using PkgServerClient
+#catch e
+#        @warn "error while importing PkgServerClient" e
+#end
 try
     using Revise
 catch e

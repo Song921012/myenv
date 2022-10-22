@@ -56,7 +56,7 @@ dependencies:
     - arviz==0.12.1
     - asteval==0.9.27
     - astor==0.8.1
-    - astroid==2.12.11
+    - astroid==2.12.12
     - astunparse==1.6.3
     - async-timeout==4.0.2
     - attrs==22.1.0
@@ -198,7 +198,7 @@ dependencies:
     - jax==0.3.23
     - jaxlib==0.3.22+cuda11.cudnn82
     - jaxns==1.1.2
-    - jaxopt==0.5
+    - jaxopt==0.5.5
     - jaxtyping==0.2.7
     - jedi==0.17.2
     - joblib==1.1.0
@@ -331,7 +331,7 @@ dependencies:
     - pyjwt==2.5.0
     - pykalman==0.9.5
     - pyknos==0.15.1
-    - pylint==2.15.4
+    - pylint==2.15.5
     - pylops==1.18.3
     - pymeeus==0.5.11
     - pympler==1.0.1
