@@ -137,7 +137,7 @@ R6 (>= 2.2.2), rlang (>= 1.0.0), tibble (>= 1.4.2), tidyselect
 (>= 2.1.0), testthat (>= 3.0.2), tidyr (>= 1.2.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "DEoptimR","DEoptimR","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0-11",NA,NA,"stats",NA,NA,"robustbase","GPL (>= 2)",NA,NA,NA,NA,"no","4.2.1"
 "desc","desc","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.2",NA,"R (>= 3.4)","cli, R6, rprojroot, utils",NA,"callr, covr, gh, spelling, testthat, whoami, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"deSolve","deSolve","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.33",NA,"R (>= 3.3.0)","methods, graphics, grDevices, stats",NA,"scatterplot3d, FME",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
+"deSolve","deSolve","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.34",NA,"R (>= 3.3.0)","methods, graphics, grDevices, stats",NA,"scatterplot3d, FME",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "devtools","devtools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.4.5",NA,"R (>= 3.0.2), usethis (>= 2.1.6)","cli (>= 3.3.0), desc (>= 1.4.1), ellipsis (>= 0.3.2), fs (>=
 1.5.2), lifecycle (>= 1.0.1), memoise (>= 2.0.1), miniUI (>=
 0.1.1.1), pkgbuild (>= 1.3.1), pkgdown (>= 2.0.6), pkgload (>=
