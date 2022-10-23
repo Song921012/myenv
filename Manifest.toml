@@ -2,7 +2,7 @@
 
 julia_version = "1.8.2"
 manifest_format = "2.0"
-project_hash = "0724c2cf1bf8e8a110067d4e1fedc3cb03eeccd6"
+project_hash = "40fe13379451cd59df8f0e0c0f32aa9e8becf9ef"
 
 [[deps.ADNLPModels]]
 deps = ["ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays"]
@@ -4068,9 +4068,9 @@ version = "0.1.1"
 
 [[deps.OptimizationOptimJL]]
 deps = ["Optim", "Optimization", "Reexport", "SparseArrays"]
-git-tree-sha1 = "b3c25b6d569a56b0014aeacdab08aa7ca50c3b55"
+git-tree-sha1 = "cb9d5c4231999a228a2437771041a51bd0878775"
 uuid = "36348300-93cb-4f02-beb5-3c3902f8871e"
-version = "0.1.3"
+version = "0.1.4"
 
 [[deps.OptimizationOptimisers]]
 deps = ["Optimisers", "Optimization", "Printf", "ProgressLogging", "Reexport"]
@@ -4231,6 +4231,12 @@ deps = ["Artifacts", "Cairo_jll", "Fontconfig_jll", "FreeType2_jll", "FriBidi_jl
 git-tree-sha1 = "84a314e3926ba9ec66ac097e3635e270986b0f10"
 uuid = "36c8627f-9965-5494-a995-c6b170f724f3"
 version = "1.50.9+0"
+
+[[deps.ParameterSchedulers]]
+deps = ["Flux", "InfiniteArrays"]
+git-tree-sha1 = "554af02023b50b5a683690984886852edb1f8aee"
+uuid = "d7d3b36b-41b8-4d0d-a2bf-768c6151755e"
+version = "0.3.4"
 
 [[deps.ParameterizedFunctions]]
 deps = ["DataStructures", "DiffEqBase", "DocStringExtensions", "Latexify", "LinearAlgebra", "ModelingToolkit", "Reexport", "SciMLBase"]
@@ -5145,6 +5151,12 @@ git-tree-sha1 = "aaa019a946650b563db38b9d990cb2580c1fa71a"
 uuid = "b5612192-2639-5dc1-abfe-fbedd65fab29"
 version = "0.8.1"
 
+[[deps.Sophon]]
+deps = ["Adapt", "CUDA", "ChainRulesCore", "ComponentArrays", "DomainSets", "ForwardDiff", "GPUArrays", "GPUArraysCore", "LRUCache", "LinearAlgebra", "Lux", "Memoize", "NNlib", "NNlibCUDA", "NeuralPDE", "Optimisers", "Optimization", "OptimizationOptimisers", "ParameterSchedulers", "QuasiMonteCarlo", "Random", "RuntimeGeneratedFunctions", "SciMLBase", "Sobol", "StaticArraysCore", "StatsBase", "Symbolics"]
+git-tree-sha1 = "e6d07852a0ca4b89e9724fcf00cb973bc4a761e6"
+uuid = "077df616-1c15-4d29-b519-7542a62df138"
+version = "0.3.7"
+
 [[deps.SortingAlgorithms]]
 deps = ["DataStructures"]
 git-tree-sha1 = "b3363d7460f7d098ca0912c69b082f75625d7508"
@@ -5347,9 +5359,9 @@ version = "0.8.1"
 
 [[deps.StochasticDiffEq]]
 deps = ["Adapt", "ArrayInterface", "DataStructures", "DiffEqBase", "DiffEqNoiseProcess", "DocStringExtensions", "FillArrays", "FiniteDiff", "ForwardDiff", "JumpProcesses", "LevyArea", "LinearAlgebra", "Logging", "MuladdMacro", "NLsolve", "OrdinaryDiffEq", "Random", "RandomNumbers", "RecursiveArrayTools", "Reexport", "SciMLBase", "SparseArrays", "SparseDiffTools", "StaticArrays", "UnPack"]
-git-tree-sha1 = "8062351f645bb23725c494be74619ef802a2ffa8"
+git-tree-sha1 = "412bc8d2daffe21a3a340dc3111c69194e089fc4"
 uuid = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
-version = "6.54.0"
+version = "6.55.0"
 
 [[deps.Stopping]]
 deps = ["DataFrames", "LLSModels", "LinearAlgebra", "LinearOperators", "NLPModels", "Printf", "SolverTools", "SparseArrays", "Test"]

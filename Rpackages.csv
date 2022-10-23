@@ -338,15 +338,15 @@ withr, digest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 rmarkdown, scales, cowplot",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "ini","ini","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.1",NA,NA,NA,NA,"testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
 "inline","inline","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.19",NA,NA,"methods",NA,"Rcpp (>= 0.11.0), tinytest",NA,"LGPL",NA,NA,NA,NA,"no","4.2.1"
-"insight","insight","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.18.5",NA,"R (>= 3.5)","methods, stats, utils",NA,"AER, afex, aod, BayesFactor, bayestestR, bbmle, bdsmatrix,
+"insight","insight","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.18.6",NA,"R (>= 3.5)","methods, stats, utils",NA,"AER, afex, aod, BayesFactor, bayestestR, bbmle, bdsmatrix,
 betareg, bife, biglm, blavaan, blme, boot, brms, censReg, cgam,
 clubSandwich, coxme, cplm, crch, datawizard, effectsize,
 emmeans, epiR, estimatr, feisr, fixest, fungible, gam, gamlss,
 gamm4, gbm, gee, geepack, GLMMadaptive, glmmTMB, gmnl, gt,
 httr, ivreg, JM, knitr, lavaan, lavaSearch2, lfe, lme4,
-lmerTest, lmtest, logistf, MASS, marginaleffects, Matrix,
-mclogit, mclust, MCMCglmm, merTools, metaBMA, mgcv, mice,
-mlogit, mhurdle, multgee, nlme, nnet, nonnest2, ordinal,
+lmerTest, lmtest, logistf, logitr, MASS, marginaleffects,
+Matrix, mclogit, mclust, MCMCglmm, merTools, metaBMA, mgcv,
+mice, mlogit, mhurdle, multgee, nlme, nnet, nonnest2, ordinal,
 panelr, parameters, parsnip, pbkrtest, performance, plm,
 poorman, pscl, psych, quantreg, rmarkdown, rms, robustbase,
 robustlmm, rstanarm (>= 2.21.1), rstantools, rstudioapi,
