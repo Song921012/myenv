@@ -2830,9 +2830,9 @@ version = "0.6.1"
 
 [[deps.LibGEOS]]
 deps = ["CEnum", "Extents", "GEOS_jll", "GeoInterface", "GeoInterfaceRecipes"]
-git-tree-sha1 = "0cc1d45ab2e47fe4789c693e833412e69ce4670d"
+git-tree-sha1 = "537ca6e2e651e3cbc2a3904f4881a7249292b997"
 uuid = "a90b1aa1-3769-5649-ba7e-abc5a9d163eb"
-version = "0.7.3"
+version = "0.7.4"
 
 [[deps.LibGit2]]
 deps = ["Base64", "NetworkOptions", "Printf", "SHA"]
@@ -4961,7 +4961,7 @@ version = "1.64.0"
 
 [[deps.SciMLExpectations]]
 deps = ["DiffEqBase", "Distributions", "Integrals", "KernelDensity", "LinearAlgebra", "Parameters", "Random", "RecursiveArrayTools", "Reexport", "StaticArrays", "Statistics", "Zygote"]
-git-tree-sha1 = "9609c3b98c768d09d097c83fab8f5945ac1cc536"
+git-tree-sha1 = "5f0966a030a36ddfa68419b9b689d96dd6168d38"
 repo-rev = "master"
 repo-url = "https://github.com/SciML/SciMLExpectations.jl.git"
 uuid = "afe9f18d-7609-4d0e-b7b7-af0cb72b8ea8"
@@ -5157,9 +5157,9 @@ uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 [[deps.SparseDiffTools]]
 deps = ["Adapt", "ArrayInterfaceCore", "ArrayInterfaceStaticArrays", "Compat", "DataStructures", "FiniteDiff", "ForwardDiff", "Graphs", "LinearAlgebra", "Requires", "SparseArrays", "StaticArrays", "VertexSafeGraphs"]
-git-tree-sha1 = "a434a4a3a5757440cb3b6500eb9690ff5a516cf6"
+git-tree-sha1 = "28e9ac44d4f4d6250d7e95b14db76b0cd237f5cb"
 uuid = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
-version = "1.27.0"
+version = "1.28.0"
 
 [[deps.SparseMatricesCOO]]
 deps = ["LinearAlgebra", "SparseArrays", "Test", "UnicodePlots"]

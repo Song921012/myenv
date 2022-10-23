@@ -711,10 +711,11 @@ purrr, rmarkdown, spelling, survival, testthat (>= 3.1.4),
 utils, withr",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "stringi","stringi","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7.8",NA,"R (>= 3.1)","tools, utils, stats",NA,NA,NA,"file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "stringr","stringr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.1",NA,"R (>= 3.1)","glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)",NA,"covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat",NA,"GPL-2 | file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"styler","styler","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7.0",NA,"R (>= 3.4.0)","cli (>= 3.1.1), magrittr (>= 2.0.0), purrr (>= 0.2.3), R.cache
-(>= 0.15.0), rematch2 (>= 2.0.1), rlang (>= 0.1.1), rprojroot
-(>= 1.1), tibble (>= 1.4.2), tools, withr (>= 1.0.0),",NA,"data.tree (>= 0.1.6), digest, dplyr, here, knitr, prettycode,
-rmarkdown, roxygen2, rstudioapi (>= 0.7), testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
+"styler","styler","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8.0",NA,"R (>= 3.5.0)","cli (>= 3.1.1), magrittr (>= 2.0.0), purrr (>= 0.2.3), R.cache
+(>= 0.15.0), rlang (>= 0.1.1), rprojroot (>= 1.1), tools, vctrs
+(>= 0.4.1), withr (>= 1.0.0),",NA,"data.tree (>= 0.1.6), digest, dplyr, here, knitr, prettycode,
+rmarkdown, roxygen2, rstudioapi (>= 0.7), tibble (>= 1.4.2),
+testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "survival","survival","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.4-0","recommended","R (>= 3.5.0)","graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "sys","sys","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.4.1",NA,NA,NA,NA,"unix (>= 1.4), spelling, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "systemfonts","systemfonts","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.4",NA,"R (>= 3.2.0)",NA,"cpp11 (>= 0.2.1)","testthat (>= 2.1.0), covr, knitr, rmarkdown, tools",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
