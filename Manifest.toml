@@ -420,9 +420,9 @@ version = "0.8.2"
 
 [[deps.BasicInterpolators]]
 deps = ["LinearAlgebra", "Memoize", "Random"]
-git-tree-sha1 = "56e59d20a2dfafdfe681c372ed67200efa43ad88"
+git-tree-sha1 = "6d8c6e65b3a57302f094c8d431667b6a4cd2e4cb"
 uuid = "26cce99e-4866-4b6d-ab74-862489e035e0"
-version = "0.6.5"
+version = "0.6.6"
 
 [[deps.BasisFunctions]]
 deps = ["BlockArrays", "CompositeTypes", "DSP", "DomainIntegrals", "DomainSets", "FFTW", "FastGaussQuadrature", "FillArrays", "GaussQuadrature", "GenericFFT", "GenericLinearAlgebra", "GridArrays", "IterativeSolvers", "LinearAlgebra", "MacroTools", "OrderedCollections", "PGFPlotsX", "Pkg", "QuadGK", "RecipesBase", "Reexport", "SparseArrays", "SpecialFunctions", "StaticArrays", "Test", "ToeplitzMatrices"]
@@ -840,9 +840,9 @@ uuid = "d842c3ba-07a1-494f-bbec-f5741b0a3e98"
 version = "0.3.1"
 
 [[deps.CommonSolve]]
-git-tree-sha1 = "332a332c97c7071600984b3c31d9067e1a4e6e25"
+git-tree-sha1 = "6b6865d59ddb3fe52c4792998543931dede2cd8e"
 uuid = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
-version = "0.2.1"
+version = "0.2.2"
 
 [[deps.CommonSubexpressions]]
 deps = ["MacroTools", "Test"]
@@ -1470,9 +1470,9 @@ version = "1.8.1"
 
 [[deps.ExponentialUtilities]]
 deps = ["ArrayInterfaceCore", "ArrayInterfaceGPUArrays", "GPUArraysCore", "GenericSchur", "LinearAlgebra", "Printf", "SparseArrays", "libblastrampoline_jll"]
-git-tree-sha1 = "11265655a32e4d6469c6b259bafe367affcde876"
+git-tree-sha1 = "9b63a94069261772bd16cd19db879e6b09d9da65"
 uuid = "d4d017d3-3776-5f7e-afef-a10c40355c18"
-version = "1.20.0"
+version = "1.21.0"
 
 [[deps.ExprTools]]
 git-tree-sha1 = "56559bbef6ca5ea0c0818fa5c90320398a6fbf8d"
@@ -2545,9 +2545,9 @@ version = "1.3.1"
 
 [[deps.JuliaFormatter]]
 deps = ["CSTParser", "CommonMark", "DataStructures", "Glob", "Pkg", "Tokenize"]
-git-tree-sha1 = "f19e1ae54789255398020f713ec06950548c277f"
+git-tree-sha1 = "a5705d6e0a99bfb9465e7f2381783d3368f3b94b"
 uuid = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
-version = "1.0.13"
+version = "1.0.14"
 
 [[deps.JuliaInterpreter]]
 deps = ["CodeTracking", "InteractiveUtils", "Random", "UUIDs"]
@@ -4967,7 +4967,7 @@ version = "1.64.0"
 
 [[deps.SciMLExpectations]]
 deps = ["DiffEqBase", "Distributions", "Integrals", "KernelDensity", "LinearAlgebra", "Parameters", "Random", "RecursiveArrayTools", "Reexport", "StaticArrays", "Statistics", "Zygote"]
-git-tree-sha1 = "5f0966a030a36ddfa68419b9b689d96dd6168d38"
+git-tree-sha1 = "2c0fa2c3a9f4c56a68a2d6bb1c4d4196bd3c7927"
 repo-rev = "master"
 repo-url = "https://github.com/SciML/SciMLExpectations.jl.git"
 uuid = "afe9f18d-7609-4d0e-b7b7-af0cb72b8ea8"
@@ -5198,7 +5198,7 @@ version = "2.1.7"
 
 [[deps.SpecialMatrices]]
 deps = ["LinearAlgebra", "Polynomials"]
-git-tree-sha1 = "92ca916517daef945473aedb57313d584a0876d5"
+git-tree-sha1 = "52aa327ef39dba96f32255160e50d679a28e4a19"
 repo-rev = "master"
 repo-url = "https://github.com/JuliaMatrices/SpecialMatrices.jl.git"
 uuid = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
