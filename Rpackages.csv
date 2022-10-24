@@ -175,7 +175,7 @@ glue, lifecycle, rlang, tibble, tidyselect, vctrs",NA,"bench, covr, knitr, rmark
 1.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "dygraphs","dygraphs","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.1.6",NA,"R (>= 3.0)","magrittr, htmlwidgets (>= 0.6), htmltools (>= 0.3.5), zoo (>=
 1.7-10), xts (>= 0.9-7)",NA,"testthat","rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)","MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"e1071","e1071","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7-11",NA,NA,"graphics, grDevices, class, stats, methods, utils, proxy",NA,"cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
+"e1071","e1071","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7-12",NA,NA,"graphics, grDevices, class, stats, methods, utils, proxy",NA,"cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
 Matrix, MASS, slam",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
 "effectsize","effectsize","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.8.1",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), insight (>= 0.18.4), parameters (>=
 0.19.0), performance (>= 0.10.0), datawizard (>= 0.6.2), stats,
@@ -447,7 +447,7 @@ shadowtext, tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 1.1.0), tibble (>= 1.2)",NA,"DBI, knitr, RSQLite, testthat, markdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "openssl","openssl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.4",NA,NA,"askpass",NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
 jsonlite, jose, sodium",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
-"openxlsx","openxlsx","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.2.5",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, stringi, utils, zip","Rcpp","knitr, rmarkdown, roxygen2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
+"openxlsx","openxlsx","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.2.5.1",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, stringi, utils, zip","Rcpp","knitr, rmarkdown, roxygen2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "outbreakinfo","outbreakinfo","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.0",NA,NA,"jsonlite, RcppSimdJson, ggplot2, readr, progress, dplyr, plyr,
 purrr, stringr, tidyr, httr, yaml, crayon, sf",NA,"testthat, knitr, lubridate",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "paletteer","paletteer","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.5.0",NA,"R (>= 2.10)","prismatic, rematch2, rlang, rstudioapi",NA,"covr, ggplot2 (>= 3.3.0), ggthemes (>= 4.0.0), harrypotter
@@ -557,7 +557,7 @@ R.rsp, conquer",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "R.utils","R.utils","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.12.0",NA,"R (>= 2.14.0), R.oo (>= 1.24.0)","methods, utils, tools, R.methodsS3 (>= 1.8.1)",NA,"datasets, digest (>= 0.6.10)",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.1"
 "R0","R0","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2-10",NA,"R (>= 2.13.0), MASS",NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.1"
 "R6","R6","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.5.1",NA,"R (>= 3.0)",NA,NA,"testthat, pryr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"ragg","ragg","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.3",NA,NA,"systemfonts (>= 1.0.3), textshaping (>= 0.3.0)","systemfonts, textshaping","covr, graphics, grid, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
+"ragg","ragg","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.4",NA,NA,"systemfonts (>= 1.0.3), textshaping (>= 0.3.0)","systemfonts, textshaping","covr, graphics, grid, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "rappdirs","rappdirs","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.3",NA,"R (>= 3.2)",NA,NA,"roxygen2, testthat (>= 3.0.0), covr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "rbibutils","rbibutils","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.9",NA,"R (>= 2.10)","utils, tools",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.1"
 "rcmdcheck","rcmdcheck","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.0",NA,NA,"callr (>= 3.1.1.9000), cli (>= 3.0.0), curl, desc (>= 1.2.0),

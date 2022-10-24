@@ -331,6 +331,7 @@ dependencies:
     - pyjwt==2.5.0
     - pykalman==0.9.5
     - pyknos==0.15.1
+    - pykoopman==0.2.0
     - pylint==2.15.5
     - pylops==1.18.3
     - pymeeus==0.5.11
