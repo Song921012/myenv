@@ -2,7 +2,7 @@
 
 julia_version = "1.8.2"
 manifest_format = "2.0"
-project_hash = "40fe13379451cd59df8f0e0c0f32aa9e8becf9ef"
+project_hash = "0724c2cf1bf8e8a110067d4e1fedc3cb03eeccd6"
 
 [[deps.ADNLPModels]]
 deps = ["ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays"]
@@ -753,9 +753,9 @@ version = "0.14.3"
 
 [[deps.CodeTracking]]
 deps = ["InteractiveUtils", "UUIDs"]
-git-tree-sha1 = "1833bda4a027f4b2a1c984baddcf755d77266818"
+git-tree-sha1 = "cc4bd91eba9cdbbb4df4746124c22c0832a460d6"
 uuid = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
-version = "1.1.0"
+version = "1.1.1"
 
 [[deps.CodecBzip2]]
 deps = ["Bzip2_jll", "Libdl", "TranscodingStreams"]
@@ -1324,6 +1324,12 @@ deps = ["JuMP", "LinearAlgebra", "MathOptInterface"]
 git-tree-sha1 = "1da53df9d3c02b24391b1fb1c22617015366ec61"
 uuid = "191a621a-6537-11e9-281d-650236a99e60"
 version = "0.5.6"
+
+[[deps.DynamicExpressions]]
+deps = ["LinearAlgebra", "Printf", "Random", "Reexport", "SymbolicUtils", "TOML", "Zygote"]
+git-tree-sha1 = "9ec20dfac94820a74ce66e09280e84c90c976ebf"
+uuid = "a40a106e-89c9-4ca8-8020-a735e8728b6b"
+version = "0.3.0"
 
 [[deps.DynamicHMC]]
 deps = ["ArgCheck", "DocStringExtensions", "LinearAlgebra", "LogDensityProblems", "Parameters", "ProgressMeter", "Random", "Statistics", "TensorCast"]
@@ -2017,9 +2023,9 @@ version = "1.2.5"
 
 [[deps.Gumbo]]
 deps = ["AbstractTrees", "Gumbo_jll", "Libdl"]
-git-tree-sha1 = "a4b03190a8d79e95b2f418df44f74cbc34289920"
+git-tree-sha1 = "a1a138dfbf9df5bace489c7a9d5196d6afdfa140"
 uuid = "708ec375-b3d6-5a57-a7ce-8257bf98657a"
-version = "0.8.1"
+version = "0.8.2"
 
 [[deps.Gumbo_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -4232,12 +4238,6 @@ git-tree-sha1 = "84a314e3926ba9ec66ac097e3635e270986b0f10"
 uuid = "36c8627f-9965-5494-a995-c6b170f724f3"
 version = "1.50.9+0"
 
-[[deps.ParameterSchedulers]]
-deps = ["Flux", "InfiniteArrays"]
-git-tree-sha1 = "554af02023b50b5a683690984886852edb1f8aee"
-uuid = "d7d3b36b-41b8-4d0d-a2bf-768c6151755e"
-version = "0.3.4"
-
 [[deps.ParameterizedFunctions]]
 deps = ["DataStructures", "DiffEqBase", "DocStringExtensions", "Latexify", "LinearAlgebra", "ModelingToolkit", "Reexport", "SciMLBase"]
 git-tree-sha1 = "78ab7ecc18b307e00abba28bb29d7ed6bf11b9f7"
@@ -4961,15 +4961,13 @@ version = "0.3.3"
 
 [[deps.SciMLBase]]
 deps = ["ArrayInterfaceCore", "CommonSolve", "ConstructionBase", "Distributed", "DocStringExtensions", "EnumX", "FunctionWrappersWrappers", "IteratorInterfaceExtensions", "LinearAlgebra", "Logging", "Markdown", "Preferences", "RecipesBase", "RecursiveArrayTools", "RuntimeGeneratedFunctions", "StaticArraysCore", "Statistics", "Tables"]
-git-tree-sha1 = "bb721d406b9002ccd5636f576041f077b6d06371"
+git-tree-sha1 = "556d521bb57a9cc232a5c60a6dc4feccd64a620a"
 uuid = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
-version = "1.64.0"
+version = "1.65.0"
 
 [[deps.SciMLExpectations]]
 deps = ["DiffEqBase", "Distributions", "Integrals", "KernelDensity", "LinearAlgebra", "Parameters", "Random", "RecursiveArrayTools", "Reexport", "StaticArrays", "Statistics", "Zygote"]
 git-tree-sha1 = "2c0fa2c3a9f4c56a68a2d6bb1c4d4196bd3c7927"
-repo-rev = "master"
-repo-url = "https://github.com/SciML/SciMLExpectations.jl.git"
 uuid = "afe9f18d-7609-4d0e-b7b7-af0cb72b8ea8"
 version = "2.0.0"
 
@@ -5151,12 +5149,6 @@ git-tree-sha1 = "aaa019a946650b563db38b9d990cb2580c1fa71a"
 uuid = "b5612192-2639-5dc1-abfe-fbedd65fab29"
 version = "0.8.1"
 
-[[deps.Sophon]]
-deps = ["Adapt", "CUDA", "ChainRulesCore", "ComponentArrays", "DomainSets", "ForwardDiff", "GPUArrays", "GPUArraysCore", "LRUCache", "LinearAlgebra", "Lux", "Memoize", "NNlib", "NNlibCUDA", "NeuralPDE", "Optimisers", "Optimization", "OptimizationOptimisers", "ParameterSchedulers", "QuasiMonteCarlo", "Random", "RuntimeGeneratedFunctions", "SciMLBase", "Sobol", "StaticArraysCore", "StatsBase", "Symbolics"]
-git-tree-sha1 = "e6d07852a0ca4b89e9724fcf00cb973bc4a761e6"
-uuid = "077df616-1c15-4d29-b519-7542a62df138"
-version = "0.3.7"
-
 [[deps.SortingAlgorithms]]
 deps = ["DataStructures"]
 git-tree-sha1 = "b3363d7460f7d098ca0912c69b082f75625d7508"
@@ -5169,9 +5161,9 @@ uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 [[deps.SparseDiffTools]]
 deps = ["Adapt", "ArrayInterfaceCore", "ArrayInterfaceStaticArrays", "Compat", "DataStructures", "FiniteDiff", "ForwardDiff", "Graphs", "LinearAlgebra", "Requires", "SparseArrays", "StaticArrays", "VertexSafeGraphs"]
-git-tree-sha1 = "28e9ac44d4f4d6250d7e95b14db76b0cd237f5cb"
+git-tree-sha1 = "472216c5af9f2f1fce02b760651fe024c75187bd"
 uuid = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
-version = "1.28.0"
+version = "1.29.0"
 
 [[deps.SparseMatricesCOO]]
 deps = ["LinearAlgebra", "SparseArrays", "Test", "UnicodePlots"]
@@ -5527,12 +5519,10 @@ uuid = "78aadeae-fbc0-11eb-17b6-c7ec0477ba9e"
 version = "0.8.6"
 
 [[deps.SymbolicRegression]]
-deps = ["Distributed", "JSON3", "LineSearches", "LinearAlgebra", "LossFunctions", "Optim", "Pkg", "PreallocationTools", "Printf", "Random", "Reexport", "SpecialFunctions", "SymbolicUtils", "TOML", "Zygote"]
-git-tree-sha1 = "f7c13c8a42f0aa10329f30fffa3071560c7f402b"
-repo-rev = "master"
-repo-url = "https://github.com/Song921012/SymbolicRegression.jl.git"
+deps = ["Distributed", "DynamicExpressions", "JSON3", "LineSearches", "LossFunctions", "Optim", "Pkg", "Printf", "Random", "Reexport", "SpecialFunctions", "StatsBase", "SymbolicUtils", "TOML"]
+git-tree-sha1 = "dadc673eaab3bfc70034a85f1d7535d7fdc18055"
 uuid = "8254be44-1295-4e6a-a16d-46603ac705cb"
-version = "0.12.5"
+version = "0.13.1"
 
 [[deps.SymbolicUtils]]
 deps = ["AbstractTrees", "Bijections", "ChainRulesCore", "Combinatorics", "ConstructionBase", "DataStructures", "DocStringExtensions", "DynamicPolynomials", "IfElse", "LabelledArrays", "LinearAlgebra", "Metatheory", "MultivariatePolynomials", "NaNMath", "Setfield", "SparseArrays", "SpecialFunctions", "StaticArrays", "TermInterface", "TimerOutputs"]
