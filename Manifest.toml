@@ -840,9 +840,9 @@ uuid = "d842c3ba-07a1-494f-bbec-f5741b0a3e98"
 version = "0.3.1"
 
 [[deps.CommonSolve]]
-git-tree-sha1 = "6b6865d59ddb3fe52c4792998543931dede2cd8e"
+git-tree-sha1 = "9441451ee712d1aec22edad62db1a9af3dc8d852"
 uuid = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
-version = "0.2.2"
+version = "0.2.3"
 
 [[deps.CommonSubexpressions]]
 deps = ["MacroTools", "Test"]
@@ -3509,15 +3509,15 @@ uuid = "99f44e22-a591-53d1-9472-aa23ef4bd671"
 version = "1.1.0"
 
 [[deps.MuladdMacro]]
-git-tree-sha1 = "c6190f9a7fc5d9d5915ab29f2134421b12d24a68"
+git-tree-sha1 = "85a6393ea91174f0d220351fb308f6ef6657336d"
 uuid = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
-version = "0.2.2"
+version = "0.2.3"
 
 [[deps.MultiScaleArrays]]
 deps = ["DiffEqBase", "FiniteDiff", "ForwardDiff", "LinearAlgebra", "OrdinaryDiffEq", "Random", "RecursiveArrayTools", "SparseDiffTools", "Statistics", "StochasticDiffEq", "TreeViews"]
-git-tree-sha1 = "cc6885300352ad00c5fd500f4e4de3ef253d846f"
+git-tree-sha1 = "7e722a391db5862edfaae41ad556d73c8499b82f"
 uuid = "f9640e96-87f6-5992-9c3b-0743c6a49ffa"
-version = "1.9.1"
+version = "1.10.0"
 
 [[deps.MultistartOptimization]]
 deps = ["ArgCheck", "DocStringExtensions", "NLopt", "Parameters", "Requires", "Sobol"]
@@ -4385,9 +4385,9 @@ version = "0.7.48"
 
 [[deps.PoissonRandom]]
 deps = ["Random"]
-git-tree-sha1 = "9ac1bb7c15c39620685a3a7babc0651f5c64c35b"
+git-tree-sha1 = "f14b2683041a3ecfbe3e29e955ea836165115d11"
 uuid = "e409e4f3-bfea-5376-8464-e040bb5c01ab"
-version = "0.4.1"
+version = "0.4.2"
 
 [[deps.PolyChaos]]
 deps = ["AdaptiveRejectionSampling", "Combinatorics", "Distributions", "FFTW", "GaussQuadrature", "LinearAlgebra", "QuadGK", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
@@ -4605,9 +4605,9 @@ version = "5.15.3+1"
 
 [[deps.QuadGK]]
 deps = ["DataStructures", "LinearAlgebra"]
-git-tree-sha1 = "3c009334f45dfd546a16a57960a821a1a023d241"
+git-tree-sha1 = "97aa253e65b784fd13e83774cadc95b38011d734"
 uuid = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
-version = "2.5.0"
+version = "2.6.0"
 
 [[deps.QuadraticModels]]
 deps = ["LinearAlgebra", "LinearOperators", "NLPModels", "NLPModelsModifiers", "Requires", "SolverCore", "SparseArrays", "SparseMatricesCOO"]
@@ -4875,9 +4875,9 @@ version = "1.0.0"
 
 [[deps.RuntimeGeneratedFunctions]]
 deps = ["ExprTools", "SHA", "Serialization"]
-git-tree-sha1 = "cdc1e4278e91a6ad530770ebb327f9ed83cf10c4"
+git-tree-sha1 = "e52b5fdd011736509507e69d5d653d7366c6a8ae"
 uuid = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
-version = "0.5.3"
+version = "0.5.4"
 
 [[deps.SCALAPACK32_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "MPICH_jll", "MPIPreferences", "MPItrampoline_jll", "MicrosoftMPI_jll", "OpenBLAS32_jll", "OpenMPI_jll", "Pkg", "TOML"]
@@ -5522,9 +5522,9 @@ version = "7.2.1"
 
 [[deps.SymbolicNumericIntegration]]
 deps = ["DataDrivenDiffEq", "DataStructures", "LinearAlgebra", "Statistics", "SymbolicUtils", "Symbolics"]
-git-tree-sha1 = "47b7eb7cb994165072faffcc8250611362852601"
+git-tree-sha1 = "4214618ffbd3e248f842198d9e6a5ed121722937"
 uuid = "78aadeae-fbc0-11eb-17b6-c7ec0477ba9e"
-version = "0.8.5"
+version = "0.8.6"
 
 [[deps.SymbolicRegression]]
 deps = ["Distributed", "JSON3", "LineSearches", "LinearAlgebra", "LossFunctions", "Optim", "Pkg", "PreallocationTools", "Printf", "Random", "Reexport", "SpecialFunctions", "SymbolicUtils", "TOML", "Zygote"]
