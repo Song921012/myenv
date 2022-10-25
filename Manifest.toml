@@ -377,9 +377,9 @@ version = "0.4.6"
 
 [[deps.AxisKeys]]
 deps = ["AbstractFFTs", "ChainRulesCore", "CovarianceEstimation", "IntervalSets", "InvertedIndices", "LazyStack", "LinearAlgebra", "NamedDims", "OffsetArrays", "Statistics", "StatsBase", "Tables"]
-git-tree-sha1 = "d1f8136209ba5e6be961fb54ebe733e7aed5c836"
+git-tree-sha1 = "9ee0506dced2ef6795a4dc1cf69a3508fa67421b"
 uuid = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
-version = "0.2.9"
+version = "0.2.10"
 
 [[deps.BFloat16s]]
 deps = ["LinearAlgebra", "Printf", "Random", "Test"]
@@ -3560,9 +3560,9 @@ version = "0.3.0"
 
 [[deps.NFFT]]
 deps = ["AbstractNFFTs", "BasicInterpolators", "Distributed", "FFTW", "FLoops", "LinearAlgebra", "Printf", "Random", "Reexport", "SnoopPrecompile", "SparseArrays", "SpecialFunctions"]
-git-tree-sha1 = "a51be6aa20019e21ad41ff75e658324773163482"
+git-tree-sha1 = "5c0b972bf8700cfea7fc41b2ad5ca782c356366f"
 uuid = "efe261a4-0d2b-5849-be55-fc731d526b0d"
-version = "0.13.1"
+version = "0.13.2"
 
 [[deps.NLPModels]]
 deps = ["FastClosures", "LinearAlgebra", "LinearOperators", "Printf", "SparseArrays"]
@@ -4615,9 +4615,9 @@ version = "0.9.3"
 
 [[deps.QuasiMonteCarlo]]
 deps = ["Distributions", "LatinHypercubeSampling", "LatticeRules", "LinearAlgebra", "Primes", "Random", "Sobol", "StatsBase"]
-git-tree-sha1 = "5caa2edfd457ee2c24500b7d6998e0b6d9bb11e9"
+git-tree-sha1 = "5faa26673c356e87460457f7e5002eb6467cde9e"
 uuid = "8a4e6c94-4038-4cdc-81c3-7e6ffdb2a71b"
-version = "0.2.16"
+version = "0.2.17"
 
 [[deps.Quaternions]]
 deps = ["LinearAlgebra", "Random"]
@@ -4959,9 +4959,9 @@ version = "0.3.3"
 
 [[deps.SciMLBase]]
 deps = ["ArrayInterfaceCore", "CommonSolve", "ConstructionBase", "Distributed", "DocStringExtensions", "EnumX", "FunctionWrappersWrappers", "IteratorInterfaceExtensions", "LinearAlgebra", "Logging", "Markdown", "Preferences", "RecipesBase", "RecursiveArrayTools", "RuntimeGeneratedFunctions", "StaticArraysCore", "Statistics", "Tables"]
-git-tree-sha1 = "556d521bb57a9cc232a5c60a6dc4feccd64a620a"
+git-tree-sha1 = "3a396522ce4a81758cac1481bd596c3059a8e69c"
 uuid = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
-version = "1.65.0"
+version = "1.66.0"
 
 [[deps.SciMLExpectations]]
 deps = ["DiffEqBase", "Distributions", "Integrals", "KernelDensity", "LinearAlgebra", "Parameters", "Random", "RecursiveArrayTools", "Reexport", "StaticArrays", "Statistics", "Zygote"]
@@ -5188,7 +5188,7 @@ version = "2.1.7"
 
 [[deps.SpecialMatrices]]
 deps = ["LinearAlgebra", "Polynomials"]
-git-tree-sha1 = "47e7f5f8ade7e5b51ed115be2f4d7f845a61f47e"
+git-tree-sha1 = "a04c947dea8a3fe6781ba0dcf2386cfa58e487b2"
 repo-rev = "master"
 repo-url = "https://github.com/JuliaMatrices/SpecialMatrices.jl.git"
 uuid = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
