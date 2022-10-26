@@ -77,6 +77,9 @@ sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
 sudo apt install mpich
 
+# nix
+sh <(curl -L https://nixos.org/nix/install) --daemon
+
 # Install R
 sudo apt update -qq
 sudo apt install --no-install-recommends software-properties-common dirmngr

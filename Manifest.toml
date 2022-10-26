@@ -1450,9 +1450,9 @@ version = "0.6.1"
 
 [[deps.EvoTrees]]
 deps = ["BSON", "CUDA", "CategoricalArrays", "Distributions", "LoopVectorization", "MLJModelInterface", "NetworkLayout", "Random", "RecipesBase", "Statistics", "StatsBase", "Tables"]
-git-tree-sha1 = "d91d5eec99f2489b10ba795d980f120fb01f7287"
+git-tree-sha1 = "966e236ded10551a44b6e25ce4bbea4c12be1557"
 uuid = "f6006082-12f8-11e9-0c9c-0d5d367ab1e5"
-version = "0.12.3"
+version = "0.12.4"
 
 [[deps.Evolutionary]]
 deps = ["LinearAlgebra", "NLSolversBase", "Random", "StackViews", "Statistics", "UnPack"]
@@ -4119,9 +4119,9 @@ version = "6.29.3"
 
 [[deps.Osi_jll]]
 deps = ["Artifacts", "CoinUtils_jll", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "OpenBLAS32_jll", "Pkg"]
-git-tree-sha1 = "28e0ddebd069f605ab1988ab396f239a3ac9b561"
+git-tree-sha1 = "4f00d103782fb742e50886924eeea2fe722d3f7a"
 uuid = "7da25872-d9ce-5375-a4d3-7a845f58efdd"
-version = "0.10800.600+0"
+version = "0.10800.700+0"
 
 [[deps.P4est]]
 deps = ["CBinding", "MPI", "P4est_jll", "Reexport"]
@@ -4621,9 +4621,9 @@ version = "0.2.17"
 
 [[deps.Quaternions]]
 deps = ["LinearAlgebra", "Random"]
-git-tree-sha1 = "fd78cbfa5f5be5f81a482908f8ccfad611dca9a9"
+git-tree-sha1 = "fcebf40de9a04c58da5073ec09c1c1e95944c79b"
 uuid = "94ee1d12-ae83-5a48-8b1c-48b8ff168ae0"
-version = "0.6.0"
+version = "0.6.1"
 
 [[deps.QuickHeaps]]
 deps = ["ArrayTools", "DataStructures"]
