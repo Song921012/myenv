@@ -532,7 +532,7 @@ knitr, rmarkdown",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "praise","praise","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.0",NA,NA,NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "prettyunits","prettyunits","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.1",NA,NA,NA,NA,"codetools, covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "prismatic","prismatic","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.1",NA,"R (>= 3.2)","graphics, farver (>= 2.0.1), grDevices",NA,"covr, crayon, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"processx","processx","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.7.0",NA,"R (>= 3.4.0)","ps (>= 1.2.0), R6, utils",NA,"callr (>= 3.7.0), cli (>= 3.3.0), codetools, covr, curl,
+"processx","processx","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.8.0",NA,"R (>= 3.4.0)","ps (>= 1.2.0), R6, utils",NA,"callr (>= 3.7.0), cli (>= 3.3.0), codetools, covr, curl,
 debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "profvis","profvis","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.7",NA,"R (>= 3.0)","htmlwidgets (>= 0.3.2), stringr",NA,"knitr, ggplot2, rmarkdown, testthat, devtools, shiny,
 htmltools",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
@@ -806,7 +806,7 @@ testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "xts","xts","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.12.2",NA,"zoo (>= 1.7-12)","methods","zoo","timeSeries, timeDate, tseries, chron, tis, RUnit",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "yaml","yaml","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.3.6",NA,NA,NA,NA,"RUnit",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "zeallot","zeallot","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.0",NA,NA,NA,NA,"testthat, knitr, rmarkdown, purrr, magrittr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"zip","zip","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.1",NA,NA,NA,NA,"covr, processx, R6, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
+"zip","zip","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.2",NA,NA,NA,NA,"covr, processx, R6, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "zoo","zoo","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8-11",NA,"R (>= 3.1.0), stats","utils, graphics, grDevices, lattice (>= 0.20-27)",NA,"AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales,
 stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
 "base","base","/usr/lib/R/library","4.2.1","base",NA,NA,NA,"methods",NA,"Part of R 4.2.1",NA,NA,NA,NA,NA,"4.2.1"

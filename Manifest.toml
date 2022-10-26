@@ -153,9 +153,9 @@ version = "0.1.6"
 
 [[deps.Agents]]
 deps = ["CSV", "DataFrames", "DataStructures", "Distributed", "Downloads", "Graphs", "JLD2", "LazyArtifacts", "LightOSM", "LinearAlgebra", "Pkg", "ProgressMeter", "Random", "Requires", "Scratch", "StatsBase"]
-git-tree-sha1 = "57d59935b1de23d6d09d40b55d415b241e272750"
+git-tree-sha1 = "bdc62917e75fe8f168aea007239449b5061be84b"
 uuid = "46ada45e-f475-11e8-01d0-f70cc89e6671"
-version = "5.5.0"
+version = "5.6.0"
 
 [[deps.AlgebraOfGraphics]]
 deps = ["Colors", "Dates", "Dictionaries", "FileIO", "GLM", "GeoInterface", "GeometryBasics", "GridLayoutBase", "KernelDensity", "Loess", "Makie", "PlotUtils", "PooledArrays", "RelocatableFolders", "StatsBase", "StructArrays", "Tables"]
@@ -1357,9 +1357,9 @@ version = "2.3.0"
 
 [[deps.DynamicalSystemsBase]]
 deps = ["DelayEmbeddings", "ForwardDiff", "LinearAlgebra", "Roots", "SciMLBase", "SimpleDiffEq", "SparseArrays", "StaticArrays", "Statistics"]
-git-tree-sha1 = "104ec4417cc50b0fe4a3fbdb0d2e55cc29261d2b"
+git-tree-sha1 = "698c3ec275cf0e0784bdfdaf5fb30ec551fa5142"
 uuid = "6e36e845-645a-534a-86f2-f5d4aa5a06b4"
-version = "2.9.0"
+version = "2.9.1"
 
 [[deps.ECOS]]
 deps = ["CEnum", "ECOS_jll", "MathOptInterface"]
