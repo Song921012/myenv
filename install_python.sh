@@ -37,19 +37,25 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyte
 
 conda create -n sr
 conda activate sr
-conda install -c conda-forge fmt=9.1.0 python=3.10.6 eigen boost shogun-cpp armaddilo boost
+conda install -c conda-forge fmt=9.1.0 python=3.10.6 eigen boost shogun-cpp armaddilo boost gsl
 pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv rich pygments sklearn DistanceClassifier pmlb eigency
 ## HROCH feat ellyn pysr pstree bingo pyopern gplearn bayesr ffx
 pip install HROCH ffx git+https://github.com/cavalab/feat.git git+https://github.com/cavalab/ellyn.git pysr pstree pyoperon gplearn git+https://github.com/ying531/MCMC-SymReg.git 
 
 ## deep symbolic regression
-pip install git+https://github.com/brendenpetersen/deep-symbolic-optimization.git#subdirectory=dso
+#pip install --upgrade setuptools pip
+#export CFLAGS="-I $(python -c "import numpy; print(numpy.get_include())") $CFLAGS"
+#pip install git+https://github.com/brendenpetersen/deep-symbolic-optimization.git#subdirectory=dso
 
 ## GP-GOMEA
 myenv
 git clone https://github.com/marcovirgolin/GP-GOMEA.git
 cd GP-GOMEA
 make
+## itea
+myenv
+git clone https://github.com/folivetti/ITEA.git
+cd ITEA
+source install_stack.sh
 cd
-
 conda deactivate

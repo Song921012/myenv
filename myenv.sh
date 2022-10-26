@@ -70,7 +70,7 @@ sudo apt install build-essential
 sudo apt -y install clang lldb lld
 sudo apt-get -y install ninja-build
 sudo apt install cmake
-sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev
+sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libgsl-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev
 libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig libcppad-dev
 sudo apt-get install graphviz pandoc inkscape
 sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
@@ -78,7 +78,10 @@ sudo apt-get install -y gnuplot # gnuplot
 sudo apt install mpich
 
 # nix
-sh <(curl -L https://nixos.org/nix/install) --daemon
+#sh <(curl -L https://nixos.org/nix/install) --daemon
+
+# Haskell
+curl -sSL https://get.haskellstack.org/ | sh
 
 # Install R
 sudo apt update -qq
