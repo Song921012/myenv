@@ -35,4 +35,21 @@ sudo npm install -g hexo
 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
 
+conda create -n sr
+conda activate sr
+conda install -c conda-forge fmt=9.1.0 python=3.10.6 eigen boost shogun-cpp armaddilo boost
+pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv rich pygments sklearn DistanceClassifier pmlb eigency
+## HROCH feat ellyn pysr pstree bingo pyopern gplearn bayesr ffx
+pip install HROCH ffx git+https://github.com/cavalab/feat.git git+https://github.com/cavalab/ellyn.git pysr pstree pyoperon gplearn git+https://github.com/ying531/MCMC-SymReg.git 
 
+## deep symbolic regression
+pip install git+https://github.com/brendenpetersen/deep-symbolic-optimization.git#subdirectory=dso
+
+## GP-GOMEA
+myenv
+git clone https://github.com/marcovirgolin/GP-GOMEA.git
+cd GP-GOMEA
+make
+cd
+
+conda deactivate
