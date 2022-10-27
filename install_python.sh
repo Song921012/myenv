@@ -35,17 +35,18 @@ sudo npm install -g hexo
 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
 
+
+# Symbolic Regression Environment
 conda create -n sr
 conda activate sr
-conda install -c conda-forge fmt=9.1.0 python=3.10.6 eigen boost shogun-cpp armaddilo boost gsl
-pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv rich pygments sklearn DistanceClassifier pmlb eigency
+conda install -c conda-forge fmt=9.1.0 python eigen boost shogun-cpp armaddilo boost gsl py-xgboost mpi4py
+pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv rich pygments sklearn DistanceClassifier pmlb eigency seaborn deap icecream
+## pip3 install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.14.0-py3-none-any.whl
+## xgboost, randomforest, lgbm, adaboost
 ## HROCH feat ellyn pysr pstree bingo pyopern gplearn bayesr ffx
-pip install HROCH ffx git+https://github.com/cavalab/feat.git git+https://github.com/cavalab/ellyn.git pysr pstree pyoperon gplearn git+https://github.com/ying531/MCMC-SymReg.git 
+pip install HROCH ffx lightgbm git+https://github.com/cavalab/feat.git git+https://github.com/cavalab/ellyn.git pysr git+https://github.com/hengzhe-zhang/PS-Tree.git pyoperon gplearn git+https://github.com/ying531/MCMC-SymReg.git bingo-nasa
 
-## deep symbolic regression
-#pip install --upgrade setuptools pip
-#export CFLAGS="-I $(python -c "import numpy; print(numpy.get_include())") $CFLAGS"
-#pip install git+https://github.com/brendenpetersen/deep-symbolic-optimization.git#subdirectory=dso
+## deep symbolic regression(hard to install)
 
 ## GP-GOMEA
 myenv
@@ -59,3 +60,23 @@ cd ITEA
 source install_stack.sh
 cd
 conda deactivate
+
+# Deep Symbolic Regression Environment
+conda create -n deepsr
+conda activate deepsr
+conda install -c conda-forge python=3.6
+myenv
+if [ -d deep-symbolic-regression ] ; then
+    rm -rf deep-symbolic-regression
+fi
+
+git clone https://github.com/lacava/deep-symbolic-regression 
+
+cd deep-symbolic-regression
+
+pip install -r requirements.txt
+# export CFLAGS="-I $(python -c "import numpy; print(numpy.get_include())") $CFLAGS" # Needed on Mac to prevent fatal error: 'numpy/arrayobject.h' file not found
+pip install ./dsr # Install DSR package
+pip install jupyter flake8 pylint yapf
+conda deactivate
+cd
