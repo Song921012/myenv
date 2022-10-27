@@ -13,7 +13,7 @@ The easiest way is run `AllInOne.sh` (remember to revise python and julia versio
 - 安装fenics包后,更新fenicsup.sh. 更新用fenicsup
 - (平时不用维护)julia包更新用juliaup,juliadevup
 - (平时不用维护)R包更新用rup
-- 其它包和同步用othersup
+- 其它包和同步用othersup, gitup.sh
 
 ## 先把中文路径改为英文路径
 
@@ -129,6 +129,9 @@ HSL系列软件
   [home · ralna/GALAHAD Wiki](https://github.com/ralna/GALAHAD/wiki)
   [raw.githubusercontent.com/ralna/GALAHAD/master/doc/README](https://raw.githubusercontent.com/ralna/GALAHAD/master/doc/README)
 
+从官网下载docker
+[Install Docker Desktop on Ubuntu | Docker Documentation](https://docs.docker.com/desktop/install/ubuntu/)
+
 # 一些疑难杂症
 
 - dpkg依赖问题
@@ -138,9 +141,6 @@ sudo dpkg -i
 sudo apt install -y
 
 sudo apt --fix-broken install
-
-
-
 
 - tlmgr问题
 
@@ -286,4 +286,5 @@ source firedrakeup.sh
 configure vscode neovim
 
 ## texstudioconfig.txs
+
 configure texstudio
