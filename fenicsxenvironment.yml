@@ -98,7 +98,7 @@ dependencies:
   - libllvm14=14.0.6=he0ac6c6_0
   - libnetcdf=4.8.1=mpi_mpich_hcdf9059_2
   - libnghttp2=1.46.0=hce63b2e_0
-  - libnsl=2.0.0=h7f98852_0
+  - libnsl=2.0.0=h5eee18b_0
   - libogg=1.3.5=h27cfd23_1
   - libopenblas=0.3.21=h043d6bf_0
   - libopus=1.3.1=h7b6447c_0
@@ -165,7 +165,7 @@ dependencies:
   - python_abi=3.10=2_cp310
   - pyvista=0.36.1=pyhd8ed1ab_0
   - qt-main=5.15.6=hc525480_0
-  - readline=8.1.2=h7f8727e_1
+  - readline=8.2=h5eee18b_0
   - scalapack=2.2.0=hd931219_1
   - scooby=0.6.0=pyhd8ed1ab_0
   - scotch=6.0.9=hb2e6521_2

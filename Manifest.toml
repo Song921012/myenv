@@ -1326,10 +1326,10 @@ uuid = "191a621a-6537-11e9-281d-650236a99e60"
 version = "0.5.6"
 
 [[deps.DynamicExpressions]]
-deps = ["LinearAlgebra", "Printf", "Random", "Reexport", "SymbolicUtils", "TOML", "Zygote"]
-git-tree-sha1 = "9ec20dfac94820a74ce66e09280e84c90c976ebf"
+deps = ["LinearAlgebra", "LoopVectorization", "Printf", "Random", "Reexport", "SymbolicUtils", "TOML", "Zygote"]
+git-tree-sha1 = "3ccf3be416a150b3222875d558ec23a42cf5aae9"
 uuid = "a40a106e-89c9-4ca8-8020-a735e8728b6b"
-version = "0.3.0"
+version = "0.3.1"
 
 [[deps.DynamicHMC]]
 deps = ["ArgCheck", "DocStringExtensions", "LinearAlgebra", "LogDensityProblems", "Parameters", "ProgressMeter", "Random", "Statistics", "TensorCast"]
@@ -3053,9 +3053,9 @@ version = "0.12.1"
 
 [[deps.Lux]]
 deps = ["Adapt", "CUDA", "ChainRulesCore", "ComponentArrays", "FillArrays", "Functors", "LinearAlgebra", "LuxLib", "Markdown", "NNlib", "Optimisers", "Preferences", "Random", "Requires", "Setfield", "SnoopPrecompile", "SparseArrays", "Statistics", "Zygote"]
-git-tree-sha1 = "ba9434439169c6c7385ff99135a5c63d317c8595"
+git-tree-sha1 = "4804c69bc223230163a9539dd95ca042500564ea"
 uuid = "b2108857-7c20-44ae-9111-449ecde12c47"
-version = "0.4.31"
+version = "0.4.32"
 
 [[deps.LuxLib]]
 deps = ["CUDA", "CUDAKernels", "ChainRulesCore", "KernelAbstractions", "Markdown", "NNlib", "NNlibCUDA", "Random", "Statistics"]
