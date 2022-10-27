@@ -2083,9 +2083,9 @@ version = "2.8.1+1"
 
 [[deps.Hecke]]
 deps = ["AbstractAlgebra", "Dates", "Distributed", "InteractiveUtils", "LazyArtifacts", "Libdl", "LinearAlgebra", "Markdown", "Nemo", "Pkg", "Printf", "Profile", "Random", "RandomExtensions", "Requires", "Serialization", "SparseArrays", "Test"]
-git-tree-sha1 = "a3d5ed0154fe6cf454546442be4e68a3f00dff77"
+git-tree-sha1 = "03a27c769e7e044aac0064200b8ea738dc58bd78"
 uuid = "3e1990a7-5d81-5526-99ce-9ba3ff248f21"
-version = "0.14.13"
+version = "0.15.5"
 
 [[deps.HiGHS]]
 deps = ["HiGHS_jll", "MathOptInterface", "SparseArrays"]
@@ -3462,9 +3462,9 @@ version = "0.7.4"
 
 [[deps.ModelingToolkit]]
 deps = ["AbstractTrees", "ArrayInterfaceCore", "Combinatorics", "ConstructionBase", "DataStructures", "DiffEqBase", "DiffEqCallbacks", "DiffRules", "Distributed", "Distributions", "DocStringExtensions", "DomainSets", "ForwardDiff", "FunctionWrappersWrappers", "Graphs", "IfElse", "InteractiveUtils", "JuliaFormatter", "JumpProcesses", "LabelledArrays", "Latexify", "Libdl", "LinearAlgebra", "MacroTools", "NaNMath", "NonlinearSolve", "RecursiveArrayTools", "Reexport", "RuntimeGeneratedFunctions", "SciMLBase", "Serialization", "Setfield", "SparseArrays", "SpecialFunctions", "StaticArrays", "SymbolicUtils", "Symbolics", "UnPack", "Unitful"]
-git-tree-sha1 = "816536b98154a61b7d9c3cfea6a52d80a982fd34"
+git-tree-sha1 = "85dfbbe6919deeb3a58f5d79c09e8b31b5d7515e"
 uuid = "961ee093-0014-501f-94e3-6117800e7a78"
-version = "8.29.1"
+version = "8.30.0"
 
 [[deps.ModernGL]]
 deps = ["Libdl"]
@@ -5414,9 +5414,9 @@ version = "1.10.0"
 
 [[deps.StructuralIdentifiability]]
 deps = ["AbstractAlgebra", "BenchmarkTools", "DataStructures", "Dates", "Groebner", "Hecke", "IterTools", "LinearAlgebra", "Logging", "MacroTools", "ModelingToolkit", "Nemo", "Primes", "SpecialFunctions", "Test", "TestSetExtensions"]
-git-tree-sha1 = "7b1f9e1e484ffef1e1dfb7efdd6f2594140ab8ac"
+git-tree-sha1 = "01a9db16c5ca46e59ee6c5c853fa52b8fb5cb944"
 uuid = "220ca800-aa68-49bb-acd8-6037fa93a544"
-version = "0.4.1"
+version = "0.4.2"
 
 [[deps.Stuffing]]
 deps = ["Random"]

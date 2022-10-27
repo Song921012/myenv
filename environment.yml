@@ -295,7 +295,7 @@ dependencies:
     - pints==0.4.0
     - pip==22.3
     - platformdirs==2.5.2
-    - plotly==5.10.0
+    - plotly==5.11.0
     - plotly-express==0.4.1
     - pluginbase==1.0.1
     - ply==3.11
