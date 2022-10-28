@@ -4262,7 +4262,7 @@ version = "0.3.0"
 
 [[deps.Percival]]
 deps = ["JSOSolvers", "Krylov", "LinearAlgebra", "LinearOperators", "Logging", "NLPModels", "NLPModelsModifiers", "SolverCore", "SolverTools"]
-git-tree-sha1 = "b765a5c4e1fd52eb35d4b75783c27cc96516c11a"
+git-tree-sha1 = "94643bb2a7c159d898859c72d3b43281dca64291"
 repo-rev = "main"
 repo-url = "https://github.com/JuliaSmoothOptimizers/Percival.jl.git"
 uuid = "01435c0c-c90d-11e9-3788-63660f8fbccc"
