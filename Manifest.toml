@@ -2,7 +2,7 @@
 
 julia_version = "1.8.2"
 manifest_format = "2.0"
-project_hash = "d0944ddb89f2071bc47b2dd71c7953640bdd77c9"
+project_hash = "f401b661d100f9cb1414cdb0c9e2630d2c478c0f"
 
 [[deps.ADNLPModels]]
 deps = ["ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays"]
@@ -1327,9 +1327,9 @@ version = "0.5.6"
 
 [[deps.DynamicExpressions]]
 deps = ["LinearAlgebra", "LoopVectorization", "Printf", "Random", "Reexport", "SymbolicUtils", "TOML", "Zygote"]
-git-tree-sha1 = "3ccf3be416a150b3222875d558ec23a42cf5aae9"
+git-tree-sha1 = "18c87bc39eb745310fbcd8a7d242e5f8b51bd76e"
 uuid = "a40a106e-89c9-4ca8-8020-a735e8728b6b"
-version = "0.3.1"
+version = "0.3.2"
 
 [[deps.DynamicHMC]]
 deps = ["ArgCheck", "DocStringExtensions", "LinearAlgebra", "LogDensityProblems", "Parameters", "ProgressMeter", "Random", "Statistics", "TensorCast"]
@@ -2346,9 +2346,9 @@ version = "0.3.1"
 
 [[deps.InlineStrings]]
 deps = ["Parsers"]
-git-tree-sha1 = "db619c421554e1e7e07491b85a8f4b96b3f04ca0"
+git-tree-sha1 = "a62189e59d33e1615feb7a48c0bea7c11e4dc61d"
 uuid = "842dd82b-1e85-43dc-bf29-5d0ee9dffc48"
-version = "1.2.2"
+version = "1.3.0"
 
 [[deps.InplaceOps]]
 deps = ["LinearAlgebra", "Test"]
@@ -3227,18 +3227,6 @@ deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifac
 git-tree-sha1 = "b3f9e42685b4ad614eca0b44bd863cd41b1c86ea"
 uuid = "f1f71cc9-e9ae-5b93-9b94-4fe0e1ad3748"
 version = "5.0.2+1"
-
-[[deps.MUMPS]]
-deps = ["Libdl", "LinearAlgebra", "MPI", "MUMPS_jll", "SparseArrays"]
-git-tree-sha1 = "385f671b43f45990a544d6a4c2f21f8b6c14de55"
-uuid = "55d2b088-9f4e-11e9-26c0-150b02ea6a46"
-version = "1.3.0"
-
-[[deps.MUMPS_jll]]
-deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "METIS_jll", "MPICH_jll", "MPIPreferences", "MPItrampoline_jll", "MicrosoftMPI_jll", "OpenBLAS32_jll", "OpenMPI_jll", "PARMETIS_jll", "Pkg", "SCALAPACK32_jll", "SCOTCH_jll", "TOML"]
-git-tree-sha1 = "99f5791b81e59aad952d0629b066cde87a1e81f9"
-uuid = "ca64183c-ec4f-5579-95d5-17e128c21291"
-version = "5.5.1+1"
 
 [[deps.MUMPS_seq_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "METIS_jll", "OpenBLAS32_jll", "Pkg"]
@@ -4135,12 +4123,6 @@ git-tree-sha1 = "d4b48fd3ca75a398916c58c1e4628bf0ce11a7b6"
 uuid = "6b5a15aa-cf52-5330-8376-5e5d90283449"
 version = "2.8.1+0"
 
-[[deps.PARMETIS_jll]]
-deps = ["Artifacts", "JLLWrappers", "LazyArtifacts", "Libdl", "METIS_jll", "MPICH_jll", "MPIPreferences", "MPItrampoline_jll", "MicrosoftMPI_jll", "OpenMPI_jll", "Pkg", "TOML"]
-git-tree-sha1 = "c1a6c4b4667445fda5b64647994d8f21a101e842"
-uuid = "b247a4be-ddc1-5759-8008-7e02fe3dbdaa"
-version = "4.0.5+0"
-
 [[deps.PCRE2_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "efcefdf7-47ab-520b-bdef-62a2eaa19f15"
@@ -4876,18 +4858,6 @@ deps = ["ExprTools", "SHA", "Serialization"]
 git-tree-sha1 = "50314d2ef65fce648975a8e80ae6d8409ebbf835"
 uuid = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
 version = "0.5.5"
-
-[[deps.SCALAPACK32_jll]]
-deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "MPICH_jll", "MPIPreferences", "MPItrampoline_jll", "MicrosoftMPI_jll", "OpenBLAS32_jll", "OpenMPI_jll", "Pkg", "TOML"]
-git-tree-sha1 = "36312ec64bf64a4120ac2a47438f5775ea28abc4"
-uuid = "aabda75e-bfe4-5a37-92e3-ffe54af3c273"
-version = "2.2.1+0"
-
-[[deps.SCOTCH_jll]]
-deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg", "Zlib_jll"]
-git-tree-sha1 = "7110b749766853054ce8a2afaa73325d72d32129"
-uuid = "a8d0f55d-b80e-548d-aff6-1a04c175f0f9"
-version = "6.1.3+0"
 
 [[deps.SCS]]
 deps = ["MathOptInterface", "Requires", "SCS_GPU_jll", "SCS_jll", "SparseArrays"]

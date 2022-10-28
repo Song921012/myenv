@@ -20,6 +20,9 @@ ln -f ~/.config/nvim/init.vim ~/myenv/init.vim
 cp -f ~/myenv/starship.toml ~/.config
 ln -f ~/.config/starship.toml ~/myenv/starship.toml
 ## Install miniconda
+zsh
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sh Miniconda3-latest-Linux-x86_64.sh
 conda update conda
 conda install python=$pythonversion
 ## Install texlive

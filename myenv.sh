@@ -77,6 +77,9 @@ sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
 sudo apt install mpich
 
+# Miniconda
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sh Miniconda3-latest-Linux-x86_64.sh
 # nix
 #sh <(curl -L https://nixos.org/nix/install) --daemon
 
