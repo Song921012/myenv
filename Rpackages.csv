@@ -513,8 +513,8 @@ memoise, purrr, ragg, rlang (>= 1.0.0), rmarkdown (>=
 yaml",NA,"covr, diffviewer, evaluate, htmltools, htmlwidgets, knitr,
 lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect,
 rstudioapi, rticles, sass, testthat (>= 3.1.3), tools",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"pkgload","pkgload","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.0",NA,"R (>= 3.4.0)","cli (>= 3.3.0), crayon, desc, fs, glue, methods, rlang (>=
-1.0.3), rprojroot, utils, withr (>= 2.4.3)",NA,"bitops, covr, mathjaxr, pak, pkgbuild, Rcpp, remotes,
+"pkgload","pkgload","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.1",NA,"R (>= 3.4.0)","cli (>= 3.3.0), crayon, desc, fs, glue, methods, rlang (>=
+1.0.3), rprojroot, utils, withr (>= 2.4.3)",NA,"bitops, covr, mathjaxr, mockr, pak, pkgbuild, Rcpp, remotes,
 rstudioapi, testthat (>= 3.1.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
 "pkgsearch","pkgsearch","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.1.2",NA,NA,"curl, jsonlite, parsedate (>= 1.3.0), prettyunits",NA,"mockery, covr, memoise, pillar, pingr (>= 2.0.0), rstudioapi,
 shiny, shinyjs, shinyWidgets, testthat (>= 2.1.0), whoami",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
