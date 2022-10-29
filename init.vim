@@ -60,6 +60,8 @@ Plug 'williamboman/nvim-lsp-installer'
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
+Plug 'nvim-tree/nvim-web-devicons' " optional, for file icons
+Plug 'nvim-tree/nvim-tree.lua'
 call plug#end()
 
 
