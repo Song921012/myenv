@@ -15,7 +15,7 @@ dependencies:
   - boost-cpp=1.74.0=h75c5d50_8
   - bzip2=1.0.8=h7b6447c_0
   - c-ares=1.18.1=h7f8727e_0
-  - ca-certificates=2022.07.19=h06a4308_0
+  - ca-certificates=2022.10.11=h06a4308_0
   - certifi=2022.9.24=py310h06a4308_0
   - cffi=1.15.1=py310h74dc2b5_0
   - curl=7.84.0=h5eee18b_0
@@ -169,7 +169,7 @@ dependencies:
   - scalapack=2.2.0=hd931219_1
   - scooby=0.6.0=pyhd8ed1ab_0
   - scotch=6.0.9=hb2e6521_2
-  - setuptools=63.4.1=py310h06a4308_0
+  - setuptools=65.4.0=py310h06a4308_0
   - slepc=3.17.1=real_ha2e80f3_102
   - slepc4py=3.17.1=real_h7df52cc_103
   - snappy=1.1.9=h295c915_0
