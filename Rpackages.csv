@@ -409,7 +409,7 @@ spdep, testthat (>= 2.1.0)",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.1"
 grDevices",NA,"rgeos (>= 0.1-8), spatstat.geom (>= 1.65-0), PBSmapping,
 maps, RColorBrewer, raster, polyclip, plotrix, spatstat.linnet
 (>= 1.65-3), spatstat.utils (>= 1.19.0), spatstat (>= 2.0-0)","gpclib","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
-"markdown","markdown","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2",NA,"R (>= 2.11.1)","utils, xfun, mime (>= 0.3)",NA,"knitr, RCurl",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.1"
+"markdown","markdown","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3",NA,"R (>= 2.11.1)","utils, commonmark, xfun, mime (>= 0.3)",NA,"knitr, rmarkdown, yaml, RCurl",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.1"
 "MASS","MASS","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","7.3-58.1","recommended","R (>= 3.3.0), grDevices, graphics, stats, utils","methods",NA,"lattice, nlme, nnet, survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
 "Matrix","Matrix","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.5-1","recommended","R (>= 3.5.0)","methods, graphics, grid, stats, utils, lattice",NA,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc, igraph, maptools, sp,
 spdep","GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.2.1"
