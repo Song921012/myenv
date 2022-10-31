@@ -1110,9 +1110,9 @@ version = "0.1.2"
 
 [[deps.DelayDiffEq]]
 deps = ["ArrayInterface", "DataStructures", "DiffEqBase", "LinearAlgebra", "Logging", "NonlinearSolve", "OrdinaryDiffEq", "Printf", "RecursiveArrayTools", "Reexport", "SciMLBase", "UnPack"]
-git-tree-sha1 = "02685529c5b22478e50c981d679f12d5e03808c6"
+git-tree-sha1 = "b8aab9f89afbef5b7f50ea5030ccc1629e2a18c2"
 uuid = "bcd4f6db-9728-5f36-b5f7-82caef46ccdb"
-version = "5.38.2"
+version = "5.38.3"
 
 [[deps.DelayEmbeddings]]
 deps = ["Distances", "Distributions", "LinearAlgebra", "Neighborhood", "Random", "StaticArrays", "Statistics", "StatsBase"]
@@ -2113,9 +2113,9 @@ version = "0.5.2"
 
 [[deps.HostCPUFeatures]]
 deps = ["BitTwiddlingConvenienceFunctions", "IfElse", "Libdl", "Static"]
-git-tree-sha1 = "b7b88a4716ac33fe31d6556c02fc60017594343c"
+git-tree-sha1 = "d076c069de9afda45e379f4be46f1f54bdf37ca9"
 uuid = "3e5b6fbb-0976-4d2c-9146-d79de83f2fb0"
-version = "0.1.8"
+version = "0.1.9"
 
 [[deps.HybridArrays]]
 deps = ["LinearAlgebra", "Requires", "StaticArrays"]
@@ -3254,9 +3254,9 @@ version = "0.5.1"
 
 [[deps.Manifolds]]
 deps = ["Colors", "Distributions", "Einsum", "Graphs", "HybridArrays", "Kronecker", "LinearAlgebra", "ManifoldsBase", "Markdown", "MatrixEquations", "Quaternions", "Random", "RecipesBase", "RecursiveArrayTools", "Requires", "SimpleWeightedGraphs", "SpecialFunctions", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "f375185c150dd574dfd4bcff41bdb8de54d3247c"
+git-tree-sha1 = "e7b756b38eef7b83cf0c293e943c9cbc668e8ba9"
 uuid = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
-version = "0.8.36"
+version = "0.8.37"
 
 [[deps.ManifoldsBase]]
 deps = ["LinearAlgebra", "Markdown"]
@@ -3397,9 +3397,9 @@ version = "0.4.11"
 
 [[deps.MethodOfLines]]
 deps = ["Combinatorics", "DiffEqBase", "DomainSets", "IfElse", "Interpolations", "Latexify", "LinearAlgebra", "ModelingToolkit", "NonlinearSolve", "OrdinaryDiffEq", "SafeTestsets", "SciMLBase", "StableRNGs", "StaticArrays", "SymbolicUtils", "Symbolics", "TermInterface", "Test"]
-git-tree-sha1 = "a0e5a8f2d89b5e3115688e738ba26f8d61edf866"
+git-tree-sha1 = "10310ddafa514e118e69443bd3d239c507ff3942"
 uuid = "94925ecb-adb7-4558-8ed8-f975c56a0bf4"
-version = "0.5.1"
+version = "0.6.0"
 
 [[deps.MicroCollections]]
 deps = ["BangBang", "InitialValues", "Setfield"]

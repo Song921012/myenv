@@ -24,6 +24,10 @@ sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt update
 sudo apt install fish
 
+sudo add-apt-repository ppa:oguzhaninan/stacer
+sudo apt-get update
+sudo apt-get install stacer
+
 #Install starship
 curl -sS https://starship.rs/install.sh | sh
 sudo add-apt-repository ppa:deadsnakes/ppa
