@@ -450,7 +450,7 @@ dependencies:
     - torchdiffeq==0.2.3
     - torchdyn==1.0.3
     - torchgan==0.1.0
-    - torchmetrics==0.10.1
+    - torchmetrics==0.10.2
     - torchode==0.1.0
     - torchsde==0.2.5
     - torchtyping==0.1.4

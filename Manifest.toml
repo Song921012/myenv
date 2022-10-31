@@ -5150,7 +5150,7 @@ version = "2.1.7"
 
 [[deps.SpecialMatrices]]
 deps = ["LinearAlgebra", "Polynomials"]
-git-tree-sha1 = "a04c947dea8a3fe6781ba0dcf2386cfa58e487b2"
+git-tree-sha1 = "8ce1164f25bd35e7bbd2b64a01b075b151e02ca4"
 repo-rev = "master"
 repo-url = "https://github.com/JuliaMatrices/SpecialMatrices.jl.git"
 uuid = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
