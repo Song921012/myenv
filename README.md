@@ -158,6 +158,10 @@ sudo apt --fix-broken install
 
 # Other applications
 
+- 软件与更新
+
+搜Software & Updates
+
 - obsidian: deb安装
 
 - Wechat: deepwine
