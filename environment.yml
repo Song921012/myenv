@@ -144,6 +144,7 @@ dependencies:
     - filelock==3.8.0
     - filterpy==1.4.5
     - fiona==1.8.21
+    - fire==0.4.0
     - flake8==5.0.4
     - flask==2.2.2
     - flask-compress==1.13
@@ -234,6 +235,8 @@ dependencies:
     - libclang==14.0.6
     - lifelines==0.27.3
     - lightgbm==3.3.2
+    - lightning-lite==1.8.0
+    - lightning-utilities==0.3.0
     - linear-operator==0.1.1
     - llvmlite==0.39.1
     - lmfit==1.0.3
@@ -365,7 +368,7 @@ dependencies:
     - python-box==6.0.2
     - python-graphviz==0.20.1
     - pytorch-forecasting==0.10.3
-    - pytorch-lightning==1.7.7
+    - pytorch-lightning==1.8.0
     - pytz==2022.2.1
     - pytz-deprecation-shim==0.1.0.post0
     - pywavelets==1.4.1

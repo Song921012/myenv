@@ -2617,9 +2617,9 @@ version = "0.5.11"
 
 [[deps.KernelFunctions]]
 deps = ["ChainRulesCore", "Compat", "CompositionsBase", "Distances", "FillArrays", "Functors", "IrrationalConstants", "LinearAlgebra", "LogExpFunctions", "Random", "Requires", "SpecialFunctions", "Statistics", "StatsBase", "TensorCore", "Test", "ZygoteRules"]
-git-tree-sha1 = "ae50a3c5314571af5cb9f99a38329f7e471f4cd6"
+git-tree-sha1 = "6bdac5f6e6878f0cbb290b2fd6259ada5f1d72e3"
 uuid = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
-version = "0.10.48"
+version = "0.10.49"
 
 [[deps.Kronecker]]
 deps = ["LinearAlgebra", "NamedDims", "SparseArrays", "StatsBase"]
