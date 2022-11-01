@@ -548,9 +548,9 @@ version = "0.2.5"
 
 [[deps.COPT]]
 deps = ["LazyArtifacts", "Libdl", "LinearAlgebra", "MathOptInterface", "Pkg", "SparseArrays"]
-git-tree-sha1 = "ba7e689cf0e66b408f8059958a0e2652dd8a1cd6"
+git-tree-sha1 = "b823b876c89a759a76c2ece2af0b69db0cd17ef5"
 uuid = "227a2e2d-e949-4d8e-a1da-7384fe6f0b9f"
-version = "1.0.5"
+version = "1.0.6"
 
 [[deps.COSMO]]
 deps = ["AMD", "COSMOAccelerators", "DataStructures", "IterTools", "LinearAlgebra", "MathOptInterface", "Pkg", "Printf", "QDLDL", "Random", "Reexport", "Requires", "SparseArrays", "Statistics", "SuiteSparse", "Test", "UnsafeArrays"]
@@ -5150,7 +5150,7 @@ version = "2.1.7"
 
 [[deps.SpecialMatrices]]
 deps = ["LinearAlgebra", "Polynomials"]
-git-tree-sha1 = "8ce1164f25bd35e7bbd2b64a01b075b151e02ca4"
+git-tree-sha1 = "ed07acc6f7517bb5f5ddcfb3a89dbd76e334112e"
 repo-rev = "master"
 repo-url = "https://github.com/JuliaMatrices/SpecialMatrices.jl.git"
 uuid = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"

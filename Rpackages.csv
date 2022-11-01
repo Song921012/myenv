@@ -393,7 +393,7 @@ xmlparsedata (>= 1.0.5)",NA,"covr, httr (>= 1.2.1), mockery, patrick, pkgdown, r
 rstudioapi (>= 0.2), testthat (>= 3.0.0), tibble, withr (>=
 2.5.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "listenv","listenv","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.8.0",NA,"R (>= 3.1.2)",NA,NA,"R.utils, R.rsp, markdown",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.1"
-"lme4","lme4","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1-30",NA,"R (>= 3.2.0), Matrix (>= 1.2-1), methods, stats","graphics, grid, splines, utils, parallel, MASS, lattice, boot,
+"lme4","lme4","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1-31",NA,"R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats","graphics, grid, splines, utils, parallel, MASS, lattice, boot,
 nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)","Rcpp (>= 0.10.5), RcppEigen","knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2,
 mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3,
 numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble,
