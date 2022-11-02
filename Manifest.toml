@@ -484,9 +484,9 @@ version = "0.11.9"
 
 [[deps.BlockDiagonals]]
 deps = ["ChainRulesCore", "FillArrays", "FiniteDifferences", "LinearAlgebra"]
-git-tree-sha1 = "c70a29b23e304581a020c42f66d1d9d0ee5e40a9"
+git-tree-sha1 = "e6b18b7e54c53a03a9d6a3cd98f43b01b684f43b"
 uuid = "0a1fb500-61f7-11e9-3c65-f5ef3456f9f0"
-version = "0.1.37"
+version = "0.1.38"
 
 [[deps.Blosc]]
 deps = ["Blosc_jll"]
@@ -3166,9 +3166,9 @@ version = "0.7.1"
 
 [[deps.MLJModelInterface]]
 deps = ["Random", "ScientificTypesBase", "StatisticalTraits"]
-git-tree-sha1 = "0a36882e73833d60dac49b00d203f73acfd50b85"
+git-tree-sha1 = "4040c0da2bd05130687cc258c1318acd32bace90"
 uuid = "e80e1ace-859a-464e-9ed9-23947d8ae3ea"
-version = "1.7.0"
+version = "1.7.1"
 
 [[deps.MLJModels]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "Combinatorics", "Dates", "Distances", "Distributions", "InteractiveUtils", "LinearAlgebra", "MLJModelInterface", "Markdown", "OrderedCollections", "Parameters", "Pkg", "PrettyPrinting", "REPL", "Random", "RelocatableFolders", "ScientificTypes", "StatisticalTraits", "Statistics", "StatsBase", "Tables"]
@@ -3409,9 +3409,9 @@ version = "0.1.3"
 
 [[deps.MicroMamba]]
 deps = ["Pkg", "Scratch"]
-git-tree-sha1 = "539c0d9ab5cc3bca6c2bfdfbf2b050d99390bf52"
+git-tree-sha1 = "b49f11c4f9272fcbd66816ab8c3128d39982966c"
 uuid = "0b3b1443-0f03-428d-bdfb-f27f9c1191ea"
-version = "0.1.10"
+version = "0.1.9"
 
 [[deps.MicrosoftMPI_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -4095,9 +4095,9 @@ version = "1.4.1"
 
 [[deps.OrdinaryDiffEq]]
 deps = ["Adapt", "ArrayInterface", "ArrayInterfaceCore", "ArrayInterfaceGPUArrays", "ArrayInterfaceStaticArrays", "ArrayInterfaceStaticArraysCore", "DataStructures", "DiffEqBase", "DocStringExtensions", "ExponentialUtilities", "FastBroadcast", "FastClosures", "FiniteDiff", "ForwardDiff", "FunctionWrappersWrappers", "LinearAlgebra", "LinearSolve", "Logging", "LoopVectorization", "MacroTools", "MuladdMacro", "NLsolve", "NonlinearSolve", "Polyester", "PreallocationTools", "Preferences", "RecursiveArrayTools", "Reexport", "SciMLBase", "SnoopPrecompile", "SparseArrays", "SparseDiffTools", "StaticArrays", "UnPack"]
-git-tree-sha1 = "b9fb76483ec33b1ff4b887be3a2e2c3f9687f16a"
+git-tree-sha1 = "06587f44cbd1ffe0ecfb472925c9b875cbe880cd"
 uuid = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
-version = "6.30.0"
+version = "6.30.1"
 
 [[deps.Osi_jll]]
 deps = ["Artifacts", "CoinUtils_jll", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "OpenBLAS32_jll", "Pkg"]
@@ -5156,7 +5156,7 @@ version = "2.1.7"
 
 [[deps.SpecialMatrices]]
 deps = ["LinearAlgebra", "Polynomials"]
-git-tree-sha1 = "ed07acc6f7517bb5f5ddcfb3a89dbd76e334112e"
+git-tree-sha1 = "02082b767e1a498dce06296354952222b7d65b56"
 repo-rev = "master"
 repo-url = "https://github.com/JuliaMatrices/SpecialMatrices.jl.git"
 uuid = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
