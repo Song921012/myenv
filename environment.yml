@@ -235,7 +235,7 @@ dependencies:
     - libclang==14.0.6
     - lifelines==0.27.3
     - lightgbm==3.3.2
-    - lightning-lite==1.8.0
+    - lightning-lite==1.8.0.post1
     - lightning-utilities==0.3.0
     - linear-operator==0.1.1
     - llvmlite==0.39.1
@@ -368,7 +368,7 @@ dependencies:
     - python-box==6.0.2
     - python-graphviz==0.20.1
     - pytorch-forecasting==0.10.3
-    - pytorch-lightning==1.8.0
+    - pytorch-lightning==1.8.0.post1
     - pytz==2022.2.1
     - pytz-deprecation-shim==0.1.0.post0
     - pywavelets==1.4.1

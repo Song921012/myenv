@@ -105,9 +105,9 @@ version = "0.3.4"
 
 [[deps.Accessors]]
 deps = ["Compat", "CompositionsBase", "ConstructionBase", "Dates", "InverseFunctions", "LinearAlgebra", "MacroTools", "Requires", "Test"]
-git-tree-sha1 = "ff77abdacacad13fbdd2d0863fab1af5af819693"
+git-tree-sha1 = "eb7a1342ff77f4f9b6552605f27fd432745a53a3"
 uuid = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
-version = "0.1.21"
+version = "0.1.22"
 
 [[deps.AccurateArithmetic]]
 deps = ["LinearAlgebra", "Random", "VectorizationBase"]
@@ -4801,9 +4801,9 @@ version = "0.3.1"
 
 [[deps.Rocket]]
 deps = ["DataStructures", "Sockets", "Unrolled"]
-git-tree-sha1 = "090711c87ce8bd9a7580e0fc5fd2221eedb59e90"
+git-tree-sha1 = "e4206ed4ea040331b199374af8fe41d01762c51c"
 uuid = "df971d30-c9d6-4b37-b8ff-e965b2cb3a40"
-version = "1.5.0"
+version = "1.6.0"
 
 [[deps.RootSolvers]]
 deps = ["DocStringExtensions", "ForwardDiff"]
