@@ -1881,9 +1881,9 @@ version = "0.1.1"
 
 [[deps.GenericLinearAlgebra]]
 deps = ["LinearAlgebra", "Printf", "Random", "libblastrampoline_jll"]
-git-tree-sha1 = "d2827f7a249bd6dd1a67d35e2fab2e6b5da27e62"
+git-tree-sha1 = "3d58ea2e65e2b3b284e722a5131e4434ca10fa69"
 uuid = "14197337-ba66-59df-a3e3-ca00e7dcff7a"
-version = "0.3.3"
+version = "0.3.4"
 
 [[deps.GenericSchur]]
 deps = ["LinearAlgebra", "Printf"]
@@ -3952,9 +3952,9 @@ version = "1.3.0"
 
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "e60321e3f2616584ff98f0a4f18d98ae6f89bbb3"
+git-tree-sha1 = "f6e9dba33f9f2c44e08a020b0caf6903be540004"
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "1.1.17+0"
+version = "1.1.19+0"
 
 [[deps.OpenSpecFun_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "Pkg"]
@@ -4852,22 +4852,28 @@ uuid = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
 version = "0.5.5"
 
 [[deps.SCS]]
-deps = ["MathOptInterface", "Requires", "SCS_GPU_jll", "SCS_jll", "SparseArrays"]
-git-tree-sha1 = "8d908b7c81e199ee92d17b6192849e8c43d2f31d"
+deps = ["MathOptInterface", "Requires", "SCS_GPU_jll", "SCS_MKL_jll", "SCS_jll", "SparseArrays"]
+git-tree-sha1 = "2e3ca40559ecaed6ffe9410b06aabcc1e087215d"
 uuid = "c946c3f1-0d1f-5ce8-9dea-7daa1f7e2d13"
-version = "1.1.2"
+version = "1.1.3"
 
 [[deps.SCS_GPU_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "OpenBLAS32_jll", "Pkg"]
-git-tree-sha1 = "f912271ecccb00acaddfab2943e9b33d5ec36d3b"
+git-tree-sha1 = "2b3799ff650d0530a19c2a3bd4b158a4f3e4581a"
 uuid = "af6e375f-46ec-5fa0-b791-491b0dfa44a4"
-version = "3.2.0+0"
+version = "3.2.1+0"
+
+[[deps.SCS_MKL_jll]]
+deps = ["Artifacts", "JLLWrappers", "Libdl", "MKL_jll", "Pkg"]
+git-tree-sha1 = "a4923177e60fdb7f802e1a42a73d0af400eea163"
+uuid = "3f2553a9-4106-52be-b7dd-865123654657"
+version = "3.2.2+0"
 
 [[deps.SCS_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "OpenBLAS32_jll", "Pkg"]
-git-tree-sha1 = "ba5c0d3b23220d3598d2877b4cf913e3fcf8add3"
+git-tree-sha1 = "5544538910047c7522908cf87bb0c884a7afff92"
 uuid = "f4f2fc5b-1d94-523c-97ea-2ab488bedf4b"
-version = "3.2.0+0"
+version = "3.2.1+0"
 
 [[deps.SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"

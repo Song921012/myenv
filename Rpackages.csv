@@ -426,11 +426,11 @@ testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "miniUI","miniUI","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.1.1",NA,NA,"shiny (>= 0.13), htmltools (>= 0.3), utils",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
 "minqa","minqa","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.5",NA,NA,"Rcpp (>= 0.9.10)","Rcpp",NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.1"
 "mlbench","mlbench","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.1-3",NA,"R (>= 2.10)",NA,NA,"lattice",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.1"
-"mlr3","mlr3","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.14.0",NA,"R (>= 3.1.0)","R6 (>= 2.4.1), backports, checkmate (>= 2.0.0), data.table (>=
+"mlr3","mlr3","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.14.1",NA,"R (>= 3.1.0)","R6 (>= 2.4.1), backports, checkmate (>= 2.0.0), data.table (>=
 1.14.2), evaluate, future, future.apply (>= 1.5.0), lgr (>=
-0.3.4), mlbench, mlr3measures (>= 0.4.1), mlr3misc (>= 0.10.0),
-parallelly, palmerpenguins, paradox (>= 0.10.0), uuid",NA,"Matrix, callr, codetools, datasets, distr6, future.callr,
-mlr3data, progressr, remotes, rpart, testthat (>= 3.1.0)",NA,"LGPL-3",NA,NA,NA,NA,"no","4.2.1"
+0.3.4), mlbench, mlr3measures (>= 0.4.1), mlr3misc (>= 0.11.0),
+parallelly, palmerpenguins, paradox (>= 0.10.0), uuid",NA,"Matrix, callr, codetools, datasets, future.callr, mlr3data,
+progressr, remotes, rpart, testthat (>= 3.1.0)",NA,"LGPL-3",NA,NA,NA,NA,"no","4.2.2"
 "mlr3measures","mlr3measures","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5.0",NA,"R (>= 3.1.0)","checkmate, PRROC",NA,"testthat (>= 3.0.0)",NA,"LGPL-3",NA,NA,NA,NA,"no","4.2.1"
 "mlr3misc","mlr3misc","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.11.0",NA,"R (>= 3.1.0)","backports (>= 0.1.5), checkmate, data.table, digest, methods,
 R6",NA,"callr, evaluate, paradox, testthat (>= 3.0.0)",NA,"LGPL-3",NA,NA,NA,NA,"yes","4.2.1"
