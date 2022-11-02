@@ -235,9 +235,9 @@ version = "0.3.3"
 
 [[deps.ApproximateGPs]]
 deps = ["AbstractGPs", "ChainRulesCore", "Distributions", "FastGaussQuadrature", "FillArrays", "ForwardDiff", "GPLikelihoods", "IrrationalConstants", "LinearAlgebra", "LogExpFunctions", "PDMats", "Random", "Reexport", "SpecialFunctions", "Statistics", "StatsBase", "Test"]
-git-tree-sha1 = "228c7e6819388544aff9bc0f4f593f880468c28a"
+git-tree-sha1 = "346572625ae46eb715f3e45afe73ae0accf301f4"
 uuid = "298c2ebc-0411-48ad-af38-99e88101b606"
-version = "0.4.2"
+version = "0.4.3"
 
 [[deps.Arb_jll]]
 deps = ["Artifacts", "FLINT_jll", "GMP_jll", "JLLWrappers", "Libdl", "MPFR_jll", "Pkg"]
@@ -1024,7 +1024,7 @@ version = "1.0.0+0"
 
 [[deps.DSP]]
 deps = ["Compat", "FFTW", "IterTools", "LinearAlgebra", "Polynomials", "Random", "Reexport", "SpecialFunctions", "Statistics"]
-git-tree-sha1 = "4ba2a190a9d05a36e8c26182eb1ba06cd12c1051"
+git-tree-sha1 = "a056736190ba93a5512e4f53eb66fba40ddf9703"
 repo-rev = "master"
 repo-url = "https://github.com/JuliaDSP/DSP.jl.git"
 uuid = "717857b8-e6f2-59f4-9121-6e50c889abd2"
@@ -1598,9 +1598,9 @@ version = "0.3.1"
 
 [[deps.FastTransforms]]
 deps = ["AbstractFFTs", "FFTW", "FastGaussQuadrature", "FastTransforms_jll", "FillArrays", "GenericFFT", "Libdl", "LinearAlgebra", "Reexport", "SpecialFunctions", "Test", "ToeplitzMatrices"]
-git-tree-sha1 = "41c46b0d5afd2d951141f6ea0a58a9019310dda2"
+git-tree-sha1 = "50ab78299c9f661ac682b49e3ec3be8e6f5f62cb"
 uuid = "057dd010-8810-581a-b7be-e3fc3b93f78c"
-version = "0.14.6"
+version = "0.14.7"
 
 [[deps.FastTransforms_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "FFTW_jll", "JLLWrappers", "LLVMOpenMP_jll", "Libdl", "MPFR_jll", "OpenBLAS_jll", "Pkg"]
@@ -3189,9 +3189,9 @@ uuid = "66a33bbf-0c2b-5fc8-a008-9da813334f0a"
 version = "0.5.7"
 
 [[deps.MLStyle]]
-git-tree-sha1 = "0638598b2ea9c60303e036be920df8df60fe2812"
+git-tree-sha1 = "43f9be9c281179fe44205e2dc19f22e71e022d41"
 uuid = "d8e11817-5142-5d16-987a-aa16d5891078"
-version = "0.4.14"
+version = "0.4.15"
 
 [[deps.MLUtils]]
 deps = ["ChainRulesCore", "DelimitedFiles", "FLoops", "FoldsThreads", "Random", "ShowCases", "Statistics", "StatsBase", "Transducers"]
@@ -4386,9 +4386,9 @@ version = "0.1.2"
 
 [[deps.PolynomialBases]]
 deps = ["ArgCheck", "FFTW", "FastGaussQuadrature", "LinearAlgebra", "Requires", "SpecialFunctions", "UnPack"]
-git-tree-sha1 = "cb0ab14725f574a45b873b03934c2e57b934f7c0"
+git-tree-sha1 = "0990e89674ff6cd5cbc7bc40c959ed77168d4aa8"
 uuid = "c74db56a-226d-5e98-8bb0-a6049094aeea"
-version = "0.4.13"
+version = "0.4.14"
 
 [[deps.Polynomials]]
 deps = ["LinearAlgebra", "RecipesBase"]
