@@ -233,7 +233,7 @@ dependencies:
     - korean-lunar-calendar==0.3.1
     - lark==1.1.2
     - lazy-object-proxy==1.7.1
-    - leafmap==0.11.2
+    - leafmap==0.11.3
     - lesscpy==0.15.0
     - libclang==14.0.6
     - lifelines==0.27.3

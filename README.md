@@ -204,17 +204,11 @@ WPS从官网下
 
 - 显示按键
 
- screenkey
+ screenkey app store
 
 - 重复文件
 
 dupeguru app store
-
-- 种子(自动下载了)
-
-sudo add-apt-repository ppa:poplite/qbittorrent-enhanced
-sudo apt update
-sudo apt install qbittorrent-enhanced
 
 - xmind(app store)
 
@@ -240,19 +234,7 @@ clamav (app store)
 
 # update environment
 
-click `refresh` is ok!
-
-it includes
-
-linux up (R up)
-
-Julia up
-
-Quarto: `quartoup.sh`
-
-Python 和 Nodejs: `pythonup.sh`
-
-Texlive: `othersoftwaresup.sh`
+click `refreshall` is ok!
 
 # Other important packages
 

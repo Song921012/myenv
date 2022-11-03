@@ -92,6 +92,7 @@ sudo apt install mpich
 # Miniconda
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 sh Miniconda3-latest-Linux-x86_64.sh
+
 # nix
 #sh <(curl -L https://nixos.org/nix/install) --daemon
 
@@ -127,6 +128,8 @@ zcat install-tl-unx.tar.gz | tar xf -
 cd install-tl-*
 perl ./install-tl --no-interaction
 #Finally, prepend /usr/local/texlive/YYYY/bin/PLATFORM to your PATH(.zshrc,.profile), e.g., /usr/local/texlive/2022/bin/x86_64-linux 
+# sudo visudo and add
+# Defaults secure_path="/usr/local/texlive/2014/bin/x86_64-linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 cd
 # Install texstudio
 sudo add-apt-repository ppa:sunderme/texstudio
@@ -144,3 +147,10 @@ perl -MCPAN -e 'install "File::HomeDir"'
 
 # Fenics fenicsx
 sudo apt -y install gmsh paraview
+
+
+# qbittoreent
+
+sudo add-apt-repository ppa:poplite/qbittorrent-enhanced
+sudo apt update
+sudo apt install qbittorrent-enhanced
