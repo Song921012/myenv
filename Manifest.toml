@@ -626,9 +626,9 @@ version = "1.0.5"
 
 [[deps.CairoMakie]]
 deps = ["Base64", "Cairo", "Colors", "FFTW", "FileIO", "FreeType", "GeometryBasics", "LinearAlgebra", "Makie", "SHA", "SnoopPrecompile"]
-git-tree-sha1 = "906cffea7bf8f17098477c435f5b35d867b2c4ef"
+git-tree-sha1 = "d5fcc28d94729c8828c7651e81d6b119fe9e87f5"
 uuid = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
-version = "0.9.1"
+version = "0.9.2"
 
 [[deps.Cairo_jll]]
 deps = ["Artifacts", "Bzip2_jll", "Fontconfig_jll", "FreeType2_jll", "Glib_jll", "JLLWrappers", "LZO_jll", "Libdl", "Pixman_jll", "Pkg", "Xorg_libXext_jll", "Xorg_libXrender_jll", "Zlib_jll", "libpng_jll"]
@@ -3242,15 +3242,15 @@ version = "0.5.10"
 
 [[deps.Makie]]
 deps = ["Animations", "Base64", "ColorBrewer", "ColorSchemes", "ColorTypes", "Colors", "Contour", "Distributions", "DocStringExtensions", "FFMPEG", "FileIO", "FixedPointNumbers", "Formatting", "FreeType", "FreeTypeAbstraction", "GeometryBasics", "GridLayoutBase", "ImageIO", "InteractiveUtils", "IntervalSets", "Isoband", "KernelDensity", "LaTeXStrings", "LinearAlgebra", "MakieCore", "Markdown", "Match", "MathTeXEngine", "MiniQhull", "Observables", "OffsetArrays", "Packing", "PlotUtils", "PolygonOps", "Printf", "Random", "RelocatableFolders", "Serialization", "Showoff", "SignedDistanceFields", "SnoopPrecompile", "SparseArrays", "Statistics", "StatsBase", "StatsFuns", "StructArrays", "TriplotBase", "UnicodeFun"]
-git-tree-sha1 = "c3d53bc3aaf3b908f47e217e80d723f5af1bcf80"
+git-tree-sha1 = "0462fdf13cfad9fa6f23a2fb41da38e7a2aa4908"
 uuid = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
-version = "0.18.1"
+version = "0.18.2"
 
 [[deps.MakieCore]]
 deps = ["Observables"]
-git-tree-sha1 = "78611339550d29a783cc781c6ebd79f90b51e78b"
+git-tree-sha1 = "c1885d865632e7f37e5a1489a164f44c54fb80c9"
 uuid = "20f20a25-4f0e-4fdf-b5d1-57303727442b"
-version = "0.5.1"
+version = "0.5.2"
 
 [[deps.Manifolds]]
 deps = ["Colors", "Distributions", "Einsum", "Graphs", "HybridArrays", "Kronecker", "LinearAlgebra", "ManifoldsBase", "Markdown", "MatrixEquations", "Quaternions", "Random", "RecipesBase", "RecursiveArrayTools", "Requires", "SimpleWeightedGraphs", "SpecialFunctions", "StaticArrays", "Statistics", "StatsBase"]
@@ -4668,9 +4668,9 @@ version = "0.4.3"
 
 [[deps.ReactiveMP]]
 deps = ["DataStructures", "Distributions", "DomainIntegrals", "DomainSets", "FastGaussQuadrature", "ForwardDiff", "HCubature", "LazyArrays", "LinearAlgebra", "LoopVectorization", "MacroTools", "Optim", "PositiveFactorizations", "Random", "Requires", "Rocket", "SpecialFunctions", "StaticArrays", "StatsBase", "StatsFuns", "TinyHugeNumbers", "TupleTools", "Unrolled"]
-git-tree-sha1 = "3916154d467041e413be7d873e8a4afc4d990271"
+git-tree-sha1 = "23f415c30df72ced972dae7debdaad1cff0f7af2"
 uuid = "a194aa59-28ba-4574-a09c-4a745416d6e3"
-version = "3.0.0"
+version = "3.0.1"
 
 [[deps.RealDot]]
 deps = ["LinearAlgebra"]
@@ -5966,9 +5966,9 @@ version = "1.5.2"
 
 [[deps.XGBoost_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LLVMOpenMP_jll", "Libdl", "Pkg"]
-git-tree-sha1 = "abad0afcb0d2b35be3413590cc813902ac55f979"
+git-tree-sha1 = "71c6828e5ca7ee44871d2c11d6045b6fd5d54ccb"
 uuid = "a5c6f535-4255-5ca2-a466-0e519f119c46"
-version = "1.6.2+0"
+version = "1.7.0+0"
 
 [[deps.XLSX]]
 deps = ["Artifacts", "Dates", "EzXML", "Printf", "Tables", "ZipFile"]
