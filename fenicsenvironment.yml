@@ -6,7 +6,7 @@ dependencies:
   - _openmp_mutex=4.5=2_gnu
   - ampl-mp=3.1.0=h2cc385e_1006
   - arpack=3.7.0=hdefa2d7_2
-  - asttokens=2.0.8=pyhd8ed1ab_0
+  - asttokens=2.1.0=pyhd8ed1ab_0
   - backcall=0.2.0=pyh9f0ad1d_0
   - backports=1.0=py_2
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
@@ -20,17 +20,17 @@ dependencies:
   - casadi=3.5.5=py310h21519b1_16
   - cffi=1.15.1=py310h255011f_2
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
-  - cmake=3.24.2=h5432695_0
+  - cmake=3.24.3=h816a3e0_0
   - colorama=0.4.6=pyhd8ed1ab_0
   - conda=22.9.0=py310hff52083_1
   - conda-package-handling=1.9.0=py310h5764c6d_1
-  - cryptography=38.0.2=py310h600f1e7_2
-  - curl=7.86.0=h2283fc2_0
+  - cryptography=38.0.3=py310h600f1e7_0
+  - curl=7.86.0=h2283fc2_1
   - debugpy=1.6.3=py310hd8f1fbe_1
   - decorator=5.1.1=pyhd8ed1ab_0
   - eigen=3.4.0=h4bd325d_0
   - entrypoints=0.4=pyhd8ed1ab_0
-  - executing=1.1.1=pyhd8ed1ab_0
+  - executing=1.2.0=pyhd8ed1ab_0
   - expat=2.5.0=h27087fc_0
   - fenics=2019.1.0=py310hff52083_31
   - fenics-dijitso=2019.1.0=py310hff52083_31
@@ -53,19 +53,19 @@ dependencies:
   - icu=70.1=h27087fc_0
   - idna=3.4=pyhd8ed1ab_0
   - ipopt=3.14.10=hf60ba86_0
-  - ipykernel=6.16.2=pyh210e3f2_0
-  - ipython=8.5.0=pyh41d4057_1
+  - ipykernel=6.17.0=pyh210e3f2_0
+  - ipython=8.6.0=pyh41d4057_1
   - jedi=0.18.1=pyhd8ed1ab_2
   - julia=1.8.2=h6f5dd7c_0
   - jupyter_client=7.4.4=pyhd8ed1ab_0
-  - jupyter_core=4.11.1=py310hff52083_1
+  - jupyter_core=4.11.2=py310hff52083_0
   - kernel-headers_linux-64=2.6.32=he073ed8_15
   - keyutils=1.6.1=h166bdaf_0
   - krb5=1.19.3=h08a2579_0
   - ld_impl_linux-64=2.36.1=hea4e1c9_2
   - libblas=3.9.0=16_linux64_openblas
   - libcblas=3.9.0=16_linux64_openblas
-  - libcurl=7.86.0=h2283fc2_0
+  - libcurl=7.86.0=h2283fc2_1
   - libedit=3.1.20191231=he28a2e2_2
   - libev=4.33=h516909a_1
   - libffi=3.4.2=h7f98852_5
@@ -89,7 +89,7 @@ dependencies:
   - libstdcxx-devel_linux-64=10.4.0=h74af60c_16
   - libstdcxx-ng=12.2.0=h46fd767_19
   - libunwind=1.6.2=h9c3ff4c_0
-  - libutf8proc=2.7.0=h7f98852_0
+  - libutf8proc=2.8.0=h166bdaf_0
   - libuuid=2.32.1=h7f98852_1000
   - libuv=1.44.2=h166bdaf_0
   - libzlib=1.2.13=h166bdaf_4
@@ -100,7 +100,7 @@ dependencies:
   - mpc=1.2.1=h9f54685_0
   - mpfr=4.1.0=h9202a9a_1
   - mpi=1.0=openmpi
-  - mpi4py=3.1.3=py310h6075a6b_3
+  - mpi4py=3.1.4=py310h6075a6b_0
   - mpmath=1.2.1=pyhd8ed1ab_0
   - mshr=2019.1.0=py310hffed6ae_5
   - mumps-include=5.2.1=ha770c72_11
@@ -112,7 +112,7 @@ dependencies:
   - openblas-ilp64=0.3.21=pthreads_h3d04fff_3
   - openlibm=0.8.1=h7f98852_0
   - openmpi=4.1.4=ha1ae619_101
-  - openssl=3.0.5=h166bdaf_2
+  - openssl=3.0.7=h166bdaf_0
   - p7zip=16.02=h9c3ff4c_1001
   - packaging=21.3=pyhd8ed1ab_0
   - parmetis=4.0.3=he9a3056_1005
@@ -120,8 +120,8 @@ dependencies:
   - pcre2=10.37=hc3806b6_1
   - perl=5.32.1=2_h7f98852_perl5
   - petsc=3.17.4=real_h4502189_101
-  - petsc4py=3.17.4=real_h12586c4_100
-  - pexpect=4.8.0=pyh9f0ad1d_2
+  - petsc4py=3.17.4=real_h5540cce_101
+  - pexpect=4.8.0=pyh1a96a4e_2
   - pickleshare=0.7.5=py_1003
   - pip=22.3=pyhd8ed1ab_0
   - pkg-config=0.29.2=h36c2ea0_1008
@@ -153,9 +153,9 @@ dependencies:
   - setuptools=65.5.0=pyhd8ed1ab_0
   - six=1.16.0=pyh6c4a22f_0
   - slepc=3.17.2=real_h624bf36_100
-  - slepc4py=3.17.2=real_hd732961_100
+  - slepc4py=3.17.2=real_h024a88e_101
   - sqlitedict=2.0.0=pyhd8ed1ab_0
-  - stack_data=0.5.1=pyhd8ed1ab_0
+  - stack_data=0.6.0=pyhd8ed1ab_0
   - suitesparse=5.10.1=h9e50725_1
   - superlu=5.2.2=h00795ac_0
   - superlu_dist=7.2.0=h34f6f4d_0
@@ -167,7 +167,7 @@ dependencies:
   - tornado=6.2=py310h5764c6d_1
   - tqdm=4.64.1=pyhd8ed1ab_0
   - traitlets=5.5.0=pyhd8ed1ab_0
-  - tzdata=2022e=h191b570_0
+  - tzdata=2022f=h191b570_0
   - unixodbc=2.3.10=h583eb01_0
   - wcwidth=0.2.5=pyh9f0ad1d_2
   - wheel=0.37.1=pyhd8ed1ab_0
@@ -220,12 +220,13 @@ dependencies:
     - patsy==0.5.3
     - pillow==9.2.0
     - platformdirs==2.5.2
+    - pooch==1.6.0
     - prometheus-client==0.14.1
     - pycodestyle==2.9.1
     - pyflakes==2.5.0
     - pylint==2.15.4
     - pytz==2022.4
-    - pyvista==0.36.1
+    - pyvista==0.37.0
     - qtconsole==5.3.2
     - qtpy==2.2.1
     - radian==0.6.4

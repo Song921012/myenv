@@ -1702,10 +1702,10 @@ uuid = "f6369f11-7733-5829-9624-2563aa707210"
 version = "0.10.32"
 
 [[deps.FractionalCalculus]]
-deps = ["InvertedIndices", "LinearAlgebra", "QuadGK", "SpecialFunctions", "SpecialMatrices", "SymbolicUtils", "Symbolics"]
-git-tree-sha1 = "68a34b67e563bd8feaa27e1f4524c190d0f2d1b8"
+deps = ["InvertedIndices", "LinearAlgebra", "QuadGK", "SpecialFunctions"]
+git-tree-sha1 = "89546cc5943c39d4ca875419828d186069a465e6"
 uuid = "638fb199-4bb2-4014-80c8-6dc0d90f156b"
-version = "0.2.10"
+version = "0.1.3"
 
 [[deps.FractionalTransforms]]
 deps = ["DSP", "FFTW", "LinearAlgebra", "ToeplitzMatrices"]
@@ -5150,17 +5150,17 @@ version = "0.1.3"
 
 [[deps.SpecialFunctions]]
 deps = ["ChainRulesCore", "IrrationalConstants", "LogExpFunctions", "OpenLibm_jll", "OpenSpecFun_jll"]
-git-tree-sha1 = "d75bda01f8c31ebb72df80a46c88b25d1c79c56d"
+git-tree-sha1 = "5d65101b2ed17a8862c4c05639c3ddc7f3d791e1"
 uuid = "276daf66-3868-5448-9aa4-cd146d93841b"
-version = "2.1.7"
+version = "1.8.7"
 
 [[deps.SpecialMatrices]]
 deps = ["LinearAlgebra", "Polynomials"]
-git-tree-sha1 = "0e23ce5f8739846b5db55a8e92dd888735ab1893"
+git-tree-sha1 = "4aba0dca9f3b539180d1e5b06f851c29dbe0c815"
 repo-rev = "master"
 repo-url = "https://github.com/JuliaMatrices/SpecialMatrices.jl.git"
 uuid = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
-version = "2.0.1"
+version = "3.0.0"
 
 [[deps.SpectralKit]]
 deps = ["ArgCheck", "DocStringExtensions", "StaticArrays", "UnPack"]

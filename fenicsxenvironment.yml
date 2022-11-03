@@ -169,7 +169,7 @@ dependencies:
   - scalapack=2.2.0=hd931219_1
   - scooby=0.6.0=pyhd8ed1ab_0
   - scotch=6.0.9=hb2e6521_2
-  - setuptools=65.4.0=py310h06a4308_0
+  - setuptools=65.5.0=py310h06a4308_0
   - slepc=3.17.1=real_ha2e80f3_102
   - slepc4py=3.17.1=real_h7df52cc_103
   - snappy=1.1.9=h295c915_0
@@ -183,7 +183,7 @@ dependencies:
   - tbb-devel=2021.6.0=hdb19cb5_0
   - tk=8.6.12=h1ccaba5_0
   - typing_extensions=4.3.0=py310h06a4308_0
-  - tzdata=2022e=h04d1e81_0
+  - tzdata=2022f=h04d1e81_0
   - utfcpp=3.2.1=h06a4308_0
   - vtk=9.1.0=qt_py310hb71b3df_211
   - wheel=0.37.1=pyhd3eb1b0_0
