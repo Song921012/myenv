@@ -1845,9 +1845,9 @@ version = "0.69.5"
 
 [[deps.GR_jll]]
 deps = ["Artifacts", "Bzip2_jll", "Cairo_jll", "FFMPEG_jll", "Fontconfig_jll", "GLFW_jll", "JLLWrappers", "JpegTurbo_jll", "Libdl", "Libtiff_jll", "Pixman_jll", "Pkg", "Qt5Base_jll", "Zlib_jll", "libpng_jll"]
-git-tree-sha1 = "bc9f7725571ddb4ab2c4bc74fa397c1c5ad08943"
+git-tree-sha1 = "080c3bfabd8242f52d84425fd2ee84ae75ad789d"
 uuid = "d2c73de3-f751-5644-a686-071e5b155ba9"
-version = "0.69.1+0"
+version = "0.69.1+1"
 
 [[deps.GTK3_jll]]
 deps = ["ATK_jll", "Artifacts", "Cairo_jll", "Fontconfig_jll", "FreeType2_jll", "FriBidi_jll", "Glib_jll", "HarfBuzz_jll", "JLLWrappers", "Libdl", "Libepoxy_jll", "Pango_jll", "Pkg", "Wayland_jll", "Xorg_libX11_jll", "Xorg_libXcomposite_jll", "Xorg_libXcursor_jll", "Xorg_libXdamage_jll", "Xorg_libXext_jll", "Xorg_libXfixes_jll", "Xorg_libXi_jll", "Xorg_libXinerama_jll", "Xorg_libXrandr_jll", "Xorg_libXrender_jll", "at_spi2_atk_jll", "gdk_pixbuf_jll", "iso_codes_jll", "xkbcommon_jll"]
@@ -4343,9 +4343,9 @@ version = "1.35.7"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "HypertextLiteral", "InteractiveUtils", "Logging", "MIMEs", "Markdown", "MsgPack", "Pkg", "PrecompileSignatures", "REPL", "RegistryInstances", "RelocatableFolders", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
-git-tree-sha1 = "43119e075d8eb4a22d281075981b1892578f3360"
+git-tree-sha1 = "315223464b0e7e7eb55b5f9f9204c3d76051290c"
 repo-rev = "main"
-repo-url = "https://github.com/Mathepia/Pluto.jl.git"
+repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
 version = "0.19.14"
 
@@ -5156,7 +5156,7 @@ version = "2.1.7"
 
 [[deps.SpecialMatrices]]
 deps = ["LinearAlgebra", "Polynomials"]
-git-tree-sha1 = "02082b767e1a498dce06296354952222b7d65b56"
+git-tree-sha1 = "448602978e96a61ef24294620326767d72ae0960"
 repo-rev = "master"
 repo-url = "https://github.com/JuliaMatrices/SpecialMatrices.jl.git"
 uuid = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
@@ -5486,9 +5486,9 @@ version = "0.8.6"
 
 [[deps.SymbolicRegression]]
 deps = ["Distributed", "DynamicExpressions", "JSON3", "LineSearches", "LossFunctions", "Optim", "Pkg", "Printf", "Random", "Reexport", "SpecialFunctions", "StatsBase", "SymbolicUtils", "TOML"]
-git-tree-sha1 = "07ab5a514c2eac1841c0a139e9e9c23a96845c90"
+git-tree-sha1 = "5e9b9b7a1c0b54b5c7798a22325fe9d8da8ab43d"
 uuid = "8254be44-1295-4e6a-a16d-46603ac705cb"
-version = "0.14.0"
+version = "0.14.1"
 
 [[deps.SymbolicUtils]]
 deps = ["AbstractTrees", "Bijections", "ChainRulesCore", "Combinatorics", "ConstructionBase", "DataStructures", "DocStringExtensions", "DynamicPolynomials", "IfElse", "LabelledArrays", "LinearAlgebra", "Metatheory", "MultivariatePolynomials", "NaNMath", "Setfield", "SparseArrays", "SpecialFunctions", "StaticArrays", "TermInterface", "TimerOutputs"]
