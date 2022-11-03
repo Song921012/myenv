@@ -484,9 +484,9 @@ version = "0.11.9"
 
 [[deps.BlockDiagonals]]
 deps = ["ChainRulesCore", "FillArrays", "FiniteDifferences", "LinearAlgebra"]
-git-tree-sha1 = "e6b18b7e54c53a03a9d6a3cd98f43b01b684f43b"
+git-tree-sha1 = "2826da72eacf85bf035d08619946803e18af42d0"
 uuid = "0a1fb500-61f7-11e9-3c65-f5ef3456f9f0"
-version = "0.1.38"
+version = "0.1.39"
 
 [[deps.Blosc]]
 deps = ["Blosc_jll"]
@@ -4337,9 +4337,9 @@ version = "0.8.19"
 
 [[deps.Plots]]
 deps = ["Base64", "Contour", "Dates", "Downloads", "FFMPEG", "FixedPointNumbers", "GR", "JLFzf", "JSON", "LaTeXStrings", "Latexify", "LinearAlgebra", "Measures", "NaNMath", "Pkg", "PlotThemes", "PlotUtils", "Printf", "REPL", "Random", "RecipesBase", "RecipesPipeline", "Reexport", "RelocatableFolders", "Requires", "Scratch", "Showoff", "SnoopPrecompile", "SparseArrays", "Statistics", "StatsBase", "UUIDs", "UnicodeFun", "Unzip"]
-git-tree-sha1 = "8c5643a30c97e02f4e80b9fff99544f64292eb6f"
+git-tree-sha1 = "b434dce10c0290ab22cb941a9d72c470f304c71d"
 uuid = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-version = "1.35.7"
+version = "1.35.8"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "HypertextLiteral", "InteractiveUtils", "Logging", "MIMEs", "Markdown", "MsgPack", "Pkg", "PrecompileSignatures", "REPL", "RegistryInstances", "RelocatableFolders", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
@@ -5156,7 +5156,7 @@ version = "2.1.7"
 
 [[deps.SpecialMatrices]]
 deps = ["LinearAlgebra", "Polynomials"]
-git-tree-sha1 = "448602978e96a61ef24294620326767d72ae0960"
+git-tree-sha1 = "0e23ce5f8739846b5db55a8e92dd888735ab1893"
 repo-rev = "master"
 repo-url = "https://github.com/JuliaMatrices/SpecialMatrices.jl.git"
 uuid = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
