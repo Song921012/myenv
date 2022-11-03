@@ -2,7 +2,6 @@
 sudo apt-get install software-properties-common
 sudo apt install aptitude
 #sudo apt install vim vim-scripts vim-gtk
-#sudo add-apt-repository ppa:neovim-ppa/stable
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
@@ -40,13 +39,19 @@ sudo apt install fsearch -y
 sudo apt install snapd
 sudo apt install ubuntu-restricted-extras
 sudo apt install gnome-tweaks
+
+
 #git clone https://github.com/alvatip/Nordzy-cursors
 #cd Nordzy-cursors
 #sudo ./install.sh
 sudo apt-get install dconf-cli uuid-runtime
+
+
 # Change Terminal Theme
 #bash -c "$(wget -qO- https://git.io/vQgMr)"
 #cd
+
+
 # cuda
 sudo apt install system76-cuda-latest
 sudo apt install system76-cudnn-11.2
@@ -114,7 +119,16 @@ sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_
 sudo apt install --no-install-recommends r-base
 sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
 
-# Install texlive
+# Install Texlive
+
+cd /tmp # working directory of your choice
+wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz # or curl instead of wget
+zcat install-tl-unx.tar.gz | tar xf -
+cd install-tl-*
+perl ./install-tl --no-interaction
+#Finally, prepend /usr/local/texlive/YYYY/bin/PLATFORM to your PATH(.zshrc,.profile), e.g., /usr/local/texlive/2022/bin/x86_64-linux 
+cd
+# Install texstudio
 sudo add-apt-repository ppa:sunderme/texstudio
 sudo apt update
 sudo apt install texstudio
