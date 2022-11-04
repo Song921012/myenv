@@ -2683,9 +2683,9 @@ version = "0.0.16+0"
 
 [[deps.LLVMOpenMP_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "ad927676766e6529a2d5152f12040620447c0c9b"
+git-tree-sha1 = "f689897ccbe049adb19a065c495e75f372ecd42b"
 uuid = "1d63c593-3942-5779-bab2-d838dc0a180e"
-version = "14.0.4+0"
+version = "15.0.4+0"
 
 [[deps.LRUCache]]
 git-tree-sha1 = "d64a0aff6691612ab9fb0117b0995270871c5dfc"
@@ -3858,9 +3858,9 @@ uuid = "d8793406-e978-5875-9003-1fc021f44a92"
 version = "0.3.7"
 
 [[deps.Observables]]
-git-tree-sha1 = "5a9ea4b9430d511980c01e9f7173739595bbd335"
+git-tree-sha1 = "c2dffec4623a66b9c850e67026839137a5f63a3d"
 uuid = "510215fc-4207-5dde-b226-833fc4488ee2"
-version = "0.5.2"
+version = "0.5.3"
 
 [[deps.Octavian]]
 deps = ["ArrayInterface", "CPUSummary", "IfElse", "LoopVectorization", "ManualMemory", "PolyesterWeave", "Requires", "Static", "ThreadingUtilities", "VectorizationBase"]
