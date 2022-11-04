@@ -1309,9 +1309,9 @@ version = "1.6.0"
 
 [[deps.DrWatson]]
 deps = ["Dates", "FileIO", "JLD2", "LibGit2", "MacroTools", "Pkg", "Random", "Requires", "Scratch", "UnPack"]
-git-tree-sha1 = "9ebe5d6941e8d12921226cba4d9220c72600d0de"
+git-tree-sha1 = "52d2dbd1835ff1073dbafbef02353c723930e0a1"
 uuid = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
-version = "2.11.1"
+version = "2.12.0"
 
 [[deps.DualNumbers]]
 deps = ["Calculus", "NaNMath", "SpecialFunctions"]
@@ -5479,10 +5479,10 @@ uuid = "78aadeae-fbc0-11eb-17b6-c7ec0477ba9e"
 version = "0.8.6"
 
 [[deps.SymbolicRegression]]
-deps = ["Distributed", "DynamicExpressions", "JSON3", "LineSearches", "LossFunctions", "Optim", "Pkg", "Printf", "Random", "Reexport", "SpecialFunctions", "StatsBase", "SymbolicUtils", "TOML"]
-git-tree-sha1 = "af1aedf55f7bdceed72ca7b5a75e247c7b90c3a5"
+deps = ["Distributed", "DynamicExpressions", "JSON3", "LineSearches", "LossFunctions", "Optim", "Pkg", "Printf", "ProgressBars", "Random", "Reexport", "SpecialFunctions", "StatsBase", "SymbolicUtils", "TOML"]
+git-tree-sha1 = "f944407f8aae81f26946660b0594f134cffe6557"
 uuid = "8254be44-1295-4e6a-a16d-46603ac705cb"
-version = "0.14.2"
+version = "0.14.3"
 
 [[deps.SymbolicUtils]]
 deps = ["AbstractTrees", "Bijections", "ChainRulesCore", "Combinatorics", "ConstructionBase", "DataStructures", "DocStringExtensions", "DynamicPolynomials", "IfElse", "LabelledArrays", "LinearAlgebra", "Metatheory", "MultivariatePolynomials", "NaNMath", "Setfield", "SparseArrays", "SpecialFunctions", "StaticArrays", "TermInterface", "TimerOutputs"]
@@ -5815,9 +5815,9 @@ version = "0.4.1"
 
 [[deps.UnicodePlots]]
 deps = ["ColorSchemes", "ColorTypes", "Contour", "Crayons", "Dates", "FileIO", "FreeType", "LinearAlgebra", "MarchingCubes", "NaNMath", "Printf", "Requires", "SnoopPrecompile", "SparseArrays", "StaticArrays", "StatsBase", "Unitful"]
-git-tree-sha1 = "390b2e8e5535f5beb50885d1a1059f460547d3a5"
+git-tree-sha1 = "e9bd3ead50b5767f7525e4a52dc8e4d90ef65f0a"
 uuid = "b8865327-cd53-5732-bb35-84acbb429228"
-version = "3.1.6"
+version = "3.2.0"
 
 [[deps.Unitful]]
 deps = ["ConstructionBase", "Dates", "LinearAlgebra", "Random"]

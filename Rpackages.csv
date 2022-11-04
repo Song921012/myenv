@@ -268,13 +268,13 @@ rmarkdown, png, fda, forcats, purrr (>= 0.2.3), tidyr (>=
 gtable, rlang, polyclip, stats, grDevices, tidyselect, withr,
 utils, lifecycle, cli, vctrs, systemfonts","Rcpp, RcppEigen","sessioninfo, concaveman, deldir, latex2exp, reshape2, units
 (>= 0.4-6), covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
-"ggplot2","ggplot2","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.3.6",NA,"R (>= 3.3)","digest, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
-MASS, mgcv, rlang (>= 0.4.10), scales (>= 0.5.0), stats,
-tibble, withr (>= 2.0.0)",NA,"covr, ragg, dplyr, ggplot2movies, hexbin, Hmisc, interp,
-knitr, lattice, mapproj, maps, maptools, multcomp, munsell,
-nlme, profvis, quantreg, RColorBrewer, rgeos, rmarkdown, rpart,
-sf (>= 0.7-3), svglite (>= 1.2.0.9001), testthat (>= 2.1.0),
-vdiffr (>= 1.0.0), xml2","sp","MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
+"ggplot2","ggplot2","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.4.0",NA,"R (>= 3.3)","cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
+lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.0.0), scales (>=
+1.2.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)",NA,"covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice,
+mapproj, maps, maptools, multcomp, munsell, nlme, profvis,
+quantreg, ragg, RColorBrewer, rgeos, rmarkdown, rpart, sf (>=
+0.7-3), svglite (>= 1.2.0.9001), testthat (>= 3.1.2), vdiffr
+(>= 1.0.0), xml2","sp","MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "ggraph","ggraph","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.1.0",NA,"R (>= 2.10), ggplot2 (>= 3.0.0)","Rcpp (>= 0.12.2), dplyr, ggforce (>= 0.3.1), grid, igraph (>=
 1.0.0), scales, MASS, digest, gtable, ggrepel, utils, stats,
 viridis, rlang, tidygraph, graphlayouts (>= 0.5.0), withr, cli,
