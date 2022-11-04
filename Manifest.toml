@@ -2,7 +2,7 @@
 
 julia_version = "1.8.2"
 manifest_format = "2.0"
-project_hash = "6bed8c718e488268b85a6c6596354994535c91b5"
+project_hash = "584eec62e16d45235a9358c92a60032086b80f85"
 
 [[deps.ADNLPModels]]
 deps = ["ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays"]
@@ -438,9 +438,9 @@ version = "0.3.7"
 
 [[deps.BenchmarkTools]]
 deps = ["JSON", "Logging", "Printf", "Profile", "Statistics", "UUIDs"]
-git-tree-sha1 = "4c10eee4af024676200bc7752e536f858c6b8f93"
+git-tree-sha1 = "d9a9701b899b30332bbcb3e1679c41cce81fb0e8"
 uuid = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
-version = "1.3.1"
+version = "1.3.2"
 
 [[deps.Bijections]]
 git-tree-sha1 = "fe4f8c5ee7f76f2198d5c2a06d3961c249cce7bd"
@@ -1468,7 +1468,7 @@ version = "2.4.8+0"
 
 [[deps.Expectations]]
 deps = ["Compat", "Distributions", "FastGaussQuadrature", "LinearAlgebra", "SpecialFunctions"]
-git-tree-sha1 = "8043aa6644a0a4c7977f2e39714c1b7a238367dd"
+git-tree-sha1 = "b387c4f0dd166b8cd0d44bd9b2241960a0ac2e94"
 repo-rev = "master"
 repo-url = "https://github.com/QuantEcon/Expectations.jl.git"
 uuid = "2fe49d83-0758-5602-8f54-1f90ad0d522b"
@@ -1700,12 +1700,6 @@ deps = ["CommonSubexpressions", "DiffResults", "DiffRules", "LinearAlgebra", "Lo
 git-tree-sha1 = "187198a4ed8ccd7b5d99c41b69c679269ea2b2d4"
 uuid = "f6369f11-7733-5829-9624-2563aa707210"
 version = "0.10.32"
-
-[[deps.FractionalCalculus]]
-deps = ["InvertedIndices", "LinearAlgebra", "QuadGK", "SpecialFunctions"]
-git-tree-sha1 = "89546cc5943c39d4ca875419828d186069a465e6"
-uuid = "638fb199-4bb2-4014-80c8-6dc0d90f156b"
-version = "0.1.3"
 
 [[deps.FractionalTransforms]]
 deps = ["DSP", "FFTW", "LinearAlgebra", "ToeplitzMatrices"]
@@ -3946,9 +3940,9 @@ version = "8.9.0+1"
 
 [[deps.OpenSSL]]
 deps = ["BitFlags", "Dates", "MozillaCACerts_jll", "OpenSSL_jll", "Sockets"]
-git-tree-sha1 = "3c3c4a401d267b04942545b1e964a20279587fd7"
+git-tree-sha1 = "5628f092c6186a80484bfefdf89ff64efdaec552"
 uuid = "4d8831e6-92b7-49fb-bdf8-b643e874388c"
-version = "1.3.0"
+version = "1.3.1"
 
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -4237,10 +4231,10 @@ uuid = "46dd5b70-b6fb-5a00-ae2d-e8fea33afaf2"
 version = "0.5.4"
 
 [[deps.Parsers]]
-deps = ["Dates"]
-git-tree-sha1 = "6c01a9b494f6d2a9fc180a08b182fcb06f0958a0"
+deps = ["Dates", "SnoopPrecompile"]
+git-tree-sha1 = "cceb0257b662528ecdf0b4b4302eb00e767b38e7"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "2.4.2"
+version = "2.5.0"
 
 [[deps.Pavito]]
 deps = ["MathOptInterface", "Printf"]
@@ -4343,7 +4337,7 @@ version = "1.35.8"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "HypertextLiteral", "InteractiveUtils", "Logging", "MIMEs", "Markdown", "MsgPack", "Pkg", "PrecompileSignatures", "REPL", "RegistryInstances", "RelocatableFolders", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
-git-tree-sha1 = "315223464b0e7e7eb55b5f9f9204c3d76051290c"
+git-tree-sha1 = "151bc879960f5f21508dd40f7367d0dcf3945c52"
 repo-rev = "main"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
@@ -5150,9 +5144,9 @@ version = "0.1.3"
 
 [[deps.SpecialFunctions]]
 deps = ["ChainRulesCore", "IrrationalConstants", "LogExpFunctions", "OpenLibm_jll", "OpenSpecFun_jll"]
-git-tree-sha1 = "5d65101b2ed17a8862c4c05639c3ddc7f3d791e1"
+git-tree-sha1 = "d75bda01f8c31ebb72df80a46c88b25d1c79c56d"
 uuid = "276daf66-3868-5448-9aa4-cd146d93841b"
-version = "1.8.7"
+version = "2.1.7"
 
 [[deps.SpecialMatrices]]
 deps = ["LinearAlgebra", "Polynomials"]
