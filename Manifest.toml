@@ -4662,9 +4662,9 @@ version = "0.4.3"
 
 [[deps.ReactiveMP]]
 deps = ["DataStructures", "Distributions", "DomainIntegrals", "DomainSets", "FastGaussQuadrature", "ForwardDiff", "HCubature", "LazyArrays", "LinearAlgebra", "LoopVectorization", "MacroTools", "Optim", "PositiveFactorizations", "Random", "Requires", "Rocket", "SpecialFunctions", "StaticArrays", "StatsBase", "StatsFuns", "TinyHugeNumbers", "TupleTools", "Unrolled"]
-git-tree-sha1 = "23f415c30df72ced972dae7debdaad1cff0f7af2"
+git-tree-sha1 = "5690ff338e79f28732377676f591307bb85fcde7"
 uuid = "a194aa59-28ba-4574-a09c-4a745416d6e3"
-version = "3.0.1"
+version = "3.0.2"
 
 [[deps.RealDot]]
 deps = ["LinearAlgebra"]
