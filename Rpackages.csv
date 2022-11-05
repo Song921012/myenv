@@ -243,7 +243,7 @@ magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr",NA,"MIT + file LICE
 "futile.options","futile.options","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.1",NA,"R (>= 2.8.0)",NA,NA,NA,NA,"LGPL-3",NA,NA,NA,NA,"no","4.2.1"
 "future","future","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.28.0",NA,NA,"digest, globals (>= 0.16.0), listenv (>= 0.8.0), parallel,
 parallelly (>= 1.32.1), tools, utils",NA,"methods, RhpcBLASctl, R.rsp, markdown",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.1"
-"future.apply","future.apply","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.9.1",NA,"R (>= 3.2.0), future (>= 1.27.0)","globals (>= 0.16.1), parallel, utils",NA,"datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.1"
+"future.apply","future.apply","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.10.0",NA,"R (>= 3.2.0), future (>= 1.28.0)","globals (>= 0.16.1), parallel, utils",NA,"datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
 "generics","generics","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.3",NA,"R (>= 3.2)","methods",NA,"covr, pkgload, testthat (>= 3.0.0), tibble, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "gert","gert","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.9.1",NA,NA,"askpass, credentials (>= 1.2.1), openssl (>= 2.0.3),
 rstudioapi (>= 0.11), sys, zip (>= 2.1.0)",NA,"spelling, knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
