@@ -129,8 +129,20 @@ HSL系列软件
   [home · ralna/GALAHAD Wiki](https://github.com/ralna/GALAHAD/wiki)
   [raw.githubusercontent.com/ralna/GALAHAD/master/doc/README](https://raw.githubusercontent.com/ralna/GALAHAD/master/doc/README)
 
+
+## Docker
+
 从官网下载docker
 [Install Docker Desktop on Ubuntu | Docker Documentation](https://docs.docker.com/desktop/install/ubuntu/)
+
+[Post-installation steps for Linux | Docker Documentation](https://docs.docker.com/engine/install/linux-postinstall/)
+
+
+[Installation Guide — NVIDIA Cloud Native Technologies documentation](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
+
+[Sign in and get started | Docker Documentation](https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users)
+
+
 
 # 一些疑难杂症
 
