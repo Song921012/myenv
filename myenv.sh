@@ -1,7 +1,9 @@
 # Basic setup
 sudo apt-get install software-properties-common
 sudo apt install aptitude
-#sudo apt install vim vim-scripts vim-gtk
+sudo apt install vim vim-scripts vim-gtk
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
@@ -13,6 +15,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
 sudo apt install tmux
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
@@ -82,8 +85,7 @@ sudo apt install build-essential
 sudo apt -y install clang lldb lld
 sudo apt-get -y install ninja-build
 sudo apt install cmake
-sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libgsl-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev
-libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig libcppad-dev
+sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libgsl-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig libcppad-dev
 sudo apt-get install graphviz pandoc inkscape
 sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
@@ -100,17 +102,8 @@ sh Miniconda3-latest-Linux-x86_64.sh
 curl -sSL https://get.haskellstack.org/ | sh
 
 # Docker
-#sudo apt-get update
-#sudo apt-get install \
-#    ca-certificates \
-#    curl \
-#    gnupg \
-#    lsb-release
-#sudo mkdir -p /etc/apt/keyrings
-#curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-#echo \
-#  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-#  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+source ~/myenv/dockerinstall.sh
 
 # Install R
 sudo apt update -qq

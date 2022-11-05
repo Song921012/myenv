@@ -566,9 +566,9 @@ version = "0.1.0"
 
 [[deps.CPUSummary]]
 deps = ["CpuId", "IfElse", "Static"]
-git-tree-sha1 = "9bdd5aceea9fa109073ace6b430a24839d79315e"
+git-tree-sha1 = "43f67c13e30ed6ec2b350a5812ed4478cac46375"
 uuid = "2a0fbf3d-bb9c-48f3-b0a9-814d99fd7ab9"
-version = "0.1.27"
+version = "0.1.28"
 
 [[deps.CRlibm]]
 deps = ["CRlibm_jll"]
@@ -1486,9 +1486,9 @@ uuid = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
 version = "0.1.8"
 
 [[deps.ExproniconLite]]
-git-tree-sha1 = "32a9b275096695e8a4509713980856c2c1d2bef7"
+git-tree-sha1 = "c0daf18334f9f2a0d330c68fc67750b4031b4312"
 uuid = "55351af7-c7e9-48d6-89ff-24e801d99491"
-version = "0.7.2"
+version = "0.7.3"
 
 [[deps.ExtendableSparse]]
 deps = ["DocStringExtensions", "LinearAlgebra", "Printf", "Requires", "SparseArrays", "SuiteSparse", "Test"]
@@ -3254,9 +3254,9 @@ version = "0.8.37"
 
 [[deps.ManifoldsBase]]
 deps = ["LinearAlgebra", "Markdown"]
-git-tree-sha1 = "9e2772a950c5b5a6ac47fd2480b8b47be66b93cd"
+git-tree-sha1 = "a4937b645251d937ceb3b67643f65e8490fd271d"
 uuid = "3362f125-f0bb-47a3-aa74-596ffd7ef2fb"
-version = "0.13.22"
+version = "0.13.24"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "StaticArrays", "Statistics", "Test"]
@@ -4680,9 +4680,9 @@ version = "1.3.1"
 
 [[deps.RecipesPipeline]]
 deps = ["Dates", "NaNMath", "PlotUtils", "RecipesBase", "SnoopPrecompile"]
-git-tree-sha1 = "249df6fb3520492092ccebe921829920215ab205"
+git-tree-sha1 = "a030182cccc5c461386c6f055c36ab8449ef1340"
 uuid = "01d81517-befc-4cb6-b9ec-a95719d0359c"
-version = "0.6.9"
+version = "0.6.10"
 
 [[deps.RecurrenceAnalysis]]
 deps = ["DelayEmbeddings", "DelimitedFiles", "Distances", "Graphs", "LinearAlgebra", "Random", "SparseArrays", "StaticArrays", "Statistics", "UnicodePlots"]
@@ -5960,9 +5960,9 @@ version = "1.5.2"
 
 [[deps.XGBoost_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LLVMOpenMP_jll", "Libdl", "Pkg"]
-git-tree-sha1 = "71c6828e5ca7ee44871d2c11d6045b6fd5d54ccb"
+git-tree-sha1 = "5208f0c17e4e0a459945620e1ae9db825c31b351"
 uuid = "a5c6f535-4255-5ca2-a466-0e519f119c46"
-version = "1.7.0+0"
+version = "1.7.1+0"
 
 [[deps.XLSX]]
 deps = ["Artifacts", "Dates", "EzXML", "Printf", "Tables", "ZipFile"]

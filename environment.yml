@@ -320,7 +320,7 @@ dependencies:
     - picos==2.4.11
     - pillow==9.2.0
     - pints==0.4.0
-    - pip==22.3
+    - pip==22.3.1
     - platformdirs==2.5.2
     - plotly==5.11.0
     - plotly-express==0.4.1

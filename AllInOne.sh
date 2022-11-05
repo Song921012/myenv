@@ -21,8 +21,6 @@ cp -f ~/myenv/starship.toml ~/.config
 ln -f ~/.config/starship.toml ~/myenv/starship.toml
 ## Install miniconda
 zsh
-curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-sh Miniconda3-latest-Linux-x86_64.sh
 conda update conda
 conda install python=$pythonversion
 ## Install texlive
@@ -45,12 +43,14 @@ R --no-save <~/myenv/importr.r
 conda create -n fenics -c conda-forge fenics pyoptsparse julia python=$pythonversion
 conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=$pythonversion
 fenicsup
+
+
 # firedrake
 firedrakeinstall
 fireup
 
 # compile julia
-mkdir ~/.julia/config
+mkdir -p ~/.julia/config
 cp ~/myenv/startup.jl ~/.julia/config
 ln -f ~/.julia/config/startup.jl ~/myenv/startup.jl
 cp ~/myenv/startup_ijulia.jl ~/.julia/config

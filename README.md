@@ -133,6 +133,9 @@ HSL系列软件
 
 ## Docker
 
+[Install and Use Tensorman - System76 Support](https://support.system76.com/articles/tensorman/)
+
+
 从官网下载docker
 [Install Docker Desktop on Ubuntu | Docker Documentation](https://docs.docker.com/desktop/install/ubuntu/)
 
