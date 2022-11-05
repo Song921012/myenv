@@ -5,37 +5,56 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
+  - ampl-mp=3.1.0=h2cc385e_1006
   - brotlipy=0.7.0=py310h7f8727e_1002
   - bzip2=1.0.8=h7b6447c_0
-  - ca-certificates=2022.10.11=h06a4308_0
-  - certifi=2022.9.24=py310h06a4308_0
+  - ca-certificates=2022.9.24=ha878542_0
+  - certifi=2022.9.24=pyhd8ed1ab_0
   - cffi=1.15.1=py310h74dc2b5_0
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
-  - conda=22.9.0=py310h06a4308_0
+  - conda=22.9.0=py310hff52083_2
   - conda-package-handling=1.9.0=py310h5eee18b_1
   - cryptography=38.0.1=py310h9ce1e76_0
   - fmt=9.1.0=h924138e_0
   - idna=3.4=py310h06a4308_0
+  - ipopt=3.14.10=hf60ba86_0
   - ld_impl_linux-64=2.38=h1181459_1
+  - libblas=3.9.0=16_linux64_openblas
+  - libcblas=3.9.0=16_linux64_openblas
+  - libedit=3.1.20191231=he28a2e2_2
   - libffi=3.3=he6710b0_2
   - libgcc-ng=12.1.0=h8d9b700_16
+  - libgfortran-ng=12.2.0=h69a702a_19
+  - libgfortran5=12.2.0=h337968e_19
   - libgomp=12.1.0=h8d9b700_16
+  - libiconv=1.17=h166bdaf_0
+  - liblapack=3.9.0=16_linux64_openblas
+  - libopenblas=0.3.21=pthreads_h78a6416_3
   - libstdcxx-ng=12.2.0=h46fd767_19
   - libuuid=1.0.3=h7f8727e_2
+  - mdolab-baseclasses=1.7.0=pyhd8ed1ab_0
+  - metis=5.1.0=h58526e2_1006
+  - mumps-include=5.2.1=ha770c72_11
+  - mumps-seq=5.2.1=h2104b81_11
   - ncurses=6.3=h5eee18b_3
-  - openssl=1.1.1s=h7f8727e_0
+  - openssl=1.1.1s=h166bdaf_0
   - pycosat=0.6.4=py310h5eee18b_0
   - pycparser=2.21=pyhd3eb1b0_0
   - pyopenssl=22.0.0=pyhd3eb1b0_0
+  - pyoptsparse=2.9.1=py310h352404f_1
   - pysocks=1.7.1=py310h06a4308_0
   - python=3.10.6=haa1d7c7_1
+  - python_abi=3.10=2_cp310
   - readline=8.2=h5eee18b_0
   - requests=2.28.1=py310h06a4308_0
   - ruamel_yaml=0.15.100=py310h7f8727e_0
+  - scotch=6.0.9=h3858553_1
   - sqlite=3.39.3=h5082296_0
+  - sqlitedict=2.0.0=pyhd8ed1ab_0
   - tk=8.6.12=h1ccaba5_0
   - toolz=0.12.0=py310h06a4308_0
   - tqdm=4.64.1=py310h06a4308_0
+  - unixodbc=2.3.10=h583eb01_0
   - urllib3=1.26.12=py310h06a4308_0
   - xz=5.2.6=h5eee18b_0
   - yaml=0.2.5=h7b6447c_0
@@ -364,7 +383,7 @@ dependencies:
     - pyro-ppl==1.8.2
     - pyshp==2.3.1
     - pysindy==1.7.2
-    - pysr==0.11.8
+    - pysr==0.11.9
     - pystac==1.6.1
     - pystac-client==0.5.1
     - python-box==6.0.2

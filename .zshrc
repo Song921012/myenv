@@ -82,11 +82,16 @@ export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib64/pkgconfig:/opt/openrobo
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib64:/opt/openrobots/lib
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/myenv/lib
 export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$HOME/myenv/include
+export INCLUDE=$INCLUDE:$HOME/myenv/include
 export PYTHONPATH=$PYTHONPATH:/home/aidishage/myenv/src/Optizelle/lib/python3.8/site-packages:/opt/openrobots/lib/python3.10/site-packages
 export SNOPT_LICENSE=$HOME/licenses/snopt7.lic
 
 # Pardiso
 export PARDISO_LIC_PATH=$HOME/licenses
+
+# paropt
+
+export PYTHONPATH=$PYTHONPATH:/home/aidishage/myenv/src/paropt
 
 # Knitro
 export ARTELYS_LICENSE=$HOME/licenses
