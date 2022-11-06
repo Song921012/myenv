@@ -79,4 +79,9 @@ pip install -r requirements.txt
 pip install ./dsr # Install DSR package
 pip install jupyter flake8 pylint yapf
 conda deactivate
+
+# PyMC
+conda create -c conda-forge -n pymc "pymc>=4"
+pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv
+conda deactivate
 cd

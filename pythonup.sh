@@ -11,3 +11,12 @@ pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases
 pip install -U torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 pip install git+https://github.com/probml/dynamax.git
 
+conda deactivate
+conda activate pymc
+conda update --all
+pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install -U numpyro blackjax
+conda deactivate
+conda activate base
+
+
