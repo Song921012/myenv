@@ -566,9 +566,9 @@ version = "0.1.0"
 
 [[deps.CPUSummary]]
 deps = ["CpuId", "IfElse", "Static"]
-git-tree-sha1 = "43f67c13e30ed6ec2b350a5812ed4478cac46375"
+git-tree-sha1 = "8a43595f7b3f7d6dd1e07ad9b94081e1975df4af"
 uuid = "2a0fbf3d-bb9c-48f3-b0a9-814d99fd7ab9"
-version = "0.1.28"
+version = "0.1.25"
 
 [[deps.CRlibm]]
 deps = ["CRlibm_jll"]
@@ -3011,9 +3011,9 @@ version = "1.0.3"
 
 [[deps.LoopVectorization]]
 deps = ["ArrayInterface", "ArrayInterfaceCore", "ArrayInterfaceOffsetArrays", "ArrayInterfaceStaticArrays", "CPUSummary", "ChainRulesCore", "CloseOpenIntervals", "DocStringExtensions", "ForwardDiff", "HostCPUFeatures", "IfElse", "LayoutPointers", "LinearAlgebra", "OffsetArrays", "PolyesterWeave", "SIMDDualNumbers", "SIMDTypes", "SLEEFPirates", "SnoopPrecompile", "SpecialFunctions", "Static", "ThreadingUtilities", "UnPack", "VectorizationBase"]
-git-tree-sha1 = "9f6030ca92d1a816e931abb657219c9fc4991a96"
+git-tree-sha1 = "62b252d7993067154c0fb5c345842df0194c3e3b"
 uuid = "bdcacae8-1622-11e9-2a5c-532679323890"
-version = "0.12.136"
+version = "0.12.138"
 
 [[deps.LossFunctions]]
 deps = ["InteractiveUtils", "Markdown", "RecipesBase"]
@@ -3047,9 +3047,9 @@ version = "0.12.1"
 
 [[deps.Lux]]
 deps = ["Adapt", "CUDA", "ChainRulesCore", "ComponentArrays", "FillArrays", "Functors", "LinearAlgebra", "LuxLib", "Markdown", "NNlib", "Optimisers", "Preferences", "Random", "Requires", "Setfield", "SnoopPrecompile", "SparseArrays", "Statistics", "Zygote"]
-git-tree-sha1 = "4804c69bc223230163a9539dd95ca042500564ea"
+git-tree-sha1 = "e6409795e9fba6ffc2e14cb49e39db6b12a56c01"
 uuid = "b2108857-7c20-44ae-9111-449ecde12c47"
-version = "0.4.32"
+version = "0.4.33"
 
 [[deps.LuxLib]]
 deps = ["CUDA", "CUDAKernels", "ChainRulesCore", "KernelAbstractions", "Markdown", "NNlib", "NNlibCUDA", "Random", "Statistics"]
@@ -3864,9 +3864,11 @@ version = "0.5.3"
 
 [[deps.Octavian]]
 deps = ["ArrayInterface", "CPUSummary", "IfElse", "LoopVectorization", "ManualMemory", "PolyesterWeave", "Requires", "Static", "ThreadingUtilities", "VectorizationBase"]
-git-tree-sha1 = "92f10cb4978cec18cebd94850db3405fa144b5c9"
+git-tree-sha1 = "158165d6989aadd1990120ef29eab0374872f65a"
+repo-rev = "master"
+repo-url = "https://github.com/JuliaLinearAlgebra/Octavian.jl.git"
 uuid = "6fd5a793-0b7e-452c-907f-f8bfe9c57db4"
-version = "0.3.15"
+version = "0.3.17"
 
 [[deps.OffsetArrays]]
 deps = ["Adapt"]
