@@ -85,11 +85,12 @@ sudo apt install build-essential
 sudo apt -y install clang lldb lld
 sudo apt-get -y install ninja-build
 sudo apt install cmake
-sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libgsl-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig libcppad-dev
+sudo apt install mpich
+sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libgsl-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig libcppad-dev libcairo2-dev
 sudo apt-get install graphviz pandoc inkscape
 sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
-sudo apt install mpich
+
 
 # Miniconda
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -139,7 +140,7 @@ perl -MCPAN -e 'install "File::HomeDir"'
 
 
 # Fenics fenicsx
-sudo apt -y install gmsh paraview
+
 
 
 # qbittoreent

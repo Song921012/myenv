@@ -1,4 +1,5 @@
 #conda deactivate
+#conda activate base
 #unset PYTHONPATH
 #unset SLEPC_DIR
 #unset PETSC_DIR
@@ -7,10 +8,11 @@
 #echo "please setup parallel hdf5 if not"
 # Install Petsc
 #myenv
-#sudo rm -rf petsc && git clone https://gitlab.com/petsc/petsc.git
+#sudo rm -rf petsc && git clone -b release https://gitlab.com/petsc/petsc.git
 #cd petsc
 #git pull
-#./configure --download-fblaslapack --download-ptscotch --download-suitesparse --download-mumps --download-hypre --download-scalapack --download-parmetis --download-metis --with-petsc4py=1 --download-eigen --download-mpich
+#./configure --download-fblaslapack --download-ptscotch --download-suitesparse --download-mumps --download-hypre --download-scalapack --download-parmetis --download-metis --with-petsc4py=1 --download-eigen
+# make all check
 #myenv
 #sudo rm -rf slepc && git clone https://gitlab.com/slepc/slepc
 #cd slepc
