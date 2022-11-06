@@ -1,11 +1,16 @@
 install_julia(){
-wget https://julialang-s3.julialang.org/bin/linux/x64/$1/julia-$2-linux-x86_64.tar.gz;
-tar -xvzf julia-$2-linux-x86_64.tar.gz;
-sudo cp -r julia-$2 /opt/;
-sudo ln -sf /opt/julia-$2/bin/julia /usr/local/bin/julia;
+echo "please input julia big version, e.g., 1.8"
+read julabigversion
+echo "please input julia small version, e.g., 1.8.2, should be matched with big version"
+read julasmallversion
 cd;
-sudo rm -rf julia-$2*;
-sudo rm -rf ~/.julia/compiled/v$1}
+wget https://julialang-s3.julialang.org/bin/linux/x64/$julabigversion/julia-$julasmallversion-linux-x86_64.tar.gz;
+tar -xvzf julia-$julasmallversion-linux-x86_64.tar.gz;
+sudo cp -r julia-$julasmallversion /opt/;
+sudo ln -sf /opt/julia-$julasmallversion/bin/julia /usr/local/bin/julia;
+cd;
+sudo rm -rf julia-$julasmallversion*;
+sudo rm -rf ~/.julia/compiled/v$julabigversion}
 
 install_julia_dev(){
 echo "please input julia dev big version, e.g., 1.9"

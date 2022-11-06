@@ -146,7 +146,7 @@ dependencies:
   - nss=3.78=h2350873_0
   - numpy=1.23.3=py310h53a5b5f_0
   - openh264=2.3.0=h27087fc_0
-  - openssl=1.1.1q=h7f8727e_0
+  - openssl=1.1.1s=h7f8727e_0
   - p11-kit=0.24.1=hc5aa10d_0
   - parmetis=4.0.3=h2a9763c_1005
   - pcre2=10.37=he7ceb23_1

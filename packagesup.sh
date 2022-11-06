@@ -107,6 +107,13 @@ make
 #cd archdefs
 #./install_optrove
 ## algencan
+
+# Parropt
+myenv
+rm -rf paropt
+git clone https://github.com/Mathepia/paropt.git
+cd paropt
+make
 cd
 source ~/.zshrc
 
