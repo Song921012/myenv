@@ -33,12 +33,24 @@ sudo apt-get install stacer -y
 
 #Install starship
 curl -sS https://starship.rs/install.sh | sh
+
+#Python
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3
 sudo apt install python3-dev
+
+#Rust
+curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
+
+
+#Linux Command
 sudo add-apt-repository ppa:christian-boxdoerfer/fsearch-stable
 sudo apt update
-sudo apt install fsearch -y
+sudo apt install duf bat exa fsearch -y # Modern Commands
+cargo install du-dust
+ln -s /usr/bin/batcat ~/.local/bin/bat
+
+# Linux store
 sudo apt install snapd
 sudo apt install ubuntu-restricted-extras
 sudo apt install gnome-tweaks

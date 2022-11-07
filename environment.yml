@@ -129,7 +129,7 @@ dependencies:
     - dataclasses==0.6
     - debugpy==1.6.3
     - decorator==5.1.1
-    - deepxde==1.7.0
+    - deepxde==1.7.1
     - deprecated==1.2.13
     - derivative==0.4.2
     - diffrax==0.2.1
@@ -245,6 +245,7 @@ dependencies:
     - keplergl==0.3.2
     - keras==2.10.0
     - keras-preprocessing==1.1.2
+    - keras-self-attention==0.51.0
     - kiwisolver==1.4.4
     - korean-lunar-calendar==0.3.1
     - lark==1.1.2
@@ -423,7 +424,7 @@ dependencies:
     - simplejson==3.17.6
     - six==1.16.0
     - sklearn==0.0
-    - sktime==0.13.4
+    - sktime==0.14.0
     - slicer==0.0.7
     - smcp==0.4.6
     - smmap==5.0.0
