@@ -13,6 +13,7 @@ $cmake\
 $julia\
 $python\
 $rlang\
+$rust\
 $nodejs\
 $env_var\
 $docker_context\

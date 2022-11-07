@@ -43,9 +43,12 @@ sudo apt install python3-dev
 curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
 
 # Terminal
-sudo add-apt-repository ppa:aslatter/ppa
-sudo apt update
-sudo apt install alacritty
+## alcritty
+#sudo add-apt-repository ppa:aslatter/ppa
+#sudo apt update
+#sudo apt install alacritty
+## kitty
+sudo apt install kitty -y
 
 
 #Linux Command

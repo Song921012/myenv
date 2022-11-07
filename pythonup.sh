@@ -1,15 +1,31 @@
 conda deactivate
 conda activate base
 pip install --upgrade pip
-pip install -U radian conan flake8 pylint yapf\
+pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx jupyter jupyterlab jupyter_contrib_nbextensions nbconvert virtualenv virtualenvwrapper-win rich pygments talk2stat isort\
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-countries-pypkg
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-provinces-pypkg
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-cities-pypkg
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-counties-pypkg
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-misc-pypkg
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-united-kingdom-pypkg
+  
+
+pip install -U radian conan flake8 pylint yapf huggingface-hub\
   SAlib deepxde streamlit plotly-express\
   tensorflow tensorflow-probability gplearn gpflow\
   gpytorch botorch pytorch-forecasting neuralprophet torchdyn torchgan torchsde torchcde torchdiffeq torchmetrics pytorch-lightning  pyro-ppl\
   Casadi sbi pints elfi POT lifelines Pulp pysindy pykoopman pykoop mosek cvxopt smcp pysr pmlb HROCH pyoperon pydmd cvxpy probnum POT pylops pyproximal abcpy pyabc\
-  pyomo gekko dymos leafmap darts pydeck nlopt optax flax numpyro jaxns funsor ott distrax neural-tangents efax pyMetaheuristic diffrax jaxopt evosax sgmcmcjax gpjax blackjax pyecharts plotly dash sklearn "sktime[all_extras]" nodepy
+  pyomo gekko dymos leafmap darts pydeck nlopt optax flax numpyro jaxns funsor ott distrax neural-tangents efax pyMetaheuristic diffrax jaxopt evosax sgmcmcjax gpjax blackjax pyecharts plotly dash "sktime[all_extras]" nodepy seaborn keplergl osmnx pyecharts_snapshot
 pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
-pip install -U torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
-pip install git+https://github.com/probml/dynamax.git
+pip install -U torch --extra-index-url https://download.pytorch.org/whl/cu116
+pip install -U torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+pip install -U git+https://github.com/probml/dynamax.git
 
 conda deactivate
 conda activate pymc

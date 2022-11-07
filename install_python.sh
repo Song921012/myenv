@@ -1,6 +1,6 @@
 conda activate
 pip install --upgrade pip
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+pip install torch torchvision torchaudio
 pip install -U "sktime[all_extras]"
 pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pip install -U tensorflow
@@ -12,23 +12,6 @@ pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels network
   Casadi sbi pints elfi POT lifelines casadi Pulp lmfit pysindy pysr pydmd cvxpy probnum POT pylops pyproximal\
   pyomo gekko dymos leafmap optax flax numpyro distrax efax diffrax jaxopt sgmcmcjax gpjax blackjax pyvista
   
-pip install -U pyecharts seaborn plotly dash 
-
-pip install keplergl osmnx
-  
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-countries-pypkg
-
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-provinces-pypkg
-
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-cities-pypkg
-
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-counties-pypkg
-
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-misc-pypkg
-
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-united-kingdom-pypkg
-
-pip install pyecharts_snapshot
   
 sudo npm install -g yarn
 sudo npm install -g hexo

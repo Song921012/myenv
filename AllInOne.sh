@@ -1,4 +1,4 @@
-export pythonversion=3.10.6
+export pythonversion=3.11
 export juliabigversion=1.8
 export juliasmallversion=1.8.2
 export juliadevversion=1.9
@@ -22,6 +22,9 @@ ln -f ~/.config/starship.toml ~/myenv/starship.toml
 mkdir -p ~/.config/alacritty
 cp -f ~/myenv/alacritty.yml ~/.config/alacritty
 ln -f ~/.config/alacritty/alacritty.yml ~/myenv/alacritty.yml
+mkdir -p ~/.config/kitty
+cp -f ~/myenv/kitty.conf ~/.config/kitty
+ln -f ~/.config/kitty/kitty.conf ~/myenv/kitty.conf
 ## Install miniconda
 zsh
 conda update conda

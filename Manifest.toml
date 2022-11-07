@@ -3858,9 +3858,9 @@ uuid = "d8793406-e978-5875-9003-1fc021f44a92"
 version = "0.3.7"
 
 [[deps.Observables]]
-git-tree-sha1 = "c2dffec4623a66b9c850e67026839137a5f63a3d"
+git-tree-sha1 = "6862738f9796b3edc1c09d0890afce4eca9e7e93"
 uuid = "510215fc-4207-5dde-b226-833fc4488ee2"
-version = "0.5.3"
+version = "0.5.4"
 
 [[deps.Octavian]]
 deps = ["ArrayInterface", "CPUSummary", "IfElse", "LoopVectorization", "ManualMemory", "PolyesterWeave", "Requires", "Static", "ThreadingUtilities", "VectorizationBase"]
