@@ -293,6 +293,7 @@ dependencies:
     - nfoursid==1.0.1
     - nlopt==2.7.1
     - node-semver==0.6.1
+    - nodepy==1.0.1
     - notebook==6.4.12
     - notebook-shim==0.1.0
     - numba==0.56.2
