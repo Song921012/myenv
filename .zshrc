@@ -72,10 +72,12 @@ export MA57_SOURCE=/home/aidishage/hsl/hsl_ma57-5.3.2.tar.gz
 export HSL_MA57_PATH=/home/aidishage/hsl/hsl_ma57-5.3.2.tar.gz
 export HSL_MA97_PATH=/home/aidishage/hsl/hsl_ma97-2.7.2.tar.gz
 export PATH=/usr/local/texlive/2022/bin/x86_64-linux:$PATH
-export COPT_HOME=/opt/copt50
-export COPT_LICENSE_DIR=/opt/copt50
+# COPT
+export COPT_HOME=/opt/copt60
+export COPT_LICENSE_DIR=/opt/copt60
 export PATH=$PATH:$COPT_HOME/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$COPT_HOME/lib
+
 export ALGENCAN_LIB_DIR=$HOME/myenv/lib
 export PATH=$PATH:/opt/openrobots/bin
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib64/pkgconfig:/opt/openrobots/lib/pkgconfig
@@ -96,6 +98,7 @@ export PYTHONPATH=$PYTHONPATH:/home/aidishage/myenv/src/paropt
 # Knitro
 export ARTELYS_LICENSE=$HOME/licenses
 export KNITRODIR="/opt/knitro-13.1.0-Linux-64"
+
 #Gurobi
 export PATH=$PATH:/opt/gurobi952/linux64/bin
 

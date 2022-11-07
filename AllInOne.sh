@@ -19,6 +19,9 @@ cp -f ~/myenv/init.vim ~/.config/nvim
 ln -f ~/.config/nvim/init.vim ~/myenv/init.vim
 cp -f ~/myenv/starship.toml ~/.config
 ln -f ~/.config/starship.toml ~/myenv/starship.toml
+mkdir -p ~/.config/alacritty
+cp -f ~/myenv/alacritty.yml ~/.config/alacritty
+ln -f ~/.config/alacritty/alacritty.yml ~/myenv/alacritty.yml
 ## Install miniconda
 zsh
 conda update conda

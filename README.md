@@ -117,6 +117,9 @@ base环境也可以Install conda from `environment.toml`
 另外也可以申请
 
 - 申请COPT的license
+
+申请完之后, 解压把copt60移到/opt 然后修改.zshrc, 最后`copt_licgen -key` 后边跟licence
+
 - mosek的license
 - Pardiso的license
 - Gurobi的license
@@ -129,29 +132,22 @@ HSL系列软件
   [home · ralna/GALAHAD Wiki](https://github.com/ralna/GALAHAD/wiki)
   [raw.githubusercontent.com/ralna/GALAHAD/master/doc/README](https://raw.githubusercontent.com/ralna/GALAHAD/master/doc/README)
 
-
-
-
 ## Docker
 
 [Install and Use Tensorman - System76 Support](https://support.system76.com/articles/tensorman/)
-
 
 从官网下载docker
 [Install Docker Desktop on Ubuntu | Docker Documentation](https://docs.docker.com/desktop/install/ubuntu/)
 
 [Install Docker Engine on Ubuntu | Docker Documentation](https://docs.docker.com/engine/install/ubuntu/#install-docker-engine)
 
-
 [Post-installation steps for Linux | Docker Documentation](https://docs.docker.com/engine/install/linux-postinstall/)
-
 
 [Installation Guide — NVIDIA Cloud Native Technologies documentation](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)(记得把distributions改为"ubuntu22.04")
 
 [Sign in and get started | Docker Documentation](https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users)
 
 [[Install nvidia-docker2 In Pop!_OS]#popos](https://gist.github.com/kuang-da/2796a792ced96deaf466fdfb7651aa2e)
-
 
 # 一些疑难杂症
 

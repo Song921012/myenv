@@ -657,9 +657,9 @@ uuid = "c49709b8-5c63-11e9-2fb2-69db5844192f"
 version = "0.2.0"
 
 [[deps.Cassette]]
-git-tree-sha1 = "063b2e77c5537a548c5bf2f44161f1d3e1ab3227"
+git-tree-sha1 = "a70f220ea09ec61401745ff338f8fb340420165c"
 uuid = "7057c7e9-c182-5462-911a-8362d720325c"
-version = "0.3.10"
+version = "0.3.11"
 
 [[deps.CatIndices]]
 deps = ["CustomUnitRanges", "OffsetArrays"]
@@ -1993,9 +1993,9 @@ version = "1.0.2"
 
 [[deps.Groebner]]
 deps = ["AbstractAlgebra", "Combinatorics", "Logging", "MultivariatePolynomials", "Primes", "Random"]
-git-tree-sha1 = "144cd8158cce5b36614b9c95b8afab6911bd469b"
+git-tree-sha1 = "47f0f03eddecd7ad59c42b1dd46d5f42916aff63"
 uuid = "0b43b601-686d-58a3-8a1c-6623616c7cd4"
-version = "0.2.10"
+version = "0.2.11"
 
 [[deps.GroupsCore]]
 deps = ["Markdown", "Random"]
@@ -3142,15 +3142,15 @@ version = "0.20.20"
 
 [[deps.MLJEnsembles]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "ComputationalResources", "Distributed", "Distributions", "MLJBase", "MLJModelInterface", "ProgressMeter", "Random", "ScientificTypesBase", "StatsBase"]
-git-tree-sha1 = "ed2f724be26d0023cade9d59b55da93f528c3f26"
+git-tree-sha1 = "bb8a1056b1d8b40f2f27167fc3ef6412a6719fbf"
 uuid = "50ed68f4-41fd-4504-931a-ed422449fee0"
-version = "0.3.1"
+version = "0.3.2"
 
 [[deps.MLJIteration]]
 deps = ["IterationControl", "MLJBase", "Random", "Serialization"]
-git-tree-sha1 = "024d0bd22bf4a5b273f626e89d742a9db95285ef"
+git-tree-sha1 = "be6d5c71ab499a59e82d65e00a89ceba8732fcd5"
 uuid = "614be32b-d00c-4edb-bd02-1eb411ab5e55"
-version = "0.5.0"
+version = "0.5.1"
 
 [[deps.MLJLinearModels]]
 deps = ["DocStringExtensions", "IterativeSolvers", "LinearAlgebra", "LinearMaps", "MLJModelInterface", "Optim", "Parameters"]
@@ -3172,9 +3172,9 @@ version = "0.15.15"
 
 [[deps.MLJTuning]]
 deps = ["ComputationalResources", "Distributed", "Distributions", "LatinHypercubeSampling", "MLJBase", "ProgressMeter", "Random", "RecipesBase"]
-git-tree-sha1 = "77209966cc028c1d7730001dc32bffe17a198f29"
+git-tree-sha1 = "02688098bd77827b64ed8ad747c14f715f98cfc4"
 uuid = "03970b2e-30c4-11ea-3135-d1576263f10f"
-version = "0.7.3"
+version = "0.7.4"
 
 [[deps.MLLabelUtils]]
 deps = ["LearnBase", "MappedArrays", "StatsBase"]
@@ -4339,7 +4339,7 @@ version = "1.35.8"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "HypertextLiteral", "InteractiveUtils", "Logging", "MIMEs", "Markdown", "MsgPack", "Pkg", "PrecompileSignatures", "REPL", "RegistryInstances", "RelocatableFolders", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
-git-tree-sha1 = "151bc879960f5f21508dd40f7367d0dcf3945c52"
+git-tree-sha1 = "e0b329a2ac023d8c7c249245635f6bfe56d2623f"
 repo-rev = "main"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"

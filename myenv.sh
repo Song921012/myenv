@@ -42,6 +42,11 @@ sudo apt install python3-dev
 #Rust
 curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
 
+# Terminal
+sudo add-apt-repository ppa:aslatter/ppa
+sudo apt update
+sudo apt install alacritty
+
 
 #Linux Command
 sudo add-apt-repository ppa:christian-boxdoerfer/fsearch-stable
