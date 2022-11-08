@@ -91,6 +91,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/myenv/lib
 export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$HOME/myenv/include
 export INCLUDE=$INCLUDE:$HOME/myenv/include
 export PYTHONPATH=$PYTHONPATH:/home/aidishage/myenv/src/Optizelle/lib/python3.8/site-packages:/opt/openrobots/lib/python3.10/site-packages
+export PYTHONPATH=$PYTHONPATH:/home/aidishage/myenv/pypkg
 export SNOPT_LICENSE=$HOME/licenses/snopt7.lic
 
 # Pardiso
