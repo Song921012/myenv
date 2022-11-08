@@ -1,12 +1,12 @@
 # Linux python
 conda deactivate
 conda deactivate
-#pip install  Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx seaborn jupyter jupyterlab jupyter_contrib_nbextensions nbconvert radian conan flake8 pylint  yapf virtualenv 
+#pip install  Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx seaborn jupyter jupyterlab radian conan flake8 pylint  yapf virtualenv 
 
 # Base python
 conda activate base
 pip install --upgrade pip
-pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx jupyter jupyterlab jupyter_contrib_nbextensions nbconvert virtualenv virtualenvwrapper-win rich pygments talk2stat isort\
+pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx  virtualenv virtualenvwrapper-win rich pygments talk2stat isort\
 
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-countries-pypkg
 

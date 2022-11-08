@@ -388,9 +388,9 @@ uuid = "ab4f0b2a-ad5b-11e8-123f-65d77653426b"
 version = "0.2.0"
 
 [[deps.BSON]]
-git-tree-sha1 = "306bb5574b0c1c56d7e1207581516c557d105cad"
+git-tree-sha1 = "86e9781ac28f4e80e9b98f7f96eae21891332ac2"
 uuid = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
-version = "0.3.5"
+version = "0.3.6"
 
 [[deps.BandedMatrices]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra", "SparseArrays"]
@@ -566,9 +566,9 @@ version = "0.1.0"
 
 [[deps.CPUSummary]]
 deps = ["CpuId", "IfElse", "Static"]
-git-tree-sha1 = "8a43595f7b3f7d6dd1e07ad9b94081e1975df4af"
+git-tree-sha1 = "43f67c13e30ed6ec2b350a5812ed4478cac46375"
 uuid = "2a0fbf3d-bb9c-48f3-b0a9-814d99fd7ab9"
-version = "0.1.25"
+version = "0.1.28"
 
 [[deps.CRlibm]]
 deps = ["CRlibm_jll"]
@@ -3444,9 +3444,9 @@ version = "0.7.4"
 
 [[deps.ModelingToolkit]]
 deps = ["AbstractTrees", "ArrayInterfaceCore", "Combinatorics", "Compat", "ConstructionBase", "DataStructures", "DiffEqBase", "DiffEqCallbacks", "DiffRules", "Distributed", "Distributions", "DocStringExtensions", "DomainSets", "ForwardDiff", "FunctionWrappersWrappers", "Graphs", "IfElse", "InteractiveUtils", "JuliaFormatter", "JumpProcesses", "LabelledArrays", "Latexify", "Libdl", "LinearAlgebra", "MacroTools", "NaNMath", "NonlinearSolve", "RecursiveArrayTools", "Reexport", "RuntimeGeneratedFunctions", "SciMLBase", "Serialization", "Setfield", "SparseArrays", "SpecialFunctions", "StaticArrays", "SymbolicUtils", "Symbolics", "UnPack", "Unitful"]
-git-tree-sha1 = "b054d2ca165ed788d1450877f76dcc758aa0e6fe"
+git-tree-sha1 = "cccaadf40f91a4aa72d0ca2aac6581635bcb57a5"
 uuid = "961ee093-0014-501f-94e3-6117800e7a78"
-version = "8.31.0"
+version = "8.32.0"
 
 [[deps.ModernGL]]
 deps = ["Libdl"]
@@ -3864,7 +3864,9 @@ version = "0.5.4"
 
 [[deps.Octavian]]
 deps = ["ArrayInterface", "CPUSummary", "IfElse", "LoopVectorization", "ManualMemory", "PolyesterWeave", "Requires", "Static", "ThreadingUtilities", "VectorizationBase"]
-git-tree-sha1 = "158165d6989aadd1990120ef29eab0374872f65a"
+git-tree-sha1 = "1932bb2ab18ec1f01c0ccb03194e4205edc58928"
+repo-rev = "master"
+repo-url = "https://github.com/Mathepia/Octavian.jl.git"
 uuid = "6fd5a793-0b7e-452c-907f-f8bfe9c57db4"
 version = "0.3.17"
 

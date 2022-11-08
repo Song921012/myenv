@@ -32,7 +32,7 @@ conda deactivate
 #conda create -n fenics -c conda-forge fenics pyoptsparse python=3.10.6
 conda activate fenics
 conda update --all
-pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv rich pygments
+pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv rich pygments jupyter_contrib_nbextensions nbconvert
 pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pip install -U torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -U git+https://github.com/dolfin-adjoint/pyadjoint.git@master git+https://github.com/funsim/moola.git@master git+https://github.com/IvanYashchuk/fecr@master git+https://github.com/IvanYashchuk/jax-fenics-adjoint.git@master cashocs "meshio[all]" gmsh pyvista #git+https://github.com/barkm/torch-fenics.git@master
@@ -43,7 +43,7 @@ conda deactivate
 # conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=3.10.6
 conda activate fenicsx
 conda update --all
-pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv rich pygments
+pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv rich pygments jupyter_contrib_nbextensions nbconvert
 conda deactivate
 # Fenics
 #conda activate base

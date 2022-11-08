@@ -28,7 +28,6 @@ ln -f ~/.config/kitty/kitty.conf ~/myenv/kitty.conf
 ## Install miniconda
 zsh
 conda update conda
-conda install python=$pythonversion
 ## Install texlive
 ## Install Rstudio
 
@@ -41,13 +40,11 @@ cppup
 # Install Python
 pythoninstall
 # Install julia
-juliainstall $juliabigversion $juliasmallversion
+juliainstall
 juliadevinstall
 # Install r
 R --no-save <~/myenv/importr.r
 # Install fenics/firedrake
-conda create -n fenics -c conda-forge fenics pyoptsparse julia python=$pythonversion
-conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=$pythonversion
 fenicsup
 
 

@@ -1,10 +1,13 @@
+echo "please input python version, e.g. 3.10"
+read pythonversion
 conda activate
+conda install -c conda-forge python=$pythonversion jupyter jupyterlab
 pip install --upgrade pip
 pip install torch torchvision torchaudio
 pip install -U "sktime[all_extras]"
 pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pip install -U tensorflow
-pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx  seaborn jupyter jupyterlab jupyter_contrib_nbextensions nbconvert\
+pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx  seaborn jupyter_contrib_nbextensions nbconvert\
   radian conan flake8 pylint huggingface-hub yapf virtualenv virtualenvwrapper-win rich pygments talk2stat isort\
   SAlib deepxde streamlit streamlit-pandas-profiling pandas-profiling plotly-express\
   tensorflow-probability gplearn gpflow\
@@ -18,9 +21,14 @@ sudo npm install -g hexo
 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
 
+# fenics and fenicsx
+conda deactivate
+conda create -n fenics -c conda-forge fenics pyoptsparse julia python=$pythonversion jupyter jupyterlab
+conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=$pythonversion jupyter jupyterlab
+
 
 # Symbolic Regression Environment
-conda create -n sr python=3.10
+conda create -n sr python=$pythonversion jupyter jupyterlab
 conda activate sr
 conda install -c conda-forge shogun-cpp
 conda install -c conda-forge fmt=9.1.0 
@@ -31,7 +39,7 @@ conda install -c conda-forge gsl
 conda install -c conda-forge py-xgboost 
 conda install -c conda-forge mpi4py
 
-pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv rich pygments sklearn DistanceClassifier pmlb eigency seaborn deap icecream
+pip install Numpy Pandas Matplotlib scipy sympy statsmodels radian flake8 pylint yapf virtualenv jupyter_contrib_nbextensions nbconvert rich pygments sklearn DistanceClassifier pmlb eigency seaborn deap icecream
 ## pip3 install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.14.0-py3-none-any.whl
 ## xgboost, randomforest, lgbm, adaboost
 ## HROCH feat ellyn pysr pstree bingo pyopern gplearn bayesr ffx
@@ -78,8 +86,9 @@ conda deactivate
 
 
 # PyMC
-conda create -c conda-forge -n pymc "pymc>=4"
+conda create -c conda-forge -n pymc "pymc>=4" jupyter jupyterlab
 conda activate pymc
-pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv
+pip install Numpy Pandas Matplotlib scipy sympy statsmodels radian flake8 pylint yapf virtualenv jupyter_contrib_nbextensions nbconvert
 conda deactivate
+conda activate base
 cd
