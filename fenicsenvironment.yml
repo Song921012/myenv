@@ -43,7 +43,7 @@ dependencies:
   - gcc_impl_linux-64=10.4.0=h7ee1905_16
   - gcc_linux-64=10.4.0=h9215b83_10
   - gettext=0.21.1=h27087fc_0
-  - git=2.38.1=pl5321had83b7b_0
+  - git=2.38.1=pl5321h8df7355_1
   - gmp=6.2.1=h58526e2_0
   - gmpy2=2.1.2=py310h3ec546c_1
   - gxx_impl_linux-64=10.4.0=h7ee1905_16
@@ -56,7 +56,7 @@ dependencies:
   - ipykernel=6.17.0=pyh210e3f2_0
   - ipython=8.6.0=pyh41d4057_1
   - jedi=0.18.1=pyhd8ed1ab_2
-  - julia=1.8.2=h6f5dd7c_0
+  - julia=1.8.2=h00c5a2e_1
   - jupyter_client=7.4.4=pyhd8ed1ab_0
   - jupyter_core=4.11.2=py310hff52083_0
   - kernel-headers_linux-64=2.6.32=he073ed8_15
@@ -73,7 +73,7 @@ dependencies:
   - libgcc-ng=12.2.0=h65d4601_19
   - libgfortran-ng=12.2.0=h69a702a_19
   - libgfortran5=12.2.0=h337968e_19
-  - libgit2=1.5.0=h4c07d5c_0
+  - libgit2=1.5.0=hdb3ecda_1
   - libgomp=12.2.0=h65d4601_19
   - libiconv=1.17=h166bdaf_0
   - liblapack=3.9.0=16_linux64_openblas
@@ -117,7 +117,7 @@ dependencies:
   - packaging=21.3=pyhd8ed1ab_0
   - parmetis=4.0.3=he9a3056_1005
   - parso=0.8.3=pyhd8ed1ab_0
-  - pcre2=10.37=hc3806b6_1
+  - pcre2=10.40=hc3806b6_0
   - perl=5.32.1=2_h7f98852_perl5
   - petsc=3.17.4=real_h4502189_101
   - petsc4py=3.17.4=real_h5540cce_101
@@ -127,7 +127,7 @@ dependencies:
   - pkg-config=0.29.2=h36c2ea0_1008
   - pkgconfig=1.5.5=pyhd8ed1ab_4
   - prompt-toolkit=3.0.32=pyha770c72_0
-  - psutil=5.9.3=py310h5764c6d_1
+  - psutil=5.9.4=py310h5764c6d_0
   - ptscotch=6.0.9=h0a9c416_2
   - ptyprocess=0.7.0=pyhd3deb0d_0
   - pure_eval=0.2.2=pyhd8ed1ab_0
@@ -183,7 +183,7 @@ dependencies:
     - astroid==2.12.11
     - attrs==22.1.0
     - beautifulsoup4==4.11.1
-    - cashocs==1.8.11
+    - cashocs==1.8.12
     - certifi==2022.9.24
     - cftime==1.6.2
     - commonmark==0.9.1

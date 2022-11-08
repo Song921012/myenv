@@ -230,6 +230,7 @@ dependencies:
     - filelock==3.8.0
     - flake8==5.0.4
     - fonttools==4.37.4
+    - idna==3.4
     - ipykernel==6.16.0
     - ipython==8.5.0
     - ipython-genutils==0.2.0

@@ -2,7 +2,7 @@
 
 julia_version = "1.8.2"
 manifest_format = "2.0"
-project_hash = "584eec62e16d45235a9358c92a60032086b80f85"
+project_hash = "45bf92930788527737d88c24bf4a6aefab4db39f"
 
 [[deps.ADNLPModels]]
 deps = ["ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays"]
@@ -3865,8 +3865,6 @@ version = "0.5.4"
 [[deps.Octavian]]
 deps = ["ArrayInterface", "CPUSummary", "IfElse", "LoopVectorization", "ManualMemory", "PolyesterWeave", "Requires", "Static", "ThreadingUtilities", "VectorizationBase"]
 git-tree-sha1 = "158165d6989aadd1990120ef29eab0374872f65a"
-repo-rev = "master"
-repo-url = "https://github.com/JuliaLinearAlgebra/Octavian.jl.git"
 uuid = "6fd5a793-0b7e-452c-907f-f8bfe9c57db4"
 version = "0.3.17"
 
@@ -5751,12 +5749,6 @@ deps = ["CodeTracking", "ConstructionBase", "EllipsisNotation", "FillArrays", "F
 git-tree-sha1 = "ad3068d72fc18e5da8344fcd182fcfe1568ac834"
 uuid = "a7f1ee26-1774-49b1-8366-f1abc58fbfcb"
 version = "0.4.45"
-
-[[deps.Trixi2Vtk]]
-deps = ["Glob", "HDF5", "ProgressMeter", "StaticArrays", "TimerOutputs", "Trixi", "WriteVTK"]
-git-tree-sha1 = "c733c91f30c0d7b3ff6b774255ea071fc9940310"
-uuid = "bc1476a1-1ca6-4cc3-950b-c312b255ff95"
-version = "0.3.8"
 
 [[deps.Tulip]]
 deps = ["CodecBzip2", "CodecZlib", "Krylov", "LDLFactorizations", "LinearAlgebra", "LinearOperators", "Logging", "MathOptInterface", "Printf", "QPSReader", "SparseArrays", "SuiteSparse", "TOML", "Test", "TimerOutputs"]

@@ -1,4 +1,9 @@
+# Linux python
 conda deactivate
+conda deactivate
+#pip install  Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx seaborn jupyter jupyterlab jupyter_contrib_nbextensions nbconvert radian conan flake8 pylint  yapf virtualenv 
+
+# Base python
 conda activate base
 pip install --upgrade pip
 pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx jupyter jupyterlab jupyter_contrib_nbextensions nbconvert virtualenv virtualenvwrapper-win rich pygments talk2stat isort\
@@ -26,6 +31,9 @@ pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases
 pip install -U torch --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -U torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -U git+https://github.com/probml/dynamax.git
+
+
+# PyMC python
 
 conda deactivate
 conda activate pymc
