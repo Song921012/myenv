@@ -3391,9 +3391,9 @@ version = "0.4.11"
 
 [[deps.MethodOfLines]]
 deps = ["Combinatorics", "DiffEqBase", "DomainSets", "IfElse", "Interpolations", "Latexify", "LinearAlgebra", "ModelingToolkit", "NonlinearSolve", "OrdinaryDiffEq", "SafeTestsets", "SciMLBase", "StableRNGs", "StaticArrays", "SymbolicUtils", "Symbolics", "TermInterface", "Test"]
-git-tree-sha1 = "10310ddafa514e118e69443bd3d239c507ff3942"
+git-tree-sha1 = "1eeeb529e199b41aa093d8a7f3401182fe942371"
 uuid = "94925ecb-adb7-4558-8ed8-f975c56a0bf4"
-version = "0.6.0"
+version = "0.6.1"
 
 [[deps.MicroCollections]]
 deps = ["BangBang", "InitialValues", "Setfield"]
