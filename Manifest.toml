@@ -2065,9 +2065,9 @@ version = "0.1.2"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "Dates", "IniFile", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
-git-tree-sha1 = "8556f4b387fcd1d9b3013d798eecbcfa0d985e66"
+git-tree-sha1 = "8c7e6b82abd41364b8ffe40ffc63b33e590c8722"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "1.5.2"
+version = "1.5.3"
 
 [[deps.HarfBuzz_jll]]
 deps = ["Artifacts", "Cairo_jll", "Fontconfig_jll", "FreeType2_jll", "Glib_jll", "Graphite2_jll", "JLLWrappers", "Libdl", "Libffi_jll", "Pkg"]
@@ -2628,10 +2628,10 @@ uuid = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
 version = "0.8.4"
 
 [[deps.KrylovKit]]
-deps = ["LinearAlgebra", "Printf"]
-git-tree-sha1 = "49b0c1dd5c292870577b8f58c51072bd558febb9"
+deps = ["ChainRulesCore", "GPUArraysCore", "LinearAlgebra", "Printf"]
+git-tree-sha1 = "1a5e1d9941c783b0119897d29f2eb665d876ecf3"
 uuid = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
-version = "0.5.4"
+version = "0.6.0"
 
 [[deps.LAME_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -2688,9 +2688,9 @@ uuid = "1d63c593-3942-5779-bab2-d838dc0a180e"
 version = "15.0.4+0"
 
 [[deps.LRUCache]]
-git-tree-sha1 = "d64a0aff6691612ab9fb0117b0995270871c5dfc"
+git-tree-sha1 = "d862633ef6097461037a00a13f709a62ae4bdfdd"
 uuid = "8ac3fa9e-de4c-5943-b1dc-09c6b5f20637"
-version = "1.3.0"
+version = "1.4.0"
 
 [[deps.LZO_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -2954,9 +2954,9 @@ version = "2.4.1"
 
 [[deps.LinearSolve]]
 deps = ["ArrayInterfaceCore", "DocStringExtensions", "FastLapackInterface", "GPUArraysCore", "IterativeSolvers", "KLU", "Krylov", "KrylovKit", "LinearAlgebra", "RecursiveFactorization", "Reexport", "SciMLBase", "Setfield", "SnoopPrecompile", "SparseArrays", "SuiteSparse", "UnPack"]
-git-tree-sha1 = "9dc30911bb8697a489c298339536d5234d54ba96"
+git-tree-sha1 = "7af848f614840d768002b607e297a51bdc62955f"
 uuid = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
-version = "1.27.1"
+version = "1.28.0"
 
 [[deps.LinearSolveCUDA]]
 deps = ["CUDA", "LinearAlgebra", "LinearSolve", "SciMLBase"]
@@ -4339,7 +4339,7 @@ version = "1.36.0"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "HypertextLiteral", "InteractiveUtils", "Logging", "MIMEs", "Markdown", "MsgPack", "Pkg", "PrecompileSignatures", "REPL", "RegistryInstances", "RelocatableFolders", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
-git-tree-sha1 = "0783437ccdc845d75c847fc9eb7d0f44771ed9b1"
+git-tree-sha1 = "ae10c31daeb92a3672235351918130f09b36265e"
 repo-rev = "main"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
@@ -4882,9 +4882,9 @@ uuid = "c1ab834c-c4a5-50f5-9156-8f0fe7758b0e"
 version = "100.100.0+0"
 
 [[deps.SIMD]]
-git-tree-sha1 = "7dbc15af7ed5f751a82bf3ed37757adf76c32402"
+git-tree-sha1 = "bc12e315740f3a36a6db85fa2c0212a848bd239e"
 uuid = "fdea26ae-647d-5447-a871-4b548cad5224"
-version = "3.4.1"
+version = "3.4.2"
 
 [[deps.SIMDDualNumbers]]
 deps = ["ForwardDiff", "IfElse", "SLEEFPirates", "VectorizationBase"]

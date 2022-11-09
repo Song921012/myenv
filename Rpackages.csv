@@ -620,7 +620,7 @@ digest, pkgbuild, prettyunits, R6, rprojroot, sessioninfo (>=
 testthat, webfakes",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "RColorBrewer","RColorBrewer","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1-3",NA,"R (>= 2.0.0)",NA,NA,NA,NA,"Apache License 2.0",NA,NA,NA,NA,"no","4.2.1"
 "Rcpp","Rcpp","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.9",NA,NA,"methods, utils",NA,"tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
-"RcppArmadillo","RcppArmadillo","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.11.4.0.1",NA,"R (>= 3.3.0)","Rcpp (>= 0.11.0), stats, utils, methods","Rcpp","tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
+"RcppArmadillo","RcppArmadillo","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.11.4.2.1",NA,"R (>= 3.3.0)","Rcpp (>= 0.11.0), stats, utils, methods","Rcpp","tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "RcppEigen","RcppEigen","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.3.9.3",NA,"R (>= 3.6.0)","Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils","Rcpp","inline, tinytest, pkgKitten, microbenchmark",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "RcppParallel","RcppParallel","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","5.1.5",NA,"R (>= 3.0.2)",NA,NA,"Rcpp, RUnit, knitr, rmarkdown",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.2.1"
 "RcppSimdJson","RcppSimdJson","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.8",NA,NA,"Rcpp, utils","Rcpp","bit64, tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
@@ -659,12 +659,12 @@ readr, rmarkdown, rmatio, xml2 (>= 1.2.0), yaml",NA,"GPL-2",NA,NA,NA,NA,"no","4.
 methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble,
 usethis, vctrs (>= 0.2.3), withr","winch","MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "rle","rle","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.9.2",NA,"R (>= 3.5)","methods",NA,"covr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.1"
-"rmarkdown","rmarkdown","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.17",NA,"R (>= 3.0)","bslib (>= 0.2.5.1), evaluate (>= 0.13), htmltools (>= 0.5.1),
+"rmarkdown","rmarkdown","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.18",NA,"R (>= 3.0)","bslib (>= 0.2.5.1), evaluate (>= 0.13), htmltools (>= 0.5.1),
 jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>=
 1.2.0), tinytex (>= 0.31), tools, utils, xfun (>= 0.30), yaml
 (>= 2.1.19)",NA,"digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex
 (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>=
-3.0.3), tibble, tufte, vctrs, withr (>= 2.4.2)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
+3.0.3), tibble, tufte, vctrs, withr (>= 2.4.2)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "robustbase","robustbase","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.95-0",NA,"R (>= 3.5.0)","stats, graphics, utils, methods, DEoptimR",NA,"grid, MASS, lattice, boot, cluster, Matrix, robust,
 fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
 reshape2, sfsmisc, catdata, doParallel, foreach, skewt","robustX, rrcov, matrixStats, quantreg, Hmisc","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
@@ -695,7 +695,7 @@ roxygen2, StanHeaders (>= 2.21.0), testthat (>= 1.0.2)",NA,"GPL (>= 3)",NA,NA,NA
 "rstantools","rstantools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.0",NA,NA,"desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)",NA,"rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0),
 knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown,
 rstudioapi",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.1"
-"rstatix","rstatix","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.7.0",NA,"R (>= 3.3.0)","stats, utils, tidyr (>= 1.0.0), purrr, broom (>= 0.7.4), rlang
+"rstatix","rstatix","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.7.1",NA,"R (>= 3.3.0)","stats, utils, tidyr (>= 1.0.0), purrr, broom (>= 0.7.4), rlang
 (>= 0.3.1), tibble (>= 2.1.3), dplyr (>= 0.7.1), magrittr,
 corrplot, tidyselect (>= 1.0.0), car, generics (>= 0.0.2)",NA,"knitr, rmarkdown, ggpubr, graphics, emmeans, coin, boot,
 testthat, spelling",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
