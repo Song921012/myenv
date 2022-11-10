@@ -491,8 +491,8 @@ shadowtext, tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "nloptr","nloptr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.3",NA,NA,NA,"testthat","knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr",NA,"LGPL (>= 3)",NA,NA,NA,NA,"yes","4.2.1"
 "nnet","nnet","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","7.3-18","recommended","R (>= 3.0.0), stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
 "numDeriv","numDeriv","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2016.8-1.1",NA,"R (>= 2.11.1)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.2.1"
-"oai","oai","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.2",NA,NA,"xml2 (>= 1.0.0), httr (>= 1.2.0), plyr (>= 1.8.4), stringr (>=
-1.1.0), tibble (>= 1.2)",NA,"DBI, knitr, RSQLite, testthat, markdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
+"oai","oai","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.0",NA,NA,"xml2 (>= 1.0.0), httr (>= 1.2.0), plyr (>= 1.8.4), stringr (>=
+1.1.0), tibble (>= 1.2)",NA,"DBI, knitr, RSQLite, testthat, markdown, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "openssl","openssl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.4",NA,NA,"askpass",NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
 jsonlite, jose, sodium",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "openxlsx","openxlsx","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.2.5.1",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, stringi, utils, zip","Rcpp","knitr, rmarkdown, roxygen2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"

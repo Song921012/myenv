@@ -468,9 +468,9 @@ uuid = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 version = "0.5.10"
 
 [[deps.BitFlags]]
-git-tree-sha1 = "84259bb6172806304b9101094a7cc4bc6f56dbc6"
+git-tree-sha1 = "629c6e4a7be8f427d268cebef2a5e3de6c50d462"
 uuid = "d1d4a3ce-64b1-5f1a-9ba4-7e7e69966f35"
-version = "0.1.5"
+version = "0.1.6"
 
 [[deps.BitIntegers]]
 deps = ["Random"]
@@ -528,9 +528,9 @@ version = "2.3.3"
 
 [[deps.BoundaryValueDiffEq]]
 deps = ["BandedMatrices", "DiffEqBase", "FiniteDiff", "ForwardDiff", "LinearAlgebra", "NLsolve", "Reexport", "SciMLBase", "SparseArrays"]
-git-tree-sha1 = "2f80b70bd3ddd9aa3ec2d77604c1121bd115650e"
+git-tree-sha1 = "d4d28a2ac12b6252e6b09a6eebf71f6f8795de49"
 uuid = "764a87c0-6b3e-53db-9096-fe964310641d"
-version = "2.9.0"
+version = "2.10.0"
 
 [[deps.BufferedStreams]]
 git-tree-sha1 = "bb065b14d7f941b8617bc323063dbe79f55d16ea"
@@ -1136,9 +1136,9 @@ version = "0.1.2"
 
 [[deps.DelayDiffEq]]
 deps = ["ArrayInterface", "DataStructures", "DiffEqBase", "LinearAlgebra", "Logging", "NonlinearSolve", "OrdinaryDiffEq", "Printf", "RecursiveArrayTools", "Reexport", "SciMLBase", "UnPack"]
-git-tree-sha1 = "b8aab9f89afbef5b7f50ea5030ccc1629e2a18c2"
+git-tree-sha1 = "b6da0b46c8d03b6c8102b9a21f62fab90a413eef"
 uuid = "bcd4f6db-9728-5f36-b5f7-82caef46ccdb"
-version = "5.38.3"
+version = "5.39.0"
 
 [[deps.DelayEmbeddings]]
 deps = ["Distances", "Distributions", "LinearAlgebra", "Neighborhood", "Random", "StaticArrays", "Statistics", "StatsBase"]
@@ -2054,10 +2054,10 @@ uuid = "528830af-5a63-567c-a44a-034ed33b8444"
 version = "0.10.2+0"
 
 [[deps.Gurobi]]
-deps = ["Libdl", "MathOptInterface", "Pkg"]
-git-tree-sha1 = "87c018cbd2fd33e6d2462d486abee53a27c91c91"
+deps = ["LazyArtifacts", "Libdl", "MathOptInterface"]
+git-tree-sha1 = "34582861dac2db2590b8cef9930c87d74f848aa1"
 uuid = "2e9cd046-0924-5485-92f1-d5272153d98b"
-version = "0.11.3"
+version = "0.11.4"
 
 [[deps.H5Zblosc]]
 deps = ["Blosc", "HDF5"]
@@ -2395,15 +2395,15 @@ version = "0.1.5"
 
 [[deps.Integrals]]
 deps = ["ChainRulesCore", "CommonSolve", "Distributions", "ForwardDiff", "HCubature", "LinearAlgebra", "MonteCarloIntegration", "QuadGK", "Reexport", "ReverseDiff", "SciMLBase", "Zygote", "ZygoteRules"]
-git-tree-sha1 = "70bf388173e2d85349e8c67a67c7b20665db0195"
+git-tree-sha1 = "72246df76fee67e50c591373536f6bc4876360c4"
 uuid = "de52edbc-65ea-441a-8357-d3a637375a31"
-version = "3.1.2"
+version = "3.2.0"
 
 [[deps.IntegralsCubature]]
 deps = ["Cubature", "Integrals"]
-git-tree-sha1 = "203da18b88100351e7094e09bcee055715e0ac9a"
+git-tree-sha1 = "9ebe45f2abda9557c2996763a603d43447670ce0"
 uuid = "c31f79ba-6e32-46d4-a52f-182a8ac42a54"
-version = "0.2.0"
+version = "0.2.1"
 
 [[deps.IntelOpenMP_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -4365,7 +4365,7 @@ version = "1.36.1"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "HypertextLiteral", "InteractiveUtils", "Logging", "MIMEs", "Markdown", "MsgPack", "Pkg", "PrecompileSignatures", "REPL", "RegistryInstances", "RelocatableFolders", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
-git-tree-sha1 = "9a4665c8a622b934ba4dca7ba5d7cf8a47d26426"
+git-tree-sha1 = "a5075c2c02d003fbfe2f8e8f308788682a4fb2c0"
 repo-rev = "main"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
@@ -5837,9 +5837,9 @@ version = "0.4.1"
 
 [[deps.UnicodePlots]]
 deps = ["ColorSchemes", "ColorTypes", "Contour", "Crayons", "Dates", "FileIO", "FreeType", "LinearAlgebra", "MarchingCubes", "NaNMath", "Printf", "Requires", "SnoopPrecompile", "SparseArrays", "StaticArrays", "StatsBase", "Unitful"]
-git-tree-sha1 = "e9bd3ead50b5767f7525e4a52dc8e4d90ef65f0a"
+git-tree-sha1 = "50b0a0eeab1a794822081162d7da0c79805e843e"
 uuid = "b8865327-cd53-5732-bb35-84acbb429228"
-version = "3.2.0"
+version = "3.2.1"
 
 [[deps.Unitful]]
 deps = ["ConstructionBase", "Dates", "LinearAlgebra", "Random"]
