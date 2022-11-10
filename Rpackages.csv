@@ -288,7 +288,8 @@ ggrepel, glmnet, grDevices, KFAS, knitr, lintr, mapdata,
 markdown, MASS, MSwM, nlme, raster, ROCR, sp, stats,
 strucchange, survival, timeSeries, tseries, utils, vars, xts,
 zoo, lfda",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"ggpattern","ggpattern","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.0",NA,NA,"ggplot2, glue, grid, gridpattern (>= 1.0.1), rlang, scales,",NA,"ambient, dplyr, gganimate, knitr, magick, mapproj, maps, png,
+"ggpattern","ggpattern","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.1",NA,NA,"ggplot2 (>= 3.4.0), glue, grid, gridpattern (>= 1.0.2), rlang,
+scales,",NA,"ambient, dplyr, gganimate, knitr, magick, mapproj, maps, png,
 ragg (>= 1.2.0), readr, rmarkdown, sf (>= 0.7-3), testthat (>=
 2.1.0), vdiffr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "ggplot2","ggplot2","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.4.0",NA,"R (>= 3.3)","cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband,

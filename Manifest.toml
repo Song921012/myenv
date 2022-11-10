@@ -1162,9 +1162,9 @@ version = "0.1.0+0"
 
 [[deps.DiffEqBase]]
 deps = ["ArrayInterfaceCore", "ChainRulesCore", "DataStructures", "Distributions", "DocStringExtensions", "FastBroadcast", "ForwardDiff", "FunctionWrappers", "FunctionWrappersWrappers", "LinearAlgebra", "Logging", "MuladdMacro", "NonlinearSolve", "Parameters", "Printf", "RecursiveArrayTools", "Reexport", "Requires", "SciMLBase", "Setfield", "SparseArrays", "Static", "StaticArrays", "Statistics", "Tricks", "ZygoteRules"]
-git-tree-sha1 = "1691af09e21555641fe762b28bda3dd927256765"
+git-tree-sha1 = "c8514cbef84124a40906655d9ca938fa5ac5892c"
 uuid = "2b5f629d-d688-5b77-993f-72d75c75574e"
-version = "6.105.2"
+version = "6.106.0"
 
 [[deps.DiffEqBayes]]
 deps = ["DiffEqBase", "DiffResults", "Distances", "Distributed", "Distributions", "DocStringExtensions", "DynamicHMC", "ForwardDiff", "LabelledArrays", "LinearAlgebra", "LogDensityProblems", "MacroTools", "Missings", "ModelingToolkit", "Optim", "PDMats", "Parameters", "Random", "RecursiveArrayTools", "Reexport", "Requires", "StanSample", "StructArrays", "TransformVariables", "TransformedLogDensities", "Turing"]
@@ -2340,9 +2340,9 @@ version = "0.3.1"
 
 [[deps.InlineStrings]]
 deps = ["Parsers"]
-git-tree-sha1 = "a62189e59d33e1615feb7a48c0bea7c11e4dc61d"
+git-tree-sha1 = "b5081bd8a53eeb6a2ef956751343ab44543023fb"
 uuid = "842dd82b-1e85-43dc-bf29-5d0ee9dffc48"
-version = "1.3.0"
+version = "1.3.1"
 
 [[deps.InplaceOps]]
 deps = ["LinearAlgebra", "Test"]
@@ -3436,11 +3436,11 @@ uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 
 [[deps.Mocking]]
 deps = ["Compat", "ExprTools"]
-git-tree-sha1 = "1585d89af321229717e0148c2a375a45105d5238"
+git-tree-sha1 = "c272302b22479a24d1cf48c114ad702933414f80"
 repo-rev = "master"
 repo-url = "https://github.com/invenia/Mocking.jl.git"
 uuid = "78c3b35d-d492-501b-9361-3d52fe80e533"
-version = "0.7.4"
+version = "0.7.5"
 
 [[deps.ModelingToolkit]]
 deps = ["AbstractTrees", "ArrayInterfaceCore", "Combinatorics", "Compat", "ConstructionBase", "DataStructures", "DiffEqBase", "DiffEqCallbacks", "DiffRules", "Distributed", "Distributions", "DocStringExtensions", "DomainSets", "ForwardDiff", "FunctionWrappersWrappers", "Graphs", "IfElse", "InteractiveUtils", "JuliaFormatter", "JumpProcesses", "LabelledArrays", "Latexify", "Libdl", "LinearAlgebra", "MacroTools", "NaNMath", "NonlinearSolve", "RecursiveArrayTools", "Reexport", "RuntimeGeneratedFunctions", "SciMLBase", "Serialization", "Setfield", "SparseArrays", "SpecialFunctions", "StaticArrays", "SymbolicUtils", "Symbolics", "UnPack", "Unitful"]
@@ -4091,9 +4091,9 @@ version = "1.4.1"
 
 [[deps.OrdinaryDiffEq]]
 deps = ["Adapt", "ArrayInterface", "ArrayInterfaceCore", "ArrayInterfaceGPUArrays", "ArrayInterfaceStaticArrays", "ArrayInterfaceStaticArraysCore", "DataStructures", "DiffEqBase", "DocStringExtensions", "ExponentialUtilities", "FastBroadcast", "FastClosures", "FiniteDiff", "ForwardDiff", "FunctionWrappersWrappers", "LinearAlgebra", "LinearSolve", "Logging", "LoopVectorization", "MacroTools", "MuladdMacro", "NLsolve", "NonlinearSolve", "Polyester", "PreallocationTools", "Preferences", "RecursiveArrayTools", "Reexport", "SciMLBase", "SnoopPrecompile", "SparseArrays", "SparseDiffTools", "StaticArrays", "UnPack"]
-git-tree-sha1 = "06587f44cbd1ffe0ecfb472925c9b875cbe880cd"
+git-tree-sha1 = "4a007e1dd74b5da4166d7ae63d3c3fcfc3a057c8"
 uuid = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
-version = "6.30.1"
+version = "6.31.0"
 
 [[deps.Osi_jll]]
 deps = ["Artifacts", "CoinUtils_jll", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "OpenBLAS32_jll", "Pkg"]
@@ -5313,9 +5313,9 @@ version = "0.8.1"
 
 [[deps.StochasticDiffEq]]
 deps = ["Adapt", "ArrayInterface", "DataStructures", "DiffEqBase", "DiffEqNoiseProcess", "DocStringExtensions", "FillArrays", "FiniteDiff", "ForwardDiff", "JumpProcesses", "LevyArea", "LinearAlgebra", "Logging", "MuladdMacro", "NLsolve", "OrdinaryDiffEq", "Random", "RandomNumbers", "RecursiveArrayTools", "Reexport", "SciMLBase", "SparseArrays", "SparseDiffTools", "StaticArrays", "UnPack"]
-git-tree-sha1 = "412bc8d2daffe21a3a340dc3111c69194e089fc4"
+git-tree-sha1 = "20f5abeee0f8ceac168d39b1c59ab9752ed992a8"
 uuid = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
-version = "6.55.0"
+version = "6.56.0"
 
 [[deps.Stopping]]
 deps = ["DataFrames", "LLSModels", "LinearAlgebra", "LinearOperators", "NLPModels", "Printf", "SolverTools", "SparseArrays", "Test"]
