@@ -2,7 +2,7 @@
 
 julia_version = "1.8.2"
 manifest_format = "2.0"
-project_hash = "0c52ae0468bacaf686524cf26a7d988e635a6503"
+project_hash = "d503fb4d80b14d1b489a3b03511ebf59c2f3f925"
 
 [[deps.ADNLPModels]]
 deps = ["ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays"]
@@ -2398,6 +2398,12 @@ deps = ["ChainRulesCore", "CommonSolve", "Distributions", "ForwardDiff", "HCubat
 git-tree-sha1 = "72246df76fee67e50c591373536f6bc4876360c4"
 uuid = "de52edbc-65ea-441a-8357-d3a637375a31"
 version = "3.2.0"
+
+[[deps.IntegralsCuba]]
+deps = ["Cuba", "Integrals"]
+git-tree-sha1 = "7b53b0b79cbd5373b4c2faf6f015f51f7f417e0c"
+uuid = "e00cd5f1-6337-4131-8b37-28b2fe4cd6cb"
+version = "0.2.1"
 
 [[deps.IntegralsCubature]]
 deps = ["Cubature", "Integrals"]
