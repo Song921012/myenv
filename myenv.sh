@@ -115,6 +115,9 @@ sudo apt-get install -y gnuplot # gnuplot
 # Miniconda
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 sh Miniconda3-latest-Linux-x86_64.sh
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
 
 # nix
 #sh <(curl -L https://nixos.org/nix/install) --daemon
