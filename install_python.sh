@@ -19,6 +19,9 @@ pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels network
 sudo npm install -g yarn
 sudo npm install -g hexo
 
+#cargo install --git https://github.com/neovide/neovide
+
+
 jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
 
 # fenics and fenicsx
