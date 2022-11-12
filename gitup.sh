@@ -69,6 +69,10 @@ echo "MathepiaPrograms"
 cd ~/Desktop/WebBookPapers/MathepiaPrograms
 git pull
 git add -A && git commit -m "update" && git push
+echo "awesome-sciml"
+cd ~/Desktop/WebBookPapers/awesome-sciml
+git pull
+git add -A && git commit -m "update" && git push
 echo "MathepiaTutorial"
 cd ~/Desktop/WebBookPapers/MathepiaTutorial
 git pull
