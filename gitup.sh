@@ -40,7 +40,7 @@ cd ~/.julia/dev/MathepiaInference.jl
 git pull
 cd ~/.julia/dev/MathepiaOptimal.jl
 git pull
-cd ~/.julia/dev/MathepiaModels
+cd ~/.julia/dev/MathepiaModels.jl
 git pull
 cd ~/.julia/dev/OptLibrary
 git pull
