@@ -2517,9 +2517,9 @@ version = "0.13.2"
 
 [[deps.JLD2]]
 deps = ["FileIO", "MacroTools", "Mmap", "OrderedCollections", "Pkg", "Printf", "Reexport", "TranscodingStreams", "UUIDs"]
-git-tree-sha1 = "acb4be8227e1f3ff890d564d55dcde9cf92e4337"
+git-tree-sha1 = "7859af8179d90fb1d0352172e1bf5abef279dcf6"
 uuid = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
-version = "0.4.26"
+version = "0.4.27"
 
 [[deps.JLFzf]]
 deps = ["Pipe", "REPL", "Random", "fzf_jll"]
@@ -3280,15 +3280,15 @@ version = "0.5.2"
 
 [[deps.Manifolds]]
 deps = ["Colors", "Distributions", "Einsum", "Graphs", "HybridArrays", "Kronecker", "LinearAlgebra", "ManifoldsBase", "Markdown", "MatrixEquations", "Quaternions", "Random", "RecipesBase", "RecursiveArrayTools", "Requires", "SimpleWeightedGraphs", "SpecialFunctions", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "413abfebb2e577c2082e89e490377d0f87580e05"
+git-tree-sha1 = "878296550aeb488a74c7c6e4f0b82f54461b9184"
 uuid = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
-version = "0.8.38"
+version = "0.8.39"
 
 [[deps.ManifoldsBase]]
 deps = ["LinearAlgebra", "Markdown"]
-git-tree-sha1 = "a4937b645251d937ceb3b67643f65e8490fd271d"
+git-tree-sha1 = "052f7a4c77fea6cdb66f469b36bdaddd764d63ef"
 uuid = "3362f125-f0bb-47a3-aa74-596ffd7ef2fb"
-version = "0.13.24"
+version = "0.13.25"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "StaticArrays", "Statistics", "Test"]
@@ -5843,9 +5843,9 @@ version = "0.4.1"
 
 [[deps.UnicodePlots]]
 deps = ["ColorSchemes", "ColorTypes", "Contour", "Crayons", "Dates", "FileIO", "FreeType", "LinearAlgebra", "MarchingCubes", "NaNMath", "Printf", "Requires", "SnoopPrecompile", "SparseArrays", "StaticArrays", "StatsBase", "Unitful"]
-git-tree-sha1 = "50b0a0eeab1a794822081162d7da0c79805e843e"
+git-tree-sha1 = "0650fc38512395913e0bba8626513cbf90811f6e"
 uuid = "b8865327-cd53-5732-bb35-84acbb429228"
-version = "3.2.1"
+version = "3.2.2"
 
 [[deps.Unitful]]
 deps = ["ConstructionBase", "Dates", "LinearAlgebra", "Random"]
