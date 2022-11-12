@@ -273,3 +273,4 @@ unset __conda_setup
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(starship init zsh)"
+source <("/home/aidishage/.nextstrain/cli-standalone/nextstrain" init-shell zsh)

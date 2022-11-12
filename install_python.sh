@@ -80,9 +80,19 @@ conda deactivate
 #cd
 #conda deactivate
 
+# Bioinformatics
 
+curl -fsSL --proto '=https' https://nextstrain.org/cli/installer/linux | bash
+nextstrain setup --set-default conda
+nextstrain update conda
 
-
+#conda create -n bioenv -c conda-forge -c bioconda python=3.10 jupyter jupyterlab augur auspice nextstrain-cli nextalign snakemake awscli
+#conda activate bioenv
+#conda install -c conda-forge nodejs
+#npm install --global auspice
+#pip install nextstrain-cli
+#nextstrain check-setup --set-default
+#conda deactivate
 
 
 # PyMC
