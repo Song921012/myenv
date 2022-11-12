@@ -32,15 +32,15 @@ git pull
 git add -A && git commit -m "update" && git push
 echo "MyProjects"
 ## git push projects working on
-cd ~/.julia/dev/Mathepia
+cd ~/.julia/dev/Mathepia.jl
 git pull
-cd ~/.julia/dev/MathepiaData
+cd ~/.julia/dev/MathepiaData.jl
 git pull
-cd ~/.julia/dev/MathepiaInference
+cd ~/.julia/dev/MathepiaInference.jl
 git pull
-cd ~/.julia/dev/MathepiaOptimal
+cd ~/.julia/dev/MathepiaOptimal.jl
 git pull
-cd ~/.julia/dev/MathepiaModels
+cd ~/.julia/dev/MathepiaModels.jl
 git pull
 cd ~/.julia/dev/OptLibrary
 git pull
