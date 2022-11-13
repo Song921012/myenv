@@ -4465,9 +4465,9 @@ version = "0.4.0"
 
 [[deps.PrettyTables]]
 deps = ["Crayons", "Formatting", "LaTeXStrings", "Markdown", "Reexport", "StringManipulation", "Tables"]
-git-tree-sha1 = "98ac42c9127667c2731072464fcfef9b819ce2fa"
+git-tree-sha1 = "d8ed354439950b34ab04ff8f3dfd49e11bc6c94b"
 uuid = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
-version = "2.2.0"
+version = "2.2.1"
 
 [[deps.Primes]]
 deps = ["IntegerMathUtils"]
@@ -5596,9 +5596,9 @@ version = "0.1.1"
 
 [[deps.Term]]
 deps = ["CodeTracking", "Dates", "Highlights", "InteractiveUtils", "Logging", "Markdown", "MyterialColors", "OrderedCollections", "Parameters", "ProgressLogging", "SnoopPrecompile", "Tables", "UUIDs", "UnicodeFun"]
-git-tree-sha1 = "5b5d38673d148f80e7e04569a665006d3bf91cfb"
+git-tree-sha1 = "d977137b9050a7762244eb25358429193fad438a"
 uuid = "22787eb5-b846-44ae-b979-8e399b8463ab"
-version = "1.0.4"
+version = "1.0.5"
 
 [[deps.TermInterface]]
 git-tree-sha1 = "7aa601f12708243987b88d1b453541a75e3d8c7a"
