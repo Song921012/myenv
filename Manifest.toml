@@ -123,7 +123,7 @@ version = "3.4.0"
 
 [[deps.AdaptiveRegularization]]
 deps = ["Krylov", "LinearAlgebra", "LinearOperators", "NLPModels", "SolverCore", "SparseArrays", "SparseMatricesCOO", "Stopping", "StoppingInterface"]
-git-tree-sha1 = "8dfc744a7d00eb0858803f869166cf51b481c457"
+git-tree-sha1 = "7c7ef12b8e378a9638e43d0af5f5665b60e56583"
 repo-rev = "main"
 repo-url = "https://github.com/JuliaSmoothOptimizers/AdaptiveRegularization.jl"
 uuid = "79adfba0-1eab-50d9-8528-0589417a2bfe"
@@ -428,9 +428,9 @@ version = "0.8.2"
 
 [[deps.BasicInterpolators]]
 deps = ["LinearAlgebra", "Memoize", "Random"]
-git-tree-sha1 = "f31f939bc12dfa058e6aa4454bf16e245cf8e41f"
+git-tree-sha1 = "3f7be532673fc4a22825e7884e9e0e876236b12a"
 uuid = "26cce99e-4866-4b6d-ab74-862489e035e0"
-version = "0.7.0"
+version = "0.7.1"
 
 [[deps.BasisFunctions]]
 deps = ["BlockArrays", "CompositeTypes", "DSP", "DomainIntegrals", "DomainSets", "FFTW", "FastGaussQuadrature", "FillArrays", "GaussQuadrature", "GenericFFT", "GenericLinearAlgebra", "GridArrays", "IterativeSolvers", "LinearAlgebra", "MacroTools", "OrderedCollections", "PGFPlotsX", "Pkg", "QuadGK", "RecipesBase", "Reexport", "SparseArrays", "SpecialFunctions", "StaticArrays", "Test", "ToeplitzMatrices"]
@@ -2131,9 +2131,9 @@ version = "0.5.2"
 
 [[deps.HostCPUFeatures]]
 deps = ["BitTwiddlingConvenienceFunctions", "IfElse", "Libdl", "Static"]
-git-tree-sha1 = "4a45762a60d0f7e5b6e423131eb044411c8f9b6d"
+git-tree-sha1 = "c21fbfd585e522510b657134d889fcea8574b5bb"
 uuid = "3e5b6fbb-0976-4d2c-9146-d79de83f2fb0"
-version = "0.1.10"
+version = "0.1.11"
 
 [[deps.HybridArrays]]
 deps = ["LinearAlgebra", "Requires", "StaticArrays"]
@@ -2530,6 +2530,12 @@ deps = ["Preferences"]
 git-tree-sha1 = "abc9885a7ca2052a736a600f7fa66209f96506e1"
 uuid = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 version = "1.4.1"
+
+[[deps.JMcDM]]
+deps = ["DataFrames", "Requires"]
+git-tree-sha1 = "753ddf2c62eee5a73f2545570b550e8a72f20ef1"
+uuid = "358108f5-d052-4d0a-8344-d5384e00c0e5"
+version = "0.6.0"
 
 [[deps.JSON]]
 deps = ["Dates", "Mmap", "Parsers", "Unicode"]
@@ -3402,10 +3408,10 @@ uuid = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
 version = "0.7.1"
 
 [[deps.Metaheuristics]]
-deps = ["Distances", "LinearAlgebra", "Pkg", "Printf", "Random", "Requires", "Statistics", "Test", "UnicodePlots"]
-git-tree-sha1 = "cd2920577e1c700b88f697913320e9ee1e8d98fe"
+deps = ["Distances", "JMcDM", "LinearAlgebra", "Pkg", "Printf", "Random", "Statistics", "Test", "UnicodePlots"]
+git-tree-sha1 = "05e34d826466645b390c6c6171fecd166eac0feb"
 uuid = "bcdb8e00-2c21-11e9-3065-2b553b22f898"
-version = "3.2.12"
+version = "3.2.13"
 
 [[deps.Metatheory]]
 deps = ["AutoHashEquals", "DataStructures", "Dates", "DocStringExtensions", "Parameters", "Reexport", "TermInterface", "ThreadsX", "TimerOutputs"]
@@ -4369,7 +4375,7 @@ version = "1.36.1"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "HypertextLiteral", "InteractiveUtils", "Logging", "MIMEs", "Markdown", "MsgPack", "Pkg", "PrecompileSignatures", "REPL", "RegistryInstances", "RelocatableFolders", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
-git-tree-sha1 = "f576f38b86f9655f72d607931517a8c07e01397b"
+git-tree-sha1 = "ffffcb88be5564fc2167b95bcd12f66f42263b3d"
 repo-rev = "main"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
@@ -6318,9 +6324,9 @@ version = "17.4.0+0"
 
 [[deps.protoc_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "57608ab80c2c34032b89ff149495310791890aac"
+git-tree-sha1 = "72308afa0aa106884e4e46aef64dfccb4071be66"
 uuid = "c7845625-083e-5bbe-8504-b32d602b7110"
-version = "3.21.4+0"
+version = "3.21.4+1"
 
 [[deps.x264_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
