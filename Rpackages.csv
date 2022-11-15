@@ -336,6 +336,8 @@ ggside, knitr, lme4, MASS, metaBMA, metafor, metaplus,
 PMCMRplus, psych, rmarkdown, spelling, survival, testthat (>=
 3.1.4), tibble, vdiffr, WRS2",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "ggtext","ggtext","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.2",NA,"R (>= 3.5)","ggplot2 (>= 3.3.0), grid, gridtext, rlang, scales",NA,"cowplot, dplyr, glue, knitr, rmarkdown, testthat, vdiffr",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"ggThemeAssist","ggThemeAssist","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.5",NA,"R (>= 3.0.0)","shiny (>= 0.13), miniUI (>= 0.1.1), rstudioapi (>= 0.5),
+ggplot2, formatR",NA,"extrafont",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "ggthemes","ggthemes","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.2.4",NA,"R (>= 3.3.0)","ggplot2 (>= 3.0.0), graphics, grid, methods, purrr, scales,
 stringr, tibble",NA,"dplyr, covr, extrafont, glue, knitr, lattice, lintr, maps,
 mapproj, pander, rlang, rmarkdown, spelling, testthat, tidyr,

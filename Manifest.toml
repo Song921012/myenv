@@ -498,9 +498,9 @@ version = "0.11.9"
 
 [[deps.BlockDiagonals]]
 deps = ["ChainRulesCore", "FillArrays", "FiniteDifferences", "LinearAlgebra"]
-git-tree-sha1 = "67309a218fc4ddd1e28110714087e405677c3b97"
+git-tree-sha1 = "ffd635c19b56f50d1d4278d876219644299b5711"
 uuid = "0a1fb500-61f7-11e9-3c65-f5ef3456f9f0"
-version = "0.1.40"
+version = "0.1.41"
 
 [[deps.Blosc]]
 deps = ["Blosc_jll"]
@@ -1624,15 +1624,15 @@ version = "0.3.1"
 
 [[deps.FastTransforms]]
 deps = ["AbstractFFTs", "FFTW", "FastGaussQuadrature", "FastTransforms_jll", "FillArrays", "GenericFFT", "Libdl", "LinearAlgebra", "Reexport", "SpecialFunctions", "Test", "ToeplitzMatrices"]
-git-tree-sha1 = "50ab78299c9f661ac682b49e3ec3be8e6f5f62cb"
+git-tree-sha1 = "a199436dae689cfb5b1fdaf0e2777b84f2d280fc"
 uuid = "057dd010-8810-581a-b7be-e3fc3b93f78c"
-version = "0.14.7"
+version = "0.14.8"
 
 [[deps.FastTransforms_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "FFTW_jll", "JLLWrappers", "LLVMOpenMP_jll", "Libdl", "MPFR_jll", "OpenBLAS_jll", "Pkg"]
-git-tree-sha1 = "a2a2778f28475fa5da7167cd240e3f961fb3f6a4"
+git-tree-sha1 = "8cec4285578b83cec4f5aa13a13a4963595846df"
 uuid = "34b6f7d7-08f9-5794-9e10-3819e4c7e49a"
-version = "0.6.1+0"
+version = "0.6.2+0"
 
 [[deps.FileIO]]
 deps = ["Pkg", "Requires", "UUIDs"]
