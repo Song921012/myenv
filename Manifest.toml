@@ -3083,9 +3083,9 @@ version = "0.12.1"
 
 [[deps.Lux]]
 deps = ["Adapt", "CUDA", "ChainRulesCore", "ComponentArrays", "FillArrays", "Functors", "LinearAlgebra", "LuxLib", "Markdown", "NNlib", "Optimisers", "Preferences", "Random", "Requires", "Setfield", "SnoopPrecompile", "SparseArrays", "Statistics", "Zygote"]
-git-tree-sha1 = "e6409795e9fba6ffc2e14cb49e39db6b12a56c01"
+git-tree-sha1 = "7b9b88f78bbd4299552823166759e14aef3c8e85"
 uuid = "b2108857-7c20-44ae-9111-449ecde12c47"
-version = "0.4.33"
+version = "0.4.34"
 
 [[deps.LuxLib]]
 deps = ["CUDA", "CUDAKernels", "ChainRulesCore", "KernelAbstractions", "Markdown", "NNlib", "NNlibCUDA", "Random", "Statistics"]

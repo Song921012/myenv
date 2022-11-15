@@ -232,7 +232,7 @@ dependencies:
     - deepxde==1.7.1
     - deprecated==1.2.13
     - derivative==0.4.2
-    - diffrax==0.2.1
+    - diffrax==0.2.2
     - dill==0.3.5.1
     - distlib==0.3.6
     - distrax==0.1.2
@@ -255,7 +255,7 @@ dependencies:
     - efax==1.9.0
     - elfi==0.8.4
     - ephem==4.1.3
-    - equinox==0.8.0
+    - equinox==0.9.1
     - evosax==0.0.9
     - ezyrb==1.3.0.post2209
     - fasteners==0.18
