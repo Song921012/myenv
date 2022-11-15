@@ -268,7 +268,7 @@ dependencies:
     - flask==2.2.2
     - flask-compress==1.13
     - flatbuffers==2.0.7
-    - flax==0.6.1
+    - flax==0.6.2
     - folium==0.12.1.post1
     - fonttools==4.37.3
     - formulaic==0.5.2
@@ -421,7 +421,7 @@ dependencies:
     - picos==2.4.11
     - pillow==9.2.0
     - pints==0.4.0
-    - pip==22.3.1
+    - pip==22.3
     - platformdirs==2.5.2
     - plotly==5.11.0
     - plotly-express==0.4.1
@@ -557,6 +557,7 @@ dependencies:
     - tensorflow-estimator==2.10.0
     - tensorflow-io-gcs-filesystem==0.27.0
     - tensorflow-probability==0.18.0
+    - tensorstore==0.1.28
     - termcolor==2.0.1
     - terminado==0.15.0
     - testpath==0.6.0
