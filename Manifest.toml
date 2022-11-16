@@ -1,6 +1,6 @@
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.8.2"
+julia_version = "1.8.3"
 manifest_format = "2.0"
 project_hash = "d503fb4d80b14d1b489a3b03511ebf59c2f3f925"
 
@@ -2131,9 +2131,9 @@ version = "0.5.2"
 
 [[deps.HostCPUFeatures]]
 deps = ["BitTwiddlingConvenienceFunctions", "IfElse", "Libdl", "Static"]
-git-tree-sha1 = "c21fbfd585e522510b657134d889fcea8574b5bb"
+git-tree-sha1 = "30232e6b48ea9f1054c3114cbfcb42d700afaed1"
 uuid = "3e5b6fbb-0976-4d2c-9146-d79de83f2fb0"
-version = "0.1.11"
+version = "0.1.12"
 
 [[deps.HybridArrays]]
 deps = ["LinearAlgebra", "Requires", "StaticArrays"]
@@ -3172,9 +3172,9 @@ version = "0.19.0"
 
 [[deps.MLJBase]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "ComputationalResources", "Dates", "DelimitedFiles", "Distributed", "Distributions", "InteractiveUtils", "InvertedIndices", "LinearAlgebra", "LossFunctions", "MLJModelInterface", "Missings", "OrderedCollections", "Parameters", "PrettyTables", "ProgressMeter", "Random", "ScientificTypes", "Serialization", "StatisticalTraits", "Statistics", "StatsBase", "Tables"]
-git-tree-sha1 = "8871b6637123fe970d1dbbc7277427a1acfbd3ce"
+git-tree-sha1 = "87d9106e246828d8d43c62459a0fdbbf3a978480"
 uuid = "a7f614a8-145f-11e9-1d2a-a57a1082229d"
-version = "0.21.0"
+version = "0.21.1"
 
 [[deps.MLJEnsembles]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "ComputationalResources", "Distributed", "Distributions", "MLJBase", "MLJModelInterface", "ProgressMeter", "Random", "ScientificTypesBase", "StatsBase"]
@@ -3190,9 +3190,9 @@ version = "0.5.1"
 
 [[deps.MLJLinearModels]]
 deps = ["DocStringExtensions", "IterativeSolvers", "LinearAlgebra", "LinearMaps", "MLJModelInterface", "Optim", "Parameters"]
-git-tree-sha1 = "bfebb824a1b9a0c6d58e417e680f5e99317534e3"
+git-tree-sha1 = "7c191a2975e05387da3cd12a4c8a835a3d5186f4"
 uuid = "6ee0df7b-362f-4a72-a706-9e79364fb692"
-version = "0.7.1"
+version = "0.8.0"
 
 [[deps.MLJModelInterface]]
 deps = ["Random", "ScientificTypesBase", "StatisticalTraits"]
@@ -3219,9 +3219,9 @@ uuid = "66a33bbf-0c2b-5fc8-a008-9da813334f0a"
 version = "0.5.7"
 
 [[deps.MLStyle]]
-git-tree-sha1 = "43f9be9c281179fe44205e2dc19f22e71e022d41"
+git-tree-sha1 = "060ef7956fef2dc06b0e63b294f7dbfbcbdc7ea2"
 uuid = "d8e11817-5142-5d16-987a-aa16d5891078"
-version = "0.4.15"
+version = "0.4.16"
 
 [[deps.MLUtils]]
 deps = ["ChainRulesCore", "DelimitedFiles", "FLoops", "FoldsThreads", "Random", "ShowCases", "Statistics", "StatsBase", "Transducers"]
@@ -3296,9 +3296,9 @@ version = "0.13.25"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "2480c8299cd5df1eaa9ebbf9b685631165ea89e7"
+git-tree-sha1 = "2df7c9738491e461ac96313eedda5e5168ac48b6"
 uuid = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
-version = "0.3.43"
+version = "0.3.44"
 
 [[deps.ManualMemory]]
 git-tree-sha1 = "bcaef4fc7a0cfe2cba636d84cda54b5e4e4ca3cd"
@@ -4270,9 +4270,9 @@ version = "0.5.4"
 
 [[deps.Parsers]]
 deps = ["Dates", "SnoopPrecompile"]
-git-tree-sha1 = "cceb0257b662528ecdf0b4b4302eb00e767b38e7"
+git-tree-sha1 = "b64719e8b4504983c7fca6cc9db3ebc8acc2a4d6"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "2.5.0"
+version = "2.5.1"
 
 [[deps.Pavito]]
 deps = ["MathOptInterface", "Printf"]

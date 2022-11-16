@@ -32,8 +32,8 @@ see, testthat, tweedie",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
 "BH","BH","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.78.0-0",NA,NA,NA,NA,NA,NA,"BSL-1.0",NA,NA,NA,NA,"no","4.2.1"
 "BiocManager","BiocManager","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.30.19",NA,NA,"utils",NA,"BiocVersion, remotes, rmarkdown, testthat, withr, curl, knitr",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
 "BiocVersion","BiocVersion","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.16.0",NA,"R (>= 4.2.0)",NA,NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
-"bit","bit","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.0.4",NA,"R (>= 2.9.2)",NA,NA,"testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
-microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
+"bit","bit","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.0.5",NA,"R (>= 2.9.2)",NA,NA,"testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
+microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "bit64","bit64","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.0.5",NA,"R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
 "bitops","bitops","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0-7",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "blob","blob","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.3",NA,NA,"methods, rlang, vctrs (>= 0.2.1)",NA,"covr, crayon, pillar (>= 1.2.1), testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
@@ -634,7 +634,7 @@ R.rsp, conquer",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "R6","R6","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.5.1",NA,"R (>= 3.0)",NA,NA,"testthat, pryr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "ragg","ragg","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.4",NA,NA,"systemfonts (>= 1.0.3), textshaping (>= 0.3.0)","systemfonts, textshaping","covr, graphics, grid, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "rappdirs","rappdirs","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.3",NA,"R (>= 3.2)",NA,NA,"roxygen2, testthat (>= 3.0.0), covr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
-"rbibutils","rbibutils","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.9",NA,"R (>= 2.10)","utils, tools",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.1"
+"rbibutils","rbibutils","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.10",NA,"R (>= 2.10)","utils, tools",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
 "rcmdcheck","rcmdcheck","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.0",NA,NA,"callr (>= 3.1.1.9000), cli (>= 3.0.0), curl, desc (>= 1.2.0),
 digest, pkgbuild, prettyunits, R6, rprojroot, sessioninfo (>=
 1.1.1), utils, withr, xopen",NA,"covr, knitr, mockery, processx, ps, rmarkdown, svglite,
