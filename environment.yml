@@ -238,6 +238,7 @@ dependencies:
     - distrax==0.1.2
     - distributed==2022.11.0
     - distro==1.6.0
+    - dm-haiku==0.0.9
     - dm-tree==0.1.7
     - docopt==0.6.2
     - docutils==0.17.1
@@ -304,7 +305,7 @@ dependencies:
     - holidays==0.16
     - hroch==1.1.0
     - htmlmin==0.1.12
-    - huggingface-hub==0.10.1
+    - huggingface-hub==0.11.0
     - imagehash==4.3.0
     - imagesize==1.4.1
     - importlib-metadata==4.12.0
@@ -329,6 +330,7 @@ dependencies:
     - jaxtyping==0.2.7
     - jedi==0.17.2
     - jinja2-time==0.2.0
+    - jmp==0.0.2
     - joblib==1.1.0
     - json5==0.9.10
     - julia==0.5.7

@@ -26,7 +26,7 @@ pip install -U radian conan flake8 pylint yapf huggingface-hub\
   tensorflow tensorflow-probability gplearn gpflow\
   gpytorch botorch pytorch-forecasting neuralprophet torchdyn torchgan torchsde torchcde torchdiffeq torchmetrics torchopt pytorch-lightning  pyro-ppl\
   Casadi sbi pints elfi POT lifelines Pulp pysindy pykoopman pykoop mosek cvxopt smcp pysr pmlb HROCH pyoperon pydmd cvxpy probnum POT pylops pyproximal abcpy pyabc\
-  pyomo gekko dymos leafmap darts pydeck nlopt optax flax numpyro jaxns funsor ott distrax neural-tangents efax pyMetaheuristic diffrax jaxopt evosax sgmcmcjax gpjax blackjax pyecharts plotly dash "sktime[all_extras]" nodepy seaborn keplergl osmnx pyecharts_snapshot biopython mesa
+  pyomo gekko dymos leafmap darts pydeck nlopt optax flax numpyro jaxns funsor ott distrax neural-tangents efax dm-haiku pyMetaheuristic diffrax jaxopt evosax sgmcmcjax gpjax blackjax pyecharts plotly dash "sktime[all_extras]" nodepy seaborn keplergl osmnx pyecharts_snapshot biopython mesa
 pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pip install -U torch --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -U torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
