@@ -855,9 +855,9 @@ version = "0.2.0"
 
 [[deps.CommonMark]]
 deps = ["Crayons", "JSON", "URIs"]
-git-tree-sha1 = "4cd7063c9bdebdbd55ede1af70f3c2f48fab4215"
+git-tree-sha1 = "86cce6fd164c26bad346cc51ca736e692c9f553c"
 uuid = "a80b9123-70ca-4bc0-993e-6e3bcb318db6"
-version = "0.8.6"
+version = "0.8.7"
 
 [[deps.CommonRLInterface]]
 deps = ["MacroTools"]
@@ -2393,21 +2393,21 @@ version = "0.1.5"
 
 [[deps.Integrals]]
 deps = ["ChainRulesCore", "CommonSolve", "Distributions", "ForwardDiff", "HCubature", "LinearAlgebra", "MonteCarloIntegration", "QuadGK", "Reexport", "ReverseDiff", "SciMLBase", "Zygote", "ZygoteRules"]
-git-tree-sha1 = "72246df76fee67e50c591373536f6bc4876360c4"
+git-tree-sha1 = "e229ed952692b60697ff900b3fbf77605590222a"
 uuid = "de52edbc-65ea-441a-8357-d3a637375a31"
-version = "3.2.0"
+version = "3.3.0"
 
 [[deps.IntegralsCuba]]
 deps = ["Cuba", "Integrals"]
-git-tree-sha1 = "7b53b0b79cbd5373b4c2faf6f015f51f7f417e0c"
+git-tree-sha1 = "8e12f8f28f53abaf370efb957328d4f5ffb0976f"
 uuid = "e00cd5f1-6337-4131-8b37-28b2fe4cd6cb"
-version = "0.2.1"
+version = "0.2.2"
 
 [[deps.IntegralsCubature]]
 deps = ["Cubature", "Integrals"]
-git-tree-sha1 = "9ebe45f2abda9557c2996763a603d43447670ce0"
+git-tree-sha1 = "c5faf13b838ca8935cce0286e3dc6c8a705818fb"
 uuid = "c31f79ba-6e32-46d4-a52f-182a8ac42a54"
-version = "0.2.1"
+version = "0.2.2"
 
 [[deps.IntelOpenMP_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
