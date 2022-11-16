@@ -93,7 +93,7 @@ dependencies:
   - jsonschema=4.17.0=pyhd8ed1ab_0
   - julia=1.8.3=h00c5a2e_0
   - jupyter=1.0.0=py310hff52083_7
-  - jupyter_client=7.4.5=pyhd8ed1ab_0
+  - jupyter_client=7.4.7=pyhd8ed1ab_0
   - jupyter_console=6.4.4=pyhd8ed1ab_0
   - jupyter_core=5.0.0=py310hff52083_0
   - jupyter_server=1.23.2=pyhd8ed1ab_0
@@ -258,7 +258,7 @@ dependencies:
   - superlu_dist=7.2.0=h34f6f4d_0
   - sympy=1.11.1=py310hff52083_2
   - sysroot_linux-64=2.12=he073ed8_15
-  - tbb=2021.6.0=h924138e_1
+  - tbb=2021.7.0=h924138e_0
   - tinycss2=1.2.1=pyhd8ed1ab_0
   - tk=8.6.12=h27826a3_0
   - toml=0.10.2=pyhd8ed1ab_0
@@ -306,9 +306,9 @@ dependencies:
     - h5py==3.7.0
     - ipython-genutils==0.2.0
     - isort==5.10.1
-    - jax==0.3.24
+    - jax==0.3.25
     - jaxfenics-adjoint==1.0.0
-    - jaxlib==0.3.24+cuda11.cudnn82
+    - jaxlib==0.3.25+cuda11.cudnn82
     - jupyter-contrib-nbextensions==0.5.1
     - kiwisolver==1.4.4
     - lazy-object-proxy==1.7.1

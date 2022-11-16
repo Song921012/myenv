@@ -121,8 +121,8 @@ testthat, tibble, utils, vctrs, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no",
 "curl","curl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.3.3",NA,"R (>= 3.0.0)",NA,NA,"spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown,
 magrittr, httpuv (>= 1.4.4), webutils",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "cyclocomp","cyclocomp","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.0",NA,NA,"callr, crayon, desc, remotes, withr",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"data.table","data.table","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.14.4",NA,"R (>= 3.1.0)","methods",NA,"bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts,
-nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown",NA,"MPL-2.0 | file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
+"data.table","data.table","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.14.6",NA,"R (>= 3.1.0)","methods",NA,"bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts,
+nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown",NA,"MPL-2.0 | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "data.tree","data.tree","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.0",NA,"R (>= 3.5)","R6, stringi, methods",NA,"Formula, graphics, testthat, knitr, rmarkdown, ape, yaml,
 networkD3, jsonlite, treemap, party, partykit, doParallel,
 foreach, htmlwidgets, DiagrammeR (>= 1.0.0), mockery, rpart","igraph","GPL (>= 2)",NA,NA,NA,NA,"no","4.2.1"
