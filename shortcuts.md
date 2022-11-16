@@ -460,3 +460,19 @@ tmux new -s
 cd ~/.tmux/resurrect/
 ln -sf <file_name> last
 ctrl b ctrl r
+
+
+
+## Lunarvim
+
+### update
+
+:LvimUpdate  Lunarvim
+
+:LvimSyncCorePlugins  Plugins
+
+:TSUpdate   tree-sitter
+
+### Install
+
+:TSInstall julia r latex

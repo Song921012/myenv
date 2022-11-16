@@ -578,9 +578,9 @@ memoise, purrr, ragg, rlang (>= 1.0.0), rmarkdown (>=
 yaml",NA,"covr, diffviewer, evaluate, htmltools, htmlwidgets, knitr,
 lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect,
 rstudioapi, rticles, sass, testthat (>= 3.1.3), tools",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"pkgload","pkgload","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.1",NA,"R (>= 3.4.0)","cli (>= 3.3.0), crayon, desc, fs, glue, methods, rlang (>=
+"pkgload","pkgload","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.2",NA,"R (>= 3.4.0)","cli (>= 3.3.0), crayon, desc, fs, glue, methods, rlang (>=
 1.0.3), rprojroot, utils, withr (>= 2.4.3)",NA,"bitops, covr, mathjaxr, mockr, pak, pkgbuild, Rcpp, remotes,
-rstudioapi, testthat (>= 3.1.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
+rstudioapi, testthat (>= 3.1.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "pkgsearch","pkgsearch","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.1.2",NA,NA,"curl, jsonlite, parsedate (>= 1.3.0), prettyunits",NA,"mockery, covr, memoise, pillar, pingr (>= 2.0.0), rstudioapi,
 shiny, shinyjs, shinyWidgets, testthat (>= 2.1.0), whoami",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "plogr","plogr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.0",NA,NA,NA,NA,"Rcpp",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
@@ -896,9 +896,9 @@ utils, waldo, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "wpp2015","wpp2015","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1-2",NA,"R (>= 2.14.2), plyr",NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.1"
 "wpp2017","wpp2017","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2-3",NA,"R (>= 2.14.2)","data.table",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.1"
 "WRS2","WRS2","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1-4",NA,"R (>= 3.2.0)","MASS, reshape, plyr, stats, graphics, grDevices, utils, mc2d",NA,"knitr, car, ggplot2, colorspace, mediation, GGally, codetools",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.1"
-"xfun","xfun","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.34",NA,NA,"stats, tools",NA,"testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),
+"xfun","xfun","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.35",NA,NA,"stats, tools",NA,"testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),
 mime, markdown, knitr, htmltools, remotes, pak, rhub, renv,
-curl, jsonlite, magick, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
+curl, jsonlite, magick, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "XML","XML","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.99-0.12",NA,"R (>= 4.0.0), methods, utils",NA,NA,"bitops, RCurl",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "xml2","xml2","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.3",NA,"R (>= 3.1.0)","methods",NA,"covr, curl, httr, knitr, magrittr, mockery, rmarkdown,
 testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"

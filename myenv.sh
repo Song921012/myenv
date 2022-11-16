@@ -26,6 +26,7 @@ sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt update
 sudo apt install fish
 
+
 # stacer
 sudo add-apt-repository ppa:oguzhaninan/stacer -y
 sudo apt-get update
@@ -165,6 +166,9 @@ perl -MCPAN -e 'install "File::HomeDir"'
 
 # Fenics fenicsx
 
+# lunar vim
+sudo apt install shellcheck
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 
 
 # qbittoreent

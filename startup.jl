@@ -35,3 +35,12 @@ atreplinit() do repl
         @warn "error while importing OhMyREPL" e
     end
 end
+
+using InteractiveUtils
+
+ENV["JULIA_EDITOR"] = "lvim"
+
+InteractiveUtils.define_editor(
+    r"lvim", wait=true) do cmd, path, line
+    `$cmd +$line $path`
+end
