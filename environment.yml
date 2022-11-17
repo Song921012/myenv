@@ -177,7 +177,7 @@ dependencies:
     - astroid==2.12.12
     - astunparse==1.6.3
     - async-timeout==4.0.2
-    - autograd==1.4
+    - autograd==1.5
     - autograd-gamma==0.5.0
     - autopage==0.5.1
     - babel==2.10.3
@@ -238,6 +238,7 @@ dependencies:
     - distrax==0.1.2
     - distributed==2022.11.0
     - distro==1.6.0
+    - dlkoopman==1.0.2
     - dm-haiku==0.0.9
     - dm-tree==0.1.7
     - docopt==0.6.2
@@ -355,7 +356,7 @@ dependencies:
     - leafmap==0.12.1
     - lesscpy==0.15.0
     - libclang==14.0.6
-    - lifelines==0.27.3
+    - lifelines==0.27.4
     - lightgbm==3.3.2
     - lightning-lite==1.8.0.post1
     - lightning-utilities==0.3.0
@@ -425,7 +426,7 @@ dependencies:
     - picos==2.4.11
     - pillow==9.2.0
     - pints==0.4.0
-    - pip==22.3
+    - pip==22.3.1
     - platformdirs==2.5.2
     - plotly==5.11.0
     - plotly-express==0.4.1
@@ -525,6 +526,7 @@ dependencies:
     - sgmcmcjax==0.2.11
     - shap==0.41.0
     - shapely==1.8.4
+    - shortuuid==1.0.11
     - simplejson==3.17.6
     - sklearn==0.0.post1
     - sktime==0.14.0
