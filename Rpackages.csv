@@ -15,13 +15,13 @@ methods, utils",NA,"ggtree",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
 "BayesFactor","BayesFactor","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.9.12-4.4",NA,"R (>= 3.2.0), coda, Matrix (>= 1.1-1)","pbapply, mvtnorm, stringr, utils, graphics, MatrixModels, Rcpp
 (>= 0.11.2), methods, hypergeo","Rcpp (>= 0.11.2), RcppEigen (>= 0.3.2.2.0)","doMC, foreach, testthat, knitr, markdown, arm, lme4, xtable,
 languageR",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.1"
-"bayesplot","bayesplot","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.9.0",NA,"R (>= 3.1.0)","dplyr (>= 0.8.0), ggplot2 (>= 3.0.0), ggridges, glue,
+"bayesplot","bayesplot","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.10.0",NA,"R (>= 3.1.0)","dplyr (>= 0.8.0), ggplot2 (>= 3.0.0), ggridges, glue,
 posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>=
 2.0.0), tidyselect, utils",NA,"ggfortify, gridExtra (>= 2.2.1), hexbin, knitr (>= 1.16), loo
 (>= 2.0.0), RColorBrewer, rmarkdown (>= 1.0.0), rstan (>=
 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
 shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>=
-1.0.2)",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.1"
+1.0.2)",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
 "bayestestR","bayestestR","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.13.0",NA,"R (>= 3.6)","insight (>= 0.18.2), datawizard (>= 0.5.1), graphics, methods,
 stats, utils",NA,"BayesFactor, bayesQR, bayesplot, BH, blavaan, bridgesampling,
 brms, effectsize, emmeans, gamm4, ggdist, ggplot2, glmmTMB,

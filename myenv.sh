@@ -25,7 +25,8 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt update
 sudo apt install fish
-
+#lua
+sudo apt install lua5.4
 
 # stacer
 sudo add-apt-repository ppa:oguzhaninan/stacer -y
