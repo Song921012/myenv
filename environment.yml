@@ -182,7 +182,7 @@ dependencies:
     - autopage==0.5.1
     - babel==2.10.3
     - binaryornot==0.4.4
-    - biopython==1.79
+    - biopython==1.80
     - blackjax==0.9.6
     - blinker==1.5
     - boltons==21.0.0

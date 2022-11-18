@@ -123,7 +123,7 @@ version = "3.4.0"
 
 [[deps.AdaptiveRegularization]]
 deps = ["Krylov", "LinearAlgebra", "LinearOperators", "NLPModels", "SolverCore", "SparseArrays", "SparseMatricesCOO", "Stopping", "StoppingInterface"]
-git-tree-sha1 = "7c7ef12b8e378a9638e43d0af5f5665b60e56583"
+git-tree-sha1 = "6799acf0451925dcbc554d3b2a95f93e1d56c3a3"
 repo-rev = "main"
 repo-url = "https://github.com/JuliaSmoothOptimizers/AdaptiveRegularization.jl"
 uuid = "79adfba0-1eab-50d9-8528-0589417a2bfe"
@@ -1680,10 +1680,10 @@ uuid = "08572546-2f56-4bcf-ba4e-bab62c3a3f89"
 version = "0.2.10"
 
 [[deps.FletcherPenaltySolver]]
-deps = ["FastClosures", "Krylov", "LDLFactorizations", "LinearAlgebra", "LinearOperators", "Logging", "NLPModels", "NLPModelsModifiers", "SolverCore", "SparseArrays", "Stopping", "StoppingInterface"]
-git-tree-sha1 = "f4427712729930ad4a4a23d43d8081cdefdf06c5"
+deps = ["FastClosures", "JSOSolvers", "Krylov", "LDLFactorizations", "LinearAlgebra", "LinearOperators", "Logging", "NLPModels", "NLPModelsIpopt", "NLPModelsKnitro", "NLPModelsModifiers", "SolverCore", "SparseArrays", "Stopping", "StoppingInterface"]
+git-tree-sha1 = "b965ea7f37a0d23fe29c756d2e180fc65716d014"
 uuid = "e59f0261-166d-4fee-8bf3-5e50457de5db"
-version = "0.2.0"
+version = "0.2.1"
 
 [[deps.Flux]]
 deps = ["Adapt", "ArrayInterface", "CUDA", "ChainRulesCore", "Functors", "LinearAlgebra", "MLUtils", "MacroTools", "NNlib", "NNlibCUDA", "OneHotArrays", "Optimisers", "ProgressLogging", "Random", "Reexport", "SparseArrays", "SpecialFunctions", "Statistics", "StatsBase", "Test", "Zygote"]
@@ -5364,10 +5364,10 @@ uuid = "c4fe5a9e-e7fb-5c3d-89d5-7f405ab2214f"
 version = "0.6.0"
 
 [[deps.StoppingInterface]]
-deps = ["JSOSolvers", "KNITRO", "LinearAlgebra", "NLPModels", "NLPModelsIpopt", "NLPModelsKnitro", "Requires", "SolverCore", "SparseArrays", "Stopping", "Test"]
-git-tree-sha1 = "131e9124fcc1201c7e9b343c3f504f1e7cc8ef98"
+deps = ["LinearAlgebra", "NLPModels", "Requires", "SolverCore", "SparseArrays", "Stopping", "Test"]
+git-tree-sha1 = "d785829bcbe4bf68b21a52178ae4467738571ec1"
 uuid = "53949629-e8ff-437b-b6e7-14da1a85bf25"
-version = "0.4.3"
+version = "0.5.1"
 
 [[deps.StrideArrays]]
 deps = ["ArrayInterface", "LinearAlgebra", "LoopVectorization", "Octavian", "Random", "SLEEFPirates", "Static", "StrideArraysCore", "VectorizationBase", "VectorizedRNG"]
