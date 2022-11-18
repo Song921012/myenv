@@ -219,9 +219,9 @@ version = "0.13.11"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "1f37e68cbfb1d1d0385357049fbfcffa6fbb6298"
+git-tree-sha1 = "697f0fb3a0b1efdf8557a3f1a4dc0a6ccb6a0cbb"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.7.33"
+version = "0.7.34"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport"]
@@ -878,9 +878,9 @@ version = "0.3.0"
 
 [[deps.Compat]]
 deps = ["Dates", "LinearAlgebra", "UUIDs"]
-git-tree-sha1 = "3ca828fe1b75fa84b021a7860bd039eaea84d2f2"
+git-tree-sha1 = "aaabba4ce1b7f8a9b34c015053d3b1edf60fa49c"
 uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
-version = "4.3.0"
+version = "4.4.0"
 
 [[deps.CompatHelperLocal]]
 deps = ["DocStringExtensions", "Pkg", "UUIDs"]
@@ -5377,9 +5377,9 @@ version = "0.1.20"
 
 [[deps.StrideArraysCore]]
 deps = ["ArrayInterface", "CloseOpenIntervals", "IfElse", "LayoutPointers", "ManualMemory", "SIMDTypes", "Static", "ThreadingUtilities"]
-git-tree-sha1 = "ac730bd978bf35f9fe45daa0bd1f51e493e97eb4"
+git-tree-sha1 = "38c07163835117036a9c05a849ae93c4b56d1d2b"
 uuid = "7792a7ef-975c-4747-a70f-980b88e8d1da"
-version = "0.3.15"
+version = "0.3.16"
 
 [[deps.Strided]]
 deps = ["LinearAlgebra", "TupleTools"]
@@ -5439,9 +5439,9 @@ version = "5.10.1+0"
 
 [[deps.SummationByPartsOperators]]
 deps = ["ArgCheck", "ArrayInterface", "FFTW", "InteractiveUtils", "LinearAlgebra", "LoopVectorization", "PolynomialBases", "RecursiveArrayTools", "Reexport", "Requires", "SciMLBase", "SnoopPrecompile", "SparseArrays", "StaticArrays", "UnPack", "Unrolled"]
-git-tree-sha1 = "0a81bb9010d9e3e5cf1e5d11668b78dc4f7d391f"
+git-tree-sha1 = "d1d865b4e38175c4c3c7382906a3443d916453a4"
 uuid = "9f78cca6-572e-554e-b819-917d2f1cf240"
-version = "0.5.23"
+version = "0.5.24"
 
 [[deps.Sundials]]
 deps = ["CEnum", "DataStructures", "DiffEqBase", "Libdl", "LinearAlgebra", "Logging", "Reexport", "SnoopPrecompile", "SparseArrays", "Sundials_jll"]
@@ -5857,9 +5857,9 @@ version = "3.3.0"
 
 [[deps.Unitful]]
 deps = ["ConstructionBase", "Dates", "LinearAlgebra", "Random"]
-git-tree-sha1 = "d57a4ed70b6f9ff1da6719f5f2713706d57e0d66"
+git-tree-sha1 = "bdc60e70c8a2f63626deeb5c177baacfc43f8a59"
 uuid = "1986cc42-f94f-5a68-af5c-568840ba703d"
-version = "1.12.0"
+version = "1.12.1"
 
 [[deps.Unrolled]]
 deps = ["MacroTools"]
