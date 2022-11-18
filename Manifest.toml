@@ -161,9 +161,9 @@ version = "0.1.6"
 
 [[deps.Agents]]
 deps = ["CSV", "DataFrames", "DataStructures", "Distributed", "Downloads", "Graphs", "JLD2", "LazyArtifacts", "LightOSM", "LinearAlgebra", "Pkg", "ProgressMeter", "Random", "Requires", "Scratch", "StatsBase"]
-git-tree-sha1 = "bca31e610fededd0dbfa294df9ef9289068db56f"
+git-tree-sha1 = "627238422f2fbda490a42e2984a834f6914d85cf"
 uuid = "46ada45e-f475-11e8-01d0-f70cc89e6671"
-version = "5.6.1"
+version = "5.6.2"
 
 [[deps.AlgebraOfGraphics]]
 deps = ["Colors", "Dates", "Dictionaries", "FileIO", "GLM", "GeoInterface", "GeometryBasics", "GridLayoutBase", "KernelDensity", "Loess", "Makie", "PlotUtils", "PooledArrays", "RelocatableFolders", "StatsBase", "StructArrays", "Tables"]
