@@ -340,10 +340,10 @@ uuid = "65a8f2f4-9b39-5baf-92e2-a9cc46fdf018"
 version = "0.6.1"
 
 [[deps.Arrow]]
-deps = ["ArrowTypes", "BitIntegers", "CodecLz4", "CodecZstd", "DataAPI", "Dates", "Mmap", "PooledArrays", "SentinelArrays", "Tables", "TimeZones", "UUIDs"]
-git-tree-sha1 = "4e7aa2021204bd9456ad3e87372237e84ee2c3c1"
+deps = ["ArrowTypes", "BitIntegers", "CodecLz4", "CodecZstd", "DataAPI", "Dates", "LoggingExtras", "Mmap", "PooledArrays", "SentinelArrays", "Tables", "TimeZones", "UUIDs", "WorkerUtilities"]
+git-tree-sha1 = "3d04ab3584ece56c39397e01b55e1bd4fb8f0b30"
 uuid = "69666777-d1a9-59fb-9406-91d4454c9d45"
-version = "2.3.0"
+version = "2.4.1"
 
 [[deps.ArrowTypes]]
 deps = ["UUIDs"]
@@ -5981,6 +5981,11 @@ deps = ["ColorSchemes", "Colors", "FileIO", "ImageTransformations", "Luxor", "Pr
 git-tree-sha1 = "194db97922d1117fc0e41f01c1fa5c60c9a5c435"
 uuid = "6385f0a0-cb03-45b6-9089-4e0acc74b26b"
 version = "0.10.7"
+
+[[deps.WorkerUtilities]]
+git-tree-sha1 = "164bf176a3bf20d037937a28f4ec9df940b26180"
+uuid = "76eceee3-57b5-4d4a-8e66-0e911cebbf60"
+version = "1.4.0"
 
 [[deps.WriteVTK]]
 deps = ["Base64", "CodecZlib", "FillArrays", "LightXML", "TranscodingStreams"]
