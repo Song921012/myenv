@@ -1,5 +1,6 @@
 # Basic setup
 sudo apt-get install software-properties-common
+sudo apt install -y software-properties-gtk
 sudo apt install aptitude
 sudo apt install vim vim-scripts vim-gtk
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
