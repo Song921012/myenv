@@ -131,7 +131,7 @@ curl -sSL https://get.haskellstack.org/ | sh
 
 # Docker
 
-source ~/myenv/dockerinstall.sh
+#source ~/myenv/dockerinstall.sh
 
 # Install R
 sudo apt update -qq

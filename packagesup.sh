@@ -4,8 +4,8 @@ sudo apt-get install gcc g++ gfortran git patch wget pkg-config liblapack-dev li
 
 ## cppad
 myenv
-sudo rm -rf CppAD
-git clone https://github.com/coin-or/CppAD.git
+#sudo rm -rf CppAD
+#git clone https://github.com/coin-or/CppAD.git
 cd CppAD
 git pull
 sudo rm -rf build
@@ -69,8 +69,8 @@ myenv
 
 ## pyopt
 myenv
-sudo rm -rf pyOpt
-git clone https://github.com/madebr/pyOpt.git
+#sudo rm -rf pyOpt
+#git clone https://github.com/madebr/pyOpt.git
 cd pyOpt
 python setup.py build_ext --inplace
 myenv
@@ -110,8 +110,8 @@ make
 
 # Parropt
 myenv
-rm -rf paropt
-git clone https://github.com/Mathepia/paropt.git
+#rm -rf paropt
+#git clone https://github.com/Mathepia/paropt.git
 cd paropt
 make
 cd

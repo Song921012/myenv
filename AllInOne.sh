@@ -9,7 +9,11 @@ git clone https://github.com/Song921012/myhsl.git
 mv myhsl hsl
 mkdir Templates
 cp -rf ~/myenv/template/* ~/Templates
+
+
 source ~/myenv/myenv.sh
+
+
 cp -f ~/myenv/.zshrc ~
 ln -f ~/.zshrc ~/myenv/.zshrc
 mkdir ~/.SpaceVim.d
