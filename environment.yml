@@ -479,7 +479,7 @@ dependencies:
     - pynvim==0.4.3
     - pyod==1.0.5
     - pyomo==6.4.2
-    - pyoperon==0.3.3
+    - pyoperon==0.3.4
     - pyperclip==1.8.2
     - pyppeteer==1.0.2
     - pyproj==3.4.0
