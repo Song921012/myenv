@@ -149,6 +149,28 @@ HSL系列软件
 
 [[Install nvidia-docker2 In Pop!_OS]#popos](https://gist.github.com/kuang-da/2796a792ced96deaf466fdfb7651aa2e)
 
+## VMWare虚拟机
+
+[下载 VMware Workstation Pro - VMware Customer Connect](https://customerconnect.vmware.com/cn/downloads/info/slug/desktop_end_user_computing/vmware_workstation_pro/17_0)
+
+
+下载bundel文件后
+
+sudo chmod +x *.bundle
+
+sudo ./*.bundle
+
+安装后激活(位于studybook code)
+
+然后下windows11multi edtion镜像文件安装
+
+安装后安装VMWare tools然后激活windows11专业版(位于studybook code)
+
+登录然后office tool plus安装office
+
+
+
+
 # 一些疑难杂症
 
 - dpkg依赖问题
