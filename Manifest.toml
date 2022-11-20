@@ -219,9 +219,9 @@ version = "0.13.12"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "e390417d49ecc281d6191909c226aad5a14866a0"
+git-tree-sha1 = "cdaa569c9346eeda979f023f03f1109e7a37624f"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.7.35"
+version = "0.7.36"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
@@ -422,9 +422,9 @@ version = "0.1.1"
 
 [[deps.BasicBSpline]]
 deps = ["ChainRulesCore", "FastGaussQuadrature", "IntervalSets", "LinearAlgebra", "RecipesBase", "StaticArrays"]
-git-tree-sha1 = "bf3a5e88f38e43a99129d48fe9c5cb6c56f75a4a"
+git-tree-sha1 = "66b09e28bb708ae3a5fec4304f961d0b64a052e0"
 uuid = "4c5d9882-2acf-4ea4-9e48-968fd4518195"
-version = "0.8.2"
+version = "0.8.3"
 
 [[deps.BasicInterpolators]]
 deps = ["LinearAlgebra", "Memoize", "Random"]
@@ -1589,9 +1589,9 @@ version = "0.1.1"
 
 [[deps.FastBroadcast]]
 deps = ["ArrayInterface", "ArrayInterfaceCore", "LinearAlgebra", "Polyester", "Static", "StrideArraysCore"]
-git-tree-sha1 = "21cdeff41e5a1822c2acd7fc7934c5f450588e00"
+git-tree-sha1 = "0ed2054d1676d39128fbc8fc536616023e4a40d9"
 uuid = "7034ab61-46d4-4ed7-9d0f-46aef9175898"
-version = "0.2.1"
+version = "0.2.2"
 
 [[deps.FastChebInterp]]
 deps = ["ChainRulesCore", "FFTW", "StaticArrays"]
@@ -3047,9 +3047,9 @@ version = "1.0.3"
 
 [[deps.LoopVectorization]]
 deps = ["ArrayInterface", "ArrayInterfaceCore", "ArrayInterfaceOffsetArrays", "ArrayInterfaceStaticArrays", "CPUSummary", "ChainRulesCore", "CloseOpenIntervals", "DocStringExtensions", "ForwardDiff", "HostCPUFeatures", "IfElse", "LayoutPointers", "LinearAlgebra", "OffsetArrays", "PolyesterWeave", "SIMDDualNumbers", "SIMDTypes", "SLEEFPirates", "SnoopPrecompile", "SpecialFunctions", "Static", "ThreadingUtilities", "UnPack", "VectorizationBase"]
-git-tree-sha1 = "9b90f3cf246e239dc7d79588c96586ab9b3c0a00"
+git-tree-sha1 = "6c69853757ec8ea61f765f8280b86f99b041c134"
 uuid = "bdcacae8-1622-11e9-2a5c-532679323890"
-version = "0.12.139"
+version = "0.12.140"
 
 [[deps.LossFunctions]]
 deps = ["InteractiveUtils", "Markdown", "RecipesBase"]
@@ -4933,9 +4933,9 @@ version = "0.1.0"
 
 [[deps.SLEEFPirates]]
 deps = ["IfElse", "Static", "VectorizationBase"]
-git-tree-sha1 = "938c9ecffb28338a6b8b970bda0f3806a65e7906"
+git-tree-sha1 = "c8679919df2d3c71f74451321f1efea6433536cc"
 uuid = "476501e8-09a2-5ece-8869-fb82de89a1fa"
-version = "0.6.36"
+version = "0.6.37"
 
 [[deps.SafeTestsets]]
 deps = ["Test"]
