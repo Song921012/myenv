@@ -113,6 +113,9 @@ sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libgsl-
 sudo apt-get install graphviz pandoc inkscape
 sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
+wget https://apt.llvm.org/llvm.sh                                                                                       via 🅒 base took 44s at 15:00 
+chmod +x llvm.sh
+sudo ./llvm.sh all
 
 
 # Miniconda

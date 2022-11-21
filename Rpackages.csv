@@ -479,7 +479,7 @@ spdep","GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.2.2"
 "matrixStats","matrixStats","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.63.0",NA,"R (>= 2.12.0)",NA,NA,"base64enc, ggplot2, knitr, markdown, microbenchmark,
 R.devices, R.rsp",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.2.2"
 "maxstat","maxstat","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.7-25",NA,"R (>= 1.7.0)","exactRankTests(>= 0.8-23), mvtnorm(>= 0.5-10), stats, graphics",NA,"TH.data, survival",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
-"mc2d","mc2d","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1-21",NA,"R (>= 2.10.0), mvtnorm","stats, grDevices, graphics, utils",NA,"fitdistrplus, survival, testthat (>= 3.0.0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.1"
+"mc2d","mc2d","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1-22",NA,"R (>= 2.10.0), mvtnorm","stats, grDevices, graphics, utils",NA,"fitdistrplus, survival, testthat (>= 3.0.0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
 "mcmc","mcmc","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.9-7",NA,"R (>= 3.0.2)","stats",NA,"xtable, Iso",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "MCMCpack","MCMCpack","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.6-3",NA,"R (>= 3.6), coda (>= 0.11-3), MASS, stats","graphics, grDevices, lattice, methods, utils, mcmc, quantreg",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.1"
 "memoise","memoise","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.1",NA,NA,"rlang (>= 0.4.10), cachem",NA,"digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
