@@ -334,7 +334,7 @@ dependencies:
     - jmp==0.0.2
     - joblib==1.1.0
     - json5==0.9.10
-    - julia==0.5.7
+    - julia==0.6.0
     - jupyter-client==7.3.4
     - jupyter-contrib-core==0.4.0
     - jupyter-contrib-nbextensions==0.5.1
@@ -426,7 +426,7 @@ dependencies:
     - picos==2.4.11
     - pillow==9.2.0
     - pints==0.4.0
-    - pip==22.3.1
+    - pip==22.3
     - platformdirs==2.5.2
     - plotly==5.11.0
     - plotly-express==0.4.1
@@ -489,7 +489,7 @@ dependencies:
     - pyro-ppl==1.8.2
     - pyshp==2.3.1
     - pysindy==1.7.2
-    - pysr==0.11.9
+    - pysr==0.11.10
     - pystac==1.6.1
     - pystac-client==0.5.1
     - python-box==6.0.2

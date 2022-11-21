@@ -294,7 +294,7 @@ tibble",NA,"testthat, cluster, changepoint, fGarch, forecast, ggrepel,
 glmnet, grDevices, KFAS, knitr, lintr, mapdata, markdown, MASS,
 MSwM, nlme, raster, ROCR, sp, stats, strucchange, survival,
 timeSeries, tseries, utils, vars, xts, zoo, lfda",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"ggfun","ggfun","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.0.8",NA,NA,"ggplot2, grid, rlang, utils",NA,"ggplotify, knitr, rmarkdown, prettydoc, tidyr, ggnewscale",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
+"ggfun","ggfun","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.0.9",NA,NA,"ggplot2, grid, rlang, utils",NA,"ggplotify, knitr, rmarkdown, prettydoc, tidyr, ggnewscale",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
 "ggnewscale","ggnewscale","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.8",NA,NA,"ggplot2 (>= 3.0.0)",NA,"testthat, vdiffr, covr",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "ggpattern","ggpattern","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.1",NA,NA,"ggplot2 (>= 3.4.0), glue, grid, gridpattern (>= 1.0.2), rlang,
 scales,",NA,"ambient, dplyr, gganimate, knitr, magick, mapproj, maps, png,
@@ -525,8 +525,8 @@ purrr, stringr, tidyr, httr, yaml, crayon, sf",NA,"testthat, knitr, lubridate",N
 (>= 2.1.0), knitr, oompaBase, palr, pals, rmarkdown, scico,
 testthat (>= 2.1.0), vdiffr, viridisLite",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
 "palmerpenguins","palmerpenguins","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.1",NA,"R (>= 2.10)",NA,NA,"knitr, rmarkdown, tibble, ggplot2, dplyr, tidyr, recipes",NA,"CC0",NA,NA,NA,NA,"no","4.2.1"
-"paradox","paradox","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.10.0",NA,NA,"backports, checkmate, data.table, methods, mlr3misc (>=
-0.9.4), R6",NA,"knitr, lhs, testthat",NA,"LGPL-3",NA,NA,NA,NA,"no","4.2.1"
+"paradox","paradox","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.11.0",NA,NA,"backports, checkmate, data.table, methods, mlr3misc (>=
+0.9.4), R6",NA,"knitr, lhs, spacefillr, testthat",NA,"LGPL-3",NA,NA,NA,NA,"no","4.2.2"
 "parallelly","parallelly","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.32.1",NA,NA,"parallel, tools, utils",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.1"
 "parameters","parameters","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.19.0",NA,"R (>= 3.6)","bayestestR (>= 0.12.1), datawizard (>= 0.6.0), insight (>=
 0.18.3), graphics, methods, stats, utils",NA,"AER, afex, aod, BayesFactor, BayesFM, bbmle, betareg, biglm,
