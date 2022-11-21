@@ -471,7 +471,7 @@ dependencies:
     - pyknos==0.15.1
     - pykoop==1.0.5
     - pykoopman==0.2.0
-    - pylint==2.15.6
+    - pylint==2.15.5
     - pylops==1.18.3
     - pymeeus==0.5.11
     - pymetaheuristic==1.4.1
