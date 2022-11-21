@@ -2587,9 +2587,9 @@ version = "1.0.15"
 
 [[deps.JuliaInterpreter]]
 deps = ["CodeTracking", "InteractiveUtils", "Random", "UUIDs"]
-git-tree-sha1 = "0f960b1404abb0b244c1ece579a0ec78d056a5d1"
+git-tree-sha1 = "a79c4cf60cc7ddcdcc70acbb7216a5f9b4f8d188"
 uuid = "aa1ae85d-cabe-5617-a682-6adf51b2e16a"
-version = "0.9.15"
+version = "0.9.16"
 
 [[deps.JuliaVariables]]
 deps = ["MLStyle", "NameResolution"]
@@ -3608,9 +3608,9 @@ version = "0.6.2"
 
 [[deps.NLSolversBase]]
 deps = ["DiffResults", "Distributed", "FiniteDiff", "ForwardDiff"]
-git-tree-sha1 = "50310f934e55e5ca3912fb941dec199b49ca9b68"
+git-tree-sha1 = "a0b464d183da839699f4c79e7606d9d186ec172c"
 uuid = "d41bc354-129a-5804-8e4c-c37616107c6c"
-version = "7.8.2"
+version = "7.8.3"
 
 [[deps.NLboxsolve]]
 deps = ["ForwardDiff", "LinearAlgebra", "SparseArrays"]
@@ -4369,9 +4369,9 @@ version = "0.8.19"
 
 [[deps.Plots]]
 deps = ["Base64", "Contour", "Dates", "Downloads", "FFMPEG", "FixedPointNumbers", "GR", "JLFzf", "JSON", "LaTeXStrings", "Latexify", "LinearAlgebra", "Measures", "NaNMath", "Pkg", "PlotThemes", "PlotUtils", "Printf", "REPL", "Random", "RecipesBase", "RecipesPipeline", "Reexport", "RelocatableFolders", "Requires", "Scratch", "Showoff", "SnoopPrecompile", "SparseArrays", "Statistics", "StatsBase", "UUIDs", "UnicodeFun", "Unzip"]
-git-tree-sha1 = "5955a002262c08ab155ed2a6f1bb0787fedf5939"
+git-tree-sha1 = "b72f499415dae304ba39cdc0822c850cebdfdfa6"
 uuid = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-version = "1.36.2"
+version = "1.36.3"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "HypertextLiteral", "InteractiveUtils", "Logging", "MIMEs", "Markdown", "MsgPack", "Pkg", "PrecompileSignatures", "REPL", "RegistryInstances", "RelocatableFolders", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
