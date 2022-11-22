@@ -353,7 +353,7 @@ markdown, testthat (>= 3.0.0), pillar",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
 testthat (>= 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "gitcreds","gitcreds","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.2",NA,"R (>= 3.4)",NA,NA,"codetools, covr, knitr, mockery, oskeyring, rmarkdown,
 testthat (>= 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"globals","globals","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.16.1",NA,"R (>= 3.1.2)","codetools",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.1"
+"globals","globals","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.16.2",NA,"R (>= 3.1.2)","codetools",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.2"
 "glue","glue","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.6.2",NA,"R (>= 3.4)","methods",NA,"covr, crayon, DBI, dplyr, forcats, ggplot2, knitr, magrittr,
 microbenchmark, R.utils, rmarkdown, rprintf, RSQLite, stringr,
 testthat (>= 3.0.0), vctrs (>= 0.3.0), waldo (>= 0.3.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
@@ -528,11 +528,11 @@ testthat (>= 2.1.0), vdiffr, viridisLite",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
 "paradox","paradox","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.11.0",NA,NA,"backports, checkmate, data.table, methods, mlr3misc (>=
 0.9.4), R6",NA,"knitr, lhs, spacefillr, testthat",NA,"LGPL-3",NA,NA,NA,NA,"no","4.2.2"
 "parallelly","parallelly","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.32.1",NA,NA,"parallel, tools, utils",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.1"
-"parameters","parameters","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.19.0",NA,"R (>= 3.6)","bayestestR (>= 0.12.1), datawizard (>= 0.6.0), insight (>=
-0.18.3), graphics, methods, stats, utils",NA,"AER, afex, aod, BayesFactor, BayesFM, bbmle, betareg, biglm,
+"parameters","parameters","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.20.0",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), datawizard (>= 0.6.3), insight (>=
+0.18.6), graphics, methods, stats, utils",NA,"AER, afex, aod, BayesFactor, BayesFM, bbmle, betareg, biglm,
 blme, boot, brglm2, brms, broom, cAIC4, car, cgam,
 ClassDiscovery, clubSandwich, cluster, cplm, dbscan, domir (>=
-0.2.0), drc, DRR, effectsize (>= 0.6.0), EGAnet (>= 0.7),
+0.2.0), drc, DRR, effectsize (>= 0.8.0), EGAnet (>= 0.7),
 emmeans (>= 1.7.0), factoextra, FactoMineR, fastICA, fixest,
 fpc, gam, gamlss, gee, geepack, ggplot2, GLMMadaptive, glmmTMB,
 GPArotation, gt, haven, httr, Hmisc, ivprobit, ivreg, knitr,
@@ -544,7 +544,7 @@ openxlsx, ordinal, panelr, pbkrtest, PCDimension, performance
 (>= 0.10.0), plm, PMCMRplus, poorman, posterior, PROreg, pscl,
 psych, pvclust, quantreg, randomForest, rmarkdown, rms,
 rstanarm, rsvd, sandwich, see (>= 0.6.9), sparsepca, survey,
-survival, testthat, TMB, truncreg, VGAM, WRS2",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
+survival, testthat, tidyselect, TMB, truncreg, VGAM, WRS2",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "parsedate","parsedate","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.1",NA,NA,NA,NA,"covr, testthat, withr",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.1"
 "patchwork","patchwork","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.2",NA,NA,"ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils,
 graphics",NA,"knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=

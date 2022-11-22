@@ -1288,9 +1288,9 @@ version = "0.6.6"
 
 [[deps.Distributions]]
 deps = ["ChainRulesCore", "DensityInterface", "FillArrays", "LinearAlgebra", "PDMats", "Printf", "QuadGK", "Random", "SparseArrays", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns", "Test"]
-git-tree-sha1 = "7fe1eff48e18a91946ff753baf834ff4d5c03744"
+git-tree-sha1 = "a7756d098cbabec6b3ac44f369f74915e8cfd70a"
 uuid = "31c24e10-a181-5473-b8eb-7969acd0382f"
-version = "0.25.78"
+version = "0.25.79"
 
 [[deps.DistributionsAD]]
 deps = ["Adapt", "ChainRules", "ChainRulesCore", "Compat", "DiffRules", "Distributions", "FillArrays", "LinearAlgebra", "NaNMath", "PDMats", "Random", "Requires", "SpecialFunctions", "StaticArrays", "StatsBase", "StatsFuns", "ZygoteRules"]
@@ -3082,10 +3082,16 @@ uuid = "2fda8390-95c7-5789-9bda-21331edee243"
 version = "0.12.1"
 
 [[deps.Lux]]
-deps = ["Adapt", "CUDA", "ChainRulesCore", "ComponentArrays", "FillArrays", "Functors", "LinearAlgebra", "LuxLib", "Markdown", "NNlib", "Optimisers", "Preferences", "Random", "Requires", "Setfield", "SnoopPrecompile", "SparseArrays", "Statistics", "Zygote"]
-git-tree-sha1 = "7b9b88f78bbd4299552823166759e14aef3c8e85"
+deps = ["Adapt", "CUDA", "ChainRulesCore", "ComponentArrays", "FillArrays", "Functors", "LinearAlgebra", "LuxCore", "LuxLib", "Markdown", "NNlib", "Optimisers", "Preferences", "Random", "Requires", "Setfield", "SnoopPrecompile", "SparseArrays", "Statistics", "Zygote"]
+git-tree-sha1 = "55975c52bd753d428afe1d5fb1a97df66bacfdb5"
 uuid = "b2108857-7c20-44ae-9111-449ecde12c47"
-version = "0.4.34"
+version = "0.4.35"
+
+[[deps.LuxCore]]
+deps = ["Functors", "Random", "Setfield"]
+git-tree-sha1 = "73d3a612e8cfbc07d4be6c7598f2afce8e2f2a68"
+uuid = "bb33d45b-7691-41d6-9220-0943567d0623"
+version = "0.1.0"
 
 [[deps.LuxLib]]
 deps = ["CUDA", "CUDAKernels", "ChainRulesCore", "KernelAbstractions", "Markdown", "NNlib", "NNlibCUDA", "Random", "Statistics"]
@@ -3327,9 +3333,9 @@ version = "1.2.0"
 
 [[deps.MathOptInterface]]
 deps = ["BenchmarkTools", "CodecBzip2", "CodecZlib", "DataStructures", "ForwardDiff", "JSON", "LinearAlgebra", "MutableArithmetics", "NaNMath", "OrderedCollections", "Printf", "SparseArrays", "SpecialFunctions", "Test", "Unicode"]
-git-tree-sha1 = "ceed48edffe0325a6e9ea00ecf3607af5089c413"
+git-tree-sha1 = "192e86391e40d8006ef821a04403faa762e84ed4"
 uuid = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-version = "1.9.0"
+version = "1.10.0"
 
 [[deps.MathOptSetDistances]]
 deps = ["BlockDiagonals", "ChainRulesCore", "FillArrays", "LinearAlgebra", "MathOptInterface", "StaticArrays"]
@@ -5782,9 +5788,9 @@ version = "0.1.0"
 
 [[deps.TriplotRecipes]]
 deps = ["PlotUtils", "RecipesBase", "TriplotBase"]
-git-tree-sha1 = "ee1303fdb2c712b96efec8db661750adc96aa1b3"
+git-tree-sha1 = "75e7835a454e6f2e0a3c5e29a2702d1e9c8c053d"
 uuid = "808ab39a-a642-4abf-81ff-4cb34ebbffa3"
-version = "0.1.0"
+version = "0.1.1"
 
 [[deps.Trixi]]
 deps = ["CodeTracking", "ConstructionBase", "EllipsisNotation", "FillArrays", "ForwardDiff", "GeometryBasics", "HDF5", "IfElse", "LinearAlgebra", "LinearMaps", "LoopVectorization", "MPI", "MuladdMacro", "Octavian", "OffsetArrays", "P4est", "Polyester", "Printf", "RecipesBase", "Reexport", "Requires", "SciMLBase", "Setfield", "SparseArrays", "StartUpDG", "Static", "StaticArrays", "StrideArrays", "StructArrays", "SummationByPartsOperators", "TimerOutputs", "Triangulate", "TriplotBase", "TriplotRecipes", "UnPack"]
