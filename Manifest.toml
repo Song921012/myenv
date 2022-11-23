@@ -3667,12 +3667,12 @@ uuid = "2fc7fd02-576c-576e-a36a-6afce71715da"
 version = "4.2.0+0"
 
 [[deps.NPZ]]
-deps = ["Compat", "FileIO", "ZipFile"]
-git-tree-sha1 = "693d751e1ce6165d561da025d4d1d67eac744ffd"
+deps = ["FileIO", "ZipFile"]
+git-tree-sha1 = "60a8e272fe0c5079363b28b0953831e2dd7b7e6f"
 repo-rev = "master"
 repo-url = "https://github.com/fhs/NPZ.jl.git"
 uuid = "15e1cf62-19b3-5cfa-8e77-841668bca605"
-version = "0.4.2"
+version = "0.4.3"
 
 [[deps.NaNMath]]
 deps = ["OpenLibm_jll"]
@@ -4014,9 +4014,9 @@ version = "0.1.4"
 
 [[deps.Optim]]
 deps = ["Compat", "FillArrays", "ForwardDiff", "LineSearches", "LinearAlgebra", "NLSolversBase", "NaNMath", "Parameters", "PositiveFactorizations", "Printf", "SparseArrays", "StatsBase"]
-git-tree-sha1 = "b9fe76d1a39807fdcf790b991981a922de0c3050"
+git-tree-sha1 = "1903afc76b7d01719d9c30d3c7d501b61db96721"
 uuid = "429524aa-4258-5aef-a3af-852621145aeb"
-version = "1.7.3"
+version = "1.7.4"
 
 [[deps.OptimBase]]
 deps = ["NLSolversBase", "Printf", "Reexport"]
