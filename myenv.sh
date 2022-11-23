@@ -9,6 +9,7 @@ sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
 sudo apt install python3-neovim
+sudo apt-get install ripgrep
 curl -sLf https://spacevim.org/install.sh | bash # spacevim
 sudo apt install zsh
 chsh -s $(which zsh)

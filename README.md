@@ -195,6 +195,12 @@ sudo apt --fix-broken install
 
 - 桌面图标: 在applications文件夹新建desktop文件
 
+- How to fix the Spacevim error : Updating failed, The plugin dir is dirty
+
+cd ~/.SpaceVim.d/
+git checkout .
+rm -rf ~/.cache/vimfiles/repos/github.com/*
+
 # Other applications
 
 - 软件与更新
