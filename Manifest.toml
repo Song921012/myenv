@@ -1188,9 +1188,9 @@ version = "0.1.0+0"
 
 [[deps.DiffEqBase]]
 deps = ["ArrayInterfaceCore", "ChainRulesCore", "DataStructures", "Distributions", "DocStringExtensions", "FastBroadcast", "ForwardDiff", "FunctionWrappers", "FunctionWrappersWrappers", "LinearAlgebra", "Logging", "MuladdMacro", "NonlinearSolve", "Parameters", "Printf", "RecursiveArrayTools", "Reexport", "Requires", "SciMLBase", "Setfield", "SparseArrays", "Static", "StaticArrays", "Statistics", "Tricks", "ZygoteRules"]
-git-tree-sha1 = "c8514cbef84124a40906655d9ca938fa5ac5892c"
+git-tree-sha1 = "33d5ec403f3dd134216254bb99db0dc1abd0638e"
 uuid = "2b5f629d-d688-5b77-993f-72d75c75574e"
-version = "6.106.0"
+version = "6.107.0"
 
 [[deps.DiffEqBayes]]
 deps = ["DiffEqBase", "DiffResults", "Distances", "Distributed", "Distributions", "DocStringExtensions", "DynamicHMC", "ForwardDiff", "LabelledArrays", "LinearAlgebra", "LogDensityProblems", "MacroTools", "Missings", "ModelingToolkit", "Optim", "PDMats", "Parameters", "Random", "RecursiveArrayTools", "Reexport", "Requires", "StanSample", "StructArrays", "TransformVariables", "TransformedLogDensities", "Turing"]
@@ -3668,7 +3668,7 @@ version = "4.2.0+0"
 
 [[deps.NPZ]]
 deps = ["Compat", "FileIO", "ZipFile"]
-git-tree-sha1 = "ad67bb4a450d06ec13ad7355b279c50f8d73ff44"
+git-tree-sha1 = "693d751e1ce6165d561da025d4d1d67eac744ffd"
 repo-rev = "master"
 repo-url = "https://github.com/fhs/NPZ.jl.git"
 uuid = "15e1cf62-19b3-5cfa-8e77-841668bca605"
@@ -4215,10 +4215,10 @@ uuid = "fe68d972-6fd8-4755-bdf0-97d4c54cefdc"
 version = "0.4.3"
 
 [[deps.PSIS]]
-deps = ["LinearAlgebra", "LogExpFunctions", "Printf", "RecipesBase", "Requires", "Statistics"]
-git-tree-sha1 = "21425b0dbd931596cdc2a547bb32b3289e488ec2"
+deps = ["LinearAlgebra", "LogExpFunctions", "Printf", "RecipesBase", "Statistics"]
+git-tree-sha1 = "735ec7b55fd84908df42907bb56ff272c117c85a"
 uuid = "ce719bf2-d5d0-4fb9-925d-10a81b42ad04"
-version = "0.5.1"
+version = "0.6.0"
 
 [[deps.PackageCompiler]]
 deps = ["Artifacts", "LazyArtifacts", "Libdl", "Pkg", "Printf", "RelocatableFolders", "TOML", "UUIDs"]
@@ -6187,9 +6187,9 @@ version = "4.3.4+0"
 
 [[deps.ZipFile]]
 deps = ["Libdl", "Printf", "Zlib_jll"]
-git-tree-sha1 = "3593e69e469d2111389a9bd06bac1f3d730ac6de"
+git-tree-sha1 = "ef4f23ffde3ee95114b461dc667ea4e6906874b2"
 uuid = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
-version = "0.9.4"
+version = "0.10.0"
 
 [[deps.Zlib_jll]]
 deps = ["Libdl"]
