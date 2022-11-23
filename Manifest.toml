@@ -3059,9 +3059,9 @@ version = "0.8.0"
 
 [[deps.LowLevelParticleFilters]]
 deps = ["Distributions", "ForwardDiff", "Lazy", "LinearAlgebra", "LoopVectorization", "NonlinearSolve", "PDMats", "Parameters", "Polyester", "Printf", "Random", "RecipesBase", "Requires", "SciMLBase", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "ad432659d0fb2961c3360b42148ceb155d0ac17e"
+git-tree-sha1 = "47f359ad05f28c8531146cffcef33c8f741ddfb7"
 uuid = "d9d29d28-c116-5dba-9239-57a5fe23875b"
-version = "3.0.2"
+version = "3.1.0"
 
 [[deps.LowRankApprox]]
 deps = ["FFTW", "FillArrays", "LinearAlgebra", "Nullables", "Random", "SparseArrays", "Test"]
