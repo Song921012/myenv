@@ -313,7 +313,7 @@ dependencies:
     - filterpy==1.4.5
     - fiona==1.8.21
     - fire==0.4.0
-    - flake8==5.0.4
+    - flake8==6.0.0
     - flask==2.2.2
     - flask-compress==1.13
     - flatbuffers==2.0.7
@@ -400,7 +400,7 @@ dependencies:
     - korean-lunar-calendar==0.3.1
     - lark==1.1.2
     - lazy-object-proxy==1.7.1
-    - leafmap==0.12.1
+    - leafmap==0.13.0
     - lesscpy==0.15.0
     - libclang==14.0.6
     - lifelines==0.27.4
