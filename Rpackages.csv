@@ -3,7 +3,7 @@
 "anytime","anytime","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.9",NA,"R (>= 3.2.0)","Rcpp (>= 0.12.9)","Rcpp (>= 0.12.9), BH","tinytest (>= 1.0.0), gettz",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "ape","ape","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","5.6-2",NA,"R (>= 3.2.0)","nlme, lattice, graphics, methods, stats, tools, utils,
 parallel, Rcpp (>= 0.12.0)","Rcpp","gee, expm, igraph, phangorn",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
-"aplot","aplot","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.8",NA,NA,"ggfun (>= 0.0.6), ggplot2, ggplotify, patchwork, magrittr,
+"aplot","aplot","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.9",NA,NA,"ggfun (>= 0.0.9), ggplot2, ggplotify, patchwork, magrittr,
 methods, utils",NA,"ggtree",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
 "ash","ash","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0-15",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "askpass","askpass","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1",NA,NA,"sys (>= 2.1)",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
@@ -205,6 +205,8 @@ methods",NA,"outbreaks, testthat, covr, shiny, readr, knitr, rmarkdown",NA,"GPL 
 "EpiEstim","EpiEstim","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2-4",NA,"R (>= 2.10)","coarseDataTools (>= 0.6-4), stats, graphics, reshape2,
 ggplot2, gridExtra, fitdistrplus, coda, incidence (>= 1.7.0),
 scales, grDevices",NA,"testthat, utils, vdiffr, covr, knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.1"
+"epimdr","epimdr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.6-5",NA,"R (>= 3.3.2), shiny, deSolve, polspline",NA,NA,"ade4, bbmle, fields, forecast, imputeTS, lme4, ncf, nleqslv,
+nlme, nlts, plotrix, pomp, rootSolve, Rwave, statnet,",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "EpiModel","EpiModel","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.3.1",NA,"R (>= 3.5), deSolve (>= 1.21), networkDynamic (>= 0.11.2),
 tergm (>= 4.1.0), statnet.common (>= 4.6.0)","graphics, grDevices, stats, utils, doParallel, ergm (>=
 4.2.2), foreach, network (>= 1.17.2), RColorBrewer, ape,
@@ -596,6 +598,7 @@ forcats, palmerpenguins, rversions, reticulate, rsvg",NA,"MIT + file LICENSE",NA
 "plyr","plyr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8.8",NA,"R (>= 3.1.0)","Rcpp (>= 0.11.0)","Rcpp","abind, covr, doParallel, foreach, iterators, itertools,
 tcltk, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "png","png","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1-7",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
+"polspline","polspline","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.22",NA,NA,"stats, graphics",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "polyclip","polyclip","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.10-4",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"BSL",NA,NA,NA,NA,"yes","4.2.1"
 "polynom","polynom","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4-1",NA,NA,"stats, graphics",NA,"knitr, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.1"
 "posterior","posterior","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.1",NA,"R (>= 3.2.0)","methods, abind, checkmate, rlang (>= 0.4.7), stats, tibble (>=
