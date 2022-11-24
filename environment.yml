@@ -313,7 +313,7 @@ dependencies:
     - filterpy==1.4.5
     - fiona==1.8.21
     - fire==0.4.0
-    - flake8==6.0.0
+    - flake8==5.0.4
     - flask==2.2.2
     - flask-compress==1.13
     - flatbuffers==2.0.7
@@ -400,7 +400,7 @@ dependencies:
     - korean-lunar-calendar==0.3.1
     - lark==1.1.2
     - lazy-object-proxy==1.7.1
-    - leafmap==0.13.0
+    - leafmap==0.13.2
     - lesscpy==0.15.0
     - libclang==14.0.6
     - lifelines==0.27.4
@@ -473,7 +473,7 @@ dependencies:
     - picos==2.4.11
     - pillow==9.2.0
     - pints==0.4.0
-    - pip==22.3
+    - pip==22.3.1
     - platformdirs==2.5.2
     - plotly==5.11.0
     - plotly-express==0.4.1
@@ -501,7 +501,7 @@ dependencies:
     - pyarrow==9.0.0
     - pyasn1==0.4.8
     - pyasn1-modules==0.2.8
-    - pycodestyle==2.10.0
+    - pycodestyle==2.9.1
     - pycrs==1.0.2
     - pydantic==1.9.2
     - pydeck==0.8.0
@@ -512,7 +512,7 @@ dependencies:
     - pyecharts-jupyter-installer==0.0.3
     - pyecharts-snapshot==0.2.0
     - pyee==8.2.2
-    - pyflakes==2.5.0
+    - pyflakes==3.0.0
     - pyjwt==2.5.0
     - pykalman==0.9.5
     - pyknos==0.15.1
