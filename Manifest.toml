@@ -743,9 +743,9 @@ version = "2.9.0"
 
 [[deps.ChebyshevApprox]]
 deps = ["LinearAlgebra", "ThreadPools"]
-git-tree-sha1 = "4aeb08c72ad46e5017f8a42ae245393ddaf21f9a"
+git-tree-sha1 = "d01bc6d8cec7fdb5cfa14cec09cf8243cc366fad"
 uuid = "17a596ad-87cd-578c-9b6d-01108c31dc04"
-version = "0.2.3"
+version = "0.2.4"
 
 [[deps.Chemfiles]]
 deps = ["BinaryProvider", "Chemfiles_jll", "DocStringExtensions", "Libdl"]
