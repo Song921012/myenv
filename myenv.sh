@@ -1,4 +1,9 @@
 # Basic setup
+cd ~/Downloads
+git clone https://github.com/ronniedroid/getnf.git
+cd getnf
+./install.sh
+cd
 sudo apt-get install software-properties-common
 sudo apt install -y software-properties-gtk
 sudo apt install aptitude

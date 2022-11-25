@@ -23,6 +23,9 @@ The easiest way is run `AllInOne.sh` (remember to revise python and julia versio
 
 ## 下载好字体
 
+推荐使用这个方法下载字体[ronniedroid/getnf: A better way to install NerdFonts](https://github.com/ronniedroid/getnf)
+
+
 [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/font-downloads)
 
 ```
