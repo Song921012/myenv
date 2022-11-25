@@ -554,15 +554,16 @@ graphics",NA,"knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
 "pbapply","pbapply","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.6-0",NA,"R (>= 3.2.0)","parallel",NA,"shiny",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
 "pbkrtest","pbkrtest","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5.1",NA,"R (>= 3.5.0), lme4 (>= 1.1.10)","broom, dplyr, magrittr, MASS, Matrix (>= 1.2.3), methods,
 numDeriv, parallel, knitr",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
-"performance","performance","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.10.0",NA,"R (>= 3.6)","bayestestR (>= 0.12.0), insight (>= 0.18.3), datawizard (>=
-0.5.1), methods, stats, utils",NA,"AER, afex, BayesFactor, bayesplot, betareg, bigutilsr,
-blavaan, brms, car, CompQuadForm, correlation, cplm, dbscan,
-estimatr, fixest, forecast, gamm4, ggplot2, glmmTMB, httr, ICS,
-ICSOutlier, ISLR, lavaan, lme4, lmtest, loo, magrittr, MASS,
-Matrix, mclust, metafor, mgcv, mlogit, multimode, nlme,
-nonnest2, ordinal, parallel, parameters, patchwork, poorman,
-pscl, psych, randomForest, rmarkdown, rstanarm, rstantools,
-sandwich, see, survey, survival, testthat, tweedie, VGAM",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.1"
+"performance","performance","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.10.1",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), insight (>= 0.18.7), datawizard (>=
+0.6.2), methods, stats, utils",NA,"AER, afex, BayesFactor, bayesplot, betareg, bigutilsr,
+blavaan, boot, brms, car, CompQuadForm, correlation, cplm,
+dbscan, estimatr, fixest, forecast, gamm4, ggplot2, glmmTMB,
+graphics, httr, ICS, ICSOutlier, ISLR, lavaan, lme4, lmtest,
+loo, magrittr, MASS, Matrix, mclust, metafor, mgcv, mlogit,
+multimode, nlme, nonnest2, ordinal, parallel, parameters,
+patchwork, poorman, pscl, psych, randomForest, rmarkdown,
+rstanarm, rstantools, sandwich, see, survey, survival,
+testthat, tweedie, VGAM",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "pheatmap","pheatmap","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.12",NA,"R (>= 2.0)","grid, RColorBrewer, scales, gtable, stats, grDevices, graphics",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.2.1"
 "phosphoricons","phosphoricons","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.2",NA,"R (>= 2.10)","htmltools (>= 0.3)",NA,"covr, shiny, tinytest",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "pillar","pillar","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8.1",NA,NA,"cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8
