@@ -789,6 +789,7 @@ scales",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "sna","sna","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.7",NA,"R (>= 2.0.0), utils, statnet.common, network",NA,NA,"rgl, numDeriv, SparseM",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.1"
 "socialmixr","socialmixr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.0",NA,"R (>= 3.5.0)","countrycode, curl, data.table, fields, grDevices, httr,
 jsonlite, lubridate, oai, stringr, wpp2017, xml2",NA,"ggplot2, knitr, reshape2, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
+"sos","sos","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.1-4",NA,"brew",NA,NA,"RODBC, WriteXLS, testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
 "sourcetools","sourcetools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.7",NA,"R (>= 3.0.2)",NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "sp","sp","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.5-1",NA,"R (>= 3.0.0), methods","utils, stats, graphics, grDevices, lattice, grid",NA,"RColorBrewer, rgdal (>= 1.2-3), rgeos (>= 0.3-13), gstat,
 maptools, deldir, knitr, rmarkdown, sf",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
