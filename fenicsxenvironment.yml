@@ -20,7 +20,7 @@ dependencies:
   - attrs=22.1.0=pyh71513ae_1
   - babel=2.11.0=pyhd8ed1ab_0
   - backcall=0.2.0=pyh9f0ad1d_0
-  - backports=1.0=py_2
+  - backports=1.0=pyhd8ed1ab_3
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
   - beautifulsoup4=4.11.1=pyha770c72_0
   - binutils_impl_linux-64=2.36.1=h193b22a_2
@@ -63,7 +63,7 @@ dependencies:
   - fontconfig=2.14.1=hc2a2eb6_0
   - fonts-conda-ecosystem=1=0
   - fonts-conda-forge=1=0
-  - freetype=2.12.1=hca18f0e_0
+  - freetype=2.12.1=hca18f0e_1
   - frozenlist=1.3.3=py310h5764c6d_0
   - gcc_impl_linux-64=10.4.0=h7ee1905_16
   - gcc_linux-64=10.4.0=h9215b83_10
@@ -84,23 +84,23 @@ dependencies:
   - hypre=2.25.0=mpi_mpich_hed3a557_0
   - icu=70.1=h27087fc_0
   - idna=3.4=pyhd8ed1ab_0
-  - imageio=2.22.0=pyhfa7a67d_0
-  - importlib-metadata=5.0.0=pyha770c72_1
+  - imageio=2.22.4=pyhfa7a67d_1
+  - importlib-metadata=5.1.0=pyha770c72_0
   - importlib_resources=5.10.0=pyhd8ed1ab_0
   - ipython_genutils=0.2.0=py_1
   - ipywidgets=8.0.2=pyhd8ed1ab_1
   - jack=1.9.21=he978b8e_1
-  - jedi=0.18.1=pyhd8ed1ab_2
+  - jedi=0.18.2=pyhd8ed1ab_0
   - jinja2=3.1.2=pyhd8ed1ab_1
   - jpeg=9e=h166bdaf_2
   - json5=0.9.5=pyh9f0ad1d_0
   - jsoncpp=1.9.5=h4bd325d_1
-  - jsonschema=4.17.0=pyhd8ed1ab_0
+  - jsonschema=4.17.1=pyhd8ed1ab_0
   - jupyter=1.0.0=py310hff52083_7
   - jupyter_client=7.4.7=pyhd8ed1ab_0
   - jupyter_console=6.4.4=pyhd8ed1ab_0
   - jupyter_core=5.0.0=py310hff52083_0
-  - jupyter_server=1.23.2=pyhd8ed1ab_0
+  - jupyter_server=1.23.3=pyhd8ed1ab_0
   - jupyterlab=3.5.0=pyhd8ed1ab_0
   - jupyterlab_pygments=0.2.2=pyhd8ed1ab_0
   - jupyterlab_server=2.16.3=pyhd8ed1ab_0
@@ -148,7 +148,7 @@ dependencies:
   - libopenblas=0.3.21=pthreads_h78a6416_3
   - libopus=1.3.1=h7f98852_1
   - libpciaccess=0.17=h166bdaf_0
-  - libpng=1.6.38=h753d276_0
+  - libpng=1.6.39=h753d276_0
   - libpq=14.5=hd77ab85_1
   - libsanitizer=10.4.0=hde28e3b_16
   - libsndfile=1.1.0=h27087fc_0
@@ -227,8 +227,8 @@ dependencies:
   - pooch=1.6.0=pyhd8ed1ab_0
   - proj=9.1.0=h93bde94_0
   - prometheus_client=0.15.0=pyhd8ed1ab_0
-  - prompt-toolkit=3.0.32=pyha770c72_0
-  - prompt_toolkit=3.0.32=hd8ed1ab_0
+  - prompt-toolkit=3.0.33=pyha770c72_0
+  - prompt_toolkit=3.0.33=hd8ed1ab_0
   - pthread-stubs=0.4=h36c2ea0_1001
   - ptscotch=6.0.9=hb499603_2
   - ptyprocess=0.7.0=pyhd3deb0d_0
@@ -243,10 +243,10 @@ dependencies:
   - pyqt5-sip=12.11.0=py310hd8f1fbe_2
   - pyrsistent=0.19.2=py310h5764c6d_0
   - pysocks=1.7.1=pyha2e5f31_6
-  - python=3.10.6=h582c2e5_0_cpython
+  - python=3.10.8=h257c98d_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python-fastjsonschema=2.16.2=pyhd8ed1ab_0
-  - python_abi=3.10=2_cp310
+  - python_abi=3.10=3_cp310
   - pyvista=0.37.0=pyhd8ed1ab_0
   - pyzmq=24.0.1=py310h330234f_1
   - qt-main=5.15.6=h7acdfc8_2
@@ -259,7 +259,7 @@ dependencies:
   - scotch=6.0.9=hb2e6521_2
   - send2trash=1.8.0=pyhd8ed1ab_0
   - setuptools=65.5.1=pyhd8ed1ab_0
-  - sip=6.7.4=py310hd8f1fbe_0
+  - sip=6.7.5=py310hd8f1fbe_0
   - six=1.16.0=pyh6c4a22f_0
   - slepc=3.17.2=real_hb19a63e_100
   - slepc4py=3.17.1=real_h7df52cc_103
@@ -284,7 +284,7 @@ dependencies:
   - typing-extensions=4.4.0=hd8ed1ab_0
   - typing_extensions=4.4.0=pyha770c72_0
   - tzdata=2022f=h191b570_0
-  - urllib3=1.26.11=pyhd8ed1ab_0
+  - urllib3=1.26.13=pyhd8ed1ab_0
   - utfcpp=3.2.2=ha770c72_0
   - vtk=9.2.2=qt_py310h180de18_204
   - wcwidth=0.2.5=pyh9f0ad1d_2

@@ -313,7 +313,7 @@ dependencies:
     - filterpy==1.4.5
     - fiona==1.8.21
     - fire==0.4.0
-    - flake8==5.0.4
+    - flake8==6.0.0
     - flask==2.2.2
     - flask-compress==1.13
     - flatbuffers==2.0.7
@@ -400,7 +400,7 @@ dependencies:
     - korean-lunar-calendar==0.3.1
     - lark==1.1.2
     - lazy-object-proxy==1.7.1
-    - leafmap==0.13.2
+    - leafmap==0.13.3
     - lesscpy==0.15.0
     - libclang==14.0.6
     - lifelines==0.27.4
@@ -501,7 +501,7 @@ dependencies:
     - pyarrow==9.0.0
     - pyasn1==0.4.8
     - pyasn1-modules==0.2.8
-    - pycodestyle==2.10.0
+    - pycodestyle==2.9.1
     - pycrs==1.0.2
     - pydantic==1.9.2
     - pydeck==0.8.0
@@ -518,7 +518,7 @@ dependencies:
     - pyknos==0.15.1
     - pykoop==1.0.5
     - pykoopman==0.2.0
-    - pylint==2.15.6
+    - pylint==2.15.5
     - pylops==1.18.3
     - pymeeus==0.5.11
     - pymetaheuristic==1.4.1
@@ -543,7 +543,7 @@ dependencies:
     - python-graphviz==0.20.1
     - python-slugify==6.1.2
     - pytorch-forecasting==0.10.3
-    - pytorch-lightning==1.8.3.post0
+    - pytorch-lightning==1.8.3.post1
     - pytz==2022.2.1
     - pytz-deprecation-shim==0.1.0.post0
     - pywavelets==1.4.1
