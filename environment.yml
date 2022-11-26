@@ -313,7 +313,7 @@ dependencies:
     - filterpy==1.4.5
     - fiona==1.8.21
     - fire==0.4.0
-    - flake8==5.0.4
+    - flake8==6.0.0
     - flask==2.2.2
     - flask-compress==1.13
     - flatbuffers==2.0.7
@@ -512,7 +512,7 @@ dependencies:
     - pyecharts-jupyter-installer==0.0.3
     - pyecharts-snapshot==0.2.0
     - pyee==8.2.2
-    - pyflakes==2.5.0
+    - pyflakes==3.0.0
     - pyjwt==2.5.0
     - pykalman==0.9.5
     - pyknos==0.15.1
