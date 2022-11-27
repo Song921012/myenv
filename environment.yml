@@ -313,7 +313,7 @@ dependencies:
     - filterpy==1.4.5
     - fiona==1.8.21
     - fire==0.4.0
-    - flake8==5.0.4
+    - flake8==6.0.0
     - flask==2.2.2
     - flask-compress==1.13
     - flatbuffers==2.0.7
@@ -518,7 +518,7 @@ dependencies:
     - pyknos==0.15.1
     - pykoop==1.0.5
     - pykoopman==0.2.0
-    - pylint==2.15.6
+    - pylint==2.15.5
     - pylops==1.18.3
     - pymeeus==0.5.11
     - pymetaheuristic==1.4.1

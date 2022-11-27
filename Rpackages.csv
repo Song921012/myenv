@@ -369,7 +369,7 @@ testthat (>= 3.0.0), vctrs (>= 0.3.0), waldo (>= 0.3.0), withr",NA,"MIT + file L
 "gridtext","gridtext","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.5",NA,"R (>= 3.5)","curl, grid, grDevices, markdown, rlang, Rcpp, png, jpeg,
 stringr, xml2","Rcpp","covr, knitr, rmarkdown, testthat, vdiffr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "gtable","gtable","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.1",NA,"R (>= 3.0)","grid",NA,"covr, testthat, knitr, rmarkdown, ggplot2, profvis",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
-"gtools","gtools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.9.3",NA,"methods, stats, utils",NA,NA,"car, gplots, knitr, rstudioapi, SGP, taxize",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.1"
+"gtools","gtools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.9.4",NA,"methods, stats, utils",NA,NA,"car, gplots, knitr, rstudioapi, SGP, taxize",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
 "haven","haven","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.5.1",NA,"R (>= 3.4)","cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods,
 readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs
 (>= 0.3.0)","cpp11","covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown,
