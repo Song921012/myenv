@@ -3512,9 +3512,9 @@ version = "1.0.11"
 
 [[deps.MosaicViews]]
 deps = ["MappedArrays", "OffsetArrays", "PaddedViews", "StackViews"]
-git-tree-sha1 = "b34e3bc3ca7c94914418637cb10cc4d1d80d877d"
+git-tree-sha1 = "7b86a5d4d70a9f5cdf2dacb3cbe6d251d1a61dbe"
 uuid = "e94cdb99-869f-56ef-bcf0-1ae2bcbe0389"
-version = "0.3.3"
+version = "0.3.4"
 
 [[deps.Mosek]]
 deps = ["Libdl", "Pkg", "Printf", "SparseArrays"]
@@ -4028,15 +4028,15 @@ version = "2.0.2"
 
 [[deps.Optimisers]]
 deps = ["ChainRulesCore", "Functors", "LinearAlgebra", "Random", "Statistics"]
-git-tree-sha1 = "c8884e88057968a715ddfd39f5c18b4c03aa3b64"
+git-tree-sha1 = "5fdc24095a4a5ac80c8f416a431caeec80e3b0d8"
 uuid = "3bd65402-5787-11e9-1adc-39752487f4e2"
-version = "0.2.11"
+version = "0.2.12"
 
 [[deps.Optimization]]
 deps = ["ArrayInterfaceCore", "ConsoleProgressMonitor", "DocStringExtensions", "Logging", "LoggingExtras", "Pkg", "Printf", "ProgressLogging", "Reexport", "Requires", "SciMLBase", "SparseArrays", "TerminalLoggers"]
-git-tree-sha1 = "da5ac09bd9d4d7a0a69ccb5ee7f4c870b7a6bc7c"
+git-tree-sha1 = "f6e2a1a8abb5e11b37126b882a6ee36efa31b2b4"
 uuid = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
-version = "3.9.2"
+version = "3.9.4"
 
 [[deps.OptimizationCMAEvolutionStrategy]]
 deps = ["CMAEvolutionStrategy", "Optimization", "Reexport"]
@@ -4965,9 +4965,9 @@ version = "0.3.3"
 
 [[deps.SciMLBase]]
 deps = ["ArrayInterfaceCore", "CommonSolve", "ConstructionBase", "Distributed", "DocStringExtensions", "EnumX", "FunctionWrappersWrappers", "IteratorInterfaceExtensions", "LinearAlgebra", "Logging", "Markdown", "Preferences", "RecipesBase", "RecursiveArrayTools", "RuntimeGeneratedFunctions", "StaticArraysCore", "Statistics", "Tables"]
-git-tree-sha1 = "9e2628b1cc637774d99f4d547e969584de80c5a9"
+git-tree-sha1 = "4c4be6edbf501a061e1b70b21f0d72389f7d60ad"
 uuid = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
-version = "1.75.0"
+version = "1.76.0"
 
 [[deps.SciMLExpectations]]
 deps = ["DiffEqBase", "Distributions", "Integrals", "KernelDensity", "LinearAlgebra", "Parameters", "Random", "RecursiveArrayTools", "Reexport", "StaticArrays", "Statistics", "Zygote"]
