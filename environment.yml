@@ -400,7 +400,7 @@ dependencies:
     - korean-lunar-calendar==0.3.1
     - lark==1.1.2
     - lazy-object-proxy==1.7.1
-    - leafmap==0.13.3
+    - leafmap==0.14.0
     - lesscpy==0.15.0
     - libclang==14.0.6
     - lifelines==0.27.4
@@ -512,13 +512,13 @@ dependencies:
     - pyecharts-jupyter-installer==0.0.3
     - pyecharts-snapshot==0.2.0
     - pyee==8.2.2
-    - pyflakes==3.0.0
+    - pyflakes==2.5.0
     - pyjwt==2.5.0
     - pykalman==0.9.5
     - pyknos==0.15.1
     - pykoop==1.0.5
     - pykoopman==0.2.0
-    - pylint==2.15.5
+    - pylint==2.15.6
     - pylops==1.18.3
     - pymeeus==0.5.11
     - pymetaheuristic==1.4.1

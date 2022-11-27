@@ -4,6 +4,10 @@ git clone https://github.com/ronniedroid/getnf.git
 cd getnf
 ./install.sh
 cd
+sudo apt install gnome-tweaks -y
+sudo apt install gnome-shell-extensions -y
+#reboot
+
 sudo apt-get install software-properties-common
 sudo apt install -y software-properties-gtk
 sudo apt install aptitude
