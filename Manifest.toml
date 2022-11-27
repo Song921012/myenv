@@ -3488,9 +3488,9 @@ version = "0.7.5"
 
 [[deps.ModelingToolkit]]
 deps = ["AbstractTrees", "ArrayInterfaceCore", "Combinatorics", "Compat", "ConstructionBase", "DataStructures", "DiffEqBase", "DiffEqCallbacks", "DiffRules", "Distributed", "Distributions", "DocStringExtensions", "DomainSets", "ForwardDiff", "FunctionWrappersWrappers", "Graphs", "IfElse", "InteractiveUtils", "JuliaFormatter", "JumpProcesses", "LabelledArrays", "Latexify", "Libdl", "LinearAlgebra", "MacroTools", "NaNMath", "RecursiveArrayTools", "Reexport", "RuntimeGeneratedFunctions", "SciMLBase", "Serialization", "Setfield", "SimpleNonlinearSolve", "SparseArrays", "SpecialFunctions", "StaticArrays", "SymbolicUtils", "Symbolics", "UnPack", "Unitful"]
-git-tree-sha1 = "8fceee702d16f98203f6ea5d339ff281584dd46f"
+git-tree-sha1 = "979fe2270282a1478c5ca3524853aa79910a3a56"
 uuid = "961ee093-0014-501f-94e3-6117800e7a78"
-version = "8.35.1"
+version = "8.35.2"
 
 [[deps.ModernGL]]
 deps = ["Libdl"]
@@ -4064,9 +4064,9 @@ version = "0.1.2"
 
 [[deps.OptimizationMOI]]
 deps = ["MathOptInterface", "Optimization", "Reexport", "SparseArrays"]
-git-tree-sha1 = "bf17d846f49d255542ea0161fdb324e1f80ab411"
+git-tree-sha1 = "30b48fb4632acc89c05f243075abf75795bfe80c"
 uuid = "fd9f6733-72f4-499f-8506-86b2bdd0dea1"
-version = "0.1.6"
+version = "0.1.5"
 
 [[deps.OptimizationMetaheuristics]]
 deps = ["Metaheuristics", "Optimization", "Reexport"]
