@@ -820,10 +820,10 @@ uuid = "a2cac450-b92f-5266-8821-25eda20663c8"
 version = "0.4.0"
 
 [[deps.ColorSchemes]]
-deps = ["ColorTypes", "ColorVectorSpace", "Colors", "FixedPointNumbers", "Random"]
-git-tree-sha1 = "1fd869cc3875b57347f7027521f561cf46d1fcd8"
+deps = ["ColorTypes", "ColorVectorSpace", "Colors", "FixedPointNumbers", "Random", "SnoopPrecompile"]
+git-tree-sha1 = "aa3edc8f8dea6cbfa176ee12f7c2fc82f0608ed3"
 uuid = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
-version = "3.19.0"
+version = "3.20.0"
 
 [[deps.ColorTypes]]
 deps = ["FixedPointNumbers", "Random"]
@@ -3210,9 +3210,9 @@ version = "1.8.0"
 
 [[deps.MLJModels]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "Combinatorics", "Dates", "Distances", "Distributions", "InteractiveUtils", "LinearAlgebra", "MLJModelInterface", "Markdown", "OrderedCollections", "Parameters", "Pkg", "PrettyPrinting", "REPL", "Random", "RelocatableFolders", "ScientificTypes", "StatisticalTraits", "Statistics", "StatsBase", "Tables"]
-git-tree-sha1 = "41aa5d9b610e0604470cb6297073bde24a270e1d"
+git-tree-sha1 = "08203fc87a7f992cee24e7a1b2353e594c73c41c"
 uuid = "d491faf4-2d78-11e9-2867-c94bc002c0b7"
-version = "0.16.1"
+version = "0.16.2"
 
 [[deps.MLJTuning]]
 deps = ["ComputationalResources", "Distributed", "Distributions", "LatinHypercubeSampling", "MLJBase", "ProgressMeter", "Random", "RecipesBase"]
@@ -3737,10 +3737,10 @@ uuid = "41ceaf6f-1696-4a54-9b49-2e7a9ec3782e"
 version = "0.8.2"
 
 [[deps.Netpbm]]
-deps = ["FileIO", "ImageCore"]
-git-tree-sha1 = "18efc06f6ec36a8b801b23f076e3c6ac7c3bf153"
+deps = ["FileIO", "ImageCore", "ImageMetadata"]
+git-tree-sha1 = "5ae7ca23e13855b3aba94550f26146c01d259267"
 uuid = "f09324ee-3d7c-5217-9330-fc30815ba969"
-version = "1.0.2"
+version = "1.1.0"
 
 [[deps.NetworkDynamics]]
 deps = ["Graphs", "LinearAlgebra", "NLsolve", "SciMLBase", "SparseArrays"]
@@ -4100,9 +4100,9 @@ version = "0.1.5"
 
 [[deps.OptimizationOptimisers]]
 deps = ["Optimisers", "Optimization", "Printf", "ProgressLogging", "Reexport"]
-git-tree-sha1 = "e2f152fc4adc9a634ca6ec00de2f2500d8642789"
+git-tree-sha1 = "aa84303b3e56c864557fd25dfb5dd341867bc1d8"
 uuid = "42dfb2eb-d2b4-4451-abcd-913932933ac1"
-version = "0.1.0"
+version = "0.1.1"
 
 [[deps.OptimizationPolyalgorithms]]
 deps = ["Optimization", "OptimizationOptimJL", "OptimizationOptimisers", "Reexport"]
@@ -4377,9 +4377,9 @@ version = "0.8.19"
 
 [[deps.Plots]]
 deps = ["Base64", "Contour", "Dates", "Downloads", "FFMPEG", "FixedPointNumbers", "GR", "JLFzf", "JSON", "LaTeXStrings", "Latexify", "LinearAlgebra", "Measures", "NaNMath", "Pkg", "PlotThemes", "PlotUtils", "Printf", "REPL", "Random", "RecipesBase", "RecipesPipeline", "Reexport", "RelocatableFolders", "Requires", "Scratch", "Showoff", "SnoopPrecompile", "SparseArrays", "Statistics", "StatsBase", "UUIDs", "UnicodeFun", "Unzip"]
-git-tree-sha1 = "408c6536a7a2452dcb5c1e66ef130ed2dd7018b0"
+git-tree-sha1 = "6a9521b955b816aa500462951aa67f3e4467248a"
 uuid = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-version = "1.36.5"
+version = "1.36.6"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "HypertextLiteral", "InteractiveUtils", "Logging", "MIMEs", "Markdown", "MsgPack", "Pkg", "PrecompileSignatures", "REPL", "RegistryInstances", "RelocatableFolders", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
@@ -4423,10 +4423,10 @@ uuid = "647866c9-e3ac-4575-94e7-e3d426903924"
 version = "0.1.2"
 
 [[deps.PolynomialBases]]
-deps = ["ArgCheck", "FFTW", "FastGaussQuadrature", "LinearAlgebra", "Requires", "SpecialFunctions", "UnPack"]
-git-tree-sha1 = "0990e89674ff6cd5cbc7bc40c959ed77168d4aa8"
+deps = ["ArgCheck", "AutoHashEquals", "FFTW", "FastGaussQuadrature", "LinearAlgebra", "Requires", "SpecialFunctions", "UnPack"]
+git-tree-sha1 = "38629c0a9cace7c6f51c103084589ff8a7a1c02f"
 uuid = "c74db56a-226d-5e98-8bb0-a6049094aeea"
-version = "0.4.14"
+version = "0.4.15"
 
 [[deps.Polynomials]]
 deps = ["LinearAlgebra", "RecipesBase"]
@@ -5452,10 +5452,10 @@ uuid = "bea87d4a-7f5b-5778-9afe-8cc45184846c"
 version = "5.10.1+0"
 
 [[deps.SummationByPartsOperators]]
-deps = ["ArgCheck", "ArrayInterface", "FFTW", "InteractiveUtils", "LinearAlgebra", "LoopVectorization", "PolynomialBases", "RecursiveArrayTools", "Reexport", "Requires", "SciMLBase", "SnoopPrecompile", "SparseArrays", "StaticArrays", "UnPack", "Unrolled"]
-git-tree-sha1 = "d0bcf5545bcf037920f2533fd8bf357efe849d3a"
+deps = ["ArgCheck", "ArrayInterface", "AutoHashEquals", "FFTW", "InteractiveUtils", "LinearAlgebra", "LoopVectorization", "PolynomialBases", "RecursiveArrayTools", "Reexport", "Requires", "SciMLBase", "SnoopPrecompile", "SparseArrays", "StaticArrays", "UnPack", "Unrolled"]
+git-tree-sha1 = "39c2c507c0bb68af2b0fbbca55a292d857292881"
 uuid = "9f78cca6-572e-554e-b819-917d2f1cf240"
-version = "0.5.25"
+version = "0.5.26"
 
 [[deps.Sundials]]
 deps = ["CEnum", "DataStructures", "DiffEqBase", "Libdl", "LinearAlgebra", "Logging", "Reexport", "SciMLBase", "SnoopPrecompile", "SparseArrays", "Sundials_jll"]
