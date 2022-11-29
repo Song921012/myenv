@@ -1114,9 +1114,9 @@ version = "1.12.16+3"
 
 [[deps.DecisionTree]]
 deps = ["AbstractTrees", "DelimitedFiles", "LinearAlgebra", "Random", "ScikitLearnBase", "Statistics"]
-git-tree-sha1 = "166a977f5eb01e436533e5df3a43ea280365eb27"
+git-tree-sha1 = "5ab40e9f5a554a642bc5ab1d20a198f76a1e6958"
 uuid = "7806a523-6efd-50cb-b5f6-3fa6f1930dbb"
-version = "0.11.3"
+version = "0.12.0"
 
 [[deps.DeepDiffs]]
 git-tree-sha1 = "9824894295b62a6a4ab6adf1c7bf337b3a9ca34c"
@@ -3435,9 +3435,9 @@ version = "0.4.11"
 
 [[deps.MethodOfLines]]
 deps = ["Combinatorics", "DiffEqBase", "DomainSets", "IfElse", "Interpolations", "Latexify", "LinearAlgebra", "ModelingToolkit", "OrdinaryDiffEq", "SciMLBase", "StaticArrays", "SymbolicUtils", "Symbolics", "TermInterface"]
-git-tree-sha1 = "0a3aa3e132b46c398220eaf31ea841799fa75858"
+git-tree-sha1 = "a4384bb9c069cb85e47f720b88839359d9249046"
 uuid = "94925ecb-adb7-4558-8ed8-f975c56a0bf4"
-version = "0.6.2"
+version = "0.7.0"
 
 [[deps.MicroCollections]]
 deps = ["BangBang", "InitialValues", "Setfield"]
@@ -3760,9 +3760,9 @@ version = "1.2.0"
 
 [[deps.NeuralOperators]]
 deps = ["CUDA", "CUDAKernels", "ChainRulesCore", "FFTW", "Flux", "GeometricFlux", "KernelAbstractions", "Statistics", "Tullio", "Zygote"]
-git-tree-sha1 = "e6d18e354f91f0e8d3893bb0158619d5f9a63111"
+git-tree-sha1 = "0ff6c86bc98ef308516e84b691e6c957b789905c"
 uuid = "ea5c82af-86e5-48da-8ee1-382d6ad7af4b"
-version = "0.4.4"
+version = "0.4.5"
 
 [[deps.NeuralPDE]]
 deps = ["Adapt", "ArrayInterfaceCore", "ChainRulesCore", "ComponentArrays", "DiffEqBase", "DiffEqNoiseProcess", "Distributions", "DocStringExtensions", "DomainSets", "Flux", "ForwardDiff", "Integrals", "IntegralsCubature", "LinearAlgebra", "Lux", "ModelingToolkit", "Optim", "Optimisers", "Optimization", "QuasiMonteCarlo", "Random", "RecursiveArrayTools", "Reexport", "RuntimeGeneratedFunctions", "SciMLBase", "Statistics", "StochasticDiffEq", "SymbolicUtils", "Symbolics", "UnPack", "Zygote"]
@@ -3868,9 +3868,9 @@ version = "0.4.1"
 
 [[deps.NonlinearSolve]]
 deps = ["ArrayInterfaceCore", "DiffEqBase", "FiniteDiff", "ForwardDiff", "LinearAlgebra", "LinearSolve", "RecursiveArrayTools", "Reexport", "SciMLBase", "SimpleNonlinearSolve", "SnoopPrecompile", "StaticArraysCore", "UnPack"]
-git-tree-sha1 = "128cc137a8503b6139a489caddf116338c8d4495"
+git-tree-sha1 = "9446c70780df57cd8cfb9cdb8f34c3b8e999f077"
 uuid = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
-version = "1.0.0"
+version = "1.0.1"
 
 [[deps.Nullables]]
 git-tree-sha1 = "8f87854cc8f3685a60689d8edecaa29d2251979b"
@@ -4028,9 +4028,9 @@ version = "2.0.2"
 
 [[deps.Optimisers]]
 deps = ["ChainRulesCore", "Functors", "LinearAlgebra", "Random", "Statistics"]
-git-tree-sha1 = "5fdc24095a4a5ac80c8f416a431caeec80e3b0d8"
+git-tree-sha1 = "f1cccb9f879dd4eaa4d92b115ab793545965d763"
 uuid = "3bd65402-5787-11e9-1adc-39752487f4e2"
-version = "0.2.12"
+version = "0.2.13"
 
 [[deps.Optimization]]
 deps = ["ArrayInterfaceCore", "ConsoleProgressMonitor", "DocStringExtensions", "Logging", "LoggingExtras", "Pkg", "Printf", "ProgressLogging", "Reexport", "Requires", "SciMLBase", "SparseArrays", "TerminalLoggers"]
@@ -4135,9 +4135,9 @@ version = "1.4.1"
 
 [[deps.OrdinaryDiffEq]]
 deps = ["Adapt", "ArrayInterface", "ArrayInterfaceCore", "ArrayInterfaceGPUArrays", "ArrayInterfaceStaticArrays", "ArrayInterfaceStaticArraysCore", "DataStructures", "DiffEqBase", "DocStringExtensions", "ExponentialUtilities", "FastBroadcast", "FastClosures", "FiniteDiff", "ForwardDiff", "FunctionWrappersWrappers", "LinearAlgebra", "LinearSolve", "Logging", "LoopVectorization", "MacroTools", "MuladdMacro", "NLsolve", "Polyester", "PreallocationTools", "Preferences", "RecursiveArrayTools", "Reexport", "SciMLBase", "SimpleNonlinearSolve", "SnoopPrecompile", "SparseArrays", "SparseDiffTools", "StaticArrays", "UnPack"]
-git-tree-sha1 = "9a2e18d340a3d7a4958de27780b9d07e49d57f0f"
+git-tree-sha1 = "3e6e80272ae0525281e0531e766359891846a494"
 uuid = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
-version = "6.33.2"
+version = "6.33.3"
 
 [[deps.Osi_jll]]
 deps = ["Artifacts", "CoinUtils_jll", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "OpenBLAS32_jll", "Pkg"]
