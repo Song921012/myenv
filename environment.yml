@@ -473,7 +473,7 @@ dependencies:
     - picos==2.4.11
     - pillow==9.2.0
     - pints==0.4.0
-    - pip==22.3.1
+    - pip==22.3
     - platformdirs==2.5.2
     - plotly==5.11.0
     - plotly-express==0.4.1
@@ -512,7 +512,7 @@ dependencies:
     - pyecharts-jupyter-installer==0.0.3
     - pyecharts-snapshot==0.2.0
     - pyee==8.2.2
-    - pyflakes==2.5.0
+    - pyflakes==3.0.0
     - pyjwt==2.5.0
     - pykalman==0.9.5
     - pyknos==0.15.1
