@@ -422,7 +422,7 @@ testthat, truncreg, tweedie, VGAM",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "isoband","isoband","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.6",NA,NA,"grid, utils",NA,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
 testthat, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "iterators","iterators","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.14",NA,"R (>= 2.5.0), utils",NA,NA,"RUnit, foreach",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.2.1"
-"jpeg","jpeg","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1-9",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"jpeg","jpeg","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1-10",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "jquerylib","jquerylib","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.4",NA,NA,"htmltools",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.1"
 "jsonlite","jsonlite","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8.3",NA,"methods",NA,NA,"httr, vctrs, testthat, knitr, rmarkdown, R.rsp, sf",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "JuliaCall","JuliaCall","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.17.5",NA,"R (>= 3.4.0)","utils, Rcpp (>= 0.12.7), knitr (>= 1.28), rjson","Rcpp","testthat, rmarkdown, rappdirs, sass",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
@@ -606,7 +606,7 @@ maptools, rgeos, sf, png, IRdisplay, processx, plotlyGeoAssets,
 forcats, palmerpenguins, rversions, reticulate, rsvg",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "plyr","plyr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8.8",NA,"R (>= 3.1.0)","Rcpp (>= 0.11.0)","Rcpp","abind, covr, doParallel, foreach, iterators, itertools,
 tcltk, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
-"png","png","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1-7",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.1"
+"png","png","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1-8",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "polspline","polspline","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.22",NA,NA,"stats, graphics",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "polyclip","polyclip","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.10-4",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"BSL",NA,NA,NA,NA,"yes","4.2.1"
 "polynom","polynom","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4-1",NA,NA,"stats, graphics",NA,"knitr, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.1"

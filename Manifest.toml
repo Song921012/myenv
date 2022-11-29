@@ -219,9 +219,9 @@ version = "0.13.12"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "Combinatorics", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "be17fcb3644ba806583b6bcdcf6da4b1ea493f39"
+git-tree-sha1 = "48c2abd80314b172ca8aa7d700f7ea4ca6c0682b"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.7.40"
+version = "0.7.41"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
@@ -878,9 +878,9 @@ version = "0.3.0"
 
 [[deps.Compat]]
 deps = ["Dates", "LinearAlgebra", "UUIDs"]
-git-tree-sha1 = "aaabba4ce1b7f8a9b34c015053d3b1edf60fa49c"
+git-tree-sha1 = "00a2cccc7f098ff3b66806862d275ca3db9e6e5a"
 uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
-version = "4.4.0"
+version = "4.5.0"
 
 [[deps.CompatHelperLocal]]
 deps = ["DocStringExtensions", "Pkg", "UUIDs"]
@@ -4491,9 +4491,9 @@ uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 [[deps.ProbNumDiffEq]]
 deps = ["DiffEqBase", "DiffEqDevTools", "ForwardDiff", "GaussianDistributions", "LinearAlgebra", "Octavian", "OrdinaryDiffEq", "PSDMatrices", "RecipesBase", "RecursiveArrayTools", "Reexport", "SciMLBase", "SnoopPrecompile", "Statistics", "StructArrays", "TaylorIntegration", "TaylorSeries", "UnPack"]
-git-tree-sha1 = "eaaa51d5a8395a0aeaeb67f5979689f834c4bb17"
+git-tree-sha1 = "9401afb10bf895d13e727273f800932c22d8081f"
 uuid = "bf3e78b0-7d74-48a5-b855-9609533b56a5"
-version = "0.8.5"
+version = "0.8.6"
 
 [[deps.Profile]]
 deps = ["Printf"]
