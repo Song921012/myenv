@@ -221,7 +221,7 @@ dependencies:
     - arviz==0.12.1
     - asteval==0.9.27
     - astor==0.8.1
-    - astroid==2.12.13
+    - astroid==2.12.12
     - astunparse==1.6.3
     - async-timeout==4.0.2
     - autograd==1.5
@@ -260,7 +260,7 @@ dependencies:
     - colorlog==6.7.0
     - colour==0.1.5
     - commonmark==0.9.1
-    - conan==1.54.0
+    - conan==1.55.0
     - contextlib2==21.6.0
     - convertdate==2.4.0
     - cookiecutter==2.1.1
@@ -502,7 +502,8 @@ dependencies:
     - pyarrow==9.0.0
     - pyasn1==0.4.8
     - pyasn1-modules==0.2.8
-    - pycodestyle==2.10.0
+    - pycatch22==0.4.2
+    - pycodestyle==2.9.1
     - pycrs==1.0.2
     - pydantic==1.9.2
     - pydeck==0.8.0
@@ -513,7 +514,7 @@ dependencies:
     - pyecharts-jupyter-installer==0.0.3
     - pyecharts-snapshot==0.2.0
     - pyee==8.2.2
-    - pyflakes==3.0.0
+    - pyflakes==2.5.0
     - pyjwt==2.5.0
     - pykalman==0.9.5
     - pyknos==0.15.1
@@ -577,7 +578,7 @@ dependencies:
     - shortuuid==1.0.11
     - simplejson==3.17.6
     - sklearn==0.0.post1
-    - sktime==0.14.0
+    - sktime==0.14.1
     - slicer==0.0.7
     - smcp==0.4.6
     - smmap==5.0.0

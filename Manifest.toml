@@ -1688,10 +1688,10 @@ uuid = "e59f0261-166d-4fee-8bf3-5e50457de5db"
 version = "0.2.1"
 
 [[deps.Flux]]
-deps = ["Adapt", "CUDA", "ChainRulesCore", "Functors", "LinearAlgebra", "MLUtils", "MacroTools", "NNlib", "NNlibCUDA", "OneHotArrays", "Optimisers", "ProgressLogging", "Random", "Reexport", "SparseArrays", "SpecialFunctions", "Statistics", "StatsBase", "Test", "Zygote"]
-git-tree-sha1 = "fdbac308c552f749122b0ad8d7cdca02ac131531"
+deps = ["Adapt", "CUDA", "ChainRulesCore", "Functors", "LinearAlgebra", "MLUtils", "MacroTools", "NNlib", "NNlibCUDA", "OneHotArrays", "Optimisers", "ProgressLogging", "Random", "Reexport", "SparseArrays", "SpecialFunctions", "Statistics", "StatsBase", "Zygote"]
+git-tree-sha1 = "2b85cb85f5d71f05e41089a2446ac33b8e94ebed"
 uuid = "587475ba-b771-5e3f-ad9e-33799f191a9c"
-version = "0.13.8"
+version = "0.13.9"
 
 [[deps.FoldingTrees]]
 deps = ["AbstractTrees", "REPL"]
@@ -5367,15 +5367,15 @@ version = "0.8.1"
 
 [[deps.StochasticDiffEq]]
 deps = ["Adapt", "ArrayInterface", "DataStructures", "DiffEqBase", "DiffEqNoiseProcess", "DocStringExtensions", "FillArrays", "FiniteDiff", "ForwardDiff", "JumpProcesses", "LevyArea", "LinearAlgebra", "Logging", "MuladdMacro", "NLsolve", "OrdinaryDiffEq", "Random", "RandomNumbers", "RecursiveArrayTools", "Reexport", "SciMLBase", "SparseArrays", "SparseDiffTools", "StaticArrays", "UnPack"]
-git-tree-sha1 = "3b10598c8a55664e433ce0fcb720bad0070df107"
+git-tree-sha1 = "43c1149ff76d6f55396331c5a565adcd2ed70b3c"
 uuid = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
-version = "6.57.1"
+version = "6.57.3"
 
 [[deps.Stopping]]
 deps = ["DataFrames", "LLSModels", "LinearAlgebra", "LinearOperators", "NLPModels", "Printf", "SolverTools", "SparseArrays", "Test"]
-git-tree-sha1 = "0575e5f7de0dbfd077ea7eb9ac56f478fb760a1e"
+git-tree-sha1 = "f26ce971d4abbc9d7af8b59bf0496c8aa8ea7abb"
 uuid = "c4fe5a9e-e7fb-5c3d-89d5-7f405ab2214f"
-version = "0.6.0"
+version = "0.6.1"
 
 [[deps.StoppingInterface]]
 deps = ["LinearAlgebra", "NLPModels", "Requires", "SolverCore", "SparseArrays", "Stopping", "Test"]
