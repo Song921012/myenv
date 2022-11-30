@@ -641,7 +641,7 @@ htmltools",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "progressr","progressr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.11.0",NA,"R (>= 3.5.0)","digest, utils",NA,"graphics, tcltk, beepr, crayon, pbmcapply, progress, purrr,
 foreach, plyr, doFuture, future, future.apply, furrr,
 rstudioapi, shiny, commonmark, base64enc, tools",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.1"
-"proj4","proj4","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0-11",NA,"R (>= 2.0.0)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"proj4","proj4","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0-12",NA,"R (>= 2.0.0)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
 "promises","promises","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.0.1",NA,NA,"R6, Rcpp, later, rlang, stats, magrittr","later, Rcpp","testthat, future (>= 1.21.0), fastmap (>= 1.1.0), purrr,
 knitr, rmarkdown, vembedr, spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.1"
 "proxy","proxy","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4-27",NA,"R (>= 3.4.0)","stats, utils",NA,"cba",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.1"

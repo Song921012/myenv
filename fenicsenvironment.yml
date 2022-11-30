@@ -12,7 +12,7 @@ dependencies:
   - argon2-cffi=21.3.0=pyhd8ed1ab_0
   - argon2-cffi-bindings=21.2.0=py310h5764c6d_3
   - arpack=3.7.0=hdefa2d7_2
-  - asttokens=2.1.0=pyhd8ed1ab_0
+  - asttokens=2.2.0=pyhd8ed1ab_0
   - attr=2.5.1=h166bdaf_1
   - attrs=22.1.0=pyh71513ae_1
   - babel=2.11.0=pyhd8ed1ab_0
@@ -33,12 +33,13 @@ dependencies:
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
   - cmake=3.25.0=h816a3e0_0
   - colorama=0.4.6=pyhd8ed1ab_0
+  - comm=0.1.1=pyhd8ed1ab_0
   - conda=22.9.0=py310hff52083_2
   - conda-package-handling=1.9.0=py310h5764c6d_1
-  - cryptography=38.0.3=py310h597c629_0
+  - cryptography=38.0.4=py310h597c629_0
   - curl=7.86.0=h7bff187_1
   - dbus=1.13.6=h5008d03_3
-  - debugpy=1.6.3=py310hd8f1fbe_1
+  - debugpy=1.6.4=py310hd8f1fbe_0
   - decorator=5.1.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
   - eigen=3.4.0=h4bd325d_0
@@ -82,7 +83,7 @@ dependencies:
   - importlib-metadata=5.1.0=pyha770c72_0
   - importlib_resources=5.10.0=pyhd8ed1ab_0
   - ipopt=3.14.10=hf60ba86_0
-  - ipykernel=6.17.1=pyh210e3f2_0
+  - ipykernel=6.18.2=pyh210e3f2_0
   - ipython=8.6.0=pyh41d4057_1
   - ipython_genutils=0.2.0=py_1
   - ipywidgets=8.0.2=pyhd8ed1ab_1
@@ -96,7 +97,7 @@ dependencies:
   - jupyter=1.0.0=py310hff52083_7
   - jupyter_client=7.4.7=pyhd8ed1ab_0
   - jupyter_console=6.4.4=pyhd8ed1ab_0
-  - jupyter_core=5.0.0=py310hff52083_0
+  - jupyter_core=5.1.0=py310hff52083_0
   - jupyter_server=1.23.3=pyhd8ed1ab_0
   - jupyterlab=3.5.0=pyhd8ed1ab_0
   - jupyterlab_pygments=0.2.2=pyhd8ed1ab_0
@@ -257,7 +258,7 @@ dependencies:
   - soupsieve=2.3.2.post1=pyhd8ed1ab_0
   - sqlite=3.40.0=h4ff8645_0
   - sqlitedict=2.0.0=pyhd8ed1ab_0
-  - stack_data=0.6.1=pyhd8ed1ab_0
+  - stack_data=0.6.2=pyhd8ed1ab_0
   - suitesparse=5.10.1=h9e50725_1
   - superlu=5.2.2=h00795ac_0
   - superlu_dist=7.2.0=h34f6f4d_0
@@ -273,7 +274,7 @@ dependencies:
   - tqdm=4.64.1=pyhd8ed1ab_0
   - traitlets=5.5.0=pyhd8ed1ab_0
   - typing_extensions=4.4.0=pyha770c72_0
-  - tzdata=2022f=h191b570_0
+  - tzdata=2022g=h191b570_0
   - unixodbc=2.3.10=h583eb01_0
   - wcwidth=0.2.5=pyh9f0ad1d_2
   - websocket-client=1.4.2=pyhd8ed1ab_0
