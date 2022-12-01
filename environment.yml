@@ -260,7 +260,7 @@ dependencies:
     - colorlog==6.7.0
     - colour==0.1.5
     - commonmark==0.9.1
-    - conan==1.54.0
+    - conan==1.55.0
     - contextlib2==21.6.0
     - convertdate==2.4.0
     - cookiecutter==2.1.1
@@ -293,7 +293,7 @@ dependencies:
     - dsr==1.0.dev0
     - dtw-python==1.3.0
     - dymos==1.6.1
-    - dynamax==0.1.0+15.gc05cb51
+    - dynamax==0.1.0+17.gecb699e
     - echarts-china-cities-pypkg==0.0.9
     - echarts-china-counties-pypkg==0.0.2
     - echarts-china-misc-pypkg==0.0.1
@@ -313,7 +313,7 @@ dependencies:
     - filterpy==1.4.5
     - fiona==1.8.21
     - fire==0.4.0
-    - flake8==6.0.0
+    - flake8==5.0.4
     - flask==2.2.2
     - flask-compress==1.13
     - flatbuffers==2.0.7
@@ -508,13 +508,13 @@ dependencies:
     - pydantic==1.9.2
     - pydeck==0.8.0
     - pydeprecate==0.3.2
-    - pydmd==0.4.0.post2211
+    - pydmd==0.4.0.post2212
     - pydoe2==1.3.0
     - pyecharts==1.9.1
     - pyecharts-jupyter-installer==0.0.3
     - pyecharts-snapshot==0.2.0
     - pyee==8.2.2
-    - pyflakes==3.0.0
+    - pyflakes==2.5.0
     - pyjwt==2.5.0
     - pykalman==0.9.5
     - pyknos==0.15.1
