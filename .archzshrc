@@ -56,7 +56,7 @@ alias clean="sudo pacman -Scc"
 
 alias wkspace="cd /home/aidishage/Desktop/MyProjects"
 alias testspace="cd $HOME/Desktop/Test_repo"
-alias fireenv="conda deactivate && source /home/aidishage/firedrake/bin/activate"
+alias fireenv="conda deactivate && conda activate base && source /home/aidishage/firedrake/bin/activate"
 alias myenv="cd ~/myenv/src"
 alias mytutor="cd ~/Desktop/MyProjects/MathEpiDeepLearningTutorial"
 ## ShortCuts

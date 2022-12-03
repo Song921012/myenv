@@ -31,16 +31,17 @@ conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=$pyth
 
 
 # Symbolic Regression Environment
-conda create -n sr python=$pythonversion jupyter jupyterlab
+conda create -n sr -c conda-forge python=$pythonversion jupyter jupyterlab
 conda activate sr
 conda install -c conda-forge shogun-cpp
 conda install -c conda-forge fmt=9.1.0 
 conda install -c conda-forge eigen 
-conda install -c conda-forge armadillo
+conda install -c conda-forge armadillo=9.900.4
 conda install -c conda-forge boost 
 conda install -c conda-forge gsl 
 conda install -c conda-forge py-xgboost 
 conda install -c conda-forge mpi4py
+
 
 pip install Numpy Pandas Matplotlib scipy sympy statsmodels radian flake8 pylint yapf virtualenv jupyter_contrib_nbextensions nbconvert rich pygments sklearn DistanceClassifier pmlb eigency seaborn deap icecream
 ## pip3 install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.14.0-py3-none-any.whl
