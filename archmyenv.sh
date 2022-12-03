@@ -87,7 +87,7 @@ conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
 conda install mamba -n base -c conda-forge
-conda install -c conda-forge gdal
+conda install -c conda-forge gdal gcc gxx gfortran mpich armadillo
 
 # nix
 #sh <(curl -L https://nixos.org/nix/install) --daemon

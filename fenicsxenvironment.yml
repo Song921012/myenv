@@ -329,4 +329,35 @@ dependencies:
   - zipp=3.11.0=pyhd8ed1ab_0
   - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=h6239696_4
+  - pip:
+    - astroid==2.12.13
+    - commonmark==0.9.1
+    - dill==0.3.6
+    - distlib==0.3.6
+    - filelock==3.8.0
+    - flake8==6.0.0
+    - isort==5.10.1
+    - jupyter-contrib-core==0.4.2
+    - jupyter-contrib-nbextensions==0.7.0
+    - jupyter-highlight-selected-word==0.2.0
+    - jupyter-nbextensions-configurator==0.6.1
+    - lazy-object-proxy==1.8.0
+    - lxml==4.9.1
+    - mccabe==0.7.0
+    - mpmath==1.2.1
+    - pandas==1.5.2
+    - patsy==0.5.3
+    - pycodestyle==2.10.0
+    - pyflakes==3.0.1
+    - pylint==2.15.7
+    - pyyaml==6.0
+    - radian==0.6.4
+    - rchitect==0.3.39
+    - scipy==1.9.3
+    - statsmodels==0.13.5
+    - sympy==1.11.1
+    - tomlkit==0.11.6
+    - virtualenv==20.17.0
+    - wrapt==1.14.1
+    - yapf==0.32.0
 prefix: /home/aidishage/miniconda3/envs/fenicsx

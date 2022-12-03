@@ -24,11 +24,11 @@ sudo npm install -g hexo
 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
 
-# fenics and fenicsx
+# fenics and fenicsx and firedrake
 conda deactivate
 conda create -n fenics -c conda-forge fenics pyoptsparse julia python=$pythonversion jupyter jupyterlab
 conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=$pythonversion jupyter jupyterlab
-
+#conda create -n firedrake -c conda-forge mpich python=$pythonversion jupyter jupyterlab gcc gxx gfortran 
 
 # Symbolic Regression Environment
 conda create -n sr -c conda-forge python=$pythonversion jupyter jupyterlab
@@ -36,7 +36,7 @@ conda activate sr
 conda install -c conda-forge shogun-cpp
 conda install -c conda-forge fmt=9.1.0 
 conda install -c conda-forge eigen 
-conda install -c conda-forge armadillo=9.900.4
+conda install -c conda-forge armadillo gcc gxx
 conda install -c conda-forge boost 
 conda install -c conda-forge gsl 
 conda install -c conda-forge py-xgboost 

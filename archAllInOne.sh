@@ -33,7 +33,6 @@ ln -f ~/.config/kitty/kitty.conf ~/myenv/kitty.conf
 zsh
 conda update conda
 ## Install texlive
-## Install Rstudio
 
 # set up work environment
 wkinstall

@@ -1,47 +1,47 @@
 conda deactivate
 myenv
-sudo apt-get install gcc g++ gfortran git patch wget pkg-config liblapack-dev libmetis-dev
+#sudo apt-get install gcc g++ gfortran git patch wget pkg-config liblapack-dev libmetis-dev
 
 ## cppad
-myenv
+#myenv
 #sudo rm -rf CppAD
 #git clone https://github.com/coin-or/CppAD.git
-cd CppAD
-git pull
-sudo rm -rf build
-mkdir build
-cd build && cmake ..
-sudo make install
+#cd CppAD
+#git pull
+#sudo rm -rf build
+#mkdir build
+#cd build && cmake ..
+#sudo make install
 ## cmdstan
 myenv
 cd cmdstan
 git pull
 make -j6 build  
 ## Ipopt
-myenv
-cd Ipopt
-git pull
-sudo rm -rf build
-mkdir build
-cd build
-../configure
-make
-make test
-sudo make install
+#myenv
+#cd Ipopt
+#git pull
+#sudo rm -rf build
+#mkdir build
+#cd build
+#../configure
+#make
+#make test
+#sudo make install
 
 ## nlopt
-myenv
-cd nlopt
-git pull
-sudo rm -rf build
-mkdir build
-cd build
-cmake ..
-make
-sudo make install
+#myenv
+#cd nlopt
+#git pull
+#sudo rm -rf build
+#mkdir build
+#cd build
+#cmake ..
+#make
+#sudo make install
 
 
-myenv
+#myenv
 
 ## psopt
 myenv
@@ -57,15 +57,15 @@ cd ./psopt/build/examples/delay1
 ./delay1
 
 ## ifopt
-myenv
-cd ifopt
-sudo rm -rf build
-mkdir build
-cd build
-cmake ..
-make
-sudo make install
-myenv
+#myenv
+#cd ifopt
+#sudo rm -rf build
+#mkdir build
+#cd build
+#cmake ..
+#make
+#sudo make install
+#myenv
 
 ## pyopt
 myenv
