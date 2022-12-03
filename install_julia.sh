@@ -27,3 +27,8 @@ sudo ln -sf /opt/julia-dev/bin/julia /usr/local/bin/juliadev;
 sudo rm -rf julia-*
 cd;
 }
+
+setup_julia(){
+	julia -e 'using MPIPreferences; MPIPreferences.use_jll_binary("MPICH_jll");using Pkg;Pkg.build("MPI")'
+	julia -e 'using MPI;MPI.install_mpiexecjl()'
+}

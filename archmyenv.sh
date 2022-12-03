@@ -67,8 +67,12 @@ yay -S jre-openjdk jdk-openjdk
 yay -S zotero
 
 # obsidian zoom netease-cloud-music
-yay -S obsidian zoom thunderbird xorg-xdm okular microsoft-edge-stable-bin brave-bin gwenview slack-desktop wps-office-cn aur/ttf-wps-fonts foxitreader 
-sudo pacman -S libreoffice-still libreoffice-still-zh-cn
+yay -S obsidian zoom thunderbird xorg-xdm okular microsoft-edge-stable-bin gwenview slack-desktop wps-office-cn aur/ttf-wps-fonts foxitreader 
+sudo pacman -S libreoffice-still libreoffice-still-zh-cn screenkey
+sudo pacman flatpak
+flatpak install wemeet # tab tengxunhuiyi
+flatpak install netease # tab wangyiyingyue
+flatpak install xmind
 # Install develop environment
 
 yay -S cmake ninja mpich
