@@ -67,8 +67,8 @@ yay -S jre-openjdk jdk-openjdk
 yay -S zotero
 
 # obsidian zoom netease-cloud-music
-yay -S obsidian zoom thunderbird xorg-xdm okular
-
+yay -S obsidian zoom thunderbird xorg-xdm okular microsoft-edge-stable-bin brave-bin gwenview slack-desktop wps-office-cn aur/ttf-wps-fonts foxitreader 
+sudo pacman -S libreoffice-still libreoffice-still-zh-cn
 # Install develop environment
 
 yay -S cmake ninja mpich
