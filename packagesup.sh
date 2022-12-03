@@ -1,6 +1,6 @@
 conda deactivate
+conda activate base
 myenv
-#sudo apt-get install gcc g++ gfortran git patch wget pkg-config liblapack-dev libmetis-dev
 
 ## cppad
 #myenv
@@ -18,16 +18,16 @@ cd cmdstan
 git pull
 make -j6 build  
 ## Ipopt
-#myenv
-#cd Ipopt
-#git pull
-#sudo rm -rf build
-#mkdir build
-#cd build
-#../configure
-#make
-#make test
-#sudo make install
+myenv
+cd Ipopt
+git pull
+sudo rm -rf build
+mkdir build
+cd build
+../configure
+make
+make test
+sudo make install
 
 ## nlopt
 #myenv
@@ -43,6 +43,25 @@ make -j6 build
 
 #myenv
 
+## ColPack
+myenv
+sudo rm -rf ColPack && git clone https://github.com/CSCsw/ColPack.git  #Download ColPack
+cd ColPack             # ColPack Root Directory
+cd build/automake      # automake folder
+autoreconf -vif        # generate configure files based on the machince
+mkdir mywork
+cd mywork        # modify fullpath to your destination folder if need
+../configure                     
+make -j 6             # Where "4" is the number of cores on your machine
+sudo make install  
+
+## Adol-C
+myenv
+sudo rm -rf ADOL-C && git clone https://github.com/coin-or/ADOL-C.git
+cd ADOL-C
+./configure --prefix=/usr/local/lib
+make
+sudo make install
 ## psopt
 myenv
 cd psopt
@@ -57,15 +76,15 @@ cd ./psopt/build/examples/delay1
 ./delay1
 
 ## ifopt
-#myenv
-#cd ifopt
-#sudo rm -rf build
-#mkdir build
-#cd build
-#cmake ..
-#make
-#sudo make install
-#myenv
+myenv
+cd ifopt
+sudo rm -rf build
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+myenv
 
 ## pyopt
 myenv
@@ -77,17 +96,17 @@ myenv
 
 
 ##
-myenv
+#myenv
 #sudo rm -rf sundials
 #git clone https://github.com/LLNL/sundials.git
-cd sundials
-git pull
-sudo rm -rf build
-mkdir build
-cd build
-cmake -DEXAMPLES_ENABLE_CXX=ON -DENABLE_LAPACK=ON -DENABLE_MPI=ON .. #-DENABLE_PETSC=ON -DPETSC_DIR=/home/aidishage/myenv/src/petsc ..
-make -j 6
-sudo make install
+#cd sundials
+#git pull
+#sudo rm -rf build
+#mkdir build
+#cd build
+#cmake -DEXAMPLES_ENABLE_CXX=ON -DENABLE_LAPACK=ON -DENABLE_MPI=ON .. #-DENABLE_PETSC=ON -DPETSC_DIR=/home/aidishage/myenv/src/petsc ..
+#make -j 6
+#sudo make install
 
 # algencan
 myenv

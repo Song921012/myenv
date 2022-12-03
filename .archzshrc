@@ -90,7 +90,7 @@ export HSL_MA97_PATH=/home/aidishage/hsl/hsl_ma97-2.7.2.tar.gz
 
 # R
 
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/R/lib
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/R/lib
 #export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/miniconda3/lib
 export UDUNITS2_INCLUDE=/home/aidishage/myenv/include
 export UDUNITS2_LIBS=/home/aidishage/myenv/lib

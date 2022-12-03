@@ -74,7 +74,7 @@ sudo pacman -S libreoffice-still libreoffice-still-zh-cn
 yay -S cmake ninja mpich
 yay -S llvm clang lldb lld
 
-yay -S eigen ctags adol-c-git gnuplot graphviz pandoc inkscape pkgconf lapack metis blas gsl pugixml pdf2svg suitesparse fontconfig harfbuzz fribidi
+yay -S eigen ctags gnuplot graphviz pandoc inkscape pkgconf lapack metis blas gsl pugixml pdf2svg suitesparse fontconfig harfbuzz fribidi
 freetype2 libpng libtiff libjpeg-turbo gdal udunits cppad swig cairo
 
 
@@ -87,7 +87,7 @@ conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
 conda install mamba -n base -c conda-forge
-conda install -c conda-forge gdal gcc gxx gfortran mpich armadillo
+conda install -c conda-forge gdal gcc gxx gfortran mpich armadillo cmake blas lapack suitesparse ipopt llvm-tools sundials cppad nlopt
 
 # nix
 #sh <(curl -L https://nixos.org/nix/install) --daemon

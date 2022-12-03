@@ -5385,9 +5385,9 @@ version = "0.5.1"
 
 [[deps.StrideArrays]]
 deps = ["ArrayInterface", "LinearAlgebra", "LoopVectorization", "Octavian", "Random", "SLEEFPirates", "Static", "StrideArraysCore", "VectorizationBase", "VectorizedRNG"]
-git-tree-sha1 = "0848d5397328ca1ee696a788e8d5ac58a6f3272d"
+git-tree-sha1 = "1118e60460343186ac7250986e8831fdd2150014"
 uuid = "d1fa6d79-ef01-42a6-86c9-f7c551f8593b"
-version = "0.1.20"
+version = "0.1.21"
 
 [[deps.StrideArraysCore]]
 deps = ["ArrayInterface", "CloseOpenIntervals", "IfElse", "LayoutPointers", "ManualMemory", "SIMDTypes", "Static", "ThreadingUtilities"]
