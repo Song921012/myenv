@@ -1,10 +1,10 @@
 myenv
 cp ~/hsl/libalgencan.so ~/myenv/lib
-sudo rm -rf psopt && git clone https://github.com/PSOPT/psopt.git
-sudo rm -rf ifopt && git clone https://github.com/ethz-adrl/ifopt.git
-sudo rm -rf nlopt && git clone https://github.com/stevengj/nlopt.git
-sudo rm -rf petsc && git clone https://gitlab.com/petsc/petsc.git
-sudo rm -rf slepc && git clone https://gitlab.com/slepc/slepc
+#sudo rm -rf psopt && git clone https://github.com/PSOPT/psopt.git
+#sudo rm -rf ifopt && git clone https://github.com/ethz-adrl/ifopt.git
+#sudo rm -rf nlopt && git clone https://github.com/stevengj/nlopt.git
+#sudo rm -rf petsc && git clone https://gitlab.com/petsc/petsc.git
+#sudo rm -rf slepc && git clone https://gitlab.com/slepc/slepc
 sudo rm -rf cmdstan && git clone https://github.com/stan-dev/cmdstan.git --recursive
 
 sudo rm -rf Ipopt && git clone https://github.com/coin-or/Ipopt.git

@@ -6,4 +6,5 @@
 #install.packages(toInstall)
 
 pkgs<-readRDS("~/myenv/Rpkgs.rds")
+
 install.packages(rownames(pkgs))

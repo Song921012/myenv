@@ -6,163 +6,62 @@
 " License: GPLv3
 "=============================================================================
 
-execute 'source' fnamemodify(expand('<sfile>'), ':h').'/main.vim'
+" set default encoding to utf-8
+" Let Vim use utf-8 internally, because many scripts require this
+set encoding=utf-8
+scriptencoding utf-8
 
+" Enable nocompatible
+if &compatible
+  set nocompatible
+endif
 
-call plug#begin()
-" The default plugin directory will be as follows:
-"   - Vim (Linux/macOS): '~/.vim/plugged'
-"   - Vim (Windows): '~/vimfiles/plugged'
-"   - Neovim (Linux/macOS/Windows): stdpath('data') . '/plugged'
-" You can specify a custom plugin directory by passing it as the argument
-"   - e.g. `call plug#begin('~/.vim/plugged')`
-"   - Avoid using standard Vim directory names like 'plugin'
+let g:_spacevim_root_dir = escape(fnamemodify(resolve(fnamemodify(expand('<sfile>'),
+      \ ':p:h:gs?\\?'.((has('win16') || has('win32')
+      \ || has('win64'))?'\':'/') . '?')), ':p:gs?[\\/]?/?'), ' ')
+lockvar g:_spacevim_root_dir
+if has('nvim')
+  let s:qtdir = split(&rtp, ',')[-1]
+  if s:qtdir =~# 'nvim-qt'
+    let &rtp = s:qtdir . ',' . g:_spacevim_root_dir . ',' . $VIMRUNTIME
+  else
+    let &rtp = g:_spacevim_root_dir . ',' . $VIMRUNTIME
+  endif
+else
+  let &rtp = g:_spacevim_root_dir . ',' . $VIMRUNTIME
+endif
+call SpaceVim#logger#info('Loading SpaceVim from: ' . g:_spacevim_root_dir)
 
-" Make sure you use single quotes
+if has('vim_starting')
+  " python host
+  " @bug python2 error on neovim 0.6.1
+  " let g:loaded_python_provider = 0
+  if !empty($PYTHON_HOST_PROG)
+    let g:python_host_prog  = $PYTHON_HOST_PROG
+    call SpaceVim#logger#info('$PYTHON_HOST_PROG is not empty, setting g:python_host_prog:' . g:python_host_prog)
+  endif
+  if !empty($PYTHON3_HOST_PROG)
+    let g:python3_host_prog = $PYTHON3_HOST_PROG
+    call SpaceVim#logger#info('$PYTHON3_HOST_PROG is not empty, setting g:python3_host_prog:' . g:python3_host_prog)
+    if !has('nvim') 
+          \ && (has('win16') || has('win32') || has('win64'))
+          \ && exists('&pythonthreedll')
+          \ && exists('&pythonthreehome')
+      let &pythonthreedll = get(split(globpath(fnamemodify($PYTHON3_HOST_PROG, ':h'), 'python*.dll'), '\n'), -1, '')
+      call SpaceVim#logger#info('init &pythonthreedll:' . &pythonthreedll)
+      let &pythonthreehome = fnamemodify($PYTHON3_HOST_PROG, ':h')
+      call SpaceVim#logger#info('init &pythonthreehome:' . &pythonthreehome)
+    endif
+  endif
+endif
 
-" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
-Plug 'junegunn/vim-easy-align'
+call SpaceVim#begin()
 
-" Any valid git URL is allowed
-Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+call SpaceVim#custom#load()
 
-" Multiple Plug commands can be written in a single line using | separators
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+call SpaceVim#default#keyBindings()
 
-" On-demand loading
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+call SpaceVim#end()
 
-" Using a non-default branch
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
-
-" Using a tagged release; wildcard allowed (requires git 1.9.2 or above)
-Plug 'fatih/vim-go', { 'tag': '*' }
-
-" Plugin options
-Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
-
-" Plugin outside ~/.vim/plugged with post-update hook
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-
-" Unmanaged plugin (manually installed and updated)
-Plug '~/my-prototype-plugin'
-
-Plug 'quarto-dev/quarto-nvim'
-Plug 'neovim/nvim-lspconfig'
-" Plugin 'vim-pandoc/vim-pandoc-syntax'
-" Plugin 'quarto-dev/quarto-vim'
-" Vim Script
-
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
-Plug 'williamboman/nvim-lsp-installer'
-
-" Initialize plugin system
-" - Automatically executes `filetype plugin indent on` and `syntax enable`.
-Plug 'nvim-tree/nvim-web-devicons' " optional, for file icons
-Plug 'nvim-tree/nvim-tree.lua'
-Plug 'JuliaEditorSupport/julia-vim'
-call plug#end()
-
-
-" You can revert the settings after the call like so:
-"   filetype indent off   " Disable file-type-specific indentation
-"   syntax off            " Disable syntax highlighting
-
-
-function! CheckChineseMark()  
-  "依次检查  
-  if search('。')  
-      let s:line=search('。')  
-      execute s:line . "s/。/\./g" 
-  endif  
-
-  if search('，')  
-      let s:line=search('，')  
-      execute s:line . "s/，/,/g" 
-  endif  
-
-  if search('；')  
-      let s:line=search('；')  
-      execute s:line . "s/；/,/g" 
-
-  endif  
-    
-  if  search('？')  
-      let s:line=search('？')  
-      execute s:line . "s/？/?/g" 
-  endif  
-
-  if search('：')  
-      let s:line=search('：')  
-      execute s:line . "s/：/\:/g" 
-  endif  
-
-  if search('‘')  
-      let s:line=search('‘')  
-      execute s:line . "s/‘/\'/g" 
-  endif  
-
-  if search('’')  
-      let s:line=search('’')  
-      execute s:line . "s/’/\'/g" 
-  endif  
-
-  if search('”')  
-      let s:line=search('”')  
-      execute s:line . "s/”/\"/g" 
-  endif  
-
-  if search('“')  
-      let s:line=search('“')  
-      execute s:line . "s/“/\"/g" 
-  endif  
-
-  if search('《')  
-      let s:line=search('《')  
-      execute s:line . "s/《/\</g" 
-  endif  
-
-  if search('》')  
-      let s:linie=search('》')  
-      execute s:line . "s/》/\>/g" 
-  endif  
-
-  if search('——')  
-      let s:line=search('——')  
-      execute s:line . "s/——/-/g" 
-  endif  
-
-  if search('）')  
-      let s:line=search('）')  
-      execute s:line . "s/）/\)/g" 
-  endif  
-
-  if search('（')  
-      let s:line=search('（')  
-      execute s:line . "s/（/\(/g" 
-  endif  
-
-  if search('……')  
-      let s:line=search('……')  
-      execute s:line . "s/……/^/g" 
-  endif  
-
-  if search('￥')  
-      let s:line=search('￥')  
-      execute s:line . "s/￥/$/g" 
-  endif  
-
-  if search('！')  
-      let s:line=search('！')  
-      execute s:line . "s/！/!/g" 
-  endif  
-
-  if  search('·')  
-      let s:line=search('·')  
-      execute s:line . "s/·/`/g" 
-  endif  
-endfunction  
-
-set wrap
+call SpaceVim#logger#info('finished loading SpaceVim!')
+" vim:set et sw=2 cc=80:

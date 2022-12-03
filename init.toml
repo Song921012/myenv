@@ -22,11 +22,45 @@
     statusline_iseparator = "arrow"
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
-    enable_statusline_mode = false
+    enable_statusline_mode = true
+    enable_os_fileformat_icon = true
+    enable_filetree_gitstatus = true
+    github_username = 'Song921012'
+    statusline_unicode_symbols = true
     relativenumber = false
-    bootstrap_before = "myspacevim#before"
+    automatic_update = true
+    lint_engine = "ale"
+    #filetree_direction = "left"
+[[layers]]
+    name = 'core'
+    enable_filetree_gitstatus = true
+    enable_filetree_filetypeicon = true
+    
+[[layers]]
+    name = 'core#statusline'
+    enable = true
+[[layers]]
+    name = 'core#tabline'
+    enable = true
+    
+[[layers]]
+    name = 'incsearch'
+    enable = true
+[[layers]]
+    name = 'foldsearch'
+    enable = true
+
 [[layers]]
   name = "colorscheme"
+[[layers]]
+  name = "git"
+  git_plugin = 'fugitive'
+#[[layers]]
+#  name = 'telescope'
+#  enable = 'has("nvim")'
+[[layers]]
+  name = 'leaderf'
+#  enable = '!has("nvim")'
 
 # Enable autocomplete layer
 [[layers]]
@@ -40,13 +74,30 @@ default_position = 'top'
 default_height = 30
 
 [[layers]]
+  name = "lsp"
+
+
+[[layers]]
   name = "lang#python"
+  python_file_head = [
+      '# -*- coding: utf-8 -*-',
+      '# Author: Pengfei',
+      '# Mail: aidishage@gmail.com'
+      '# Created Time: `strftime("%a %b %d")`'
+      ''
+  ]
 
 [[layers]]
   name = "lang#c"
+  
+[[layers]]
+  name = "lang#cmake"
 
+  
 [[layers]]
   name = "lang#r"
+  repl_command = "R --save"
+
 
 [[layers]]
   name = "lang#julia"
@@ -56,13 +107,24 @@ default_height = 30
 
 [[layers]]
   name = "lang#markdown"
+  enableWcwidth = 1
+  listItemIndent = 1
+  enabled_formater = ['prettier']
 
 [[layers]]
   name = "lang#toml"
+  
+[[layers]]
+  name = "ui"
+  enable_scrollbar = true
+
 
 
 [[layers]]
   name = "lang#latex"
+
+[[layers]]
+  name = "lang#sh"
 
 
 [[layers]]
@@ -73,6 +135,36 @@ default_height = 30
 
 [[layers]]
   name = "checkers"
+  lint_on_the_fly  = true
+  lint_on_save = true
 
 [[layers]]
    name = "chinese"
+   enable = true
+
+[[layers]]
+  name = "treesitter"
+  
+  
+[[layers]]
+name = 'tools'
+  
+[[layers]]
+  name = "tmux"
+  
+[[custom_plugins]]
+  repo = "christoomey/vim-tmux-navigator"
+  merged = false
+[[custom_plugins]]
+  repo = "luochen1990/rainbow"
+  merged = false
+  
+[[custom_plugins]]
+  repo = "lukas-reineke/indent-blankline.nvim"
+  merged = false
+  
+#[[custom_plugins]]
+#  repo = "nvim-lua/plenary.nvim"
+#  merged = false
+   
+
