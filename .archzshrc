@@ -43,7 +43,7 @@ alias rup="R -e 'update.packages()'"
 alias wkinstall="source ~/myenv/mywkenvsetup.sh"
 ## Clean
 #alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
-alias clean="sudo pacman -Scc && sudo pacman -R $(pacman -Qdtq)"
+alias clean="sudo pacman -Scc"
 
 ## change Terminal theme
 ### bash -c  "$(wget -qO- https://git.io/vQgMr)" 

@@ -376,7 +376,7 @@ dependencies:
     - dash-html-components==2.0.0
     - dash-table==5.0.0
     - dask==2022.11.1
-    - deepxde==1.7.1
+    - deepxde==1.7.2
     - deprecated==1.2.13
     - derivative==0.5.3
     - diffrax==0.2.2

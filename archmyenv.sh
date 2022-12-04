@@ -67,7 +67,8 @@ yay -S jre-openjdk jdk-openjdk
 yay -S zotero
 
 # obsidian zoom netease-cloud-music
-yay -S obsidian zoom thunderbird xorg-xdm okular microsoft-edge-stable-bin gwenview slack-desktop wps-office-cn aur/ttf-wps-fonts foxitreader 
+yay -S obsidian zoom thunderbird xorg-xdm okular microsoft-edge-stable-bin gwenview slack-desktop wps-office-cn aur/ttf-wps-fonts foxitreader
+yay -S xdman
 sudo pacman -S libreoffice-still libreoffice-still-zh-cn screenkey
 sudo pacman flatpak
 flatpak install wemeet # tab tengxunhuiyi
