@@ -1038,9 +1038,9 @@ version = "1.0.2"
 
 [[deps.DASKR]]
 deps = ["Compat", "DASKR_jll", "DiffEqBase", "Libdl", "Reexport"]
-git-tree-sha1 = "75c62d028f406bef0f371928c6e475ab64475340"
+git-tree-sha1 = "49d1225a3f95f4c72f9f8c21fa7a8e9bde29687d"
 uuid = "165a45c3-f624-5814-8e85-3bdf39a7becd"
-version = "2.9.0"
+version = "2.9.1"
 
 [[deps.DASKR_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "Pkg"]
@@ -1614,9 +1614,9 @@ version = "0.4.9"
 
 [[deps.FastLapackInterface]]
 deps = ["LinearAlgebra"]
-git-tree-sha1 = "14a6f7a21125f715d935fe8f83560ee833f7d79d"
+git-tree-sha1 = "7fbaf9f73cd4c8561702ea9b16acf3f99d913fe4"
 uuid = "29a986be-02c6-4525-aec4-84b980013641"
-version = "1.2.7"
+version = "1.2.8"
 
 [[deps.FastRounding]]
 deps = ["ErrorfreeArithmetic", "LinearAlgebra"]

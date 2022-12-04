@@ -116,20 +116,21 @@ HSL系列软件
 
 ## Docker
 
-[Install and Use Tensorman - System76 Support](https://support.system76.com/articles/tensorman/)
+sudo usermod -aG kvm $USER
 
-从官网下载docker
-[Install Docker Desktop on Ubuntu | Docker Documentation](https://docs.docker.com/desktop/install/ubuntu/)
+yay -S docker
 
-[Install Docker Engine on Ubuntu | Docker Documentation](https://docs.docker.com/engine/install/ubuntu/#install-docker-engine)
+sudo systemctl unmask docker
 
-[Post-installation steps for Linux | Docker Documentation](https://docs.docker.com/engine/install/linux-postinstall/)
+#sudo systemctl enable docker.service 开机启动
 
-[Installation Guide — NVIDIA Cloud Native Technologies documentation](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)(记得把distributions改为"ubuntu22.04")
+sudo usermod -aG docker $USER
 
-[Sign in and get started | Docker Documentation](https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users)
+Docker Desktop[Install on Arch-based distributions | Docker Documentation](https://docs.docker.com/desktop/install/archlinux/)
 
-[[Install nvidia-docker2 In Pop!_OS]#popos](https://gist.github.com/kuang-da/2796a792ced96deaf466fdfb7651aa2e)
+安装完desktop后
+docker context ls
+docker context use default
 
 ## VMWare虚拟机
 
