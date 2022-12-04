@@ -172,6 +172,7 @@ sudo ./*.bundle
 登录然后office tool plus安装office
 
 
+卸载sudo vmware-installer -u vmware-workstation
 
 
 # 一些疑难杂症

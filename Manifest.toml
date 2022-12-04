@@ -3867,10 +3867,10 @@ uuid = "c48e48a2-1f5e-44ff-8799-c8e168d11d1b"
 version = "0.4.1"
 
 [[deps.NonlinearSolve]]
-deps = ["ArrayInterfaceCore", "DiffEqBase", "FiniteDiff", "ForwardDiff", "LinearAlgebra", "LinearSolve", "RecursiveArrayTools", "Reexport", "SciMLBase", "SimpleNonlinearSolve", "SnoopPrecompile", "StaticArraysCore", "UnPack"]
-git-tree-sha1 = "9446c70780df57cd8cfb9cdb8f34c3b8e999f077"
+deps = ["ArrayInterfaceCore", "DiffEqBase", "FiniteDiff", "ForwardDiff", "LinearAlgebra", "LinearSolve", "RecursiveArrayTools", "Reexport", "SciMLBase", "SimpleNonlinearSolve", "SnoopPrecompile", "SparseArrays", "SparseDiffTools", "StaticArraysCore", "UnPack"]
+git-tree-sha1 = "71bbb61d21ada30ea193de4e2359a4b2b0fb8a27"
 uuid = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
-version = "1.0.1"
+version = "1.1.0"
 
 [[deps.Nullables]]
 git-tree-sha1 = "8f87854cc8f3685a60689d8edecaa29d2251979b"
@@ -5459,9 +5459,9 @@ version = "0.5.27"
 
 [[deps.Sundials]]
 deps = ["CEnum", "DataStructures", "DiffEqBase", "Libdl", "LinearAlgebra", "Logging", "Reexport", "SciMLBase", "SnoopPrecompile", "SparseArrays", "Sundials_jll"]
-git-tree-sha1 = "71a6732fd50ff29b46cc2fc530730f7d853fbfb4"
+git-tree-sha1 = "8c79f03bc4fff031eb4ef08f413fe2e18c9ad169"
 uuid = "c3572dad-4567-51f8-b174-8c6c989267f4"
-version = "4.11.2"
+version = "4.11.3"
 
 [[deps.Sundials_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "OpenBLAS_jll", "Pkg", "SuiteSparse_jll"]
