@@ -104,8 +104,8 @@ curl -sSL https://get.haskellstack.org/ | sh
 
 #source ~/myenv/dockerinstall.sh
 
-# Install R
-yay -S r rstudio-desktop 
+# Install R and quarto
+yay -S r rstudio-desktop quarto
 
 # Install Texlive
 

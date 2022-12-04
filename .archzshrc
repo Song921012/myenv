@@ -21,12 +21,12 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Alias
 ## Upadate
-alias refresh="up && quartoup && juliaup && pythonup && othersup && gitup && clean && cd"
-alias refreshall="up && quartoup && rustup update && juliaup && pythonup && othersup && juliadevup && rup && fireup && cppup && fenicsup && gitup && clean &&  cd"
+alias refresh="up && juliaup && pythonup && othersup && gitup && clean && cd"
+alias refreshall="up && rustup update && juliaup && pythonup && othersup && rup && fenicsup && gitup && clean &&  cd"
 #alias up="sudo apt update && sudo apt upgrade"  #Ubuntu
 alias up="sudo pacman -Syu" # ArchLinux
 alias gitup="source ~/myenv/gitup.sh"
-alias quartoup="source ~/myenv/quartoup.sh"
+#alias quartoup="source ~/myenv/quartoup.sh"
 alias juliaup="julia -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
 alias juliainstall="source ~/myenv/install_julia.sh && install_julia"
 alias juliadevup="juliadev -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
