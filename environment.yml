@@ -390,7 +390,7 @@ dependencies:
     - docutils==0.17.1
     - dtw-python==1.3.0
     - dymos==1.6.1
-    - dynamax==0.1.0+25.g14f9f94
+    - dynamax==0.1.0+40.g81374c2
     - echarts-china-cities-pypkg==0.0.9
     - echarts-china-counties-pypkg==0.0.2
     - echarts-china-misc-pypkg==0.0.1
@@ -589,7 +589,7 @@ dependencies:
     - pyknos==0.15.1
     - pykoop==1.0.5
     - pykoopman==0.2.0
-    - pylint==2.15.7
+    - pylint==2.15.8
     - pylops==1.18.3
     - pymeeus==0.5.11
     - pymetaheuristic==1.4.1

@@ -105,11 +105,11 @@ default_height = 30
 [[layers]]
   name = "lang#ipynb"
 
-[[layers]]
-  name = "lang#markdown"
-  enableWcwidth = 1
-  listItemIndent = 1
-  enabled_formater = ['prettier']
+#[[layers]]
+#  name = "lang#markdown"
+#  enableWcwidth = 1
+#  listItemIndent = 1
+#  enabled_formater = ['prettier']
 
 [[layers]]
   name = "lang#toml"

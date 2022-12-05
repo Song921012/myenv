@@ -76,11 +76,14 @@ flatpak install netease # tab wangyiyingyue
 flatpak install xmind
 # Install develop environment
 
+yay -S base-devel bison flex
+
 yay -S cmake ninja mpich
 yay -S llvm clang lldb lld
 
 yay -S eigen ctags gnuplot graphviz pandoc inkscape pkgconf lapack metis blas gsl pugixml pdf2svg suitesparse fontconfig harfbuzz fribidi
 freetype2 libpng libtiff libjpeg-turbo gdal udunits cppad swig cairo
+yay -S paraview
 
 
 

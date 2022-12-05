@@ -10,22 +10,33 @@ W+n:网络
 
 
 - 应用商店
+
  A+F1: 模糊搜索后enter
+ 
  C+A+Space:不知道名字
+ 
  W+f files
+ 
  W+w firefox
+ 
  W+e editor
 
  C+A+h htop
 
 - 终端
+
 alar终端: W+Return
+
 xfce终端: C+A+t
 
 - 窗口管理
+
 W+c关闭
+
 W+数字,工作区滑动管理; 同一个区内Alt tab窗口切换
+
 A+F5收到dock
+
 A+F6全屏
 
 - 截屏

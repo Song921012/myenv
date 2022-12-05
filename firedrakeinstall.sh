@@ -3,15 +3,15 @@ cd
 rm -rf firedrake*
 curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
 conda deactivate
-conda activate firedrake
 unset PYTHONPATH
 #unset SLEPC_DIR
 #unset PETSC_DIR
 #unset PETSC_ARCH
 #pip uninstall torch jax dolfin-adjint moola fecr jax-fenics-adjoint cashocs "meshio[all]" gmsh pyvista
 
-python3 firedrake-install --slepc --disable-ssh --no-package-manager     
+python3 firedrake-install --slepc --disable-ssh --no-package-manager
 
+##learn to debug and revise the firedrake-install files
 # Install other packages
 fireenv
 unset PYTHONPATH
