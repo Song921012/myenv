@@ -85,6 +85,7 @@ sudo pacman flatpak
 flatpak install wemeet # tab tengxunhuiyi
 flatpak install netease # tab wangyiyingyue
 flatpak install xmind
+flatpak install LosslessCut
 # Install develop environment
 
 yay -S base-devel bison flex
@@ -95,6 +96,16 @@ yay -S eigen ctags gnuplot graphviz pandoc inkscape pkgconf metis mpich gsl pugi
 freetype2 libpng libtiff libjpeg-turbo gdal udunits cppad swig cairo
 yay -S coin-or-ipopt
 yay -S paraview
+yay -S hwloc
+
+# Install VMWare
+#sudo pacman -S fuse2 gtkmm pcsclite libcanberra  #linux-headers if not
+#yay -S vmware-workstation
+#sudo systemctl start vmware-networks-configuration.service
+#sudo systemctl enable vmware-networks.service  vmware-usbarbitrator.service
+#sudo systemctl start vmware-networks.service  vmware-usbarbitrator.service
+#sudo systemctl status vmware-networks.service  vmware-usbarbitrator.service
+# modprobe -a vmw_vmci vmmon
 
 
 

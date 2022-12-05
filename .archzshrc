@@ -44,7 +44,7 @@ alias wkinstall="source ~/myenv/mywkenvsetup.sh"
 alias dockerstart="sudo systemctl start docker.service"
 ## Clean
 #alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
-alias clean="sudo pacman -Scc"
+alias clean="sudo pacman -Scc && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
 
 ## change Terminal theme
 ### bash -c  "$(wget -qO- https://git.io/vQgMr)" 

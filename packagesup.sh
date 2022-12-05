@@ -128,8 +128,11 @@ make
 #cp -r ~/hsl/hslarchive-galahad ~/myenv/src/Galahad
 #cp -r ~/hsl/hsl-galahad ~/myenv/src/Galahad
 #myenv
-#cd archdefs
+#conda deactivate
+#cd Galahad/archdefs
 #./install_optrove
+#double float
+#conda activate base
 ## algencan
 
 # Parropt

@@ -486,9 +486,9 @@ version = "0.1.5"
 
 [[deps.BlockArrays]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra"]
-git-tree-sha1 = "562fb7f48f81928e4914aca633473450737a8012"
+git-tree-sha1 = "f4563d1b5da6afdb689e24611c92cef2e338d92a"
 uuid = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
-version = "0.16.22"
+version = "0.16.23"
 
 [[deps.BlockBandedMatrices]]
 deps = ["ArrayLayouts", "BandedMatrices", "BlockArrays", "FillArrays", "LinearAlgebra", "MatrixFactorizations", "SparseArrays", "Statistics"]
@@ -5915,9 +5915,9 @@ version = "0.21.56"
 
 [[deps.VectorizedRNG]]
 deps = ["Distributed", "Random", "SLEEFPirates", "StaticArraysCore", "StrideArraysCore", "UnPack", "VectorizationBase"]
-git-tree-sha1 = "c827d0c221ca093bc8170891fb2ccaab26b6a774"
+git-tree-sha1 = "086a5ba6941d8f02d46e7475c11ebbd973ad0999"
 uuid = "33b4df10-0173-11e9-2a0c-851a7edac40e"
-version = "0.2.20"
+version = "0.2.21"
 
 [[deps.VersionParsing]]
 git-tree-sha1 = "58d6e80b4ee071f5efd07fda82cb9fbe17200868"

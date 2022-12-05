@@ -44,15 +44,18 @@ sudo rm -rf cmdstan && git clone https://github.com/stan-dev/cmdstan.git --recur
 #git clone https://github.com/LLNL/sundials.git
 
 # Galahad
-#myenv
-#mkdir Galahad
-#cd Galahad
-#git clone https://github.com/ralna/ARCHDefs ./archdefs
-#git clone https://github.com/ralna/GALAHAD ./galahad
-#git clone https://github.com/ralna/SIFDecode ./sifdecode
-#git clone https://github.com/ralna/CUTEst ./cutest
-#cp -r ~/hsl/hslarchive-galahad ~/myenv/src/Galahad
-#cp -r ~/hsl/hsl-galahad ~/myenv/src/Galahad
+myenv
+rm -rf Galahad
+mkdir Galahad
+cd Galahad
+git clone https://github.com/ralna/ARCHDefs ./archdefs
+git clone https://github.com/ralna/GALAHAD ./galahad
+git clone https://github.com/ralna/SIFDecode ./sifdecode
+git clone https://github.com/ralna/CUTEst ./cutest
+cp -r ~/hsl/hslarchive-galahad ~/myenv/src/Galahad
+cp -r ~/hsl/hsl-galahad ~/myenv/src/Galahad
+
+# algencan
 myenv
 cp -r ~/hsl/algencan-3.1.1 ~/myenv/src
 cp -r ~/hsl/algencan-4.0.0 ~/myenv/src
