@@ -5,7 +5,18 @@ cd getnf
 ./install.sh
 cd
 #reboot
+
+# add pacman repo
 sudo pacman -Syyu
+
+## archlinuxcn
+#[archlinuxcn/repo: Arch Linux CN Repository](https://github.com/archlinuxcn/repo)
+## arch4edu
+#[arch4edu/arch4edu: Arch Linux Repository for Education](https://github.com/arch4edu/arch4edu)
+
+
+
+
 yay -S wget curl git
 sudo pacman -S gnome-keyring libsecret libgnome-keyring
 yay -S neovim  python-pynvim provider-clipboard
@@ -77,12 +88,12 @@ flatpak install xmind
 # Install develop environment
 
 yay -S base-devel bison flex
-
 yay -S cmake ninja mpich
-yay -S llvm clang lldb lld
+yay -S llvm llvm-libs clang lldb lld
 
-yay -S eigen ctags gnuplot graphviz pandoc inkscape pkgconf lapack metis blas gsl pugixml pdf2svg suitesparse fontconfig harfbuzz fribidi
+yay -S eigen ctags gnuplot graphviz pandoc inkscape pkgconf metis mpich gsl pugixml pdf2svg suitesparse fontconfig harfbuzz fribidi
 freetype2 libpng libtiff libjpeg-turbo gdal udunits cppad swig cairo
+yay -S coin-or-ipopt
 yay -S paraview
 
 
@@ -95,7 +106,7 @@ conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
 conda install mamba -n base -c conda-forge
-conda install -c conda-forge gdal gcc gxx gfortran mpich armadillo cmake blas lapack suitesparse ipopt llvm-tools sundials cppad nlopt
+conda install -c conda-forge gdal gcc gxx gfortran pkgconfig mpich armadillo cmake ninja blas lapack suitesparse ipopt llvm-tools sundials cppad nlopt
 
 # nix
 #sh <(curl -L https://nixos.org/nix/install) --daemon

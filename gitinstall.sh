@@ -9,6 +9,10 @@ cp ~/hsl/libalgencan.so ~/myenv/lib
 #sudo rm -rf slepc && git clone https://gitlab.com/slepc/slepc
 sudo rm -rf cmdstan && git clone https://github.com/stan-dev/cmdstan.git --recursive
 
+
+# IPOPT
+
+
 #myenv
 #sudo rm -rf Ipopt && git clone https://github.com/coin-or/Ipopt.git
 #cd Ipopt

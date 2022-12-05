@@ -42,7 +42,7 @@ make -j6 build
 
 
 #myenv
-
+###you have to setup conda development environment first
 ## ColPack
 myenv
 sudo rm -rf ColPack && git clone https://github.com/CSCsw/ColPack.git  #Download ColPack
@@ -51,40 +51,45 @@ cd build/automake      # automake folder
 autoreconf -vif        # generate configure files based on the machince
 mkdir mywork
 cd mywork        # modify fullpath to your destination folder if need
-../configure                     
+../configure  --prefix=/usr/local                   
 make -j 6             # Where "4" is the number of cores on your machine
 sudo make install  
 
 ## Adol-C
+conda deactivate
 myenv
 sudo rm -rf ADOL-C && git clone https://github.com/coin-or/ADOL-C.git
 cd ADOL-C
-./configure --prefix=/usr/local/lib
+autoreconf -fi
+./configure --prefix=/usr/local --enable-sparse
 make
 sudo make install
-## psopt
-#myenv
-#cd psopt
-#sudo rm -rf build
-#mkdir build
-#cd build
-#cmake -DBUILD_EXAMPLES=ON ..
-#sudo make
-#sudo make install
-#myenv
-#cd ./psopt/build/examples/delay1
-#./delay1
-
+conda activate base
+## psopt 先搭建conda编译环境
+conda deactivate
+#yay -S coin-or-ipopt
+myenv
+cd psopt
+sudo rm -rf build
+mkdir build
+cd build
+cmake -DBUILD_EXAMPLES=ON ..
+sudo make
+sudo make install
+myenv
+cd ./psopt/build/examples/delay1
+./delay1
+conda activate base
 ## ifopt
-#myenv
-#cd ifopt
-#sudo rm -rf build
-#mkdir build
-#cd build
-#cmake ..
-#make
-#sudo make install
-#myenv
+myenv
+cd ifopt
+sudo rm -rf build
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+myenv
 
 ## pyopt
 #myenv
@@ -128,12 +133,12 @@ make
 ## algencan
 
 # Parropt
-#myenv
-#rm -rf paropt
-#git clone https://github.com/Mathepia/paropt.git
-#cd paropt
-#make
-#cd
+myenv
+rm -rf paropt
+git clone https://github.com/Mathepia/paropt.git
+cd paropt
+make
+cd
 source ~/.zshrc
 
 
