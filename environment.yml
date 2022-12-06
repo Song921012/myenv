@@ -697,7 +697,7 @@ dependencies:
     - torchdyn==1.0.3
     - torchgan==0.1.0
     - torchmetrics==0.11.0
-    - torchopt==0.5.0.post4
+    - torchopt==0.6.0
     - torchsde==0.2.5
     - torchvision==0.14.0
     - tornado==6.1
