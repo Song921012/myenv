@@ -544,7 +544,7 @@ shadowtext, tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 1.1.0), tibble (>= 1.2)",NA,"DBI, knitr, RSQLite, testthat, markdown, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "officer","officer","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.4",NA,NA,"R6, grDevices, stats, graphics, utils, zip (>= 2.1.0), uuid
 (>= 0.1-4), xml2 (>= 1.1.0)",NA,"testthat, devEMF, ggplot2, rmarkdown, base64enc, knitr, rsvg",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
-"openssl","openssl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.4",NA,NA,"askpass",NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
+"openssl","openssl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.5",NA,NA,"askpass",NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
 jsonlite, jose, sodium",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "openxlsx","openxlsx","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.2.5.1",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, stringi, utils, zip","Rcpp","knitr, rmarkdown, roxygen2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "orderly","orderly","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.3",NA,NA,"DBI, R6, RSQLite (>= 2.2.4), crayon, digest, docopt, fs (>=

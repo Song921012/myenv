@@ -301,6 +301,8 @@ b: 文件改动记录
 
 `gitpod.io/#/`加前缀,在线运行项目
 
+
+
 ## SpaceVim(learder\,命令:和space快捷键, tab-窗口-buffer)
 
 :SPUpdate更新插件
@@ -520,6 +522,11 @@ ctrl b ctrl r
 
 ## Lunarvim
 
+[Keybind overview | LunarVim](https://www.lunarvim.org/docs/keybind-overview)
+
+
+g c 注释
+
 ### update
 
 :LvimUpdate  Lunarvim
@@ -531,3 +538,9 @@ ctrl b ctrl r
 ### Install
 
 :TSInstall julia r latex
+
+## Texstudio
+
+C R替换
+
+C T注释
