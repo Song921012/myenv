@@ -228,7 +228,7 @@ plugins=(
     zsh-syntax-highlighting
     z
     zsh-autosuggestions # 插件之间使用空格隔开
-    asdf
+    # asdf
 )
 
 

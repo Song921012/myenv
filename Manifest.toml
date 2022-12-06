@@ -219,9 +219,9 @@ version = "0.13.12"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "Combinatorics", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "17f09403fe8c6b8ee641040f6d76af156ceee89e"
+git-tree-sha1 = "efa73156b1de893eb3e4420fb94ccaefd7db4584"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.7.46"
+version = "0.7.47"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
@@ -231,9 +231,9 @@ version = "0.3.7"
 
 [[deps.ApproxFunOrthogonalPolynomials]]
 deps = ["ApproxFunBase", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "DomainSets", "FastGaussQuadrature", "FastTransforms", "FillArrays", "IntervalSets", "LinearAlgebra", "Reexport", "SpecialFunctions", "StaticArrays", "Statistics"]
-git-tree-sha1 = "8db74f4561aff8dac0a70adebdff2d0b8b98717f"
+git-tree-sha1 = "afa21ed283f3f7e98ffd4f088bf5fa29fd074d94"
 uuid = "b70543e2-c0d9-56b8-a290-0d4d6d4de211"
-version = "0.5.18"
+version = "0.5.19"
 
 [[deps.ApproxFunSingularities]]
 deps = ["ApproxFunBase", "ApproxFunOrthogonalPolynomials", "DomainSets", "IntervalSets", "LinearAlgebra", "Reexport", "Statistics"]
@@ -1050,11 +1050,9 @@ version = "1.0.0+0"
 
 [[deps.DSP]]
 deps = ["Compat", "FFTW", "IterTools", "LinearAlgebra", "Polynomials", "Random", "Reexport", "SpecialFunctions", "Statistics"]
-git-tree-sha1 = "119f622ea3f4430d5a0c0358d7f3c0ea3d38b06a"
-repo-rev = "master"
-repo-url = "https://github.com/JuliaDSP/DSP.jl.git"
+git-tree-sha1 = "da8b06f89fce9996443010ef92572b193f8dca1f"
 uuid = "717857b8-e6f2-59f4-9121-6e50c889abd2"
-version = "0.7.7"
+version = "0.7.8"
 
 [[deps.DataAPI]]
 git-tree-sha1 = "e08915633fcb3ea83bf9d6126292e5bc5c739922"
@@ -4977,9 +4975,9 @@ version = "2.0.1"
 
 [[deps.SciMLOperators]]
 deps = ["ArrayInterfaceCore", "DocStringExtensions", "Lazy", "LinearAlgebra", "Setfield", "SparseArrays", "StaticArraysCore", "Tricks"]
-git-tree-sha1 = "04bd981b2650d07008d81637ce33cc719b0b0d54"
+git-tree-sha1 = "bd806bb27b7f37625a3fe0be6fa52cceebed0b95"
 uuid = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
-version = "0.1.16"
+version = "0.1.17"
 
 [[deps.SciMLSensitivity]]
 deps = ["Adapt", "ArrayInterfaceCore", "ArrayInterfaceTracker", "Cassette", "ChainRulesCore", "DiffEqBase", "DiffEqCallbacks", "DiffEqNoiseProcess", "DiffRules", "Distributions", "EllipsisNotation", "Enzyme", "FiniteDiff", "ForwardDiff", "FunctionWrappersWrappers", "GPUArraysCore", "LinearAlgebra", "LinearSolve", "Markdown", "OrdinaryDiffEq", "Parameters", "PreallocationTools", "QuadGK", "Random", "RandomNumbers", "RecursiveArrayTools", "Reexport", "ReverseDiff", "SciMLBase", "StaticArrays", "Statistics", "StochasticDiffEq", "Tracker", "Zygote", "ZygoteRules"]
@@ -5244,15 +5242,15 @@ version = "4.7.4"
 
 [[deps.StanDiagnose]]
 deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "Documenter", "Random", "Reexport", "StanBase", "Statistics", "Test", "Unicode"]
-git-tree-sha1 = "3da66c7ebdd3ac179dfde9331e04a4541d944ac6"
+git-tree-sha1 = "744791287972797199de7500c055d71cd5e317cd"
 uuid = "fb13fc95-9a72-5e81-90ef-432a29d7f4c2"
-version = "4.3.3"
+version = "4.3.4"
 
 [[deps.StanOptimize]]
 deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "Documenter", "NamedTupleTools", "Parameters", "Random", "Reexport", "StanBase", "Statistics", "Test", "Unicode"]
-git-tree-sha1 = "33776c4ae944c7f24cb465eb1017bff14190eee6"
+git-tree-sha1 = "e13df69e7314e11417a0725c44a5f1b3a361e1b1"
 uuid = "fbd8da12-e93d-5a64-9231-612a0707ab99"
-version = "4.2.4"
+version = "4.2.5"
 
 [[deps.StanSample]]
 deps = ["CSV", "CompatHelperLocal", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "JSON", "MCMCChains", "MonteCarloMeasurements", "NamedTupleTools", "OrderedCollections", "Parameters", "Random", "Reexport", "Requires", "Serialization", "StanBase", "TableOperations", "Tables", "Unicode"]

@@ -1,5 +1,7 @@
 ## Linux
 
+[Arch Linux 中文维基](https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5)
+
 ### Archcraft
 
 [Openbox | Archcraft](https://wiki.archcraft.io/docs/window-managers/openbox)

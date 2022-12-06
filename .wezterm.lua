@@ -14,7 +14,7 @@ return {
       action = wezterm.action.CopyTo 'ClipboardAndPrimarySelection',
     },
   },
-  color_scheme = "nord",
+  color_scheme = "neon-night (Gogh)",
   font_size = 13.0,
   font = wezterm.font('CaskaydiaCove Nerd Font Mono'),
   window_background_opacity = 0.80,

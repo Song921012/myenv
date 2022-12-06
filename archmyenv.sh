@@ -98,7 +98,7 @@ yay -S coin-or-ipopt
 yay -S paraview
 yay -S hwloc
 
-# Install VMWare
+# Install VMWare(configuration is difficult, just ignore it)
 #sudo pacman -S fuse2 gtkmm pcsclite libcanberra  #linux-headers if not
 #yay -S vmware-workstation
 #sudo systemctl start vmware-networks-configuration.service
@@ -107,7 +107,7 @@ yay -S hwloc
 #sudo systemctl status vmware-networks.service  vmware-usbarbitrator.service
 # modprobe -a vmw_vmci vmmon
 
-
+# matlab: (configuration is difficult, just ignore it)
 
 
 # Miniconda

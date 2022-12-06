@@ -1,3 +1,71 @@
+# My Environment
+
+- Linux Distribution
+
+ArchCraft: [myenv/README_arch.md at master · Song921012/myenv](https://github.com/Song921012/myenv/blob/master/README_arch.md)
+
+Pop!_OS: this document
+
+- Language Used
+
+Julia
+
+Python
+
+Cpp
+
+R
+
+Shell
+
+little Rust, Lua, Nodejs
+
+Matlab: No, I don't like Matlab and never want to use it any more, and Do Not share Matlab codes to me.
+
+- IDE:
+
+VScode: All in one
+
+Spacevim/LunarVim: All in one
+
+Texstudio: for tex
+
+RStudio: for R
+
+- Research and Life Management
+
+Zotero
+
+Obsidian
+
+- Terminal:
+
+Default/wezterm/alarcity
+
+zsh/fish/tmux
+
+- Web
+
+Firefox
+
+qbittorent-enhanced
+
+- Music
+
+netease-cloud-music(Flatpak)
+
+- Media Player
+
+vlc
+
+- Office
+
+WPS, Libre series, okular, foxi reader
+
+- Email
+
+Thunderbird
+
 # Setup Linux Environment
 
 注意:特别针对的是POP!_os系统, Ubuntu和Debian系应该也是适用的
