@@ -219,15 +219,15 @@ version = "0.13.12"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "Combinatorics", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "3ad8a7e9e14488f78ea8c82006ef5d40dd40abf5"
+git-tree-sha1 = "17f09403fe8c6b8ee641040f6d76af156ceee89e"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.7.44"
+version = "0.7.46"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
-git-tree-sha1 = "9a08f550400d2065e548280aaff4b4e9e77cc5ea"
+git-tree-sha1 = "0db797724de25b6cc1fb887dbc9a35fd6701cdfc"
 uuid = "59844689-9c9d-51bf-9583-5b794ec66d30"
-version = "0.3.6"
+version = "0.3.7"
 
 [[deps.ApproxFunOrthogonalPolynomials]]
 deps = ["ApproxFunBase", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "DomainSets", "FastGaussQuadrature", "FastTransforms", "FillArrays", "IntervalSets", "LinearAlgebra", "Reexport", "SpecialFunctions", "StaticArrays", "Statistics"]
@@ -1996,9 +1996,9 @@ version = "1.7.4"
 
 [[deps.GridArrays]]
 deps = ["CompositeTypes", "DomainSets", "FastGaussQuadrature", "FillArrays", "GaussQuadrature", "RecipesBase", "StaticArrays", "Test"]
-git-tree-sha1 = "0903776604cf91a99b3ecbc8232aec4e9eb62c11"
+git-tree-sha1 = "0de7424e4c95a73a3591b2bb3baa9c146a4036ed"
 uuid = "356ae075-8bc9-5ef9-a342-46c9ba26438c"
-version = "0.1.14"
+version = "0.1.15"
 
 [[deps.GridLayoutBase]]
 deps = ["GeometryBasics", "InteractiveUtils", "Observables"]
