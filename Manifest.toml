@@ -236,10 +236,10 @@ uuid = "b70543e2-c0d9-56b8-a290-0d4d6d4de211"
 version = "0.5.19"
 
 [[deps.ApproxFunSingularities]]
-deps = ["ApproxFunBase", "ApproxFunOrthogonalPolynomials", "DomainSets", "IntervalSets", "LinearAlgebra", "Reexport", "Statistics"]
-git-tree-sha1 = "31b10e3deb0b36f69eae158a93f76c0717ec89e5"
+deps = ["ApproxFunBase", "ApproxFunOrthogonalPolynomials", "DomainSets", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays", "Statistics"]
+git-tree-sha1 = "971856027d1eb1aa82a30f0597188c66843d9d69"
 uuid = "f8fcb915-6b99-5be2-b79a-d6dbef8e6e7e"
-version = "0.3.4"
+version = "0.3.5"
 
 [[deps.ApproximateGPs]]
 deps = ["AbstractGPs", "ChainRulesCore", "Distributions", "FastGaussQuadrature", "FillArrays", "ForwardDiff", "GPLikelihoods", "IrrationalConstants", "LinearAlgebra", "LogExpFunctions", "PDMats", "Random", "Reexport", "SpecialFunctions", "Statistics", "StatsBase", "Test"]
@@ -1112,9 +1112,9 @@ version = "1.12.16+3"
 
 [[deps.DecisionTree]]
 deps = ["AbstractTrees", "DelimitedFiles", "LinearAlgebra", "Random", "ScikitLearnBase", "Statistics"]
-git-tree-sha1 = "5ab40e9f5a554a642bc5ab1d20a198f76a1e6958"
+git-tree-sha1 = "cbf727a9d5fb18c73dc0cbd21a9c696540bf56ae"
 uuid = "7806a523-6efd-50cb-b5f6-3fa6f1930dbb"
-version = "0.12.0"
+version = "0.12.1"
 
 [[deps.DeepDiffs]]
 git-tree-sha1 = "9824894295b62a6a4ab6adf1c7bf337b3a9ca34c"
@@ -2793,9 +2793,9 @@ version = "0.15.1"
 
 [[deps.LazyArrays]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra", "MacroTools", "MatrixFactorizations", "SparseArrays", "StaticArrays"]
-git-tree-sha1 = "3f088350c3aecd2f87e0d8ac0acb7a57b5baa49c"
+git-tree-sha1 = "f6742270b551e03bd8ba64e1c754f5fab089ab63"
 uuid = "5078a376-72f3-5289-bfd5-ec5146d43c02"
-version = "0.22.15"
+version = "0.22.16"
 
 [[deps.LazyArtifacts]]
 deps = ["Artifacts", "Pkg"]
@@ -3178,9 +3178,9 @@ version = "0.19.0"
 
 [[deps.MLJBase]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "ComputationalResources", "Dates", "DelimitedFiles", "Distributed", "Distributions", "InteractiveUtils", "InvertedIndices", "LinearAlgebra", "LossFunctions", "MLJModelInterface", "Missings", "OrderedCollections", "Parameters", "PrettyTables", "ProgressMeter", "Random", "ScientificTypes", "Serialization", "StatisticalTraits", "Statistics", "StatsBase", "Tables"]
-git-tree-sha1 = "decaf881165c0b3c7abf1130dfe3221ee88ef99a"
+git-tree-sha1 = "645ad8980fbd61321dc16dc072f97099d9cf60c9"
 uuid = "a7f614a8-145f-11e9-1d2a-a57a1082229d"
-version = "0.21.2"
+version = "0.21.3"
 
 [[deps.MLJEnsembles]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "ComputationalResources", "Distributed", "Distributions", "MLJBase", "MLJModelInterface", "ProgressMeter", "Random", "ScientificTypesBase", "StatsBase"]
