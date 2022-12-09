@@ -668,7 +668,7 @@ R.rsp, conquer",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "R6","R6","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.5.1",NA,"R (>= 3.0)",NA,NA,"testthat, pryr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "ragg","ragg","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.4",NA,NA,"systemfonts (>= 1.0.3), textshaping (>= 0.3.0)","systemfonts, textshaping","covr, graphics, grid, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "rappdirs","rappdirs","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.3",NA,"R (>= 3.2)",NA,NA,"roxygen2, testthat (>= 3.0.0), covr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
-"rbibutils","rbibutils","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.10",NA,"R (>= 2.10)","utils, tools",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
+"rbibutils","rbibutils","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.11",NA,"R (>= 2.10)","utils, tools",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
 "rcmdcheck","rcmdcheck","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.0",NA,NA,"callr (>= 3.1.1.9000), cli (>= 3.0.0), curl, desc (>= 1.2.0),
 digest, pkgbuild, prettyunits, R6, rprojroot, sessioninfo (>=
 1.1.1), utils, withr, xopen",NA,"covr, knitr, mockery, processx, ps, rmarkdown, svglite,

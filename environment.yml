@@ -6,7 +6,7 @@ channels:
 dependencies:
   - _ipython_minor_entry_point=8.7.0=hb6b4a82_0
   - _libgcc_mutex=0.1=conda_forge
-  - _openmp_mutex=4.5=2_gnu
+  - _openmp_mutex=4.5=2_kmp_llvm
   - alsa-lib=1.2.8=h166bdaf_0
   - ampl-mp=3.1.0=h2cc385e_1006
   - anyio=3.6.2=pyhd8ed1ab_0
@@ -14,7 +14,7 @@ dependencies:
   - argon2-cffi-bindings=21.2.0=py310h5764c6d_3
   - armadillo=11.4.2=h7209761_0
   - arpack=3.7.0=hdefa2d7_2
-  - asttokens=2.2.0=pyhd8ed1ab_0
+  - asttokens=2.2.1=pyhd8ed1ab_0
   - attr=2.5.1=h166bdaf_1
   - attrs=22.1.0=pyh71513ae_1
   - babel=2.11.0=pyhd8ed1ab_0
@@ -22,21 +22,23 @@ dependencies:
   - backports=1.0=pyhd8ed1ab_3
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
   - beautifulsoup4=4.11.1=pyha770c72_0
-  - binutils_impl_linux-64=2.39=he00db2b_1
-  - blas=1.1=openblas
+  - blas=2.116=openblas
+  - blas-devel=3.9.0=16_linux64_openblas
   - bleach=5.0.1=pyhd8ed1ab_0
-  - blosc=1.21.1=h83bc5f7_3
+  - blosc=1.21.2=hafa529b_0
   - boost-cpp=1.78.0=h75c5d50_1
   - brotlipy=0.7.0=py310h5764c6d_1005
   - bzip2=1.0.8=h7f98852_4
   - c-ares=1.18.1=h7f98852_0
-  - ca-certificates=2022.9.24=ha878542_0
+  - ca-certificates=2022.12.7=ha878542_0
   - cairo=1.16.0=ha61ee94_1014
-  - certifi=2022.9.24=pyhd8ed1ab_0
+  - certifi=2022.12.7=pyhd8ed1ab_0
   - cffi=1.15.1=py310h255011f_2
   - cfitsio=4.2.0=hd9d235c_0
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
-  - conda=22.9.0=py310hff52083_2
+  - colorama=0.4.6=pyhd8ed1ab_0
+  - comm=0.1.1=pyhd8ed1ab_0
+  - conda=22.11.1=py310hff52083_1
   - conda-package-handling=2.0.2=pyh38be061_0
   - conda-package-streaming=0.7.0=pyhd8ed1ab_1
   - cppad=20220000.4=h27087fc_0
@@ -61,14 +63,10 @@ dependencies:
   - fonts-conda-forge=1=0
   - freetype=2.12.1=hca18f0e_1
   - freexl=1.0.6=h166bdaf_1
-  - gcc=12.2.0=h26027b1_11
-  - gcc_impl_linux-64=12.2.0=hcc96c02_19
-  - gdal=3.6.0=py310he53f9b6_10
+  - gdal=3.6.0=py310hc1b7723_11
   - geos=3.11.1=h27087fc_0
   - geotiff=1.7.1=ha76d385_4
   - gettext=0.21.1=h27087fc_0
-  - gfortran=12.2.0=h8acd90e_11
-  - gfortran_impl_linux-64=12.2.0=h55be85b_19
   - giflib=5.2.1=h36c2ea0_2
   - gklib=5.1.1=h7f98852_2
   - glib=2.74.1=h6239696_1
@@ -77,16 +75,14 @@ dependencies:
   - gst-plugins-base=1.21.2=h3e40eee_0
   - gstreamer=1.21.2=hd4edc92_0
   - gstreamer-orc=0.4.33=h166bdaf_0
-  - gxx=12.2.0=h26027b1_11
-  - gxx_impl_linux-64=12.2.0=hcc96c02_19
   - hdf4=4.2.15=h9772cbc_5
   - hdf5=1.12.2=nompi_h4df4325_100
   - icu=70.1=h27087fc_0
   - idna=3.4=pyhd8ed1ab_0
   - importlib-metadata=5.1.0=pyha770c72_0
-  - importlib_resources=5.10.0=pyhd8ed1ab_0
+  - importlib_resources=5.10.1=pyhd8ed1ab_0
   - ipopt=3.14.10=hf60ba86_0
-  - ipykernel=6.17.1=pyh210e3f2_0
+  - ipykernel=6.19.1=pyh210e3f2_0
   - ipython=8.7.0=pyh41d4057_0
   - ipython_genutils=0.2.0=py_1
   - jack=1.9.21=h583fa2b_2
@@ -96,15 +92,15 @@ dependencies:
   - json-c=0.16=hc379101_0
   - json5=0.9.5=pyh9f0ad1d_0
   - jsonschema=4.17.3=pyhd8ed1ab_0
-  - jupyter=1.0.0=py310hff52083_7
+  - jupyter=1.0.0=py310hff52083_8
   - jupyter_console=6.4.4=pyhd8ed1ab_0
   - jupyter_core=5.1.0=py310hff52083_0
-  - jupyter_server=1.23.3=pyhd8ed1ab_0
-  - jupyterlab=3.5.0=pyhd8ed1ab_0
+  - jupyter_events=0.5.0=pyhd8ed1ab_0
+  - jupyter_server_terminals=0.4.2=pyhd8ed1ab_0
+  - jupyterlab=3.5.1=pyhd8ed1ab_0
   - jupyterlab_pygments=0.2.2=pyhd8ed1ab_0
   - jupyterlab_server=2.16.3=pyhd8ed1ab_0
   - kealib=1.5.0=ha7026e8_0
-  - kernel-headers_linux-64=2.6.32=he073ed8_15
   - keyutils=1.6.1=h166bdaf_0
   - krb5=1.19.3=h08a2579_0
   - lame=3.100=h166bdaf_1003
@@ -126,18 +122,18 @@ dependencies:
   - libevent=2.1.10=h28343ad_4
   - libffi=3.4.2=h7f98852_5
   - libflac=1.4.2=h27087fc_0
-  - libgcc-devel_linux-64=12.2.0=h3b97bd3_19
   - libgcc-ng=12.2.0=h65d4601_19
   - libgcrypt=1.10.1=h166bdaf_0
-  - libgdal=3.6.0=h7628b6d_10
+  - libgdal=3.6.0=hedffb84_11
   - libgfortran-ng=12.2.0=h69a702a_19
   - libgfortran5=12.2.0=h337968e_19
   - libglib=2.74.1=h606061b_1
-  - libgomp=12.2.0=h65d4601_19
   - libgpg-error=1.45=hc0c96e0_0
+  - libhwloc=2.8.0=h32351e8_1
   - libiconv=1.17=h166bdaf_0
   - libkml=1.3.0=h37653c0_1015
   - liblapack=3.9.0=16_linux64_openblas
+  - liblapacke=3.9.0=16_linux64_openblas
   - libllvm15=15.0.6=h63197d8_0
   - libmamba=1.1.0=h70b1f8a_2
   - libmambapy=1.1.0=py310h69aa5bf_2
@@ -150,14 +146,12 @@ dependencies:
   - libpng=1.6.39=h753d276_0
   - libpq=15.1=h67c24c5_1
   - librttopo=1.1.0=ha49c73b_12
-  - libsanitizer=12.2.0=h46fd767_19
-  - libsndfile=1.1.0=h27087fc_0
+  - libsndfile=1.1.0=hcb278e6_1
   - libsodium=1.0.18=h36c2ea0_1
   - libsolv=0.7.22=h6239696_0
   - libspatialite=5.0.1=h7c8129e_22
   - libsqlite=3.40.0=h753d276_0
   - libssh2=1.10.0=hf14f497_3
-  - libstdcxx-devel_linux-64=12.2.0=h3b97bd3_19
   - libstdcxx-ng=12.2.0=h46fd767_19
   - libsystemd0=252=h2a991cd_0
   - libtiff=4.4.0=h55922b4_4
@@ -172,6 +166,7 @@ dependencies:
   - libxml2=2.10.3=h7463322_0
   - libzip=1.9.2=hc929e4a_1
   - libzlib=1.2.13=h166bdaf_4
+  - llvm-openmp=15.0.6=he0ac6c6_0
   - llvm-tools=15.0.6=h63197d8_0
   - lz4-c=1.9.3=h9c3ff4c_1
   - lzo=2.10=h516909a_1000
@@ -181,7 +176,7 @@ dependencies:
   - metis=5.1.0=h58526e2_1006
   - mistune=2.0.4=pyhd8ed1ab_0
   - mpfr=4.1.0=h9202a9a_1
-  - mpg123=1.30.2=h27087fc_1
+  - mpg123=1.31.1=h27087fc_0
   - mpi=1.0=mpich
   - mpich=4.0.3=h846660c_100
   - mumps-include=5.2.1=ha770c72_11
@@ -190,9 +185,9 @@ dependencies:
   - mysql-libs=8.0.31=hbc51c84_0
   - nbclassic=0.4.8=pyhd8ed1ab_0
   - nbclient=0.7.2=pyhd8ed1ab_0
-  - nbconvert=7.2.5=pyhd8ed1ab_0
-  - nbconvert-core=7.2.5=pyhd8ed1ab_0
-  - nbconvert-pandoc=7.2.5=pyhd8ed1ab_0
+  - nbconvert=7.2.6=pyhd8ed1ab_0
+  - nbconvert-core=7.2.6=pyhd8ed1ab_0
+  - nbconvert-pandoc=7.2.6=pyhd8ed1ab_0
   - nbformat=5.7.0=pyhd8ed1ab_0
   - ncurses=6.3=h27087fc_1
   - nest-asyncio=1.5.6=pyhd8ed1ab_0
@@ -218,14 +213,15 @@ dependencies:
   - pkgconfig=1.5.5=pyhd8ed1ab_4
   - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_0
   - platformdirs=2.5.2=pyhd8ed1ab_1
+  - pluggy=1.0.0=pyhd8ed1ab_5
   - ply=3.11=py_1
   - poppler=22.11.0=h92391eb_0
   - poppler-data=0.4.11=hd8ed1ab_0
   - postgresql=15.1=ha105346_1
   - proj=9.1.0=h93bde94_0
   - prometheus_client=0.15.0=pyhd8ed1ab_0
-  - prompt-toolkit=3.0.33=pyha770c72_0
-  - prompt_toolkit=3.0.33=hd8ed1ab_0
+  - prompt-toolkit=3.0.36=pyha770c72_0
+  - prompt_toolkit=3.0.36=hd8ed1ab_0
   - psutil=5.9.4=py310h5764c6d_0
   - pthread-stubs=0.4=h36c2ea0_1001
   - ptyprocess=0.7.0=pyhd3deb0d_0
@@ -244,8 +240,10 @@ dependencies:
   - python=3.10.8=h4a9ceb5_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python-fastjsonschema=2.16.2=pyhd8ed1ab_0
+  - python-json-logger=2.0.1=pyh9f0ad1d_0
   - python_abi=3.10=3_cp310
   - pytz=2022.6=pyhd8ed1ab_0
+  - pyyaml=6.0=py310h5764c6d_5
   - pyzmq=24.0.1=py310h330234f_1
   - qhull=2020.2=h4bd325d_2
   - qt-main=5.15.6=he99da89_3
@@ -257,7 +255,8 @@ dependencies:
   - reproc-cpp=14.2.3=h9c3ff4c_0
   - requests=2.28.1=pyhd8ed1ab_1
   - rhash=1.4.3=h166bdaf_0
-  - ruamel_yaml=0.15.80=py310h5764c6d_1008
+  - ruamel.yaml=0.17.21=py310h5764c6d_2
+  - ruamel.yaml.clib=0.2.7=py310h1fa729e_1
   - scotch=6.0.9=hb2e6521_2
   - send2trash=1.8.0=pyhd8ed1ab_0
   - sip=6.7.5=py310hd8f1fbe_0
@@ -270,15 +269,15 @@ dependencies:
   - suitesparse=5.10.1=h9e50725_1
   - sundials=6.4.1=h89a52a3_0
   - superlu=5.2.2=h00795ac_0
-  - sysroot_linux-64=2.12=he073ed8_15
-  - tbb=2021.7.0=h924138e_0
-  - terminado=0.17.0=pyh41d4057_0
+  - tbb=2021.7.0=h924138e_1
+  - terminado=0.17.1=pyh41d4057_0
   - tiledb=2.11.3=h3f4058f_1
   - tinycss2=1.2.1=pyhd8ed1ab_0
   - tk=8.6.12=h27826a3_0
   - toml=0.10.2=pyhd8ed1ab_0
   - tomli=2.0.1=pyhd8ed1ab_0
   - toolz=0.12.0=pyhd8ed1ab_0
+  - tqdm=4.64.1=pyhd8ed1ab_0
   - traitlets=5.6.0=pyhd8ed1ab_0
   - typing_extensions=4.4.0=pyha770c72_0
   - tzcode=2022g=h166bdaf_0
@@ -315,420 +314,418 @@ dependencies:
   - zstandard=0.19.0=py310hdeb6495_1
   - zstd=1.5.2=h6239696_4
   - pip:
-    - abcpy==0.6.3
-    - absl-py==1.3.0
-    - aiohttp==3.8.3
-    - aiosignal==1.3.1
-    - alabaster==0.7.12
-    - alembic==1.8.1
-    - altair==4.2.0
-    - appdirs==1.4.4
-    - arrow==1.2.3
-    - arviz==0.14.0
-    - asteval==0.9.28
-    - astor==0.8.1
-    - astroid==2.12.13
-    - astunparse==1.6.3
-    - async-timeout==4.0.2
-    - autograd==1.5
-    - autograd-gamma==0.5.0
-    - autopage==0.5.1
-    - binaryornot==0.4.4
-    - biopython==1.80
-    - blackjax==0.9.6
-    - blinker==1.5
-    - boltons==21.0.0
-    - botorch==0.8.0
-    - bottle==0.12.23
-    - bqplot==0.12.36
-    - branca==0.6.0
-    - cachetools==5.2.0
-    - captum==0.5.0
-    - casadi==3.5.6.pre2
-    - catboost==1.1.1
-    - cftime==1.6.2
-    - chardet==5.1.0
-    - chex==0.1.5
-    - chompack==2.3.2
-    - click==8.1.3
-    - click-plugins==1.1.1
-    - cliff==4.1.0
-    - cligj==0.7.2
-    - cloudpickle==2.2.0
-    - cma==3.2.2
-    - cmaes==0.9.0
-    - cmake==3.25.0
-    - cmd2==2.4.2
-    - cmdstanpy==1.0.8
-    - colorama==0.4.6
-    - colorful==0.5.4
-    - colorlog==6.7.0
-    - colour==0.1.5
-    - commonmark==0.9.1
-    - conan==1.55.0
-    - contextlib2==21.6.0
-    - contourpy==1.0.6
-    - convertdate==2.4.0
-    - cookiecutter==2.1.1
-    - coverage==6.5.0
-    - cvxopt==1.3.0
-    - cvxpy==1.2.2
-    - cycler==0.11.0
-    - cython==0.29.32
-    - darts==0.22.0
-    - dash==2.7.0
-    - dash-core-components==2.0.0
-    - dash-html-components==2.0.0
-    - dash-table==5.0.0
-    - dask==2022.11.1
-    - deepxde==1.7.2
-    - deprecated==1.2.13
-    - derivative==0.5.3
-    - diffrax==0.2.2
-    - dill==0.3.6
-    - distlib==0.3.6
-    - distrax==0.1.2
-    - distributed==2022.11.1
-    - distro==1.7.0
-    - dm-haiku==0.0.9
-    - dm-tree==0.1.7
-    - docutils==0.17.1
-    - dtw-python==1.3.0
-    - dymos==1.6.1
-    - dynamax==0.1.0+41.g06ae2cb
-    - echarts-china-cities-pypkg==0.0.9
-    - echarts-china-counties-pypkg==0.0.2
-    - echarts-china-misc-pypkg==0.0.1
-    - echarts-china-provinces-pypkg==0.0.3
-    - echarts-countries-pypkg==0.1.6
-    - echarts-united-kingdom-pypkg==0.0.1
-    - ecos==2.0.10
-    - efax==1.9.1
-    - elfi==0.8.4
-    - ephem==4.1.3
-    - equinox==0.9.2
-    - evosax==0.1.0
-    - ezyrb==1.3.0.post2212
-    - fasteners==0.18
-    - fastprogress==1.0.3
-    - filelock==3.8.0
-    - filterpy==1.4.5
-    - fiona==1.8.22
-    - fire==0.4.0
-    - flake8==6.0.0
-    - flask==2.2.2
-    - flatbuffers==22.11.23
-    - flax==0.6.2
-    - folium==0.13.0
-    - fonttools==4.38.0
-    - formulaic==0.5.2
-    - frozendict==2.3.4
-    - frozenlist==1.3.3
-    - fsspec==2022.11.0
-    - functorch==1.13.0
-    - funsor==0.4.3
-    - future==0.18.2
-    - gast==0.4.0
-    - gdown==4.5.4
-    - gekko==1.0.5
-    - geojson==2.5.0
-    - geopandas==0.12.1
-    - gitdb==4.0.10
-    - gitpython==3.1.29
-    - glmnet==2.2.1
-    - gluonts==0.11.3
-    - google-auth==2.15.0
-    - google-auth-oauthlib==0.4.6
-    - google-pasta==0.2.0
-    - gpflow==2.6.4
-    - gpjax==0.5.3
-    - gplearn==0.4.2
-    - gpy==1.10.0
-    - gpytorch==1.9.0
-    - greenlet==2.0.1
-    - grpcio==1.51.1
-    - h5py==3.7.0
-    - heapdict==1.0.1
-    - hijri-converter==2.2.4
-    - hmmlearn==0.2.8
-    - holidays==0.17.2
-    - hroch==1.1.0
-    - htmlmin==0.1.12
-    - huggingface-hub==0.11.1
-    - imagehash==4.3.1
-    - imageio==2.22.4
-    - imagesize==1.4.1
-    - interface-meta==1.3.0
-    - ipyevents==2.0.1
-    - ipyfilechooser==0.6.0
-    - ipyleaflet==0.17.2
-    - ipyparallel==8.4.1
-    - ipytree==0.2.2
-    - ipywidgets==7.7.2
-    - isort==5.10.1
-    - itsdangerous==2.1.2
-    - jabbar==0.0.15
-    - jax==0.3.25
-    - jaxlib==0.3.25+cuda11.cudnn82
-    - jaxlinop==0.0.3
-    - jaxns==1.1.2
-    - jaxopt==0.5.5
-    - jaxtyping==0.2.8
-    - jinja2-time==0.2.0
-    - jmp==0.0.2
-    - joblib==1.2.0
-    - julia==0.6.0
-    - jupyter-client==7.3.4
-    - jupyter-contrib-core==0.4.2
-    - jupyter-contrib-nbextensions==0.7.0
-    - jupyter-highlight-selected-word==0.2.0
-    - jupyter-nbextensions-configurator==0.6.1
-    - jupyterlab-widgets==1.1.1
-    - keplergl==0.3.2
-    - keras==2.11.0
-    - keras-self-attention==0.51.0
-    - kiwisolver==1.4.4
-    - korean-lunar-calendar==0.3.1
-    - lark==1.1.4
-    - lazy-object-proxy==1.8.0
-    - leafmap==0.14.0
-    - libclang==14.0.6
-    - lifelines==0.27.4
-    - lightgbm==3.3.3
-    - lightning-utilities==0.3.0
-    - linear-operator==0.2.0
-    - llvmlite==0.39.1
-    - lmfit==1.1.0
-    - lml==0.0.2
-    - locket==1.0.0
-    - lunarcalendar==0.0.9
-    - lxml==4.9.1
-    - makefun==1.15.0
-    - mako==1.2.4
-    - markdown==3.4.1
-    - matplotlib==3.6.2
-    - mccabe==0.7.0
-    - mesa==1.1.1
-    - ml-collections==0.1.0
-    - mne==1.2.2
-    - mosek==10.0.30
-    - mpi4py==3.1.4
-    - mpmath==1.2.1
-    - msgpack==1.0.4
-    - multidict==6.0.2
-    - multimethod==1.9
-    - multipledispatch==0.6.0
-    - multiprocess==0.70.14
-    - munch==2.5.0
-    - netcdf4==1.6.2
-    - networkx==2.8.8
-    - neural-tangents==0.6.1
-    - neuralprophet==0.5.0
-    - nflows==0.14
-    - nfoursid==1.0.1
-    - node-semver==0.6.1
-    - nodepy==1.0.1
-    - notedown==1.5.1
-    - numba==0.56.4
-    - numdifftools==0.9.41
-    - numpy==1.22.4
-    - numpyro==0.10.1
-    - nvidia-cublas-cu11==11.10.3.66
-    - nvidia-cuda-nvrtc-cu11==11.7.99
-    - nvidia-cuda-runtime-cu11==11.7.99
-    - nvidia-cudnn-cu11==8.5.0.96
-    - oauthlib==3.2.2
-    - openmdao==3.21.0
-    - opt-einsum==3.3.0
-    - optax==0.1.4
-    - optht==0.2.0
-    - optree==0.5.0
-    - optuna==2.10.1
-    - osmnx==1.2.2
-    - osqp==0.6.2.post8
-    - ott==0.1.15
-    - pandas==1.5.2
-    - pandas-profiling==3.5.0
-    - pandoc-attributes==0.1.7
-    - paramz==0.9.5
-    - partd==1.3.0
-    - pastel==0.2.1
-    - patch-ng==1.17.4
-    - patsy==0.5.3
-    - pbr==5.11.0
-    - phik==0.12.2
-    - picos==2.4.11
-    - pillow==9.3.0
-    - pints==0.4.0
-    - plotly==5.11.0
-    - plotly-express==0.4.1
-    - pluginbase==1.0.1
-    - pmdarima==2.0.2
-    - pmlb==1.0.1.post3
-    - poethepoet==0.10.0
-    - pooch==1.6.0
-    - pot==0.8.2
-    - prettytable==3.5.0
-    - probnum==0.1.21
-    - prophet==1.1.1
-    - protobuf==3.19.6
-    - pulp==2.7.0
-    - pyabc==0.12.8
-    - pyaml==21.10.1
-    - pyarrow==10.0.1
-    - pyasn1==0.4.8
-    - pyasn1-modules==0.2.8
-    - pycatch22==0.4.2
-    - pycodestyle==2.10.0
-    - pydantic==1.10.2
-    - pydeck==0.8.0
-    - pydeprecate==0.3.2
-    - pydmd==0.4.0.post2212
-    - pydoe2==1.3.0
-    - pyecharts==1.9.1
-    - pyecharts-jupyter-installer==0.0.3
-    - pyecharts-snapshot==0.2.0
-    - pyee==8.2.2
-    - pyflakes==3.0.1
-    - pyjwt==2.6.0
-    - pykalman==0.9.5
-    - pyknos==0.15.1
-    - pykoop==1.0.5
-    - pykoopman==0.2.0
-    - pylint==2.15.8
-    - pylops==1.18.3
-    - pymeeus==0.5.11
-    - pymetaheuristic==1.4.1
-    - pympler==1.0.1
-    - pyod==1.0.6
-    - pyomo==6.4.3
-    - pyoperon==0.3.4
-    - pyperclip==1.8.2
-    - pyppeteer==1.0.2
-    - pyproj==3.4.0
-    - pyproximal==0.5.0
-    - pyro-api==0.1.2
-    - pyro-ppl==1.8.3
-    - pyshp==2.3.1
-    - pysindy==1.7.2
-    - pysr==0.11.11
-    - pystac==1.6.1
-    - pystac-client==0.5.1
-    - python-box==6.1.0
-    - python-graphviz==0.20.1
-    - python-slugify==7.0.0
-    - pytorch-forecasting==0.10.3
-    - pytorch-lightning==1.7.4
-    - pytz-deprecation-shim==0.1.0.post0
-    - pyvista==0.37.0
-    - pywavelets==1.4.1
-    - pyyaml==6.0
-    - qdldl==0.1.5.post2
-    - radian==0.6.4
-    - rchitect==0.3.39
-    - redis==4.3.5
-    - requests-oauthlib==1.3.1
-    - rich==12.4.4
-    - rsa==4.9
-    - rtree==1.0.1
-    - salib==1.4.6.1
-    - sbi==0.20.0
-    - scikit-learn==1.0.2
-    - scikit-optimize==0.9.0
-    - scikit-posthocs==0.7.0
-    - scipy==1.9.3
-    - scooby==0.7.0
-    - scs==3.2.2
-    - seaborn==0.12.1
-    - semver==2.13.0
-    - setuptools==65.6.3
-    - setuptools-git==1.2
-    - sgmcmcjax==0.2.11
-    - shap==0.41.0
-    - shapely==1.8.5.post1
-    - simplejson==3.18.0
-    - sklearn==0.0.post1
-    - sktime==0.14.1
-    - slicer==0.0.7
-    - smcp==0.4.6
-    - smmap==5.0.0
-    - snowballstemmer==2.2.0
-    - sortedcontainers==2.4.0
-    - sphinx==5.3.0
-    - sphinx-rtd-theme==1.1.1
-    - sphinxcontrib-applehelp==1.0.2
-    - sphinxcontrib-devhelp==1.0.2
-    - sphinxcontrib-htmlhelp==2.0.0
-    - sphinxcontrib-jsmath==1.0.1
-    - sphinxcontrib-qthelp==1.0.3
-    - sphinxcontrib-serializinghtml==1.1.5
-    - sqlalchemy==1.4.44
-    - statsforecast==1.4.0
-    - statsmodels==0.13.5
-    - stevedore==4.1.1
-    - streamlit==1.15.2
-    - streamlit-pandas-profiling==0.1.3
-    - stumpy==1.11.1
-    - sympy==1.11.1
-    - tabulate==0.9.0
-    - talk2stat==0.1.7
-    - tangled-up-in-unicode==0.2.0
-    - tbats==1.1.1
-    - tblib==1.7.0
-    - tenacity==8.1.0
-    - tensorboard==2.11.0
-    - tensorboard-data-server==0.6.1
-    - tensorboard-plugin-wit==1.8.1
-    - tensorboardx==2.5.1
-    - tensorflow==2.11.0
-    - tensorflow-estimator==2.11.0
-    - tensorflow-io-gcs-filesystem==0.28.0
-    - tensorflow-probability==0.19.0
-    - tensorstore==0.1.28
-    - termcolor==2.1.1
-    - text-unidecode==1.3
-    - tf2jax==0.3.1
-    - threadpoolctl==3.1.0
-    - tjax==0.23.0
-    - tomlkit==0.11.6
-    - torch==1.13.0
-    - torch-lr-finder==0.2.1
-    - torchaudio==0.13.0
-    - torchcde==0.2.5
-    - torchdiffeq==0.2.3
-    - torchdyn==1.0.3
-    - torchgan==0.1.0
-    - torchmetrics==0.9.3
-    - torchopt==0.6.0
-    - torchsde==0.2.5
-    - torchvision==0.14.0
-    - tornado==6.1
-    - tqdm==4.64.1
-    - traittypes==0.2.1
-    - trampoline==0.1.2
-    - tslearn==0.5.2
-    - typeguard==2.13.3
-    - tzdata==2022.7
-    - tzlocal==4.2
-    - uncertainties==3.1.7
-    - validators==0.20.0
-    - virtualenv==20.17.0
-    - virtualenvwrapper-win==1.2.7
-    - visions==0.7.5
-    - vtk==9.2.2
-    - watchdog==2.1.9
-    - websockets==10.4
-    - werkzeug==2.2.2
-    - wget==3.2
-    - whitebox==2.2.0
-    - whiteboxgui==2.2.0
-    - widgetsnbextension==3.6.1
-    - wrapt==1.14.1
-    - wslink==1.9.1
-    - xarray==2022.11.0
-    - xarray-einstats==0.3.0
-    - xyzservices==2022.9.0
-    - yapf==0.32.0
-    - yarl==1.8.1
-    - zict==2.2.0
+      - abcpy==0.6.3
+      - absl-py==1.3.0
+      - aiohttp==3.8.3
+      - aiosignal==1.3.1
+      - alabaster==0.7.12
+      - alembic==1.8.1
+      - altair==4.2.0
+      - appdirs==1.4.4
+      - arrow==1.2.3
+      - arviz==0.14.0
+      - asteval==0.9.28
+      - astor==0.8.1
+      - astroid==2.12.13
+      - astunparse==1.6.3
+      - async-timeout==4.0.2
+      - autograd==1.5
+      - autograd-gamma==0.5.0
+      - autopage==0.5.1
+      - binaryornot==0.4.4
+      - biopython==1.80
+      - blackjax==0.9.6
+      - blinker==1.5
+      - boltons==21.0.0
+      - botorch==0.8.0
+      - bottle==0.12.23
+      - bqplot==0.12.36
+      - branca==0.6.0
+      - cachetools==5.2.0
+      - captum==0.5.0
+      - casadi==3.5.6.pre2
+      - catboost==1.1.1
+      - cftime==1.6.2
+      - chardet==5.1.0
+      - chex==0.1.5
+      - chompack==2.3.2
+      - click==8.1.3
+      - click-plugins==1.1.1
+      - cliff==4.1.0
+      - cligj==0.7.2
+      - cloudpickle==2.2.0
+      - cma==3.2.2
+      - cmaes==0.9.0
+      - cmake==3.25.0
+      - cmd2==2.4.2
+      - cmdstanpy==1.0.8
+      - colorful==0.5.4
+      - colorlog==6.7.0
+      - colour==0.1.5
+      - commonmark==0.9.1
+      - conan==1.55.0
+      - contextlib2==21.6.0
+      - contourpy==1.0.6
+      - convertdate==2.4.0
+      - cookiecutter==2.1.1
+      - coverage==6.5.0
+      - cvxopt==1.3.0
+      - cvxpy==1.2.2
+      - cycler==0.11.0
+      - cython==0.29.32
+      - darts==0.22.0
+      - dash==2.7.0
+      - dash-core-components==2.0.0
+      - dash-html-components==2.0.0
+      - dash-table==5.0.0
+      - dask==2022.11.1
+      - deepxde==1.7.2
+      - deprecated==1.2.13
+      - derivative==0.5.3
+      - diffrax==0.2.2
+      - dill==0.3.6
+      - distlib==0.3.6
+      - distrax==0.1.2
+      - distributed==2022.11.1
+      - distro==1.7.0
+      - dm-haiku==0.0.9
+      - dm-tree==0.1.7
+      - docutils==0.17.1
+      - dtw-python==1.3.0
+      - dymos==1.6.1
+      - dynamax==0.1.0+41.g06ae2cb
+      - echarts-china-cities-pypkg==0.0.9
+      - echarts-china-counties-pypkg==0.0.2
+      - echarts-china-misc-pypkg==0.0.1
+      - echarts-china-provinces-pypkg==0.0.3
+      - echarts-countries-pypkg==0.1.6
+      - echarts-united-kingdom-pypkg==0.0.1
+      - ecos==2.0.10
+      - efax==1.9.1
+      - elfi==0.8.4
+      - ephem==4.1.3
+      - equinox==0.9.2
+      - evosax==0.1.0
+      - ezyrb==1.3.0.post2212
+      - fasteners==0.18
+      - fastprogress==1.0.3
+      - filelock==3.8.0
+      - filterpy==1.4.5
+      - fiona==1.8.22
+      - fire==0.4.0
+      - flake8==6.0.0
+      - flask==2.2.2
+      - flatbuffers==22.11.23
+      - flax==0.6.2
+      - folium==0.13.0
+      - fonttools==4.38.0
+      - formulaic==0.5.2
+      - frozendict==2.3.4
+      - frozenlist==1.3.3
+      - fsspec==2022.11.0
+      - functorch==1.13.0
+      - funsor==0.4.3
+      - future==0.18.2
+      - gast==0.4.0
+      - gdown==4.5.4
+      - gekko==1.0.5
+      - geojson==2.5.0
+      - geopandas==0.12.1
+      - gitdb==4.0.10
+      - gitpython==3.1.29
+      - glmnet==2.2.1
+      - gluonts==0.11.3
+      - google-auth==2.15.0
+      - google-auth-oauthlib==0.4.6
+      - google-pasta==0.2.0
+      - gpflow==2.6.4
+      - gpjax==0.5.3
+      - gplearn==0.4.2
+      - gpy==1.10.0
+      - gpytorch==1.9.0
+      - greenlet==2.0.1
+      - grpcio==1.51.1
+      - h5py==3.7.0
+      - heapdict==1.0.1
+      - hijri-converter==2.2.4
+      - hmmlearn==0.2.8
+      - holidays==0.17.2
+      - hroch==1.1.0
+      - htmlmin==0.1.12
+      - huggingface-hub==0.11.1
+      - imagehash==4.3.1
+      - imageio==2.22.4
+      - imagesize==1.4.1
+      - interface-meta==1.3.0
+      - ipyevents==2.0.1
+      - ipyfilechooser==0.6.0
+      - ipyleaflet==0.17.2
+      - ipyparallel==8.4.1
+      - ipytree==0.2.2
+      - ipywidgets==7.7.2
+      - isort==5.10.1
+      - itsdangerous==2.1.2
+      - jabbar==0.0.15
+      - jax==0.3.25
+      - jaxlib==0.3.25+cuda11.cudnn82
+      - jaxlinop==0.0.3
+      - jaxns==1.1.2
+      - jaxopt==0.5.5
+      - jaxtyping==0.2.8
+      - jinja2-time==0.2.0
+      - jmp==0.0.2
+      - joblib==1.2.0
+      - julia==0.6.0
+      - jupyter-client==7.3.4
+      - jupyter-contrib-core==0.4.2
+      - jupyter-contrib-nbextensions==0.7.0
+      - jupyter-highlight-selected-word==0.2.0
+      - jupyter-nbextensions-configurator==0.6.1
+      - jupyter-server==1.23.3
+      - jupyterlab-widgets==1.1.1
+      - keplergl==0.3.2
+      - keras==2.11.0
+      - keras-self-attention==0.51.0
+      - kiwisolver==1.4.4
+      - korean-lunar-calendar==0.3.1
+      - lark==1.1.4
+      - lazy-object-proxy==1.8.0
+      - leafmap==0.14.0
+      - libclang==14.0.6
+      - lifelines==0.27.4
+      - lightgbm==3.3.3
+      - lightning-utilities==0.3.0
+      - linear-operator==0.2.0
+      - llvmlite==0.39.1
+      - lmfit==1.1.0
+      - lml==0.0.2
+      - locket==1.0.0
+      - lunarcalendar==0.0.9
+      - lxml==4.9.1
+      - makefun==1.15.0
+      - mako==1.2.4
+      - markdown==3.4.1
+      - matplotlib==3.6.2
+      - mccabe==0.7.0
+      - mesa==1.1.1
+      - ml-collections==0.1.0
+      - mne==1.2.2
+      - mosek==10.0.30
+      - mpi4py==3.1.4
+      - mpmath==1.2.1
+      - msgpack==1.0.4
+      - multidict==6.0.2
+      - multimethod==1.9
+      - multipledispatch==0.6.0
+      - multiprocess==0.70.14
+      - munch==2.5.0
+      - netcdf4==1.6.2
+      - networkx==2.8.8
+      - neural-tangents==0.6.1
+      - neuralprophet==0.5.0
+      - nflows==0.14
+      - nfoursid==1.0.1
+      - node-semver==0.6.1
+      - nodepy==1.0.1
+      - notedown==1.5.1
+      - numba==0.56.4
+      - numdifftools==0.9.41
+      - numpy==1.22.4
+      - numpyro==0.10.1
+      - nvidia-cublas-cu11==11.10.3.66
+      - nvidia-cuda-nvrtc-cu11==11.7.99
+      - nvidia-cuda-runtime-cu11==11.7.99
+      - nvidia-cudnn-cu11==8.5.0.96
+      - oauthlib==3.2.2
+      - openmdao==3.21.0
+      - opt-einsum==3.3.0
+      - optax==0.1.4
+      - optht==0.2.0
+      - optree==0.5.0
+      - optuna==2.10.1
+      - osmnx==1.2.2
+      - osqp==0.6.2.post8
+      - ott==0.1.15
+      - pandas==1.5.2
+      - pandas-profiling==3.5.0
+      - pandoc-attributes==0.1.7
+      - paramz==0.9.5
+      - partd==1.3.0
+      - pastel==0.2.1
+      - patch-ng==1.17.4
+      - patsy==0.5.3
+      - pbr==5.11.0
+      - phik==0.12.2
+      - picos==2.4.11
+      - pillow==9.3.0
+      - pints==0.4.0
+      - plotly==5.11.0
+      - plotly-express==0.4.1
+      - pluginbase==1.0.1
+      - pmdarima==2.0.2
+      - pmlb==1.0.1.post3
+      - poethepoet==0.10.0
+      - pooch==1.6.0
+      - pot==0.8.2
+      - prettytable==3.5.0
+      - probnum==0.1.21
+      - prophet==1.1.1
+      - protobuf==3.19.6
+      - pulp==2.7.0
+      - pyabc==0.12.8
+      - pyaml==21.10.1
+      - pyarrow==10.0.1
+      - pyasn1==0.4.8
+      - pyasn1-modules==0.2.8
+      - pycatch22==0.4.2
+      - pycodestyle==2.10.0
+      - pydantic==1.10.2
+      - pydeck==0.8.0
+      - pydeprecate==0.3.2
+      - pydmd==0.4.0.post2212
+      - pydoe2==1.3.0
+      - pyecharts==1.9.1
+      - pyecharts-jupyter-installer==0.0.3
+      - pyecharts-snapshot==0.2.0
+      - pyee==8.2.2
+      - pyflakes==3.0.1
+      - pyjwt==2.6.0
+      - pykalman==0.9.5
+      - pyknos==0.15.1
+      - pykoop==1.0.5
+      - pykoopman==0.2.0
+      - pylint==2.15.8
+      - pylops==1.18.3
+      - pymeeus==0.5.11
+      - pymetaheuristic==1.4.1
+      - pympler==1.0.1
+      - pyod==1.0.6
+      - pyomo==6.4.3
+      - pyoperon==0.3.4
+      - pyperclip==1.8.2
+      - pyppeteer==1.0.2
+      - pyproj==3.4.0
+      - pyproximal==0.5.0
+      - pyro-api==0.1.2
+      - pyro-ppl==1.8.3
+      - pyshp==2.3.1
+      - pysindy==1.7.2
+      - pysr==0.11.11
+      - pystac==1.6.1
+      - pystac-client==0.5.1
+      - python-box==6.1.0
+      - python-graphviz==0.20.1
+      - python-slugify==7.0.0
+      - pytorch-forecasting==0.10.3
+      - pytorch-lightning==1.7.4
+      - pytz-deprecation-shim==0.1.0.post0
+      - pyvista==0.37.0
+      - pywavelets==1.4.1
+      - qdldl==0.1.5.post2
+      - radian==0.6.4
+      - rchitect==0.3.39
+      - redis==4.3.5
+      - requests-oauthlib==1.3.1
+      - rich==12.4.4
+      - rsa==4.9
+      - rtree==1.0.1
+      - salib==1.4.6.1
+      - sbi==0.20.0
+      - scikit-learn==1.0.2
+      - scikit-optimize==0.9.0
+      - scikit-posthocs==0.7.0
+      - scipy==1.9.3
+      - scooby==0.7.0
+      - scs==3.2.2
+      - seaborn==0.12.1
+      - semver==2.13.0
+      - setuptools==65.6.3
+      - setuptools-git==1.2
+      - sgmcmcjax==0.2.11
+      - shap==0.41.0
+      - shapely==1.8.5.post1
+      - simplejson==3.18.0
+      - sklearn==0.0.post1
+      - sktime==0.14.1
+      - slicer==0.0.7
+      - smcp==0.4.6
+      - smmap==5.0.0
+      - snowballstemmer==2.2.0
+      - sortedcontainers==2.4.0
+      - sphinx==5.3.0
+      - sphinx-rtd-theme==1.1.1
+      - sphinxcontrib-applehelp==1.0.2
+      - sphinxcontrib-devhelp==1.0.2
+      - sphinxcontrib-htmlhelp==2.0.0
+      - sphinxcontrib-jsmath==1.0.1
+      - sphinxcontrib-qthelp==1.0.3
+      - sphinxcontrib-serializinghtml==1.1.5
+      - sqlalchemy==1.4.44
+      - statsforecast==1.4.0
+      - statsmodels==0.13.5
+      - stevedore==4.1.1
+      - streamlit==1.15.2
+      - streamlit-pandas-profiling==0.1.3
+      - stumpy==1.11.1
+      - sympy==1.11.1
+      - tabulate==0.9.0
+      - talk2stat==0.1.7
+      - tangled-up-in-unicode==0.2.0
+      - tbats==1.1.1
+      - tblib==1.7.0
+      - tenacity==8.1.0
+      - tensorboard==2.11.0
+      - tensorboard-data-server==0.6.1
+      - tensorboard-plugin-wit==1.8.1
+      - tensorboardx==2.5.1
+      - tensorflow==2.11.0
+      - tensorflow-estimator==2.11.0
+      - tensorflow-io-gcs-filesystem==0.28.0
+      - tensorflow-probability==0.19.0
+      - tensorstore==0.1.28
+      - termcolor==2.1.1
+      - text-unidecode==1.3
+      - tf2jax==0.3.1
+      - threadpoolctl==3.1.0
+      - tjax==0.23.0
+      - tomlkit==0.11.6
+      - torch==1.13.0
+      - torch-lr-finder==0.2.1
+      - torchaudio==0.13.0
+      - torchcde==0.2.5
+      - torchdiffeq==0.2.3
+      - torchdyn==1.0.3
+      - torchgan==0.1.0
+      - torchmetrics==0.9.3
+      - torchopt==0.6.0
+      - torchsde==0.2.5
+      - torchvision==0.14.0
+      - tornado==6.1
+      - traittypes==0.2.1
+      - trampoline==0.1.2
+      - tslearn==0.5.2
+      - typeguard==2.13.3
+      - tzdata==2022.7
+      - tzlocal==4.2
+      - uncertainties==3.1.7
+      - validators==0.20.0
+      - virtualenv==20.17.0
+      - virtualenvwrapper-win==1.2.7
+      - visions==0.7.5
+      - vtk==9.2.2
+      - watchdog==2.1.9
+      - websockets==10.4
+      - werkzeug==2.2.2
+      - wget==3.2
+      - whitebox==2.2.0
+      - whiteboxgui==2.2.0
+      - widgetsnbextension==3.6.1
+      - wrapt==1.14.1
+      - wslink==1.9.1
+      - xarray==2022.11.0
+      - xarray-einstats==0.3.0
+      - xyzservices==2022.9.0
+      - yapf==0.32.0
+      - yarl==1.8.1
+      - zict==2.2.0
 prefix: /home/aidishage/miniconda3

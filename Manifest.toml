@@ -2087,6 +2087,12 @@ git-tree-sha1 = "6b82f6af013e9f2cb3f0e782bbbcb92094e15096"
 uuid = "8646bddf-ab1c-4fa7-9c51-ba187d647618"
 version = "0.1.2"
 
+[[deps.HTML_Entities]]
+deps = ["StrTables"]
+git-tree-sha1 = "c4144ed3bc5f67f595622ad03c0e39fa6c70ccc7"
+uuid = "7693890a-d069-55fe-a829-b4a6d304f0ee"
+version = "1.0.1"
+
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "Dates", "IniFile", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
 git-tree-sha1 = "e1acc37ed078d99a714ed8376446f92a5535ca65"
@@ -3433,9 +3439,9 @@ version = "0.4.11"
 
 [[deps.MethodOfLines]]
 deps = ["Combinatorics", "DiffEqBase", "DomainSets", "IfElse", "Interpolations", "Latexify", "LinearAlgebra", "ModelingToolkit", "OrdinaryDiffEq", "SciMLBase", "StaticArrays", "SymbolicUtils", "Symbolics", "TermInterface"]
-git-tree-sha1 = "2246727bd588d1af4c67ebd05edcd1820c8803f0"
+git-tree-sha1 = "b7ea7c2aae754845b50a037a2475eb5f3d784c98"
 uuid = "94925ecb-adb7-4558-8ed8-f975c56a0bf4"
-version = "0.7.2"
+version = "0.7.3"
 
 [[deps.MicroCollections]]
 deps = ["BangBang", "InitialValues", "Setfield"]
@@ -3722,9 +3728,9 @@ version = "0.2.4"
 
 [[deps.Nemo]]
 deps = ["AbstractAlgebra", "Antic_jll", "Arb_jll", "Calcium_jll", "FLINT_jll", "InteractiveUtils", "Libdl", "LinearAlgebra", "Markdown", "Pkg", "Random", "RandomExtensions", "SHA", "Test"]
-git-tree-sha1 = "4befc1ccf452c4f00e97308287578c5f394aa059"
+git-tree-sha1 = "8f2ac328f65ffc7add002f62f33851de4f7988ca"
 uuid = "2edaba10-b0f1-5616-af89-8c11ac63239a"
-version = "0.32.5"
+version = "0.32.6"
 
 [[deps.NestedSamplers]]
 deps = ["AbstractMCMC", "Clustering", "Distributions", "LinearAlgebra", "LogExpFunctions", "MCMCChains", "Parameters", "Printf", "ProgressLogging", "Random", "StatsBase"]
@@ -5381,6 +5387,12 @@ git-tree-sha1 = "d785829bcbe4bf68b21a52178ae4467738571ec1"
 uuid = "53949629-e8ff-437b-b6e7-14da1a85bf25"
 version = "0.5.1"
 
+[[deps.StrTables]]
+deps = ["Dates"]
+git-tree-sha1 = "5998faae8c6308acc25c25896562a1e66a3bb038"
+uuid = "9700d1a9-a7c8-5760-9816-a99fda30bb8f"
+version = "1.0.1"
+
 [[deps.StrideArrays]]
 deps = ["ArrayInterface", "LinearAlgebra", "LoopVectorization", "Octavian", "Random", "SLEEFPirates", "Static", "StrideArraysCore", "VectorizationBase", "VectorizedRNG"]
 git-tree-sha1 = "1118e60460343186ac7250986e8831fdd2150014"
@@ -5615,10 +5627,10 @@ uuid = "62fd8b95-f654-4bbd-a8a5-9c27f68ccd50"
 version = "0.1.1"
 
 [[deps.Term]]
-deps = ["CodeTracking", "Dates", "Highlights", "InteractiveUtils", "Logging", "Markdown", "MyterialColors", "OrderedCollections", "Parameters", "ProgressLogging", "SnoopPrecompile", "Tables", "UUIDs", "UnicodeFun"]
-git-tree-sha1 = "eb5498a676b283594236e1e58a5f70f1f4e57ef6"
+deps = ["CodeTracking", "Dates", "Highlights", "InteractiveUtils", "Logging", "Markdown", "MyterialColors", "OrderedCollections", "Parameters", "ProgressLogging", "SnoopPrecompile", "Tables", "UUIDs", "Unicode", "UnicodeFun", "WordTokenizers"]
+git-tree-sha1 = "50d3093ef60cdbfabf8e10fc028b1a436717932b"
 uuid = "22787eb5-b846-44ae-b979-8e399b8463ab"
-version = "1.0.6"
+version = "1.1.0"
 
 [[deps.TermInterface]]
 git-tree-sha1 = "7aa601f12708243987b88d1b453541a75e3d8c7a"
@@ -5994,10 +6006,16 @@ git-tree-sha1 = "194db97922d1117fc0e41f01c1fa5c60c9a5c435"
 uuid = "6385f0a0-cb03-45b6-9089-4e0acc74b26b"
 version = "0.10.7"
 
+[[deps.WordTokenizers]]
+deps = ["DataDeps", "HTML_Entities", "StrTables", "Unicode"]
+git-tree-sha1 = "01dd4068c638da2431269f49a5964bf42ff6c9d2"
+uuid = "796a5d58-b03d-544a-977e-18100b691f6e"
+version = "0.5.6"
+
 [[deps.WorkerUtilities]]
-git-tree-sha1 = "5ef49b0d5cdda47c93a8eb1d5632501f2d422781"
+git-tree-sha1 = "cd1659ba0d57b71a464a29e64dbc67cfe83d54e7"
 uuid = "76eceee3-57b5-4d4a-8e66-0e911cebbf60"
-version = "1.6.0"
+version = "1.6.1"
 
 [[deps.WriteVTK]]
 deps = ["Base64", "CodecZlib", "FillArrays", "LightXML", "TranscodingStreams"]
