@@ -724,10 +724,10 @@ jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>=
 "robustbase","robustbase","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.95-0",NA,"R (>= 3.5.0)","stats, graphics, utils, methods, DEoptimR",NA,"grid, MASS, lattice, boot, cluster, Matrix, robust,
 fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
 reshape2, sfsmisc, catdata, doParallel, foreach, skewt","robustX, rrcov, matrixStats, quantreg, Hmisc","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
-"roxygen2","roxygen2","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","7.2.2",NA,"R (>= 3.3)","brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), digest,
-knitr, methods, pkgload (>= 1.0.2), purrr (>= 0.3.3), R6 (>=
-2.1.2), rlang (>= 1.0.0), stringi, stringr (>= 1.0.0), utils,
-withr, xml2","cpp11","covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>=
+"roxygen2","roxygen2","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","7.2.3",NA,"R (>= 3.3)","brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr,
+methods, pkgload (>= 1.0.2), purrr (>= 0.3.3), R6 (>= 2.1.2),
+rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr,
+xml2","cpp11","covr, R.methodsS3, R.oo, rmarkdown (>= 2.16), testthat (>=
 3.1.2), yaml",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "rpart","rpart","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.1.19","recommended","R (>= 2.15.0), graphics, stats, grDevices",NA,NA,"survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "rprojroot","rprojroot","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.3",NA,"R (>= 3.0.0)",NA,NA,"covr, knitr, lifecycle, mockr, rmarkdown, testthat (>=

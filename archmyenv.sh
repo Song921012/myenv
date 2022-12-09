@@ -88,7 +88,7 @@ flatpak install xmind
 flatpak install LosslessCut
 # Install develop environment
 
-yay -S base-devel bison flex
+yay -S base-devel bison flex gvfs-mtp mtpfs
 yay -S cmake ninja mpich
 yay -S llvm llvm-libs clang lldb lld
 

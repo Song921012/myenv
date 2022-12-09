@@ -41,6 +41,13 @@ A+F5收到dock
 
 A+F6全屏
 
+A+r resize
+
+A+m move
+
+W+hjkl
+W+A+hjkl 
+
 - 截屏
 
 W+s: 选择截屏方式
