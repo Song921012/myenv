@@ -434,9 +434,9 @@ version = "0.7.1"
 
 [[deps.BasicLU]]
 deps = ["Libdl", "LinearAlgebra", "Printf", "SparseArrays", "basiclu_jll"]
-git-tree-sha1 = "6f3431df02fa84fe1d7df55d848e5c65c3acf358"
+git-tree-sha1 = "460be0a020a553618ccffd59bf736956e54ab138"
 uuid = "f55c55da-c227-4c78-8e30-b72a48476979"
-version = "0.2.0"
+version = "0.2.1"
 
 [[deps.BasisFunctions]]
 deps = ["BlockArrays", "CompositeTypes", "DomainIntegrals", "DomainSets", "FFTW", "FastGaussQuadrature", "FillArrays", "GaussQuadrature", "GenericFFT", "GenericLinearAlgebra", "GridArrays", "IterativeSolvers", "LinearAlgebra", "MacroTools", "OrderedCollections", "PGFPlotsX", "Pkg", "QuadGK", "RecipesBase", "Reexport", "SparseArrays", "SpecialFunctions", "StaticArrays", "Test", "ToeplitzMatrices"]
@@ -1324,9 +1324,9 @@ version = "0.3.8"
 
 [[deps.DomainSets]]
 deps = ["CompositeTypes", "IntervalSets", "LinearAlgebra", "Random", "StaticArrays", "Statistics"]
-git-tree-sha1 = "85cf537e38b7f34a84eaac22b534aa1b5bf01949"
+git-tree-sha1 = "988e2db482abeb69efc76ae8b6eba2e93805ee70"
 uuid = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
-version = "0.5.14"
+version = "0.5.15"
 
 [[deps.Downloads]]
 deps = ["ArgTools", "FileWatching", "LibCURL", "NetworkOptions"]
@@ -1359,9 +1359,9 @@ version = "0.4.2"
 
 [[deps.DynamicHMC]]
 deps = ["ArgCheck", "DocStringExtensions", "FillArrays", "LinearAlgebra", "LogDensityProblems", "LogExpFunctions", "Parameters", "ProgressMeter", "Random", "Statistics", "TensorCast"]
-git-tree-sha1 = "d5bc87ff71513d4ef03c52fea23cf8e93bdf9e69"
+git-tree-sha1 = "23ce36fe29fad4cfcef1b96a886737c1fdfd1ba0"
 uuid = "bbc10e6e-7c05-544b-b16e-64fede858acb"
-version = "3.4.0"
+version = "3.4.1"
 
 [[deps.DynamicPPL]]
 deps = ["AbstractMCMC", "AbstractPPL", "BangBang", "Bijectors", "ChainRulesCore", "ConstructionBase", "Distributions", "DocStringExtensions", "LinearAlgebra", "MacroTools", "OrderedCollections", "Random", "Setfield", "Test", "ZygoteRules"]
@@ -2453,9 +2453,9 @@ version = "0.5.11"
 
 [[deps.IntervalSets]]
 deps = ["Dates", "Random", "Statistics"]
-git-tree-sha1 = "16c0cc91853084cb5f58a78bd209513900206ce6"
+git-tree-sha1 = "3f91cd3f56ea48d4d2a75c2a65455c5fc74fa347"
 uuid = "8197267c-284f-5f27-9208-e0e47529a953"
-version = "0.7.4"
+version = "0.7.3"
 
 [[deps.InverseFunctions]]
 deps = ["Test"]
@@ -2593,9 +2593,9 @@ version = "1.0.16"
 
 [[deps.JuliaInterpreter]]
 deps = ["CodeTracking", "InteractiveUtils", "Random", "UUIDs"]
-git-tree-sha1 = "2a64e529fd5b228224360f80f3314a633f30e0e1"
+git-tree-sha1 = "847da597e4271c88bb54b8c7dfbeac44ea85ace4"
 uuid = "aa1ae85d-cabe-5617-a682-6adf51b2e16a"
-version = "0.9.17"
+version = "0.9.18"
 
 [[deps.JuliaVariables]]
 deps = ["MLStyle", "NameResolution"]

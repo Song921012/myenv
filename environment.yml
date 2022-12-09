@@ -393,7 +393,7 @@ dependencies:
       - docutils==0.17.1
       - dtw-python==1.3.0
       - dymos==1.6.1
-      - dynamax==0.1.0+42.ged5492b
+      - dynamax==0.1.0+44.g3a4f1a1
       - echarts-china-cities-pypkg==0.0.9
       - echarts-china-counties-pypkg==0.0.2
       - echarts-china-misc-pypkg==0.0.1
@@ -510,7 +510,7 @@ dependencies:
       - mesa==1.1.1
       - ml-collections==0.1.0
       - mne==1.2.2
-      - mosek==10.0.30
+      - mosek==10.0.31
       - mpi4py==3.1.4
       - mpmath==1.2.1
       - msgpack==1.0.4
