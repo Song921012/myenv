@@ -1512,9 +1512,9 @@ uuid = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
 version = "0.1.8"
 
 [[deps.ExproniconLite]]
-git-tree-sha1 = "95fbda3293151902082868fcd6c75d888614ee1c"
+git-tree-sha1 = "2fcda331c2d5feead426834c1dd45187a6abc1cd"
 uuid = "55351af7-c7e9-48d6-89ff-24e801d99491"
-version = "0.7.7"
+version = "0.7.8"
 
 [[deps.ExtendableSparse]]
 deps = ["DocStringExtensions", "LinearAlgebra", "Printf", "Requires", "SparseArrays", "SuiteSparse", "Test"]
@@ -3308,9 +3308,9 @@ version = "0.13.27"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "6c945b7a25036568fa0a4e0be3d801d17a30575a"
+git-tree-sha1 = "3a8369d7b35d6ee97003d59a955076de5e8effc8"
 uuid = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
-version = "0.3.48"
+version = "0.3.49"
 
 [[deps.ManualMemory]]
 git-tree-sha1 = "bcaef4fc7a0cfe2cba636d84cda54b5e4e4ca3cd"
@@ -3439,9 +3439,9 @@ version = "0.4.11"
 
 [[deps.MethodOfLines]]
 deps = ["Combinatorics", "DiffEqBase", "DomainSets", "IfElse", "Interpolations", "Latexify", "LinearAlgebra", "ModelingToolkit", "OrdinaryDiffEq", "SciMLBase", "StaticArrays", "SymbolicUtils", "Symbolics", "TermInterface"]
-git-tree-sha1 = "b7ea7c2aae754845b50a037a2475eb5f3d784c98"
+git-tree-sha1 = "5d9c81b911ab62de15024b55c0776662a59dde3a"
 uuid = "94925ecb-adb7-4558-8ed8-f975c56a0bf4"
-version = "0.7.3"
+version = "0.7.4"
 
 [[deps.MicroCollections]]
 deps = ["BangBang", "InitialValues", "Setfield"]
