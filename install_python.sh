@@ -31,8 +31,8 @@ conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=$pyth
 #conda create -n firedrake -c conda-forge mpich python=$pythonversion jupyter jupyterlab gcc gxx gfortran 
 
 # Symbolic Regression Environment
-conda create -n sr -c conda-forge python=$pythonversion jupyter jupyterlab
-conda activate sr
+conda create -n srbench -c conda-forge python=$pythonversion jupyter jupyterlab
+conda activate srbench
 conda install -c conda-forge shogun-cpp
 conda install -c conda-forge fmt=9.1.0 
 conda install -c conda-forge eigen 
@@ -41,13 +41,13 @@ conda install -c conda-forge boost
 conda install -c conda-forge gsl 
 conda install -c conda-forge py-xgboost 
 conda install -c conda-forge mpi4py
+#conda install -c conda-forge dcgp-python # dcgp
 
-
-pip install Numpy Pandas Matplotlib scipy sympy statsmodels radian flake8 pylint yapf virtualenv jupyter_contrib_nbextensions nbconvert rich pygments sklearn DistanceClassifier pmlb eigency seaborn deap icecream
+pip install Numpy Pandas Matplotlib scipy sympy statsmodels radian flake8 pylint yapf virtualenv jupyter_contrib_nbextensions nbconvert rich pygments scikit-learn DistanceClassifier pmlb eigency seaborn deap icecream
 ## pip3 install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.14.0-py3-none-any.whl
 ## xgboost, randomforest, lgbm, adaboost
 ## HROCH feat ellyn pysr pstree bingo pyopern gplearn bayesr ffx
-pip install HROCH ffx lightgbm  pysr git+https://github.com/hengzhe-zhang/PS-Tree.git pyoperon gplearn git+https://github.com/ying531/MCMC-SymReg.git bingo-nasa
+pip install HROCH ffx lightgbm  pysr pstree pyoperon gplearn git+https://github.com/ying531/MCMC-SymReg.git bingo-nasa 
 pip install git+https://github.com/cavalab/feat.git 
 pip install git+https://github.com/cavalab/ellyn.git
 
@@ -68,6 +68,19 @@ pip install git+https://github.com/alcides/GeneticEngine.git
 
 ## QLattice
 pip install feyn
+
+## TaylorGP
+pip install git+https://github.com/KGAE-CUP/TaylorGP.git
+
+## E2ET
+pip install git+https://github.com/pakamienny/sympytorch.git@rationals
+pip install git+https://github.com/pakamienny/e2e_transformer.git
+
+## EQL
+### 从SRBENCH下载源码，然后安装，并安装jax或者torch
+
+## nsga-dcgp
+### 从SRBENCH下载源码，然后安装，并安装torch
 
 ## dc-gp
 conda create -n dcgp -c conda-forge dcgp-python

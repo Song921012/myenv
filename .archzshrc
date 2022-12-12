@@ -128,6 +128,8 @@ export KNITRODIR="/opt/knitro-13.1.0-Linux-64"
 #Gurobi
 export PATH=$PATH:/opt/gurobi952/linux64/bin
 
+# OpenMPI
+export OMPI_MCA_opal_cuda_support=true
 # PETSC
 #export PETSC_ARCH=arch-linux-c-debug
 #export PETSC_DIR=$HOME/myenv/src/petsc
