@@ -62,9 +62,29 @@ git clone https://github.com/folivetti/ITEA.git
 cd ITEA
 source install_stack.sh
 cd
+
+## Geneticengine
+pip install git+https://github.com/alcides/GeneticEngine.git
+
+## QLattice
+pip install feyn
+
+## dc-gp
+conda create -n dcgp -c conda-forge dcgp-python
 conda deactivate
 
 ## Deep SR
+
+conda create -n deepsr -c conda-forge python=3.7 jupyter jupyterlab tensorflow=1.14 mpich gcc gxx pylint
+conda deactivate && conda activate deepsr
+myenv
+git clone https://github.com/brendenpetersen/deep-symbolic-optimization.git
+cd deep-symbolic-optimization
+pip install "./dso[all]"
+#failure后再
+conda install -c conda-forge mpi4py
+pip install "./dso[all]"
+
 #myenv
 #if [ -d deep-symbolic-regression ] ; then
 #    rm -rf deep-symbolic-regression

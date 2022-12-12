@@ -55,7 +55,7 @@ dependencies:
   - fenics-libdolfinx=0.5.2=h5819345_102
   - fenics-ufcx=0.5.0=hb871ab6_1
   - fenics-ufl=2022.2.0=pyhd8ed1ab_0
-  - ffmpeg=5.1.2=gpl_hc51e5dc_103
+  - ffmpeg=5.1.2=gpl_h13415ed_104
   - fftw=3.3.10=mpi_mpich_h3e343da_6
   - flit-core=3.8.0=pyhd8ed1ab_0
   - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
@@ -259,7 +259,7 @@ dependencies:
   - pyvista=0.37.0=pyhd8ed1ab_0
   - pyyaml=6.0=py310h5764c6d_5
   - pyzmq=24.0.1=py310h330234f_1
-  - qt-main=5.15.6=he99da89_3
+  - qt-main=5.15.6=hafeba50_4
   - qtconsole=5.4.0=pyhd8ed1ab_0
   - qtconsole-base=5.4.0=pyha770c72_0
   - qtpy=2.3.0=pyhd8ed1ab_0
@@ -282,7 +282,7 @@ dependencies:
   - suitesparse=5.10.1=h9e50725_1
   - superlu=5.2.2=h00795ac_0
   - superlu_dist=7.2.0=h25dcc4a_0
-  - svt-av1=1.3.0=h27087fc_0
+  - svt-av1=1.4.0=h27087fc_0
   - sysroot_linux-64=2.12=he073ed8_15
   - tbb=2021.7.0=h924138e_1
   - tbb-devel=2021.7.0=h924138e_1
