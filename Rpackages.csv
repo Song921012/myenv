@@ -230,7 +230,7 @@ covr, Rglpk, slam",NA,"GPL-3 + file LICENSE","yes","no",NA,NA,"yes","4.2.2"
 (>= 0.5.0), jsonlite, phosphoricons, rlang (>= 0.3.1),
 rstudioapi, scales, shiny (>= 1.1.0), shinyWidgets (>= 0.6.0)",NA,"officer, rvg, rio, testthat (>= 2.1.0), knitr, rmarkdown,
 ggthemes, hrbrthemes",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"evaluate","evaluate","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.18",NA,"R (>= 3.0.2)","methods",NA,"covr, ggplot2, lattice, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"evaluate","evaluate","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.19",NA,"R (>= 3.0.2)","methods",NA,"covr, ggplot2, lattice, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "exactRankTests","exactRankTests","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.8-35",NA,"R (>= 2.4.0), stats, utils",NA,NA,"survival",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "extrafont","extrafont","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.18",NA,"R (>= 2.15)","extrafontdb, grDevices, utils, Rttf2pt1",NA,"fontcm",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
 "extrafontdb","extrafontdb","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0",NA,"R (>= 2.14)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,NA,"4.2.2"
