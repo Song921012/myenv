@@ -26,7 +26,7 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyte
 
 # fenics and fenicsx and firedrake
 conda deactivate
-conda create -n fenics -c conda-forge fenics pyoptsparse julia python=$pythonversion jupyter jupyterlab
+conda create -n fenics -c conda-forge fenics pyoptsparse julia python=$pythonversion jupyter jupyterlab cyipopt
 conda create -n fenicsx -c conda-forge fenics-dolfinx mpich pyvista python=$pythonversion jupyter jupyterlab
 #conda create -n firedrake -c conda-forge mpich python=$pythonversion jupyter jupyterlab gcc gxx gfortran 
 

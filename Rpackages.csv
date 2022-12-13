@@ -645,8 +645,8 @@ debugme, parallel, rlang (>= 1.0.2), testthat (>= 3.0.0), withr",NA,"MIT + file 
 "profvis","profvis","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.7",NA,"R (>= 3.0)","htmlwidgets (>= 0.3.2), stringr",NA,"knitr, ggplot2, rmarkdown, testthat, devtools, shiny,
 htmltools",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "progress","progress","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.2",NA,NA,"hms, prettyunits, R6, crayon",NA,"Rcpp, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"progressr","progressr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.11.0",NA,"R (>= 3.5.0)","digest, utils",NA,"graphics, tcltk, beepr, crayon, pbmcapply, progress, purrr,
-foreach, plyr, doFuture, future, future.apply, furrr,
+"progressr","progressr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.12.0",NA,"R (>= 3.5.0)","digest, utils",NA,"graphics, tcltk, beepr, cli, crayon, pbmcapply, progress,
+purrr, foreach, plyr, doFuture, future, future.apply, furrr,
 rstudioapi, shiny, commonmark, base64enc, tools",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
 "proj4","proj4","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0-12",NA,"R (>= 2.0.0)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
 "promises","promises","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.0.1",NA,NA,"R6, Rcpp, later, rlang, stats, magrittr","later, Rcpp","testthat, future (>= 1.21.0), fastmap (>= 1.1.0), purrr,
@@ -896,7 +896,7 @@ purrr (>= 0.3.4), readr (>= 2.1.1), readxl (>= 1.3.1), reprex
 1.0.2), stringr (>= 1.4.0), tibble (>= 3.1.6), tidyr (>=
 1.1.4), xml2 (>= 1.3.3)",NA,"covr, feather, glue, knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "timechange","timechange","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.1",NA,"R (>= 3.3)",NA,"cpp11 (>= 0.2.7)","testthat, knitr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
-"tinytex","tinytex","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.42",NA,NA,"xfun (>= 0.29)",NA,"testit, rstudioapi",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"tinytex","tinytex","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.43",NA,NA,"xfun (>= 0.29)",NA,"testit, rstudioapi",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "treedataverse","treedataverse","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.0.1",NA,"R (>= 3.1)","ape, cli (>= 1.0.0), crayon (>= 1.3.4), dplyr (>= 0.7.4),
 purrr (>= 0.2.4), magrittr, rstudioapi (>= 0.7), tidytree,
 tibble (>= 1.4.2), treeio, ggplot2, ggtree, ggtreeExtra",NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"

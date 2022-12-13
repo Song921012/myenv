@@ -36,6 +36,7 @@ dependencies:
   - comm=0.1.2=pyhd8ed1ab_0
   - cryptography=38.0.4=py310h600f1e7_0
   - curl=7.86.0=h2283fc2_1
+  - cyipopt=1.2.0=py310h914aaf3_0
   - dbus=1.13.6=h5008d03_3
   - debugpy=1.6.4=py310hd8f1fbe_0
   - decorator=5.1.1=pyhd8ed1ab_0
