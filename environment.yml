@@ -443,7 +443,7 @@ dependencies:
       - google-auth-oauthlib==0.4.6
       - google-pasta==0.2.0
       - gpflow==2.6.4
-      - gpjax==0.5.3
+      - gpjax==0.5.4
       - gplearn==0.4.2
       - gpy==1.10.0
       - gpytorch==1.9.0
@@ -477,6 +477,7 @@ dependencies:
       - jaxns==1.1.2
       - jaxopt==0.5.5
       - jaxtyping==0.2.8
+      - jaxutils==0.0.2
       - jinja2-time==0.2.0
       - jmp==0.0.2
       - joblib==1.2.0

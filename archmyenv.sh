@@ -81,11 +81,13 @@ yay -S zotero
 yay -S obsidian zoom thunderbird xorg-xdm okular microsoft-edge-stable-bin gwenview slack-desktop wps-office-cn aur/ttf-wps-fonts foxitreader
 yay -S xdman
 sudo pacman -S libreoffice-still libreoffice-still-zh-cn screenkey
-sudo pacman flatpak
+sudo pacman -S flatpak
 flatpak install wemeet # tab tengxunhuiyi
 flatpak install netease # tab wangyiyingyue
 flatpak install xmind
 flatpak install LosslessCut
+flatpak install yesplaymusic
+# appimage file: Mathpix, listen1
 # Install develop environment
 
 yay -S base-devel bison flex gvfs-mtp mtpfs

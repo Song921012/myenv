@@ -52,6 +52,10 @@ qbittorent-enhanced
 
 - Music
 
+Listen1 [Listen 1 音乐播放器](https://listen1.github.io/listen1/)
+
+yesplaymusc(Flatpak)
+
 netease-cloud-music(Flatpak)
 
 - Media Player

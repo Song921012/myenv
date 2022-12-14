@@ -65,7 +65,7 @@ dependencies:
   - gcc_impl_linux-64=10.4.0=h5231bdf_19
   - gcc_linux-64=10.4.0=h9215b83_11
   - gettext=0.21.1=h27087fc_0
-  - git=2.38.1=pl5321h8df7355_1
+  - git=2.39.0=pl5321h693f4a3_0
   - glib=2.74.1=h6239696_1
   - glib-tools=2.74.1=h6239696_1
   - gmp=6.2.1=h58526e2_0
@@ -324,9 +324,9 @@ dependencies:
       - imageio==2.22.4
       - isoduration==20.11.0
       - isort==5.10.1
-      - jax==0.3.25
+      - jax==0.4.1
       - jaxfenics-adjoint==1.0.0
-      - jaxlib==0.3.25+cuda11.cudnn82
+      - jaxlib==0.4.1+cuda11.cudnn86
       - jsonpointer==2.3
       - jupyter-contrib-core==0.4.2
       - jupyter-contrib-nbextensions==0.7.0
