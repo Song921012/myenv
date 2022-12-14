@@ -516,7 +516,7 @@ dependencies:
       - mesa==1.1.1
       - ml-collections==0.1.0
       - mne==1.2.2
-      - mosek==10.0.31
+      - mosek==10.0.32
       - mpi4py==3.1.4
       - mpmath==1.2.1
       - msgpack==1.0.4
