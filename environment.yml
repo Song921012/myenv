@@ -394,7 +394,7 @@ dependencies:
       - docutils==0.17.1
       - dtw-python==1.3.0
       - dymos==1.6.1
-      - dynamax==0.1.0+54.g85a32e2
+      - dynamax==0.1.0+61.gcf6546c
       - echarts-china-cities-pypkg==0.0.9
       - echarts-china-counties-pypkg==0.0.2
       - echarts-china-misc-pypkg==0.0.1
@@ -673,7 +673,7 @@ dependencies:
       - statsforecast==1.4.0
       - statsmodels==0.13.5
       - stevedore==4.1.1
-      - streamlit==1.15.2
+      - streamlit==1.16.0
       - streamlit-pandas-profiling==0.1.3
       - stumpy==1.11.1
       - svgwrite==1.4.3

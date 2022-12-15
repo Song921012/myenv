@@ -626,6 +626,18 @@ git-tree-sha1 = "bbab4d1a4001ec322c384dfff0889cec4118da93"
 uuid = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
 version = "0.4.3"
 
+[[deps.CUDA_Driver_jll]]
+deps = ["Artifacts", "JLLWrappers", "LazyArtifacts", "Libdl", "Pkg"]
+git-tree-sha1 = "75d7896d1ec079ef10d3aee8f3668c11354c03a1"
+uuid = "4ee394cb-3365-5eb0-8335-949819d2adfc"
+version = "0.2.0+0"
+
+[[deps.CUDA_Runtime_jll]]
+deps = ["Artifacts", "CUDA_Driver_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "Pkg", "TOML"]
+git-tree-sha1 = "d3e6ccd30f84936c1a3a53d622d85d7d3f9b9486"
+uuid = "76a88914-d11a-5bdc-97e0-2f5a05c973a2"
+version = "0.2.3+2"
+
 [[deps.CUTEst]]
 deps = ["CUTEst_jll", "DataStructures", "JSON", "Libdl", "LinearAlgebra", "NLPModels", "Pkg", "SparseArrays"]
 git-tree-sha1 = "e62f4e5c9d7c900b4cdb5d9cd28116884296c1cd"
@@ -1208,9 +1220,9 @@ version = "1.53.0"
 
 [[deps.DiffEqGPU]]
 deps = ["Adapt", "ArrayInterfaceGPUArrays", "CUDA", "CUDAKernels", "ChainRulesCore", "DiffEqBase", "Distributed", "DocStringExtensions", "ForwardDiff", "KernelAbstractions", "LinearAlgebra", "LinearSolve", "MuladdMacro", "Parameters", "RecursiveArrayTools", "SciMLBase", "SimpleDiffEq", "StaticArrays", "ZygoteRules"]
-git-tree-sha1 = "8133e318e5e8813173fbc78b3727800770e91c75"
+git-tree-sha1 = "2e3a96bd18af12d32674a484b6c582a66e9c916c"
 uuid = "071ae1c0-96b5-11e9-1965-c90190d839ea"
-version = "1.23.0"
+version = "1.24.0"
 
 [[deps.DiffEqNoiseProcess]]
 deps = ["DiffEqBase", "Distributions", "GPUArraysCore", "LinearAlgebra", "Markdown", "Optim", "PoissonRandom", "QuadGK", "Random", "Random123", "RandomNumbers", "RecipesBase", "RecursiveArrayTools", "ResettableStacks", "SciMLBase", "StaticArrays", "Statistics"]
@@ -2085,9 +2097,9 @@ version = "1.0.1"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "Dates", "IniFile", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
-git-tree-sha1 = "97b6c88f4df0ff821a6d93dbdcdf9642e66fa718"
+git-tree-sha1 = "2e13c9956c82f5ae8cbdb8335327e63badb8c4ff"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "1.6.1"
+version = "1.6.2"
 
 [[deps.HarfBuzz_jll]]
 deps = ["Artifacts", "Cairo_jll", "Fontconfig_jll", "FreeType2_jll", "Glib_jll", "Graphite2_jll", "JLLWrappers", "Libdl", "Libffi_jll", "Pkg"]
@@ -3429,9 +3441,9 @@ version = "0.4.11"
 
 [[deps.MethodOfLines]]
 deps = ["Combinatorics", "DiffEqBase", "DomainSets", "IfElse", "Interpolations", "Latexify", "LinearAlgebra", "ModelingToolkit", "OrdinaryDiffEq", "SciMLBase", "StaticArrays", "SymbolicUtils", "Symbolics", "TermInterface"]
-git-tree-sha1 = "0ce273f779fb3bb84d27cc0df1b64bc4790e0f5c"
+git-tree-sha1 = "3e4ecde88979af43f867e8ef08a09b75771cde46"
 uuid = "94925ecb-adb7-4558-8ed8-f975c56a0bf4"
-version = "0.7.5"
+version = "0.7.6"
 
 [[deps.MicroCollections]]
 deps = ["BangBang", "InitialValues", "Setfield"]
@@ -4272,9 +4284,9 @@ version = "0.5.4"
 
 [[deps.Parsers]]
 deps = ["Dates", "SnoopPrecompile"]
-git-tree-sha1 = "b64719e8b4504983c7fca6cc9db3ebc8acc2a4d6"
+git-tree-sha1 = "6466e524967496866901a78fca3f2e9ea445a559"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "2.5.1"
+version = "2.5.2"
 
 [[deps.Pavito]]
 deps = ["MathOptInterface", "Printf"]
@@ -6020,10 +6032,10 @@ uuid = "009559a3-9522-5dbb-924b-0b6ed2b22bb9"
 version = "1.5.2"
 
 [[deps.XGBoost_jll]]
-deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LLVMOpenMP_jll", "Libdl", "Pkg"]
-git-tree-sha1 = "5208f0c17e4e0a459945620e1ae9db825c31b351"
+deps = ["Artifacts", "CUDA_Runtime_jll", "CompilerSupportLibraries_jll", "JLLWrappers", "LLVMOpenMP_jll", "LazyArtifacts", "Libdl", "Pkg", "TOML"]
+git-tree-sha1 = "1a01bad6f01ffd8708bcb21649456c505f5b4282"
 uuid = "a5c6f535-4255-5ca2-a466-0e519f119c46"
-version = "1.7.1+0"
+version = "1.7.2+0"
 
 [[deps.XLSX]]
 deps = ["Artifacts", "Dates", "EzXML", "Printf", "Tables", "ZipFile"]
