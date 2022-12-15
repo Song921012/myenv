@@ -536,7 +536,7 @@ utils, plotly, prettydoc, knitr, rmarkdown, reshape2, ggrepel,
 shadowtext, tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "network","network","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.18.0",NA,"R (>= 2.10), utils","tibble, magrittr, statnet.common (>= 4.5), stats",NA,"sna, testthat, covr",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "networkDynamic","networkDynamic","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.11.2",NA,"R (>= 3.0.0), network (>= 1.17.0)","statnet.common, methods","network","testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
-"nlme","nlme","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.1-160","recommended","R (>= 3.5.0)","graphics, stats, utils, lattice",NA,"Hmisc, MASS, SASmixed",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"nlme","nlme","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.1-161","recommended","R (>= 3.5.0)","graphics, stats, utils, lattice",NA,"Hmisc, MASS, SASmixed",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "nloptr","nloptr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.3",NA,NA,NA,"testthat","knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr",NA,"LGPL (>= 3)",NA,NA,NA,NA,"yes","4.2.2"
 "nnet","nnet","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","7.3-18","recommended","R (>= 3.0.0), stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "numDeriv","numDeriv","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2016.8-1.1",NA,"R (>= 2.11.1)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
