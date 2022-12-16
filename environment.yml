@@ -516,7 +516,7 @@ dependencies:
       - mesa==1.1.1
       - ml-collections==0.1.0
       - mne==1.2.2
-      - mosek==10.0.32
+      - mosek==10.0.33
       - mpi4py==3.1.4
       - mpmath==1.2.1
       - msgpack==1.0.4
@@ -699,9 +699,9 @@ dependencies:
       - threadpoolctl==3.1.0
       - tjax==0.23.0
       - tomlkit==0.11.6
-      - torch==1.13.0
+      - torch==1.13.1
       - torch-lr-finder==0.2.1
-      - torchaudio==0.13.0
+      - torchaudio==0.13.1
       - torchcde==0.2.5
       - torchdiffeq==0.2.3
       - torchdyn==1.0.3
@@ -709,7 +709,7 @@ dependencies:
       - torchmetrics==0.9.3
       - torchopt==0.6.0
       - torchsde==0.2.5
-      - torchvision==0.14.0
+      - torchvision==0.14.1
       - tornado==6.1
       - traittypes==0.2.1
       - trampoline==0.1.2
