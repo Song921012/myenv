@@ -82,11 +82,13 @@ yay -S obsidian zoom thunderbird xorg-xdm okular microsoft-edge-stable-bin gwenv
 yay -S xdman
 sudo pacman -S libreoffice-still libreoffice-still-zh-cn screenkey
 sudo pacman -S flatpak
+#yay -S yt-dlg #youtube download
 flatpak install wemeet # tab tengxunhuiyi
-flatpak install netease # tab wangyiyingyue
+#flatpak install netease # tab wangyiyingyue
 flatpak install xmind
 flatpak install LosslessCut
 flatpak install yesplaymusic
+#flatpak install bottles
 # appimage file: Mathpix, listen1
 # Install develop environment
 

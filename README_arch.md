@@ -14,7 +14,7 @@ The easiest way is run `archAllInOne.sh` (remember to revise python and julia ve
 - (平时不用维护)R包更新用rup
 - 其它包和同步用othersup, gitup.sh
 
-## 先设置中文支持和archlinuxcn源
+## 先设置中文支持和archlinuxcn, arch4edu源
 
 [Localization (简体中文)/Simplified Chinese (简体中文) - ArchWiki](https://wiki.archlinux.org/title/Localization_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
@@ -158,6 +158,11 @@ sudo ./*.bundle
 
 
 # Other applications
+
+- 微信
+
+[vufa/deepin-wine-wechat-arch: Tencent WeChat on Deepin Wine(com.qq.weixin.deepin) For Archlinux](https://github.com/vufa/deepin-wine-wechat-arch)
+
 
 flatpak
 
