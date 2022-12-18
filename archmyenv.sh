@@ -92,7 +92,7 @@ flatpak install yesplaymusic
 # appimage file: Mathpix, listen1
 # Install develop environment
 
-yay -S base-devel bison flex gvfs-mtp mtpfs
+yay -S base-devel bison flex gvfs-mtp mtpfs paru asp devtools
 yay -S cmake ninja mpich
 yay -S llvm llvm-libs clang lldb lld
 
