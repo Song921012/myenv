@@ -885,8 +885,8 @@ magrittr, purrr, rlang, tibble (>= 2.1.1), tidyselect (>=
 "tidyselect","tidyselect","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.0",NA,"R (>= 3.4)","cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang
 (>= 1.0.4), vctrs (>= 0.4.1), withr",NA,"covr, crayon, dplyr, knitr, magrittr, rmarkdown, stringr,
 testthat (>= 3.1.1), tibble (>= 2.1.3)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"tidytree","tidytree","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.1",NA,"R (>= 3.4.0)","ape, dplyr, lazyeval, magrittr, methods, rlang, tibble, tidyr,
-tidyselect, yulab.utils (>= 0.0.4), pillar",NA,"knitr, rmarkdown, prettydoc, testthat, utils",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
+"tidytree","tidytree","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.2",NA,"R (>= 3.4.0)","ape, dplyr, lazyeval, magrittr, methods, rlang, tibble, tidyr,
+tidyselect, yulab.utils (>= 0.0.4), pillar, cli",NA,"knitr, rmarkdown, prettydoc, testthat, utils",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
 "tidyverse","tidyverse","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.2",NA,"R (>= 3.3)","broom (>= 0.7.10), cli (>= 3.1.0), crayon (>= 1.4.2), dbplyr
 (>= 2.1.1), dplyr (>= 1.0.7), dtplyr (>= 1.2.0), forcats (>=
 0.5.1), ggplot2 (>= 3.3.5), googledrive (>= 2.0.0),

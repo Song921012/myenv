@@ -30,7 +30,7 @@ dependencies:
   - c-ares=1.18.1=h7f98852_0
   - ca-certificates=2022.12.7=ha878542_0
   - certifi=2022.12.7=pyhd8ed1ab_0
-  - cffi=1.15.1=py310h255011f_2
+  - cffi=1.15.1=py310h255011f_3
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
   - cmake=3.25.1=h816a3e0_0
   - comm=0.1.2=pyhd8ed1ab_0
@@ -165,7 +165,7 @@ dependencies:
   - lz4-c=1.9.3=h9c3ff4c_1
   - markupsafe=2.1.1=py310h5764c6d_2
   - matplotlib-inline=0.1.6=pyhd8ed1ab_0
-  - mbedtls=3.2.1=h27087fc_0
+  - mbedtls=3.3.0=hcb278e6_0
   - mdolab-baseclasses=1.7.0=pyhd8ed1ab_0
   - metis=5.1.0=h58526e2_1006
   - mistune=2.0.4=pyhd8ed1ab_0
@@ -239,7 +239,7 @@ dependencies:
   - python-fastjsonschema=2.16.2=pyhd8ed1ab_0
   - python-json-logger=2.0.1=pyh9f0ad1d_0
   - python_abi=3.10=3_cp310
-  - pytz=2022.6=pyhd8ed1ab_0
+  - pytz=2022.7=pyhd8ed1ab_0
   - pyyaml=6.0=py310h5764c6d_5
   - pyzmq=24.0.1=py310h330234f_1
   - qt-main=5.15.6=hafeba50_4
@@ -274,7 +274,7 @@ dependencies:
   - toml=0.10.2=pyhd8ed1ab_0
   - tomli=2.0.1=pyhd8ed1ab_0
   - tornado=6.2=py310h5764c6d_1
-  - traitlets=5.7.0=pyhd8ed1ab_0
+  - traitlets=5.7.1=pyhd8ed1ab_0
   - typing_extensions=4.4.0=pyha770c72_0
   - tzdata=2022g=h191b570_0
   - unixodbc=2.3.10=h583eb01_0
@@ -363,9 +363,9 @@ dependencies:
       - scooby==0.7.0
       - statsmodels==0.13.5
       - tomlkit==0.11.6
-      - torch==1.13.0
-      - torchaudio==0.13.0
-      - torchvision==0.14.0
+      - torch==1.13.1
+      - torchaudio==0.13.1
+      - torchvision==0.14.1
       - uri-template==1.2.0
       - virtualenv==20.17.0
       - vtk==9.2.2

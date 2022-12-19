@@ -383,6 +383,7 @@ dependencies:
       - dask==2022.11.1
       - deepxde==1.7.2
       - deprecated==1.2.13
+      - deprecation==2.1.0
       - derivative==0.5.3
       - diffrax==0.2.2
       - dill==0.3.6
@@ -444,7 +445,7 @@ dependencies:
       - google-auth-oauthlib==0.4.6
       - google-pasta==0.2.0
       - gpflow==2.6.4
-      - gpjax==0.5.4
+      - gpjax==0.5.5
       - gplearn==0.4.2
       - gpy==1.10.0
       - gpytorch==1.9.0
@@ -473,6 +474,7 @@ dependencies:
       - itsdangerous==2.1.2
       - jabbar==0.0.15
       - jax==0.4.1
+      - jaxkern==0.0.1
       - jaxlib==0.4.1+cuda11.cudnn86
       - jaxlinop==0.0.3
       - jaxns==1.1.2
