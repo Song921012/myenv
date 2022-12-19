@@ -70,9 +70,9 @@ version = "0.2.1"
 
 [[deps.AbstractMCMC]]
 deps = ["BangBang", "ConsoleProgressMonitor", "Distributed", "Logging", "LoggingExtras", "ProgressLogging", "Random", "StatsBase", "TerminalLoggers", "Transducers"]
-git-tree-sha1 = "5c26c7759412ffcaf0dd6e3172e55d783dd7610b"
+git-tree-sha1 = "b4d13c741b2bbe0e1af305a92d2f105a7caa47af"
 uuid = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
-version = "4.1.3"
+version = "4.2.0"
 
 [[deps.AbstractNFFTs]]
 deps = ["LinearAlgebra", "Printf"]
@@ -1337,9 +1337,9 @@ version = "1.6.0"
 
 [[deps.DrWatson]]
 deps = ["Dates", "FileIO", "JLD2", "LibGit2", "MacroTools", "Pkg", "Random", "Requires", "Scratch", "UnPack"]
-git-tree-sha1 = "52d2dbd1835ff1073dbafbef02353c723930e0a1"
+git-tree-sha1 = "7cddb9062eeb01edd43f23a0cf75eb80bf3288e6"
 uuid = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
-version = "2.12.0"
+version = "2.12.1"
 
 [[deps.DualNumbers]]
 deps = ["Calculus", "NaNMath", "SpecialFunctions"]
@@ -5396,16 +5396,16 @@ uuid = "9700d1a9-a7c8-5760-9816-a99fda30bb8f"
 version = "1.0.1"
 
 [[deps.StrideArrays]]
-deps = ["ArrayInterface", "LinearAlgebra", "LoopVectorization", "Octavian", "Random", "SLEEFPirates", "Static", "StrideArraysCore", "VectorizationBase", "VectorizedRNG"]
-git-tree-sha1 = "1118e60460343186ac7250986e8831fdd2150014"
+deps = ["ArrayInterface", "LinearAlgebra", "LoopVectorization", "Octavian", "Random", "SLEEFPirates", "Static", "StaticArraysCore", "Statistics", "StrideArraysCore", "VectorizationBase", "VectorizedRNG", "VectorizedStatistics"]
+git-tree-sha1 = "232427d2b967ca0b0ab05eb996c7669d0bffe635"
 uuid = "d1fa6d79-ef01-42a6-86c9-f7c551f8593b"
-version = "0.1.21"
+version = "0.1.22"
 
 [[deps.StrideArraysCore]]
 deps = ["ArrayInterface", "CloseOpenIntervals", "IfElse", "LayoutPointers", "ManualMemory", "SIMDTypes", "Static", "ThreadingUtilities"]
-git-tree-sha1 = "0b1ea3e3fdf93b42e9c0f58347168618b6acc259"
+git-tree-sha1 = "8e91e5618bbca975312313c39ff827ea8f802fe3"
 uuid = "7792a7ef-975c-4747-a70f-980b88e8d1da"
-version = "0.3.17"
+version = "0.4.4"
 
 [[deps.Strided]]
 deps = ["LinearAlgebra", "TupleTools"]
@@ -5930,6 +5930,12 @@ deps = ["Distributed", "Random", "SLEEFPirates", "StaticArraysCore", "StrideArra
 git-tree-sha1 = "60ddad9465f822f1f4311328b168f0c65d97717a"
 uuid = "33b4df10-0173-11e9-2a0c-851a7edac40e"
 version = "0.2.22"
+
+[[deps.VectorizedStatistics]]
+deps = ["LoopVectorization", "SnoopPrecompile", "Static"]
+git-tree-sha1 = "3470f9b9878b3ed23e5112129485ea4d5b865fea"
+uuid = "3b853605-1c98-4422-8364-4bd93ee0529e"
+version = "0.5.1"
 
 [[deps.VersionParsing]]
 git-tree-sha1 = "58d6e80b4ee071f5efd07fda82cb9fbe17200868"
