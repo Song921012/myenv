@@ -441,7 +441,7 @@ poorman, pscl, psych, quantreg, rmarkdown, rms, robustbase,
 robustlmm, rstanarm (>= 2.21.1), rstantools, rstudioapi,
 sandwich, speedglm, splines, statmod, survey, survival,
 testthat, truncreg, tweedie, VGAM",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
-"isoband","isoband","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.6",NA,NA,"grid, utils",NA,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+"isoband","isoband","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.7",NA,NA,"grid, utils",NA,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
 testthat, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "iterators","iterators","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.14",NA,"R (>= 2.5.0), utils",NA,NA,"RUnit, foreach",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.2.2"
 "jpeg","jpeg","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1-10",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
