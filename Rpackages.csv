@@ -75,9 +75,9 @@ knitr, magrittr, microbenchmark, rmarkdown, testthat (>=
 3.0.4), tinytest (>= 1.1.0), tibble",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "class","class","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","7.3-20","recommended","R (>= 3.0.0), stats, utils","MASS",NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "classInt","classInt","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4-8",NA,"R (>= 2.2)","grDevices, stats, graphics, e1071, class, KernSmooth",NA,"spData (>= 0.2.6.2), units, knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
-"cli","cli","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.4.1",NA,"R (>= 3.4)","utils",NA,"callr, covr, digest, glue (>= 1.6.0), grDevices, htmltools,
-htmlwidgets, knitr, methods, mockery, processx, ps (>=
-1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
+"cli","cli","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.5.0",NA,"R (>= 3.4)","utils",NA,"callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,
+htmltools, htmlwidgets, knitr, methods, mockery, processx, ps
+(>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
 rstudioapi, testthat, tibble, whoami, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "clipr","clipr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.8.0",NA,NA,"utils",NA,"covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
 2.0.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
@@ -544,8 +544,9 @@ shadowtext, tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "numDeriv","numDeriv","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2016.8-1.1",NA,"R (>= 2.11.1)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
 "oai","oai","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.0",NA,NA,"xml2 (>= 1.0.0), httr (>= 1.2.0), plyr (>= 1.8.4), stringr (>=
 1.1.0), tibble (>= 1.2)",NA,"DBI, knitr, RSQLite, testthat, markdown, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"officer","officer","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.4",NA,NA,"R6, grDevices, stats, graphics, utils, zip (>= 2.1.0), uuid
-(>= 0.1-4), xml2 (>= 1.1.0)",NA,"testthat, devEMF, ggplot2, rmarkdown, base64enc, knitr, rsvg",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"officer","officer","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5.0",NA,NA,"R6, grDevices, stats, graphics, utils, zip (>= 2.1.0), uuid
+(>= 0.1-4), xml2 (>= 1.1.0)",NA,"testthat, devEMF, ggplot2, rmarkdown, base64enc, doconv (>=
+0.3.0), knitr, rsvg",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "openssl","openssl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.5",NA,NA,"askpass",NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
 jsonlite, jose, sodium",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "openxlsx","openxlsx","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.2.5.1",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, stringi, utils, zip","Rcpp","knitr, rmarkdown, roxygen2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
@@ -657,8 +658,9 @@ knitr, rmarkdown, vembedr, spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","
 "PRROC","PRROC","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.1",NA,NA,NA,NA,"testthat, ggplot2, ROCR",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "ps","ps","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7.2",NA,"R (>= 3.4)","utils",NA,"callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6,
 rlang, testthat (>= 3.0.0),",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
-"purrr","purrr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.5",NA,"R (>= 3.2)","magrittr (>= 1.5), rlang (>= 0.3.1)",NA,"covr, crayon, dplyr (>= 0.7.8), httr, knitr, rmarkdown,
-testthat, tibble, tidyselect, vctrs",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"purrr","purrr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.0",NA,"R (>= 3.2.3)","cli (>= 3.4.0), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),
+rlang (>= 0.4.10), vctrs (>= 0.5.0)","cli","covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown,
+testthat (>= 3.0.0), tibble, tidyselect",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "quantreg","quantreg","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","5.94",NA,"R (>= 3.5), stats, SparseM","methods, graphics, Matrix, MatrixModels, survival, MASS",NA,"tripack, interp, rgl, logspline, nor1mix, Formula, zoo,
 R.rsp, conquer",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "R.cache","R.cache","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.16.0",NA,"R (>= 2.14.0)","utils, R.methodsS3 (>= 1.8.1), R.oo (>= 1.24.0), R.utils (>=
@@ -963,7 +965,7 @@ testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "xtable","xtable","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8-4",NA,"R (>= 2.10.0)","stats, utils",NA,"knitr, plm, zoo, survival",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
 "xts","xts","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.12.2",NA,"zoo (>= 1.7-12)","methods","zoo","timeSeries, timeDate, tseries, chron, tis, RUnit",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "yaml","yaml","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.3.6",NA,NA,NA,NA,"RUnit",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
-"yulab.utils","yulab.utils","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.0.5",NA,NA,"utils",NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
+"yulab.utils","yulab.utils","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.0.6",NA,NA,"stats, utils",NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
 "zeallot","zeallot","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.0",NA,NA,NA,NA,"testthat, knitr, rmarkdown, purrr, magrittr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "zip","zip","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.2",NA,NA,NA,NA,"covr, processx, R6, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "zoo","zoo","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8-11",NA,"R (>= 3.1.0), stats","utils, graphics, grDevices, lattice (>= 0.20-27)",NA,"AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales,
