@@ -534,9 +534,9 @@ version = "2.3.3"
 
 [[deps.BoundaryValueDiffEq]]
 deps = ["BandedMatrices", "DiffEqBase", "FiniteDiff", "ForwardDiff", "LinearAlgebra", "NLsolve", "Reexport", "SciMLBase", "SparseArrays"]
-git-tree-sha1 = "d4d28a2ac12b6252e6b09a6eebf71f6f8795de49"
+git-tree-sha1 = "ed8e837bfb3d1e3157022c9636ec1c722b637318"
 uuid = "764a87c0-6b3e-53db-9096-fe964310641d"
-version = "2.10.0"
+version = "2.11.0"
 
 [[deps.BufferedStreams]]
 git-tree-sha1 = "bb065b14d7f941b8617bc323063dbe79f55d16ea"
@@ -2121,9 +2121,9 @@ version = "2.8.1+1"
 
 [[deps.Hecke]]
 deps = ["AbstractAlgebra", "Dates", "Distributed", "InteractiveUtils", "LazyArtifacts", "Libdl", "LinearAlgebra", "Markdown", "Nemo", "Pkg", "Printf", "Profile", "Random", "RandomExtensions", "Requires", "Serialization", "SparseArrays", "Test"]
-git-tree-sha1 = "0c94c347870046f8389b30532d7df6b49aa37abf"
+git-tree-sha1 = "433ba4b7248c7a8d85afd549598074c3e4cf33df"
 uuid = "3e1990a7-5d81-5526-99ce-9ba3ff248f21"
-version = "0.15.8"
+version = "0.16.6"
 
 [[deps.HiGHS]]
 deps = ["HiGHS_jll", "MathOptInterface", "SparseArrays"]
@@ -3079,9 +3079,9 @@ version = "0.8.0"
 
 [[deps.LowLevelParticleFilters]]
 deps = ["Distributions", "ForwardDiff", "Lazy", "LinearAlgebra", "LoopVectorization", "PDMats", "Parameters", "Polyester", "Printf", "Random", "RecipesBase", "Requires", "SciMLBase", "SimpleNonlinearSolve", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "749ff0f3418ca53e511e23e8521529b6c7769c89"
+git-tree-sha1 = "21a1bcd3fae760b4d924a8be298c1f45be29ee7b"
 uuid = "d9d29d28-c116-5dba-9239-57a5fe23875b"
-version = "3.1.2"
+version = "3.2.0"
 
 [[deps.LowRankApprox]]
 deps = ["FFTW", "FillArrays", "LinearAlgebra", "Nullables", "Random", "SparseArrays", "Test"]
@@ -5468,9 +5468,9 @@ version = "1.10.0"
 
 [[deps.StructuralIdentifiability]]
 deps = ["AbstractAlgebra", "BenchmarkTools", "DataStructures", "Dates", "Groebner", "Hecke", "IterTools", "LinearAlgebra", "Logging", "MacroTools", "ModelingToolkit", "Nemo", "Primes", "SpecialFunctions", "Test", "TestSetExtensions"]
-git-tree-sha1 = "01a9db16c5ca46e59ee6c5c853fa52b8fb5cb944"
+git-tree-sha1 = "428620c6f291d32dfa8078dba9a07e37b63a5c31"
 uuid = "220ca800-aa68-49bb-acd8-6037fa93a544"
-version = "0.4.2"
+version = "0.4.3"
 
 [[deps.Stuffing]]
 deps = ["Random"]
