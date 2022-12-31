@@ -2,7 +2,7 @@
 
 julia_version = "1.8.4"
 manifest_format = "2.0"
-project_hash = "afdc3ba920c17f2b57f5cb12a6c7573a80fcc5ed"
+project_hash = "7fb2d963186d6ec6eeb4b5ae630d2421fbf2b911"
 
 [[deps.ADNLPModels]]
 deps = ["ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays"]
@@ -4362,6 +4362,12 @@ deps = ["OrderedCollections", "Pkg", "Term", "UUIDs"]
 git-tree-sha1 = "8a01e3b51d60a91b45ae0b54eb794edd2b044474"
 uuid = "9eb5382b-762c-48ca-8139-e736883fe800"
 version = "0.4.0"
+
+[[deps.PkgGraph]]
+deps = ["DefaultApplication", "Pkg", "TOML", "URIs"]
+git-tree-sha1 = "7105e0f9ca65030a635dd18862450a2ca0c69bfc"
+uuid = "f9c1b9e4-72e8-4a14-ade5-14f45fc35f11"
+version = "0.1.0"
 
 [[deps.PkgServerClient]]
 deps = ["Downloads"]
