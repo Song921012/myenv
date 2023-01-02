@@ -2595,9 +2595,9 @@ version = "2.1.2+0"
 
 [[deps.JuMP]]
 deps = ["LinearAlgebra", "MathOptInterface", "MutableArithmetics", "OrderedCollections", "Printf", "SparseArrays"]
-git-tree-sha1 = "97792e3d04971c41fdc4917e1ae9bf6d313599e3"
+git-tree-sha1 = "821341783388cd26bbb9bab4ad9d0992e78259a4"
 uuid = "4076af6c-e467-56ae-b986-b466b2749572"
-version = "1.5.0"
+version = "1.6.0"
 
 [[deps.JuliaFormatter]]
 deps = ["CSTParser", "CommonMark", "DataStructures", "Glob", "Pkg", "Tokenize"]
@@ -3315,10 +3315,10 @@ uuid = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
 version = "0.8.41"
 
 [[deps.ManifoldsBase]]
-deps = ["LinearAlgebra", "Markdown"]
-git-tree-sha1 = "f4b2d6a9f16fb930de07abf3123e44261d3a7bbf"
+deps = ["LinearAlgebra", "Markdown", "Random"]
+git-tree-sha1 = "c92e14536ba3c1b854676ba067926dbffe3624a9"
 uuid = "3362f125-f0bb-47a3-aa74-596ffd7ef2fb"
-version = "0.13.27"
+version = "0.13.28"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "StaticArrays", "Statistics", "Test"]
@@ -3353,9 +3353,9 @@ version = "1.2.0"
 
 [[deps.MathOptInterface]]
 deps = ["BenchmarkTools", "CodecBzip2", "CodecZlib", "DataStructures", "ForwardDiff", "JSON", "LinearAlgebra", "MutableArithmetics", "NaNMath", "OrderedCollections", "Printf", "SparseArrays", "SpecialFunctions", "Test", "Unicode"]
-git-tree-sha1 = "34bc4ea9d1b1ee5da976bc88e5546df98872c56f"
+git-tree-sha1 = "f21d9bb78cea58d9b535b9d9f2a1e601112ef0ed"
 uuid = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-version = "1.11.1"
+version = "1.11.2"
 
 [[deps.MathOptSetDistances]]
 deps = ["BlockDiagonals", "ChainRulesCore", "FillArrays", "LinearAlgebra", "MathOptInterface", "StaticArrays"]
@@ -4364,10 +4364,10 @@ uuid = "9eb5382b-762c-48ca-8139-e736883fe800"
 version = "0.4.0"
 
 [[deps.PkgGraph]]
-deps = ["DefaultApplication", "Pkg", "TOML", "URIs"]
-git-tree-sha1 = "7105e0f9ca65030a635dd18862450a2ca0c69bfc"
+deps = ["DefaultApplication", "TOML", "URIs"]
+git-tree-sha1 = "1bd6585d63476afd34ccc7221317db3086d70e7e"
 uuid = "f9c1b9e4-72e8-4a14-ade5-14f45fc35f11"
-version = "0.1.0"
+version = "0.2.0"
 
 [[deps.PkgServerClient]]
 deps = ["Downloads"]
@@ -5014,9 +5014,9 @@ version = "0.1.17"
 
 [[deps.SciMLSensitivity]]
 deps = ["Adapt", "ArrayInterfaceCore", "ArrayInterfaceTracker", "Cassette", "ChainRulesCore", "DiffEqBase", "DiffEqCallbacks", "DiffEqNoiseProcess", "DiffRules", "Distributions", "EllipsisNotation", "Enzyme", "FiniteDiff", "ForwardDiff", "FunctionWrappersWrappers", "GPUArraysCore", "LinearAlgebra", "LinearSolve", "Markdown", "OrdinaryDiffEq", "Parameters", "PreallocationTools", "QuadGK", "Random", "RandomNumbers", "RecursiveArrayTools", "Reexport", "ReverseDiff", "SciMLBase", "StaticArrays", "Statistics", "StochasticDiffEq", "Tracker", "Zygote", "ZygoteRules"]
-git-tree-sha1 = "47008dd6b54b0f9b7ba88b6ec383c4e55ede04b3"
+git-tree-sha1 = "98a21065f07cf44bf7dc0d69c9805ac5325a19c7"
 uuid = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
-version = "7.11.1"
+version = "7.12.0"
 
 [[deps.ScientificTypes]]
 deps = ["CategoricalArrays", "ColorTypes", "Dates", "Distributions", "PrettyTables", "Reexport", "ScientificTypesBase", "StatisticalTraits", "Tables"]
@@ -5237,7 +5237,7 @@ version = "2.1.7"
 
 [[deps.SpecialMatrices]]
 deps = ["LinearAlgebra", "Polynomials"]
-git-tree-sha1 = "4aba0dca9f3b539180d1e5b06f851c29dbe0c815"
+git-tree-sha1 = "2be651cbf3f70c0e52100b7a06d71b0dfa2362ab"
 repo-rev = "master"
 repo-url = "https://github.com/JuliaMatrices/SpecialMatrices.jl.git"
 uuid = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
