@@ -219,9 +219,9 @@ version = "0.13.14"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "Combinatorics", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "b97be018411c0e62ad6ca51ea685657ce350e8ea"
+git-tree-sha1 = "3e68be1726486965ade89fcb3270e82f959cfcc5"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.7.56"
+version = "0.7.57"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
@@ -616,9 +616,9 @@ version = "0.10.9"
 
 [[deps.CUDA]]
 deps = ["AbstractFFTs", "Adapt", "BFloat16s", "CEnum", "CompilerSupportLibraries_jll", "ExprTools", "GPUArrays", "GPUCompiler", "LLVM", "LazyArtifacts", "Libdl", "LinearAlgebra", "Logging", "Printf", "Random", "Random123", "RandomNumbers", "Reexport", "Requires", "SparseArrays", "SpecialFunctions", "TimerOutputs"]
-git-tree-sha1 = "49549e2c28ffb9cc77b3689dc10e46e6271e9452"
+git-tree-sha1 = "a56dff7bc49b5d5ac43d2c10eb2aef94becd5251"
 uuid = "052768ef-5323-5732-b1bb-66c8b64840ba"
-version = "3.12.0"
+version = "3.12.1"
 
 [[deps.CUDAKernels]]
 deps = ["Adapt", "CUDA", "KernelAbstractions", "StaticArrays", "UnsafeAtomicsLLVM"]
@@ -1866,9 +1866,9 @@ version = "0.1.2"
 
 [[deps.GPUCompiler]]
 deps = ["ExprTools", "InteractiveUtils", "LLVM", "Libdl", "Logging", "TimerOutputs", "UUIDs"]
-git-tree-sha1 = "30488903139ebf4c88f965e7e396f2d652f988ac"
+git-tree-sha1 = "48832a7cacbe56e591a7bef690c78b9d00bcc692"
 uuid = "61eb1bfa-7361-4325-ad38-22787b887f55"
-version = "0.16.7"
+version = "0.17.1"
 
 [[deps.GR]]
 deps = ["Artifacts", "Base64", "DelimitedFiles", "Downloads", "GR_jll", "HTTP", "JSON", "Libdl", "LinearAlgebra", "Pkg", "Preferences", "Printf", "Random", "Serialization", "Sockets", "TOML", "Tar", "Test", "UUIDs", "p7zip_jll"]
@@ -3068,9 +3068,9 @@ version = "1.0.3"
 
 [[deps.LoopVectorization]]
 deps = ["ArrayInterface", "ArrayInterfaceCore", "ArrayInterfaceOffsetArrays", "ArrayInterfaceStaticArrays", "CPUSummary", "ChainRulesCore", "CloseOpenIntervals", "DocStringExtensions", "ForwardDiff", "HostCPUFeatures", "IfElse", "LayoutPointers", "LinearAlgebra", "OffsetArrays", "PolyesterWeave", "SIMDDualNumbers", "SIMDTypes", "SLEEFPirates", "SnoopPrecompile", "SpecialFunctions", "Static", "ThreadingUtilities", "UnPack", "VectorizationBase"]
-git-tree-sha1 = "bfb863cfc4ca05ab7804b46ee322530ea95afc67"
+git-tree-sha1 = "155132d68bc33c826dbdeb452c5d0a79e2d0e586"
 uuid = "bdcacae8-1622-11e9-2a5c-532679323890"
-version = "0.12.145"
+version = "0.12.146"
 
 [[deps.LossFunctions]]
 deps = ["InteractiveUtils", "Markdown", "RecipesBase"]
@@ -3670,16 +3670,16 @@ uuid = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 version = "4.5.1"
 
 [[deps.NNlib]]
-deps = ["Adapt", "ChainRulesCore", "LinearAlgebra", "Pkg", "Requires", "Statistics"]
-git-tree-sha1 = "a62f446a8cff1bd161b938e105666cb517616d3a"
+deps = ["Adapt", "ChainRulesCore", "LinearAlgebra", "Pkg", "Random", "Requires", "Statistics"]
+git-tree-sha1 = "ea118791d386e0d52f3649f680642da6512c94af"
 uuid = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
-version = "0.8.13"
+version = "0.8.14"
 
 [[deps.NNlibCUDA]]
 deps = ["Adapt", "CUDA", "LinearAlgebra", "NNlib", "Random", "Statistics"]
-git-tree-sha1 = "4429261364c5ea5b7308aecaa10e803ace101631"
+git-tree-sha1 = "538f90fc503946a3134a48e1026035fcf71248f4"
 uuid = "a00861dc-f156-4864-bf3c-e6376f28a68d"
-version = "0.2.4"
+version = "0.2.5"
 
 [[deps.NOMAD]]
 deps = ["Libdl", "LinearAlgebra", "NOMAD_jll", "SparseArrays", "Test", "Tulip"]
@@ -4365,10 +4365,10 @@ uuid = "9eb5382b-762c-48ca-8139-e736883fe800"
 version = "0.4.0"
 
 [[deps.PkgGraph]]
-deps = ["DefaultApplication", "TOML", "URIs"]
-git-tree-sha1 = "1bd6585d63476afd34ccc7221317db3086d70e7e"
+deps = ["DefaultApplication", "EzXML", "TOML", "URIs"]
+git-tree-sha1 = "f50d2a40208b2ad1f65ca0ad7b45aebb3953e5d1"
 uuid = "f9c1b9e4-72e8-4a14-ade5-14f45fc35f11"
-version = "0.2.0"
+version = "0.3.0"
 
 [[deps.PkgServerClient]]
 deps = ["Downloads"]
@@ -4586,9 +4586,9 @@ version = "0.15.3"
 
 [[deps.PyCall]]
 deps = ["Conda", "Dates", "Libdl", "LinearAlgebra", "MacroTools", "Serialization", "VersionParsing"]
-git-tree-sha1 = "53b8b07b721b77144a0fbbbc2675222ebf40a02d"
+git-tree-sha1 = "b32c4b415f41f10c671cba02ae3275027dea8892"
 uuid = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
-version = "1.94.1"
+version = "1.95.0"
 
 [[deps.PyPlot]]
 deps = ["Colors", "LaTeXStrings", "PyCall", "Sockets", "Test", "VersionParsing"]
@@ -4840,9 +4840,9 @@ version = "1.14.4"
 
 [[deps.Revise]]
 deps = ["CodeTracking", "Distributed", "FileWatching", "JuliaInterpreter", "LibGit2", "LoweredCodeUtils", "OrderedCollections", "Pkg", "REPL", "Requires", "UUIDs", "Unicode"]
-git-tree-sha1 = "dad726963ecea2d8a81e26286f625aee09a91b7c"
+git-tree-sha1 = "fd5dba2f01743555d8435f7c96437b29eae81a17"
 uuid = "295af30f-e4ad-537b-8983-00126c2a3abe"
-version = "3.4.0"
+version = "3.5.0"
 
 [[deps.Richardson]]
 deps = ["LinearAlgebra"]
@@ -5765,9 +5765,9 @@ version = "0.5.25"
 
 [[deps.Tracker]]
 deps = ["Adapt", "DiffRules", "ForwardDiff", "Functors", "LinearAlgebra", "LogExpFunctions", "MacroTools", "NNlib", "NaNMath", "Optimisers", "Printf", "Random", "Requires", "SpecialFunctions", "Statistics"]
-git-tree-sha1 = "d963aad627fd7af56fbbfee67703c2f7bfee9dd7"
+git-tree-sha1 = "77817887c4b414b9c6914c61273910e3234eb21c"
 uuid = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
-version = "0.2.22"
+version = "0.2.23"
 
 [[deps.TrajectoryOptimization]]
 deps = ["DocStringExtensions", "FiniteDiff", "ForwardDiff", "LinearAlgebra", "RobotDynamics", "RobotZoo", "Rotations", "SparseArrays", "StaticArrays"]
@@ -5845,10 +5845,10 @@ uuid = "981d1d27-644d-49a2-9326-4793e63143c3"
 version = "0.1.0"
 
 [[deps.TriplotRecipes]]
-deps = ["PlotUtils", "RecipesBase", "TriplotBase"]
-git-tree-sha1 = "75e7835a454e6f2e0a3c5e29a2702d1e9c8c053d"
+deps = ["RecipesBase", "TriplotBase"]
+git-tree-sha1 = "fceb3b0f37ff6ccf3c70b9c5198d2eefec46ada0"
 uuid = "808ab39a-a642-4abf-81ff-4cb34ebbffa3"
-version = "0.1.1"
+version = "0.1.2"
 
 [[deps.Trixi]]
 deps = ["CodeTracking", "ConstructionBase", "EllipsisNotation", "FillArrays", "ForwardDiff", "GeometryBasics", "HDF5", "IfElse", "LinearAlgebra", "LinearMaps", "LoopVectorization", "MPI", "MuladdMacro", "Octavian", "OffsetArrays", "P4est", "Polyester", "Printf", "RecipesBase", "Reexport", "Requires", "SciMLBase", "Setfield", "SparseArrays", "StartUpDG", "Static", "StaticArrays", "StrideArrays", "StructArrays", "SummationByPartsOperators", "TimerOutputs", "Triangulate", "TriplotBase", "TriplotRecipes", "UnPack"]
