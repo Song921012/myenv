@@ -38,7 +38,7 @@ dependencies:
   - curl=7.87.0=hdc1c0ab_0
   - cyipopt=1.2.0=py310h914aaf3_0
   - dbus=1.13.6=h5008d03_3
-  - debugpy=1.6.4=py310hd8f1fbe_0
+  - debugpy=1.6.5=py310heca2aa9_0
   - decorator=5.1.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
   - eigen=3.4.0=h4bd325d_0
