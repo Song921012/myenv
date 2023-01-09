@@ -814,7 +814,7 @@ xtable, xts (>= 0.9-7)",NA,"cmdstanr (>= 0.4.0), coda, knitr (>= 1.9), posterior
 1.0.0), rmarkdown (>= 0.8.1), rsconnect (>= 0.4.2), rstanarm
 (>= 2.17.4), testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
 "shinythemes","shinythemes","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.0",NA,"R (>= 3.0.0)","shiny (>= 0.11)",NA,NA,NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"shinyWidgets","shinyWidgets","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.7.5",NA,"R (>= 3.1.0)","anytime, bslib, sass, shiny (>= 1.6.0), htmltools (>= 0.5.1),
+"shinyWidgets","shinyWidgets","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.7.6",NA,"R (>= 3.1.0)","anytime, bslib, sass, shiny (>= 1.6.0), htmltools (>= 0.5.1),
 jsonlite, grDevices, rlang",NA,"shinydashboard, testthat, covr, shinydashboardPlus (>=
 2.0.0), bs4Dash, argonR, argonDash, tablerDash, ggplot2, DT,
 scales",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
