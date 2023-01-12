@@ -586,16 +586,16 @@ graphics",NA,"knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
 "pbapply","pbapply","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.6-0",NA,"R (>= 3.2.0)","parallel",NA,"shiny",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
 "pbkrtest","pbkrtest","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5.1",NA,"R (>= 3.5.0), lme4 (>= 1.1.10)","broom, dplyr, magrittr, MASS, Matrix (>= 1.2.3), methods,
 numDeriv, parallel, knitr",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
-"performance","performance","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.10.1",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), insight (>= 0.18.7), datawizard (>=
-0.6.2), methods, stats, utils",NA,"AER, afex, BayesFactor, bayesplot, betareg, bigutilsr,
+"performance","performance","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.10.2",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), insight (>= 0.18.8), datawizard (>=
+0.6.5), methods, stats, utils",NA,"AER, afex, BayesFactor, bayesplot, betareg, bigutilsr,
 blavaan, boot, brms, car, CompQuadForm, correlation, cplm,
 dbscan, estimatr, fixest, forecast, gamm4, ggplot2, glmmTMB,
-graphics, httr, ICS, ICSOutlier, ISLR, lavaan, lme4, lmtest,
-loo, magrittr, MASS, Matrix, mclust, metafor, mgcv, mlogit,
+graphics, Hmisc, httr, ICS, ICSOutlier, ISLR, lavaan, lme4,
+lmtest, loo, MASS, Matrix, mclust, metafor, mgcv, mlogit,
 multimode, nlme, nonnest2, ordinal, parallel, parameters,
 patchwork, poorman, pscl, psych, randomForest, rmarkdown,
-rstanarm, rstantools, sandwich, see, survey, survival,
-testthat, tweedie, VGAM",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+rstanarm, rstantools, sandwich, see (>= 0.7.4), survey,
+survival, testthat, tweedie, VGAM",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "pheatmap","pheatmap","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.12",NA,"R (>= 2.0)","grid, RColorBrewer, scales, gtable, stats, grDevices, graphics",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
 "phosphoricons","phosphoricons","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.2",NA,"R (>= 2.10)","htmltools (>= 0.3)",NA,"covr, shiny, tinytest",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "pillar","pillar","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8.1",NA,NA,"cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8
@@ -899,7 +899,7 @@ purrr (>= 0.3.4), readr (>= 2.1.1), readxl (>= 1.3.1), reprex
 (>= 2.0.1), rlang (>= 0.4.12), rstudioapi (>= 0.13), rvest (>=
 1.0.2), stringr (>= 1.4.0), tibble (>= 3.1.6), tidyr (>=
 1.1.4), xml2 (>= 1.3.3)",NA,"covr, feather, glue, knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"timechange","timechange","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.1",NA,"R (>= 3.3)",NA,"cpp11 (>= 0.2.7)","testthat, knitr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"timechange","timechange","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.0",NA,"R (>= 3.3)",NA,"cpp11 (>= 0.2.7)","testthat (>= 0.7.1.99), knitr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "tinytex","tinytex","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.43",NA,NA,"xfun (>= 0.29)",NA,"testit, rstudioapi",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "treedataverse","treedataverse","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.0.1",NA,"R (>= 3.1)","ape, cli (>= 1.0.0), crayon (>= 1.3.4), dplyr (>= 0.7.4),
 purrr (>= 0.2.4), magrittr, rstudioapi (>= 0.7), tidytree,
