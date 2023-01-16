@@ -82,9 +82,9 @@ version = "0.8.2"
 
 [[deps.AbstractPPL]]
 deps = ["AbstractMCMC", "DensityInterface", "Random", "Setfield", "SparseArrays"]
-git-tree-sha1 = "0d0eeacc0d4849ab941dce68be056fac76b154b1"
+git-tree-sha1 = "8f5d88dc15df270d8778ade9442d608939c75659"
 uuid = "7a57a42e-76ec-4ea3-a279-07e840d6d9cf"
-version = "0.6.1"
+version = "0.5.3"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -1368,12 +1368,10 @@ uuid = "bbc10e6e-7c05-544b-b16e-64fede858acb"
 version = "3.4.2"
 
 [[deps.DynamicPPL]]
-deps = ["AbstractMCMC", "AbstractPPL", "BangBang", "Bijectors", "ChainRulesCore", "ConstructionBase", "Distributions", "DocStringExtensions", "LinearAlgebra", "MacroTools", "OrderedCollections", "Random", "Setfield", "Test", "ZygoteRules"]
-git-tree-sha1 = "9249014997c811f702ba6858b3895b6d473b63d2"
-repo-rev = "master"
-repo-url = "https://github.com/Mathepia/DynamicPPL.jl.git"
+deps = ["AbstractMCMC", "AbstractPPL", "BangBang", "Bijectors", "ChainRulesCore", "ConstructionBase", "Distributions", "DocStringExtensions", "LinearAlgebra", "LogDensityProblems", "MacroTools", "OrderedCollections", "Random", "Setfield", "Test", "ZygoteRules"]
+git-tree-sha1 = "ee393df18602fb7cc5584ff22f4c9fe9a97f889a"
 uuid = "366bfd00-2699-11ea-058f-f148b4cae6d8"
-version = "0.21.3"
+version = "0.21.5"
 
 [[deps.DynamicPolynomials]]
 deps = ["DataStructures", "Future", "LinearAlgebra", "MultivariatePolynomials", "MutableArithmetics", "Pkg", "Reexport", "Test"]
@@ -3273,9 +3271,9 @@ version = "0.13.29"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "9d604c5ccb2a4ec03f854099ce0437898235757c"
+git-tree-sha1 = "1d8325d7ebdc247ff76a7f80bc8ccab6f1c5a784"
 uuid = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
-version = "0.4.1"
+version = "0.4.2"
 
 [[deps.ManualMemory]]
 git-tree-sha1 = "bcaef4fc7a0cfe2cba636d84cda54b5e4e4ca3cd"
@@ -4992,9 +4990,9 @@ version = "0.3.5"
 
 [[deps.SentinelArrays]]
 deps = ["Dates", "Random"]
-git-tree-sha1 = "efd23b378ea5f2db53a55ae53d3133de4e080aa9"
+git-tree-sha1 = "c02bd3c9c3fc8463d3591a62a378f90d2d8ab0f3"
 uuid = "91c51154-3ec4-41a3-a24f-3f23e20d615c"
-version = "1.3.16"
+version = "1.3.17"
 
 [[deps.SequentialMonteCarlo]]
 deps = ["NonUniformRandomVariateGeneration", "RNGPool", "Statistics"]
