@@ -82,6 +82,7 @@ yay -S obsidian zoom thunderbird xorg-xdm okular microsoft-edge-stable-bin gwenv
 yay -S xdman
 sudo pacman -S libreoffice-still libreoffice-still-zh-cn screenkey
 sudo pacman -S flatpak
+yay -S popsicle # 系统盘制作器
 #yay -S yt-dlg #youtube download
 flatpak install wemeet # tab tengxunhuiyi
 #flatpak install netease # tab wangyiyingyue
