@@ -1,4 +1,5 @@
 # Basic setup
+# Install fonts
 cd ~/Downloads
 git clone https://github.com/ronniedroid/getnf.git
 cd getnf
@@ -8,6 +9,10 @@ cd
 
 # add pacman repo
 sudo pacman -Syyu
+yay -Syyu archcraft-i3wm
+yay -Syyu archcraft-dwm
+yay -Syyu archcraft-xmonad
+yay -Syyu archcraft-berry
 
 ## archlinuxcn
 #[archlinuxcn/repo: Arch Linux CN Repository](https://github.com/archlinuxcn/repo)
