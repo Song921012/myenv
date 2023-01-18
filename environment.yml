@@ -398,7 +398,7 @@ dependencies:
       - docutils==0.17.1
       - dtw-python==1.3.0
       - dymos==1.6.1
-      - dynamax==0.1.0+121.g304ad88
+      - dynamax==0.1.0+130.g7100633
       - echarts-china-cities-pypkg==0.0.9
       - echarts-china-counties-pypkg==0.0.2
       - echarts-china-misc-pypkg==0.0.1
