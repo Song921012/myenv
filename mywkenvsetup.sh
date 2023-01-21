@@ -33,5 +33,7 @@ git clone https://github.com/Mathepia/MathepiaPrograms.git
 git clone https://github.com/Mathepia/MathepiaTutorial.git
 ## MathEpiTutorial
 git clone https://github.com/Song921012/MathEpiDeepLearningTutorial.git
+## awesome-sciml
+git clone https://github.com/Mathepia/awesome-sciml.git
 
 cd
