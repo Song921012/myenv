@@ -42,7 +42,7 @@ cd ~/.julia/dev/MathepiaOptimal.jl
 git pull
 cd ~/.julia/dev/MathepiaModels.jl
 git pull
-cd ~/.julia/dev/OptLibrary
+cd ~/.julia/dev/OptLibrary.jl
 git pull
 cd
 echo "completed papers"

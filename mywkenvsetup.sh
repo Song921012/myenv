@@ -36,4 +36,12 @@ git clone https://github.com/Song921012/MathEpiDeepLearningTutorial.git
 ## awesome-sciml
 git clone https://github.com/Mathepia/awesome-sciml.git
 
+cd ~/.julia/dev
+git clone https://github.com/Mathepia/Mathepia.jl.git
+git clone https://github.com/Mathepia/MathepiaData.jl.git
+git clone https://github.com/Mathepia/MathepiaInference.jl.git
+git clone https://github.com/Mathepia/MathepiaOptimal.jl.git
+git clone https://github.com/Mathepia/MathepiaModels.jl.git
+git clone https://github.com/Song921012/OptLibrary.jl.git
+
 cd
