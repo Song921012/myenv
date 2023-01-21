@@ -3,6 +3,7 @@ cd ~/Downloads
 git clone https://github.com/ronniedroid/getnf.git
 cd getnf
 ./install.sh
+sudo apt install fzf
 cd
 sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions -y
@@ -123,6 +124,8 @@ sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libgsl-
 sudo apt-get install graphviz pandoc inkscape
 sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
+sudo apt-get install coinor-libipopt-dev
+sudo apt install paraview
 wget https://apt.llvm.org/llvm.sh                                                                                       via 🅒 base took 44s at 15:00 
 chmod +x llvm.sh
 sudo ./llvm.sh all
@@ -135,7 +138,7 @@ conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
 conda install mamba -n base -c conda-forge
-
+#conda install -c conda-forge gdal gcc gxx gfortran pkgconfig mpich armadillo cmake ninja blas lapack suitesparse ipopt llvm-tools sundials cppad nlopt
 # nix
 #sh <(curl -L https://nixos.org/nix/install) --daemon
 
@@ -191,3 +194,15 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 sudo add-apt-repository ppa:poplite/qbittorrent-enhanced
 sudo apt update
 sudo apt install qbittorrent-enhanced
+
+sudo curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
+sudo apt-get install gdebi-core
+sudo gdebi quarto-linux-amd64.deb
+
+
+
+# debfile: qq, Rstudio
+# listen1 appimage
+# mathpix appimage
+# flatpak: obsidian wemeet zoom losslesscut thunderbird xmind screenkey okular gwenview slack wezterm geany VLC
+# docker dockerinstall.sh

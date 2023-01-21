@@ -1,7 +1,7 @@
 export pythonversion=3.11
 export juliabigversion=1.8
-export juliasmallversion=1.8.2
-export juliadevversion=1.9
+export juliasmallversion=1.8.5
+export juliadevversion=1.10
 # linux
 cd
 git clone https://github.com/Song921012/myenv.git

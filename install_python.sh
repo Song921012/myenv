@@ -3,7 +3,7 @@ read pythonversion
 conda activate
 conda install -c conda-forge python=$pythonversion jupyter jupyterlab
 pip install --upgrade pip
-pip install torch torchvision torchaudio
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -U "sktime[all_extras]"
 pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pip install -U tensorflow

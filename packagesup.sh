@@ -44,29 +44,29 @@ make -j6 build
 #myenv
 ###you have to setup conda development environment first
 ## ColPack
-myenv
-sudo rm -rf ColPack && git clone https://github.com/CSCsw/ColPack.git  #Download ColPack
-cd ColPack             # ColPack Root Directory
-cd build/automake      # automake folder
-autoreconf -vif        # generate configure files based on the machince
-mkdir mywork
-cd mywork        # modify fullpath to your destination folder if need
-../configure  --prefix=/usr/local                   
-make -j 6             # Where "4" is the number of cores on your machine
-sudo make install  
+#myenv
+#sudo rm -rf ColPack && git clone https://github.com/CSCsw/ColPack.git  #Download ColPack
+#cd ColPack             # ColPack Root Directory
+#cd build/automake      # automake folder
+#autoreconf -vif        # generate configure files based on the machince
+#mkdir mywork
+#cd mywork        # modify fullpath to your destination folder if need
+#../configure  --prefix=/usr/local                   
+#make -j 6             # Where "4" is the number of cores on your machine
+#sudo make install  
 
 ## Adol-C
-conda deactivate
-myenv
-sudo rm -rf ADOL-C && git clone https://github.com/coin-or/ADOL-C.git
-cd ADOL-C
-autoreconf -fi
-./configure --prefix=/usr/local --enable-sparse
-make
-sudo make install
-conda activate base
+#conda deactivate
+#myenv
+#sudo rm -rf ADOL-C && git clone https://github.com/coin-or/ADOL-C.git
+#cd ADOL-C
+#autoreconf -fi
+#./configure --prefix=/usr/local --enable-sparse
+#make
+#sudo make install
+#conda activate base
 ## psopt 先搭建conda编译环境
-conda deactivate
+#conda deactivate
 #yay -S coin-or-ipopt
 myenv
 cd psopt
@@ -81,15 +81,15 @@ cd ./psopt/build/examples/delay1
 ./delay1
 conda activate base
 ## ifopt
-myenv
-cd ifopt
-sudo rm -rf build
-mkdir build
-cd build
-cmake ..
-make
-sudo make install
-myenv
+#myenv
+#cd ifopt
+#sudo rm -rf build
+#mkdir build
+#cd build
+#cmake ..
+#make
+#sudo make install
+#myenv
 
 ## pyopt
 #myenv

@@ -49,8 +49,6 @@ alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && c
 
 
 
-
-
 ## CD
 
 alias wkspace="cd /home/aidishage/Desktop/MyProjects"
@@ -62,7 +60,8 @@ alias mytutor="cd ~/Desktop/MyProjects/MathEpiDeepLearningTutorial"
 alias shortcuts="code ~/myenv/shortcuts.md"
 ## Others
 alias fdu="du -l --max-depth=1 | sort -nr"
-alias mathpix="/home/aidishage/myenv/src/Mathpix_Snipping_Tool-x86_64.v03.00.0091.AppImage"
+alias mathpix="/home/aidishage/myenv/src/Mathpix_Snipping_Tool-*.AppImage"
+alias music="/home/aidishage/myenv/src/listen1* &"
 alias gitsync="git pull && git add -A && git commit -m 'update' && git push"
 #alias make="sudo make"
 #alias julia="conda deactivate && julia"
@@ -144,7 +143,7 @@ export MYARCH="pc64.lnx.gfo"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
-#ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -277,5 +276,11 @@ unset __conda_setup
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 source <("/home/aidishage/.nextstrain/cli-standalone/nextstrain" init-shell zsh)
+
+PATH="/home/aidishage/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/aidishage/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/aidishage/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/aidishage/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/aidishage/perl5"; export PERL_MM_OPT;
