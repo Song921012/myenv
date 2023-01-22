@@ -81,6 +81,11 @@ echo "MathEpiTutorial"
 cd ~/Desktop/WebBookPapers/MathEpiDeepLearningTutorial
 git pull
 git add -A && git commit -m "update" && git push
+
+cd ~/.zotero
+git pull
+git add -A && git commit -m "update" && git push
+
 echo "Done"
 cd
 

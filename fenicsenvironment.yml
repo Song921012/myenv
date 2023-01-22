@@ -32,7 +32,7 @@ dependencies:
   - certifi=2022.12.7=pyhd8ed1ab_0
   - cffi=1.15.1=py310h255011f_3
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
-  - cmake=3.25.1=h816a3e0_0
+  - cmake=3.25.2=h077f3f9_0
   - comm=0.1.2=pyhd8ed1ab_0
   - cryptography=39.0.0=py310h34c0648_0
   - curl=7.87.0=hdc1c0ab_0
@@ -65,7 +65,7 @@ dependencies:
   - gcc_impl_linux-64=10.4.0=h5231bdf_19
   - gcc_linux-64=10.4.0=h9215b83_11
   - gettext=0.21.1=h27087fc_0
-  - git=2.39.0=pl5321h693f4a3_0
+  - git=2.39.1=pl5321h693f4a3_0
   - glib=2.74.1=h6239696_1
   - glib-tools=2.74.1=h6239696_1
   - gmp=6.2.1=h58526e2_0
@@ -82,7 +82,7 @@ dependencies:
   - importlib-metadata=6.0.0=pyha770c72_0
   - importlib_resources=5.10.2=pyhd8ed1ab_0
   - ipopt=3.14.10=hf60ba86_0
-  - ipykernel=6.20.1=pyh210e3f2_0
+  - ipykernel=6.20.2=pyh210e3f2_0
   - ipython=8.8.0=pyh41d4057_0
   - ipython_genutils=0.2.0=py_1
   - ipywidgets=8.0.4=pyhd8ed1ab_0
@@ -102,7 +102,7 @@ dependencies:
   - jupyter_server_terminals=0.4.4=pyhd8ed1ab_1
   - jupyterlab=3.5.2=pyhd8ed1ab_0
   - jupyterlab_pygments=0.2.2=pyhd8ed1ab_0
-  - jupyterlab_server=2.18.0=pyhd8ed1ab_0
+  - jupyterlab_server=2.19.0=pyhd8ed1ab_0
   - jupyterlab_widgets=3.0.5=pyhd8ed1ab_0
   - kernel-headers_linux-64=2.6.32=he073ed8_15
   - keyutils=1.6.1=h166bdaf_0
@@ -128,7 +128,7 @@ dependencies:
   - libgcrypt=1.10.1=h166bdaf_0
   - libgfortran-ng=12.2.0=h69a702a_19
   - libgfortran5=12.2.0=h337968e_19
-  - libgit2=1.5.0=hdb3ecda_1
+  - libgit2=1.5.1=h1f77430_0
   - libglib=2.74.1=h606061b_1
   - libgomp=12.2.0=h65d4601_19
   - libgpg-error=1.46=h620e276_0
@@ -161,16 +161,16 @@ dependencies:
   - libvorbis=1.3.7=h9c3ff4c_0
   - libxcb=1.13=h7f98852_1004
   - libxkbcommon=1.0.3=he3ba5ed_0
-  - libxml2=2.10.3=hca2bb57_1
+  - libxml2=2.10.3=h7463322_0
   - libzlib=1.2.13=h166bdaf_4
   - lz4-c=1.9.3=h9c3ff4c_1
-  - markupsafe=2.1.1=py310h5764c6d_2
+  - markupsafe=2.1.2=py310h1fa729e_0
   - matplotlib-inline=0.1.6=pyhd8ed1ab_0
   - mbedtls=3.3.0=hcb278e6_0
   - mdolab-baseclasses=1.7.0=pyhd8ed1ab_0
   - metis=5.1.0=h58526e2_1006
   - mistune=2.0.4=pyhd8ed1ab_0
-  - mpc=1.2.1=h9f54685_0
+  - mpc=1.3.1=hfe3b2da_0
   - mpfr=4.1.0=h9202a9a_1
   - mpg123=1.31.2=hcb278e6_0
   - mpi=1.0=mpich
@@ -180,13 +180,13 @@ dependencies:
   - mumps-include=5.2.1=ha770c72_11
   - mumps-mpi=5.2.1=h7ee95aa_11
   - mumps-seq=5.2.1=h2104b81_11
-  - mysql-common=8.0.31=h26416b9_0
-  - mysql-libs=8.0.31=hbc51c84_0
+  - mysql-common=8.0.32=ha901b37_0
+  - mysql-libs=8.0.32=hd7da12d_0
   - nbclassic=0.4.8=pyhd8ed1ab_0
   - nbclient=0.7.2=pyhd8ed1ab_0
-  - nbconvert=7.2.7=pyhd8ed1ab_0
-  - nbconvert-core=7.2.7=pyhd8ed1ab_0
-  - nbconvert-pandoc=7.2.7=pyhd8ed1ab_0
+  - nbconvert=7.2.8=pyhd8ed1ab_0
+  - nbconvert-core=7.2.8=pyhd8ed1ab_0
+  - nbconvert-pandoc=7.2.8=pyhd8ed1ab_0
   - nbformat=5.7.3=pyhd8ed1ab_0
   - ncurses=6.3=h27087fc_1
   - nest-asyncio=1.5.6=pyhd8ed1ab_0
@@ -241,7 +241,7 @@ dependencies:
   - python-fastjsonschema=2.16.2=pyhd8ed1ab_0
   - python-json-logger=2.0.4=pyhd8ed1ab_0
   - python_abi=3.10=3_cp310
-  - pytz=2022.7=pyhd8ed1ab_0
+  - pytz=2022.7.1=pyhd8ed1ab_0
   - pyyaml=6.0=py310h5764c6d_5
   - pyzmq=25.0.0=py310h059b190_0
   - qt-main=5.15.6=hf6cd601_5
@@ -249,7 +249,7 @@ dependencies:
   - qtconsole-base=5.4.0=pyha770c72_0
   - qtpy=2.3.0=pyhd8ed1ab_0
   - readline=8.1.2=h0f457ee_0
-  - requests=2.28.1=pyhd8ed1ab_1
+  - requests=2.28.2=pyhd8ed1ab_0
   - rfc3339-validator=0.1.4=pyhd8ed1ab_0
   - rfc3986-validator=0.1.1=pyh9f0ad1d_0
   - rhash=1.4.3=h166bdaf_0
@@ -257,7 +257,7 @@ dependencies:
   - scipy=1.10.0=py310h8deb116_0
   - scotch=6.0.9=hb2e6521_2
   - send2trash=1.8.0=pyhd8ed1ab_0
-  - setuptools=65.6.3=pyhd8ed1ab_0
+  - setuptools=66.1.1=pyhd8ed1ab_0
   - sip=6.7.5=py310hd8f1fbe_0
   - six=1.16.0=pyh6c4a22f_0
   - slepc=3.17.2=real_hb19a63e_100
@@ -284,7 +284,7 @@ dependencies:
   - tzdata=2022g=h191b570_0
   - unixodbc=2.3.10=h583eb01_0
   - urllib3=1.26.14=pyhd8ed1ab_0
-  - wcwidth=0.2.5=pyh9f0ad1d_2
+  - wcwidth=0.2.6=pyhd8ed1ab_0
   - webencodings=0.5.1=py_1
   - websocket-client=1.4.2=pyhd8ed1ab_0
   - wheel=0.38.4=pyhd8ed1ab_0
@@ -301,33 +301,28 @@ dependencies:
   - zeromq=4.3.4=h9c3ff4c_1
   - zipp=3.11.0=pyhd8ed1ab_0
   - zlib=1.2.13=h166bdaf_4
-  - zstd=1.5.2=h6239696_4
+  - zstd=1.5.2=h3eb15da_6
   - pip:
-      - aiohttp==3.8.3
-      - aiosignal==1.3.1
       - arrow==1.2.3
-      - astroid==2.12.13
-      - async-timeout==4.0.2
+      - astroid==2.13.3
       - cashocs==1.8.12
       - cftime==1.6.2
-      - commonmark==0.9.1
-      - contourpy==1.0.6
+      - contourpy==1.0.7
       - cycler==0.11.0
       - dill==0.3.6
       - distlib==0.3.6
       - dolfin-adjoint==2019.1.2
       - fdm==0.4.1
       - fecr==0.1
-      - filelock==3.8.0
+      - filelock==3.9.0
       - flake8==6.0.0
       - fonttools==4.38.0
       - fqdn==1.5.1
-      - frozenlist==1.3.3
-      - gmsh==4.11.0
+      - gmsh==4.11.1
       - h5py==3.7.0
-      - imageio==2.22.4
+      - imageio==2.24.0
       - isoduration==20.11.0
-      - isort==5.10.1
+      - isort==5.11.4
       - jax==0.4.1
       - jaxfenics-adjoint==1.0.0
       - jaxlib==0.4.1+cuda11.cudnn86
@@ -337,30 +332,31 @@ dependencies:
       - jupyter-highlight-selected-word==0.2.0
       - jupyter-nbextensions-configurator==0.6.1
       - kiwisolver==1.4.4
-      - lazy-object-proxy==1.8.0
-      - lxml==4.9.1
-      - matplotlib==3.6.2
+      - lazy-object-proxy==1.9.0
+      - lxml==4.9.2
+      - markdown-it-py==2.1.0
+      - matplotlib==3.6.3
       - mccabe==0.7.0
+      - mdurl==0.1.2
       - meshio==5.3.4
       - moola==0.1.6
-      - multidict==6.0.2
       - netcdf4==1.6.2
       - nvidia-cublas-cu11==11.10.3.66
       - nvidia-cuda-nvrtc-cu11==11.7.99
       - nvidia-cuda-runtime-cu11==11.7.99
       - nvidia-cudnn-cu11==8.5.0.96
       - opt-einsum==3.3.0
-      - pandas==1.5.2
+      - pandas==1.5.3
       - patsy==0.5.3
-      - pillow==9.3.0
+      - pillow==9.4.0
       - pycodestyle==2.10.0
       - pyflakes==3.0.1
-      - pylint==2.15.7
+      - pylint==2.15.10
       - pyparsing==3.0.9
       - pyvista==0.37.0
       - radian==0.6.4
-      - rchitect==0.3.39
-      - rich==12.6.0
+      - rchitect==0.3.40
+      - rich==13.2.0
       - scooby==0.7.0
       - statsmodels==0.13.5
       - tomlkit==0.11.6
@@ -368,11 +364,9 @@ dependencies:
       - torchaudio==0.13.1
       - torchvision==0.14.1
       - uri-template==1.2.0
-      - virtualenv==20.17.0
-      - vtk==9.2.2
+      - virtualenv==20.17.1
+      - vtk==9.2.5
       - webcolors==1.12
       - wrapt==1.14.1
-      - wslink==1.9.1
       - yapf==0.32.0
-      - yarl==1.8.1
 prefix: /home/aidishage/miniconda3/envs/fenics
