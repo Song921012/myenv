@@ -29,7 +29,7 @@ httr, KernSmooth, knitr, lavaan, lme4, logspline, MASS, mclust,
 mediation, modelbased, parameters, patchwork, performance,
 quadprog, posterior, RcppEigen, rmarkdown, rstan, rstanarm,
 see, testthat, tweedie",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
-"BH","BH","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.78.0-0",NA,NA,NA,NA,NA,NA,"BSL-1.0",NA,NA,NA,NA,"no","4.2.2"
+"BH","BH","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.81.0-1",NA,NA,NA,NA,NA,NA,"BSL-1.0",NA,NA,NA,NA,"no","4.2.2"
 "BiocManager","BiocManager","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.30.19",NA,NA,"utils",NA,"BiocVersion, remotes, rmarkdown, testthat, withr, curl, knitr",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
 "BiocVersion","BiocVersion","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.16.0",NA,"R (>= 4.2.0)",NA,NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
 "bit","bit","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.0.5",NA,"R (>= 2.9.2)",NA,NA,"testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
