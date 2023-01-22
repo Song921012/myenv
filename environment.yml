@@ -159,7 +159,6 @@ dependencies:
   - pure_eval=0.2.2=pyhd8ed1ab_0
   - pycosat=0.6.4=py310h5764c6d_1
   - pycparser=2.21=pyhd8ed1ab_0
-  - pygments=2.14.0=pyhd8ed1ab_0
   - pyopenssl=23.0.0=pyhd8ed1ab_0
   - pyqt=5.15.7=py310h29803b5_2
   - pyqt5-sip=12.11.0=py310hd8f1fbe_2
@@ -512,6 +511,7 @@ dependencies:
       - pyecharts-snapshot==0.2.0
       - pyee==8.2.2
       - pyflakes==3.0.1
+      - pygments==2.6.1
       - pyjwt==2.6.0
       - pykalman==0.9.5
       - pyknos==0.15.1

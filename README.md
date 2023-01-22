@@ -95,6 +95,7 @@ Postinstallation
 - vim, neovim, lunarvim, conda和非conda环境update
 - Jupyter Notebook导出PDF, Julia的tex环境
 - 设置：系统,firefox, thunderbird, geany, RStudio, Obsidian, Zoom, Wemeet
+- 卸载一些不用的软件
 
 ## 先把中文路径改为英文路径
 
