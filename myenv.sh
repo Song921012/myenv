@@ -120,7 +120,7 @@ sudo apt -y install clang lldb lld
 sudo apt-get -y install ninja-build
 sudo apt install cmake
 sudo apt install mpich
-sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libgsl-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig libcppad-dev libcairo2-dev
+sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libgsl-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig libcppad-dev libcairo2-dev libboost-dev libboost-system-dev libcolpack-dev libblas-dev liblapack-dev
 sudo apt-get install graphviz pandoc inkscape
 sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
@@ -199,10 +199,10 @@ sudo curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
 sudo apt-get install gdebi-core
 sudo gdebi quarto-linux-amd64.deb
 
-
+sudo apt install vlc
 
 # debfile: qq, Rstudio
 # listen1 appimage
 # mathpix appimage
-# flatpak: obsidian wemeet zoom losslesscut thunderbird xmind screenkey okular gwenview slack wezterm geany VLC
+# flatpak: obsidian wemeet zoom losslesscut thunderbird xmind screenkey okular gwenview slack wezterm geany
 # docker dockerinstall.sh

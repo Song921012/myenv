@@ -2709,9 +2709,9 @@ uuid = "2ee39098-c373-598a-b85f-a56591580800"
 version = "1.12.5"
 
 [[deps.LambertW]]
-git-tree-sha1 = "2d9f4009c486ef676646bca06419ac02061c088e"
+git-tree-sha1 = "c5ffc834de5d61d00d2b0e18c96267cffc21f648"
 uuid = "984bce1d-4616-540c-a9ee-88d1112d94c9"
-version = "0.4.5"
+version = "0.4.6"
 
 [[deps.LanguageServer]]
 deps = ["CSTParser", "JSON", "JSONRPC", "JuliaFormatter", "Markdown", "Pkg", "REPL", "StaticLint", "SymbolServer", "Tokenize", "URIs", "UUIDs"]
@@ -5162,9 +5162,9 @@ version = "0.6.6"
 
 [[deps.Sparspak]]
 deps = ["Libdl", "LinearAlgebra", "Logging", "OffsetArrays", "Printf", "SparseArrays", "Test"]
-git-tree-sha1 = "baf8a01b8bf5c6668c9f4fadaa4c003b8188e6d4"
+git-tree-sha1 = "f9ca0222e4c0b7b1520298a0880e2f7101938831"
 uuid = "e56a9233-b9d6-4f03-8d0f-1825330902ac"
-version = "0.3.6"
+version = "0.3.7"
 
 [[deps.SpatialIndexing]]
 git-tree-sha1 = "fb7041e6bd266266fa7cdeb80427579e55275e4f"
