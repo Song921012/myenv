@@ -201,8 +201,11 @@ sudo curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
 sudo apt-get install gdebi-core
 sudo gdebi quarto-linux-amd64.deb
 
-sudo apt install vlc
+sudo apt install vlc geany
 
+git clone https://github.com/geany/geany-themes.git
+cd geany-themes
+source ./install.sh
 # debfile: qq, Rstudio
 # listen1 appimage
 # mathpix appimage

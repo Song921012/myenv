@@ -87,6 +87,15 @@ The easiest way is run `AllInOne.sh` (remember to revise python and julia versio
 - (平时不用维护)R包更新用rup
 - 其它包和同步用othersup, gitup.sh
 
+Postinstallation
+
+- 修改系统和终端字体, 不然符号会坏
+- Texstudio和vscode latex配置: 把tex路径加入.profile, etc/environment, etc/profile, sudo visudo
+- Jax(jax.devices()), torch(torch.cuda.is_available()), tensorflow(tf.test.is_gpu_availbale()), GPU support
+- vim, neovim, lunarvim, conda和非conda环境update
+- Jupyter Notebook导出PDF, Julia的tex环境
+- 设置：系统,firefox, thunderbird, geany, RStudio, Obsidian, Zoom, Wemeet
+
 ## 先把中文路径改为英文路径
 
 [Ubuntu /home下中文目录如何修改成英文_fei2636的博客-CSDN博客_ubuntu 文件夹英文](https://blog.csdn.net/fei2636/article/details/79202102)
