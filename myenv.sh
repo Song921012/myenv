@@ -6,7 +6,7 @@ cd getnf
 sudo apt install fzf
 cd
 sudo apt install gnome-tweaks -y
-sudo apt install gnome-shell-extensions -y
+sudo apt install gnome-shell-extensions neofetch -y
 #reboot
 
 sudo apt-get install software-properties-common
@@ -52,6 +52,7 @@ curl -sS https://starship.rs/install.sh | sh
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3
 sudo apt install python3-dev
+sudo apt-get install python3-pip
 
 #Rust
 curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
