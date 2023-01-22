@@ -74,7 +74,7 @@ Thunderbird
 
 注意:特别针对的是POP!_os系统, Ubuntu和Debian系应该也是适用的
 
-The easiest way is run `AllInOne.sh` (remember to revise python and julia version).  The followings are descriptions.
+The easiest way is run `AllInOne.sh` (remember to revise python and julia version). Attention, some cmd con NOT run simultaneously!  The followings are descriptions.
 
 平时记得维护Linux, CPP, Python, Firedrake, Fenics, Others环境:
 
@@ -96,7 +96,6 @@ The easiest way is run `AllInOne.sh` (remember to revise python and julia versio
 ## 下载好字体
 
 推荐使用这个方法下载字体[ronniedroid/getnf: A better way to install NerdFonts](https://github.com/ronniedroid/getnf)
-
 
 [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/font-downloads)
 
@@ -228,7 +227,6 @@ HSL系列软件
 
 [下载 VMware Workstation Pro - VMware Customer Connect](https://customerconnect.vmware.com/cn/downloads/info/slug/desktop_end_user_computing/vmware_workstation_pro/17_0)
 
-
 下载bundel文件后
 
 sudo chmod +x *.bundle
@@ -243,9 +241,7 @@ sudo ./*.bundle
 
 登录然后office tool plus安装office
 
-
 卸载sudo vmware-installer -u vmware-workstation
-
 
 # 一些疑难杂症
 
@@ -285,7 +281,9 @@ rm -rf ~/.cache/vimfiles/repos/github.com/*
 
 - obsidian: deb安装
 
-- Wechat: deepwine
+- Wechat:
+
+[zq1997/deepin-wine: 【deepin源移植】Debian/Ubuntu上最快的QQ/微信安装方式](https://github.com/zq1997/deepin-wine)
 
 - qq: 放弃安装
 

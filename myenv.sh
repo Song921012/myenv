@@ -125,7 +125,7 @@ sudo apt-get install graphviz pandoc inkscape
 sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
 sudo apt-get install coinor-libipopt-dev
-sudo apt install paraview
+sudo apt install paraview flex
 wget https://apt.llvm.org/llvm.sh                                                                                       via 🅒 base took 44s at 15:00 
 chmod +x llvm.sh
 sudo ./llvm.sh all
@@ -164,9 +164,10 @@ wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz # or cu
 zcat install-tl-unx.tar.gz | tar xf -
 cd install-tl-*
 perl ./install-tl --no-interaction
-#Finally, prepend /usr/local/texlive/YYYY/bin/PLATFORM to your PATH(.zshrc,.profile), e.g., /usr/local/texlive/2022/bin/x86_64-linux 
+#Finally, prepend /usr/local/texlive/YYYY/bin/PLATFORM to your PATH(.zshrc,.profile,/env/environment,/env/profile), e.g., /usr/local/texlive/2022/bin/x86_64-linux 
 # sudo visudo and add
 # Defaults secure_path="/usr/local/texlive/2014/bin/x86_64-linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
 cd
 # Install texstudio
 sudo add-apt-repository ppa:sunderme/texstudio
