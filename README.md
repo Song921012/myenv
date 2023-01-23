@@ -89,7 +89,7 @@ The easiest way is run `AllInOne.sh` (remember to revise python and julia versio
 
 Postinstallation
 
-- 修改系统和终端字体, 不然符号会坏
+- 修改系统和终端字体, 不然符号会坏. VSCode, "Fira Mono,'Courier New',monospace", 
 - Texstudio和vscode latex配置: 把tex路径加入.profile, etc/environment, etc/profile, sudo visudo
 - Jax(jax.devices()), torch(torch.cuda.is_available()), tensorflow(tf.test.is_gpu_availbale()), GPU support
 - vim, neovim, lunarvim, conda和非conda环境update
