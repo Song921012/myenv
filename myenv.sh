@@ -131,6 +131,17 @@ wget https://apt.llvm.org/llvm.sh                                               
 chmod +x llvm.sh
 sudo ./llvm.sh all
 
+#Psopt
+#https://github.com/PSOPT/psopt/blob/master/README_Ubuntu_22.04.md
+
+
+#dealii
+#export REPO=ppa:ginggs/deal.ii-9.4.0-backports
+
+#sudo apt-get update
+#sudo apt-get install -y software-properties-common
+#sudo add-apt-repository $REPO
+#sudo apt-get install -y libdeal.ii-dev
 
 # Miniconda
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
