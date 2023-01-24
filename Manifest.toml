@@ -203,21 +203,21 @@ version = "0.13.14"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "Combinatorics", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "150f4e01a0ca1259d5521f5b4ac8a750421d4bce"
+git-tree-sha1 = "5e88818ab2fad2f50e1bfe217e106bed11cc9d52"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.7.66"
+version = "0.7.67"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
-git-tree-sha1 = "d519364a80454017576f676ad12cb5070e643182"
+git-tree-sha1 = "8bddc386861b39eb4639ea2cd66dc0fc75c10e8c"
 uuid = "59844689-9c9d-51bf-9583-5b794ec66d30"
-version = "0.3.9"
+version = "0.3.10"
 
 [[deps.ApproxFunOrthogonalPolynomials]]
 deps = ["ApproxFunBase", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "DomainSets", "FastGaussQuadrature", "FastTransforms", "FillArrays", "IntervalSets", "LinearAlgebra", "Reexport", "SpecialFunctions", "Static", "StaticArrays", "Statistics"]
-git-tree-sha1 = "938d0e5d6ea22e50a609a683c27b275d0e72f6ec"
+git-tree-sha1 = "f9b9e8ff75ff2b9448dccbe883327deaf540e5cf"
 uuid = "b70543e2-c0d9-56b8-a290-0d4d6d4de211"
-version = "0.6.6"
+version = "0.6.7"
 
 [[deps.ApproxFunSingularities]]
 deps = ["ApproxFunBase", "ApproxFunOrthogonalPolynomials", "DomainSets", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays", "Statistics"]
@@ -782,9 +782,9 @@ version = "0.4.0"
 
 [[deps.CodecZlib]]
 deps = ["TranscodingStreams", "Zlib_jll"]
-git-tree-sha1 = "ded953804d019afa9a3f98981d99b33e3db7b6da"
+git-tree-sha1 = "9c209fb7536406834aa938fb149964b985de6c83"
 uuid = "944b1d66-785c-5afd-91f1-9de20f533193"
-version = "0.7.0"
+version = "0.7.1"
 
 [[deps.CodecZstd]]
 deps = ["CEnum", "TranscodingStreams", "Zstd_jll"]
@@ -913,9 +913,9 @@ version = "1.7.0"
 
 [[deps.CondaPkg]]
 deps = ["JSON3", "Markdown", "MicroMamba", "Pidfile", "Pkg", "TOML"]
-git-tree-sha1 = "64dd885fa25c61fdf6b27e90d6adedf564ae363a"
+git-tree-sha1 = "42b3289c004d1292f2370c72631764d002ae0105"
 uuid = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
-version = "0.2.15"
+version = "0.2.16"
 
 [[deps.Configurations]]
 deps = ["ExproniconLite", "OrderedCollections", "TOML"]
@@ -1898,9 +1898,9 @@ version = "0.5.3"
 
 [[deps.GeoInterface]]
 deps = ["Extents"]
-git-tree-sha1 = "ad138ac13119c2ac2ef05f0aeff21cd0a9d5853e"
+git-tree-sha1 = "e07a1b98ed72e3cdd02c6ceaab94b8a606faca40"
 uuid = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
-version = "1.2.0"
+version = "1.2.1"
 
 [[deps.GeoInterfaceRecipes]]
 deps = ["GeoInterface", "RecipesBase"]
@@ -3205,9 +3205,9 @@ version = "4.1.1+1"
 
 [[deps.MPI]]
 deps = ["Distributed", "DocStringExtensions", "Libdl", "MPICH_jll", "MPIPreferences", "MPItrampoline_jll", "MicrosoftMPI_jll", "OpenMPI_jll", "Requires", "Serialization", "Sockets"]
-git-tree-sha1 = "3bb087eb4322bd73db110722f97624f3f2edb047"
+git-tree-sha1 = "6d72bafd3960f9c119ceb8f034fef28346490fe5"
 uuid = "da04e1cc-30fd-572f-bb4f-1f8673147195"
-version = "0.20.7"
+version = "0.20.8"
 
 [[deps.MPICH_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "MPIPreferences", "Pkg", "TOML"]
@@ -3301,10 +3301,10 @@ uuid = "7eb4fadd-790c-5f42-8a69-bfa0b872bfbf"
 version = "1.2.0"
 
 [[deps.MathOptInterface]]
-deps = ["BenchmarkTools", "CodecBzip2", "CodecZlib", "DataStructures", "ForwardDiff", "JSON", "LinearAlgebra", "MutableArithmetics", "NaNMath", "OrderedCollections", "Printf", "SparseArrays", "SpecialFunctions", "Test", "Unicode"]
-git-tree-sha1 = "baa31c7b235492d9a6f2cb31bb533d74345b0614"
+deps = ["BenchmarkTools", "CodecBzip2", "CodecZlib", "DataStructures", "ForwardDiff", "JSON", "LinearAlgebra", "MutableArithmetics", "NaNMath", "OrderedCollections", "Printf", "SnoopPrecompile", "SparseArrays", "SpecialFunctions", "Test", "Unicode"]
+git-tree-sha1 = "b577d6c6b484f35fc27c1e767dc32458815da0e5"
 uuid = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-version = "1.11.4"
+version = "1.11.5"
 
 [[deps.MathOptSetDistances]]
 deps = ["BlockDiagonals", "ChainRulesCore", "FillArrays", "LinearAlgebra", "MathOptInterface", "StaticArrays"]
@@ -3613,9 +3613,9 @@ version = "4.5.1"
 
 [[deps.NNlib]]
 deps = ["Adapt", "ChainRulesCore", "LinearAlgebra", "Pkg", "Random", "Requires", "Statistics"]
-git-tree-sha1 = "03541c7a6dc3010cb2e33a01295f3cd35b5fd41e"
+git-tree-sha1 = "b488fc28dfae4c8ec3d61a34a0143a4245e7b13b"
 uuid = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
-version = "0.8.15"
+version = "0.8.16"
 
 [[deps.NNlibCUDA]]
 deps = ["Adapt", "CUDA", "LinearAlgebra", "NNlib", "Random", "Statistics"]
@@ -5380,9 +5380,9 @@ version = "1.2.3"
 
 [[deps.StringEncodings]]
 deps = ["Libiconv_jll"]
-git-tree-sha1 = "50ccd5ddb00d19392577902f0079267a72c5ab04"
+git-tree-sha1 = "33c0da881af3248dafefb939a21694b97cfece76"
 uuid = "69024149-9ee7-55f6-a4c4-859efe599b68"
-version = "0.3.5"
+version = "0.3.6"
 
 [[deps.StringManipulation]]
 git-tree-sha1 = "46da2434b41f41ac3594ee9816ce5541c6096123"
@@ -6322,9 +6322,9 @@ version = "17.4.0+0"
 
 [[deps.protoc_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "72308afa0aa106884e4e46aef64dfccb4071be66"
+git-tree-sha1 = "f163144b28db53c78ec0ff2b82cfa225f0c7a0f4"
 uuid = "c7845625-083e-5bbe-8504-b32d602b7110"
-version = "3.21.4+1"
+version = "3.21.12+0"
 
 [[deps.x264_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]

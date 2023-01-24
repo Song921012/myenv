@@ -304,7 +304,7 @@ dependencies:
       - docutils==0.19
       - dtw-python==1.3.0
       - dymos==1.6.1
-      - dynamax==0.1.0+157.g382cdcc
+      - dynamax==0.1.0+160.gf3c8ae4
       - echarts-china-cities-pypkg==0.0.9
       - echarts-china-counties-pypkg==0.0.2
       - echarts-china-misc-pypkg==0.0.1
@@ -481,7 +481,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
-      - plotly==5.12.0
+      - plotly==5.13.0
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
       - pluginbase==1.0.1
