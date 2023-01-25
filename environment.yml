@@ -284,7 +284,7 @@ dependencies:
       - cycler==0.11.0
       - cython==0.29.33
       - darts==0.23.1
-      - dash==2.7.1
+      - dash==2.8.0
       - dash-core-components==2.0.0
       - dash-html-components==2.0.0
       - dash-table==5.0.0
@@ -304,7 +304,7 @@ dependencies:
       - docutils==0.19
       - dtw-python==1.3.0
       - dymos==1.6.1
-      - dynamax==0.1.0+160.gf3c8ae4
+      - dynamax==0.1.0+165.gdfa0d57
       - echarts-china-cities-pypkg==0.0.9
       - echarts-china-counties-pypkg==0.0.2
       - echarts-china-misc-pypkg==0.0.1
@@ -341,7 +341,7 @@ dependencies:
       - future==0.18.3
       - gast==0.4.0
       - gdown==4.6.0
-      - gekko==1.0.5
+      - gekko==1.0.6
       - geojson==2.5.0
       - geopandas==0.12.2
       - gitdb==4.0.10
@@ -364,7 +364,7 @@ dependencies:
       - holidays==0.18
       - hroch==1.2.2
       - htmlmin==0.1.12
-      - huggingface-hub==0.11.1
+      - huggingface-hub==0.12.0
       - imagehash==4.3.1
       - imageio==2.24.0
       - imagesize==1.4.1
