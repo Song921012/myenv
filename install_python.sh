@@ -88,7 +88,7 @@ conda deactivate
 
 ## Deep SR
 
-conda create -n deepsr -c conda-forge python=3.7 jupyter jupyterlab tensorflow=1.14 mpich gcc gxx pylint
+conda create -n deepsr -c conda-forge python=3.7 jupyter jupyterlab tensorflow=1.14 mpich pylint
 conda deactivate && conda activate deepsr
 myenv
 git clone https://github.com/brendenpetersen/deep-symbolic-optimization.git
