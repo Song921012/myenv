@@ -203,9 +203,9 @@ version = "0.13.14"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "Combinatorics", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "f62e11fc0b1a924d7c4799847244d4f6698b9065"
+git-tree-sha1 = "4fff56c4022808ec4f3b8bfb27e9a282eb3420bf"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.7.68"
+version = "0.7.69"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
@@ -386,9 +386,9 @@ version = "0.3.6"
 
 [[deps.BandedMatrices]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra", "SparseArrays"]
-git-tree-sha1 = "134fe629f08ca56f07b1d8028736dab437df34f5"
+git-tree-sha1 = "b277f5d9737fde7b5dce7f43faf49c80f542806c"
 uuid = "aae01518-5342-5314-be14-df237901396f"
-version = "0.17.9"
+version = "0.17.10"
 
 [[deps.BangBang]]
 deps = ["Compat", "ConstructionBase", "Future", "InitialValues", "LinearAlgebra", "Requires", "Setfield", "Tables", "ZygoteRules"]
@@ -2989,9 +2989,9 @@ version = "1.1.1"
 
 [[deps.LogExpFunctions]]
 deps = ["ChainRulesCore", "ChangesOfVariables", "DocStringExtensions", "InverseFunctions", "IrrationalConstants", "LinearAlgebra"]
-git-tree-sha1 = "946607f84feb96220f480e0422d3484c49c00239"
+git-tree-sha1 = "45b288af6956e67e621c5cbb2d75a261ab58300b"
 uuid = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
-version = "0.3.19"
+version = "0.3.20"
 
 [[deps.Logging]]
 uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
@@ -5251,9 +5251,9 @@ version = "4.3.0"
 
 [[deps.StartUpDG]]
 deps = ["ConstructionBase", "FillArrays", "HDF5", "Kronecker", "LinearAlgebra", "NodesAndModes", "OrderedCollections", "PathIntersections", "Printf", "RecipesBase", "RecursiveArrayTools", "Reexport", "Requires", "Setfield", "SparseArrays", "StaticArrays", "Triangulate", "UnPack"]
-git-tree-sha1 = "8835f3cc69afcba1ca8568cb18350fe313f97187"
+git-tree-sha1 = "fcca00b5057879e57a6721362c0a381f523e9ca0"
 uuid = "472ebc20-7c99-4d4b-9470-8fde4e9faa0f"
-version = "0.15.3"
+version = "0.15.4"
 
 [[deps.StateSpaceSets]]
 deps = ["Distances", "Distributions", "LinearAlgebra", "Neighborhood", "Random", "StaticArrays", "Statistics", "StatsBase"]
