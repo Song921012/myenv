@@ -250,7 +250,7 @@ rmarkdown, knitr, htmltools, xml2, data.table (>= 1.13.0), uuid
 scales, webshot2, doconv (>= 0.3.0), xtable, broom,
 broom.mixed, mgcv, cluster, lme4, nlme, bookdown, pdftools,
 officedown",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
-"fontawesome","fontawesome","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.0",NA,"R (>= 3.3.0)","rlang (>= 0.4.10), htmltools (>= 0.5.1.1)",NA,"covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0),
+"fontawesome","fontawesome","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5.0",NA,"R (>= 3.3.0)","rlang (>= 1.0.6), htmltools (>= 0.5.1.1)",NA,"covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0),
 rsvg",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "forcats","forcats","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5.2",NA,"R (>= 3.4)","cli, ellipsis, glue, lifecycle, magrittr, rlang (>= 1.0.0),
 tibble, withr",NA,"covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat (>=
@@ -684,7 +684,7 @@ testthat, webfakes",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "RcppEigen","RcppEigen","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.3.9.3",NA,"R (>= 3.6.0)","Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils","Rcpp","inline, tinytest, pkgKitten, microbenchmark",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "RcppParallel","RcppParallel","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","5.1.6",NA,"R (>= 3.0.2)",NA,NA,"Rcpp, RUnit, knitr, rmarkdown",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.2.2"
 "RcppSimdJson","RcppSimdJson","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.9",NA,NA,"Rcpp, utils","Rcpp","bit64, tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
-"RcppTOML","RcppTOML","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.0",NA,"R (>= 3.3.0)","Rcpp (>= 0.11.5)","Rcpp","tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"RcppTOML","RcppTOML","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.1",NA,"R (>= 3.3.0)","Rcpp (>= 0.11.5)","Rcpp","tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "Rdpack","Rdpack","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.4",NA,"R (>= 2.15.0), methods","tools, utils, rbibutils (>= 1.3)",NA,"grDevices, testthat, rstudioapi, rprojroot, gbRd",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
 "reactable","reactable","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.3",NA,"R (>= 3.1)","digest, htmltools (>= 0.5.2), htmlwidgets (>= 1.5.3),
 jsonlite, reactR",NA,"covr, crosstalk, dplyr, fontawesome, knitr, leaflet, MASS,

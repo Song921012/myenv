@@ -28,7 +28,7 @@ VScode: All in one
 
 Spacevim/LunarVim: All in one
 
-Texstudio: for tex
+Texstudio: for tex. Tectonic and Texlive for tex engine
 
 RStudio: for R
 
@@ -64,7 +64,7 @@ vlc
 
 - Office
 
-WPS, Libre series, okular, foxi reader
+Onlyoffice, WPS, Libre series, okular
 
 - Email
 
