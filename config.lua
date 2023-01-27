@@ -6,7 +6,7 @@
 -- vim options
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
-vim.opt.relativenumber = true
+vim.opt.relativenumber = false
 vim.opt.clipboard = "unnamedplus" -- allows neovim to access the system clipboard
 -- general
 lvim.log.level = "info"
@@ -101,7 +101,7 @@ lvim.plugins = {
   --    end,},
   {
         "iamcco/markdown-preview.nvim",
-        run = "cd app && npm install",
+        build  = "cd app && npm install",
         ft = "markdown",
         config = function()
             vim.g.mkdp_auto_start = 0

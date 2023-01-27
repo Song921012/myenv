@@ -48,7 +48,6 @@ alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && c
 ### bash -c  "$(wget -qO- https://git.io/vQgMr)" 
 
 
-
 ## CD
 
 alias wkspace="cd /home/aidishage/Desktop/MyProjects"
