@@ -552,9 +552,9 @@ shadowtext, tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "numDeriv","numDeriv","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2016.8-1.1",NA,"R (>= 2.11.1)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
 "oai","oai","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.0",NA,NA,"xml2 (>= 1.0.0), httr (>= 1.2.0), plyr (>= 1.8.4), stringr (>=
 1.1.0), tibble (>= 1.2)",NA,"DBI, knitr, RSQLite, testthat, markdown, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"officer","officer","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5.1",NA,NA,"grDevices, stats, graphics, utils, zip (>= 2.1.0), uuid (>=
+"officer","officer","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5.2",NA,NA,"grDevices, stats, graphics, utils, zip (>= 2.1.0), uuid (>=
 0.1-4), xml2 (>= 1.1.0), openssl, R6",NA,"testthat, devEMF, ggplot2, rmarkdown, base64enc, doconv (>=
-0.3.0), knitr, rsvg",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+0.3.0), knitr, rsvg, magick",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "openssl","openssl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.5",NA,NA,"askpass",NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
 jsonlite, jose, sodium",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "openxlsx","openxlsx","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.2.5.1",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, stringi, utils, zip","Rcpp","knitr, rmarkdown, roxygen2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
