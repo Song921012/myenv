@@ -101,7 +101,7 @@ lvim.plugins = {
   --    end,},
   {
         "iamcco/markdown-preview.nvim",
-        build  = "cd app && npm install",
+        build = "cd app && npm install",
         ft = "markdown",
         config = function()
             vim.g.mkdp_auto_start = 0
@@ -111,6 +111,27 @@ lvim.plugins = {
        "folke/trouble.nvim",
         cmd = "TroubleToggle",
      },
+     { 'quarto-dev/quarto-nvim',
+    dependencies = {
+      'jmbuhr/otter.nvim',
+      'neovim/nvim-lspconfig'
+    },
+    config = function()
+      require 'quarto'.setup {
+        lspFeatures = {
+          enabled = true,
+          languages = { 'r', 'python', 'julia' },
+          diagnostics = {
+            enabled = true,
+            triggers = { "BufWrite" }
+          },
+          completion = {
+            enabled = true
+          }
+        }
+      }
+    end
+  },
 }
 
 -- -- Autocommands (`:help autocmd`) <https://neovim.io/doc/user/autocmd.html>

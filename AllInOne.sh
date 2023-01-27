@@ -29,6 +29,8 @@ ln -f ~/.config/alacritty/alacritty.yml ~/myenv/alacritty.yml
 mkdir -p ~/.config/kitty
 cp -f ~/myenv/kitty.conf ~/.config/kitty
 ln -f ~/.config/kitty/kitty.conf ~/myenv/kitty.conf
+cp -f ~/myenv/config.lua ~/.config/lvim/config.lua
+ln -f ~/.config/lvim/config.lua ~/myenv/config.lua
 ## Install miniconda
 zsh
 conda update conda

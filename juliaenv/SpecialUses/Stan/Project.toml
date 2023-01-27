@@ -1,0 +1,6 @@
+[deps]
+DiffEqBayesStan = "086cc5bb-2461-57d8-8068-0aed7f5b5cd1"
+Stan = "682df890-35be-576f-97d0-3d8c8b33a550"
+StanOptimize = "fbd8da12-e93d-5a64-9231-612a0707ab99"
+StanSample = "c1514b29-d3a0-5178-b312-660c88baa699"
+StanVariational = "6ede68ce-8466-5085-8a79-4c4de3d9cf4a"
