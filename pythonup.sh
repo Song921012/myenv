@@ -30,7 +30,7 @@ pip install -U radian conan flake8 pylint yapf huggingface-hub\
   funsor ott distrax neural-tangents efax dm-haiku pyMetaheuristic 
   diffrax jaxopt evosax sgmcmcjax gpjax blackjax pyecharts plotly dash 
   "sktime[all_extras]" nodepy seaborn keplergl osmnx pyecharts_snapshot 
-  biopython mesa quadpy scalene emcee
+  biopython mesa quadpy scalene emcee casadi-horizon bayesnewton objax
 pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pip install -U torch --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -U torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
