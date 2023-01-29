@@ -130,6 +130,31 @@ vim: gg文件开头,G文件末尾,g0屏幕行首, 0行首页,$行尾, ctrl o之�
 
 Vscode Ctrl g 行数
 
+## 暂停任务
+
+ctrl z快捷键暂停任务回终端， 命令fg继续任务
+
+## 后台运行
+
+(*)
+
+nohup 命令
+
+特定时间运行命令： at
+
+## 看文件
+
+ranger
+
+## 关闭程序
+
+xkill
+
+按住键盘上的‘alt’和‘sysrq’即print键不放，然后慢慢输入以下键：
+
+REISUB
+
+
 ## 查询
 
 whoami

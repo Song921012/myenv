@@ -22,7 +22,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Alias
 ## Upadate
 alias refresh="up && juliaup && pythonup && rup && othersup && gitup && clean && cd"
-alias refreshall="up && quartoup && rustup update && juliaup && pythonup && othersup && juliadevup && rup && fireup && cppup && fenicsup && gitup && clean &&  cd"
+alias refreshall="up && quartoup && rustupdate && juliaup && pythonup && othersup && juliadevup && rup && fireup && cppup && fenicsup && gitup && clean &&  cd"
 alias up="sudo apt update && sudo apt upgrade"
 alias gitup="source ~/myenv/gitup.sh"
 alias quartoup="source ~/myenv/quartoup.sh"
@@ -39,6 +39,7 @@ alias firedrakeinstall="source ~/myenv/firedrakeinstall.sh"
 alias fenicsup="source ~/myenv/fenicsup.sh"
 alias cppup="source ~/myenv/packagesup.sh && cd"
 alias rup="R -e 'update.packages()'"
+alias rustupdate="rustup update && cargo install-update -a"
 alias wkinstall="source ~/myenv/mywkenvsetup.sh"
 ## Clean
 alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"

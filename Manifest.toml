@@ -3408,9 +3408,9 @@ version = "0.4.11"
 
 [[deps.MethodOfLines]]
 deps = ["Combinatorics", "DiffEqBase", "DomainSets", "IfElse", "Interpolations", "Latexify", "LinearAlgebra", "ModelingToolkit", "OrdinaryDiffEq", "SciMLBase", "StaticArrays", "SymbolicUtils", "Symbolics", "TermInterface"]
-git-tree-sha1 = "863017fd2d2e30e9505bb1b08ba722cbf48bb58a"
+git-tree-sha1 = "927f432e3b3473d8dc5e0d0550609f0b18c4bad9"
 uuid = "94925ecb-adb7-4558-8ed8-f975c56a0bf4"
-version = "0.8.1"
+version = "0.8.2"
 
 [[deps.MicroCollections]]
 deps = ["BangBang", "InitialValues", "Setfield"]
@@ -5775,9 +5775,9 @@ version = "0.1.2"
 
 [[deps.Trixi]]
 deps = ["CodeTracking", "ConstructionBase", "EllipsisNotation", "FillArrays", "ForwardDiff", "HDF5", "IfElse", "LinearAlgebra", "LinearMaps", "LoopVectorization", "MPI", "MuladdMacro", "Octavian", "OffsetArrays", "P4est", "Polyester", "Printf", "RecipesBase", "Reexport", "Requires", "SciMLBase", "Setfield", "SparseArrays", "StartUpDG", "Static", "StaticArrays", "StrideArrays", "StructArrays", "SummationByPartsOperators", "TimerOutputs", "Triangulate", "TriplotBase", "TriplotRecipes", "UnPack"]
-git-tree-sha1 = "eee1e21397fe6898e9f0944e6ac71f625dfde78f"
+git-tree-sha1 = "ef3cd79cf20b92d9e19f8b91267aff05745d7515"
 uuid = "a7f1ee26-1774-49b1-8366-f1abc58fbfcb"
-version = "0.5.8"
+version = "0.5.9"
 
 [[deps.Tulip]]
 deps = ["CodecBzip2", "CodecZlib", "Krylov", "LDLFactorizations", "LinearAlgebra", "LinearOperators", "Logging", "MathOptInterface", "Printf", "QPSReader", "SparseArrays", "SuiteSparse", "TOML", "Test", "TimerOutputs"]
