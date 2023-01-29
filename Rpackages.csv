@@ -196,12 +196,12 @@ Matrix, MASS, slam",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "echarts4r","echarts4r","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.4",NA,"R (>= 4.1.0)","htmlwidgets, dplyr (>= 0.7.0), purrr, countrycode, broom,
 shiny, scales, corrplot, htmltools, jsonlite, rstudioapi",NA,"tidyr, testthat, knitr, rmarkdown, covr, data.tree, leaflet,
 tibble",NA,"Apache License (>= 2.0)",NA,NA,NA,NA,"no","4.2.2"
-"effectsize","effectsize","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.8.2",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), insight (>= 0.18.4), parameters (>=
-0.19.0), performance (>= 0.10.0), datawizard (>= 0.6.2), stats,
-utils",NA,"correlation (>= 0.8.2), see (>= 0.7.3), afex, BayesFactor,
-boot, brms, car, emmeans, knitr, lavaan, lme4, lmerTest, MASS,
-mgcv, parsnip, rmarkdown, rms, rstanarm, rstantools, testthat
-(>= 3.1.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"effectsize","effectsize","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.8.3",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), insight (>= 0.18.8), parameters (>=
+0.20.2), performance (>= 0.10.2), datawizard (>= 0.6.5), stats,
+utils",NA,"correlation (>= 0.8.3), see (>= 0.7.4), afex, BayesFactor,
+boot, brms, car, emmeans, gt, knitr, lavaan, lme4, lmerTest,
+MASS, mgcv, parsnip, rmarkdown, rms, rstanarm, rstantools,
+testthat (>= 3.1.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "ellipsis","ellipsis","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.2",NA,"R (>= 3.2)","rlang (>= 0.3.0)",NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "elliptic","elliptic","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4-0",NA,"R (>= 2.5.0)","MASS",NA,"emulator, calibrator (>= 1.2-8)",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
 "epicontacts","epicontacts","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.2",NA,"R (>= 3.5.0)","grDevices, dplyr, igraph, visNetwork, threejs, colorspace,
