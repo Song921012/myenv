@@ -59,7 +59,7 @@ dependencies:
   - font-ttf-inconsolata=3.000=h77eed37_0
   - font-ttf-source-code-pro=2.038=h77eed37_0
   - font-ttf-ubuntu=0.83=hab24e00_0
-  - fontconfig=2.14.1=hc2a2eb6_0
+  - fontconfig=2.14.2=h14ed4e7_0
   - fonts-conda-ecosystem=1=0
   - fonts-conda-forge=1=0
   - freetype=2.12.1=hca18f0e_1
@@ -86,7 +86,7 @@ dependencies:
   - importlib_resources=5.10.2=pyhd8ed1ab_0
   - ipopt=3.14.10=hf60ba86_0
   - ipykernel=6.20.2=pyh210e3f2_0
-  - ipython=8.8.0=pyh41d4057_0
+  - ipython=8.9.0=pyh41d4057_0
   - ipython_genutils=0.2.0=py_1
   - ipywidgets=8.0.4=pyhd8ed1ab_0
   - jack=1.9.21=h583fa2b_2
@@ -200,7 +200,7 @@ dependencies:
   - numpy=1.24.1=py310h08bbf29_0
   - openblas-ilp64=0.3.21=pthreads_h3d04fff_3
   - openlibm=0.8.1=h7f98852_0
-  - openssl=3.0.7=h0b41bf4_1
+  - openssl=3.0.7=h0b41bf4_2
   - p7zip=16.02=h9c3ff4c_1001
   - packaging=23.0=pyhd8ed1ab_0
   - pandoc=2.19.2=h32600fe_1
@@ -262,7 +262,7 @@ dependencies:
   - scotch=6.0.9=hb2e6521_2
   - send2trash=1.8.0=pyhd8ed1ab_0
   - setuptools=66.1.1=pyhd8ed1ab_0
-  - sip=6.7.5=py310hd8f1fbe_0
+  - sip=6.7.6=py310heca2aa9_0
   - six=1.16.0=pyh6c4a22f_0
   - slepc=3.17.2=real_hb19a63e_100
   - slepc4py=3.17.2=real_h45d0737_101
@@ -290,7 +290,7 @@ dependencies:
   - urllib3=1.26.14=pyhd8ed1ab_0
   - wcwidth=0.2.6=pyhd8ed1ab_0
   - webencodings=0.5.1=py_1
-  - websocket-client=1.4.2=pyhd8ed1ab_0
+  - websocket-client=1.5.0=pyhd8ed1ab_0
   - wheel=0.38.4=pyhd8ed1ab_0
   - widgetsnbextension=4.0.5=pyhd8ed1ab_0
   - xcb-util=0.4.0=h166bdaf_0
@@ -312,7 +312,7 @@ dependencies:
   - xz=5.2.6=h166bdaf_0
   - yaml=0.2.5=h7f98852_2
   - zeromq=4.3.4=h9c3ff4c_1
-  - zipp=3.11.0=pyhd8ed1ab_0
+  - zipp=3.12.0=pyhd8ed1ab_0
   - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=h3eb15da_6
   - pip:

@@ -54,7 +54,7 @@ dependencies:
   - fenics-libbasix=0.6.0=h1284905_0
   - fenics-libdolfinx=0.6.0=h86197e6_100
   - fenics-ufcx=0.6.0=h56297ac_0
-  - fenics-ufl=2023.1.0=pyhd8ed1ab_0
+  - fenics-ufl=2023.1.1=pyhd8ed1ab_0
   - ffmpeg=5.1.2=gpl_h8dda1f0_106
   - fftw=3.3.10=mpi_mpich_h3e343da_6
   - flit-core=3.8.0=pyhd8ed1ab_0
@@ -62,7 +62,7 @@ dependencies:
   - font-ttf-inconsolata=3.000=h77eed37_0
   - font-ttf-source-code-pro=2.038=h77eed37_0
   - font-ttf-ubuntu=0.83=hab24e00_0
-  - fontconfig=2.14.1=hc2a2eb6_0
+  - fontconfig=2.14.2=h14ed4e7_0
   - fonts-conda-ecosystem=1=0
   - fonts-conda-forge=1=0
   - freetype=2.12.1=hca18f0e_1
@@ -92,7 +92,7 @@ dependencies:
   - importlib-metadata=6.0.0=pyha770c72_0
   - importlib_resources=5.10.2=pyhd8ed1ab_0
   - ipykernel=6.20.2=pyh210e3f2_0
-  - ipython=8.8.0=pyh41d4057_0
+  - ipython=8.9.0=pyh41d4057_0
   - ipython_genutils=0.2.0=py_1
   - ipywidgets=8.0.4=pyhd8ed1ab_0
   - jack=1.9.21=h583fa2b_2
@@ -218,7 +218,7 @@ dependencies:
   - numpy=1.24.1=py310h08bbf29_0
   - openh264=2.3.1=h27087fc_1
   - openjpeg=2.5.0=hfec8fc6_2
-  - openssl=3.0.7=h0b41bf4_1
+  - openssl=3.0.7=h0b41bf4_2
   - p11-kit=0.24.1=hc5aa10d_0
   - packaging=23.0=pyhd8ed1ab_0
   - pandoc=2.19.2=h32600fe_1
@@ -277,7 +277,7 @@ dependencies:
   - scotch=6.0.9=hb2e6521_2
   - send2trash=1.8.0=pyhd8ed1ab_0
   - setuptools=66.1.1=pyhd8ed1ab_0
-  - sip=6.7.5=py310hd8f1fbe_0
+  - sip=6.7.6=py310heca2aa9_0
   - six=1.16.0=pyh6c4a22f_0
   - slepc=3.17.2=real_hb19a63e_100
   - slepc4py=3.17.2=real_h45d0737_101
@@ -308,7 +308,7 @@ dependencies:
   - vtk=9.2.5=qt_py310hbbaa62d_202
   - wcwidth=0.2.6=pyhd8ed1ab_0
   - webencodings=0.5.1=py_1
-  - websocket-client=1.4.2=pyhd8ed1ab_0
+  - websocket-client=1.5.0=pyhd8ed1ab_0
   - wheel=0.38.4=pyhd8ed1ab_0
   - widgetsnbextension=4.0.5=pyhd8ed1ab_0
   - wslink=1.10.0=pyhd8ed1ab_0
@@ -338,7 +338,7 @@ dependencies:
   - yarl=1.8.2=py310h5764c6d_0
   - zeromq=4.3.4=h9c3ff4c_1
   - zfp=0.5.5=h9c3ff4c_8
-  - zipp=3.11.0=pyhd8ed1ab_0
+  - zipp=3.12.0=pyhd8ed1ab_0
   - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=h3eb15da_6
   - pip:
