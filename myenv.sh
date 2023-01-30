@@ -7,6 +7,7 @@ sudo apt install fzf
 cd
 sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions neofetch -y
+sudo apt install ranger tilix
 #reboot
 
 sudo apt-get install software-properties-common
