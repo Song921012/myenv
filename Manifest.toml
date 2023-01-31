@@ -3082,9 +3082,9 @@ version = "0.10.3"
 
 [[deps.MCMCChains]]
 deps = ["AbstractMCMC", "AxisArrays", "Dates", "Distributions", "Formatting", "IteratorInterfaceExtensions", "KernelDensity", "LinearAlgebra", "MCMCDiagnosticTools", "MLJModelInterface", "NaturalSort", "OrderedCollections", "PrettyTables", "Random", "RecipesBase", "Serialization", "Statistics", "StatsBase", "StatsFuns", "TableTraits", "Tables"]
-git-tree-sha1 = "8577f598f0991e7bdf9472a8a59938b1e253b493"
+git-tree-sha1 = "c659f7508035a7bdd5102aef2de028ab035f289a"
 uuid = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
-version = "5.6.1"
+version = "5.7.1"
 
 [[deps.MCMCDiagnosticTools]]
 deps = ["AbstractFFTs", "DataAPI", "DataStructures", "Distributions", "LinearAlgebra", "MLJModelInterface", "Random", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns", "Tables"]
@@ -3159,9 +3159,9 @@ version = "0.5.1"
 
 [[deps.MLJLinearModels]]
 deps = ["DocStringExtensions", "IterativeSolvers", "LinearAlgebra", "LinearMaps", "MLJModelInterface", "Optim", "Parameters"]
-git-tree-sha1 = "cb2251d6f41ad6399abd193e270bc44fc5997821"
+git-tree-sha1 = "b93da3bb97315bc2554f23127d29a72b41c30fad"
 uuid = "6ee0df7b-362f-4a72-a706-9e79364fb692"
-version = "0.8.1"
+version = "0.9.0"
 
 [[deps.MLJModelInterface]]
 deps = ["Random", "ScientificTypesBase", "StatisticalTraits"]
@@ -5238,10 +5238,10 @@ uuid = "fbd8da12-e93d-5a64-9231-612a0707ab99"
 version = "4.2.5"
 
 [[deps.StanSample]]
-deps = ["CSV", "CompatHelperLocal", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "JSON", "NamedTupleTools", "OrderedCollections", "Parameters", "Random", "Reexport", "Requires", "Serialization", "StanBase", "TableOperations", "Tables", "Unicode"]
-git-tree-sha1 = "81e2de0d8adcfdf8477e31faf56a9ffc4fc3e85d"
+deps = ["CSV", "CompatHelperLocal", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "JSON", "LazyArtifacts", "NamedTupleTools", "OrderedCollections", "Parameters", "Random", "Reexport", "Requires", "Serialization", "StanBase", "TableOperations", "Tables", "Unicode"]
+git-tree-sha1 = "a1a987a2dece63ac624a31c1f108dd4389f98ce1"
 uuid = "c1514b29-d3a0-5178-b312-660c88baa699"
-version = "7.1.0"
+version = "7.1.1"
 
 [[deps.StanVariational]]
 deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "Documenter", "NamedTupleTools", "Parameters", "Reexport", "StanBase", "StanSample", "Statistics", "Unicode"]
