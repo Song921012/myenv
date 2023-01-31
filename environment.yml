@@ -144,7 +144,6 @@ dependencies:
   - pcre2=10.40=hc3806b6_0
   - pexpect=4.8.0=pyh1a96a4e_2
   - pickleshare=0.7.5=py_1003
-  - pip=22.3.1=pyhd8ed1ab_0
   - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_0
   - platformdirs=2.6.2=pyhd8ed1ab_0
   - pluggy=1.0.0=pyhd8ed1ab_5
@@ -275,7 +274,7 @@ dependencies:
       - colorlog==6.7.0
       - colour==0.1.5
       - commonmark==0.9.1
-      - conan==1.57.0
+      - conan==1.58.0
       - contextlib2==21.6.0
       - contourpy==1.0.7
       - convertdate==2.4.0
@@ -287,7 +286,7 @@ dependencies:
       - cycler==0.11.0
       - cython==0.29.33
       - darts==0.23.1
-      - dash==2.8.0
+      - dash==2.8.1
       - dash-core-components==2.0.0
       - dash-html-components==2.0.0
       - dash-table==5.0.0
@@ -488,6 +487,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
+      - pip==23.0
       - plotly==5.13.0
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
