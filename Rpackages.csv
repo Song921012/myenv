@@ -87,7 +87,7 @@ rstudioapi, testthat, tibble, whoami, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA
 rmarkdown, testthat (>= 2.1.0), Rcpp, RcppEigen, decor",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "coarseDataTools","coarseDataTools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.6-6",NA,"R (>= 3.5.0)","MCMCpack, graphics, stats, methods",NA,"markdown, knitr",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
 "coda","coda","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.19-4",NA,"R (>= 2.14.0)","lattice",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
-"codetools","codetools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2-18","recommended","R (>= 2.1)",NA,NA,NA,NA,"GPL",NA,NA,NA,NA,"no","4.2.2"
+"codetools","codetools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2-19","recommended","R (>= 2.1)",NA,NA,NA,NA,"GPL",NA,NA,NA,NA,"no","4.2.2"
 "collapsibleTree","collapsibleTree","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.7",NA,"R (>= 3.0.0)","htmlwidgets, data.tree, stats, methods",NA,"colorspace, RColorBrewer, dplyr, testthat, tibble","knitr, shiny","GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
 "collections","collections","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.7",NA,NA,NA,NA,"testthat (>= 2.3.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "colorspace","colorspace","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.1-0",NA,"R (>= 3.0.0), methods","graphics, grDevices, stats",NA,"datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
@@ -191,7 +191,7 @@ glue, lifecycle, rlang, tibble, tidyselect, vctrs",NA,"bench, covr, knitr, rmark
 1.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "dygraphs","dygraphs","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.1.6",NA,"R (>= 3.0)","magrittr, htmlwidgets (>= 0.6), htmltools (>= 0.3.5), zoo (>=
 1.7-10), xts (>= 0.9-7)",NA,"testthat","rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)","MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"e1071","e1071","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7-12",NA,NA,"graphics, grDevices, class, stats, methods, utils, proxy",NA,"cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
+"e1071","e1071","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7-13",NA,NA,"graphics, grDevices, class, stats, methods, utils, proxy",NA,"cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
 Matrix, MASS, slam",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "echarts4r","echarts4r","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.4",NA,"R (>= 4.1.0)","htmlwidgets, dplyr (>= 0.7.0), purrr, countrycode, broom,
 shiny, scales, corrplot, htmltools, jsonlite, rstudioapi",NA,"tidyr, testthat, knitr, rmarkdown, covr, data.tree, leaflet,
@@ -765,9 +765,9 @@ roxygen2, StanHeaders (>= 2.21.0), testthat (>= 1.0.2)",NA,"GPL (>= 3)",NA,NA,NA
 "rstantools","rstantools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.0",NA,NA,"desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)",NA,"rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0),
 knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown,
 rstudioapi",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
-"rstatix","rstatix","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.7.1",NA,"R (>= 3.3.0)","stats, utils, tidyr (>= 1.0.0), purrr, broom (>= 0.7.4), rlang
+"rstatix","rstatix","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.7.2",NA,"R (>= 3.3.0)","stats, utils, tidyr (>= 1.0.0), purrr, broom (>= 0.7.4), rlang
 (>= 0.3.1), tibble (>= 2.1.3), dplyr (>= 0.7.1), magrittr,
-corrplot, tidyselect (>= 1.0.0), car, generics (>= 0.0.2)",NA,"knitr, rmarkdown, ggpubr, graphics, emmeans, coin, boot,
+corrplot, tidyselect (>= 1.2.0), car, generics (>= 0.0.2)",NA,"knitr, rmarkdown, ggpubr, graphics, emmeans, coin, boot,
 testthat, spelling",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
 "rstudioapi","rstudioapi","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.14",NA,NA,NA,NA,"testthat, knitr, rmarkdown, clipr, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "Rttf2pt1","Rttf2pt1","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.12",NA,"R (>= 2.15)",NA,NA,NA,NA,"file LICENSE","yes",NA,NA,NA,"yes","4.2.2"
@@ -885,8 +885,8 @@ pillar (>= 1.7.0), pkgconfig, rlang (>= 1.0.2), utils, vctrs
 htmltools, knitr, lubridate, mockr, nycflights13, pkgbuild,
 pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr,
 withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
-"tidygraph","tidygraph","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.2",NA,NA,"tibble, dplyr (>= 0.8.5), igraph, magrittr, utils, rlang, R6,
-tools, stats, tidyr, pillar, cli","cpp11","network, data.tree, ape, graph, methods, testthat, covr,
+"tidygraph","tidygraph","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.3",NA,NA,"tibble, dplyr (>= 0.8.5), igraph (>= 1.3.0), magrittr, utils,
+rlang, R6, tools, stats, tidyr, pillar, cli","cpp11","network, data.tree, ape, graph, methods, testthat, covr,
 seriation, netrankr, influenceR, NetSwan",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "tidyr","tidyr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.0",NA,"R (>= 3.4.0)","cli (>= 3.4.1), dplyr (>= 1.0.10), glue, lifecycle (>= 1.0.3),
 magrittr, purrr (>= 1.0.1), rlang (>= 1.0.4), stringr (>=
@@ -909,7 +909,7 @@ purrr (>= 0.3.4), readr (>= 2.1.1), readxl (>= 1.3.1), reprex
 1.0.2), stringr (>= 1.4.0), tibble (>= 3.1.6), tidyr (>=
 1.1.4), xml2 (>= 1.3.3)",NA,"covr, feather, glue, knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "timechange","timechange","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.0",NA,"R (>= 3.3)",NA,"cpp11 (>= 0.2.7)","testthat (>= 0.7.1.99), knitr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
-"tinytex","tinytex","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.43",NA,NA,"xfun (>= 0.29)",NA,"testit, rstudioapi",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"tinytex","tinytex","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.44",NA,NA,"xfun (>= 0.29)",NA,"testit, rstudioapi",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "treeio","treeio","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.22.0",NA,"R (>= 3.6.0)","ape, dplyr, jsonlite, magrittr, methods, rlang, tibble,
 tidytree (>= 0.3.9), utils",NA,"Biostrings, ggplot2, ggtree, igraph, knitr, rmarkdown,
 phangorn, prettydoc, testthat, tidyr, vroom, xml2, yaml, purrr",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
