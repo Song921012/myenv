@@ -609,9 +609,9 @@ version = "0.3.0+0"
 
 [[deps.CUDA_Runtime_jll]]
 deps = ["Artifacts", "CUDA_Driver_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "Pkg", "TOML"]
-git-tree-sha1 = "e56dfb648ef5011ae697e67f74e158cba2659c43"
+git-tree-sha1 = "e9c9cc9fceaebf83e889162334c0f84c33194478"
 uuid = "76a88914-d11a-5bdc-97e0-2f5a05c973a2"
-version = "0.3.0+1"
+version = "0.3.0+2"
 
 [[deps.CUTEst]]
 deps = ["CUTEst_jll", "DataStructures", "JSON", "Libdl", "LinearAlgebra", "NLPModels", "Pkg", "SparseArrays"]
@@ -3159,9 +3159,9 @@ version = "0.5.1"
 
 [[deps.MLJLinearModels]]
 deps = ["DocStringExtensions", "IterativeSolvers", "LinearAlgebra", "LinearMaps", "MLJModelInterface", "Optim", "Parameters"]
-git-tree-sha1 = "b93da3bb97315bc2554f23127d29a72b41c30fad"
+git-tree-sha1 = "c811b3877f1328179cef6662388d200c78b95c09"
 uuid = "6ee0df7b-362f-4a72-a706-9e79364fb692"
-version = "0.9.0"
+version = "0.9.1"
 
 [[deps.MLJModelInterface]]
 deps = ["Random", "ScientificTypesBase", "StatisticalTraits"]
@@ -4165,9 +4165,9 @@ version = "0.9.5"
 
 [[deps.PSDMatrices]]
 deps = ["LinearAlgebra"]
-git-tree-sha1 = "28423499ef215200c0de51846431ec0042c18352"
+git-tree-sha1 = "f3839275829800d0a9f9f068c0a1dd7f8553cc77"
 uuid = "fe68d972-6fd8-4755-bdf0-97d4c54cefdc"
-version = "0.4.3"
+version = "0.4.4"
 
 [[deps.PSIS]]
 deps = ["LinearAlgebra", "LogExpFunctions", "Printf", "RecipesBase", "Statistics"]
@@ -5775,9 +5775,9 @@ version = "0.1.2"
 
 [[deps.Trixi]]
 deps = ["CodeTracking", "ConstructionBase", "EllipsisNotation", "FillArrays", "ForwardDiff", "HDF5", "IfElse", "LinearAlgebra", "LinearMaps", "LoopVectorization", "MPI", "MuladdMacro", "Octavian", "OffsetArrays", "P4est", "Polyester", "Printf", "RecipesBase", "Reexport", "Requires", "SciMLBase", "Setfield", "SparseArrays", "StartUpDG", "Static", "StaticArrays", "StrideArrays", "StructArrays", "SummationByPartsOperators", "TimerOutputs", "Triangulate", "TriplotBase", "TriplotRecipes", "UnPack"]
-git-tree-sha1 = "e3c531e59df348d4f589ab4973441215026c6110"
+git-tree-sha1 = "fa2073208263bdfaf703d53a274a934089b08509"
 uuid = "a7f1ee26-1774-49b1-8366-f1abc58fbfcb"
-version = "0.5.10"
+version = "0.5.11"
 
 [[deps.Tulip]]
 deps = ["CodecBzip2", "CodecZlib", "Krylov", "LDLFactorizations", "LinearAlgebra", "LinearOperators", "Logging", "MathOptInterface", "Printf", "QPSReader", "SparseArrays", "SuiteSparse", "TOML", "Test", "TimerOutputs"]
