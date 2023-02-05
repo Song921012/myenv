@@ -325,9 +325,9 @@ version = "0.6.1"
 
 [[deps.Arrow]]
 deps = ["ArrowTypes", "BitIntegers", "CodecLz4", "CodecZstd", "DataAPI", "Dates", "LoggingExtras", "Mmap", "PooledArrays", "SentinelArrays", "Tables", "TimeZones", "UUIDs", "WorkerUtilities"]
-git-tree-sha1 = "e97bdb5e241bb57f628968fd56efd9590078ada4"
+git-tree-sha1 = "4e40f4868281b7fd702c605c764ab82a52ac3f4b"
 uuid = "69666777-d1a9-59fb-9406-91d4454c9d45"
-version = "2.4.2"
+version = "2.4.3"
 
 [[deps.ArrowTypes]]
 deps = ["UUIDs"]
@@ -1451,9 +1451,9 @@ version = "1.0.4"
 
 [[deps.Enzyme]]
 deps = ["CEnum", "EnzymeCore", "Enzyme_jll", "GPUCompiler", "LLVM", "Libdl", "LinearAlgebra", "ObjectFile", "Printf", "Random"]
-git-tree-sha1 = "58af8efa3a24ed4bf0fec0a8b93d7da49199728b"
+git-tree-sha1 = "6249c3e023101edeb71e5c476c8945bd078e29e2"
 uuid = "7da242da-08ed-463a-9acd-ee780be4f1d9"
-version = "0.10.17"
+version = "0.10.18"
 
 [[deps.EnzymeCore]]
 deps = ["Adapt"]
@@ -1680,9 +1680,9 @@ version = "1.0.0"
 
 [[deps.Flux]]
 deps = ["Adapt", "CUDA", "ChainRulesCore", "Functors", "LinearAlgebra", "MLUtils", "MacroTools", "NNlib", "NNlibCUDA", "OneHotArrays", "Optimisers", "ProgressLogging", "Random", "Reexport", "SparseArrays", "SpecialFunctions", "Statistics", "StatsBase", "Zygote"]
-git-tree-sha1 = "518b553ec3776dde058aebd2750c109d04ee5593"
+git-tree-sha1 = "c258e51850ac1fdc465f62380a61995d4a66d603"
 uuid = "587475ba-b771-5e3f-ad9e-33799f191a9c"
-version = "0.13.11"
+version = "0.13.12"
 
 [[deps.FoldsThreads]]
 deps = ["Accessors", "FunctionWrappers", "InitialValues", "SplittablesBase", "Transducers"]
@@ -3613,9 +3613,9 @@ version = "4.5.1"
 
 [[deps.NNlib]]
 deps = ["Adapt", "ChainRulesCore", "LinearAlgebra", "Pkg", "Random", "Requires", "Statistics"]
-git-tree-sha1 = "b488fc28dfae4c8ec3d61a34a0143a4245e7b13b"
+git-tree-sha1 = "e69bf048c892296a45083f0abab02ee8cffe1378"
 uuid = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
-version = "0.8.16"
+version = "0.8.17"
 
 [[deps.NNlibCUDA]]
 deps = ["Adapt", "CUDA", "LinearAlgebra", "NNlib", "Random", "Statistics"]
