@@ -18,9 +18,12 @@ unset PYTHONPATH
 #unset SLEPC_DIR
 #unset PETSC_DIR
 #unset PETSC_ARCH
-firedrake-update --pip-install git+https://github.com/IvanYashchuk/fecr@master --pip-install jax --pip-install jaxlib --pip-install git+https://github.com/IvanYashchuk/jax-fenics-adjoint.git@master --pip-install git+https://github.com/IvanYashchuk/firedrake-ts.git@master
+firedrake-update --pip-install git+https://github.com/IvanYashchuk/fecr@master --pip-install jax --pip-install jaxlib --pip-install git+https://github.com/IvanYashchuk/jax-fenics-adjoint.git@master --pip-install git+https://github.com/IvanYashchuk/firedrake-ts.git@master --pip-install git+https://bitbucket.org/pefarrell/defcon.git
 
 pip install pyvista meshio gmsh
+pip3 install --no-cache-dir roltrilinos
+pip3 install --no-cache-dir ROL
+pip3 install git+https://github.com/fireshape/fireshape.git
 cd
 source ~/.zshrc
 

@@ -127,7 +127,7 @@ sudo apt-get install graphviz pandoc inkscape
 sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
 sudo apt-get install coinor-libipopt-dev
-sudo apt install paraview flex
+sudo apt install paraview flex patchelf
 wget https://apt.llvm.org/llvm.sh                                                                                       via 🅒 base took 44s at 15:00 
 chmod +x llvm.sh
 sudo ./llvm.sh all
