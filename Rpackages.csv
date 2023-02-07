@@ -265,7 +265,7 @@ tibble",NA,"covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat (>=
 "foreach","foreach","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.5.2",NA,"R (>= 2.5.0)","codetools, utils, iterators",NA,"randomForest, doMC, doParallel, testthat, knitr, rmarkdown",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.2.2"
 "foreign","foreign","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.8-84","recommended","R (>= 4.0.0)","methods, utils, stats",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "formatR","formatR","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.14",NA,"R (>= 3.2.3)",NA,NA,"rstudioapi, shiny, testit, rmarkdown, knitr",NA,"GPL",NA,NA,NA,NA,"no","4.2.2"
-"fs","fs","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.6.0",NA,"R (>= 3.4)","methods",NA,"covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling,
+"fs","fs","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.6.1",NA,"R (>= 3.4)","methods",NA,"covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling,
 testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "furrr","furrr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.1",NA,"future (>= 1.25.0), R (>= 3.4.0)","globals (>= 0.14.0), lifecycle (>= 1.0.1), purrr (>= 0.3.4),
 rlang (>= 1.0.2), vctrs (>= 0.4.1)",NA,"carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0),
@@ -560,7 +560,7 @@ shadowtext, tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 0.3.0), knitr, rsvg, magick",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "openssl","openssl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.5",NA,NA,"askpass",NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
 jsonlite, jose, sodium",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
-"openxlsx","openxlsx","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.2.5.1",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, stringi, utils, zip","Rcpp","knitr, rmarkdown, roxygen2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"openxlsx","openxlsx","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.2.5.2",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, stringi, utils, zip","Rcpp","knitr, rmarkdown, roxygen2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "orderly","orderly","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.3",NA,NA,"DBI, R6, RSQLite (>= 2.2.4), crayon, digest, docopt, fs (>=
 1.2.7), gert, ids, withr, yaml, zip (>= 2.0.0)",NA,"httr, jsonlite, knitr, markdown, mockery, processx,
 rmarkdown, testthat, vaultr (>= 1.0.4)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"

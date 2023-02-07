@@ -314,7 +314,7 @@ dependencies:
       - echarts-countries-pypkg==0.1.6
       - echarts-united-kingdom-pypkg==0.0.1
       - ecos==2.0.12
-      - efax==1.10.1
+      - efax==1.11.0
       - elfi==0.8.4
       - emcee==3.1.4
       - ephem==4.1.4
