@@ -107,6 +107,12 @@ lvim.plugins = {
             vim.g.mkdp_auto_start = 0
         end,
     },
+    {
+  'lewis6991/satellite.nvim',
+  config = function()
+    require('satellite').setup()
+  end
+},
 {
        "folke/trouble.nvim",
         cmd = "TroubleToggle",
