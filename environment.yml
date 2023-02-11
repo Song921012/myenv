@@ -442,7 +442,7 @@ dependencies:
       - ndim==0.1.17
       - netcdf4==1.6.2
       - networkx==3.0
-      - neural-tangents==0.6.1
+      - neural-tangents==0.6.2
       - neuralprophet==0.5.1
       - nflows==0.14
       - nfoursid==1.0.1
@@ -601,7 +601,7 @@ dependencies:
       - statsforecast==1.4.0
       - statsmodels==0.13.5
       - stevedore==4.1.1
-      - streamlit==1.18.0
+      - streamlit==1.18.1
       - streamlit-pandas-profiling==0.1.3
       - stumpy==1.11.1
       - sympy==1.11.1
@@ -621,7 +621,7 @@ dependencies:
       - tensorstore==0.1.30
       - termcolor==2.2.0
       - text-unidecode==1.3
-      - tf2jax==0.3.1
+      - tf2jax==0.3.3
       - threadpoolctl==3.1.0
       - tjax==0.24.0
       - tomlkit==0.11.6
