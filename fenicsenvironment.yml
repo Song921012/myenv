@@ -45,9 +45,9 @@ dependencies:
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
   - cmake=3.25.2=h077f3f9_0
   - comm=0.1.2=pyhd8ed1ab_0
-  - cryptography=39.0.0=py310h34c0648_0
+  - cryptography=39.0.1=py310h34c0648_0
   - curl=7.87.0=hdc1c0ab_0
-  - cyipopt=1.2.0=py310h914aaf3_0
+  - cyipopt=1.2.0=py310h7771d74_1
   - dbus=1.13.6=h5008d03_3
   - debugpy=1.6.6=py310heca2aa9_0
   - decorator=5.1.1=pyhd8ed1ab_0
@@ -90,8 +90,8 @@ dependencies:
   - gmpy2=2.1.2=py310h3ec546c_1
   - gnutls=3.7.8=hf3e180e_0
   - graphite2=1.3.13=h58526e2_1001
-  - gst-plugins-base=1.21.3=h4243ec0_1
-  - gstreamer=1.21.3=h25f0c4b_1
+  - gst-plugins-base=1.22.0=h4243ec0_0
+  - gstreamer=1.22.0=h25f0c4b_0
   - gstreamer-orc=0.4.33=h166bdaf_0
   - gxx_impl_linux-64=10.4.0=h5231bdf_19
   - gxx_linux-64=10.4.0=h6e491c6_11
@@ -105,9 +105,9 @@ dependencies:
   - importlib-metadata=6.0.0=pyha770c72_0
   - importlib_metadata=6.0.0=hd8ed1ab_0
   - importlib_resources=5.10.2=pyhd8ed1ab_0
-  - ipopt=3.14.10=hf60ba86_0
+  - ipopt=3.14.11=hf9e1ecf_0
   - ipykernel=6.21.1=pyh210e3f2_0
-  - ipython=8.9.0=pyh41d4057_0
+  - ipython=8.10.0=pyh41d4057_0
   - ipython_genutils=0.2.0=py_1
   - ipywidgets=8.0.4=pyhd8ed1ab_0
   - jack=1.9.22=h11f4161_0
@@ -145,8 +145,8 @@ dependencies:
   - libcap=2.66=ha37c62d_0
   - libcblas=3.9.0=16_linux64_openblas
   - libcbor=0.9.0=h9c3ff4c_0
-  - libclang=15.0.7=default_had23c3d_0
-  - libclang13=15.0.7=default_h3e3d535_0
+  - libclang=15.0.7=default_had23c3d_1
+  - libclang13=15.0.7=default_h3e3d535_1
   - libcups=2.3.3=h36d4200_3
   - libcurl=7.87.0=hdc1c0ab_0
   - libdb=6.2.32=h9c3ff4c_0
@@ -182,7 +182,7 @@ dependencies:
   - libopus=1.3.1=h7f98852_1
   - libpciaccess=0.17=h166bdaf_0
   - libpng=1.6.39=h753d276_0
-  - libpq=15.1=hb675445_3
+  - libpq=15.2=hb675445_0
   - libraw=0.21.1=h89bc310_0
   - libsanitizer=10.4.0=h5246dfb_19
   - libsndfile=1.2.0=hb75c966_0
@@ -248,16 +248,16 @@ dependencies:
   - notebook=6.5.2=pyha770c72_1
   - notebook-shim=0.2.2=pyhd8ed1ab_0
   - nspr=4.35=h27087fc_0
-  - nss=3.82=he02c5a1_0
+  - nss=3.88=he45b914_0
   - numpy=1.24.2=py310h8deb116_0
   - occt=7.7.0=h6cf717c_2
   - openblas-ilp64=0.3.21=pthreads_h3d04fff_3
   - openexr=3.1.5=he0ac6c6_1
-  - openh264=2.3.1=h27087fc_1
+  - openh264=2.3.1=hcb278e6_2
   - openjpeg=2.5.0=hfec8fc6_2
   - openlibm=0.8.1=h7f98852_0
   - openssh=9.2p1=hb675445_0
-  - openssl=3.0.7=h0b41bf4_2
+  - openssl=3.0.8=h0b41bf4_0
   - p11-kit=0.24.1=hc5aa10d_0
   - p7zip=16.02=h9c3ff4c_1001
   - packaging=23.0=pyhd8ed1ab_0
@@ -295,7 +295,7 @@ dependencies:
   - pycparser=2.21=pyhd8ed1ab_0
   - pygments=2.14.0=pyhd8ed1ab_0
   - pyopenssl=23.0.0=pyhd8ed1ab_0
-  - pyoptsparse=2.9.2=py310h25a2ba6_0
+  - pyoptsparse=2.9.2=py310hfa9fde3_1
   - pyqt=5.15.7=py310hab646b1_3
   - pyqt5-sip=12.11.0=py310heca2aa9_3
   - pyrsistent=0.19.3=py310h1fa729e_0
@@ -308,7 +308,7 @@ dependencies:
   - pytz=2022.7.1=pyhd8ed1ab_0
   - pyyaml=6.0=py310h5764c6d_5
   - pyzmq=25.0.0=py310h059b190_0
-  - qt-main=5.15.6=h602db52_6
+  - qt-main=5.15.8=h5d23da1_6
   - qtconsole=5.4.0=pyhd8ed1ab_0
   - qtconsole-base=5.4.0=pyha770c72_0
   - qtpy=2.3.0=pyhd8ed1ab_0
@@ -380,12 +380,12 @@ dependencies:
   - xorg-xextproto=7.3.0=h7f98852_1002
   - xorg-xproto=7.0.31=h7f98852_1007
   - xz=5.2.6=h166bdaf_0
-  - y-py=0.5.5=py310h4426083_0
+  - y-py=0.5.5=py310h4426083_2
   - yaml=0.2.5=h7f98852_2
   - yarl=1.8.2=py310h5764c6d_0
   - ypy-websocket=0.8.2=pyhd8ed1ab_0
   - zeromq=4.3.4=h9c3ff4c_1
-  - zipp=3.12.1=pyhd8ed1ab_0
+  - zipp=3.13.0=pyhd8ed1ab_0
   - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=h3eb15da_6
   - pip:
@@ -407,9 +407,9 @@ dependencies:
       - imageio==2.24.0
       - isoduration==20.11.0
       - isort==5.11.4
-      - jax==0.4.2
+      - jax==0.4.3
       - jaxfenics-adjoint==1.0.0
-      - jaxlib==0.4.2+cuda11.cudnn86
+      - jaxlib==0.4.3+cuda11.cudnn86
       - jsonpointer==2.3
       - jupyter-contrib-core==0.4.2
       - jupyter-contrib-nbextensions==0.7.0
