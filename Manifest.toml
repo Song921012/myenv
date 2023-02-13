@@ -386,9 +386,9 @@ version = "0.3.6"
 
 [[deps.BandedMatrices]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra", "SnoopPrecompile", "SparseArrays"]
-git-tree-sha1 = "2787b3241b812828933ad5ce722bcbd3cdf23ced"
+git-tree-sha1 = "87edf3f9e5aa1cbecfe13d70f59acaefa7092833"
 uuid = "aae01518-5342-5314-be14-df237901396f"
-version = "0.17.11"
+version = "0.17.12"
 
 [[deps.BangBang]]
 deps = ["Compat", "ConstructionBase", "Future", "InitialValues", "LinearAlgebra", "Requires", "Setfield", "Tables", "ZygoteRules"]
@@ -3542,9 +3542,9 @@ version = "0.4.6"
 
 [[deps.MultivariateStats]]
 deps = ["Arpack", "LinearAlgebra", "SparseArrays", "Statistics", "StatsAPI", "StatsBase"]
-git-tree-sha1 = "efe9c8ecab7a6311d4b91568bd6c88897822fabe"
+git-tree-sha1 = "91a48569383df24f0fd2baf789df2aade3d0ad80"
 uuid = "6f286f6a-111f-5878-ab1e-185364afe411"
-version = "0.10.0"
+version = "0.10.1"
 
 [[deps.Mustache]]
 deps = ["Printf", "Tables"]
@@ -4304,6 +4304,12 @@ deps = ["Artifacts", "Dates", "Downloads", "LibGit2", "Libdl", "Logging", "Markd
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 version = "1.8.0"
 
+[[deps.PkgBenchmark]]
+deps = ["BenchmarkTools", "Dates", "InteractiveUtils", "JSON", "LibGit2", "Logging", "Pkg", "Printf", "TerminalLoggers", "UUIDs"]
+git-tree-sha1 = "e4a10b7cdb7ec836850e43a4cee196f4e7b02756"
+uuid = "32113eaa-f34f-5b0d-bd6c-c81e245fc73d"
+version = "0.2.12"
+
 [[deps.PkgDependency]]
 deps = ["OrderedCollections", "Pkg", "Term", "UUIDs"]
 git-tree-sha1 = "8a01e3b51d60a91b45ae0b54eb794edd2b044474"
@@ -4473,9 +4479,9 @@ uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 [[deps.ProbNumDiffEq]]
 deps = ["DiffEqBase", "DiffEqDevTools", "ExponentialUtilities", "ForwardDiff", "GaussianDistributions", "LinearAlgebra", "Octavian", "OrdinaryDiffEq", "PSDMatrices", "RecipesBase", "RecursiveArrayTools", "Reexport", "SciMLBase", "SnoopPrecompile", "SpecialMatrices", "Statistics", "StructArrays", "TaylorIntegration", "TaylorSeries", "ToeplitzMatrices", "UnPack"]
-git-tree-sha1 = "e03b7d2883d868f11a270e152c0421ac122b4a88"
+git-tree-sha1 = "6d75ab73518692d765cb7cd568f854856e5e0455"
 uuid = "bf3e78b0-7d74-48a5-b855-9609533b56a5"
-version = "0.9.0"
+version = "0.9.1"
 
 [[deps.Profile]]
 deps = ["Printf"]
@@ -5583,16 +5589,16 @@ uuid = "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
 version = "1.10.1"
 
 [[deps.TaylorIntegration]]
-deps = ["DiffEqBase", "Elliptic", "Espresso", "InteractiveUtils", "LinearAlgebra", "Logging", "Markdown", "OrdinaryDiffEq", "RecursiveArrayTools", "Reexport", "Requires", "StaticArrays", "TaylorSeries"]
-git-tree-sha1 = "b592d7006ac238269fa27cc2401e3ec6f9431423"
+deps = ["BenchmarkTools", "Dates", "DiffEqBase", "Elliptic", "Espresso", "InteractiveUtils", "LinearAlgebra", "Logging", "Markdown", "OrdinaryDiffEq", "PkgBenchmark", "RecursiveArrayTools", "Reexport", "Requires", "StaticArrays", "TaylorSeries"]
+git-tree-sha1 = "627015f7e8f6aeb6f2b8a4bec1f21701ee3e3642"
 uuid = "92b13dbe-c966-51a2-8445-caca9f8a7d42"
-version = "0.10.0"
+version = "0.11.0"
 
 [[deps.TaylorSeries]]
 deps = ["LinearAlgebra", "Markdown", "Requires", "SparseArrays"]
-git-tree-sha1 = "87baeec9ad6273ed8040a93fbbbaa039fa955f1f"
+git-tree-sha1 = "75224c330a97e723ba3f88ef9d3a912550109606"
 uuid = "6aa5eb33-94cf-58f4-a9d0-e4b2c4fc25ea"
-version = "0.12.2"
+version = "0.13.0"
 
 [[deps.Tectonic]]
 deps = ["Pkg"]
