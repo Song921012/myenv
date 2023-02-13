@@ -113,7 +113,7 @@ dependencies:
   - jack=1.9.22=h11f4161_0
   - jedi=0.18.2=pyhd8ed1ab_0
   - jinja2=3.1.2=pyhd8ed1ab_1
-  - jpeg=9e=h166bdaf_2
+  - jpeg=9e=h0b41bf4_3
   - json5=0.9.5=pyh9f0ad1d_0
   - jsoncpp=1.9.5=h4bd325d_1
   - jsonschema=4.17.3=pyhd8ed1ab_0
