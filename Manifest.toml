@@ -1252,9 +1252,9 @@ version = "2.0.1"
 
 [[deps.DiffOpt]]
 deps = ["BlockDiagonals", "ChainRulesCore", "IterativeSolvers", "JuMP", "LazyArrays", "LinearAlgebra", "MathOptInterface", "MathOptSetDistances", "SparseArrays"]
-git-tree-sha1 = "d049e185ed3db4ba48f56836214c84f0f6dd73fe"
+git-tree-sha1 = "b1073b7d23afb1b6f5812a1f56329b09308a6900"
 uuid = "930fe3bc-9c6b-11ea-2d94-6184641e85e7"
-version = "0.4.0"
+version = "0.4.1"
 
 [[deps.DiffResults]]
 deps = ["StaticArraysCore"]
@@ -4245,9 +4245,9 @@ version = "0.5.4"
 
 [[deps.Parsers]]
 deps = ["Dates", "SnoopPrecompile"]
-git-tree-sha1 = "946b56b2135c6c10bbb93efad8a78b699b6383ab"
+git-tree-sha1 = "6f4fbcd1ad45905a5dee3f4256fabb49aa2110c6"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "2.5.6"
+version = "2.5.7"
 
 [[deps.PathIntersections]]
 deps = ["ForwardDiff", "GaussQuadrature", "LinearAlgebra", "SparseArrays", "StaticArrays", "StructArrays"]
@@ -4950,9 +4950,9 @@ version = "0.3.3"
 
 [[deps.SciMLBase]]
 deps = ["ArrayInterfaceCore", "CommonSolve", "ConstructionBase", "Distributed", "DocStringExtensions", "EnumX", "FunctionWrappersWrappers", "IteratorInterfaceExtensions", "LinearAlgebra", "Logging", "Markdown", "Preferences", "RecipesBase", "RecursiveArrayTools", "Reexport", "RuntimeGeneratedFunctions", "SciMLOperators", "StaticArraysCore", "Statistics", "SymbolicIndexingInterface", "Tables"]
-git-tree-sha1 = "76eec814289c4a249ee3747ceeea0d83defbeb8d"
+git-tree-sha1 = "4f3f34c5f545c49a966223dddf1f377fc03568d2"
 uuid = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
-version = "1.84.1"
+version = "1.84.2"
 
 [[deps.SciMLExpectations]]
 deps = ["DiffEqBase", "Distributions", "Integrals", "KernelDensity", "LinearAlgebra", "Parameters", "Random", "RecursiveArrayTools", "Reexport", "StaticArrays", "Statistics", "Zygote"]
@@ -5824,9 +5824,9 @@ uuid = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 version = "0.24.0"
 
 [[deps.URIs]]
-git-tree-sha1 = "ac00576f90d8a259f2c9d823e91d1de3fd44d348"
+git-tree-sha1 = "074f993b0ca030848b897beff716d93aca60f06a"
 uuid = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
-version = "1.4.1"
+version = "1.4.2"
 
 [[deps.UUIDs]]
 deps = ["Random", "SHA"]
