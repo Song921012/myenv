@@ -2369,10 +2369,10 @@ uuid = "1d092043-8f09-5a30-832f-7509e371ab51"
 version = "0.1.5"
 
 [[deps.Integrals]]
-deps = ["ChainRulesCore", "CommonSolve", "ForwardDiff", "HCubature", "LinearAlgebra", "MonteCarloIntegration", "QuadGK", "Reexport", "SciMLBase", "Zygote", "ZygoteRules"]
-git-tree-sha1 = "b105e7e72aec79cc596cf98b5ae524b543e55b61"
+deps = ["CommonSolve", "HCubature", "LinearAlgebra", "MonteCarloIntegration", "QuadGK", "Reexport", "Requires", "SciMLBase"]
+git-tree-sha1 = "22535f76ff27e98469920e2ea035cacb13aad102"
 uuid = "de52edbc-65ea-441a-8357-d3a637375a31"
-version = "3.5.0"
+version = "3.6.0"
 
 [[deps.IntegralsCuba]]
 deps = ["Cuba", "Integrals"]
