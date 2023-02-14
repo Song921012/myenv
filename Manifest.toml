@@ -2094,7 +2094,9 @@ version = "1.4.2+0"
 
 [[deps.HighDimPDE]]
 deps = ["CUDA", "DiffEqBase", "DocStringExtensions", "ExprTools", "Flux", "Functors", "LinearAlgebra", "Random", "Reexport", "SparseArrays", "Statistics", "Test", "Zygote"]
-git-tree-sha1 = "f2bc232e8056c1485b44bccffc22e6cd1b1e577d"
+git-tree-sha1 = "e86fcfdf93f5cf1476f4ca213cd2af52005e84b8"
+repo-rev = "main"
+repo-url = "https://github.com/SciML/HighDimPDE.jl.git"
 uuid = "57c578d5-59d4-4db8-a490-a9fc372d19d2"
 version = "1.2.1"
 
@@ -3554,9 +3556,9 @@ version = "1.0.14"
 
 [[deps.MutableArithmetics]]
 deps = ["LinearAlgebra", "SparseArrays", "Test"]
-git-tree-sha1 = "ea14843487cf9340bdd78b905e8c0130765d1033"
+git-tree-sha1 = "b8b5827b5939d926d3f5954d80bb5a8ab5ccd27a"
 uuid = "d8a4904e-b15c-11e9-3269-09a3773c0cb0"
-version = "1.2.0"
+version = "1.2.1"
 
 [[deps.MyterialColors]]
 git-tree-sha1 = "01d8466fb449436348999d7c6ad740f8f853a579"

@@ -8,6 +8,7 @@ cd
 sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions neofetch -y
 sudo apt install ranger tilix
+sudo pro attach C1j5jEnGBwkLL64UpZjriDEjFgMX3
 #reboot
 
 sudo apt-get install software-properties-common
