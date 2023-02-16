@@ -314,7 +314,7 @@ dependencies:
       - echarts-countries-pypkg==0.1.6
       - echarts-united-kingdom-pypkg==0.0.1
       - ecos==2.0.12
-      - efax==1.11.0
+      - efax==1.11.2
       - elfi==0.8.4
       - emcee==3.1.4
       - ephem==4.1.4
@@ -412,7 +412,7 @@ dependencies:
       - kotsu==0.3.2
       - lark==1.1.5
       - lazy-object-proxy==1.9.0
-      - leafmap==0.16.1
+      - leafmap==0.17.0
       - libclang==15.0.6.1
       - lifelines==0.27.4
       - lightgbm==3.3.4
@@ -633,7 +633,7 @@ dependencies:
       - torchdyn==1.0.3
       - torchgan==0.1.0
       - torchmetrics==0.9.3
-      - torchopt==0.6.0
+      - torchopt==0.7.0
       - torchsde==0.2.5
       - torchvision==0.14.1+cu116
       - trace-updater==0.0.9

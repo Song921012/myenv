@@ -70,6 +70,11 @@ Onlyoffice, WPS, Libre series, okular
 
 Thunderbird
 
+- Remote
+
+[kingToolbox/WindTerm: A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal.](https://github.com/kingToolbox/WindTerm)
+
+
 # Setup Linux Environment
 
 注意:特别针对的是POP!_os系统, Ubuntu和Debian系应该也是适用的
