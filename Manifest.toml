@@ -203,9 +203,9 @@ version = "0.13.14"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "Combinatorics", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "a2c71e0b912d523c85f0986001957d70550e445c"
+git-tree-sha1 = "9a9683522efbf0e9b2ebd0e735d3a4db9a379743"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.7.70"
+version = "0.7.71"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
@@ -1209,10 +1209,10 @@ uuid = "ebbdde9d-f333-5424-9be2-dbf1e9acfb5e"
 version = "3.3.1"
 
 [[deps.DiffEqCallbacks]]
-deps = ["DataStructures", "DiffEqBase", "ForwardDiff", "LinearAlgebra", "Markdown", "NLsolve", "Parameters", "RecipesBase", "RecursiveArrayTools", "SciMLBase", "StaticArrays"]
-git-tree-sha1 = "096c30c579557dd970546371d04707be1b280451"
+deps = ["DataStructures", "DiffEqBase", "ForwardDiff", "LinearAlgebra", "Markdown", "NLsolve", "Parameters", "RecipesBase", "RecursiveArrayTools", "SciMLBase", "StaticArraysCore"]
+git-tree-sha1 = "b497f63a13fe37e03ed7ac72d71b72aad17b46c4"
 uuid = "459566f4-90b8-5000-8ac3-15dfb0a30def"
-version = "2.25.0"
+version = "2.26.0"
 
 [[deps.DiffEqDevTools]]
 deps = ["DiffEqBase", "DiffEqNoiseProcess", "Distributed", "LinearAlgebra", "Logging", "NLsolve", "RecipesBase", "RecursiveArrayTools", "RootedTrees", "SciMLBase", "Statistics"]
@@ -2558,9 +2558,9 @@ version = "1.8.0"
 
 [[deps.JuliaFormatter]]
 deps = ["CSTParser", "CommonMark", "DataStructures", "Glob", "Pkg", "SnoopPrecompile", "Tokenize"]
-git-tree-sha1 = "f40e0db6b1494622c967b727110cac2010064a79"
+git-tree-sha1 = "c444060ee93840c36dae1e74d0d4378b2f28110b"
 uuid = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
-version = "1.0.21"
+version = "1.0.22"
 
 [[deps.JuliaInterpreter]]
 deps = ["CodeTracking", "InteractiveUtils", "Random", "UUIDs"]
@@ -5455,9 +5455,9 @@ version = "0.5.28"
 
 [[deps.Sundials]]
 deps = ["CEnum", "DataStructures", "DiffEqBase", "Libdl", "LinearAlgebra", "Logging", "Reexport", "SciMLBase", "SnoopPrecompile", "SparseArrays", "Sundials_jll"]
-git-tree-sha1 = "e93060234ee07225fdb9f1c61f90b4595f8c5fa6"
+git-tree-sha1 = "c033830e3c6fb4260243fc907b1e7e93421e7ae8"
 uuid = "c3572dad-4567-51f8-b174-8c6c989267f4"
-version = "4.15.0"
+version = "4.15.1"
 
 [[deps.Sundials_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "OpenBLAS_jll", "Pkg", "SuiteSparse_jll"]
@@ -5996,10 +5996,10 @@ uuid = "009559a3-9522-5dbb-924b-0b6ed2b22bb9"
 version = "1.5.2"
 
 [[deps.XGBoost_jll]]
-deps = ["Artifacts", "CUDA_Runtime_jll", "CompilerSupportLibraries_jll", "JLLWrappers", "LLVMOpenMP_jll", "LazyArtifacts", "Libdl", "Pkg", "TOML"]
-git-tree-sha1 = "b680e63a43fe31e5187cbf05b4818c7c69ca0040"
+deps = ["Artifacts", "CUDA_Runtime_jll", "CompilerSupportLibraries_jll", "JLLWrappers", "LLVMOpenMP_jll", "LazyArtifacts", "Libdl", "TOML"]
+git-tree-sha1 = "6d4d6823b7b121c221d263a386d2039bbd3478e8"
 uuid = "a5c6f535-4255-5ca2-a466-0e519f119c46"
-version = "1.7.3+0"
+version = "1.7.4+0"
 
 [[deps.XLSX]]
 deps = ["Artifacts", "Dates", "EzXML", "Printf", "Tables", "ZipFile"]

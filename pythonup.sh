@@ -43,6 +43,10 @@ pip install -U objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax \
 pip install osmnx pyecharts_snapshot
 pip install -U "sktime[all_extras]"
 pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+# Installs the wheel compatible with Cuda >= 11.4 and cudnn >= 8.2
+#conda install jax cuda-nvcc -c conda-forge -c nvidia
+#pip install -U "jax[cuda11_cudnn82]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+#conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 pip install -U torch --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -U torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -U git+https://github.com/probml/dynamax.git
