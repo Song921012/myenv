@@ -274,7 +274,7 @@ dependencies:
       - colorlog==6.7.0
       - colour==0.1.5
       - commonmark==0.9.1
-      - conan==1.58.0
+      - conan==1.59.0
       - contextlib2==21.6.0
       - contourpy==1.0.7
       - convertdate==2.4.0
@@ -314,7 +314,7 @@ dependencies:
       - echarts-countries-pypkg==0.1.6
       - echarts-united-kingdom-pypkg==0.0.1
       - ecos==2.0.12
-      - efax==1.11.2
+      - efax==1.11.3
       - elfi==0.8.4
       - emcee==3.1.4
       - ephem==4.1.4
@@ -367,7 +367,7 @@ dependencies:
       - holidays==0.18
       - hroch==1.2.2
       - htmlmin==0.1.12
-      - huggingface-hub==0.12.0
+      - huggingface-hub==0.12.1
       - imagehash==4.3.1
       - imageio==2.24.0
       - imagesize==1.4.1
@@ -384,10 +384,10 @@ dependencies:
       - isort==5.11.4
       - itsdangerous==2.1.2
       - jabbar==0.0.15
-      - jax==0.4.3
+      - jax==0.4.4
       - jax-tqdm==0.1.0
       - jaxkern==0.0.5
-      - jaxlib==0.4.3+cuda11.cudnn86
+      - jaxlib==0.4.4+cuda11.cudnn86
       - jaxlinop==0.0.3
       - jaxns==2.0.0
       - jaxopt==0.6
@@ -412,7 +412,7 @@ dependencies:
       - kotsu==0.3.2
       - lark==1.1.5
       - lazy-object-proxy==1.9.0
-      - leafmap==0.17.0
+      - leafmap==0.17.1
       - libclang==15.0.6.1
       - lifelines==0.27.4
       - lightgbm==3.3.4
@@ -532,7 +532,7 @@ dependencies:
       - pympler==1.0.1
       - pynvml==11.4.1
       - pyod==1.0.7
-      - pyomo==6.4.4
+      - pyomo==6.5.0
       - pyoperon==0.3.4
       - pyparsing==3.0.9
       - pyperclip==1.8.2
