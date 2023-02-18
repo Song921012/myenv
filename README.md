@@ -138,6 +138,17 @@ sudo fc-cache -fv
 
 然后修改终端字体为CaskaydiaCove Nerd Font Mono.
 
+
+## nvidia显卡驱动， CUDA, cudnn, tensorrt
+
+1. 直接用软件与更新的Gui安装nvidia driver
+
+2. CUDA在官网下载,官网有命令行，一定要和显卡驱动版本匹配, 使用run.sh方式好一些
+
+3. cudnn也在官网下载，下好后把include文件夹，和lib文件夹放在cuda对应include和lib64文件夹
+
+4. 官网下载TensorRT，解压缩到~/TensorRT,  并将lib添加到路径
+
 ## 设置好Git个人访问令牌
 
 [创建个人访问令牌 - GitHub Docs](https://docs.github.com/cn/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)

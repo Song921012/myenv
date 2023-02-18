@@ -47,8 +47,9 @@ pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases
 #conda install jax cuda-nvcc -c conda-forge -c nvidia
 #pip install -U "jax[cuda11_cudnn82]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 #conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
-pip install -U torch --extra-index-url https://download.pytorch.org/whl/cu116
-pip install -U torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+pip install -U torch torchvision torchaudio
+#pip install -U torch --extra-index-url https://download.pytorch.org/whl/cu116
+#pip install -U torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 pip install -U git+https://github.com/probml/dynamax.git
 
 # install abm framework from [FLAMEGPU/FLAMEGPU2: FLAME GPU 2 is a GPU accelerated agent based modelling framework for C++ and Python](https://github.com/FLAMEGPU/FLAMEGPU2)
