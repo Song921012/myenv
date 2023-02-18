@@ -683,7 +683,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.1
+      - widgetsnbextension==3.6.2
       - wrapt==1.14.1
       - x21==0.4.1
       - xarray==2023.1.0
