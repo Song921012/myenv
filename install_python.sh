@@ -133,9 +133,9 @@ nextstrain update conda
 
 
 # PyMC
-conda create -c conda-forge -n pymc "pymc>=4" jupyter jupyterlab
-conda activate pymc
-pip install Numpy Pandas Matplotlib scipy sympy statsmodels radian flake8 pylint yapf virtualenv jupyter_contrib_nbextensions nbconvert
-conda deactivate
+#conda create -c conda-forge -n pymc "pymc>=4" jupyter jupyterlab
+#conda activate pymc
+#pip install Numpy Pandas Matplotlib scipy sympy statsmodels radian flake8 pylint yapf virtualenv jupyter_contrib_nbextensions nbconvert
+#conda deactivate
 conda activate base
 cd

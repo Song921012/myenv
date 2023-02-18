@@ -58,12 +58,12 @@ pip install -U git+https://github.com/probml/dynamax.git
 
 # PyMC python
 
-conda deactivate
-conda activate pymc
-conda update --all
-pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
-pip install -U numpyro blackjax
-conda deactivate
+#conda deactivate
+#conda activate pymc
+#conda update --all
+#pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+#pip install -U numpyro blackjax
+#conda deactivate
 conda activate base
 
 
