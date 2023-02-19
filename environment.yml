@@ -6,9 +6,10 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
+  - aiofiles=22.1.0=pyhd8ed1ab_0
+  - aiosqlite=0.18.0=pyhd8ed1ab_0
   - alsa-lib=1.2.8=h166bdaf_0
   - anyio=3.6.2=pyhd8ed1ab_0
-  - appdirs=1.4.4=pyh9f0ad1d_0
   - argon2-cffi=21.3.0=pyhd8ed1ab_0
   - argon2-cffi-bindings=21.2.0=py310h5764c6d_3
   - asttokens=2.2.1=pyhd8ed1ab_0
@@ -22,7 +23,6 @@ dependencies:
   - bleach=6.0.0=pyhd8ed1ab_0
   - brotlipy=0.7.0=py310h5764c6d_1005
   - bzip2=1.0.8=h7f98852_4
-  - c-ares=1.18.1=h7f98852_0
   - ca-certificates=2022.12.7=ha878542_0
   - cairo=1.16.0=ha61ee94_1014
   - certifi=2022.12.7=pyhd8ed1ab_0
@@ -34,9 +34,7 @@ dependencies:
   - conda-content-trust=0.1.3=pyhd8ed1ab_0
   - conda-package-handling=2.0.2=pyh38be061_0
   - conda-package-streaming=0.7.0=pyhd8ed1ab_1
-  - cryptography=39.0.0=py310h34c0648_0
-  - cudatoolkit=11.8.0=h37601d7_11
-  - cudnn=8.4.1.50=hed8a83a_0
+  - cryptography=39.0.1=py310h34c0648_0
   - dbus=1.13.6=h5008d03_3
   - debugpy=1.6.6=py310heca2aa9_0
   - decorator=5.1.1=pyhd8ed1ab_0
@@ -71,7 +69,6 @@ dependencies:
   - ipython=8.10.0=pyh41d4057_0
   - ipython_genutils=0.2.0=py_1
   - jack=1.9.22=h11f4161_0
-  - jax=0.4.4=pyhd8ed1ab_0
   - jedi=0.18.2=pyhd8ed1ab_0
   - jinja2=3.1.2=pyhd8ed1ab_1
   - jpeg=9e=h0b41bf4_3
@@ -83,15 +80,17 @@ dependencies:
   - jupyter_core=5.2.0=py310hff52083_0
   - jupyter_events=0.6.3=pyhd8ed1ab_0
   - jupyter_server=2.3.0=pyhd8ed1ab_0
+  - jupyter_server_fileid=0.7.0=pyhd8ed1ab_0
   - jupyter_server_terminals=0.4.4=pyhd8ed1ab_1
-  - jupyterlab=3.5.2=pyhd8ed1ab_0
+  - jupyter_server_ydoc=0.6.1=pyhd8ed1ab_0
+  - jupyter_ydoc=0.2.2=pyhd8ed1ab_0
+  - jupyterlab=3.6.1=pyhd8ed1ab_0
   - jupyterlab_pygments=0.2.2=pyhd8ed1ab_0
   - jupyterlab_server=2.19.0=pyhd8ed1ab_0
   - keyutils=1.6.1=h166bdaf_0
   - krb5=1.20.1=h81ceb04_0
   - lame=3.100=h166bdaf_1003
-  - ld_impl_linux-64=2.39=hcc3a1bd_1
-  - libabseil=20230125.0=cxx17_hcb278e6_1
+  - ld_impl_linux-64=2.40=h41732ed_0
   - libblas=3.9.0=16_linux64_openblas
   - libcap=2.66=ha37c62d_0
   - libcblas=3.9.0=16_linux64_openblas
@@ -109,7 +108,6 @@ dependencies:
   - libglib=2.74.1=h606061b_1
   - libgomp=12.2.0=h65d4601_19
   - libgpg-error=1.46=h620e276_0
-  - libgrpc=1.51.1=hbc085c6_2
   - libiconv=1.17=h166bdaf_0
   - liblapack=3.9.0=16_linux64_openblas
   - libllvm15=15.0.7=hadd5161_0
@@ -119,7 +117,6 @@ dependencies:
   - libopus=1.3.1=h7f98852_1
   - libpng=1.6.39=h753d276_0
   - libpq=15.2=hb675445_0
-  - libprotobuf=3.21.12=h3eb15da_0
   - libsndfile=1.2.0=hb75c966_0
   - libsodium=1.0.18=h36c2ea0_1
   - libsqlite=3.40.0=h753d276_0
@@ -140,13 +137,12 @@ dependencies:
   - mpg123=1.31.2=hcb278e6_0
   - mysql-common=8.0.32=ha901b37_0
   - mysql-libs=8.0.32=hd7da12d_0
-  - nbclassic=0.5.1=pyhd8ed1ab_0
+  - nbclassic=0.5.2=pyhd8ed1ab_0
   - nbclient=0.7.2=pyhd8ed1ab_0
   - nbconvert=7.2.9=pyhd8ed1ab_0
   - nbconvert-core=7.2.9=pyhd8ed1ab_0
   - nbconvert-pandoc=7.2.9=pyhd8ed1ab_0
   - nbformat=5.7.3=pyhd8ed1ab_0
-  - nccl=2.14.3.1=h0800d71_0
   - ncurses=6.3=h27087fc_1
   - nest-asyncio=1.5.6=pyhd8ed1ab_0
   - notebook=6.5.2=pyha770c72_1
@@ -154,7 +150,6 @@ dependencies:
   - nspr=4.35=h27087fc_0
   - nss=3.88=he45b914_0
   - openssl=3.0.8=h0b41bf4_0
-  - opt_einsum=3.3.0=pyhd8ed1ab_1
   - packaging=23.0=pyhd8ed1ab_0
   - pandoc=2.19.2=h32600fe_1
   - pandocfilters=1.5.0=pyhd8ed1ab_0
@@ -167,7 +162,6 @@ dependencies:
   - platformdirs=3.0.0=pyhd8ed1ab_0
   - pluggy=1.0.0=pyhd8ed1ab_5
   - ply=3.11=py_1
-  - pooch=1.6.0=pyhd8ed1ab_0
   - prometheus_client=0.16.0=pyhd8ed1ab_0
   - prompt-toolkit=3.0.36=pyha770c72_0
   - prompt_toolkit=3.0.36=hd8ed1ab_0
@@ -183,7 +177,7 @@ dependencies:
   - pyqt5-sip=12.11.0=py310heca2aa9_3
   - pyrsistent=0.19.3=py310h1fa729e_0
   - pysocks=1.7.1=pyha2e5f31_6
-  - python=3.10.8=h4a9ceb5_0_cpython
+  - python=3.10.9=he550d4f_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python-fastjsonschema=2.16.2=pyhd8ed1ab_0
   - python-json-logger=2.0.6=pyhd8ed1ab_0
@@ -195,7 +189,6 @@ dependencies:
   - qtconsole=5.4.0=pyhd8ed1ab_0
   - qtconsole-base=5.4.0=pyha770c72_0
   - qtpy=2.3.0=pyhd8ed1ab_0
-  - re2=2023.02.01=hcb278e6_0
   - readline=8.1.2=h0f457ee_0
   - requests=2.28.2=pyhd8ed1ab_0
   - rfc3339-validator=0.1.4=pyhd8ed1ab_0
@@ -242,9 +235,11 @@ dependencies:
   - xorg-xextproto=7.3.0=h7f98852_1002
   - xorg-xproto=7.0.31=h7f98852_1007
   - xz=5.2.6=h166bdaf_0
+  - y-py=0.5.5=py310h4426083_2
   - yaml=0.2.5=h7f98852_2
+  - ypy-websocket=0.8.2=pyhd8ed1ab_0
   - zeromq=4.3.4=h9c3ff4c_1
-  - zipp=3.13.0=pyhd8ed1ab_0
+  - zipp=3.14.0=pyhd8ed1ab_0
   - zlib=1.2.13=h166bdaf_4
   - zstandard=0.19.0=py310hdeb6495_1
   - zstd=1.5.2=h3eb15da_6
@@ -257,6 +252,7 @@ dependencies:
       - alembic==1.9.2
       - altair==4.2.0
       - ansi2html==1.8.0
+      - appdirs==1.4.4
       - arrow==1.2.3
       - arviz==0.14.0
       - asteval==0.9.28
@@ -335,7 +331,7 @@ dependencies:
       - docutils==0.19
       - dtw-python==1.3.0
       - dymos==1.7.0
-      - dynamax==0.1.0+183.g71ea2d4
+      - dynamax==0.1.0+185.g9650ee9
       - echarts-china-cities-pypkg==0.0.9
       - echarts-china-counties-pypkg==0.0.2
       - echarts-china-misc-pypkg==0.0.1
@@ -408,11 +404,12 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.2
+      - ipywidgets==7.7.3
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
       - jabbar==0.0.15
+      - jax==0.4.4
       - jax-tqdm==0.1.0
       - jaxkern==0.0.5
       - jaxlib==0.4.4+cuda11.cudnn86
@@ -491,6 +488,7 @@ dependencies:
       - oauthlib==3.2.2
       - objax==1.6.0
       - openmdao==3.23.0
+      - opt-einsum==3.3.0
       - optax==0.1.4
       - optht==0.2.0
       - optree==0.5.1
@@ -523,6 +521,7 @@ dependencies:
       - pmdarima==2.0.2
       - pmlb==1.0.1.post3
       - poethepoet==0.10.0
+      - pooch==1.6.0
       - portalocker==2.7.0
       - pot==0.8.2
       - prettytable==3.6.0
@@ -570,7 +569,7 @@ dependencies:
       - pyro-ppl==1.8.4
       - pyshp==2.3.1
       - pysindy==1.7.2
-      - pysr==0.11.14
+      - pysr==0.11.15
       - pystac==1.6.1
       - pystac-client==0.5.1
       - pytest==7.2.1
@@ -683,7 +682,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.2
+      - widgetsnbextension==3.6.1
       - wrapt==1.14.1
       - x21==0.4.1
       - xarray==2023.1.0
