@@ -404,7 +404,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.3
+      - ipywidgets==7.7.2
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
