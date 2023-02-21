@@ -386,9 +386,9 @@ version = "0.3.6"
 
 [[deps.BandedMatrices]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra", "SnoopPrecompile", "SparseArrays"]
-git-tree-sha1 = "8b0a59f488eb3aceccffa341beeeca9957867919"
+git-tree-sha1 = "cb11e78958aa20df06addef7893b5877448890c5"
 uuid = "aae01518-5342-5314-be14-df237901396f"
-version = "0.17.14"
+version = "0.17.15"
 
 [[deps.BangBang]]
 deps = ["Compat", "ConstructionBase", "Future", "InitialValues", "LinearAlgebra", "Requires", "Setfield", "Tables", "ZygoteRules"]
@@ -1150,9 +1150,9 @@ version = "5.41.0"
 
 [[deps.DelayEmbeddings]]
 deps = ["Distances", "Distributions", "LinearAlgebra", "Neighborhood", "Random", "Reexport", "StateSpaceSets", "Statistics", "StatsBase"]
-git-tree-sha1 = "ca12a3af3a969ffe3f1c2ee856f86b572e3c2a72"
+git-tree-sha1 = "f5477433eda2826af6882772ac8d09c2bf4b91ff"
 uuid = "5732040d-69e3-5649-938a-b6b4f237613f"
-version = "2.7.0"
+version = "2.7.1"
 
 [[deps.DelimitedFiles]]
 deps = ["Mmap"]
@@ -3273,21 +3273,21 @@ version = "0.3.1"
 
 [[deps.Manifolds]]
 deps = ["Colors", "Distributions", "Einsum", "Graphs", "HybridArrays", "Kronecker", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "MatrixEquations", "Quaternions", "Random", "RecipesBase", "RecursiveArrayTools", "Requires", "SimpleWeightedGraphs", "SpecialFunctions", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "d41347609ece2ae2bff28cc0be5053e1a1e7b656"
+git-tree-sha1 = "3a7e117fe86b0b884d036c71e58ed004b651f791"
 uuid = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
-version = "0.8.47"
+version = "0.8.49"
 
 [[deps.ManifoldsBase]]
 deps = ["LinearAlgebra", "Markdown", "Random"]
-git-tree-sha1 = "160a6b880d71bbec3411d20523001f5046b0946c"
+git-tree-sha1 = "71c92619cb5d7297a9bb670e2ffa6243046a3057"
 uuid = "3362f125-f0bb-47a3-aa74-596ffd7ef2fb"
-version = "0.13.30"
+version = "0.14.1"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "bbf123694218988047a1b633109f890e4680dc4a"
+git-tree-sha1 = "f35b4be83a1cf91cc546b35b3a1f51baeac186c1"
 uuid = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
-version = "0.4.7"
+version = "0.4.8"
 
 [[deps.ManualMemory]]
 git-tree-sha1 = "bcaef4fc7a0cfe2cba636d84cda54b5e4e4ca3cd"
@@ -4841,9 +4841,9 @@ version = "0.3.5"
 
 [[deps.RootedTrees]]
 deps = ["Latexify", "LinearAlgebra", "Preferences", "RecipesBase", "Requires"]
-git-tree-sha1 = "11e1fb2ee0fd9c1fc52f0efbd1f0fff938a46a66"
+git-tree-sha1 = "e01ce83986638c379b40c64a5efa62d7dc68d28a"
 uuid = "47965b36-3f3e-11e9-0dcf-4570dfd42a8c"
-version = "2.17.1"
+version = "2.18.0"
 
 [[deps.Roots]]
 deps = ["ChainRulesCore", "CommonSolve", "Printf", "Setfield"]
@@ -4950,9 +4950,9 @@ version = "0.3.3"
 
 [[deps.SciMLBase]]
 deps = ["ArrayInterface", "CommonSolve", "ConstructionBase", "Distributed", "DocStringExtensions", "EnumX", "FunctionWrappersWrappers", "IteratorInterfaceExtensions", "LinearAlgebra", "Logging", "Markdown", "Preferences", "RecipesBase", "RecursiveArrayTools", "Reexport", "RuntimeGeneratedFunctions", "SciMLOperators", "StaticArraysCore", "Statistics", "SymbolicIndexingInterface", "Tables"]
-git-tree-sha1 = "fd2a15854af0ba1542b89efa24512b0377e7e37d"
+git-tree-sha1 = "33f031423eedc1f9e43f6112da6f13d5b49ea7da"
 uuid = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
-version = "1.86.1"
+version = "1.86.2"
 
 [[deps.SciMLExpectations]]
 deps = ["DiffEqBase", "Distributions", "Integrals", "KernelDensity", "LinearAlgebra", "Parameters", "Random", "RecursiveArrayTools", "Reexport", "StaticArrays", "Statistics", "Zygote"]
@@ -5276,9 +5276,9 @@ version = "0.15.9"
 
 [[deps.StateSpaceSets]]
 deps = ["Distances", "Distributions", "LinearAlgebra", "Neighborhood", "Random", "StaticArraysCore", "Statistics"]
-git-tree-sha1 = "1abf0ea39445d5ddef0f17e78f644a0dc3c9e203"
+git-tree-sha1 = "2c2db8ce455ccec1cc45c9d45df6ebcb98a72790"
 uuid = "40b095a5-5852-4c12-98c7-d43bf788e795"
-version = "1.0.6"
+version = "1.1.0"
 
 [[deps.Static]]
 deps = ["IfElse"]
