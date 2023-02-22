@@ -386,9 +386,9 @@ version = "0.3.6"
 
 [[deps.BandedMatrices]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra", "SnoopPrecompile", "SparseArrays"]
-git-tree-sha1 = "cb11e78958aa20df06addef7893b5877448890c5"
+git-tree-sha1 = "ee75410471c18f40d57eb53840bc705a74566f23"
 uuid = "aae01518-5342-5314-be14-df237901396f"
-version = "0.17.15"
+version = "0.17.16"
 
 [[deps.BangBang]]
 deps = ["Compat", "ConstructionBase", "Future", "InitialValues", "LinearAlgebra", "Requires", "Setfield", "Tables", "ZygoteRules"]
@@ -5192,9 +5192,9 @@ version = "0.1.3"
 
 [[deps.SpecialFunctions]]
 deps = ["ChainRulesCore", "IrrationalConstants", "LogExpFunctions", "OpenLibm_jll", "OpenSpecFun_jll"]
-git-tree-sha1 = "d75bda01f8c31ebb72df80a46c88b25d1c79c56d"
+git-tree-sha1 = "ef28127915f4229c971eb43f3fc075dd3fe91880"
 uuid = "276daf66-3868-5448-9aa4-cd146d93841b"
-version = "2.1.7"
+version = "2.2.0"
 
 [[deps.SpecialMatrices]]
 deps = ["LinearAlgebra", "Polynomials"]
@@ -5270,9 +5270,9 @@ version = "4.3.0"
 
 [[deps.StartUpDG]]
 deps = ["ConstructionBase", "FillArrays", "HDF5", "Kronecker", "LinearAlgebra", "NodesAndModes", "OrderedCollections", "PathIntersections", "Printf", "RecipesBase", "RecursiveArrayTools", "Reexport", "Requires", "Setfield", "SparseArrays", "StaticArrays", "Triangulate", "UnPack", "WriteVTK"]
-git-tree-sha1 = "baca9a9af25821f26f34d5489f7dc358732e623f"
+git-tree-sha1 = "1af0434b5843f44a9f5c8a37b6c2e461f214753c"
 uuid = "472ebc20-7c99-4d4b-9470-8fde4e9faa0f"
-version = "0.15.9"
+version = "0.15.10"
 
 [[deps.StateSpaceSets]]
 deps = ["Distances", "Distributions", "LinearAlgebra", "Neighborhood", "Random", "StaticArraysCore", "Statistics"]
