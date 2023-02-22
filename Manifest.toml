@@ -1282,9 +1282,9 @@ version = "7.7.0"
 
 [[deps.DimensionalData]]
 deps = ["Adapt", "ArrayInterfaceCore", "ConstructionBase", "Dates", "Extents", "IntervalSets", "IteratorInterfaceExtensions", "LinearAlgebra", "Random", "RecipesBase", "SparseArrays", "Statistics", "TableTraits", "Tables"]
-git-tree-sha1 = "f538b17201d3bb4331fd5c3169fe93c6d366f409"
+git-tree-sha1 = "b09a33e447a553f6fc943bca30b679d369d20132"
 uuid = "0703355e-b756-11e9-17c0-8b28908087d0"
-version = "0.24.3"
+version = "0.24.4"
 
 [[deps.Distances]]
 deps = ["LinearAlgebra", "SparseArrays", "Statistics", "StatsAPI"]
