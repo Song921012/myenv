@@ -320,7 +320,7 @@ dependencies:
       - deprecated==1.2.13
       - deprecation==2.1.0
       - derivative==0.5.3
-      - diffrax==0.3.0
+      - diffrax==0.3.1
       - dill==0.3.6
       - distlib==0.3.6
       - distrax==0.1.2
