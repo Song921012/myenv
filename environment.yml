@@ -270,7 +270,7 @@ dependencies:
       - blackjax==0.9.6
       - blinker==1.5
       - boltons==21.0.0
-      - botorch==0.8.1
+      - botorch==0.8.2
       - bottle==0.12.23
       - bqplot==0.12.36
       - branca==0.6.0
@@ -339,7 +339,7 @@ dependencies:
       - echarts-countries-pypkg==0.1.6
       - echarts-united-kingdom-pypkg==0.0.1
       - ecos==2.0.12
-      - efax==1.11.3
+      - efax==1.12.0
       - elfi==0.8.4
       - emcee==3.1.4
       - ephem==4.1.4
@@ -404,7 +404,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.2
+      - ipywidgets==7.7.3
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
@@ -457,7 +457,7 @@ dependencies:
       - mesa==1.1.1
       - ml-collections==0.1.0
       - mne==1.3.0
-      - mosek==10.0.36
+      - mosek==10.0.37
       - mpi4py==3.1.4
       - mpmath==1.2.1
       - multidict==6.0.4
@@ -513,7 +513,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
-      - pip==23.0.1
+      - pip==23.0
       - plotly==5.13.0
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
@@ -627,7 +627,7 @@ dependencies:
       - statsforecast==1.4.0
       - statsmodels==0.13.5
       - stevedore==4.1.1
-      - streamlit==1.18.1
+      - streamlit==1.19.0
       - streamlit-pandas-profiling==0.1.3
       - stumpy==1.11.1
       - sympy==1.11.1
@@ -682,7 +682,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.1
+      - widgetsnbextension==3.6.2
       - wrapt==1.14.1
       - x21==0.4.1
       - xarray==2023.1.0
