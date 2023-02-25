@@ -143,13 +143,13 @@ tidyr, withr",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
 "DBI","DBI","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.3",NA,"methods, R (>= 3.0.0)",NA,NA,"blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms,
 knitr, magrittr, RMariaDB, rmarkdown, rprojroot, RSQLite (>=
 1.1-2), testthat, xml2",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.2"
-"dbplyr","dbplyr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.3.0",NA,"R (>= 3.1)","assertthat (>= 0.2.0), blob (>= 1.2.0), cli (>= 3.4.1), DBI
-(>= 1.0.0), dplyr (>= 1.0.10), glue (>= 1.2.0), lifecycle (>=
-1.0.3), magrittr, methods, pillar (>= 1.5.0), purrr (>= 1.0.1),
-R6 (>= 2.2.2), rlang (>= 1.0.6), tibble (>= 1.4.2), tidyselect
-(>= 1.2.0), utils, vctrs (>= 0.5.0), withr",NA,"bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>=
+"dbplyr","dbplyr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.3.1",NA,"R (>= 3.1)","blob (>= 1.2.0), cli (>= 3.4.1), DBI (>= 1.0.0), dplyr (>=
+1.1.0), glue (>= 1.2.0), lifecycle (>= 1.0.3), magrittr,
+methods, pillar (>= 1.5.0), purrr (>= 1.0.1), R6 (>= 2.2.2),
+rlang (>= 1.0.6), tibble (>= 1.4.2), tidyr (>= 1.3.0),
+tidyselect (>= 1.2.0), utils, vctrs (>= 0.5.0), withr",NA,"bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>=
 1.0.2), rmarkdown, RPostgres (>= 1.1.3), RPostgreSQL, RSQLite
-(>= 2.1.0), testthat (>= 3.0.2), tidyr (>= 1.2.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+(>= 2.2.15), testthat (>= 3.0.2)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "DEoptimR","DEoptimR","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0-11",NA,NA,"stats",NA,NA,"robustbase","GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
 "desc","desc","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.2",NA,"R (>= 3.4)","cli, R6, rprojroot, utils",NA,"callr, covr, gh, spelling, testthat, whoami, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "deSolve","deSolve","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.34",NA,"R (>= 3.3.0)","methods, graphics, grDevices, stats",NA,"scatterplot3d, FME",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
@@ -255,7 +255,7 @@ ggthemes, hrbrthemes",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "extrafontdb","extrafontdb","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0",NA,"R (>= 2.14)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,NA,"4.2.2"
 "fansi","fansi","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.4",NA,"R (>= 3.1.0)","grDevices, utils",NA,"unitizer, knitr, rmarkdown",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "farver","farver","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.1.1",NA,NA,NA,NA,"covr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
-"fastmap","fastmap","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.0",NA,NA,NA,NA,"testthat (>= 2.1.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"fastmap","fastmap","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.1",NA,NA,NA,NA,"testthat (>= 2.1.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "fields","fields","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","14.1",NA,"R (>= 3.5.0), methods, spam, viridis","maps",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "fitdistrplus","fitdistrplus","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1-8",NA,"R (>= 3.5.0), MASS, grDevices, survival, methods","stats",NA,"actuar, rgenoud, mc2d, gamlss.dist, knitr, ggplot2,
 GeneralizedHyperbolic, rmarkdown, Hmisc",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
@@ -447,7 +447,7 @@ viridis (>= 0.5.1), magrittr (>= 1.5), purrr (>= 0.3.2), future
 2.1.3), tidyr (>= 0.8.3), deSolve (>= 1.23)",NA,"testthat (>= 2.1.1), rmarkdown (>= 1.13), knitr (>= 1.23),
 pkgnet (>= 0.4.0), DT (>= 0.7), vdiffr (>= 0.3.1), spelling",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "ids","ids","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.1",NA,NA,"openssl, uuid",NA,"knitr, rcorpora, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"igraph","igraph","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.0",NA,"methods","graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0),
+"igraph","igraph","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.1",NA,"methods","graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0),
 rlang, stats, utils",NA,"ape, digest, graph, igraphdata, rgl, scales, stats4, tcltk,
 testthat, withr, vdiffr, knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "incidence","incidence","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7.3",NA,NA,"ggplot2 (>= 3.3.2), aweek (>= 0.2.0)",NA,"magrittr, outbreaks, testthat, vdiffr, covr, knitr,
