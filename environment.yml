@@ -428,7 +428,7 @@ dependencies:
       - jupyter-dash==0.4.2
       - jupyter-highlight-selected-word==0.2.0
       - jupyter-nbextensions-configurator==0.6.1
-      - jupyterlab-widgets==1.1.2
+      - jupyterlab-widgets==1.1.1
       - keplergl==0.3.2
       - keras==2.11.0
       - keras-self-attention==0.51.0
@@ -513,7 +513,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
-      - pip==23.0.1
+      - pip==23.0
       - plotly==5.13.1
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
@@ -568,7 +568,7 @@ dependencies:
       - pyro-api==0.1.2
       - pyro-ppl==1.8.4
       - pyshp==2.3.1
-      - pysindy==1.7.2
+      - pysindy==1.7.3
       - pysr==0.11.15
       - pystac==1.6.1
       - pystac-client==0.5.1
