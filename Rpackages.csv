@@ -413,10 +413,10 @@ vctrs (>= 0.2.3)",NA,"covr, readr, rmarkdown, sodium, spelling, testthat (>=
 stringr, xml2","Rcpp","covr, knitr, rmarkdown, testthat, vdiffr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "gtable","gtable","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.1",NA,"R (>= 3.0)","grid",NA,"covr, testthat, knitr, rmarkdown, ggplot2, profvis",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "gtools","gtools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.9.4",NA,"methods, stats, utils",NA,NA,"car, gplots, knitr, rstudioapi, SGP, taxize",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
-"haven","haven","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.5.1",NA,"R (>= 3.4)","cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods,
+"haven","haven","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.5.2",NA,"R (>= 3.4)","cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods,
 readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs
 (>= 0.3.0)","cpp11","covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown,
-testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+testthat (>= 3.0.0), utf8",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "HDInterval","HDInterval","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.4",NA,NA,NA,NA,"coda",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "here","here","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.1",NA,NA,"rprojroot (>= 2.0.2)",NA,"conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,
 rlang, rmarkdown, testthat, uuid, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
@@ -560,7 +560,7 @@ see (>= 0.7.0), testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 tidyr (>= 0.8.0), tidyselect, vctrs",NA,"compiler, covr, ggplot2, testthat (>= 3.0.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "munsell","munsell","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5.0",NA,NA,"colorspace, methods",NA,"ggplot2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "mvtnorm","mvtnorm","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1-3",NA,"R(>= 3.5.0)","stats, methods",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
-"nCov2019","nCov2019","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.5",NA,"R (>= 3.6.0)","downloader, ggplot2, jsonlite, RColorBrewer",NA,"cowplot, dplyr, DT, ggplotify, grDevices, maps, magick,
+"nCov2019","nCov2019","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.6",NA,"R (>= 3.6.0)","downloader, ggplot2, jsonlite, RColorBrewer",NA,"cowplot, dplyr, DT, ggplotify, grDevices, maps, magick,
 shiny, shinyBS, shinydashboard, shinycssloaders, remotes,
 utils, plotly, prettydoc, knitr, rmarkdown, reshape2, ggrepel,
 shadowtext, tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
@@ -1018,10 +1018,10 @@ microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,
 jquerylib (>= 0.1.3), rlang, cachem, memoise (>= 2.0.1),
 base64enc, mime",NA,"shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr,
 testthat, withr, rappdirs, curl, magrittr, fontawesome, bsicons",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"cachem.1","cachem","/usr/local/lib/R/site-library","1.0.6",NA,NA,"rlang, fastmap",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"cachem.1","cachem","/usr/local/lib/R/site-library","1.0.7",NA,NA,"rlang, fastmap",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "callr.1","callr","/usr/local/lib/R/site-library","3.7.3",NA,"R (>= 3.4)","processx (>= 3.6.1), R6, utils",NA,"asciicast, cli (>= 1.1.0), covr, mockery, ps, rprojroot,
 spelling, testthat (>= 3.0.0), withr (>= 2.3.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"classInt.1","classInt","/usr/local/lib/R/site-library","0.4-8",NA,"R (>= 2.2)","grDevices, stats, graphics, e1071, class, KernSmooth",NA,"spData (>= 0.2.6.2), units, knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"classInt.1","classInt","/usr/local/lib/R/site-library","0.4-9",NA,"R (>= 2.2)","grDevices, stats, graphics, e1071, class, KernSmooth",NA,"spData (>= 0.2.6.2), units, knitr, rmarkdown, tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "cli.1","cli","/usr/local/lib/R/site-library","3.6.0",NA,"R (>= 3.4)","utils",NA,"callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,
 htmltools, htmlwidgets, knitr, methods, mockery, processx, ps
 (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
@@ -1074,7 +1074,7 @@ Matrix, MASS, slam",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "evaluate.1","evaluate","/usr/local/lib/R/site-library","0.20",NA,"R (>= 3.0.2)","methods",NA,"covr, ggplot2, lattice, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "fansi.1","fansi","/usr/local/lib/R/site-library","1.0.4",NA,"R (>= 3.1.0)","grDevices, utils",NA,"unitizer, knitr, rmarkdown",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "farver.1","farver","/usr/local/lib/R/site-library","2.1.1",NA,NA,NA,NA,"covr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
-"fastmap.1","fastmap","/usr/local/lib/R/site-library","1.1.0",NA,NA,NA,NA,"testthat (>= 2.1.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"fastmap.1","fastmap","/usr/local/lib/R/site-library","1.1.1",NA,NA,NA,NA,"testthat (>= 2.1.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "fontawesome.1","fontawesome","/usr/local/lib/R/site-library","0.5.0",NA,"R (>= 3.3.0)","rlang (>= 1.0.6), htmltools (>= 0.5.1.1)",NA,"covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0),
 rsvg",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "fs.1","fs","/usr/local/lib/R/site-library","1.6.1",NA,"R (>= 3.4)","methods",NA,"covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling,
@@ -1089,7 +1089,8 @@ mapproj, maps, maptools, multcomp, munsell, nlme, profvis,
 quantreg, ragg, RColorBrewer, rgeos, rmarkdown, rpart, sf (>=
 0.7-3), svglite (>= 1.2.0.9001), testthat (>= 3.1.2), vdiffr
 (>= 1.0.0), xml2","sp","MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"gh.1","gh","/usr/local/lib/R/site-library","1.3.1",NA,"R (>= 3.4)","cli (>= 3.0.1), gitcreds, httr (>= 1.2), ini, jsonlite",NA,"covr, knitr, mockery, rmarkdown, rprojroot, spelling,
+"gh.1","gh","/usr/local/lib/R/site-library","1.4.0",NA,"R (>= 3.4)","cli (>= 3.0.1), gitcreds, httr2, ini, jsonlite, rlang (>=
+1.0.0)",NA,"covr, knitr, mockery, rmarkdown, rprojroot, spelling,
 testthat (>= 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "gitcreds.1","gitcreds","/usr/local/lib/R/site-library","0.1.2",NA,"R (>= 3.4)",NA,NA,"codetools, covr, knitr, mockery, oskeyring, rmarkdown,
 testthat (>= 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
@@ -1105,8 +1106,12 @@ fastmap (>= 1.1.0), ellipsis",NA,"markdown, testthat, withr, Cairo, ragg, shiny"
 "htmlwidgets.1","htmlwidgets","/usr/local/lib/R/site-library","1.6.1",NA,NA,"grDevices, htmltools (>= 0.5.4), jsonlite (>= 0.9.16), yaml,
 knitr (>= 1.8), rmarkdown",NA,"testthat","shiny (>= 1.1)","MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "httpuv.1","httpuv","/usr/local/lib/R/site-library","1.6.9",NA,"R (>= 2.15.1)","Rcpp (>= 1.0.7), utils, R6, promises, later (>= 0.8.0)","Rcpp, later","testthat, callr, curl, websocket",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
-"httr.1","httr","/usr/local/lib/R/site-library","1.4.4",NA,"R (>= 3.2)","curl (>= 3.0.0), jsonlite, mime, openssl (>= 0.8), R6",NA,"covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
+"httr.1","httr","/usr/local/lib/R/site-library","1.4.5",NA,"R (>= 3.5)","curl (>= 3.0.0), jsonlite, mime, openssl (>= 0.8), R6",NA,"covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
 (>= 0.8.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"httr2.1","httr2","/usr/local/lib/R/site-library","0.2.2",NA,"R (>= 3.4)","cli (>= 3.0.0), curl, glue, magrittr, openssl, R6, rappdirs,
+rlang (>= 1.0.0), withr",NA,"askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite,
+knitr, purrr, rmarkdown, testthat (>= 3.0.0), tibble, webfakes,
+xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "ini.1","ini","/usr/local/lib/R/site-library","0.3.1",NA,NA,NA,NA,"testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "isoband.1","isoband","/usr/local/lib/R/site-library","0.2.7",NA,NA,"grid, utils",NA,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
 testthat, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
