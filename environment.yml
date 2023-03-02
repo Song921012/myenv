@@ -430,7 +430,7 @@ dependencies:
       - jupyter-dash==0.4.2
       - jupyter-highlight-selected-word==0.2.0
       - jupyter-nbextensions-configurator==0.6.1
-      - jupyterlab-widgets==1.1.1
+      - jupyterlab-widgets==1.1.2
       - keplergl==0.3.2
       - keras==2.11.0
       - keras-self-attention==0.51.0
@@ -439,7 +439,7 @@ dependencies:
       - kotsu==0.3.2
       - lark==1.1.5
       - lazy-object-proxy==1.9.0
-      - leafmap==0.18.0
+      - leafmap==0.18.1
       - libclang==15.0.6.1
       - lifelines==0.27.4
       - lightgbm==3.3.4
@@ -505,7 +505,6 @@ dependencies:
       - osqp==0.6.2.post8
       - ott==0.1.15
       - pandas==1.5.3
-      - pandas-profiling==3.6.2
       - pandoc-attributes==0.1.7
       - parameterized==0.8.1
       - paramz==0.9.5
@@ -518,7 +517,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
-      - pip==23.0.1
+      - pip==23.0
       - plotly==5.13.1
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
@@ -576,7 +575,7 @@ dependencies:
       - pyro-ppl==1.8.4
       - pyshp==2.3.1
       - pysindy==1.7.3
-      - pysr==0.11.15
+      - pysr==0.11.16
       - pystac==1.6.1
       - pystac-client==0.5.1
       - pytest==7.2.1
@@ -591,7 +590,7 @@ dependencies:
       - pyvista==0.37.0
       - pywavelets==1.4.1
       - qdldl==0.1.5.post3
-      - quadpy==0.16.26
+      - quadpy==0.16.27
       - radian==0.6.4
       - rchitect==0.3.40
       - redis==4.4.2
@@ -608,7 +607,7 @@ dependencies:
       - scikit-learn==1.0.2
       - scikit-optimize==0.9.0
       - scikit-posthocs==0.7.0
-      - scipy==1.9.3
+      - scipy==1.10.1
       - scooby==0.7.0
       - scs==3.2.2
       - seaborn==0.12.2
