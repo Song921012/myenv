@@ -537,7 +537,7 @@ R.devices, R.rsp",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.2.2"
 "MCMCpack","MCMCpack","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.6-3",NA,"R (>= 3.6), coda (>= 0.11-3), MASS, stats","graphics, grDevices, lattice, methods, utils, mcmc, quantreg",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "memoise","memoise","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.1",NA,NA,"rlang (>= 0.4.10), cachem",NA,"digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
 testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"mgcv","mgcv","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8-41","recommended","R (>= 3.6.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix, splines, utils",NA,"parallel, survival, MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"mgcv","mgcv","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8-42","recommended","R (>= 3.6.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix, splines, utils",NA,"parallel, survival, MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "mime","mime","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.12",NA,NA,"tools",NA,NA,NA,"GPL",NA,NA,NA,NA,"yes","4.2.2"
 "miniUI","miniUI","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.1.1",NA,NA,"shiny (>= 0.13), htmltools (>= 0.3), utils",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "minqa","minqa","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.5",NA,NA,"Rcpp (>= 0.9.10)","Rcpp",NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
