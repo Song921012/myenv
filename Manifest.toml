@@ -171,9 +171,9 @@ version = "0.6.14"
 
 [[deps.Alpine]]
 deps = ["Combinatorics", "JuMP", "LinearAlgebra", "MathOptInterface", "Pkg", "Statistics"]
-git-tree-sha1 = "92708ac9a91633bb2b689cddc304a3ac5d483634"
+git-tree-sha1 = "238386a9b06dca3f9ee8f39ba2b20cfc506bc99e"
 uuid = "07493b3f-dabb-5b16-a503-4139292d7dd4"
-version = "0.5.3"
+version = "0.5.4"
 
 [[deps.AmplNLWriter]]
 deps = ["MathOptInterface"]
@@ -264,9 +264,9 @@ version = "3.5.1+1"
 
 [[deps.ArrayInterface]]
 deps = ["Adapt", "LinearAlgebra", "Requires", "SnoopPrecompile", "SparseArrays", "SuiteSparse"]
-git-tree-sha1 = "ec9c36854b569323551a6faf2f31fda15e3459a7"
+git-tree-sha1 = "a89acc90c551067cd84119ff018619a1a76c6277"
 uuid = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
-version = "7.2.0"
+version = "7.2.1"
 
 [[deps.ArrayInterfaceCore]]
 deps = ["LinearAlgebra", "SnoopPrecompile", "SparseArrays", "SuiteSparse"]
@@ -837,9 +837,9 @@ version = "0.3.0"
 
 [[deps.Compat]]
 deps = ["Dates", "LinearAlgebra", "UUIDs"]
-git-tree-sha1 = "61fdd77467a5c3ad071ef8277ac6bd6af7dd4c04"
+git-tree-sha1 = "7a60c856b9fa189eb34f5f8a6f6b5529b7942957"
 uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
-version = "4.6.0"
+version = "4.6.1"
 
 [[deps.CompatHelperLocal]]
 deps = ["DocStringExtensions", "Pkg", "UUIDs"]
@@ -922,9 +922,9 @@ version = "0.6.2"
 
 [[deps.ControlSystemsBase]]
 deps = ["DSP", "ForwardDiff", "IterTools", "LaTeXStrings", "LinearAlgebra", "MacroTools", "MatrixEquations", "MatrixPencils", "Polyester", "Polynomials", "Printf", "Random", "RecipesBase", "SparseArrays", "StaticArrays", "UUIDs"]
-git-tree-sha1 = "fc4b9660f5a9e6ef1bbd40f707418ab4960f037a"
+git-tree-sha1 = "f7fbfb6100f6771413e1182012411b81c9b1149d"
 uuid = "aaaaaaaa-a6ca-5380-bf3e-84a91bcd477e"
-version = "1.3.6"
+version = "1.4.1"
 
 [[deps.Convex]]
 deps = ["AbstractTrees", "BenchmarkTools", "LDLFactorizations", "LinearAlgebra", "MathOptInterface", "OrderedCollections", "SparseArrays", "Test"]
@@ -1063,7 +1063,7 @@ version = "1.5.0"
 
 [[deps.DataInterpolations]]
 deps = ["ChainRulesCore", "LinearAlgebra", "Optim", "RecipesBase", "RecursiveArrayTools", "Reexport", "RegularizationTools", "Symbolics"]
-git-tree-sha1 = "66536baf99d589c91c26275206bcbd40319ab987"
+git-tree-sha1 = "8a3941aa65ac094a1c8c423ef78ff1fdcf336737"
 repo-rev = "master"
 repo-url = "https://github.com/PumasAI/DataInterpolations.jl.git"
 uuid = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
@@ -2473,9 +2473,9 @@ version = "2.1.91+0"
 
 [[deps.JuMP]]
 deps = ["LinearAlgebra", "MathOptInterface", "MutableArithmetics", "OrderedCollections", "Printf", "SnoopPrecompile", "SparseArrays"]
-git-tree-sha1 = "32cf69672323e5aff994b5962bd485dbe79a4adc"
+git-tree-sha1 = "611b9f12f02c587d860c813743e6cec6264e94d8"
 uuid = "4076af6c-e467-56ae-b986-b466b2749572"
-version = "1.8.2"
+version = "1.9.0"
 
 [[deps.JuliaFormatter]]
 deps = ["CSTParser", "CommonMark", "DataStructures", "Glob", "Pkg", "SnoopPrecompile", "Tokenize"]
@@ -3388,9 +3388,9 @@ version = "0.7.6"
 
 [[deps.ModelingToolkit]]
 deps = ["AbstractTrees", "ArrayInterface", "Combinatorics", "Compat", "ConstructionBase", "DataStructures", "DiffEqBase", "DiffEqCallbacks", "DiffRules", "Distributed", "Distributions", "DocStringExtensions", "DomainSets", "ForwardDiff", "FunctionWrappersWrappers", "Graphs", "IfElse", "InteractiveUtils", "JuliaFormatter", "JumpProcesses", "LabelledArrays", "Latexify", "Libdl", "LinearAlgebra", "MacroTools", "NaNMath", "RecursiveArrayTools", "Reexport", "RuntimeGeneratedFunctions", "SciMLBase", "Serialization", "Setfield", "SimpleNonlinearSolve", "SparseArrays", "SpecialFunctions", "StaticArrays", "SymbolicIndexingInterface", "SymbolicUtils", "Symbolics", "UnPack", "Unitful"]
-git-tree-sha1 = "8ed67a1c75893cf35f4e74b27cf4485f60cc3c41"
+git-tree-sha1 = "c2355e8475bb127e289245d5dd0dc3224233610b"
 uuid = "961ee093-0014-501f-94e3-6117800e7a78"
-version = "8.48.0"
+version = "8.48.1"
 
 [[deps.ModernGL]]
 deps = ["Libdl"]

@@ -284,7 +284,7 @@ rlang (>= 1.0.2), vctrs (>= 0.4.1)",NA,"carrier, covr, dplyr (>= 0.7.4), knitr, 
 magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "futile.logger","futile.logger","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.3",NA,"R (>= 3.0.0)","utils, lambda.r (>= 1.1.0), futile.options",NA,"testthat, jsonlite",NA,"LGPL-3",NA,NA,NA,NA,"no","4.2.2"
 "futile.options","futile.options","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.1",NA,"R (>= 2.8.0)",NA,NA,NA,NA,"LGPL-3",NA,NA,NA,NA,"no","4.2.2"
-"future","future","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.31.0",NA,NA,"digest, globals (>= 0.16.1), listenv (>= 0.8.0), parallel,
+"future","future","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.32.0",NA,NA,"digest, globals (>= 0.16.1), listenv (>= 0.8.0), parallel,
 parallelly (>= 1.34.0), utils",NA,"methods, RhpcBLASctl, R.rsp, markdown",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.2"
 "future.apply","future.apply","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.10.0",NA,"R (>= 3.2.0), future (>= 1.28.0)","globals (>= 0.16.1), parallel, utils",NA,"datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
 "gargle","gargle","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.0",NA,"R (>= 3.5)","cli (>= 3.0.0), fs (>= 1.3.1), glue (>= 1.3.0), httr (>=
@@ -525,7 +525,7 @@ grDevices",NA,"rgeos (>= 0.1-8), spatstat.geom (>= 1.65-0), PBSmapping,
 maps, RColorBrewer, raster, polyclip, plotrix, spatstat.linnet
 (>= 1.65-3), spatstat.utils (>= 1.19.0), spatstat (>= 2.0-0)","gpclib","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "markdown","markdown","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.5",NA,"R (>= 2.11.1)","utils, commonmark, xfun (>= 0.35)",NA,"knitr, rmarkdown (>= 2.18), yaml, RCurl",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
-"MASS","MASS","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","7.3-58.2","recommended","R (>= 3.3.0), grDevices, graphics, stats, utils","methods",NA,"lattice, nlme, nnet, survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"MASS","MASS","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","7.3-58.3","recommended","R (>= 3.3.0), grDevices, graphics, stats, utils","methods",NA,"lattice, nlme, nnet, survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "Matrix","Matrix","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.5-3","recommended","R (>= 3.5.0), methods","graphics, grid, lattice, stats, utils",NA,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc, igraph, maptools, sp,
 spdep","GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.2.2"
 "MatrixModels","MatrixModels","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5-1",NA,"R (>= 3.6.0)","stats, methods, Matrix (>= 1.4-2)",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"

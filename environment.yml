@@ -264,7 +264,7 @@ dependencies:
       - autograd==1.5
       - autograd-gamma==0.5.0
       - autopage==0.5.1
-      - bayesnewton==1.3.0
+      - bayesnewton==1.3.2
       - binaryornot==0.4.4
       - biopython==1.81
       - blackjax==0.9.6
@@ -346,7 +346,7 @@ dependencies:
       - ephem==4.1.4
       - equinox==0.10.0
       - etils==1.0.0
-      - evosax==0.1.0
+      - evosax==0.1.2
       - exceptiongroup==1.1.0
       - ezyrb==1.3.0.post2301
       - fasteners==0.18
@@ -391,7 +391,7 @@ dependencies:
       - heapdict==1.0.1
       - hijri-converter==2.2.4
       - hmmlearn==0.2.8
-      - holidays==0.18
+      - holidays==0.21
       - hroch==1.2.2
       - htmlmin==0.1.12
       - huggingface-hub==0.12.1
@@ -406,7 +406,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.3
+      - ipywidgets==7.7.2
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
@@ -439,10 +439,11 @@ dependencies:
       - kotsu==0.3.2
       - lark==1.1.5
       - lazy-object-proxy==1.9.0
-      - leafmap==0.18.2
+      - leafmap==0.18.3
       - libclang==15.0.6.1
       - lifelines==0.27.4
       - lightgbm==3.3.4
+      - lightning-utilities==0.7.1
       - linear-operator==0.3.0
       - llvmlite==0.39.1
       - lmfit==1.1.0
@@ -473,7 +474,7 @@ dependencies:
       - netcdf4==1.6.2
       - networkx==3.0
       - neural-tangents==0.6.2
-      - neuralprophet==0.5.1
+      - neuralprophet==0.5.2
       - nflows==0.14
       - nfoursid==1.0.1
       - nlopt==2.7.1
@@ -555,7 +556,7 @@ dependencies:
       - pyknos==0.15.1
       - pykoop==1.1.3
       - pykoopman==0.2.0
-      - pylint==2.16.3
+      - pylint==2.16.4
       - pylops==1.18.3
       - pymeeus==0.5.12
       - pymetaheuristic==1.4.1
@@ -585,7 +586,7 @@ dependencies:
       - python-magic==0.4.27
       - python-slugify==7.0.0
       - pytorch-forecasting==0.10.3
-      - pytorch-lightning==1.7.4
+      - pytorch-lightning==1.9.4
       - pytz-deprecation-shim==0.1.0.post0
       - pyvista==0.37.0
       - pywavelets==1.4.1
@@ -666,7 +667,7 @@ dependencies:
       - torchdiffeq==0.2.3
       - torchdyn==1.0.4
       - torchgan==0.1.0
-      - torchmetrics==0.9.3
+      - torchmetrics==0.11.3
       - torchopt==0.7.0
       - torchsde==0.2.5
       - torchvision==0.14.1+cu116
@@ -692,7 +693,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.1
+      - widgetsnbextension==4.0.5
       - winregistry==1.1.1
       - wrapt==1.14.1
       - x21==0.4.10
