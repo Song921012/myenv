@@ -19,7 +19,7 @@ dependencies:
   - async-timeout=4.0.2=pyhd8ed1ab_0
   - attr=2.5.1=h166bdaf_1
   - attrs=22.2.0=pyh71513ae_0
-  - babel=2.12.1=pyhd8ed1ab_0
+  - babel=2.12.1=pyhd8ed1ab_1
   - backcall=0.2.0=pyh9f0ad1d_0
   - backports=1.0=pyhd8ed1ab_3
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
@@ -38,7 +38,7 @@ dependencies:
   - cffi=1.15.1=py310h255011f_3
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
   - comm=0.1.2=pyhd8ed1ab_0
-  - cryptography=39.0.1=py310h34c0648_0
+  - cryptography=39.0.2=py310h34c0648_0
   - curl=7.88.1=hdc1c0ab_0
   - dbus=1.13.6=h5008d03_3
   - debugpy=1.6.6=py310heca2aa9_0
@@ -78,8 +78,8 @@ dependencies:
   - gmp=6.2.1=h58526e2_0
   - gnutls=3.7.8=hf3e180e_0
   - graphite2=1.3.13=h58526e2_1001
-  - gst-plugins-base=1.22.0=h4243ec0_0
-  - gstreamer=1.22.0=h25f0c4b_0
+  - gst-plugins-base=1.22.0=h4243ec0_2
+  - gstreamer=1.22.0=h25f0c4b_2
   - gstreamer-orc=0.4.33=h166bdaf_0
   - gxx_impl_linux-64=12.2.0=hcc96c02_19
   - gxx_linux-64=12.2.0=hb41e900_11
@@ -93,7 +93,7 @@ dependencies:
   - importlib-metadata=6.0.0=pyha770c72_0
   - importlib_metadata=6.0.0=hd8ed1ab_0
   - importlib_resources=5.12.0=pyhd8ed1ab_0
-  - ipykernel=6.21.2=pyh210e3f2_0
+  - ipykernel=6.21.3=pyh210e3f2_0
   - ipython=8.11.0=pyh41d4057_0
   - ipython_genutils=0.2.0=py_1
   - ipywidgets=8.0.4=pyhd8ed1ab_0
@@ -106,23 +106,23 @@ dependencies:
   - jsonschema=4.17.3=pyhd8ed1ab_0
   - jupyter=1.0.0=py310hff52083_8
   - jupyter_client=8.0.3=pyhd8ed1ab_0
-  - jupyter_console=6.6.2=pyhd8ed1ab_0
+  - jupyter_console=6.6.3=pyhd8ed1ab_0
   - jupyter_core=5.2.0=py310hff52083_0
   - jupyter_events=0.6.3=pyhd8ed1ab_0
-  - jupyter_server=2.3.0=pyhd8ed1ab_0
+  - jupyter_server=2.4.0=pyhd8ed1ab_0
   - jupyter_server_fileid=0.8.0=pyhd8ed1ab_0
   - jupyter_server_terminals=0.4.4=pyhd8ed1ab_1
   - jupyter_server_ydoc=0.6.1=pyhd8ed1ab_0
   - jupyter_ydoc=0.2.2=pyhd8ed1ab_0
   - jupyterlab=3.6.1=pyhd8ed1ab_0
   - jupyterlab_pygments=0.2.2=pyhd8ed1ab_0
-  - jupyterlab_server=2.19.0=pyhd8ed1ab_0
+  - jupyterlab_server=2.20.0=pyhd8ed1ab_0
   - jupyterlab_widgets=3.0.5=pyhd8ed1ab_0
   - kernel-headers_linux-64=2.6.32=he073ed8_15
   - keyutils=1.6.1=h166bdaf_0
   - krb5=1.20.1=h81ceb04_0
   - lame=3.100=h166bdaf_1003
-  - lcms2=2.14=hfd0df8a_1
+  - lcms2=2.15=hfd0df8a_0
   - ld_impl_linux-64=2.39=hcc3a1bd_1
   - lerc=4.0.0=h27087fc_0
   - libadios2=2.8.3=mpi_mpich_h781bc9b_5
@@ -205,7 +205,7 @@ dependencies:
   - mumps-mpi=5.2.1=h7ee95aa_11
   - mysql-common=8.0.32=ha901b37_0
   - mysql-libs=8.0.32=hd7da12d_0
-  - nbclassic=0.5.2=pyhd8ed1ab_0
+  - nbclassic=0.5.3=pyhb4ecaf3_3
   - nbclient=0.7.2=pyhd8ed1ab_0
   - nbconvert=7.2.9=pyhd8ed1ab_0
   - nbconvert-core=7.2.9=pyhd8ed1ab_0
@@ -215,7 +215,7 @@ dependencies:
   - nest-asyncio=1.5.6=pyhd8ed1ab_0
   - nettle=3.8.1=hc379101_1
   - nlohmann_json=3.11.2=h27087fc_0
-  - notebook=6.5.2=pyha770c72_1
+  - notebook=6.5.3=pyha770c72_0
   - notebook-shim=0.2.2=pyhd8ed1ab_0
   - nspr=4.35=h27087fc_0
   - nss=3.88=he45b914_0
@@ -225,7 +225,7 @@ dependencies:
   - openssl=3.0.8=h0b41bf4_0
   - p11-kit=0.24.1=hc5aa10d_0
   - packaging=23.0=pyhd8ed1ab_0
-  - pandoc=2.19.2=h32600fe_1
+  - pandoc=2.19.2=h32600fe_2
   - pandocfilters=1.5.0=pyhd8ed1ab_0
   - parmetis=4.0.3=h2a9763c_1005
   - parso=0.8.3=pyhd8ed1ab_0
@@ -238,7 +238,7 @@ dependencies:
   - pip=23.0.1=pyhd8ed1ab_0
   - pixman=0.40.0=h36c2ea0_0
   - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_0
-  - platformdirs=3.0.0=pyhd8ed1ab_0
+  - platformdirs=3.1.0=pyhd8ed1ab_0
   - ply=3.11=py_1
   - pooch=1.7.0=pyhd8ed1ab_0
   - proj=9.1.1=h8ffa02c_2
@@ -280,7 +280,7 @@ dependencies:
   - scooby=0.7.1=pyhd8ed1ab_0
   - scotch=6.0.9=hb2e6521_2
   - send2trash=1.8.0=pyhd8ed1ab_0
-  - setuptools=67.4.0=pyhd8ed1ab_0
+  - setuptools=67.5.1=pyhd8ed1ab_0
   - sip=6.7.7=py310heca2aa9_0
   - six=1.16.0=pyh6c4a22f_0
   - slepc=3.17.2=real_hb19a63e_100

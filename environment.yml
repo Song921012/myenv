@@ -394,7 +394,7 @@ dependencies:
       - holidays==0.21
       - hroch==1.2.2
       - htmlmin==0.1.12
-      - huggingface-hub==0.12.1
+      - huggingface-hub==0.13.0
       - imagehash==4.3.1
       - imageio==2.24.0
       - imagesize==1.4.1
@@ -416,7 +416,7 @@ dependencies:
       - jaxkern==0.0.5
       - jaxlib==0.4.4+cuda11.cudnn86
       - jaxlinop==0.0.3
-      - jaxns==2.0.0
+      - jaxns==2.0.1
       - jaxopt==0.6
       - jaxtyping==0.2.12
       - jaxutils==0.0.8
@@ -659,6 +659,7 @@ dependencies:
       - tf2jax==0.3.3
       - threadpoolctl==3.1.0
       - tjax==0.27.0
+      - tokenizers==0.13.2
       - tomli-w==1.0.0
       - tomlkit==0.11.6
       - torch==1.13.1+cu116
@@ -674,6 +675,7 @@ dependencies:
       - trace-updater==0.0.9
       - traittypes==0.2.1
       - trampoline==0.1.2
+      - transformers==4.26.1
       - tslearn==0.5.3.2
       - typeguard==2.13.3
       - tzdata==2022.7
