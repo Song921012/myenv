@@ -578,7 +578,7 @@ shadowtext, tidyr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "officer","officer","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.6.1",NA,NA,"grDevices, stats, graphics, utils, zip (>= 2.1.0), xml2 (>=
 1.1.0), openssl, R6, uuid, ragg",NA,"testthat, devEMF, ggplot2, rmarkdown, doconv (>= 0.3.0),
 knitr, rsvg, magick",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"openssl","openssl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.5",NA,NA,"askpass",NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
+"openssl","openssl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.6",NA,NA,"askpass",NA,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
 jsonlite, jose, sodium",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "openxlsx","openxlsx","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.2.5.2",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, stringi, utils, zip","Rcpp","knitr, rmarkdown, roxygen2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "orderly","orderly","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.3",NA,NA,"DBI, R6, RSQLite (>= 2.2.4), crayon, digest, docopt, fs (>=
@@ -783,7 +783,7 @@ survival (>= 2.40.1), RcppParallel (>= 5.0.1), utils","StanHeaders (>= 2.21.0), 
 RcppParallel (>= 5.0.1)","biglm, betareg, data.table (>= 1.10.0), digest, gridExtra,
 HSAUR3, knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown,
 roxygen2, StanHeaders (>= 2.21.0), testthat (>= 1.0.2)",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.2.2"
-"rstantools","rstantools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.0",NA,NA,"desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)",NA,"rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0),
+"rstantools","rstantools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.3.0",NA,NA,"desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)",NA,"rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0),
 knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown,
 rstudioapi",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
 "rstatix","rstatix","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.7.2",NA,"R (>= 3.3.0)","stats, utils, tidyr (>= 1.0.0), purrr, broom (>= 0.7.4), rlang
