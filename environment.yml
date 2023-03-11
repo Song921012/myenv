@@ -406,7 +406,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.2
+      - ipywidgets==8.0.4
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
@@ -518,7 +518,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
-      - pip==23.0
+      - pip==23.0.1
       - plotly==5.13.1
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
@@ -668,7 +668,7 @@ dependencies:
       - torchdiffeq==0.2.3
       - torchdyn==1.0.4
       - torchgan==0.1.0
-      - torchmetrics==0.11.3
+      - torchmetrics==0.11.4
       - torchopt==0.7.0
       - torchsde==0.2.5
       - torchvision==0.14.1+cu116
@@ -695,7 +695,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.1
+      - widgetsnbextension==4.0.5
       - winregistry==1.1.1
       - wrapt==1.14.1
       - x21==0.4.10
