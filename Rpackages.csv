@@ -715,7 +715,7 @@ testthat, webfakes",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "RcppSimdJson","RcppSimdJson","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.9",NA,NA,"Rcpp, utils","Rcpp","bit64, tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "RcppTOML","RcppTOML","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.2.2",NA,"R (>= 3.3.0)","Rcpp (>= 0.11.5)","Rcpp","tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "Rdpack","Rdpack","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.4",NA,"R (>= 2.15.0), methods","tools, utils, rbibutils (>= 1.3)",NA,"grDevices, testthat, rstudioapi, rprojroot, gbRd",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
-"reactable","reactable","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.3",NA,"R (>= 3.1)","digest, htmltools (>= 0.5.2), htmlwidgets (>= 1.5.3),
+"reactable","reactable","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.4",NA,"R (>= 3.1)","digest, htmltools (>= 0.5.2), htmlwidgets (>= 1.5.3),
 jsonlite, reactR",NA,"covr, crosstalk, dplyr, fontawesome, knitr, leaflet, MASS,
 rmarkdown, shiny, sparkline, testthat, tippy, V8",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "reactR","reactR","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.4",NA,NA,"htmltools",NA,"htmlwidgets (>= 1.5.3), rmarkdown, shiny, V8, knitr, usethis,
@@ -887,7 +887,7 @@ testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "survey","survey","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.1-1",NA,"R (>= 3.5.0), grid, methods, Matrix, survival","stats, graphics, splines, lattice, minqa, numDeriv, mitools
 (>= 2.4)",NA,"foreign, MASS, KernSmooth, hexbin, RSQLite, quantreg,
 parallel, CompQuadForm, DBI, AER",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.2.2"
-"survival","survival","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.5-3","recommended","R (>= 3.5.0)","graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"survival","survival","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.5-5","recommended","R (>= 3.5.0)","graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "survminer","survminer","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.9",NA,"ggplot2, ggpubr(>= 0.1.6)","grid, gridExtra (>= 2.0), magrittr, maxstat, methods, scales,
 survival, stats, broom, dplyr, tidyr, survMisc, purrr, tibble,
 rlang, ggtext (>= 0.1.0)",NA,"knitr, flexsurv, cmprsk, markdown, testthat, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"

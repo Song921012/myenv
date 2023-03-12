@@ -1114,9 +1114,9 @@ version = "0.1.2"
 
 [[deps.DelayDiffEq]]
 deps = ["ArrayInterface", "DataStructures", "DiffEqBase", "LinearAlgebra", "Logging", "OrdinaryDiffEq", "Printf", "RecursiveArrayTools", "Reexport", "SciMLBase", "SimpleNonlinearSolve", "SimpleUnPack"]
-git-tree-sha1 = "6b0a1066e81289463c19410fa02b585edb371f20"
+git-tree-sha1 = "89f3fbfe78f9d116d1ed0721d65b0b2cf9b36169"
 uuid = "bcd4f6db-9728-5f36-b5f7-82caef46ccdb"
-version = "5.41.1"
+version = "5.42.0"
 
 [[deps.DelayEmbeddings]]
 deps = ["Distances", "Distributions", "LinearAlgebra", "Neighborhood", "Random", "Reexport", "StateSpaceSets", "Statistics", "StatsBase"]
@@ -2431,9 +2431,9 @@ version = "1.4.1"
 
 [[deps.JMcDM]]
 deps = ["Requires"]
-git-tree-sha1 = "31908980be7fd8483874bed99553d32d93199688"
+git-tree-sha1 = "2a74366a90bc8c9f9f2f8009a97718dff7882693"
 uuid = "358108f5-d052-4d0a-8344-d5384e00c0e5"
-version = "0.7.2"
+version = "0.7.3"
 
 [[deps.JSON]]
 deps = ["Dates", "Mmap", "Parsers", "Unicode"]
@@ -3140,9 +3140,9 @@ version = "0.20.8"
 
 [[deps.MPICH_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "MPIPreferences", "TOML"]
-git-tree-sha1 = "7ec808cad4f3940316c015cb16608e4e632c2c89"
+git-tree-sha1 = "6494782a9930c138af5388e64b48f096d17b8edb"
 uuid = "7cb0a576-ebde-5e09-9194-50597f1243b4"
-version = "4.1.0+1"
+version = "4.1.1+0"
 
 [[deps.MPIPreferences]]
 deps = ["Libdl", "Preferences"]
