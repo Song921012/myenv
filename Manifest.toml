@@ -141,9 +141,9 @@ version = "0.4.4"
 
 [[deps.AdvancedMH]]
 deps = ["AbstractMCMC", "Distributions", "LogDensityProblems", "Random", "Requires"]
-git-tree-sha1 = "eea9a154f7bf9991b1d3f2ba3dba889851a0e209"
+git-tree-sha1 = "165af834eee68d0a96c58daa950ddf0b3f45f608"
 uuid = "5b7e9947-ddc0-4b3f-9b55-0d8042f74170"
-version = "0.7.3"
+version = "0.7.4"
 
 [[deps.AdvancedPS]]
 deps = ["AbstractMCMC", "Distributions", "Libtask", "Random", "Random123", "StatsFuns"]
@@ -415,9 +415,9 @@ version = "0.1.4"
 
 [[deps.Bijectors]]
 deps = ["ArgCheck", "ChainRulesCore", "ChangesOfVariables", "Compat", "Distributions", "Functors", "InverseFunctions", "IrrationalConstants", "LinearAlgebra", "LogExpFunctions", "MappedArrays", "Random", "Reexport", "Requires", "Roots", "SparseArrays", "Statistics"]
-git-tree-sha1 = "4f8d8df1f690c44e46464266ec928aaa5aabb299"
+git-tree-sha1 = "1234b03e94938e6f2b14834dfd3ef45698d5e14f"
 uuid = "76274a88-744f-5084-9051-94815aaf08c4"
-version = "0.10.7"
+version = "0.10.8"
 
 [[deps.BinaryProvider]]
 deps = ["Libdl", "Logging", "SHA"]
@@ -1198,7 +1198,7 @@ version = "1.53.0"
 
 [[deps.DiffEqGPU]]
 deps = ["AMDGPU", "Adapt", "CUDA", "CUDAKernels", "ChainRulesCore", "DiffEqBase", "Distributed", "DocStringExtensions", "ForwardDiff", "KernelAbstractions", "LinearAlgebra", "LinearSolve", "MuladdMacro", "Parameters", "ROCKernels", "Random", "RecursiveArrayTools", "SciMLBase", "SimpleDiffEq", "StaticArrays", "TOML", "ZygoteRules", "oneAPI", "oneAPIKernels"]
-git-tree-sha1 = "83df319bcedac8aa220811613e05cf2593a33fe4"
+git-tree-sha1 = "8f0775bf91c77f2d315dd0fe48ff38e16d07cb52"
 repo-rev = "master"
 repo-url = "https://github.com/SciML/DiffEqGPU.jl.git"
 uuid = "071ae1c0-96b5-11e9-1965-c90190d839ea"
@@ -2373,9 +2373,9 @@ uuid = "9cc047cb-c261-5740-88fc-0cf96f7bdcc7"
 version = "300.1400.403+1"
 
 [[deps.IrrationalConstants]]
-git-tree-sha1 = "7fd44fd4ff43fc60815f8e764c0f352b83c49151"
+git-tree-sha1 = "630b497eafcc20001bba38a4651b327dcfc491d2"
 uuid = "92d709cd-6900-40b7-9082-c6be49f344b6"
-version = "0.1.1"
+version = "0.2.2"
 
 [[deps.Isoband]]
 deps = ["isoband_jll"]
@@ -3070,9 +3070,9 @@ version = "0.19.1"
 
 [[deps.MLJBase]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "ComputationalResources", "Dates", "DelimitedFiles", "Distributed", "Distributions", "InteractiveUtils", "InvertedIndices", "LinearAlgebra", "LossFunctions", "MLJModelInterface", "Missings", "OrderedCollections", "Parameters", "PrettyTables", "ProgressMeter", "Random", "ScientificTypes", "Serialization", "StatisticalTraits", "Statistics", "StatsBase", "Tables"]
-git-tree-sha1 = "165be58f9fb7d84337bb377ecd01f20db3780545"
+git-tree-sha1 = "37a311b0cd581764fc460f6632e6219dc32f9427"
 uuid = "a7f614a8-145f-11e9-1d2a-a57a1082229d"
-version = "0.21.7"
+version = "0.21.8"
 
 [[deps.MLJEnsembles]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "ComputationalResources", "Distributed", "Distributions", "MLJBase", "MLJModelInterface", "ProgressMeter", "Random", "ScientificTypesBase", "StatsBase"]
@@ -5178,9 +5178,9 @@ version = "1.3.0"
 
 [[deps.StaticArrays]]
 deps = ["LinearAlgebra", "Random", "StaticArraysCore", "Statistics"]
-git-tree-sha1 = "2d7d9e1ddadc8407ffd460e24218e37ef52dd9a3"
+git-tree-sha1 = "6aa098ef1012364f2ede6b17bf358c7f1fbe90d4"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "1.5.16"
+version = "1.5.17"
 
 [[deps.StaticArraysCore]]
 git-tree-sha1 = "6b7ba252635a5eff6a0b0664a41ee140a1c9e72a"
@@ -5657,9 +5657,9 @@ version = "1.3.0"
 
 [[deps.Turing]]
 deps = ["AbstractMCMC", "AdvancedHMC", "AdvancedMH", "AdvancedPS", "AdvancedVI", "BangBang", "Bijectors", "DataStructures", "Distributions", "DistributionsAD", "DocStringExtensions", "DynamicPPL", "EllipticalSliceSampling", "ForwardDiff", "Libtask", "LinearAlgebra", "LogDensityProblems", "LogDensityProblemsAD", "MCMCChains", "NamedArrays", "Printf", "Random", "Reexport", "Requires", "SciMLBase", "Setfield", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns", "Tracker"]
-git-tree-sha1 = "c839c49b5907233e98997d561c809e619cbe58d0"
+git-tree-sha1 = "bc3e1000da9d84aca4f8ed66cc1dd59b3f793760"
 uuid = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
-version = "0.24.2"
+version = "0.24.3"
 
 [[deps.URIs]]
 git-tree-sha1 = "074f993b0ca030848b897beff716d93aca60f06a"

@@ -430,7 +430,7 @@ dependencies:
       - jupyter-dash==0.4.2
       - jupyter-highlight-selected-word==0.2.0
       - jupyter-nbextensions-configurator==0.6.1
-      - jupyterlab-widgets==1.1.1
+      - jupyterlab-widgets==3.0.5
       - keplergl==0.3.2
       - keras==2.11.0
       - keras-self-attention==0.51.0
@@ -530,7 +530,7 @@ dependencies:
       - portalocker==2.7.0
       - pot==0.8.2
       - prettytable==3.6.0
-      - probnum==0.1.23
+      - probnum==0.1.24
       - prophet==1.1.2
       - protobuf==3.19.6
       - pulp==2.7.0
