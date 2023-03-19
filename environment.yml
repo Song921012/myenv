@@ -308,7 +308,7 @@ dependencies:
       - coverage==7.0.5
       - cplot==0.9.3
       - cvxopt==1.3.0
-      - cvxpy==1.3.0
+      - cvxpy==1.3.1
       - cycler==0.11.0
       - cython==0.29.33
       - darts==0.23.1
@@ -406,7 +406,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.2
+      - ipywidgets==8.0.4
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
@@ -460,7 +460,7 @@ dependencies:
       - matplotx==0.3.10
       - mccabe==0.7.0
       - mdurl==0.1.2
-      - mesa==1.2.0
+      - mesa==1.2.1
       - ml-collections==0.1.0
       - mne==1.3.0
       - mosek==10.0.38
@@ -566,7 +566,7 @@ dependencies:
       - pykoop==1.1.3
       - pykoopman==0.2.0
       - pylint==2.17.0
-      - pylops==1.18.3
+      - pylops==2.1.0
       - pymeeus==0.5.12
       - pymetaheuristic==1.4.1
       - pympler==1.0.1
@@ -580,7 +580,7 @@ dependencies:
       - pypng==0.20220715.0
       - pyppeteer==1.0.2
       - pyproj==3.4.1
-      - pyproximal==0.5.0
+      - pyproximal==0.6.0
       - pyro-api==0.1.2
       - pyro-ppl==1.8.4
       - pyshp==2.3.1
@@ -622,7 +622,7 @@ dependencies:
       - scs==3.2.2
       - seaborn==0.12.2
       - semver==2.13.0
-      - setuptools==64.0.2
+      - setuptools==67.6.0
       - sgmcmcjax==0.2.11
       - shap==0.41.0
       - shapely==2.0.0
