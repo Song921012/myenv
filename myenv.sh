@@ -58,6 +58,9 @@ sudo apt-get install python3-pip
 
 #Rust
 curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
+cargo install erdtree
+#[solidiquis/erdtree: A multi-threaded file-tree visualizer and disk usage analyzer.](https://github.com/solidiquis/erdtree)
+
 
 # Terminal
 ## alcritty

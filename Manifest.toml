@@ -3429,9 +3429,9 @@ version = "10.0.2"
 
 [[deps.MosekTools]]
 deps = ["MathOptInterface", "Mosek", "Printf"]
-git-tree-sha1 = "04e61d183716f2113f14c92cd71e46704ab4cebe"
+git-tree-sha1 = "dd0c0836bdd9d4062811a84e139977b62a21eb0d"
 uuid = "1ec41992-ff65-5c91-ac43-2df89e9693a4"
-version = "0.13.2"
+version = "0.13.3"
 
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
@@ -3935,9 +3935,9 @@ version = "0.1.2"
 
 [[deps.OptimizationMOI]]
 deps = ["MathOptInterface", "Optimization", "Reexport", "SparseArrays"]
-git-tree-sha1 = "8102879a61d4b4a6f03c78b5f749896ed5244acf"
+git-tree-sha1 = "78ad67e9264345d8432edc59b27290202e9a5235"
 uuid = "fd9f6733-72f4-499f-8506-86b2bdd0dea1"
-version = "0.1.8"
+version = "0.1.9"
 
 [[deps.OptimizationMetaheuristics]]
 deps = ["Metaheuristics", "Optimization", "Reexport"]
@@ -4359,9 +4359,9 @@ version = "1.7.0"
 
 [[deps.ProgressBars]]
 deps = ["Printf"]
-git-tree-sha1 = "806ebc92e1b4b4f72192369a28dfcaf688566b2b"
+git-tree-sha1 = "9d84c8646109eb8bc7a006d59b157c64d5155c81"
 uuid = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
-version = "1.4.1"
+version = "1.5.0"
 
 [[deps.ProgressLogging]]
 deps = ["Logging", "SHA", "UUIDs"]

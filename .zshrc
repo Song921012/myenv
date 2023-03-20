@@ -63,6 +63,7 @@ alias fdu="du -l --max-depth=1 | sort -nr"
 alias mathpix="/home/aidishage/myenv/src/Mathpix_Snipping_Tool-*.AppImage"
 alias music="/home/aidishage/myenv/src/listen1* &"
 alias gitsync="git pull && git add -A && git commit -m 'update' && git push"
+alias et="/home/aidishage/.cargo/bin/et -l1 -s size-rev"
 #alias make="sudo make"
 #alias julia="conda deactivate && julia"
 # Path
@@ -81,7 +82,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/TensorRT/lib
 export MA57_SOURCE=/home/aidishage/hsl/hsl_ma57-5.3.2.tar.gz
 export HSL_MA57_PATH=/home/aidishage/hsl/hsl_ma57-5.3.2.tar.gz
 export HSL_MA97_PATH=/home/aidishage/hsl/hsl_ma97-2.7.2.tar.gz
-export PATH=/usr/local/texlive/2022/bin/x86_64-linux:$PATH
+export PATH=/usr/local/texlive/2023/bin/x86_64-linux:$PATH
 # COPT
 export COPT_HOME=/opt/copt60
 export COPT_LICENSE_DIR=/opt/copt60
