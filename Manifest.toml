@@ -1170,7 +1170,7 @@ version = "6.122.1"
 
 [[deps.DiffEqBayes]]
 deps = ["DiffEqBase", "DiffResults", "Distances", "Distributed", "Distributions", "DocStringExtensions", "DynamicHMC", "ForwardDiff", "LabelledArrays", "LinearAlgebra", "LogDensityProblems", "MacroTools", "Missings", "ModelingToolkit", "Optim", "PDMats", "Parameters", "Random", "RecursiveArrayTools", "Reexport", "Requires", "StanSample", "StructArrays", "TransformVariables", "TransformedLogDensities", "Turing"]
-git-tree-sha1 = "7b7ca57d12c0d784d2584e5f9de54f6fbd51b666"
+git-tree-sha1 = "7de1cfe35b1c27e86509fb3a99d70c5c2505aad2"
 repo-rev = "master"
 repo-url = "https://github.com/Mathepia/DiffEqBayes.jl.git"
 uuid = "ebbdde9d-f333-5424-9be2-dbf1e9acfb5e"
