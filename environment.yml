@@ -430,7 +430,7 @@ dependencies:
       - jupyter-dash==0.4.2
       - jupyter-highlight-selected-word==0.2.0
       - jupyter-nbextensions-configurator==0.6.1
-      - jupyterlab-widgets==3.0.5
+      - jupyterlab-widgets==1.1.1
       - keplergl==0.3.2
       - keras==2.11.0
       - keras-self-attention==0.51.0
@@ -463,7 +463,7 @@ dependencies:
       - mesa==1.2.1
       - ml-collections==0.1.0
       - mne==1.3.0
-      - mosek==10.0.38
+      - mosek==10.0.39
       - mpi4py==3.1.4
       - mpmath==1.2.1
       - multidict==6.0.4
@@ -526,7 +526,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
-      - pip==23.0.1
+      - pip==23.0
       - plotly==5.13.1
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
@@ -658,7 +658,7 @@ dependencies:
       - tensorboard==2.11.2
       - tensorboard-data-server==0.6.1
       - tensorboard-plugin-wit==1.8.1
-      - tensorflow==2.11.0
+      - tensorflow==2.11.1
       - tensorflow-estimator==2.11.0
       - tensorflow-io-gcs-filesystem==0.30.0
       - tensorflow-probability==0.19.0

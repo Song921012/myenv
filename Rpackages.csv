@@ -792,7 +792,7 @@ corrplot, tidyselect (>= 1.2.0), car, generics (>= 0.0.2)",NA,"knitr, rmarkdown,
 testthat, spelling",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
 "rstudioapi","rstudioapi","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.14",NA,NA,NA,NA,"testthat, knitr, rmarkdown, clipr, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "Rttf2pt1","Rttf2pt1","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.12",NA,"R (>= 2.15)",NA,NA,NA,NA,"file LICENSE","yes",NA,NA,NA,"yes","4.2.2"
-"runner","runner","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.2",NA,"R (>= 3.0)","methods, parallel, Rcpp","Rcpp","knitr, rmarkdown, tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"runner","runner","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.3",NA,"R (>= 3.0)","methods, parallel, Rcpp","Rcpp","knitr, rmarkdown, tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3"
 "rversions","rversions","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.1.2",NA,NA,"curl, utils, xml2 (>= 1.0.0)",NA,"covr, mockery, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "rvest","rvest","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.3",NA,"R (>= 3.2)","glue, cli, httr (>= 0.5), lifecycle (>= 1.0.0), magrittr,
 rlang (>= 1.0.0), selectr, tibble, xml2 (>= 1.3), withr",NA,"covr, knitr, readr, repurrrsive, rmarkdown, spelling, stringi
@@ -947,7 +947,7 @@ tidyr (>= 1.3.0), xml2 (>= 1.3.3)",NA,"covr (>= 3.6.1), feather (>= 0.3.5), glue
 tidytree (>= 0.3.9), utils",NA,"Biostrings, ggplot2, ggtree, igraph, knitr, rmarkdown,
 phangorn, prettydoc, testthat, tidyr, vroom, xml2, yaml, purrr",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
 "triebeard","triebeard","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4.1",NA,NA,"Rcpp","Rcpp","knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
-"truncnorm","truncnorm","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0-8",NA,"R (>= 3.4.0)",NA,NA,"testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"truncnorm","truncnorm","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0-9",NA,"R (>= 3.4.0)",NA,NA,"testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3"
 "trust","trust","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1-8",NA,"R (>= 2.10.0)","stats",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "tweenr","tweenr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.2",NA,"R (>= 3.2.0)","farver, magrittr, rlang, vctrs","cpp11 (>= 0.4.2)","testthat, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "tzdb","tzdb","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.0",NA,"R (>= 3.4.0)",NA,"cpp11 (>= 0.4.2)","covr, testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
@@ -1332,7 +1332,7 @@ spdep","GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.2.2"
 "splines","splines","/usr/lib/R/library","4.2.3","base",NA,"graphics, stats",NA,"Matrix, methods",NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3"
 "stats","stats","/usr/lib/R/library","4.2.3","base",NA,"utils, grDevices, graphics",NA,"MASS, Matrix, SuppDists, methods, stats4",NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3"
 "stats4","stats4","/usr/lib/R/library","4.2.3","base",NA,"graphics, methods, stats",NA,NA,NA,"Part of R 4.2.3",NA,NA,NA,NA,NA,"4.2.3"
-"survival.1","survival","/usr/lib/R/library","3.5-5","recommended","R (>= 3.5.0)","graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"survival.1","survival","/usr/lib/R/library","3.5-5","recommended","R (>= 3.5.0)","graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3"
 "tcltk","tcltk","/usr/lib/R/library","4.2.3","base",NA,"utils",NA,NA,NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3"
 "tools","tools","/usr/lib/R/library","4.2.3","base",NA,NA,NA,"codetools, methods, xml2, curl, commonmark, knitr, xfun,
 mathjaxr",NA,"Part of R 4.2.3",NA,NA,NA,NA,"yes","4.2.3"
