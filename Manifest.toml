@@ -1063,11 +1063,9 @@ version = "1.5.0"
 
 [[deps.DataInterpolations]]
 deps = ["ChainRulesCore", "LinearAlgebra", "Optim", "RecipesBase", "RecursiveArrayTools", "Reexport", "RegularizationTools", "Symbolics"]
-git-tree-sha1 = "c80745a792aea5114c467a21f281c99146faa3fc"
-repo-rev = "master"
-repo-url = "https://github.com/PumasAI/DataInterpolations.jl.git"
+git-tree-sha1 = "610d731126d60be6ca2040c6edbfb6c6db28187a"
 uuid = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
-version = "3.13.0"
+version = "3.12.0"
 
 [[deps.DataStructures]]
 deps = ["Compat", "InteractiveUtils", "OrderedCollections"]
