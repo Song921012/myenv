@@ -290,3 +290,5 @@ PERL_MM_OPT="INSTALL_BASE=/home/aidishage/perl5"; export PERL_MM_OPT;
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi
+
+eval "$(atuin init zsh --disable-up-arrow)"

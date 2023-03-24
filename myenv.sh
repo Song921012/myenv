@@ -61,7 +61,15 @@ curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
 cargo install erdtree
 #[solidiquis/erdtree: A multi-threaded file-tree visualizer and disk usage analyzer.](https://github.com/solidiquis/erdtree)
 
+# autin (shell history)
+bash <(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)
 
+#atuin register -u <USERNAME> -e <EMAIL> -p <PASSWORD>
+#atuin login -u <USERNAME> -p <PASSWORD> -k <KEY>
+#atuin import auto
+#atuin sync
+#atuin logout
+#curl https://api.atuin.sh/enable -d $(cat ~/.local/share/atuin/session) (活跃图)
 # Terminal
 ## alcritty
 #sudo add-apt-repository ppa:aslatter/ppa
