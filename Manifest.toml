@@ -5,10 +5,10 @@ manifest_format = "2.0"
 project_hash = "ad2bfde54c4cc70f56eaeae40e5600921c1a9709"
 
 [[deps.ADNLPModels]]
-deps = ["ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays", "Symbolics"]
-git-tree-sha1 = "2389955a24a314952804bda04d6a8dcab04c778c"
+deps = ["ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays", "SparseDiffTools", "Symbolics"]
+git-tree-sha1 = "d67d146eb7338757da44b9f70832046a6fe210ba"
 uuid = "54578032-b7ea-4c30-94aa-7cbd1cce6c9a"
-version = "0.5.1"
+version = "0.6.0"
 
 [[deps.AMD]]
 deps = ["Libdl", "LinearAlgebra", "SparseArrays", "Test"]
@@ -264,9 +264,9 @@ version = "3.5.1+1"
 
 [[deps.ArrayInterface]]
 deps = ["Adapt", "LinearAlgebra", "Requires", "SnoopPrecompile", "SparseArrays", "SuiteSparse"]
-git-tree-sha1 = "a89acc90c551067cd84119ff018619a1a76c6277"
+git-tree-sha1 = "af2fd6a5d299078a6d7827ce3356b68d2de5470b"
 uuid = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
-version = "7.2.1"
+version = "7.3.1"
 
 [[deps.ArrayInterfaceCore]]
 deps = ["LinearAlgebra", "SnoopPrecompile", "SparseArrays", "SuiteSparse"]
@@ -2608,9 +2608,9 @@ version = "12.0.0"
 
 [[deps.LLSModels]]
 deps = ["LinearAlgebra", "LinearOperators", "NLPModels", "NLPModelsModifiers", "Requires", "SparseArrays", "SparseMatricesCOO"]
-git-tree-sha1 = "fe912de10a1a6dcae9378f3305ce1cb22f4135a5"
+git-tree-sha1 = "fb21a4e795103a8e523536e1ae327ca407e4ec80"
 uuid = "39f5bc3e-5160-4bf8-ac48-504fd2534d24"
-version = "0.3.6"
+version = "0.3.7"
 
 [[deps.LLVM]]
 deps = ["CEnum", "LLVMExtra_jll", "Libdl", "Printf", "Unicode"]
@@ -2903,9 +2903,9 @@ version = "2.5.2"
 
 [[deps.LinearSolve]]
 deps = ["ArrayInterface", "DocStringExtensions", "FastLapackInterface", "GPUArraysCore", "IterativeSolvers", "KLU", "Krylov", "KrylovKit", "LinearAlgebra", "Preferences", "RecursiveFactorization", "Reexport", "SciMLBase", "SciMLOperators", "Setfield", "SnoopPrecompile", "SparseArrays", "Sparspak", "SuiteSparse", "UnPack"]
-git-tree-sha1 = "fd65db5fff7238ba4c0b7a61de7e81748d73fa14"
+git-tree-sha1 = "efd515f4ffa96f7b4a3be2e9db9ba7dbce9a342b"
 uuid = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
-version = "1.38.0"
+version = "1.40.0"
 
 [[deps.LinearSolvePardiso]]
 deps = ["LinearAlgebra", "LinearSolve", "Pardiso", "SciMLBase", "UnPack"]
@@ -2984,9 +2984,9 @@ version = "0.13.0"
 
 [[deps.Lux]]
 deps = ["Adapt", "CUDA", "ChainRulesCore", "ComponentArrays", "FillArrays", "Flux", "Functors", "LinearAlgebra", "LuxCore", "LuxLib", "Markdown", "NNlib", "Optimisers", "Random", "Requires", "ReverseDiff", "Setfield", "SparseArrays", "Statistics", "Tracker", "TruncatedStacktraces", "Zygote", "cuDNN"]
-git-tree-sha1 = "8de4a2d0ba6a16b527e6a7c386b08ffb2cc270be"
+git-tree-sha1 = "adababc1531dcdb330640ab67785616d9cf31af2"
 uuid = "b2108857-7c20-44ae-9111-449ecde12c47"
-version = "0.4.44"
+version = "0.4.45"
 
 [[deps.LuxCore]]
 deps = ["Functors", "Random", "Setfield"]
@@ -5745,9 +5745,9 @@ version = "0.2.0"
 
 [[deps.VectorizationBase]]
 deps = ["ArrayInterface", "CPUSummary", "HostCPUFeatures", "IfElse", "LayoutPointers", "Libdl", "LinearAlgebra", "SIMDTypes", "Static", "StaticArrayInterface"]
-git-tree-sha1 = "a2d69abfc8b9b71a5db110f9757d0cd4a27877c0"
+git-tree-sha1 = "a07b279148653974edd945c8c8e09af156bcb46e"
 uuid = "3d5dd08c-fd9d-11e8-17fa-ed2836048c2f"
-version = "0.21.61"
+version = "0.21.62"
 
 [[deps.VersionParsing]]
 git-tree-sha1 = "58d6e80b4ee071f5efd07fda82cb9fbe17200868"
