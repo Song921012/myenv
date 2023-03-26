@@ -32,8 +32,9 @@ pip install -U Casadi pints elfi POT lifelines Pulp pysindy pykoopman pykoop\
   pyomo gekko dymos leafmap darts pydeck nlopt \
    dm-haiku pyMetaheuristic emcee quadpy scalene casadi-horizon bayesnewton
 ## torch
-pip install -U gpytorch botorch pytorch-forecasting neuralprophet torchdyn torchgan torchsde torchcde torchdiffeq \
+pip install -U gpytorch botorch  torchdyn torchgan torchsde torchcde torchdiffeq \
  torchmetrics torchopt pytorch-lightning  pyro-ppl sbi
+#pip install -U pytorch-forecasting neuralprophet
 ## jax
 pip install -U objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax \
  flax numpyro jaxns funsor ott neural-tangents efax probdiffeq
