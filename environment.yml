@@ -317,7 +317,7 @@ dependencies:
       - dash-html-components==2.0.0
       - dash-table==5.0.0
       - dask==2023.1.0
-      - deepxde==1.8.1
+      - deepxde==1.8.2
       - deprecated==1.2.13
       - deprecation==2.1.0
       - derivative==0.5.3
@@ -406,7 +406,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.4
+      - ipywidgets==7.7.2
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
@@ -439,7 +439,7 @@ dependencies:
       - kotsu==0.3.2
       - lark==1.1.5
       - lazy-object-proxy==1.9.0
-      - leafmap==0.18.7
+      - leafmap==0.18.8
       - libclang==15.0.6.1
       - lifelines==0.27.4
       - lightgbm==3.3.4
@@ -463,7 +463,7 @@ dependencies:
       - mesa==1.2.1
       - ml-collections==0.1.0
       - mne==1.3.0
-      - mosek==10.0.39
+      - mosek==10.0.40
       - mpi4py==3.1.4
       - mpmath==1.2.1
       - multidict==6.0.4
@@ -526,7 +526,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
-      - pip==23.0.1
+      - pip==23.0
       - plotly==5.13.1
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
@@ -538,7 +538,7 @@ dependencies:
       - portalocker==2.7.0
       - pot==0.8.2
       - prettytable==3.6.0
-      - probdiffeq==0.1.3
+      - probdiffeq==0.1.4
       - probnum==0.1.24
       - prophet==1.1.2
       - protobuf==3.20.3
