@@ -359,7 +359,7 @@ dependencies:
       - flask==2.1.3
       - flask-cors==3.0.10
       - flatbuffers==23.1.4
-      - flax==0.6.7
+      - flax==0.6.8
       - folium==0.13.0
       - fonttools==4.38.0
       - formulaic==0.5.2
@@ -406,7 +406,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.2
+      - ipywidgets==7.7.4
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
@@ -527,7 +527,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
-      - pip==23.0.1
+      - pip==23.0
       - plotly==5.13.1
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
@@ -707,7 +707,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.3
+      - widgetsnbextension==3.6.1
       - winregistry==1.1.1
       - wrapt==1.14.1
       - x21==0.4.10
