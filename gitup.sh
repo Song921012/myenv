@@ -82,7 +82,13 @@ cd ~/Desktop/WebBookPapers/MathEpiDeepLearningTutorial
 git pull
 git add -A && git commit -m "update" && git push
 
+echo "Zotero"
 cd ~/.zotero
+git pull
+git add -A && git commit -m "update" && git push
+
+echo "chatgpt-sciml"
+cd /home/aidishage/Desktop/MyProjects/chatgpt-sciml
 git pull
 git add -A && git commit -m "update" && git push
 

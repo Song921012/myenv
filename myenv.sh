@@ -238,5 +238,7 @@ source ./install.sh
 # debfile: qq, Rstudio
 # listen1 appimage
 # mathpix appimage
+# chatbot appimage
+# CAJV appimage
 # flatpak: obsidian wemeet zoom losslesscut thunderbird xmind screenkey okular gwenview slack wezterm geany
 # docker dockerinstall.sh
