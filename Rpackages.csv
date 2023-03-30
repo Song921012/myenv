@@ -62,11 +62,11 @@ testthat, withr, rappdirs, curl, magrittr, fontawesome, bsicons",NA,"MIT + file 
 "cachem","cachem","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.7",NA,NA,"rlang, fastmap",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "callr","callr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.7.3",NA,"R (>= 3.4)","processx (>= 3.6.1), R6, utils",NA,"asciicast, cli (>= 1.1.0), covr, mockery, ps, rprojroot,
 spelling, testthat (>= 3.0.0), withr (>= 2.3.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"car","car","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.1-1",NA,"R (>= 3.5.0), carData (>= 3.0-0)","abind, MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg,
+"car","car","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.1-2",NA,"R (>= 3.5.0), carData (>= 3.0-0)","abind, MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg,
 grDevices, utils, stats, graphics, lme4 (>= 1.1-27.1), nlme,
 scales",NA,"alr4, boot, coxme, effects, knitr, leaps, lmtest, Matrix,
-MatrixModels, mvtnorm, rgl (>= 0.93.960), rio, sandwich,
-SparseM, survival, survey",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
+MatrixModels, mvtnorm, rgl (>= 0.111.3), rio, sandwich,
+SparseM, survival, survey",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.3"
 "carData","carData","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.0-5",NA,"R (>= 3.5.0)",NA,NA,"car (>= 3.0-0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
 "caTools","caTools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.18.2",NA,"R (>= 3.6.0)","bitops",NA,"MASS, rpart",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "cellranger","cellranger","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.0",NA,"R (>= 3.0.0)","rematch, tibble",NA,"covr, testthat (>= 1.0.0), knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
@@ -754,9 +754,9 @@ usethis, vctrs (>= 0.2.3), withr","winch","MIT + file LICENSE",NA,NA,NA,NA,"yes"
 utils, xfun (>= 0.36), yaml (>= 2.1.19)",NA,"digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex
 (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>=
 3.0.3), tibble, vctrs, withr (>= 2.4.2)",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3"
-"robustbase","robustbase","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.95-0",NA,"R (>= 3.5.0)","stats, graphics, utils, methods, DEoptimR",NA,"grid, MASS, lattice, boot, cluster, Matrix, robust,
+"robustbase","robustbase","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.95-1",NA,"R (>= 3.5.0)","stats, graphics, utils, methods, DEoptimR",NA,"grid, MASS, lattice, boot, cluster, Matrix, robust,
 fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
-reshape2, sfsmisc, catdata, doParallel, foreach, skewt","robustX, rrcov, matrixStats, quantreg, Hmisc","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+reshape2, sfsmisc, catdata, doParallel, foreach, skewt","robustX, rrcov, matrixStats, quantreg, Hmisc","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3"
 "roxygen2","roxygen2","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","7.2.3",NA,"R (>= 3.3)","brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), knitr,
 methods, pkgload (>= 1.0.2), purrr (>= 0.3.3), R6 (>= 2.1.2),
 rlang (>= 1.0.6), stringi, stringr (>= 1.0.0), utils, withr,
@@ -782,9 +782,9 @@ survival (>= 2.40.1), RcppParallel (>= 5.0.1), utils","StanHeaders (>= 2.21.0), 
 RcppParallel (>= 5.0.1)","biglm, betareg, data.table (>= 1.10.0), digest, gridExtra,
 HSAUR3, knitr (>= 1.15.1), MASS, mgcv (>= 1.8-13), rmarkdown,
 roxygen2, StanHeaders (>= 2.21.0), testthat (>= 1.0.2)",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.2.2"
-"rstantools","rstantools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.3.0",NA,NA,"desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)",NA,"rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0),
+"rstantools","rstantools","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.3.1",NA,NA,"desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)",NA,"rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0),
 knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown,
-rstudioapi",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
+rstudioapi",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.3"
 "rstatix","rstatix","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.7.2",NA,"R (>= 3.3.0)","stats, utils, tidyr (>= 1.0.0), purrr, broom (>= 0.7.4), rlang
 (>= 0.3.1), tibble (>= 2.1.3), dplyr (>= 0.7.1), magrittr,
 corrplot, tidyselect (>= 1.2.0), car, generics (>= 0.0.2)",NA,"knitr, rmarkdown, ggpubr, graphics, emmeans, coin, boot,
