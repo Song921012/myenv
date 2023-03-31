@@ -512,9 +512,9 @@ nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)","Rcpp (>= 0.10.5), Rcpp
 mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3,
 numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble,
 merDeriv",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
-"loo","loo","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.5.1",NA,"R (>= 3.1.2)","checkmate, matrixStats (>= 0.52), parallel, stats",NA,"bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics,
-knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools,
-spdep, testthat (>= 2.1.0)",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
+"loo","loo","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.6.0",NA,"R (>= 3.1.2)","checkmate, matrixStats (>= 0.52), parallel, stats",NA,"bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics,
+knitr, posterior, rmarkdown, rstan, rstanarm (>= 2.19.0),
+rstantools, spdep, testthat (>= 2.1.0)",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.3"
 "lpSolveAPI","lpSolveAPI","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","5.5.2.0-17.9",NA,NA,NA,NA,NA,NA,"LGPL-2",NA,NA,NA,NA,"yes","4.2.2"
 "lubridate","lubridate","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.9.2",NA,"methods, R (>= 3.2)","generics, timechange (>= 0.1.1)",NA,"covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)","chron, data.table, timeDate, tis, zoo","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "magrittr","magrittr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.0.3",NA,"R (>= 3.4.0)",NA,NA,"covr, knitr, rlang, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"

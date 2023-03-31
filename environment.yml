@@ -349,8 +349,10 @@ dependencies:
       - evosax==0.1.3
       - exceptiongroup==1.1.0
       - ezyrb==1.3.0.post2301
+      - fastapi==0.95.0
       - fasteners==0.18
       - fastprogress==1.0.3
+      - ffmpy==0.3.0
       - filelock==3.9.0
       - filterpy==1.4.5
       - fiona==1.8.22
@@ -386,7 +388,9 @@ dependencies:
       - gplearn==0.4.2
       - gpy==1.10.0
       - gpytorch==1.9.1
+      - gradio==3.23.0
       - grpcio==1.51.1
+      - h11==0.14.0
       - h5py==3.7.0
       - heapdict==1.0.1
       - hijri-converter==2.2.4
@@ -394,6 +398,8 @@ dependencies:
       - holidays==0.21
       - hroch==1.2.2
       - htmlmin==0.1.12
+      - httpcore==0.16.3
+      - httpx==0.23.3
       - huggingface-hub==0.13.3
       - imagehash==4.3.1
       - imageio==2.24.0
@@ -406,7 +412,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.4
+      - ipywidgets==7.7.2
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
@@ -430,7 +436,7 @@ dependencies:
       - jupyter-dash==0.4.2
       - jupyter-highlight-selected-word==0.2.0
       - jupyter-nbextensions-configurator==0.6.1
-      - jupyterlab-widgets==1.1.3
+      - jupyterlab-widgets==1.1.1
       - keplergl==0.3.2
       - keras==2.12.0
       - keras-self-attention==0.51.0
@@ -438,6 +444,7 @@ dependencies:
       - korean-lunar-calendar==0.3.1
       - kotsu==0.3.2
       - lark==1.1.5
+      - latex2mathml==3.75.1
       - lazy-object-proxy==1.9.0
       - leafmap==0.18.8
       - libclang==15.0.6.1
@@ -445,6 +452,7 @@ dependencies:
       - lightgbm==3.3.4
       - lightning-utilities==0.7.1
       - linear-operator==0.3.0
+      - linkify-it-py==2.0.0
       - lit==15.0.7
       - llvmlite==0.39.1
       - lmfit==1.1.0
@@ -459,6 +467,8 @@ dependencies:
       - matplotlib==3.6.3
       - matplotx==0.3.10
       - mccabe==0.7.0
+      - mdit-py-plugins==0.3.3
+      - mdtex2html==1.2.0
       - mdurl==0.1.2
       - mesa==1.2.1
       - ml-collections==0.1.0
@@ -527,7 +537,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
-      - pip==23.0
+      - pip==23.0.1
       - plotly==5.14.0
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
@@ -555,6 +565,7 @@ dependencies:
       - pydeck==0.8.0
       - pydeprecate==0.3.2
       - pydmd==0.4.1
+      - pydub==0.25.1
       - pyecharts==2.0.2
       - pyecharts-jupyter-installer==0.0.3
       - pyecharts-snapshot==0.2.0
@@ -594,9 +605,10 @@ dependencies:
       - python-graphviz==0.20.1
       - python-license-manager==0.1.20
       - python-magic==0.4.27
+      - python-multipart==0.0.6
       - python-slugify==7.0.0
       - pytorch-forecasting==0.10.3
-      - pytorch-lightning==2.0.0
+      - pytorch-lightning==2.0.1
       - pytz-deprecation-shim==0.1.0.post0
       - pyvista==0.37.0
       - pywavelets==1.4.1
@@ -609,9 +621,11 @@ dependencies:
       - requests-cache==0.9.8
       - requests-oauthlib==1.3.1
       - retrying==1.3.4
+      - rfc3986==1.5.0
       - rich==13.3.2
       - rich-argparse==1.0.0
       - rsa==4.9
+      - ruptures==1.1.7
       - salib==1.4.7
       - sbi==0.21.0
       - scalene==1.5.20
@@ -622,6 +636,7 @@ dependencies:
       - scooby==0.7.0
       - scs==3.2.2
       - seaborn==0.12.2
+      - semantic-version==2.10.0
       - semver==2.13.0
       - setuptools==67.6.0
       - sgmcmcjax==0.2.11
@@ -644,6 +659,7 @@ dependencies:
       - sphinxcontrib-qthelp==1.0.3
       - sphinxcontrib-serializinghtml==1.1.5
       - sqlalchemy==1.4.46
+      - starlette==0.26.1
       - statsforecast==1.4.0
       - statsmodels==0.13.5
       - stevedore==4.1.1
@@ -692,9 +708,11 @@ dependencies:
       - typeguard==2.13.3
       - tzdata==2022.7
       - tzlocal==4.2
+      - uc-micro-py==1.0.1
       - uncertainties==3.1.7
       - uri-template==1.2.0
       - url-normalize==1.4.3
+      - uvicorn==0.21.1
       - validators==0.20.0
       - virtualenv==20.17.1
       - virtualenvwrapper-win==1.2.7
@@ -707,7 +725,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.3
+      - widgetsnbextension==3.6.1
       - winregistry==1.1.1
       - wrapt==1.14.1
       - x21==0.4.10

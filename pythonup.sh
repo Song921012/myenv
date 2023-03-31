@@ -30,7 +30,7 @@ pip install -U radian conan flake8 pylint yapf huggingface-hub\
 pip install -U Casadi pints elfi POT lifelines Pulp pysindy pykoopman pykoop\
  mosek cvxopt smcp pysr pmlb HROCH pyoperon pydmd cvxpy probnum POT pylops pyproximal abcpy pyabc\
   pyomo gekko dymos leafmap darts pydeck nlopt \
-   dm-haiku pyMetaheuristic emcee quadpy scalene casadi-horizon bayesnewton
+   dm-haiku pyMetaheuristic emcee quadpy scalene casadi-horizon bayesnewton ruptures
 ## torch
 pip install -U gpytorch botorch  torchdyn torchgan torchsde torchcde torchdiffeq \
  torchmetrics torchopt pytorch-lightning  pyro-ppl sbi
