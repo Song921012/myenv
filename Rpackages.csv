@@ -100,6 +100,7 @@ shinydisconnect",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "commonmark","commonmark","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.9.0",NA,NA,NA,NA,"curl, testthat, xml2",NA,"BSD_2_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "conflicted","conflicted","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.0",NA,"R (>= 3.2)","cli (>= 3.4.0), memoise, rlang (>= 1.0.0)",NA,"callr, covr, dplyr, Matrix, methods, pkgload, testthat (>=
 3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
+"conformalInference","conformalInference","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1",NA,"",NA,NA,"glmnet, lars, plyr, randomForest, SAM, splines",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.3"
 "contfrac","contfrac","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1-12",NA,NA,NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
 "correlation","correlation","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.8.3",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), datasets, datawizard (>= 0.5.1),
 insight (>= 0.18.4), parameters (>= 0.18.2), stats",NA,"BayesFactor, poorman, energy, ggplot2, ggraph, gt, Hmisc,
@@ -663,6 +664,7 @@ tcltk, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "polspline","polspline","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.22",NA,NA,"stats, graphics",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "polyclip","polyclip","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.10-4",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"BSL",NA,NA,NA,NA,"yes","4.2.2"
 "polynom","polynom","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4-1",NA,NA,"stats, graphics",NA,"knitr, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"pomp","pomp","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.7",NA,"R(>= 4.1.0)","methods, stats, graphics, digest, mvtnorm, deSolve, coda, plyr",NA,"ggplot2, knitr, tidyr, dplyr, subplex, nloptr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.3"
 "posterior","posterior","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.1",NA,"R (>= 3.2.0)","methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>=
 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional,
 parallel, matrixStats",NA,"testthat (>= 2.1.0), caret (>= 6.0.84), gbm (>= 2.1.8),
@@ -861,6 +863,8 @@ maptools, deldir, knitr, rmarkdown, sf",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2
 rmarkdown",NA,"LGPL-2 | BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "SparseM","SparseM","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.81",NA,"R (>= 2.15), methods","graphics, stats, utils",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "spatial","spatial","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","7.3-16","recommended","R (>= 3.0.0), graphics, stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
+"spatPomp","spatPomp","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.31.0.0",NA,"pomp (>= 4.5.2), R(>= 4.1), methods","foreach, dplyr, tidyr, stringr, abind, rlang, magrittr,
+ggplot2","pomp","testthat, doParallel (>= 1.0.11), parallel, doRNG",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.3"
 "srvyr","srvyr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.0",NA,"R (>= 3.1.2)","dplyr (>= 1.1.0), magrittr, methods, rlang, survey (>= 4.1),
 tibble, tidyr, tidyselect, vctrs (>= 0.3.0)",NA,"spelling, convey, DBI, dbplyr, ggplot2, knitr, laeken,
 Matrix, rmarkdown (>= 2.2.2), pander, RSQLite, survival,

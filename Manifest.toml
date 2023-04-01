@@ -4904,9 +4904,9 @@ version = "1.2.0"
 
 [[deps.SemiseparableMatrices]]
 deps = ["ArrayLayouts", "BandedMatrices", "BlockBandedMatrices", "LazyArrays", "LazyBandedMatrices", "LinearAlgebra", "MatrixFactorizations"]
-git-tree-sha1 = "0a89c8bbf2b0aeaa05f2aa92fb5cffed47ffecf4"
+git-tree-sha1 = "0ac237a9bc0a26df8ca300eb77279bb215dfcf12"
 uuid = "f8ebbe35-cbfb-4060-bf7f-b10e4670cf57"
-version = "0.3.5"
+version = "0.3.6"
 
 [[deps.SentinelArrays]]
 deps = ["Dates", "Random"]
