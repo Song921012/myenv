@@ -550,7 +550,7 @@ dependencies:
       - pot==0.8.2
       - prettytable==3.6.0
       - probdiffeq==0.1.4
-      - probnum==0.1.24
+      - probnum==0.1.25
       - prophet==1.1.2
       - protobuf==3.20.3
       - pulp==2.7.0
@@ -725,7 +725,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.1
+      - widgetsnbextension==3.6.3
       - winregistry==1.1.1
       - wrapt==1.14.1
       - x21==0.4.10

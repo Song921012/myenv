@@ -261,12 +261,12 @@ ggthemes, hrbrthemes",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "fields","fields","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","14.1",NA,"R (>= 3.5.0), methods, spam, viridis","maps",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "fitdistrplus","fitdistrplus","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1-8",NA,"R (>= 3.5.0), MASS, grDevices, survival, methods","stats",NA,"actuar, rgenoud, mc2d, gamlss.dist, knitr, ggplot2,
 GeneralizedHyperbolic, rmarkdown, Hmisc",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
-"flextable","flextable","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.9.0",NA,NA,"stats, utils, grDevices, graphics, grid, rmarkdown, knitr,
-htmltools, rlang, ragg, officer (>= 0.6.1), gdtools (>= 0.3.2),
+"flextable","flextable","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.9.1",NA,NA,"stats, utils, grDevices, graphics, grid, rmarkdown, knitr,
+htmltools, rlang, ragg, officer (>= 0.6.2), gdtools (>= 0.3.3),
 xml2, data.table (>= 1.13.0), uuid (>= 0.1-4)",NA,"testthat (>= 2.1.0), magick, equatags, commonmark, ggplot2,
 scales, doconv (>= 0.3.0), xtable, tables, broom, broom.mixed,
 mgcv, cluster, lme4, nlme, bookdown, pdftools, officedown,
-pkgdown (>= 2.0.0), webshot2",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+pkgdown (>= 2.0.0), webshot2",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3"
 "fontawesome","fontawesome","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5.0",NA,"R (>= 3.3.0)","rlang (>= 1.0.6), htmltools (>= 0.5.1.1)",NA,"covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0),
 rsvg",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "fontBitstreamVera","fontBitstreamVera","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.1",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"file LICENCE","yes",NA,NA,NA,"no","4.2.2"
@@ -686,7 +686,7 @@ RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools",NA,"GPL (>= 3)",NA
 knitr, rmarkdown, vembedr, spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "proxy","proxy","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4-27",NA,"R (>= 3.4.0)","stats, utils",NA,"cba",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
 "PRROC","PRROC","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.1",NA,NA,NA,NA,"testthat, ggplot2, ROCR",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
-"ps","ps","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7.3",NA,"R (>= 3.4)","utils",NA,"callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6,
+"ps","ps","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7.4",NA,"R (>= 3.4)","utils",NA,"callr, covr, curl, pillar, pingr, processx (>= 3.1.0), R6,
 rlang, testthat (>= 3.0.0),",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3"
 "purrr","purrr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.1",NA,"R (>= 3.4.0)","cli (>= 3.4.0), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),
 rlang (>= 0.4.10), vctrs (>= 0.5.0)","cli","covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown,
