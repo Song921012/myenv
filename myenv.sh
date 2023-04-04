@@ -242,3 +242,4 @@ source ./install.sh
 # CAJV appimage
 # flatpak: obsidian wemeet zoom losslesscut thunderbird xmind screenkey okular gwenview slack wezterm geany
 # docker dockerinstall.sh
+# WPS 字体
