@@ -255,6 +255,7 @@ dependencies:
       - appdirs==1.4.4
       - arrow==1.2.3
       - arviz==0.14.0
+      - asreview==1.1.1
       - asteval==0.9.28
       - astor==0.8.1
       - astroid==2.15.2
@@ -345,6 +346,7 @@ dependencies:
       - emcee==3.1.4
       - ephem==4.1.4
       - equinox==0.10.0
+      - et-xmlfile==1.1.0
       - etils==1.0.0
       - evosax==0.1.3
       - exceptiongroup==1.1.0
@@ -376,6 +378,7 @@ dependencies:
       - gekko==1.0.6
       - geojson==2.5.0
       - geopandas==0.12.2
+      - gevent==22.10.2
       - gitdb==4.0.10
       - gitpython==3.1.30
       - glmnet==2.2.1
@@ -400,7 +403,7 @@ dependencies:
       - htmlmin==0.1.12
       - httpcore==0.16.3
       - httpx==0.23.3
-      - huggingface-hub==0.13.3
+      - huggingface-hub==0.13.4
       - imagehash==4.3.1
       - imageio==2.24.0
       - imagesize==1.4.1
@@ -412,7 +415,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.4
+      - ipywidgets==7.7.2
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
@@ -446,7 +449,7 @@ dependencies:
       - lark==1.1.5
       - latex2mathml==3.75.1
       - lazy-object-proxy==1.9.0
-      - leafmap==0.18.8
+      - leafmap==0.18.10
       - libclang==15.0.6.1
       - lifelines==0.27.4
       - lightgbm==3.3.4
@@ -513,6 +516,7 @@ dependencies:
       - oauthlib==3.2.2
       - objax==1.6.0
       - openmdao==3.23.0
+      - openpyxl==3.1.2
       - opt-einsum==3.3.0
       - optax==0.1.4
       - optht==0.2.0
@@ -537,7 +541,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
-      - pip==23.0
+      - pip==23.0.1
       - plotly==5.14.1
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
@@ -547,7 +551,7 @@ dependencies:
       - poethepoet==0.10.0
       - pooch==1.6.0
       - portalocker==2.7.0
-      - pot==0.8.2
+      - pot==0.9.0
       - prettytable==3.6.0
       - probdiffeq==0.1.4
       - probnum==0.1.25
@@ -624,6 +628,7 @@ dependencies:
       - rfc3986==1.5.0
       - rich==13.3.2
       - rich-argparse==1.0.0
+      - rispy==0.7.1
       - rsa==4.9
       - ruptures==1.1.7
       - salib==1.4.7
@@ -664,7 +669,7 @@ dependencies:
       - statsforecast==1.4.0
       - statsmodels==0.13.5
       - stevedore==4.1.1
-      - streamlit==1.20.0
+      - streamlit==1.21.0
       - stumpy==1.11.1
       - sympy==1.11.1
       - tabulate==0.9.0
@@ -733,8 +738,11 @@ dependencies:
       - xarray==2023.1.0
       - xarray-einstats==0.5.1
       - xgboost==1.7.3
+      - xlrd==2.0.1
       - xyzservices==2022.9.0
       - yapf==0.32.0
       - yarl==1.8.2
       - zict==2.2.0
+      - zope-event==4.6
+      - zope-interface==6.0
 prefix: /home/aidishage/miniconda3
