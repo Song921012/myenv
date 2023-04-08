@@ -22,13 +22,13 @@ posterior, reshape2, rlang (>= 0.3.0), stats, tibble (>=
 2.17.1), rstanarm (>= 2.17.4), rstantools (>= 1.5.0), scales,
 shinystan (>= 2.3.0), survival, testthat (>= 2.0.0), vdiffr (>=
 1.0.2)",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.2"
-"bayestestR","bayestestR","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.13.0",NA,"R (>= 3.6)","insight (>= 0.18.2), datawizard (>= 0.5.1), graphics, methods,
-stats, utils",NA,"BayesFactor, bayesQR, bayesplot, BH, blavaan, bridgesampling,
-brms, effectsize, emmeans, gamm4, ggdist, ggplot2, glmmTMB,
-httr, KernSmooth, knitr, lavaan, lme4, logspline, MASS, mclust,
-mediation, modelbased, parameters, patchwork, performance,
-quadprog, posterior, RcppEigen, rmarkdown, rstan, rstanarm,
-see, testthat, tweedie",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+"bayestestR","bayestestR","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.13.1",NA,"R (>= 3.6)","insight (>= 0.19.1), datawizard (>= 0.7.0), graphics, methods,
+stats, utils",NA,"BayesFactor (>= 0.9.12-4.4), bayesQR, bayesplot, BH, blavaan,
+bridgesampling, brms, curl, effectsize, emmeans, gamm4, ggdist,
+ggplot2, glmmTMB, httr, KernSmooth, knitr, lavaan, lme4,
+logspline, MASS, mclust, mediation, modelbased, parameters,
+patchwork, performance, quadprog, posterior, RcppEigen,
+rmarkdown, rstan, rstanarm, see (>= 0.7.5), testthat, tweedie",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3"
 "BH","BH","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.81.0-1",NA,NA,NA,NA,NA,NA,"BSL-1.0",NA,NA,NA,NA,"no","4.2.2"
 "BiocManager","BiocManager","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.30.20",NA,NA,"utils",NA,"BiocVersion, remotes, rmarkdown, testthat, withr, curl, knitr",NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
 "BiocVersion","BiocVersion","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.16.0",NA,"R (>= 4.2.0)",NA,NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
@@ -449,9 +449,10 @@ viridis (>= 0.5.1), magrittr (>= 1.5), purrr (>= 0.3.2), future
 2.1.3), tidyr (>= 0.8.3), deSolve (>= 1.23)",NA,"testthat (>= 2.1.1), rmarkdown (>= 1.13), knitr (>= 1.23),
 pkgnet (>= 0.4.0), DT (>= 0.7), vdiffr (>= 0.3.1), spelling",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "ids","ids","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.1",NA,NA,"openssl, uuid",NA,"knitr, rcorpora, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"igraph","igraph","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.1",NA,"methods","graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0),
-rlang, stats, utils",NA,"ape, digest, graph, igraphdata, rgl, scales, stats4, tcltk,
-testthat, withr, vdiffr, knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
+"igraph","igraph","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.2",NA,"R (>= 3.0.2), methods","graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0),
+rlang, stats, utils","cpp11 (>= 0.2.0)","ape (>= 5.7-0.1), decor, digest, graph, igraphdata, rgl,
+scales, stats4, tcltk, testthat, withr, vdiffr, knitr,
+rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.3"
 "incidence","incidence","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7.3",NA,NA,"ggplot2 (>= 3.3.2), aweek (>= 0.2.0)",NA,"magrittr, outbreaks, testthat, vdiffr, covr, knitr,
 rmarkdown, scales, cowplot",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "ini","ini","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.3.1",NA,NA,NA,NA,"testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
@@ -525,7 +526,7 @@ rstantools, spdep, testthat (>= 2.1.0)",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.2.3"
 grDevices",NA,"rgeos (>= 0.1-8), spatstat.geom (>= 1.65-0), PBSmapping,
 maps, RColorBrewer, raster, polyclip, plotrix, spatstat.linnet
 (>= 1.65-3), spatstat.utils (>= 1.19.0), spatstat (>= 2.0-0)","gpclib","GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
-"markdown","markdown","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.5",NA,"R (>= 2.11.1)","utils, commonmark, xfun (>= 0.35)",NA,"knitr, rmarkdown (>= 2.18), yaml, RCurl",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
+"markdown","markdown","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.6",NA,"R (>= 2.11.1)","utils, commonmark (>= 1.9.0), xfun (>= 0.38)",NA,"knitr, rmarkdown (>= 2.18), yaml, RCurl",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.3"
 "MASS","MASS","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","7.3-58.3","recommended","R (>= 3.3.0), grDevices, graphics, stats, utils","methods",NA,"lattice, nlme, nnet, survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.2"
 "Matrix","Matrix","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.5-4","recommended","R (>= 3.5.0), methods","graphics, grid, lattice, stats, utils",NA,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc, igraph, maptools, sp,
 spdep","GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.2.3"
@@ -618,16 +619,16 @@ graphics",NA,"knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
 "pbapply","pbapply","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.7-0",NA,"R (>= 3.2.0)","parallel",NA,"shiny, future, future.apply",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
 "pbkrtest","pbkrtest","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.5.2",NA,"R (>= 4.1.0), lme4 (>= 1.1.31)","broom, dplyr, MASS, Matrix (>= 1.2.3), methods, numDeriv,
 parallel",NA,"knitr",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
-"performance","performance","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.10.2",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), insight (>= 0.18.8), datawizard (>=
-0.6.5), methods, stats, utils",NA,"AER, afex, BayesFactor, bayesplot, betareg, bigutilsr,
+"performance","performance","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.10.3",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), insight (>= 0.19.1), datawizard (>=
+0.7.0), methods, stats, utils",NA,"AER, afex, BayesFactor, bayesplot, betareg, bigutilsr,
 blavaan, boot, brms, car, CompQuadForm, correlation, cplm,
 dbscan, estimatr, fixest, forecast, gamm4, ggplot2, glmmTMB,
-graphics, Hmisc, httr, ICS, ICSOutlier, ISLR, lavaan, lme4,
-lmtest, loo, MASS, Matrix, mclust, metafor, mgcv, mlogit,
-multimode, nlme, nonnest2, ordinal, parallel, parameters,
-patchwork, poorman, pscl, psych, randomForest, rmarkdown,
-rstanarm, rstantools, sandwich, see (>= 0.7.4), survey,
-survival, testthat, tweedie, VGAM",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
+graphics, Hmisc, httr, ICS, ICSOutlier, ISLR, ivreg, lavaan,
+lme4, lmtest, loo, MASS, Matrix, mclogit, mclust, metadat,
+metafor, mgcv, mlogit, multimode, nlme, nonnest2, ordinal,
+parallel, parameters (>= 0.20.3), patchwork, pscl, psych,
+randomForest, rmarkdown, rstanarm, rstantools, sandwich, see
+(>= 0.7.5), survey, survival, testthat, tweedie, VGAM, withr",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3"
 "pheatmap","pheatmap","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.0.12",NA,"R (>= 2.0)","grid, RColorBrewer, scales, gtable, stats, grDevices, graphics",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
 "phosphoricons","phosphoricons","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.2",NA,"R (>= 2.10)","htmltools (>= 0.3)",NA,"covr, shiny, tinytest",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "pillar","pillar","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.9.0",NA,NA,"cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8
