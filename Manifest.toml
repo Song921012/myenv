@@ -159,9 +159,9 @@ version = "0.1.6"
 
 [[deps.Agents]]
 deps = ["CSV", "DataFrames", "DataStructures", "Distributed", "Distributions", "Downloads", "Graphs", "JLD2", "LazyArtifacts", "LightOSM", "LinearAlgebra", "Pkg", "ProgressMeter", "Random", "Requires", "Rotations", "Scratch", "StaticArrays", "StatsBase"]
-git-tree-sha1 = "7480a593ce13937502ee2f3c9bda8a73851974a6"
+git-tree-sha1 = "d8beeb321d7a1bf8afda307be0eacbcd0b7567dc"
 uuid = "46ada45e-f475-11e8-01d0-f70cc89e6671"
-version = "5.13.0"
+version = "5.14.0"
 
 [[deps.AlgebraOfGraphics]]
 deps = ["Colors", "Dates", "Dictionaries", "FileIO", "GLM", "GeoInterface", "GeometryBasics", "GridLayoutBase", "KernelDensity", "Loess", "Makie", "PlotUtils", "PooledArrays", "RelocatableFolders", "SnoopPrecompile", "StatsBase", "StructArrays", "Tables"]
@@ -1280,9 +1280,9 @@ version = "0.25.87"
 
 [[deps.DistributionsAD]]
 deps = ["Adapt", "ChainRules", "ChainRulesCore", "Compat", "DiffRules", "Distributions", "FillArrays", "LinearAlgebra", "NaNMath", "PDMats", "Random", "Requires", "SpecialFunctions", "StaticArrays", "StatsBase", "StatsFuns", "ZygoteRules"]
-git-tree-sha1 = "0c139e48a8cea06c6ecbbec19d3ebc5dcbd7870d"
+git-tree-sha1 = "c2ecd634010e6952ce642db65b5885c41cb307b0"
 uuid = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
-version = "0.6.43"
+version = "0.6.44"
 
 [[deps.DocStringExtensions]]
 deps = ["LibGit2"]
@@ -3226,9 +3226,9 @@ version = "0.14.3"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "a7e1a92da95b865333f545b9de22a5a338d0726b"
+git-tree-sha1 = "3abbb1158e84a2436fe604a0fbd14133224fe23e"
 uuid = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
-version = "0.4.13"
+version = "0.4.14"
 
 [[deps.ManualMemory]]
 git-tree-sha1 = "bcaef4fc7a0cfe2cba636d84cda54b5e4e4ca3cd"
@@ -5760,9 +5760,9 @@ version = "0.4.1"
 
 [[deps.UnicodePlots]]
 deps = ["ColorSchemes", "ColorTypes", "Contour", "Crayons", "Dates", "LinearAlgebra", "MarchingCubes", "NaNMath", "Printf", "Requires", "SnoopPrecompile", "SparseArrays", "StaticArrays", "StatsBase"]
-git-tree-sha1 = "516462456b9e54f2b94351f51186b3b8aedfb7fd"
+git-tree-sha1 = "2825e58f6ec3cab889dfa2c824f8d89b9f7ee731"
 uuid = "b8865327-cd53-5732-bb35-84acbb429228"
-version = "3.4.2"
+version = "3.5.1"
 
 [[deps.Unitful]]
 deps = ["ConstructionBase", "Dates", "LinearAlgebra", "Random"]
@@ -5874,9 +5874,9 @@ version = "0.5.5"
 
 [[deps.WordCloud]]
 deps = ["ColorSchemes", "Colors", "FileIO", "ImageTransformations", "Luxor", "Printf", "Random", "Statistics", "Stuffing"]
-git-tree-sha1 = "39950f183f4b096b2b9d0a607ce6d4561df75531"
+git-tree-sha1 = "5bb56e3dbafb8f943eda0d536ad70619d8952c80"
 uuid = "6385f0a0-cb03-45b6-9089-4e0acc74b26b"
-version = "0.10.10"
+version = "0.10.11"
 
 [[deps.WordTokenizers]]
 deps = ["DataDeps", "HTML_Entities", "StrTables", "Unicode"]

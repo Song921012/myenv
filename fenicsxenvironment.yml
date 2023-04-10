@@ -57,7 +57,7 @@ dependencies:
   - fenics-ufcx=0.6.0=h56297ac_0
   - fenics-ufl=2023.1.1=pyhd8ed1ab_1
   - ffmpeg=5.1.2=gpl_h8dda1f0_106
-  - fftw=3.3.10=mpi_mpich_h3e343da_6
+  - fftw=3.3.10=mpi_mpich_h5537406_7
   - flit-core=3.8.0=pyhd8ed1ab_0
   - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
   - font-ttf-inconsolata=3.000=h77eed37_0
@@ -89,8 +89,8 @@ dependencies:
   - icu=72.1=hcb278e6_0
   - idna=3.4=pyhd8ed1ab_0
   - imageio=2.27.0=pyh24c5eb1_0
-  - importlib-metadata=6.2.0=pyha770c72_0
-  - importlib_metadata=6.2.0=hd8ed1ab_0
+  - importlib-metadata=6.2.1=pyha770c72_0
+  - importlib_metadata=6.2.1=hd8ed1ab_0
   - importlib_resources=5.12.0=pyhd8ed1ab_0
   - ipykernel=6.22.0=pyh210e3f2_0
   - ipython=8.12.0=pyh41d4057_0

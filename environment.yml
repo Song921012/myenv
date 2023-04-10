@@ -336,7 +336,7 @@ dependencies:
       - docutils==0.19
       - dtw-python==1.3.0
       - dymos==1.7.0
-      - dynamax==0.1.0+197.g0cde118
+      - dynamax==0.1.0+199.gbe481f9
       - echarts-china-cities-pypkg==0.0.9
       - echarts-china-counties-pypkg==0.0.2
       - echarts-china-misc-pypkg==0.0.1
@@ -418,7 +418,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.5
+      - ipywidgets==7.7.4
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
@@ -442,7 +442,7 @@ dependencies:
       - jupyter-dash==0.4.2
       - jupyter-highlight-selected-word==0.2.0
       - jupyter-nbextensions-configurator==0.6.1
-      - jupyterlab-widgets==1.1.4
+      - jupyterlab-widgets==1.1.1
       - keplergl==0.3.2
       - keras==2.12.0
       - keras-self-attention==0.51.0
@@ -573,7 +573,7 @@ dependencies:
       - pydeprecate==0.3.2
       - pydmd==0.4.1.post2304
       - pydub==0.25.1
-      - pyecharts==2.0.2
+      - pyecharts==2.0.3
       - pyecharts-jupyter-installer==0.0.3
       - pyecharts-snapshot==0.2.0
       - pyee==8.2.2
@@ -734,7 +734,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.4
+      - widgetsnbextension==3.6.1
       - winregistry==1.1.1
       - wrapt==1.14.1
       - x21==0.4.10
