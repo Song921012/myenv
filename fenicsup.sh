@@ -29,7 +29,7 @@
 ## update fenics
 
 conda deactivate
-#conda create -n fenics -c conda-forge fenics pyoptsparse python=3.10.6
+#conda create -n fenics -c conda-forge fenics pyoptsparse julia python=3.10.6
 conda activate fenics
 conda update --all
 pip install Numpy Pandas Matplotlib scipy sympy statsmodels jupyter radian flake8 pylint yapf virtualenv rich pygments jupyter_contrib_nbextensions nbconvert

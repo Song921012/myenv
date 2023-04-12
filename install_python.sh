@@ -13,7 +13,7 @@ pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels network
   tensorflow-probability gplearn gpflow\
   gpytorch botorch pytorch-forecasting neuralprophet torchdyn torchgan torchsde torchcde torchdiffeq torchmetrics pytorch-lightning  pyro-ppl\
   Casadi sbi pints elfi POT lifelines casadi Pulp lmfit pysindy pysr pydmd cvxpy probnum POT pylops pyproximal\
-  pyomo gekko dymos leafmap optax flax numpyro distrax efax diffrax jaxopt sgmcmcjax gpjax blackjax pyvista
+  pyomo gekko dymos leafmap optax flax numpyro distrax efax diffrax jaxopt sgmcmcjax gpjax blackjax pyvista nvitop
   
   
 sudo npm install -g yarn
