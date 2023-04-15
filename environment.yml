@@ -274,7 +274,7 @@ dependencies:
       - blackjax==0.9.6
       - blinker==1.5
       - boltons==21.0.0
-      - botorch==0.8.3
+      - botorch==0.7.0
       - bottle==0.12.23
       - bqplot==0.12.36
       - branca==0.6.0
@@ -321,7 +321,7 @@ dependencies:
       - dash-html-components==2.0.0
       - dash-table==5.0.0
       - dask==2023.1.0
-      - deepxde==1.8.3
+      - deepxde==1.8.4
       - deprecated==1.2.13
       - deprecation==2.1.0
       - derivative==0.5.3
@@ -393,7 +393,7 @@ dependencies:
       - gpjax==0.5.9
       - gplearn==0.4.2
       - gpy==1.10.0
-      - gpytorch==1.9.1
+      - gpytorch==1.10
       - gradio==3.23.0
       - grpcio==1.51.1
       - h11==0.14.0
@@ -442,7 +442,7 @@ dependencies:
       - jupyter-dash==0.4.2
       - jupyter-highlight-selected-word==0.2.0
       - jupyter-nbextensions-configurator==0.6.1
-      - jupyterlab-widgets==1.1.3
+      - jupyterlab-widgets==1.1.1
       - keplergl==0.3.2
       - keras==2.12.0
       - keras-self-attention==0.51.0
@@ -457,7 +457,7 @@ dependencies:
       - lifelines==0.27.4
       - lightgbm==3.3.4
       - lightning-utilities==0.7.1
-      - linear-operator==0.3.0
+      - linear-operator==0.4.0
       - linkify-it-py==2.0.0
       - lit==15.0.7
       - llvmlite==0.39.1
@@ -546,7 +546,7 @@ dependencies:
       - picos==2.4.11
       - pillow==9.4.0
       - pints==0.4.0
-      - pip==23.0.1
+      - pip==23.1
       - plotly==5.14.1
       - plotly-express==0.4.1
       - plotly-resampler==0.8.3
@@ -737,7 +737,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.1
+      - widgetsnbextension==3.6.4
       - winregistry==1.1.1
       - wrapt==1.14.1
       - x21==0.4.10
