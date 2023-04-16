@@ -1234,9 +1234,9 @@ version = "7.7.0"
 
 [[deps.DimensionalData]]
 deps = ["Adapt", "ArrayInterfaceCore", "ConstructionBase", "Dates", "Extents", "IntervalSets", "IteratorInterfaceExtensions", "LinearAlgebra", "Random", "RecipesBase", "SnoopPrecompile", "SparseArrays", "Statistics", "TableTraits", "Tables"]
-git-tree-sha1 = "863351bb88ef5e39523d1a07607fdbae51ad3ffb"
+git-tree-sha1 = "dda58a378971eabba69c526ca159ee9ca6715f4f"
 uuid = "0703355e-b756-11e9-17c0-8b28908087d0"
-version = "0.24.11"
+version = "0.24.12"
 
 [[deps.Distances]]
 deps = ["LinearAlgebra", "SparseArrays", "Statistics", "StatsAPI"]
@@ -5288,9 +5288,9 @@ version = "1.10.0"
 
 [[deps.StructuralIdentifiability]]
 deps = ["AbstractAlgebra", "BenchmarkTools", "DataStructures", "Dates", "Groebner", "IterTools", "LinearAlgebra", "Logging", "MacroTools", "ModelingToolkit", "Nemo", "Primes", "SpecialFunctions", "SymbolicUtils", "Symbolics", "Test", "TestSetExtensions"]
-git-tree-sha1 = "33a2f4d66ab95c7cd84a7cc62991a50a5861c4dc"
+git-tree-sha1 = "0c41c6006112c586f154965fd9b5a4da0966a481"
 uuid = "220ca800-aa68-49bb-acd8-6037fa93a544"
-version = "0.4.8"
+version = "0.4.9"
 
 [[deps.Stuffing]]
 deps = ["Random"]
