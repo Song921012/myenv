@@ -335,6 +335,7 @@ dependencies:
       - dm-tree==0.1.8
       - docutils==0.19
       - dtw-python==1.3.0
+      - duckdb==0.7.1
       - dymos==1.7.0
       - dynamax==0.1.0+201.ga777767
       - echarts-china-cities-pypkg==0.0.9
@@ -418,7 +419,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.2
+      - ipywidgets==7.7.4
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
@@ -586,6 +587,7 @@ dependencies:
       - pyknos==0.15.1
       - pykoop==1.1.3
       - pykoopman==0.2.0
+      - pylance==0.4.2
       - pylint==2.17.2
       - pylops==2.1.0
       - pymeeus==0.5.12
@@ -737,7 +739,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.4
+      - widgetsnbextension==3.6.3
       - winregistry==1.1.1
       - wrapt==1.14.1
       - x21==0.4.10

@@ -2,7 +2,7 @@
 
 julia_version = "1.8.5"
 manifest_format = "2.0"
-project_hash = "fbd4b0d3268e7b69624651ef3466eca9b78ab4f0"
+project_hash = "6ddb53d1744f3a2e4ea98712ae0bcac94d4fbd04"
 
 [[deps.ADNLPModels]]
 deps = ["ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays", "SparseDiffTools", "Symbolics"]
@@ -286,10 +286,10 @@ uuid = "65a8f2f4-9b39-5baf-92e2-a9cc46fdf018"
 version = "0.6.1"
 
 [[deps.Arrow]]
-deps = ["ArrowTypes", "BitIntegers", "CodecLz4", "CodecZstd", "DataAPI", "Dates", "LoggingExtras", "Mmap", "PooledArrays", "SentinelArrays", "Tables", "TimeZones", "UUIDs", "WorkerUtilities"]
-git-tree-sha1 = "551fd7902ebdac5e346500d9a7a6afb3f3502c83"
+deps = ["ArrowTypes", "BitIntegers", "CodecLz4", "CodecZstd", "DataAPI", "Dates", "LoggingExtras", "Mmap", "PooledArrays", "SentinelArrays", "Tables", "TimeZones", "TranscodingStreams", "UUIDs", "WorkerUtilities"]
+git-tree-sha1 = "0754c424e8c289176238ef73434687026692ee30"
 uuid = "69666777-d1a9-59fb-9406-91d4454c9d45"
-version = "2.5.0"
+version = "2.5.1"
 
 [[deps.ArrowTypes]]
 deps = ["UUIDs"]
@@ -2436,9 +2436,9 @@ version = "1.3.6"
 
 [[deps.JSOSolvers]]
 deps = ["Krylov", "LinearAlgebra", "LinearOperators", "Logging", "NLPModels", "NLPModelsModifiers", "Printf", "SolverCore", "SolverTools"]
-git-tree-sha1 = "b0b08d2c44353d662e4f504ea35224ec1046544f"
+git-tree-sha1 = "fec77fb45d82c398e58d18d5d6ebc44d6b75411f"
 uuid = "10dff2fc-5484-5881-a0e0-c90441020f8a"
-version = "0.9.4"
+version = "0.10.0"
 
 [[deps.JpegTurbo]]
 deps = ["CEnum", "FileIO", "ImageCore", "JpegTurbo_jll", "TOML"]
@@ -3468,21 +3468,15 @@ version = "0.13.3"
 
 [[deps.NLPModels]]
 deps = ["FastClosures", "LinearAlgebra", "LinearOperators", "Printf", "SparseArrays"]
-git-tree-sha1 = "e0fe93dc386173d7013621f2937916765a9c0f60"
+git-tree-sha1 = "51b458add76a938917772ee661ffb9d59b4c7e5d"
 uuid = "a4795742-8479-5a88-8948-cc11e1c8c1a6"
-version = "0.19.2"
+version = "0.20.0"
 
 [[deps.NLPModelsIpopt]]
 deps = ["Ipopt", "NLPModels", "SolverCore"]
 git-tree-sha1 = "fc840dec9e9d371e3747b2c5c85c2a58ed99d124"
 uuid = "f4238b75-b362-5c4c-b852-0801c9a21d71"
 version = "0.10.1"
-
-[[deps.NLPModelsKnitro]]
-deps = ["KNITRO", "NLPModels", "NLPModelsModifiers", "SolverCore"]
-git-tree-sha1 = "61c2141f9cbbe26dfecc5a37060eb457d78e85a5"
-uuid = "bec4dd0d-7755-52d5-9a02-22f0ffc7efcb"
-version = "0.7.0"
 
 [[deps.NLPModelsModifiers]]
 deps = ["FastClosures", "LinearAlgebra", "LinearOperators", "NLPModels", "Printf", "SparseArrays"]
@@ -4276,10 +4270,10 @@ uuid = "3a141323-8675-5d76-9d11-e1df1406c778"
 version = "1.0.0"
 
 [[deps.Polynomials]]
-deps = ["ChainRulesCore", "LinearAlgebra", "MakieCore", "RecipesBase"]
-git-tree-sha1 = "86efc6f761df655f8782f50628e45e01a457d5a2"
+deps = ["ChainRulesCore", "LinearAlgebra", "MakieCore", "MutableArithmetics", "RecipesBase"]
+git-tree-sha1 = "66443538efd80fac4962b74523ec0b35c9464a21"
 uuid = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
-version = "3.2.8"
+version = "3.2.9"
 
 [[deps.PooledArrays]]
 deps = ["DataAPI", "Future"]
