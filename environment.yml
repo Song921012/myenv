@@ -345,9 +345,10 @@ dependencies:
       - echarts-countries-pypkg==0.1.6
       - echarts-united-kingdom-pypkg==0.0.1
       - ecos==2.0.12
-      - efax==1.13.2
+      - efax==1.13.3
       - elfi==0.8.6
       - emcee==3.1.4
+      - entmax==1.1
       - ephem==4.1.4
       - equinox==0.10.0
       - et-xmlfile==1.1.0
@@ -640,7 +641,7 @@ dependencies:
       - ruptures==1.1.7
       - salib==1.4.7
       - sbi==0.21.0
-      - scalene==1.5.20
+      - scalene==1.5.21.1
       - scikit-learn==1.0.2
       - scikit-optimize==0.9.0
       - scikit-posthocs==0.7.0
@@ -676,6 +677,7 @@ dependencies:
       - statsforecast==1.4.0
       - statsmodels==0.13.5
       - stevedore==4.1.1
+      - storchastic==0.3.6
       - streamlit==1.21.0
       - stumpy==1.11.1
       - sympy==1.11.1
@@ -739,7 +741,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.3
+      - widgetsnbextension==3.6.4
       - winregistry==1.1.1
       - wrapt==1.14.1
       - x21==0.4.10

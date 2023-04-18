@@ -668,7 +668,8 @@ tcltk, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "polspline","polspline","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.22",NA,NA,"stats, graphics",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 "polyclip","polyclip","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.10-4",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"BSL",NA,NA,NA,NA,"yes","4.2.2"
 "polynom","polynom","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4-1",NA,NA,"stats, graphics",NA,"knitr, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
-"pomp","pomp","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","4.7",NA,"R(>= 4.1.0)","methods, stats, graphics, digest, mvtnorm, deSolve, coda, plyr",NA,"ggplot2, knitr, tidyr, dplyr, subplex, nloptr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.3"
+"pomp","pomp","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","5.1",NA,"R(>= 4.1.0)","methods, stats, graphics, digest, mvtnorm, deSolve, coda,
+dplyr",NA,"ggplot2, knitr, tidyr, subplex, nloptr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.3"
 "posterior","posterior","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.1",NA,"R (>= 3.2.0)","methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>=
 3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional,
 parallel, matrixStats",NA,"testthat (>= 2.1.0), caret (>= 6.0.84), gbm (>= 2.1.8),
@@ -1015,7 +1016,7 @@ testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "yaml","yaml","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.3.7",NA,NA,NA,NA,"RUnit",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "yulab.utils","yulab.utils","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.0.6",NA,NA,"stats, utils",NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.2.2"
 "zeallot","zeallot","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.1.0",NA,NA,NA,NA,"testthat, knitr, rmarkdown, purrr, magrittr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
-"zip","zip","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.2.2",NA,NA,NA,NA,"covr, processx, R6, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
+"zip","zip","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","2.3.0",NA,NA,NA,NA,"covr, processx, R6, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3"
 "zoo","zoo","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.8-12",NA,"R (>= 3.1.0), stats","utils, graphics, grDevices, lattice (>= 0.20-27)",NA,"AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales,
 stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.2.3"
 "askpass.1","askpass","/usr/local/lib/R/site-library","1.1",NA,NA,"sys (>= 2.1)",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
