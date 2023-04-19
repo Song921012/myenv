@@ -281,7 +281,7 @@ dependencies:
       - cached-property==1.5.2
       - cachetools==5.3.0
       - captum==0.6.0
-      - casadi==3.6.0
+      - casadi==3.6.1
       - casadi-horizon==0.0.3
       - catboost==1.1.1
       - cattrs==22.2.0
@@ -336,7 +336,7 @@ dependencies:
       - docutils==0.19
       - dtw-python==1.3.0
       - duckdb==0.7.1
-      - dymos==1.7.0
+      - dymos==1.8.0
       - dynamax==0.1.0+201.ga777767
       - echarts-china-cities-pypkg==0.0.9
       - echarts-china-counties-pypkg==0.0.2
@@ -345,7 +345,7 @@ dependencies:
       - echarts-countries-pypkg==0.1.6
       - echarts-united-kingdom-pypkg==0.0.1
       - ecos==2.0.12
-      - efax==1.13.3
+      - efax==1.14.0
       - elfi==0.8.6
       - emcee==3.1.4
       - entmax==1.1
@@ -368,7 +368,7 @@ dependencies:
       - flask==2.1.3
       - flask-cors==3.0.10
       - flatbuffers==23.1.4
-      - flax==0.6.8
+      - flax==0.6.9
       - folium==0.13.0
       - fonttools==4.38.0
       - formulaic==0.5.2
@@ -420,7 +420,7 @@ dependencies:
       - ipyleaflet==0.17.2
       - ipyparallel==8.4.1
       - ipytree==0.2.2
-      - ipywidgets==7.7.4
+      - ipywidgets==7.7.5
       - isoduration==20.11.0
       - isort==5.11.4
       - itsdangerous==2.1.2
@@ -444,7 +444,7 @@ dependencies:
       - jupyter-dash==0.4.2
       - jupyter-highlight-selected-word==0.2.0
       - jupyter-nbextensions-configurator==0.6.1
-      - jupyterlab-widgets==1.1.1
+      - jupyterlab-widgets==1.1.3
       - keplergl==0.3.2
       - keras==2.12.0
       - keras-self-attention==0.51.0
@@ -530,6 +530,7 @@ dependencies:
       - optree==0.5.1
       - optuna==2.10.1
       - orbax==0.1.0
+      - orbax-checkpoint==0.2.1
       - orjson==3.8.5
       - orthopy==0.8.96
       - osmnx==1.3.0
@@ -695,7 +696,7 @@ dependencies:
       - tensorflow-estimator==2.12.0
       - tensorflow-io-gcs-filesystem==0.30.0
       - tensorflow-probability==0.19.0
-      - tensorstore==0.1.30
+      - tensorstore==0.1.35
       - termcolor==2.2.0
       - text-unidecode==1.3
       - tf2jax==0.3.3
@@ -741,7 +742,7 @@ dependencies:
       - wget==3.2
       - whitebox==2.2.0
       - whiteboxgui==2.2.0
-      - widgetsnbextension==3.6.4
+      - widgetsnbextension==3.6.1
       - winregistry==1.1.1
       - wrapt==1.14.1
       - x21==0.4.10
@@ -750,7 +751,7 @@ dependencies:
       - xgboost==1.7.3
       - xlrd==2.0.1
       - xyzservices==2022.9.0
-      - yapf==0.32.0
+      - yapf==0.33.0
       - yarl==1.8.2
       - zict==2.2.0
       - zope-event==4.6
