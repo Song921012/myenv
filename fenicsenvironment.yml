@@ -18,8 +18,8 @@ dependencies:
   - certifi=2022.12.7=pyhd8ed1ab_0
   - cffi=1.15.1=py311h409f033_3
   - charset-normalizer=3.1.0=pyhd8ed1ab_0
-  - cryptography=40.0.1=py311h9b4c7bb_0
-  - curl=7.88.1=hdc1c0ab_1
+  - cryptography=40.0.2=py311h9b4c7bb_0
+  - curl=8.0.1=h588be90_0
   - eigen=3.4.0=h4bd325d_0
   - expat=2.5.0=hcb278e6_1
   - fenics=2019.1.0=py311h38be061_34
@@ -51,7 +51,7 @@ dependencies:
   - libaec=1.0.6=hcb278e6_1
   - libblas=3.9.0=16_linux64_openblas
   - libcblas=3.9.0=16_linux64_openblas
-  - libcurl=7.88.1=hdc1c0ab_1
+  - libcurl=8.0.1=h588be90_0
   - libedit=3.1.20191231=he28a2e2_2
   - libev=4.33=h516909a_1
   - libexpat=2.5.0=hcb278e6_1
@@ -62,13 +62,13 @@ dependencies:
   - libgfortran5=12.2.0=h337968e_19
   - libgit2=1.5.1=h1f77430_0
   - libgomp=12.2.0=h65d4601_19
-  - libhwloc=2.9.0=hd6dc26d_0
+  - libhwloc=2.9.1=hd6dc26d_0
   - libiconv=1.17=h166bdaf_0
   - liblapack=3.9.0=16_linux64_openblas
   - libnghttp2=1.52.0=h61bc06f_0
   - libnsl=2.0.0=h7f98852_0
   - libopenblas=0.3.21=pthreads_h78a6416_3
-  - libopenblas-ilp64=0.3.21=pthreads_h44c56fb_3
+  - libopenblas-ilp64=0.3.23=pthreads_h5c82d6a_0
   - libsanitizer=10.4.0=h5246dfb_19
   - libsqlite=3.40.0=h753d276_0
   - libssh2=1.10.0=hf14f497_3
@@ -94,17 +94,17 @@ dependencies:
   - mumps-seq=5.2.1=h2104b81_11
   - ncurses=6.3=h27087fc_1
   - numpy=1.24.2=py311h8e6699e_0
-  - openblas-ilp64=0.3.21=pthreads_h3d04fff_3
+  - openblas-ilp64=0.3.23=pthreads_h3d04fff_0
   - openlibm=0.8.1=h7f98852_0
   - openssl=3.1.0=h0b41bf4_0
   - p7zip=16.02=h9c3ff4c_1001
-  - packaging=23.0=pyhd8ed1ab_0
+  - packaging=23.1=pyhd8ed1ab_0
   - parmetis=4.0.3=h2a9763c_1005
   - pcre2=10.40=hc3806b6_0
   - perl=5.32.1=2_h7f98852_perl5
   - petsc=3.17.4=real_h15390b8_101
   - petsc4py=3.17.4=real_h9c72440_101
-  - pip=23.0.1=pyhd8ed1ab_0
+  - pip=23.1=pyhd8ed1ab_0
   - pkg-config=0.29.2=h36c2ea0_1008
   - pkgconfig=1.5.5=pyhd8ed1ab_4
   - platformdirs=3.2.0=pyhd8ed1ab_0
@@ -134,7 +134,7 @@ dependencies:
   - superlu_dist=7.2.0=h25dcc4a_0
   - sympy=1.11.1=pypyh9d50eac_103
   - sysroot_linux-64=2.12=he073ed8_15
-  - tbb=2021.8.0=hf52228f_0
+  - tbb=2021.9.0=hf52228f_0
   - tk=8.6.12=h27826a3_0
   - typing-extensions=4.5.0=hd8ed1ab_0
   - typing_extensions=4.5.0=pyha770c72_0

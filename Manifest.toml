@@ -403,10 +403,10 @@ uuid = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 version = "1.3.2"
 
 [[deps.BifurcationKit]]
-deps = ["ArnoldiMethod", "Arpack", "BlockArrays", "DataStructures", "Dates", "DocStringExtensions", "FastGaussQuadrature", "ForwardDiff", "IterativeSolvers", "KrylovKit", "LinearAlgebra", "LinearMaps", "Parameters", "Printf", "RecipesBase", "RecursiveArrayTools", "Requires", "SciMLBase", "Setfield", "SparseArrays", "StructArrays"]
-git-tree-sha1 = "0c243bb29746d8b499d7c99c65f526828e38d1ff"
+deps = ["ArnoldiMethod", "Arpack", "BlockArrays", "DataStructures", "Dates", "DocStringExtensions", "FastGaussQuadrature", "ForwardDiff", "IterativeSolvers", "KrylovKit", "LinearAlgebra", "LinearMaps", "Parameters", "Printf", "RecipesBase", "RecursiveArrayTools", "Reexport", "Requires", "SciMLBase", "Setfield", "SparseArrays", "StructArrays"]
+git-tree-sha1 = "be55b791c2ee20e6bba370abd178f1f01008a1a0"
 uuid = "0f109fa4-8a5d-4b75-95aa-f515264e7665"
-version = "0.2.6"
+version = "0.2.7"
 
 [[deps.Bijections]]
 git-tree-sha1 = "fe4f8c5ee7f76f2198d5c2a06d3961c249cce7bd"
@@ -1962,9 +1962,9 @@ version = "0.10.2+0"
 
 [[deps.Gurobi]]
 deps = ["LazyArtifacts", "Libdl", "MathOptInterface"]
-git-tree-sha1 = "e180bacdea78d73a60841b796a9150460856a3df"
+git-tree-sha1 = "22439b1c2bacb7d50ed0df7dbd10211e0b4cd379"
 uuid = "2e9cd046-0924-5485-92f1-d5272153d98b"
-version = "1.0.0"
+version = "1.0.1"
 
 [[deps.H5Zblosc]]
 deps = ["Blosc", "HDF5"]
@@ -2292,9 +2292,9 @@ version = "0.1.5"
 
 [[deps.Integrals]]
 deps = ["CommonSolve", "HCubature", "LinearAlgebra", "MonteCarloIntegration", "QuadGK", "Reexport", "Requires", "SciMLBase"]
-git-tree-sha1 = "280fee62bc8426e28a2113fa7c673101e9bf7325"
+git-tree-sha1 = "f8f24a73621e9063f696ffeaa83f7a725ab5ae23"
 uuid = "de52edbc-65ea-441a-8357-d3a637375a31"
-version = "3.7.0"
+version = "3.8.0"
 
 [[deps.IntegralsCuba]]
 deps = ["Cuba", "Integrals"]
@@ -2641,10 +2641,10 @@ uuid = "984bce1d-4616-540c-a9ee-88d1112d94c9"
 version = "0.4.6"
 
 [[deps.LanguageServer]]
-deps = ["CSTParser", "JSON", "JSONRPC", "JuliaFormatter", "Markdown", "Pkg", "REPL", "StaticLint", "SymbolServer", "Tokenize", "URIs", "UUIDs"]
-git-tree-sha1 = "90fab8ca9a9515d099ee7a7df5afc2e11ffdbb37"
+deps = ["CSTParser", "JSON", "JSONRPC", "JuliaFormatter", "Markdown", "Pkg", "REPL", "StaticLint", "SymbolServer", "TestItemDetection", "Tokenize", "URIs", "UUIDs"]
+git-tree-sha1 = "435e26f5767a756861bea4e406a109bee2442254"
 uuid = "2b0e0bc5-e4fd-59b4-8912-456d1b03d8d7"
-version = "4.3.1"
+version = "4.4.0"
 
 [[deps.Latexify]]
 deps = ["Formatting", "InteractiveUtils", "LaTeXStrings", "MacroTools", "Markdown", "OrderedCollections", "Printf", "Requires"]
@@ -5160,9 +5160,9 @@ version = "0.8.6"
 
 [[deps.StaticArrayInterface]]
 deps = ["ArrayInterface", "Compat", "IfElse", "LinearAlgebra", "Requires", "SnoopPrecompile", "SparseArrays", "Static", "SuiteSparse"]
-git-tree-sha1 = "59d01f440c78ad9046680688d6ad51812953a4a9"
+git-tree-sha1 = "33040351d2403b84afce74dae2e22d3f5b18edcb"
 uuid = "0d7ed370-da01-4f52-bd93-41d350b8b718"
-version = "1.3.1"
+version = "1.4.0"
 
 [[deps.StaticArrays]]
 deps = ["LinearAlgebra", "Random", "StaticArraysCore", "Statistics"]
@@ -5486,6 +5486,12 @@ version = "0.1.6"
 [[deps.Test]]
 deps = ["InteractiveUtils", "Logging", "Random", "Serialization"]
 uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[[deps.TestItemDetection]]
+deps = ["CSTParser"]
+git-tree-sha1 = "c63abb8bf01ba3f0e5421760454d578ee9bd12ca"
+uuid = "76b0de8b-5c4b-48ef-a724-914b33ca988d"
+version = "0.2.0"
 
 [[deps.TestSetExtensions]]
 deps = ["DeepDiffs", "Distributed", "Test"]

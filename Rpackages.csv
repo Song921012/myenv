@@ -593,7 +593,7 @@ testthat (>= 2.1.0), vdiffr, viridisLite",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.2"
 "paradox","paradox","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.11.1",NA,NA,"backports, checkmate, data.table, methods, mlr3misc (>=
 0.9.4), R6",NA,"knitr, lhs, spacefillr, testthat",NA,"LGPL-3",NA,NA,NA,NA,"no","4.2.2"
 "parallelly","parallelly","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.35.0",NA,NA,"parallel, tools, utils",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.2.3"
-"parameters","parameters","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.20.3",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), datawizard (>= 0.7.0), insight (>=
+"parameters","parameters","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.21.0",NA,"R (>= 3.6)","bayestestR (>= 0.13.0), datawizard (>= 0.7.0), insight (>=
 0.19.1), graphics, methods, stats, utils",NA,"AER, afex, aod, BayesFactor, BayesFM, bbmle, betareg, BH,
 biglm, blme, boot, brglm2, brms, broom, cAIC4, car, carData,
 cgam, ClassDiscovery, clubSandwich, cluster, coda, cplm,
@@ -602,16 +602,16 @@ EGAnet (>= 0.7), emmeans (>= 1.7.0), estimatr, factoextra,
 FactoMineR, fastICA, fixest, fpc, gam, gamlss, gee, geepack,
 ggeffects (>= 1.2.0), ggplot2, GLMMadaptive, glmmTMB,
 GPArotation, gt, haven, httr, Hmisc, ivprobit, ivreg, knitr,
-lavaan, lavaSearch2, lfe, lm.beta, lme4, lmerTest, lmtest,
-logspline, lqmm, M3C, marginaleffects (>= 0.10.0), MASS,
-Matrix, mclogit, mclust, MCMCglmm, mediation, merDeriv,
-metaBMA, metafor, mfx, mgcv, mice, mmrm, multcomp, MuMIn,
-NbClust, nFactors, nlme, nnet, openxlsx, ordinal, panelr,
-pbkrtest, PCDimension, performance (>= 0.10.1), plm, PMCMRplus,
-poorman, posterior, PROreg, pscl, psych, pvclust, quantreg,
-randomForest, rmarkdown, rms, rstanarm, sandwich, see (>=
-0.7.5), sparsepca, survey, survival, testthat, tidyselect, TMB,
-truncreg, VGAM, withr, WRS2",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3"
+lavaan, lfe, lm.beta, lme4, lmerTest, lmtest, logspline, lqmm,
+M3C, marginaleffects (>= 0.10.0), MASS, Matrix, mclogit,
+mclust, MCMCglmm, mediation, merDeriv, metaBMA, metafor, mfx,
+mgcv, mice, mmrm, multcomp, MuMIn, NbClust, nFactors, nlme,
+nnet, openxlsx, ordinal, panelr, pbkrtest, PCDimension,
+performance (>= 0.10.1), plm, PMCMRplus, poorman, posterior,
+PROreg, pscl, psych, pvclust, quantreg, randomForest,
+rmarkdown, rms, rstanarm, sandwich, see (>= 0.7.5), sparsepca,
+survey, survival, testthat, tidyselect, TMB, truncreg, VGAM,
+withr, WRS2",NA,"GPL-3",NA,NA,NA,NA,"no","4.2.3"
 "parsedate","parsedate","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.3.1",NA,NA,NA,NA,"covr, testthat, withr",NA,"GPL-2",NA,NA,NA,NA,"yes","4.2.2"
 "patchwork","patchwork","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.2",NA,NA,"ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils,
 graphics",NA,"knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
@@ -975,7 +975,7 @@ whisker, withr (>= 2.3.0), yaml",NA,"covr, knitr, magick, mockr, pkgload, rmarkd
 "utf8","utf8","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2.3",NA,"R (>= 2.10)",NA,NA,"cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0),
 withr",NA,"Apache License (== 2.0) | file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "uuid","uuid","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1-0",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
-"vctrs","vctrs","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.6.1",NA,"R (>= 3.5.0)","cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)",NA,"bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+"vctrs","vctrs","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.6.2",NA,"R (>= 3.5.0)","cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)",NA,"bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
 pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=
 3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2,
 zeallot",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3"
