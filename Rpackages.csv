@@ -180,8 +180,8 @@ spam, testthat,",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.2.2"
 withr, yaml",NA,"covr, htmltools, jsonlite, MASS, MassSpecWavelet, pkgload,
 rmarkdown, testthat (>= 3.0.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.2.2"
 "downloader","downloader","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.4",NA,NA,"utils, digest",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"no","4.2.2"
-"dplyr","dplyr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.1",NA,"R (>= 3.5.0)","cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=
-1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.5.1), R6,
+"dplyr","dplyr","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1.2",NA,"R (>= 3.5.0)","cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=
+1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,
 rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0),
 utils, vctrs (>= 0.6.0)",NA,"bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2,
 knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,
@@ -1004,7 +1004,7 @@ utils, waldo, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "wpp2017","wpp2017","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.2-3",NA,"R (>= 2.14.2)","data.table",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.2.2"
 "writexl","writexl","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.4.2",NA,NA,NA,NA,"spelling, readxl, nycflights13, testthat, bit64",NA,"BSD_2_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.2"
 "WRS2","WRS2","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","1.1-4",NA,"R (>= 3.2.0)","MASS, reshape, plyr, stats, graphics, grDevices, utils, mc2d",NA,"knitr, car, ggplot2, colorspace, mediation, GGally, codetools",NA,"GPL-3",NA,NA,NA,NA,"yes","4.2.2"
-"xfun","xfun","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.38",NA,NA,"stats, tools",NA,"testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),
+"xfun","xfun","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","0.39",NA,NA,"stats, tools",NA,"testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),
 mime, markdown (>= 1.5), knitr (>= 1.42), htmltools, remotes,
 pak, rhub, renv, curl, jsonlite, magick, yaml, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.2.3"
 "XML","XML","/home/aidishage/R/x86_64-pc-linux-gnu-library/4.2","3.99-0.14",NA,"R (>= 4.0.0), methods, utils",NA,NA,"bitops, RCurl",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.2.3"
