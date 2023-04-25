@@ -70,7 +70,7 @@ alias et="/home/aidishage/.cargo/bin/et -l1 -s size-rev"
 #alias make="sudo make"
 #alias julia="conda deactivate && julia"
 # Path
-export JULIA_NUM_THREADS=6
+#export JULIA_NUM_THREADS=6
 export CMDSTAN="/home/aidishage/myenv/src/cmdstan"
 export STAN_BACKEND=CMDSTANPY
 export PATH=$PATH:/opt/gurobi952/linux64/bin
@@ -282,7 +282,7 @@ unset __conda_setup
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 #eval "$(starship init zsh)"
-#source <("/home/aidishage/.nextstrain/cli-standalone/nextstrain" init-shell zsh)
+source <("/home/aidishage/.nextstrain/cli-standalone/nextstrain" init-shell zsh)
 
 PATH="/home/aidishage/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/aidishage/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;

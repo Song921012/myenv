@@ -43,7 +43,8 @@ pip install -U objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax \
 
 pip install osmnx pyecharts_snapshot
 pip install -U "sktime[all_extras]"
-pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+#pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install --upgrade "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 # Installs the wheel compatible with Cuda >= 11.4 and cudnn >= 8.2
 #conda install jax cuda-nvcc -c conda-forge -c nvidia
 #pip install -U "jax[cuda11_cudnn82]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
