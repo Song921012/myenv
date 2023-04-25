@@ -119,15 +119,15 @@ sudo apt update
 sudo apt install code
 
 # node
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 # java
 sudo apt install default-jdk
 sudo apt install default-jre
 # Install zotero
-wget -qO- https://raw.githubusercontent.com/retorquere/zotero-deb/master/install.sh | sudo bash
-sudo apt update
-sudo apt install zotero
+#wget -qO- https://raw.githubusercontent.com/retorquere/zotero-deb/master/install.sh | sudo bash
+#sudo apt update
+#sudo apt install zotero
 
 # Install develop environment
 sudo apt install build-essential
@@ -137,7 +137,7 @@ sudo apt install cmake
 sudo apt install mpich
 sudo apt install  wget pkg-config liblapack-dev libmetis-dev libblas-dev libgsl-dev libpugixml-dev pdf2svg libsuitesparse-dev libfontconfig-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libudunits2-dev libgdal-dev swig libcppad-dev libcairo2-dev libboost-dev libboost-system-dev libcolpack-dev libblas-dev liblapack-dev
 sudo apt install libopenblas-dev
-sudo apt-get install graphviz pandoc inkscape
+sudo apt-get install graphviz pandoc inkscape screenkey
 sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
 sudo apt-get install coinor-libipopt-dev
@@ -243,4 +243,4 @@ source ./install.sh
 # CAJV appimage
 # flatpak: obsidian wemeet zoom losslesscut thunderbird xmind screenkey okular gwenview slack wezterm geany
 # docker dockerinstall.sh
-# WPS 字体
+# WPS 字体 https://www.shuzhiduo.com/A/x9J297Bgz6/

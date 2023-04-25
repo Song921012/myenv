@@ -299,6 +299,8 @@ cd ~/.SpaceVim.d/
 git checkout .
 rm -rf ~/.cache/vimfiles/repos/github.com/*
 
+
+
 # Other applications
 
 - 软件与更新
@@ -322,6 +324,8 @@ rm -rf ~/.cache/vimfiles/repos/github.com/*
 [Pop!_OS 21.04 安装 Fcitx + rime 输入法 - Jixun's Blog](https://jixun.uk/posts/2021/pop-os-21-04-install-fcitx-rime/)
 
 搜狗输入法从官网下
+
+
 
 - 图片 gthumb: app store
 

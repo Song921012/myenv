@@ -60,7 +60,8 @@ alias mytutor="cd ~/Desktop/MyProjects/MathEpiDeepLearningTutorial"
 alias shortcuts="code ~/myenv/shortcuts.md"
 ## Others
 alias fdu="du -l --max-depth=1 | sort -nr"
-alias mathpix="/home/aidishage/myenv/src/Mathpix_Snipping_Tool-*.AppImage"
+alias mathpix="/home/aidishage/myenv/src/Mathpix_Snipping_Tool-*.AppImage &"
+alias obsidian="/home/aidishage/myenv/src/Obsidian*.AppImage &"
 alias music="/home/aidishage/myenv/src/listen1* &"
 alias chatbox="/home/aidishage/myenv/src/chat* &"
 alias cursor="/home/aidishage/myenv/src/Cursor* &"
@@ -295,3 +296,4 @@ PERL_MM_OPT="INSTALL_BASE=/home/aidishage/perl5"; export PERL_MM_OPT;
 #fi
 
 eval "$(atuin init zsh --disable-up-arrow)"
+
