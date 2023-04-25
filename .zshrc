@@ -282,7 +282,7 @@ unset __conda_setup
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 #eval "$(starship init zsh)"
-source <("/home/aidishage/.nextstrain/cli-standalone/nextstrain" init-shell zsh)
+#source <("/home/aidishage/.nextstrain/cli-standalone/nextstrain" init-shell zsh)
 
 PATH="/home/aidishage/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/aidishage/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
@@ -290,8 +290,8 @@ PERL_LOCAL_LIB_ROOT="/home/aidishage/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_L
 PERL_MB_OPT="--install_base \"/home/aidishage/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/aidishage/perl5"; export PERL_MM_OPT;
 
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
-fi
+#if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+#        source /etc/profile.d/vte.sh
+#fi
 
 eval "$(atuin init zsh --disable-up-arrow)"

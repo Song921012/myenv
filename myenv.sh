@@ -1,4 +1,5 @@
 # Basic setup
+## 先把路径改为英文
 cd ~/Downloads
 git clone https://github.com/ronniedroid/getnf.git
 cd getnf
@@ -104,8 +105,8 @@ sudo apt-get install dconf-cli uuid-runtime
 
 
 # cuda
-sudo apt install system76-cuda-latest
-sudo apt install system76-cudnn-11.2
+#sudo apt install system76-cuda-latest
+#sudo apt install system76-cudnn-11.2
 
 # Vscode
 sudo apt-get install wget gpg
@@ -141,9 +142,9 @@ sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
 sudo apt-get install coinor-libipopt-dev
 sudo apt install paraview flex patchelf
-wget https://apt.llvm.org/llvm.sh                                                                                       via 🅒 base took 44s at 15:00 
-chmod +x llvm.sh
-sudo ./llvm.sh all
+#wget https://apt.llvm.org/llvm.sh                                                                                       
+#chmod +x llvm.sh
+#sudo ./llvm.sh all
 
 #Psopt
 #https://github.com/PSOPT/psopt/blob/master/README_Ubuntu_22.04.md
@@ -193,7 +194,7 @@ cd /tmp # working directory of your choice
 wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz # or curl instead of wget
 zcat install-tl-unx.tar.gz | tar xf -
 cd install-tl-*
-perl ./install-tl --no-interaction
+sudo perl ./install-tl --no-interaction
 #Finally, prepend /usr/local/texlive/YYYY/bin/PLATFORM to your PATH(.zshrc,.profile,/env/environment,/env/profile), e.g., /usr/local/texlive/2022/bin/x86_64-linux 
 # sudo visudo and add
 # Defaults secure_path="/usr/local/texlive/2014/bin/x86_64-linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
@@ -226,16 +227,16 @@ sudo add-apt-repository ppa:poplite/qbittorrent-enhanced
 sudo apt update
 sudo apt install qbittorrent-enhanced
 
-sudo curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
-sudo apt-get install gdebi-core
-sudo gdebi quarto-linux-amd64.deb
+#sudo curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
+#sudo apt-get install gdebi-core
+#sudo gdebi quarto-linux-amd64.deb
 
 sudo apt install vlc geany
 
 git clone https://github.com/geany/geany-themes.git
 cd geany-themes
 source ./install.sh
-# debfile: qq, Rstudio
+# debfile: qq, Rstudio, quarto
 # listen1 appimage
 # mathpix appimage
 # chatbot appimage
