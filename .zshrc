@@ -59,6 +59,8 @@ alias mytutor="cd ~/Desktop/MyProjects/MathEpiDeepLearningTutorial"
 ## ShortCuts
 alias shortcuts="code ~/myenv/shortcuts.md"
 alias chlight="xrandr --output DP-0 --brightness "
+alias vpnon="export http_proxy=http://127.0.0.1:7890;export https_proxy=http://127.0.0.1:7890"
+alias vpnoff="unset http_proxy;unset https_proxy"
 ## Others
 alias fdu="du -l --max-depth=1 | sort -nr"
 alias mathpix="/home/aidishage/myenv/src/Mathpix_Snipping_Tool-*.AppImage &"
