@@ -145,7 +145,7 @@ export MANPATH="${GALAHAD}/man:${MANPATH}"
 export INCLUDE="${GALAHAD}/include:${INCLUDE}"
 export MYARCH="pc64.lnx.gfo"
 
-
+export NVM_NODEJS_ORG_MIRROR="https://npmmirror.com/mirrors/node"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
