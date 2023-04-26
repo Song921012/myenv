@@ -41,6 +41,7 @@ alias cppup="source ~/myenv/packagesup.sh && cd"
 alias rup="R -e 'update.packages()'"
 alias rustupdate="rustup update && cargo install-update -a"
 alias wkinstall="source ~/myenv/mywkenvsetup.sh"
+alias sciwebup="source ~/myenv/sciwebnode.sh && updatesciwebnode"
 ## Clean
 alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
 
@@ -299,4 +300,5 @@ PERL_MM_OPT="INSTALL_BASE=/home/aidishage/perl5"; export PERL_MM_OPT;
 #fi
 
 eval "$(atuin init zsh --disable-up-arrow)"
+eval "chlight 0.5"
 

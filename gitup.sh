@@ -6,6 +6,10 @@ echo "hsl"
 cd ~/hsl
 git pull
 git add -A && git commit -m "update" && git push
+echo "clashnode"
+cd ~/clashnode
+git pull
+git add -A && git commit -m "update" && git push
 echo "my working paper"
 cd ~/Desktop/MyPapersNotes
 git pull

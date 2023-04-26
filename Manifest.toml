@@ -225,15 +225,15 @@ version = "0.201.500+0"
 
 [[deps.ApproxFun]]
 deps = ["AbstractFFTs", "ApproxFunBase", "ApproxFunFourier", "ApproxFunOrthogonalPolynomials", "ApproxFunSingularities", "BandedMatrices", "Calculus", "DomainSets", "DualNumbers", "FFTW", "FastTransforms", "LinearAlgebra", "RecipesBase", "Reexport", "SpecialFunctions", "StaticArrays"]
-git-tree-sha1 = "4db447b5f98bac5f22c5cdb363fdbf3f562bb248"
+git-tree-sha1 = "6b6bb2c713509c47c1820205abb5b228b6ec348f"
 uuid = "28f2ccd6-bb30-5033-b560-165f7b14dc2f"
-version = "0.13.18"
+version = "0.13.19"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "Combinatorics", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "f8f95bd2d1d632e3e5095004744593b6144d3516"
+git-tree-sha1 = "f7c87bfe099b2d4895e99f736f0f59055c2aa5cd"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.8.19"
+version = "0.8.22"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
@@ -900,10 +900,10 @@ uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 version = "1.0.2+0"
 
 [[deps.ComponentArrays]]
-deps = ["ArrayInterface", "ChainRulesCore", "ForwardDiff", "LinearAlgebra", "Requires", "StaticArrayInterface"]
-git-tree-sha1 = "e97cf3da19e8f955db71e0c2a6c752625019e8be"
+deps = ["ArrayInterface", "ChainRulesCore", "ForwardDiff", "Functors", "LinearAlgebra", "Requires", "StaticArrayInterface"]
+git-tree-sha1 = "76e8e2258cfb211b571fd4e79a432e951571ff94"
 uuid = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
-version = "0.13.10"
+version = "0.13.11"
 weakdeps = ["ConstructionBase", "GPUArrays", "RecursiveArrayTools", "ReverseDiff", "SciMLBase", "StaticArrays"]
 
     [deps.ComponentArrays.extensions]
@@ -5535,9 +5535,9 @@ version = "1.0.1"
 
 [[deps.StrideArraysCore]]
 deps = ["ArrayInterface", "CloseOpenIntervals", "IfElse", "LayoutPointers", "ManualMemory", "SIMDTypes", "Static", "StaticArrayInterface", "ThreadingUtilities"]
-git-tree-sha1 = "f5a57d3c111c79fcc1f8fed6058a8753d061c6d2"
+git-tree-sha1 = "b3e9c174a9df77ed7b66fc0aa605def3351a0653"
 uuid = "7792a7ef-975c-4747-a70f-980b88e8d1da"
-version = "0.4.12"
+version = "0.4.13"
 
 [[deps.Strided]]
 deps = ["LinearAlgebra", "TupleTools"]
@@ -6089,9 +6089,9 @@ version = "0.5.5"
 
 [[deps.WordCloud]]
 deps = ["ColorSchemes", "Colors", "FileIO", "ImageTransformations", "Luxor", "Printf", "Random", "Statistics", "Stuffing"]
-git-tree-sha1 = "d9cb974b56e0fa0fa38727164d186a69b22d0c39"
+git-tree-sha1 = "25b224bfe7cac0484c214caf580f59b4fca9a854"
 uuid = "6385f0a0-cb03-45b6-9089-4e0acc74b26b"
-version = "0.10.14"
+version = "0.11.0"
 
 [[deps.WordTokenizers]]
 deps = ["DataDeps", "HTML_Entities", "StrTables", "Unicode"]
