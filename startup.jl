@@ -36,6 +36,14 @@ atreplinit() do repl
     end
 end
 
+if VERSION >= v"1.4"
+    try
+        using PkgServerClient
+    catch e
+        @warn "error while importing PkgServerClient" e
+    end
+end
+
 using InteractiveUtils
 
 ENV["JULIA_EDITOR"] = "lvim"

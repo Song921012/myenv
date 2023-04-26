@@ -19,6 +19,15 @@ try
 catch e
     @warn "Error initializing Revise" exception = (e, catch_backtrace())
 end
+
+if VERSION >= v"1.4"
+    try
+        using PkgServerClient
+    catch e
+        @warn "error while importing PkgServerClient" e
+    end
+end
+
 atreplinit() do repl
     try
         @eval using OhMyREPL
