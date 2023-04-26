@@ -58,6 +58,7 @@ alias myenv="cd ~/myenv/src"
 alias mytutor="cd ~/Desktop/MyProjects/MathEpiDeepLearningTutorial"
 ## ShortCuts
 alias shortcuts="code ~/myenv/shortcuts.md"
+alias chlight="xrandr --output DP-0 --brightness "
 ## Others
 alias fdu="du -l --max-depth=1 | sort -nr"
 alias mathpix="/home/aidishage/myenv/src/Mathpix_Snipping_Tool-*.AppImage &"
