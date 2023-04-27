@@ -1,5 +1,5 @@
-#sudo tlmgr update --self
-#sudo tlmgr update --all
+sudo tlmgr update --self
+sudo tlmgr update --all
 sudo npm install -g npm@latest
 sudo npm update
 cd ~/myenv
@@ -15,6 +15,8 @@ conda env export >fenicsxenvironment.yml
 R --no-save <~/myenv/exportrenv.r
 conda deactivate
 conda activate base
+
+vpnon && flatpak update && rustupdate && vpnoff
 
 #cd
 
