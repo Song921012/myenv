@@ -3,18 +3,18 @@ sudo tlmgr update --all
 sudo npm install -g npm@latest
 sudo npm update
 cd ~/myenv
-conda deactivate
-conda activate base
-conda env export >environment.yml
-conda deactivate
-conda activate fenics
-conda env export >fenicsenvironment.yml
-conda deactivate
-conda activate fenicsx
-conda env export >fenicsxenvironment.yml
-R --no-save <~/myenv/exportrenv.r
-conda deactivate
-conda activate base
+#conda deactivate
+#conda activate base
+#conda env export >environment.yml
+#conda deactivate
+#conda activate fenics
+#conda env export >fenicsenvironment.yml
+#conda deactivate
+#conda activate fenicsx
+#conda env export >fenicsxenvironment.yml
+#R --no-save <~/myenv/exportrenv.r
+#conda deactivate
+#conda activate base
 
 vpnon && flatpak update && rustupdate && vpnoff
 
