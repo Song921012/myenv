@@ -52,7 +52,7 @@ pip install --upgrade "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-re
 pip install -U torch torchvision torchaudio
 #pip install -U torch --extra-index-url https://download.pytorch.org/whl/cu116
 #pip install -U torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
-pip install -U git+https://github.com/probml/dynamax.git
+pip install -U dynamax
 
 # install abm framework from [FLAMEGPU/FLAMEGPU2: FLAME GPU 2 is a GPU accelerated agent based modelling framework for C++ and Python](https://github.com/FLAMEGPU/FLAMEGPU2)
 
