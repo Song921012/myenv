@@ -27,6 +27,7 @@ if VERSION >= v"1.4"
         @warn "error while importing PkgServerClient" e
     end
 end
+ENV["JULIA_PKG_SERVER"] = "https://mirrors.utsc.edu.cn/julia"
 
 atreplinit() do repl
     try
