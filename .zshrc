@@ -22,11 +22,11 @@ export ZSH="$HOME/.oh-my-zsh"
 # Alias
 ## Upadate
 alias refresh="up && gitup && juliaup && pythonup && othersup && gitup && cd"
-alias vpnrefresh="up && vpnon && gitup && juliaup && othersup && gitup && vpnoff && pythonup && cd"
+alias vpnrefresh="up && gitup && vpnon && juliaup && othersup && vpnoff && gitup && pythonup && cd"
 alias refreshall="up && quartoup && rustupdate && juliaup && pythonup 
 && othersup && juliadevup && rup && fireup && cppup && fenicsup && gitup && clean && cd"
 alias up="sudo apt update && sudo apt upgrade"
-alias gitup="source ~/myenv/gitup.sh"
+alias gitup="vpnon && source ~/myenv/gitup.sh && vpnoff"
 alias quartoup="source ~/myenv/quartoup.sh"
 alias juliaup="julia -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
 alias juliainstall="source ~/myenv/install_julia.sh && install_julia"
