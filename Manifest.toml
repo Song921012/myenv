@@ -2574,9 +2574,9 @@ version = "2.1.91+0"
 
 [[deps.JuMP]]
 deps = ["LinearAlgebra", "MathOptInterface", "MutableArithmetics", "OrderedCollections", "Printf", "SnoopPrecompile", "SparseArrays"]
-git-tree-sha1 = "4ec0e68fecbbe1b78db2ddf1ac573963ed5adebc"
+git-tree-sha1 = "1cccd3598a08951e6fa243ca0512376f8f8aab63"
 uuid = "4076af6c-e467-56ae-b986-b466b2749572"
-version = "1.10.0"
+version = "1.11.0"
 
 [[deps.JuliaFormatter]]
 deps = ["CSTParser", "CommonMark", "DataStructures", "Glob", "Pkg", "PrecompileTools", "Tokenize"]
