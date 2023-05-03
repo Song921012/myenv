@@ -1,7 +1,7 @@
-#echo "myenv"
-#cd ~/myenv
-#git pull
-#git add -A && git commit -m "update" && git push
+echo "myenv"
+cd ~/myenv
+git pull
+git add -A && git commit -m "update" && git push
 echo "hsl"
 cd ~/hsl
 git pull
