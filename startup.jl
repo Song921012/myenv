@@ -43,7 +43,7 @@ if VERSION >= v"1.4"
         @warn "error while importing PkgServerClient" e
     end
 end
-ENV["JULIA_PKG_SERVER"] = "https://mirrors.utsc.edu.cn/julia"
+ENV["JULIA_PKG_SERVER"] = "https://mirrors.ustc.edu.cn/julia"
 using InteractiveUtils
 
 ENV["JULIA_EDITOR"] = "lvim"

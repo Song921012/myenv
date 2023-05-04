@@ -74,7 +74,6 @@ Thunderbird
 
 [kingToolbox/WindTerm: A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal.](https://github.com/kingToolbox/WindTerm)
 
-
 # Setup Linux Environment
 
 注意:特别针对的是POP!_os系统, Ubuntu和Debian系应该也是适用的
@@ -94,7 +93,7 @@ The easiest way is run `AllInOne.sh` (remember to revise python and julia versio
 
 Postinstallation
 
-- 修改系统和终端字体, 不然符号会坏. VSCode, "Fira Mono,'Courier New',monospace", 
+- 修改系统和终端字体, 不然符号会坏. VSCode, "Fira Mono,'Courier New',monospace",
 - Texstudio和vscode latex配置: 把tex路径加入.profile, etc/environment, etc/profile, sudo visudo
 - Jax(jax.devices()), torch(torch.cuda.is_available()), tensorflow(tf.test.is_gpu_availbale()), GPU support
 - vim, neovim, lunarvim, conda和非conda环境update
@@ -137,7 +136,6 @@ sudo fc-cache -fv
 ```
 
 然后修改终端字体为CaskaydiaCove Nerd Font Mono.
-
 
 ## nvidia显卡驱动， CUDA, cudnn, tensorrt
 
@@ -299,7 +297,15 @@ cd ~/.SpaceVim.d/
 git checkout .
 rm -rf ~/.cache/vimfiles/repos/github.com/*
 
+- 外接显示屏和屏幕亮度问题
 
+线连接完了之后,按win+P选择显示屏模式.
+
+先终端输入xrandr找到连接的显示器名字, 然后按照以下代码修改, 也可以把配置写在`.zshrc`
+
+```
+xrandr --output HDMI-0 --brightness
+```
 
 # Other applications
 
@@ -324,8 +330,6 @@ rm -rf ~/.cache/vimfiles/repos/github.com/*
 [Pop!_OS 21.04 安装 Fcitx + rime 输入法 - Jixun's Blog](https://jixun.uk/posts/2021/pop-os-21-04-install-fcitx-rime/)
 
 搜狗输入法从官网下
-
-
 
 - 图片 gthumb: app store
 
