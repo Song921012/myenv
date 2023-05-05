@@ -61,7 +61,7 @@ alias myenv="cd ~/myenv/src"
 alias mytutor="cd ~/Desktop/MyProjects/MathEpiDeepLearningTutorial"
 ## ShortCuts
 alias shortcuts="code ~/myenv/shortcuts.md"
-alias chlight="xrandr --output DP-0 --brightness "
+alias chlight="xrandr --output $(xrandr | grep " connected" | cut -f1 -d " ") --brightness "
 alias vpnon="export http_proxy=http://127.0.0.1:7890;export https_proxy=http://127.0.0.1:7890"
 alias vpnoff="unset http_proxy;unset https_proxy"
 ## Others
