@@ -2581,9 +2581,9 @@ version = "1.11.0"
 
 [[deps.JuliaFormatter]]
 deps = ["CSTParser", "CommonMark", "DataStructures", "Glob", "Pkg", "PrecompileTools", "Tokenize"]
-git-tree-sha1 = "8179cd9279e6eae7f53d83fd58e88b9733689587"
+git-tree-sha1 = "01ab91fcce19c965b3c68a82eb26260a3a7af271"
 uuid = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
-version = "1.0.28"
+version = "1.0.29"
 
 [[deps.JuliaInterpreter]]
 deps = ["CodeTracking", "InteractiveUtils", "Random", "UUIDs"]
