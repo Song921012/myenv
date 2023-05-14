@@ -2348,8 +2348,6 @@ version = "0.6.8"
 [[deps.InfiniteOpt]]
 deps = ["AbstractTrees", "DataStructures", "Distributions", "FastGaussQuadrature", "JuMP", "LeftChildRightSiblingTrees", "LinearAlgebra", "MutableArithmetics", "Reexport", "SpecialFunctions"]
 git-tree-sha1 = "de3022394b14ba53a5468f58aea1fab60988e1b1"
-repo-rev = "master"
-repo-url = "https://github.com/infiniteopt/InfiniteOpt.jl.git"
 uuid = "20393b10-9daf-11e9-18c9-8db751c92c57"
 version = "0.5.7"
 
