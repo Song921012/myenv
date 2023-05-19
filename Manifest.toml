@@ -10,6 +10,11 @@ git-tree-sha1 = "d67d146eb7338757da44b9f70832046a6fe210ba"
 uuid = "54578032-b7ea-4c30-94aa-7cbd1cce6c9a"
 version = "0.6.0"
 
+[[deps.ADTypes]]
+git-tree-sha1 = "dcfdf328328f2645531c4ddebf841228aef74130"
+uuid = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
+version = "0.1.3"
+
 [[deps.AMD]]
 deps = ["Libdl", "LinearAlgebra", "SparseArrays", "Test"]
 git-tree-sha1 = "00163dc02b882ca5ec032400b919e5f5011dbd31"
@@ -2214,9 +2219,9 @@ version = "1.24.0"
 
 [[deps.IOCapture]]
 deps = ["Logging", "Random"]
-git-tree-sha1 = "f7be53659ab06ddc986428d3a9dcc95f6fa6705a"
+git-tree-sha1 = "d75853a0bdbfb1ac815478bacd89cd27b550ace6"
 uuid = "b5f81e59-6552-4d32-b1f0-c071b021bf89"
-version = "0.2.2"
+version = "0.2.3"
 
 [[deps.IRTools]]
 deps = ["InteractiveUtils", "MacroTools", "Test"]
@@ -3053,9 +3058,9 @@ version = "2.1.1"
 
 [[deps.LogDensityProblemsAD]]
 deps = ["DocStringExtensions", "LogDensityProblems", "Requires", "SimpleUnPack"]
-git-tree-sha1 = "5f219f583a399381dc147b984648429bf8c3fc6a"
+git-tree-sha1 = "b726468867eb032ebd7aba0337213eb18ed0566b"
 uuid = "996a588d-648d-4e1f-a8f0-a84b347e47b1"
-version = "1.4.2"
+version = "1.4.3"
 weakdeps = ["BenchmarkTools", "Enzyme", "ForwardDiff", "ReverseDiff", "Tracker", "Zygote"]
 
     [deps.LogDensityProblemsAD.extensions]
@@ -3832,9 +3837,9 @@ version = "5.6.1"
 
 [[deps.NodeJS]]
 deps = ["Pkg"]
-git-tree-sha1 = "905224bbdd4b555c69bb964514cfa387616f0d3a"
+git-tree-sha1 = "bf1f49fd62754064bc42490a8ddc2aa3694a8e7a"
 uuid = "2bd173c7-0d6d-553b-b6af-13a54713934c"
-version = "1.3.0"
+version = "2.0.0"
 
 [[deps.NonUniformRandomVariateGeneration]]
 deps = ["Random"]
@@ -4283,9 +4288,9 @@ version = "0.7.2"
 
 [[deps.PackageCompiler]]
 deps = ["Artifacts", "LazyArtifacts", "Libdl", "Pkg", "Printf", "RelocatableFolders", "TOML", "UUIDs"]
-git-tree-sha1 = "7caa85906781a8fa5b1d13ad0dd858dca31b07f0"
+git-tree-sha1 = "2c739c5c5a33bb9fd6ce378c47dc45cb1ee6a293"
 uuid = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
-version = "2.1.5"
+version = "2.1.6"
 
 [[deps.Packing]]
 deps = ["GeometryBasics"]
@@ -5069,10 +5074,10 @@ uuid = "7b38b023-a4d7-4c5e-8d43-3f3097f304eb"
 version = "0.3.3"
 
 [[deps.SciMLBase]]
-deps = ["ArrayInterface", "CommonSolve", "ConstructionBase", "Distributed", "DocStringExtensions", "EnumX", "FunctionWrappersWrappers", "IteratorInterfaceExtensions", "LinearAlgebra", "Logging", "Markdown", "PrecompileTools", "Preferences", "RecipesBase", "RecursiveArrayTools", "Reexport", "RuntimeGeneratedFunctions", "SciMLOperators", "StaticArraysCore", "Statistics", "SymbolicIndexingInterface", "Tables", "TruncatedStacktraces"]
-git-tree-sha1 = "e803672f8d58e9937f59923dd3b159c9b7e1838b"
+deps = ["ADTypes", "ArrayInterface", "CommonSolve", "ConstructionBase", "Distributed", "DocStringExtensions", "EnumX", "FunctionWrappersWrappers", "IteratorInterfaceExtensions", "LinearAlgebra", "Logging", "Markdown", "PrecompileTools", "Preferences", "RecipesBase", "RecursiveArrayTools", "Reexport", "RuntimeGeneratedFunctions", "SciMLOperators", "StaticArraysCore", "Statistics", "SymbolicIndexingInterface", "Tables", "TruncatedStacktraces"]
+git-tree-sha1 = "75552338dda481baeb9b9e171f73ecd0171e8f34"
 uuid = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
-version = "1.92.0"
+version = "1.92.2"
 
 [[deps.SciMLExpectations]]
 deps = ["DiffEqBase", "Distributions", "Integrals", "KernelDensity", "LinearAlgebra", "Parameters", "Random", "RecursiveArrayTools", "Reexport", "StaticArrays", "Statistics", "Zygote"]
@@ -5876,10 +5881,10 @@ uuid = "28d57a85-8fef-5791-bfe6-a80928e7c999"
 version = "0.4.76"
 
 [[deps.TransformVariables]]
-deps = ["ArgCheck", "ChangesOfVariables", "DocStringExtensions", "ForwardDiff", "InverseFunctions", "LinearAlgebra", "LogExpFunctions", "Pkg", "Random", "StaticArrays", "UnPack"]
-git-tree-sha1 = "82b9ba404edd9f3c09c1576bb493e87159ffc28d"
+deps = ["ArgCheck", "ChangesOfVariables", "DocStringExtensions", "ForwardDiff", "InverseFunctions", "LinearAlgebra", "LogExpFunctions", "Pkg", "Random", "SimpleUnPack", "StaticArrays"]
+git-tree-sha1 = "f8a2c29e3ddcaedec620ff8210b7d6dde66b14c7"
 uuid = "84d833dd-6860-57f9-a1a7-6da5db126cff"
-version = "0.8.6"
+version = "0.8.7"
 
 [[deps.TransformedLogDensities]]
 deps = ["LogDensityProblems", "TransformVariables", "UnPack"]
