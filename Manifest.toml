@@ -236,9 +236,9 @@ version = "0.13.20"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "Combinatorics", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "207ed79842707dccab6701b9e913a473db4c3067"
+git-tree-sha1 = "58aaaffe602333355eb337053ddf3a117f70ec61"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.8.25"
+version = "0.8.26"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
@@ -3111,9 +3111,9 @@ version = "0.10.0"
 
 [[deps.LowLevelParticleFilters]]
 deps = ["Distributions", "ForwardDiff", "Lazy", "LinearAlgebra", "LoopVectorization", "PDMats", "Parameters", "Polyester", "Printf", "Random", "RecipesBase", "Requires", "SciMLBase", "SimpleNonlinearSolve", "StaticArrays", "Statistics", "StatsAPI", "StatsBase", "SymbolicIndexingInterface"]
-git-tree-sha1 = "74b4fcce2f484f41c97d5c71093b35e3d70cce16"
+git-tree-sha1 = "a45720700a4c23e36cc4526a0f99a5fb3a75209f"
 uuid = "d9d29d28-c116-5dba-9239-57a5fe23875b"
-version = "3.3.4"
+version = "3.3.5"
 
     [deps.LowLevelParticleFilters.extensions]
     LowLevelParticleFiltersControlSystemsBaseExt = "ControlSystemsBase"
