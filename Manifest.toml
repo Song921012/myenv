@@ -111,10 +111,10 @@ uuid = "6e696c72-6542-2067-7265-42206c756150"
 version = "1.1.4"
 
 [[deps.AbstractTensors]]
-deps = ["AbstractLattices", "LinearAlgebra", "Random"]
-git-tree-sha1 = "5c0809e0840be14c53c307b83ae4507485f150b2"
+deps = ["AbstractLattices", "LinearAlgebra", "Random", "StaticVectors"]
+git-tree-sha1 = "d04291c92d0589de5d44a472364bd83645af58a3"
 uuid = "a8e43f4a-99b7-5565-8bf1-0165161caaea"
-version = "0.7.0"
+version = "0.7.1"
 
 [[deps.AbstractTrees]]
 git-tree-sha1 = "faa260e4cb5aba097a73fab382dd4b5819d8ec8c"
@@ -5051,9 +5051,9 @@ version = "0.1.0"
 
 [[deps.SLEEFPirates]]
 deps = ["IfElse", "Static", "VectorizationBase"]
-git-tree-sha1 = "cda0aece8080e992f6370491b08ef3909d1c04e7"
+git-tree-sha1 = "4b8586aece42bee682399c4c4aee95446aa5cd19"
 uuid = "476501e8-09a2-5ece-8869-fb82de89a1fa"
-version = "0.6.38"
+version = "0.6.39"
 
 [[deps.SafeTestsets]]
 deps = ["Test"]
@@ -5469,6 +5469,12 @@ deps = ["CSTParser", "Serialization", "SymbolServer"]
 git-tree-sha1 = "1152934b19a8a296db95ef6e1d454d4acc2aa79d"
 uuid = "b3cc710f-9c33-5bdb-a03d-a94903873e97"
 version = "8.1.0"
+
+[[deps.StaticVectors]]
+deps = ["LinearAlgebra", "Random"]
+git-tree-sha1 = "bd406e66572f384cc5b4bc59be920861f1467a87"
+uuid = "20fadf95-9e3d-483c-97cd-cab2760e7998"
+version = "1.0.0"
 
 [[deps.StatisticalTraits]]
 deps = ["ScientificTypesBase"]
