@@ -3381,9 +3381,9 @@ version = "0.3.1"
 
 [[deps.Manifolds]]
 deps = ["Colors", "Distributions", "Einsum", "Graphs", "HybridArrays", "Kronecker", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "MatrixEquations", "Quaternions", "Random", "RecipesBase", "RecursiveArrayTools", "Requires", "SimpleWeightedGraphs", "SpecialFunctions", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "0fc24dba55a169fd8b6fe8db70d02a89c63320b5"
+git-tree-sha1 = "f5cdbd31622720de3d6abace895a7a2fab625c0d"
 uuid = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
-version = "0.8.61"
+version = "0.8.62"
 
 [[deps.ManifoldsBase]]
 deps = ["LinearAlgebra", "Markdown", "Random"]
