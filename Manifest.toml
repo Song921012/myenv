@@ -158,9 +158,9 @@ version = "0.1.1"
 
 [[deps.AdvancedHMC]]
 deps = ["AbstractMCMC", "ArgCheck", "DocStringExtensions", "InplaceOps", "LinearAlgebra", "LogDensityProblems", "LogDensityProblemsAD", "ProgressMeter", "Random", "Requires", "Setfield", "SimpleUnPack", "Statistics", "StatsBase", "StatsFuns"]
-git-tree-sha1 = "25d38b80e29533f5f85af19692a39e4275047a51"
+git-tree-sha1 = "3bf24030e85b1d6d298e4f483f6aeff6f38462db"
 uuid = "0bf59076-c3b1-5ca4-86bd-e02cd72cde3d"
-version = "0.4.5"
+version = "0.4.6"
 weakdeps = ["CUDA", "MCMCChains", "OrdinaryDiffEq"]
 
     [deps.AdvancedHMC.extensions]
@@ -188,9 +188,9 @@ version = "0.4.3"
 
 [[deps.AdvancedVI]]
 deps = ["Bijectors", "Distributions", "DistributionsAD", "DocStringExtensions", "ForwardDiff", "LinearAlgebra", "ProgressMeter", "Random", "Requires", "StatsBase", "StatsFuns", "Tracker"]
-git-tree-sha1 = "5f17d23c034537b58a57e5aa25226e10486aae04"
+git-tree-sha1 = "78ecb285daa141db92e1c8db831ce37b805b96e1"
 uuid = "b5ca4192-6429-45e5-a2d9-87aec30a685c"
-version = "0.2.2"
+version = "0.2.3"
 
 [[deps.Agents]]
 deps = ["CSV", "DataFrames", "DataStructures", "Distributed", "Distributions", "Downloads", "Graphs", "JLD2", "LazyArtifacts", "LightOSM", "LinearAlgebra", "Pkg", "ProgressMeter", "Random", "Requires", "Rotations", "Scratch", "StaticArrays", "StatsBase"]
@@ -1390,9 +1390,9 @@ version = "0.6.6"
 
 [[deps.Distributions]]
 deps = ["FillArrays", "LinearAlgebra", "PDMats", "Printf", "QuadGK", "Random", "SparseArrays", "SpecialFunctions", "Statistics", "StatsAPI", "StatsBase", "StatsFuns", "Test"]
-git-tree-sha1 = "5eeb2bd01e5065090ad591a205d8cad432ae6cb6"
+git-tree-sha1 = "aa8ae1e8e8d4b5ef38a8fbc028fc75f3c5cad73d"
 uuid = "31c24e10-a181-5473-b8eb-7969acd0382f"
-version = "0.25.93"
+version = "0.25.94"
 weakdeps = ["ChainRulesCore", "DensityInterface"]
 
     [deps.Distributions.extensions]
@@ -2326,9 +2326,9 @@ version = "0.9.5"
 
 [[deps.Images]]
 deps = ["Base64", "FileIO", "Graphics", "ImageAxes", "ImageBase", "ImageContrastAdjustment", "ImageCore", "ImageDistances", "ImageFiltering", "ImageIO", "ImageMagick", "ImageMetadata", "ImageMorphology", "ImageQualityIndexes", "ImageSegmentation", "ImageShow", "ImageTransformations", "IndirectArrays", "IntegralArrays", "Random", "Reexport", "SparseArrays", "StaticArrays", "Statistics", "StatsBase", "TiledIteration"]
-git-tree-sha1 = "03d1301b7ec885b266c0f816f338368c6c0b81bd"
+git-tree-sha1 = "5fa9f92e1e2918d9d1243b1131abe623cdf98be7"
 uuid = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
-version = "0.25.2"
+version = "0.25.3"
 
 [[deps.Imath_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
@@ -3208,9 +3208,9 @@ version = "6.0.1"
 
 [[deps.MCMCDiagnosticTools]]
 deps = ["AbstractFFTs", "DataAPI", "DataStructures", "Distributions", "LinearAlgebra", "MLJModelInterface", "Random", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns", "Tables"]
-git-tree-sha1 = "09202be9ac9489905c26f525e7050e014bdb70d5"
+git-tree-sha1 = "0b3928b66a61a84d584beb3214977118657bade9"
 uuid = "be115224-59cd-429b-ad48-344e309966f0"
-version = "0.3.2"
+version = "0.3.3"
 
 [[deps.METIS_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -3381,9 +3381,9 @@ version = "0.3.1"
 
 [[deps.Manifolds]]
 deps = ["Colors", "Distributions", "Einsum", "Graphs", "HybridArrays", "Kronecker", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "MatrixEquations", "Quaternions", "Random", "RecipesBase", "RecursiveArrayTools", "Requires", "SimpleWeightedGraphs", "SpecialFunctions", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "f5cdbd31622720de3d6abace895a7a2fab625c0d"
+git-tree-sha1 = "05da35961c329ae88bf46e789db233add8d1706f"
 uuid = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
-version = "0.8.62"
+version = "0.8.63"
 
 [[deps.ManifoldsBase]]
 deps = ["LinearAlgebra", "Markdown", "Random"]
@@ -3392,10 +3392,17 @@ uuid = "3362f125-f0bb-47a3-aa74-596ffd7ef2fb"
 version = "0.14.5"
 
 [[deps.Manopt]]
-deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "1ac683108139e1e2b0298e54ff099ee3f026827b"
+deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "Statistics", "Test"]
+git-tree-sha1 = "d3629caec6240ce6378dfb3ed2eb601fa618252e"
 uuid = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
-version = "0.4.20"
+version = "0.4.21"
+weakdeps = ["LRUCache", "LineSearches", "Manifolds", "Plots"]
+
+    [deps.Manopt.extensions]
+    ManoptLRUCacheExt = "LRUCache"
+    ManoptLineSearchesExt = "LineSearches"
+    ManoptManifoldsExt = ["Manifolds"]
+    ManoptPlotsExt = "Plots"
 
 [[deps.ManualMemory]]
 git-tree-sha1 = "bcaef4fc7a0cfe2cba636d84cda54b5e4e4ca3cd"
@@ -3615,9 +3622,9 @@ version = "10.0.2"
 
 [[deps.MosekTools]]
 deps = ["MathOptInterface", "Mosek", "Printf"]
-git-tree-sha1 = "a1f60c1ed1fdb8da799611aa69157ae0d065ea52"
+git-tree-sha1 = "3453407f5b46eb8f9d91f16c0aaddd6a98ed762c"
 uuid = "1ec41992-ff65-5c91-ac43-2df89e9693a4"
-version = "0.14.0"
+version = "0.15.0"
 
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
