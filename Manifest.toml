@@ -112,9 +112,9 @@ version = "1.1.4"
 
 [[deps.AbstractTensors]]
 deps = ["AbstractLattices", "LinearAlgebra", "Random", "StaticVectors"]
-git-tree-sha1 = "d04291c92d0589de5d44a472364bd83645af58a3"
+git-tree-sha1 = "4b3209ad5a7b1d274659a9880ca553b67aef8c7b"
 uuid = "a8e43f4a-99b7-5565-8bf1-0165161caaea"
-version = "0.7.1"
+version = "0.7.2"
 
 [[deps.AbstractTrees]]
 git-tree-sha1 = "faa260e4cb5aba097a73fab382dd4b5819d8ec8c"
@@ -3058,13 +3058,14 @@ version = "2.1.1"
 
 [[deps.LogDensityProblemsAD]]
 deps = ["DocStringExtensions", "LogDensityProblems", "Requires", "SimpleUnPack"]
-git-tree-sha1 = "b726468867eb032ebd7aba0337213eb18ed0566b"
+git-tree-sha1 = "a0512ad65f849536b5a52e59b05c59c25cdad943"
 uuid = "996a588d-648d-4e1f-a8f0-a84b347e47b1"
-version = "1.4.3"
-weakdeps = ["BenchmarkTools", "Enzyme", "ForwardDiff", "ReverseDiff", "Tracker", "Zygote"]
+version = "1.5.0"
+weakdeps = ["BenchmarkTools", "Enzyme", "FiniteDifferences", "ForwardDiff", "ReverseDiff", "Tracker", "Zygote"]
 
     [deps.LogDensityProblemsAD.extensions]
     LogDensityProblemsADEnzymeExt = "Enzyme"
+    LogDensityProblemsADFiniteDifferencesExt = "FiniteDifferences"
     LogDensityProblemsADForwardDiffBenchmarkToolsExt = ["BenchmarkTools", "ForwardDiff"]
     LogDensityProblemsADForwardDiffExt = "ForwardDiff"
     LogDensityProblemsADReverseDiffExt = "ReverseDiff"
@@ -3381,9 +3382,9 @@ version = "0.3.1"
 
 [[deps.Manifolds]]
 deps = ["Distributions", "Einsum", "Graphs", "HybridArrays", "Kronecker", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "MatrixEquations", "Quaternions", "Random", "RecursiveArrayTools", "Requires", "SimpleWeightedGraphs", "SpecialFunctions", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "7f69f47040e7a33b147d03dc1044da0bf2e886a6"
+git-tree-sha1 = "fd9aba63713ea1ffe12ccff4793f06fea0e61bfd"
 uuid = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
-version = "0.8.64"
+version = "0.8.65"
 weakdeps = ["BoundaryValueDiffEq", "Colors", "DiffEqCallbacks", "NLsolve", "OrdinaryDiffEq", "RecipesBase", "Test"]
 
     [deps.Manifolds.extensions]
@@ -4304,9 +4305,9 @@ version = "0.7.2"
 
 [[deps.PackageCompiler]]
 deps = ["Artifacts", "LazyArtifacts", "Libdl", "Pkg", "Printf", "RelocatableFolders", "TOML", "UUIDs"]
-git-tree-sha1 = "2c739c5c5a33bb9fd6ce378c47dc45cb1ee6a293"
+git-tree-sha1 = "1a6a868eb755e8ea9ecd000aa6ad175def0cc85b"
 uuid = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
-version = "2.1.6"
+version = "2.1.7"
 
 [[deps.Packing]]
 deps = ["GeometryBasics"]
@@ -5488,9 +5489,9 @@ version = "8.1.0"
 
 [[deps.StaticVectors]]
 deps = ["LinearAlgebra", "Random"]
-git-tree-sha1 = "bd406e66572f384cc5b4bc59be920861f1467a87"
+git-tree-sha1 = "c390d1b53dc087f0a2ad44c81d231e32e262afc7"
 uuid = "20fadf95-9e3d-483c-97cd-cab2760e7998"
-version = "1.0.0"
+version = "1.0.1"
 
 [[deps.StatisticalTraits]]
 deps = ["ScientificTypesBase"]
@@ -5854,9 +5855,9 @@ version = "0.23.2"
 
 [[deps.TimeZones]]
 deps = ["Dates", "Downloads", "InlineStrings", "LazyArtifacts", "Mocking", "Printf", "RecipesBase", "Scratch", "Unicode"]
-git-tree-sha1 = "a5404eddfee0cf451cabb8ea8846413323712e25"
+git-tree-sha1 = "cdaa0c2a4449724aded839550eca7d7240bb6938"
 uuid = "f269a46b-ccf7-5d73-abea-4c690281aa53"
-version = "1.9.2"
+version = "1.10.0"
 
 [[deps.TimerOutputs]]
 deps = ["ExprTools", "Printf"]
