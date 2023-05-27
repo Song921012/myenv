@@ -1565,9 +1565,9 @@ version = "0.6.1"
 
 [[deps.EvoTrees]]
 deps = ["BSON", "CUDA", "CategoricalArrays", "Distributions", "LoopVectorization", "MLJModelInterface", "NetworkLayout", "Random", "RecipesBase", "Statistics", "StatsBase", "Tables"]
-git-tree-sha1 = "4d640db07bae2a6cf6ec126bb02b4606e931f9bf"
+git-tree-sha1 = "fb09b634ba4b1c98ca319a1705df340d4b2005f0"
 uuid = "f6006082-12f8-11e9-0c9c-0d5d367ab1e5"
-version = "0.14.10"
+version = "0.14.11"
 
 [[deps.Evolutionary]]
 deps = ["LinearAlgebra", "NLSolversBase", "Random", "StackViews", "Statistics", "UnPack"]
@@ -3203,9 +3203,9 @@ version = "0.10.4"
 
 [[deps.MCMCChains]]
 deps = ["AbstractMCMC", "AxisArrays", "Dates", "Distributions", "Formatting", "IteratorInterfaceExtensions", "KernelDensity", "LinearAlgebra", "MCMCDiagnosticTools", "MLJModelInterface", "NaturalSort", "OrderedCollections", "PrettyTables", "Random", "RecipesBase", "Statistics", "StatsBase", "StatsFuns", "TableTraits", "Tables"]
-git-tree-sha1 = "5eec3d97404f1df009560e5e17d0d64ea713dc91"
+git-tree-sha1 = "5ccc26af2e6b0ccd58d0d2434b1f3d8eed02fdd6"
 uuid = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
-version = "6.0.1"
+version = "6.0.2"
 
 [[deps.MCMCDiagnosticTools]]
 deps = ["AbstractFFTs", "DataAPI", "DataStructures", "Distributions", "LinearAlgebra", "MLJModelInterface", "Random", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns", "Tables"]
@@ -5233,10 +5233,10 @@ uuid = "05bca326-078c-5bf0-a5bf-ce7c7982d7fd"
 version = "1.9.0"
 
 [[deps.SimpleNonlinearSolve]]
-deps = ["ArrayInterface", "DiffEqBase", "FiniteDiff", "ForwardDiff", "LinearAlgebra", "Reexport", "Requires", "SciMLBase", "SnoopPrecompile", "StaticArraysCore"]
-git-tree-sha1 = "54c78ac3cc0343a16785adabe5bbf4063c737967"
+deps = ["ArrayInterface", "DiffEqBase", "FiniteDiff", "ForwardDiff", "LinearAlgebra", "PrecompileTools", "Reexport", "Requires", "SciMLBase", "StaticArraysCore"]
+git-tree-sha1 = "7c55a3e65aad4ce6e610409cdd564b8d590b9726"
 uuid = "727e6d20-b764-4bd8-a329-72de5adea6c7"
-version = "0.1.14"
+version = "0.1.15"
 weakdeps = ["NNlib"]
 
     [deps.SimpleNonlinearSolve.extensions]
@@ -5647,9 +5647,9 @@ weakdeps = ["BandedMatrices", "DiffEqCallbacks", "StructArrays"]
 
 [[deps.Sundials]]
 deps = ["CEnum", "DataStructures", "DiffEqBase", "Libdl", "LinearAlgebra", "Logging", "PrecompileTools", "Reexport", "SciMLBase", "SparseArrays", "Sundials_jll"]
-git-tree-sha1 = "4289695031d663252f38fd114d3e0020d1461cee"
+git-tree-sha1 = "a982ee85e1908d39f58d7fff670e60f991ca2ddb"
 uuid = "c3572dad-4567-51f8-b174-8c6c989267f4"
-version = "4.18.0"
+version = "4.19.0"
 
 [[deps.Sundials_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "OpenBLAS_jll", "Pkg", "SuiteSparse_jll"]
