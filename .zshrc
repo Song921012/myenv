@@ -47,6 +47,9 @@ alias sciwebup="source ~/myenv/sciwebnode.sh && updatesciwebnode"
 ## Clean
 alias clean="sudo apt autoremove && sudo apt autoclean && conda clean --all && cd ~/.cache && rm -rf ./pip && cd"
 
+## Paper
+alias mkpaper="source ~/myenv/papertemplate.sh"
+alias mkbib="ln -s  /home/aidishage/Desktop/MyStudyBook/mybib.bib ./mybib.bib"
 
 ## change Terminal theme
 ### bash -c  "$(wget -qO- https://git.io/vQgMr)" 
