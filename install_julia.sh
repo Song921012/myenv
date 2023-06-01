@@ -10,7 +10,8 @@ sudo cp -r julia-$julasmallversion /opt/;
 sudo ln -sf /opt/julia-$julasmallversion/bin/julia /usr/local/bin/julia;
 cd;
 sudo rm -rf julia-$julasmallversion*;
-sudo rm -rf ~/.julia/compiled/v$julabigversion}
+#sudo rm -rf ~/.julia/compiled/v$julabigversion
+}
 
 install_julia_dev(){
 echo "please input julia dev big version, e.g., 1.9"
