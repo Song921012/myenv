@@ -4628,10 +4628,10 @@ deps = ["Unicode"]
 uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 [[deps.ProbNumDiffEq]]
-deps = ["DiffEqBase", "DiffEqDevTools", "ExponentialUtilities", "FastBroadcast", "ForwardDiff", "FunctionWrappersWrappers", "GaussianDistributions", "LinearAlgebra", "Octavian", "OrdinaryDiffEq", "PSDMatrices", "PrecompileTools", "RecipesBase", "RecursiveArrayTools", "Reexport", "SciMLBase", "SimpleUnPack", "SpecialMatrices", "StaticArrayInterface", "Statistics", "StructArrays", "TaylorIntegration", "TaylorSeries", "ToeplitzMatrices"]
-git-tree-sha1 = "305fed8f84694150fc8a6684d356c21e229375a1"
+deps = ["DiffEqBase", "DiffEqDevTools", "ExponentialUtilities", "FastBroadcast", "FastGaussQuadrature", "ForwardDiff", "FunctionWrappersWrappers", "GaussianDistributions", "LinearAlgebra", "Octavian", "OrdinaryDiffEq", "PSDMatrices", "PrecompileTools", "RecipesBase", "RecursiveArrayTools", "Reexport", "SciMLBase", "SimpleUnPack", "SpecialMatrices", "StaticArrayInterface", "Statistics", "StructArrays", "TaylorIntegration", "TaylorSeries", "ToeplitzMatrices"]
+git-tree-sha1 = "62040a775455aa44b8874501a351876a13aea37f"
 uuid = "bf3e78b0-7d74-48a5-b855-9609533b56a5"
-version = "0.11.2"
+version = "0.12.0"
 
 [[deps.Profile]]
 deps = ["Printf"]
@@ -4848,9 +4848,9 @@ weakdeps = ["FixedPointNumbers"]
 
 [[deps.ReactiveMP]]
 deps = ["DataStructures", "Distributions", "DomainIntegrals", "DomainSets", "FastGaussQuadrature", "ForwardDiff", "HCubature", "LazyArrays", "LinearAlgebra", "LoopVectorization", "MacroTools", "Optim", "PositiveFactorizations", "Random", "Rocket", "SpecialFunctions", "StaticArrays", "StatsBase", "StatsFuns", "TinyHugeNumbers", "TupleTools", "Unrolled"]
-git-tree-sha1 = "437cbb6ea40b99e52d8144b32c5c4d68a7528d7a"
+git-tree-sha1 = "ff83ebfd90db78a87c8f8a593648ac0565bbae3a"
 uuid = "a194aa59-28ba-4574-a09c-4a745416d6e3"
-version = "3.9.0"
+version = "3.9.1"
 weakdeps = ["Optimisers", "Requires", "Zygote"]
 
     [deps.ReactiveMP.extensions]
@@ -5287,9 +5287,9 @@ version = "0.18.3"
 
 [[deps.Singular_jll]]
 deps = ["Artifacts", "FLINT_jll", "GMP_jll", "JLLWrappers", "Libdl", "MPFR_jll", "cddlib_jll"]
-git-tree-sha1 = "19e99fa01758a7377d9ddb9b21d897d1b8955fe4"
+git-tree-sha1 = "fb9ce204c9ee218aaf2106c48a311cc34c6f75bc"
 uuid = "43d676ae-4934-50ba-8046-7a96366d613b"
-version = "403.201.1+0"
+version = "403.201.202+0"
 
 [[deps.Sixel]]
 deps = ["Dates", "FileIO", "ImageCore", "IndirectArrays", "OffsetArrays", "REPL", "libsixel_jll"]
