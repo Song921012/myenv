@@ -2,7 +2,7 @@
 
 julia_version = "1.9.0"
 manifest_format = "2.0"
-project_hash = "96748a5ebd5dd5fb5426eab47994025c1e2d6c15"
+project_hash = "e8c9e76481a5e76442d502f98d5b78a0026c2538"
 
 [[deps.ADNLPModels]]
 deps = ["ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays", "SparseDiffTools", "Symbolics"]
@@ -236,9 +236,9 @@ version = "0.13.20"
 
 [[deps.ApproxFunBase]]
 deps = ["AbstractFFTs", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "Calculus", "Combinatorics", "DSP", "DomainSets", "DualNumbers", "FFTW", "FillArrays", "InfiniteArrays", "InfiniteLinearAlgebra", "IntervalSets", "LazyArrays", "LinearAlgebra", "LowRankApprox", "SparseArrays", "SpecialFunctions", "StaticArrays", "Statistics", "Test"]
-git-tree-sha1 = "58aaaffe602333355eb337053ddf3a117f70ec61"
+git-tree-sha1 = "6101e9d7a2bcac1431eec3cd6cf009c7df52561b"
 uuid = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-version = "0.8.26"
+version = "0.8.27"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
@@ -248,9 +248,9 @@ version = "0.3.21"
 
 [[deps.ApproxFunOrthogonalPolynomials]]
 deps = ["ApproxFunBase", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "DomainSets", "FastGaussQuadrature", "FastTransforms", "FillArrays", "HalfIntegers", "IntervalSets", "LinearAlgebra", "OddEvenIntegers", "Reexport", "SpecialFunctions", "Static", "StaticArrays", "Statistics"]
-git-tree-sha1 = "b4d2e07e136e6fad4403ae6cc5414626c9e7890b"
+git-tree-sha1 = "5f0f2665f11a964526b640e323a1fe343f255a6b"
 uuid = "b70543e2-c0d9-56b8-a290-0d4d6d4de211"
-version = "0.6.30"
+version = "0.6.31"
 
 [[deps.ApproxFunSingularities]]
 deps = ["ApproxFunBase", "ApproxFunOrthogonalPolynomials", "DomainSets", "IntervalSets", "LinearAlgebra", "Reexport", "SpecialFunctions", "StaticArrays", "Statistics"]
@@ -479,9 +479,9 @@ version = "0.1.4"
 
 [[deps.Bijectors]]
 deps = ["ArgCheck", "ChainRulesCore", "ChangesOfVariables", "Compat", "Distributions", "Functors", "InverseFunctions", "IrrationalConstants", "LinearAlgebra", "LogExpFunctions", "MappedArrays", "Random", "Reexport", "Requires", "Roots", "SparseArrays", "Statistics"]
-git-tree-sha1 = "adc64f14df848aadf3196572cb8e344f9a19a24b"
+git-tree-sha1 = "b1931ce56e7aeec31ab922a2410f2c8aad08958d"
 uuid = "76274a88-744f-5084-9051-94815aaf08c4"
-version = "0.12.4"
+version = "0.12.5"
 
 [[deps.BinaryWrappers]]
 deps = ["JLLWrappers", "Scratch"]
@@ -4016,9 +4016,9 @@ weakdeps = ["ForwardDiff"]
 
 [[deps.OddEvenIntegers]]
 deps = ["HalfIntegers"]
-git-tree-sha1 = "0daf4ea29f869eb4627e05207678e6057daff2cc"
+git-tree-sha1 = "17d13dad27beb3464fa8cb6465b6430bcce73196"
 uuid = "8d37c425-f37a-4ca2-9b9d-a61bc06559d2"
-version = "0.1.7"
+version = "0.1.8"
 
 [[deps.OffsetArrays]]
 deps = ["Adapt"]
@@ -4326,6 +4326,18 @@ deps = ["Distributions", "Graphs", "NamedTupleTools", "POMDPLinter", "Pkg", "Ran
 git-tree-sha1 = "9ab2df9294d0b23def1e5274a0ebf691adc8f782"
 uuid = "a93abf59-7444-517b-a68a-c42f96afdd7d"
 version = "0.9.5"
+
+[[deps.PROPACK]]
+deps = ["LinearAlgebra", "LinearOperators", "PROPACK_jll"]
+git-tree-sha1 = "f500ecef3edcf1c8889fc861a0debcdb6c714c57"
+uuid = "b169e327-5944-5131-97a6-5d3d3f0a476a"
+version = "0.5.0"
+
+[[deps.PROPACK_jll]]
+deps = ["Artifacts", "JLLWrappers", "Libdl", "OpenBLAS_jll", "Pkg", "libblastrampoline_jll"]
+git-tree-sha1 = "b6141cf260569331be16207e0886e71f71ccd5b1"
+uuid = "2c99449f-f194-5e92-8ff0-13814ff41dcf"
+version = "0.2.1+0"
 
 [[deps.PSDMatrices]]
 deps = ["LinearAlgebra"]
