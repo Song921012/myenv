@@ -3351,9 +3351,9 @@ version = "4.1.1+1"
 
 [[deps.MPIPreferences]]
 deps = ["Libdl", "Preferences"]
-git-tree-sha1 = "71f937129731a29eabe6969db2c90368a4408933"
+git-tree-sha1 = "d86a788b336e8ae96429c0c42740ccd60ac0dfcc"
 uuid = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
-version = "0.1.7"
+version = "0.1.8"
 
 [[deps.MPItrampoline_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "MPIPreferences", "TOML"]
@@ -3401,9 +3401,9 @@ weakdeps = ["FiniteDiff", "FiniteDifferences", "ForwardDiff", "ReverseDiff", "Zy
 
 [[deps.Manifolds]]
 deps = ["Distributions", "Einsum", "Graphs", "HybridArrays", "Kronecker", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "MatrixEquations", "Quaternions", "Random", "RecursiveArrayTools", "Requires", "SimpleWeightedGraphs", "SpecialFunctions", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "df062cd8c76918d0819c86942b9a5f223c1e29ea"
+git-tree-sha1 = "cac2b387b44c7d12d95bf2dacde7d327de9a697a"
 uuid = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
-version = "0.8.68"
+version = "0.8.69"
 weakdeps = ["BoundaryValueDiffEq", "Colors", "DiffEqCallbacks", "NLsolve", "OrdinaryDiffEq", "RecipesBase", "Test"]
 
     [deps.Manifolds.extensions]
@@ -3422,9 +3422,9 @@ version = "0.14.5"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "Statistics", "Test"]
-git-tree-sha1 = "008851ee1fda25f72973f1b8bfb38c7c53a2cfef"
+git-tree-sha1 = "cc25c8c79bfc6dcdbc9b9856309e8cdcedaeebaa"
 uuid = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
-version = "0.4.22"
+version = "0.4.24"
 weakdeps = ["LRUCache", "LineSearches", "Manifolds", "Plots"]
 
     [deps.Manopt.extensions]
