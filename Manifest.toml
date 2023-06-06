@@ -336,16 +336,16 @@ uuid = "65a8f2f4-9b39-5baf-92e2-a9cc46fdf018"
 version = "0.6.1"
 
 [[deps.Arrow]]
-deps = ["ArrowTypes", "BitIntegers", "CodecLz4", "CodecZstd", "DataAPI", "Dates", "LoggingExtras", "Mmap", "PooledArrays", "SentinelArrays", "Tables", "TimeZones", "TranscodingStreams", "UUIDs", "WorkerUtilities"]
-git-tree-sha1 = "3b7d963a83ee6d894383b3a4b11837c9d51b42ff"
+deps = ["ArrowTypes", "BitIntegers", "CodecLz4", "CodecZstd", "ConcurrentUtilities", "DataAPI", "Dates", "EnumX", "LoggingExtras", "Mmap", "PooledArrays", "SentinelArrays", "Tables", "TimeZones", "TranscodingStreams", "UUIDs"]
+git-tree-sha1 = "340e01a7e117d31c618bcc9465b44255c4e1c5ba"
 uuid = "69666777-d1a9-59fb-9406-91d4454c9d45"
-version = "2.5.2"
+version = "2.6.0"
 
 [[deps.ArrowTypes]]
 deps = ["Sockets", "UUIDs"]
-git-tree-sha1 = "f7e3797796fbb56b2d61354d6e1c0f3ebc260a84"
+git-tree-sha1 = "1f080d49f653c42b76297905da9ad5354b90225e"
 uuid = "31f734f8-188a-4ce0-8406-c8a06bd891cd"
-version = "2.1.0"
+version = "2.2.0"
 
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
@@ -496,9 +496,9 @@ version = "0.1.7"
 
 [[deps.BitIntegers]]
 deps = ["Random"]
-git-tree-sha1 = "fc54d5837033a170f3bad307f993e156eefc345f"
+git-tree-sha1 = "abb894fb55122b4604af0d460d3018e687a60963"
 uuid = "c3b6d118-76ef-56ca-8cc7-ebb389d030a1"
-version = "0.2.7"
+version = "0.3.0"
 
 [[deps.BitTwiddlingConvenienceFunctions]]
 deps = ["Static"]
@@ -1320,9 +1320,9 @@ version = "2.3.0"
 
 [[deps.DiffEqNoiseProcess]]
 deps = ["DiffEqBase", "Distributions", "GPUArraysCore", "LinearAlgebra", "Markdown", "Optim", "PoissonRandom", "QuadGK", "Random", "Random123", "RandomNumbers", "RecipesBase", "RecursiveArrayTools", "Requires", "ResettableStacks", "SciMLBase", "StaticArraysCore", "Statistics"]
-git-tree-sha1 = "1db390298a1a31080b0bd417188bf4da0ef5e698"
+git-tree-sha1 = "50f82e2a705a544af539acc6a03674a4d7eee1d8"
 uuid = "77a26b50-5914-5dd7-bc55-306e6241c503"
-version = "5.17.0"
+version = "5.17.1"
 weakdeps = ["ReverseDiff"]
 
     [deps.DiffEqNoiseProcess.extensions]
@@ -1356,9 +1356,9 @@ version = "1.1.0"
 
 [[deps.DiffRules]]
 deps = ["IrrationalConstants", "LogExpFunctions", "NaNMath", "Random", "SpecialFunctions"]
-git-tree-sha1 = "3d6d95e5f728741d74f121b9d0948c7372eee4b7"
+git-tree-sha1 = "23163d55f885173722d1e4cf0f6110cdbaf7e272"
 uuid = "b552c78f-8df3-52c6-915a-8e097449b14b"
-version = "1.15.0"
+version = "1.15.1"
 
 [[deps.DifferentiableFlatten]]
 deps = ["ChainRulesCore", "LinearAlgebra", "NamedTupleTools", "OrderedCollections", "Requires", "SparseArrays"]
@@ -2577,9 +2577,9 @@ version = "0.21.4"
 
 [[deps.JSON3]]
 deps = ["Dates", "Mmap", "Parsers", "PrecompileTools", "StructTypes", "UUIDs"]
-git-tree-sha1 = "1b060125c7a740915da46cb6dcc6817e3bf33c4a"
+git-tree-sha1 = "5b62d93f2582b09e469b3099d839c2d2ebf5066d"
 uuid = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
-version = "1.13.0"
+version = "1.13.1"
 
 [[deps.JSONRPC]]
 deps = ["JSON", "UUIDs"]
@@ -3422,9 +3422,9 @@ version = "0.14.5"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "Statistics", "Test"]
-git-tree-sha1 = "cc25c8c79bfc6dcdbc9b9856309e8cdcedaeebaa"
+git-tree-sha1 = "4a769432ddad111cc5cf38c2e58641aa84b1506c"
 uuid = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
-version = "0.4.24"
+version = "0.4.25"
 weakdeps = ["LRUCache", "LineSearches", "Manifolds", "Plots"]
 
     [deps.Manopt.extensions]
@@ -4879,9 +4879,9 @@ weakdeps = ["FixedPointNumbers"]
 
 [[deps.ReactiveMP]]
 deps = ["DataStructures", "Distributions", "DomainIntegrals", "DomainSets", "FastGaussQuadrature", "ForwardDiff", "HCubature", "LazyArrays", "LinearAlgebra", "LoopVectorization", "MacroTools", "Optim", "PositiveFactorizations", "Random", "Rocket", "SpecialFunctions", "StaticArrays", "StatsBase", "StatsFuns", "TinyHugeNumbers", "TupleTools", "Unrolled"]
-git-tree-sha1 = "ff83ebfd90db78a87c8f8a593648ac0565bbae3a"
+git-tree-sha1 = "8012910e3ef448f4f33ab169f11968449b04476a"
 uuid = "a194aa59-28ba-4574-a09c-4a745416d6e3"
-version = "3.9.1"
+version = "3.9.2"
 weakdeps = ["Optimisers", "Requires", "Zygote"]
 
     [deps.ReactiveMP.extensions]
