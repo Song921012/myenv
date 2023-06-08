@@ -1468,9 +1468,9 @@ version = "0.5.8"
 
 [[deps.DynamicHMC]]
 deps = ["ArgCheck", "DocStringExtensions", "FillArrays", "LinearAlgebra", "LogDensityProblems", "LogExpFunctions", "ProgressMeter", "Random", "SimpleUnPack", "Statistics", "TensorCast"]
-git-tree-sha1 = "abda01fd35c33183d02b082346893aaea60bac84"
+git-tree-sha1 = "055d04934849867c54ffa346d69dabbed470a419"
 uuid = "bbc10e6e-7c05-544b-b16e-64fede858acb"
-version = "3.4.5"
+version = "3.4.6"
 
 [[deps.DynamicPPL]]
 deps = ["AbstractMCMC", "AbstractPPL", "BangBang", "Bijectors", "ChainRulesCore", "ConstructionBase", "Distributions", "DocStringExtensions", "LinearAlgebra", "LogDensityProblems", "MacroTools", "OrderedCollections", "Random", "Setfield", "Test", "ZygoteRules"]
@@ -3398,10 +3398,10 @@ uuid = "20f20a25-4f0e-4fdf-b5d1-57303727442b"
 version = "0.6.3"
 
 [[deps.ManifoldDiff]]
-deps = ["LinearAlgebra", "ManifoldsBase", "Markdown", "Requires"]
-git-tree-sha1 = "1c63c718a14f8ee9b9cbc93c380093d5f84788c9"
+deps = ["LinearAlgebra", "ManifoldsBase", "Markdown", "Random", "Requires"]
+git-tree-sha1 = "349141981abc7fc53f3b547b4be4be270d35ef0c"
 uuid = "af67fdf4-a580-4b9f-bbec-742ef357defd"
-version = "0.3.3"
+version = "0.3.4"
 weakdeps = ["FiniteDiff", "FiniteDifferences", "ForwardDiff", "ReverseDiff", "Zygote"]
 
     [deps.ManifoldDiff.extensions]
