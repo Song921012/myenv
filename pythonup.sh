@@ -37,7 +37,9 @@ pip install -U gpytorch botorch  torchdyn torchgan torchsde torchcde torchdiffeq
 #pip install -U pytorch-forecasting neuralprophet
 ## jax
 pip install -U objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax \
- flax numpyro jaxns funsor ott neural-tangents efax probdiffeq
+ flax numpyro jaxns funsor ott neural-tangents efax probdiffeq 
+
+pip install lineax
  
 #pip install distrax 
 
