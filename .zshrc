@@ -23,6 +23,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ## Upadate
 alias refresh="up && gitup && juliaup && pythonup && othersup && gitup && cd"
 alias vpnrefresh="up && gitup && vpnon && juliaup && othersup && vpnoff && gitup && pythonup && cd"
+alias syncup="nvim ~/myenv/gitup.sh"
 alias refreshall="up && quartoup && rustupdate && juliaup && pythonup 
 && othersup && juliadevup && rup && fireup && cppup && fenicsup && gitup && clean && cd"
 alias up="sudo apt update && sudo apt upgrade"
@@ -65,6 +66,8 @@ alias mytutor="cd ~/Desktop/MyProjects/MathEpiDeepLearningTutorial"
 ## ShortCuts
 alias shortcuts="code ~/myenv/shortcuts.md"
 alias chlight="xrandr --output $(xrandr | grep " connected" | cut -f1 -d " ") --brightness "
+#export hostip=$(cat /etc/resolv.conf |grep -oP '(?<=nameserver\ ).*')
+#alias vpnon="export https_proxy=http://${hostip}:7890;export http_proxy=http://${hostip}:7890"
 alias vpnon="export http_proxy=http://127.0.0.1:7890;export https_proxy=http://127.0.0.1:7890"
 alias vpnoff="unset http_proxy;unset https_proxy"
 ## Others
