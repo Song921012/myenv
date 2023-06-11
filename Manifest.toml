@@ -256,9 +256,9 @@ version = "0.3.21"
 
 [[deps.ApproxFunOrthogonalPolynomials]]
 deps = ["ApproxFunBase", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "DomainSets", "FastGaussQuadrature", "FastTransforms", "FillArrays", "HalfIntegers", "IntervalSets", "LinearAlgebra", "OddEvenIntegers", "Reexport", "SpecialFunctions", "Static", "StaticArrays", "Statistics"]
-git-tree-sha1 = "444141af099366e6e939b81babcc0c2c660783bf"
+git-tree-sha1 = "34f7e83ca134f70beabd90aa55c8d1754c54d96a"
 uuid = "b70543e2-c0d9-56b8-a290-0d4d6d4de211"
-version = "0.6.33"
+version = "0.6.34"
 
 [[deps.ApproxFunSingularities]]
 deps = ["ApproxFunBase", "ApproxFunOrthogonalPolynomials", "DomainSets", "HalfIntegers", "IntervalSets", "LinearAlgebra", "OddEvenIntegers", "Reexport", "SpecialFunctions", "StaticArrays", "Statistics"]
@@ -4316,9 +4316,9 @@ version = "2.5.10"
 
 [[deps.Pavito]]
 deps = ["MathOptInterface", "Printf"]
-git-tree-sha1 = "9791a6ab8f335673dc4807c025d0b700383ebaa7"
+git-tree-sha1 = "8cf054e072cb8a57a520fa59a4b3adcab854e211"
 uuid = "cd433a01-47d1-575d-afb7-6db927ee8d8f"
-version = "0.3.6"
+version = "0.3.7"
 
 [[deps.PenaltyFunctions]]
 deps = ["InteractiveUtils", "LinearAlgebra", "RecipesBase"]
