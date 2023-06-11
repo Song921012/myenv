@@ -208,9 +208,9 @@ version = "5.15.2"
 
 [[deps.AlgebraOfGraphics]]
 deps = ["Colors", "Dates", "Dictionaries", "FileIO", "GLM", "GeoInterface", "GeometryBasics", "GridLayoutBase", "KernelDensity", "Loess", "Makie", "PlotUtils", "PooledArrays", "PrecompileTools", "RelocatableFolders", "StatsBase", "StructArrays", "Tables"]
-git-tree-sha1 = "1a6460f20c3ecd3692ef02cead4ce24a9be738b6"
+git-tree-sha1 = "c58b2c0f1161b8a2e79dcb1a0ec4b639c2406f15"
 uuid = "cbdf2221-f076-402e-a563-3d30da359d67"
-version = "0.6.15"
+version = "0.6.16"
 
 [[deps.Alpine]]
 deps = ["Combinatorics", "JuMP", "LinearAlgebra", "MathOptInterface", "Pkg", "Statistics"]
@@ -487,9 +487,9 @@ version = "0.1.4"
 
 [[deps.Bijectors]]
 deps = ["ArgCheck", "ChainRulesCore", "ChangesOfVariables", "Compat", "Distributions", "Functors", "InverseFunctions", "IrrationalConstants", "LinearAlgebra", "LogExpFunctions", "MappedArrays", "Random", "Reexport", "Requires", "Roots", "SparseArrays", "Statistics"]
-git-tree-sha1 = "b1931ce56e7aeec31ab922a2410f2c8aad08958d"
+git-tree-sha1 = "53885cdabab22e1776008e88172c986d6f7fc916"
 uuid = "76274a88-744f-5084-9051-94815aaf08c4"
-version = "0.12.5"
+version = "0.12.6"
 
 [[deps.BinaryWrappers]]
 deps = ["JLLWrappers", "Scratch"]
@@ -3408,9 +3408,9 @@ weakdeps = ["BoundaryValueDiffEq", "Colors", "DiffEqCallbacks", "NLsolve", "Ordi
 
 [[deps.ManifoldsBase]]
 deps = ["LinearAlgebra", "Markdown", "Random"]
-git-tree-sha1 = "efdf83d766c61aa26d5a8e210324e71448d9f147"
+git-tree-sha1 = "6ba91cf9dad7f3980b707a583dcccef932f74316"
 uuid = "3362f125-f0bb-47a3-aa74-596ffd7ef2fb"
-version = "0.14.5"
+version = "0.14.6"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "Statistics", "Test"]
@@ -5432,9 +5432,9 @@ weakdeps = ["OffsetArrays", "StaticArrays"]
 
 [[deps.StaticArrays]]
 deps = ["LinearAlgebra", "Random", "StaticArraysCore", "Statistics"]
-git-tree-sha1 = "8982b3607a212b070a5e46eea83eb62b4744ae12"
+git-tree-sha1 = "832afbae2a45b4ae7e831f86965469a24d1d8a83"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "1.5.25"
+version = "1.5.26"
 
 [[deps.StaticArraysCore]]
 git-tree-sha1 = "6b7ba252635a5eff6a0b0664a41ee140a1c9e72a"
