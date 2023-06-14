@@ -55,7 +55,9 @@ alias mkbib="ln -s  /home/aidishage/Desktop/MyStudyBook/mybib.bib ./mybib.bib"
 ## change Terminal theme
 ### bash -c  "$(wget -qO- https://git.io/vQgMr)" 
 
-
+## SSH
+alias sshzhen="ssh hpc.abm-lab.yorku.ca -l zhenw"
+alias sshnancy="ssh hpc.abm-lab.yorku.ca -l nancys"
 ## CD
 
 alias wkspace="cd /home/aidishage/Desktop/MyProjects"
