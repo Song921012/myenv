@@ -69,7 +69,19 @@ git commit -m 'update'
 git push
 }
 
+function git_up{
+powershell.exe -noexit "& 'C:\Users\12475\Desktop\myenv\gitup.ps1'"
+}
+
 New-Alias gitsync git_sync
+New-Alias gitup git_up
+
+function vpngit_up{
+vpnon
+gitup
+vpnoff
+}
+New-Alias vpngitup vpngit_up
 
 # juliaup
 function julia_up{
@@ -80,11 +92,20 @@ New-Alias juliaup julia_up
 
 # pythonup
 function python_up{
-powershell.exe -noexit "& 'D:\aidishage\myenv\pythonup.ps1'"
+powershell.exe -noexit "& 'C:\Users\12475\Desktop\myenv\pythonup.ps1'"
 }
 
 New-Alias pythonup python_up
 
 
+# refresh
+function refresh_all{
+echo "refresh"
+(juliaup)
+(pythonup)
+(vpngitup)
+}
+
+New-Alias refresh refresh_all
 
 

@@ -1,4 +1,5 @@
 # Linux python
+echo "python update"
 conda deactivate
 conda deactivate
 pip install  Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx seaborn jupyter jupyterlab radian conan flake8 pylint  yapf virtualenv 
@@ -26,7 +27,7 @@ pip install -U radian conan flake8 pylint yapf huggingface-hub SAlib deepxde str
 
 ## inference and optimization
 
-pip install -U Casadi pints elfi POT lifelines Pulp pysindy pykoopman pykoop mosek cvxopt smcp pysr pmlb HROCH pydmd cvxpy probnum POT pyomo gekko dymos
+pip install -U Casadi pints elfi POT lifelines Pulp pysindy pykoopman pykoop mosek cvxopt pysr pmlb HROCH pydmd cvxpy probnum POT pyomo gekko dymos
 
 ## torch
 pip install -U gpytorch botorch  torchdyn torchgan torchsde torchcde torchdiffeq torchmetrics torchopt pytorch-lightning  pyro-ppl sbi storchastic
@@ -37,5 +38,7 @@ pip3 install --pre torch torchvision torchaudio --index-url https://download.pyt
 
 
 conda activate base
+
+echo "python update done"
 
 
