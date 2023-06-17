@@ -1869,9 +1869,9 @@ version = "0.5.1"
 
 [[deps.GCMAES]]
 deps = ["BSON", "Dates", "Distributed", "FastClosures", "LinearAlgebra", "Pkg", "Printf", "Random", "Requires", "Statistics"]
-git-tree-sha1 = "18f6b7a93797bb8c1fdf77a47797e520de83eeb7"
+git-tree-sha1 = "7caf0905f79195ea29f816221266232e798a5f36"
 uuid = "4aa9d100-eb0f-11e8-15f1-25748831eb3b"
-version = "0.1.30"
+version = "0.1.31"
 
 [[deps.GEOS_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
@@ -5230,9 +5230,9 @@ version = "0.18.6"
 
 [[deps.Singular_jll]]
 deps = ["Artifacts", "FLINT_jll", "GMP_jll", "JLLWrappers", "Libdl", "MPFR_jll", "cddlib_jll"]
-git-tree-sha1 = "2bab98dd4b47290932c253acc883ee6ad5eb6b17"
+git-tree-sha1 = "cb1c4ca53177a092bad6d37507ab45fa3c397e2f"
 uuid = "43d676ae-4934-50ba-8046-7a96366d613b"
-version = "403.203.201+0"
+version = "403.203.202+0"
 
 [[deps.Sixel]]
 deps = ["Dates", "FileIO", "ImageCore", "IndirectArrays", "OffsetArrays", "REPL", "libsixel_jll"]
