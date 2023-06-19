@@ -2189,6 +2189,12 @@ git-tree-sha1 = "d84df66f68f78eb3feb7fc5a04a94ebdddce91b9"
 uuid = "1baab800-613f-4b0a-84e4-9cd3431bfbb9"
 version = "0.4.15"
 
+[[deps.HyperDualNumbers]]
+deps = ["Calculus", "CommonSubexpressions", "LinearAlgebra", "NaNMath", "SpecialFunctions"]
+git-tree-sha1 = "a7e4a62f3428a3bbc0bfd8d06274f95c8af9e60d"
+uuid = "50ceba7f-c3ee-5a84-a6e8-3ad40456ec97"
+version = "4.0.10"
+
 [[deps.HyperbolicCrossApprox]]
 deps = ["ChebyshevApprox", "LinearAlgebra", "SmolyakApprox", "ThreadPools"]
 git-tree-sha1 = "14807edbc721bd55acfff53ee52af64b4c462e4a"
@@ -3919,10 +3925,10 @@ uuid = "510215fc-4207-5dde-b226-833fc4488ee2"
 version = "0.5.4"
 
 [[deps.Octavian]]
-deps = ["CPUSummary", "IfElse", "LoopVectorization", "ManualMemory", "PolyesterWeave", "SnoopPrecompile", "Static", "StaticArrayInterface", "ThreadingUtilities", "VectorizationBase"]
-git-tree-sha1 = "4f93ec8df071630eba0b7bd9e6474b54999b9432"
+deps = ["CPUSummary", "HyperDualNumbers", "IfElse", "LoopVectorization", "ManualMemory", "PolyesterWeave", "PrecompileTools", "Static", "StaticArrayInterface", "ThreadingUtilities", "VectorizationBase"]
+git-tree-sha1 = "698f39e353d6e7202d6038e4716dc893c41ba474"
 uuid = "6fd5a793-0b7e-452c-907f-f8bfe9c57db4"
-version = "0.3.22"
+version = "0.3.23"
 weakdeps = ["ForwardDiff"]
 
     [deps.Octavian.extensions]
