@@ -1,6 +1,6 @@
 export pythonversion=3.11
-export juliabigversion=1.8
-export juliasmallversion=1.8.5
+export juliabigversion=1.9
+export juliasmallversion=1.9.1
 export juliadevversion=1.10
 # linux
 cd
