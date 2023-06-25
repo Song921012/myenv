@@ -1,3 +1,11 @@
+echo "myenv"
+cd C:\Users\12475\Desktop\myenv
+git pull
+git add -A
+git commit -m "update"
+git push
+
+
 echo "my working paper"
 cd C:\Users\12475\Desktop\MyPapersNotes
 git pull
