@@ -108,4 +108,33 @@ echo "refresh"
 
 New-Alias refresh refresh_all
 
+# papertempalte
 
+function paper_template{
+cd  C:\Users\12475\Desktop\MyPapersNotes
+$folder = Read-Host "Please input the paper or folder name"
+mkdir $folder
+cd $folder
+mkdir firstdraft
+cd firstdraft
+New-Item -path .\mybib.bib -itemType HardLink -target    C:\Users\12475\Desktop\MyStudyBook\mybib.bib
+cd ..
+cp -r C:\Users\12475\Desktop\MyPapersNotes\LatexTemplate\Coverletter Coverletter
+cp -r C:\Users\12475\Desktop\MyPapersNotes\LatexTemplate\Response Response
+cp C:\Users\12475\Desktop\MyPapersNotes\LatexTemplate\Highlights.docx .
+}
+
+
+function mk_bib{
+New-Item -path .\mybib.bib -itemType HardLink -target    C:\Users\12475\Desktop\MyStudyBook\mybib.bib
+}
+
+function bibupdate{
+cp   C:\Users\12475\Desktop\MyStudyBook\mybib.bib  C:\Users\12475\Desktop\myenv\mybib.bib  
+}
+
+New-Alias mkpaper paper_template
+
+New-Alias mkbib mk_bib
+
+New-Alias bibup bibupdate
