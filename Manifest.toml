@@ -328,9 +328,9 @@ version = "0.1.29"
 
 [[deps.ArrayLayouts]]
 deps = ["FillArrays", "LinearAlgebra", "SparseArrays"]
-git-tree-sha1 = "1d9e98721e71dcf4db5a7d34f55d8aa07c43468f"
+git-tree-sha1 = "c93c8e24e5fecd6590152050ac50a516c648e06c"
 uuid = "4c555306-a7a7-4459-81d9-ec55ddd5c99a"
-version = "1.0.6"
+version = "1.0.7"
 
 [[deps.ArrayTools]]
 git-tree-sha1 = "ca8c5218f18c5318827fdb1881f370249610f8d2"
@@ -1375,9 +1375,9 @@ version = "0.6.6"
 
 [[deps.Distributions]]
 deps = ["FillArrays", "LinearAlgebra", "PDMats", "Printf", "QuadGK", "Random", "SparseArrays", "SpecialFunctions", "Statistics", "StatsAPI", "StatsBase", "StatsFuns", "Test"]
-git-tree-sha1 = "4ed4a6df2548a72f66e03f3a285cd1f3b573035d"
+git-tree-sha1 = "db40d3aff76ea6a3619fdd15a8c78299221a2394"
 uuid = "31c24e10-a181-5473-b8eb-7969acd0382f"
-version = "0.25.96"
+version = "0.25.97"
 weakdeps = ["ChainRulesCore", "DensityInterface"]
 
     [deps.Distributions.extensions]
@@ -1725,9 +1725,9 @@ uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
 [[deps.FillArrays]]
 deps = ["LinearAlgebra", "Random", "SparseArrays", "Statistics"]
-git-tree-sha1 = "e17cc4dc2d0b0b568e80d937de8ed8341822de67"
+git-tree-sha1 = "0b3b52afd0f87b0a3f5ada0466352d125c9db458"
 uuid = "1a297f60-69ca-5386-bcde-b61e274b549b"
-version = "1.2.0"
+version = "1.2.1"
 
 [[deps.FiniteDiff]]
 deps = ["ArrayInterface", "LinearAlgebra", "Requires", "Setfield", "SparseArrays"]
@@ -3399,9 +3399,9 @@ weakdeps = ["FiniteDiff", "FiniteDifferences", "ForwardDiff", "ReverseDiff", "Zy
 
 [[deps.Manifolds]]
 deps = ["Distributions", "Einsum", "Graphs", "HybridArrays", "Kronecker", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "MatrixEquations", "Quaternions", "Random", "RecursiveArrayTools", "Requires", "SimpleWeightedGraphs", "SpecialFunctions", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "9d41851198068506fa410269233d4676177c683a"
+git-tree-sha1 = "8975cfcd189723efe05c83e454ed91b7db05c56b"
 uuid = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
-version = "0.8.70"
+version = "0.8.71"
 weakdeps = ["BoundaryValueDiffEq", "Colors", "DiffEqCallbacks", "NLsolve", "OrdinaryDiffEq", "RecipesBase", "Test"]
 
     [deps.Manifolds.extensions]
@@ -3420,9 +3420,9 @@ version = "0.14.6"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "Statistics", "Test"]
-git-tree-sha1 = "02a891b526c851b98c8dfc618d41f36eef8a4f4c"
+git-tree-sha1 = "ff2779a35faa744f363d256711255cbf75d05a39"
 uuid = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
-version = "0.4.27"
+version = "0.4.28"
 weakdeps = ["LRUCache", "LineSearches", "Manifolds", "Plots"]
 
     [deps.Manopt.extensions]
@@ -5058,9 +5058,9 @@ version = "0.1.8"
 
 [[deps.SciMLOperators]]
 deps = ["ArrayInterface", "DocStringExtensions", "Lazy", "LinearAlgebra", "Setfield", "SparseArrays", "StaticArraysCore", "Tricks"]
-git-tree-sha1 = "660322732becf934bf818792f9740984b375d300"
+git-tree-sha1 = "668ed6b2265d1adb36b7239501e9369025bd6c78"
 uuid = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
-version = "0.3.1"
+version = "0.3.2"
 
 [[deps.SciMLSensitivity]]
 deps = ["Adapt", "ArrayInterface", "Cassette", "ChainRulesCore", "DiffEqBase", "DiffEqCallbacks", "DiffEqNoiseProcess", "DiffRules", "Distributions", "EllipsisNotation", "Enzyme", "FiniteDiff", "ForwardDiff", "FunctionWrappersWrappers", "GPUArraysCore", "LinearAlgebra", "LinearSolve", "Markdown", "OrdinaryDiffEq", "Parameters", "PreallocationTools", "QuadGK", "Random", "RandomNumbers", "RecursiveArrayTools", "Reexport", "ReverseDiff", "SciMLBase", "SciMLOperators", "SimpleNonlinearSolve", "SparseDiffTools", "StaticArraysCore", "Statistics", "StochasticDiffEq", "Tracker", "TruncatedStacktraces", "Zygote", "ZygoteRules"]
