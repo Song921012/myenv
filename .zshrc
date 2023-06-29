@@ -58,6 +58,7 @@ alias mkbib="ln -s  /home/aidishage/Desktop/MyStudyBook/mybib.bib ./mybib.bib"
 ## SSH
 alias sshzhen="ssh hpc.abm-lab.yorku.ca -l zhenw"
 alias sshnancy="ssh hpc.abm-lab.yorku.ca -l nancys"
+alias sshspf="ssh ubuntu@58.87.89.130"
 ## CD
 
 alias wkspace="cd /home/aidishage/Desktop/MyProjects"
