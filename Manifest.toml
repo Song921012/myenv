@@ -4256,9 +4256,9 @@ version = "0.4.4"
 
 [[deps.PSIS]]
 deps = ["LinearAlgebra", "LogExpFunctions", "Printf", "RecipesBase", "Statistics"]
-git-tree-sha1 = "dc14fd72ceab853bc36d4aace8d4875144e97b57"
+git-tree-sha1 = "18f1f130619068d6461e61e11e78b887c5f860f5"
 uuid = "ce719bf2-d5d0-4fb9-925d-10a81b42ad04"
-version = "0.8.0"
+version = "0.9.1"
 
 [[deps.PackageCompiler]]
 deps = ["Artifacts", "LazyArtifacts", "Libdl", "Pkg", "Printf", "RelocatableFolders", "TOML", "UUIDs"]
@@ -5617,9 +5617,9 @@ weakdeps = ["BandedMatrices", "DiffEqCallbacks", "ForwardDiff", "StructArrays"]
 
 [[deps.Sundials]]
 deps = ["CEnum", "DataStructures", "DiffEqBase", "Libdl", "LinearAlgebra", "Logging", "PrecompileTools", "Reexport", "SciMLBase", "SparseArrays", "Sundials_jll"]
-git-tree-sha1 = "a982ee85e1908d39f58d7fff670e60f991ca2ddb"
+git-tree-sha1 = "528eb960e5791ce00a05967d04c6a88230f5ac3b"
 uuid = "c3572dad-4567-51f8-b174-8c6c989267f4"
-version = "4.19.0"
+version = "4.19.1"
 
 [[deps.Sundials_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "OpenBLAS_jll", "Pkg", "SuiteSparse_jll"]
@@ -6316,10 +6316,10 @@ uuid = "35661453-b289-5fab-8a00-3d9160c6a3a4"
 version = "1.4.6+0"
 
 [[deps.Xorg_xkeyboard_config_jll]]
-deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg", "Xorg_xkbcomp_jll"]
-git-tree-sha1 = "5c8424f8a67c3f2209646d4425f3d415fee5931d"
+deps = ["Artifacts", "JLLWrappers", "Libdl", "Xorg_xkbcomp_jll"]
+git-tree-sha1 = "691634e5453ad362044e2ad653e79f3ee3bb98c3"
 uuid = "33bec58e-1273-512f-9401-5d533626f822"
-version = "2.27.0+4"
+version = "2.39.0+0"
 
 [[deps.Xorg_xtrans_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
@@ -6465,9 +6465,9 @@ version = "5.8.0+0"
 
 [[deps.libcxxwrap_julia_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
-git-tree-sha1 = "db6cccc5c48abdb41795a3b6556e32a548143c66"
+git-tree-sha1 = "ea2efe174cfcf1b4d1d3e7476c8c5d65493a16cd"
 uuid = "3eaa8342-bff7-56a5-9981-c04077f7cee7"
-version = "0.9.7+1"
+version = "0.9.7+2"
 
 [[deps.libfdk_aac_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -6495,9 +6495,9 @@ version = "3.6.4+0"
 
 [[deps.libsingular_julia_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Singular_jll", "libcxxwrap_julia_jll"]
-git-tree-sha1 = "cae7750a9ed154b187dba3535b0433beb2d9ca6f"
+git-tree-sha1 = "570efd31cc866c54fffb5ccf05f87d9fae257feb"
 uuid = "ae4fbd8f-ecdb-54f8-bbce-35570499b30e"
-version = "0.34.0+0"
+version = "0.34.0+1"
 
 [[deps.libsixel_jll]]
 deps = ["Artifacts", "JLLWrappers", "JpegTurbo_jll", "Libdl", "Pkg", "libpng_jll"]
