@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=DocFetcher
+Icon=/home/aidishage/myenv/src/DocFetcher/DocFetcher.app/Contents/Resources/DocFetcher.icns
+Exec=/home/aidishage/myenv/src/DocFetcher/DocFetcher-GTK3.sh
+Comment=PDF Scan
+Categories=Development;
+Terminal=false
