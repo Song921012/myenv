@@ -36,6 +36,9 @@
 34. Dism++
 35. Duplicate
 36. JiJiDownForWPF
+37. dngrep全文搜索软件[dnGrep/dnGrep: Graphical GREP tool for Windows](https://github.com/dnGrep/dnGrep)
+[DocFetcher-文件快速搜索](https://docfetcher.sourceforge.io/zh/download.html)
+
 
 [还在忍受低效的Windows资源管理器吗？多标签文件夹软件对比_软件应用_什么值得买](https://post.smzdm.com/p/ag4gzpxd/)
 ### 常用软件
