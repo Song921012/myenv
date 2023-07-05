@@ -6021,13 +6021,14 @@ version = "3.6.0"
     Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 [[deps.Unitful]]
-deps = ["ConstructionBase", "Dates", "LinearAlgebra", "Random"]
-git-tree-sha1 = "ba4aa36b2d5c98d6ed1f149da916b3ba46527b2b"
+deps = ["Dates", "LinearAlgebra", "Random"]
+git-tree-sha1 = "c4d2a349259c8eba66a00a540d550f122a3ab228"
 uuid = "1986cc42-f94f-5a68-af5c-568840ba703d"
-version = "1.14.0"
-weakdeps = ["InverseFunctions"]
+version = "1.15.0"
+weakdeps = ["ConstructionBase", "InverseFunctions"]
 
     [deps.Unitful.extensions]
+    ConstructionBaseUnitfulExt = "ConstructionBase"
     InverseFunctionsUnitfulExt = "InverseFunctions"
 
 [[deps.UnitfulLatexify]]
@@ -6473,9 +6474,9 @@ version = "5.8.0+0"
 
 [[deps.libcxxwrap_julia_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
-git-tree-sha1 = "ea2efe174cfcf1b4d1d3e7476c8c5d65493a16cd"
+git-tree-sha1 = "922c664611fa46d1a644f224de7318ddc0fab53c"
 uuid = "3eaa8342-bff7-56a5-9981-c04077f7cee7"
-version = "0.9.7+2"
+version = "0.9.7+3"
 
 [[deps.libfdk_aac_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
