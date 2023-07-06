@@ -88,7 +88,7 @@ function julia_up{
 julia -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'
 }
 
-New-Alias juliaup julia_up
+New-Alias juliaupdate julia_up
 
 # pythonup
 function python_up{

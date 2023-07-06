@@ -29,7 +29,7 @@ alias refreshall="up && quartoup && rustupdate && juliaup && pythonup
 alias up="sudo apt update && sudo apt upgrade"
 alias gitup="vpnon && source ~/myenv/gitup.sh && vpnoff"
 alias quartoup="source ~/myenv/quartoup.sh"
-alias juliaup="julia -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
+alias juliaupdate="julia -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
 alias juliainstall="source ~/myenv/install_julia.sh && install_julia"
 alias juliadevup="juliadev -e 'using Pkg;using Dates;Pkg.update();Pkg.gc(collect_delay = Day(0))'"
 alias juliadevinstall="source ~/myenv/install_julia.sh && install_julia_dev"
