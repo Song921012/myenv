@@ -334,9 +334,9 @@ version = "0.1.29"
 
 [[deps.ArrayLayouts]]
 deps = ["FillArrays", "LinearAlgebra", "SparseArrays"]
-git-tree-sha1 = "9e5ad0f651c1be8a355e4d327e9cb3bc135d1b73"
+git-tree-sha1 = "057a264e4b2d61d35cabb6984b89082f05549725"
 uuid = "4c555306-a7a7-4459-81d9-ec55ddd5c99a"
-version = "1.0.8"
+version = "1.0.9"
 
 [[deps.ArrayTools]]
 git-tree-sha1 = "ca8c5218f18c5318827fdb1881f370249610f8d2"
@@ -412,9 +412,9 @@ version = "0.3.7"
 
 [[deps.BandedMatrices]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra", "PrecompileTools", "SparseArrays"]
-git-tree-sha1 = "3c63ab5fb851444fb018b97883cfd79ae044e888"
+git-tree-sha1 = "206e78eb10c9aaee4e73962b1cbd0ecf688d4b49"
 uuid = "aae01518-5342-5314-be14-df237901396f"
-version = "0.17.29"
+version = "0.17.30"
 
 [[deps.BangBang]]
 deps = ["Compat", "ConstructionBase", "InitialValues", "LinearAlgebra", "Requires", "Setfield", "Tables"]
@@ -1433,9 +1433,9 @@ version = "0.1.17"
 
 [[deps.DomainIntegrals]]
 deps = ["CompositeTypes", "DomainSets", "FastGaussQuadrature", "GaussQuadrature", "HCubature", "IntervalSets", "LinearAlgebra", "QuadGK", "StaticArrays"]
-git-tree-sha1 = "0b0425701a4b9b0b9da831d834e2580af35b321a"
+git-tree-sha1 = "12b085bc1703d949539e333f823eaa875c60b03e"
 uuid = "cc6bae93-f070-4015-88fd-838f9505a86c"
-version = "0.4.3"
+version = "0.4.4"
 
 [[deps.DomainSets]]
 deps = ["CompositeTypes", "IntervalSets", "LinearAlgebra", "Random", "StaticArrays", "Statistics"]
@@ -2048,9 +2048,9 @@ version = "1.3.1"
 
 [[deps.GlobalSensitivity]]
 deps = ["Combinatorics", "Copulas", "Distributions", "FFTW", "ForwardDiff", "KernelDensity", "LinearAlgebra", "Parameters", "QuasiMonteCarlo", "Random", "RecursiveArrayTools", "Statistics", "StatsBase", "ThreadsX", "Trapz"]
-git-tree-sha1 = "189083f31ff5bc5d53936e38bf4ad5ce71874ba0"
+git-tree-sha1 = "e5484bc811d0335814e3f7d3815dcea19d261fbc"
 uuid = "af5da776-676b-467e-8baf-acd8249e4f0f"
-version = "2.2.0"
+version = "2.2.1"
 
 [[deps.GraphMakie]]
 deps = ["DataStructures", "GeometryBasics", "Graphs", "LinearAlgebra", "Makie", "NetworkLayout", "PolynomialRoots", "SimpleTraits", "StaticArrays"]
@@ -2220,9 +2220,9 @@ version = "0.2.6"
 
 [[deps.HypergeometricFunctions]]
 deps = ["DualNumbers", "LinearAlgebra", "OpenLibm_jll", "SpecialFunctions"]
-git-tree-sha1 = "0ec02c648befc2f94156eaef13b0f38106212f3f"
+git-tree-sha1 = "ce7ea9cc5db29563b1fe20196b6d23ab3b111384"
 uuid = "34004b35-14d8-5ef3-9330-4cdb6864b03a"
-version = "0.3.17"
+version = "0.3.18"
 
 [[deps.Hyperscript]]
 deps = ["Test"]
@@ -3429,9 +3429,9 @@ weakdeps = ["FiniteDiff", "FiniteDifferences", "ForwardDiff", "ReverseDiff", "Zy
 
 [[deps.Manifolds]]
 deps = ["Distributions", "Einsum", "Graphs", "HybridArrays", "Kronecker", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "MatrixEquations", "Quaternions", "Random", "RecursiveArrayTools", "Requires", "SimpleWeightedGraphs", "SpecialFunctions", "StaticArrays", "Statistics", "StatsBase"]
-git-tree-sha1 = "1a131c6810b91ac48aa944c4fef97147018f3f63"
+git-tree-sha1 = "908300249395639aaf41df3aff3ca660f3641c90"
 uuid = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
-version = "0.8.72"
+version = "0.8.73"
 weakdeps = ["BoundaryValueDiffEq", "Colors", "DiffEqCallbacks", "NLsolve", "OrdinaryDiffEq", "RecipesBase", "Test"]
 
     [deps.Manifolds.extensions]
@@ -3444,9 +3444,9 @@ weakdeps = ["BoundaryValueDiffEq", "Colors", "DiffEqCallbacks", "NLsolve", "Ordi
 
 [[deps.ManifoldsBase]]
 deps = ["LinearAlgebra", "Markdown", "Random"]
-git-tree-sha1 = "f18657d430e64950bc2ba63688aa48a98b8aad5e"
+git-tree-sha1 = "e242f8b0a6e128a637807691425cb86af07df857"
 uuid = "3362f125-f0bb-47a3-aa74-596ffd7ef2fb"
-version = "0.14.7"
+version = "0.14.8"
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "Printf", "Random", "Requires", "SparseArrays", "Statistics", "Test"]
@@ -3747,9 +3747,9 @@ version = "0.10.1"
 
 [[deps.NLPModelsModifiers]]
 deps = ["FastClosures", "LinearAlgebra", "LinearOperators", "NLPModels", "Printf", "SparseArrays"]
-git-tree-sha1 = "5ee9e61fc20b3f485b60dccdc20c3bb1538a3a62"
+git-tree-sha1 = "c75316189a76d44aec0b0cb3cd2803d4aea14a8c"
 uuid = "e01155f1-5c6f-4375-a9d8-616dd036575f"
-version = "0.6.5"
+version = "0.6.6"
 
 [[deps.NLSolversBase]]
 deps = ["DiffResults", "Distributed", "FiniteDiff", "ForwardDiff"]
@@ -4090,6 +4090,7 @@ version = "0.2.18"
 [[deps.Optimization]]
 deps = ["ADTypes", "ArrayInterface", "ConsoleProgressMonitor", "DocStringExtensions", "LinearAlgebra", "Logging", "LoggingExtras", "Pkg", "Printf", "ProgressLogging", "Reexport", "Requires", "SciMLBase", "SparseArrays", "TerminalLoggers"]
 git-tree-sha1 = "80005bc7d96d4d00e56b8a58c5240a35bd638d4a"
+pinned = true
 uuid = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
 version = "3.15.2"
 weakdeps = ["Enzyme", "FiniteDiff", "ForwardDiff", "ModelingToolkit", "ReverseDiff", "Tracker", "Zygote"]
@@ -5111,9 +5112,9 @@ version = "0.3.3"
 
 [[deps.SciMLSensitivity]]
 deps = ["Adapt", "ArrayInterface", "Cassette", "ChainRulesCore", "DiffEqBase", "DiffEqCallbacks", "DiffEqNoiseProcess", "DiffRules", "Distributions", "EllipsisNotation", "Enzyme", "FiniteDiff", "ForwardDiff", "FunctionWrappersWrappers", "GPUArraysCore", "LinearAlgebra", "LinearSolve", "Markdown", "OrdinaryDiffEq", "Parameters", "PreallocationTools", "QuadGK", "Random", "RandomNumbers", "RecursiveArrayTools", "Reexport", "ReverseDiff", "SciMLBase", "SciMLOperators", "SimpleNonlinearSolve", "SparseDiffTools", "StaticArraysCore", "Statistics", "StochasticDiffEq", "Tracker", "TruncatedStacktraces", "Zygote", "ZygoteRules"]
-git-tree-sha1 = "98df72cd8c70c9d2ab13440a56148b033a3218cc"
+git-tree-sha1 = "258fa91a0b3c1b1c6d6c46d3d6ae296462cd2fea"
 uuid = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
-version = "7.33.1"
+version = "7.34.0"
 
 [[deps.ScientificTypes]]
 deps = ["CategoricalArrays", "ColorTypes", "Dates", "Distributions", "PrettyTables", "Reexport", "ScientificTypesBase", "StatisticalTraits", "Tables"]
@@ -5248,9 +5249,9 @@ version = "1.4.0"
 
 [[deps.Singular]]
 deps = ["AbstractAlgebra", "BinaryWrappers", "CxxWrap", "Libdl", "LinearAlgebra", "Nemo", "Pidfile", "Pkg", "Random", "RandomExtensions", "Singular_jll", "Statistics", "lib4ti2_jll", "libsingular_julia_jll"]
-git-tree-sha1 = "c0ba4be88dec48685f516dae59ae4790dccc778e"
+git-tree-sha1 = "446e780a2fc1c3075201c69f94a576e2046ebfc1"
 uuid = "bcd08a7b-43d2-5ff7-b6d4-c458787f915c"
-version = "0.18.6"
+version = "0.18.8"
 
 [[deps.Singular_jll]]
 deps = ["Artifacts", "FLINT_jll", "GMP_jll", "JLLWrappers", "Libdl", "MPFR_jll", "cddlib_jll"]
@@ -5562,9 +5563,9 @@ version = "0.15.5"
 
 [[deps.SteadyStateDiffEq]]
 deps = ["DiffEqBase", "DiffEqCallbacks", "LinearAlgebra", "NLsolve", "Reexport", "SciMLBase"]
-git-tree-sha1 = "564451a262696334a3bab19108a99dd90d5a22c8"
+git-tree-sha1 = "6e801d0da4c81d9cd6a05d97340404f9892fba85"
 uuid = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
-version = "1.15.0"
+version = "1.16.0"
 
 [[deps.Stheno]]
 deps = ["AbstractGPs", "BlockArrays", "ChainRulesCore", "KernelFunctions", "LinearAlgebra", "MacroTools", "Random", "Reexport"]
@@ -5974,9 +5975,9 @@ version = "0.1.0"
 
 [[deps.TruncatedStacktraces]]
 deps = ["InteractiveUtils", "MacroTools", "Preferences"]
-git-tree-sha1 = "7bc1632a4eafbe9bd94cf1a784a9a4eb5e040a91"
+git-tree-sha1 = "ea3e54c2bdde39062abf5a9758a23735558705e1"
 uuid = "781d530d-4396-4725-bb49-402e4bee1e77"
-version = "1.3.0"
+version = "1.4.0"
 
 [[deps.Tulip]]
 deps = ["CodecBzip2", "CodecZlib", "Krylov", "LDLFactorizations", "LinearAlgebra", "LinearOperators", "Logging", "MathOptInterface", "Printf", "QPSReader", "SparseArrays", "SuiteSparse", "TOML", "Test", "TimerOutputs"]
@@ -6534,9 +6535,9 @@ version = "3.6.4+0"
 
 [[deps.libsingular_julia_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Singular_jll", "libcxxwrap_julia_jll"]
-git-tree-sha1 = "570efd31cc866c54fffb5ccf05f87d9fae257feb"
+git-tree-sha1 = "a4ca5f8b4e88a4634b46cc1673cdebe9ed949147"
 uuid = "ae4fbd8f-ecdb-54f8-bbce-35570499b30e"
-version = "0.34.0+1"
+version = "0.35.0+0"
 
 [[deps.libsixel_jll]]
 deps = ["Artifacts", "JLLWrappers", "JpegTurbo_jll", "Libdl", "Pkg", "libpng_jll"]
