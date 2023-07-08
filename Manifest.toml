@@ -3989,9 +3989,9 @@ version = "0.2.4"
 
 [[deps.OpenAI]]
 deps = ["Dates", "HTTP", "JSON3"]
-git-tree-sha1 = "23ec0ca2f59b8f18309794028e8f6a811f95e96a"
+git-tree-sha1 = "4e2fc776292aa449e83e54e52db31ff9c15ca278"
 uuid = "e9f21f70-7185-4079-aca2-91159181367c"
-version = "0.8.4"
+version = "0.8.5"
 
 [[deps.OpenBLAS32_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "Pkg"]
