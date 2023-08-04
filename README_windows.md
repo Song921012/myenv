@@ -1,5 +1,7 @@
 ## 电脑软件
+
 ### 基本软件
+
 1.  banzip压缩[Windows 版本的 Bandizip · 业内领先的压缩文件解决方案](https://cn.bandisoft.com/bandizip/)
 2. cccleaner清理[CCleaner Professional | Try the world’s most trusted PC cleaner, free!](https://www.ccleaner.com/ccleaner?ppc_code=c12&ppc=e&source=cpc&gclid=CjwKCAjw_tWRBhAwEiwALxFPoda37SYdrmIYCc4FeJNK6qc4XtnvRh5D17VWgVe1HRCG4p8kcskwKRoCstoQAvD_BwE)
 3. listary Utools[uTools官网 - 新一代效率工具平台](https://u.tools/)
@@ -41,8 +43,11 @@
 
 
 [还在忍受低效的Windows资源管理器吗？多标签文件夹软件对比_软件应用_什么值得买](https://post.smzdm.com/p/ag4gzpxd/)
+
 ### 常用软件
+
 #### 电脑浏览器
+
 edge自动同步
 
 以及插件
@@ -77,13 +82,17 @@ Scholarscope
 RSSHub Radar
 
 Grammarly
+
 #### Obsidian
+
 插件配置
 
 #### Zotero以及Readpaper
+
 配置插件以及同步
 
 zotero同步，把数据库存储位置复制过去即可
+
 #### writing
 
 ##### texlab
@@ -93,12 +102,20 @@ tectonic
 ##### quarto
 
 ##### Office套装
+
 ##### PDF套装
+
 ##### texlive套装
+
 texlive+texstudio, latex languagetool配置
-[[Latex笔记]]
+
+[对TexStudio配置拼写和语法检查LanguageTool功能](https://dgrt.cn/a/1708395.html?action=onClick)
+
+
 ##### Xmind
+
 xmind
+
 ##### mathtype
 
 ##### neovim
@@ -180,18 +197,22 @@ hexo
 
 
 #### vscode/cursor
+
 自动同步
 
 
 #### anaconda 与python
+
 [[conda操作]]
 
 [[Python学习笔记]]
 
 #### Julia
+
 同步简单[[Julia学习笔记]]
 
 #### R+Rstudio
+
 [[R语言学习笔记]]
 
 #### Matlab
@@ -200,6 +221,7 @@ hexo
 #### Git+hexo配置
 
 ### Thunderbird
+
 [Ubuntu下使用Thunderbird收发QQ邮箱_进击的小宇宙的博客-CSDN博客](https://blog.csdn.net/zy13608089849/article/details/79196164)
 
 [西安交通大学学生邮箱设置_666BOY666的博客-CSDN博客](https://blog.csdn.net/qq_31963169/article/details/121710840)
