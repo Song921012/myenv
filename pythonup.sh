@@ -23,7 +23,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-united-kingdom-p
 # 
 pip install -U radian conan flake8 pylint yapf huggingface-hub\
   SAlib deepxde streamlit plotly-express\
-  tensorflow tensorflow-probability gplearn gpflow\
+  tensorflow gplearn gpflow\
   pyecharts plotly dash nodepy seaborn keplergl\
   biopython mesa 
 ## inference and optimization
@@ -32,12 +32,14 @@ pip install -U Casadi pints elfi POT lifelines Pulp pysindy pykoopman pykoop\
   pyomo gekko dymos leafmap darts pydeck nlopt \
    dm-haiku pyMetaheuristic emcee quadpy scalene casadi-horizon bayesnewton ruptures
 ## torch
-pip install -U gpytorch botorch  torchdyn torchgan torchsde torchcde torchdiffeq \
+pip install -U gpytorch botorch  torchdyn torchgan torchcde torchdiffeq \
  torchmetrics torchopt pytorch-lightning  pyro-ppl sbi storchastic
 #pip install -U pytorch-forecasting neuralprophet
 ## jax
 pip install -U objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax \
- flax numpyro jaxns funsor ott neural-tangents efax probdiffeq 
+ flax numpyro jaxns funsor ott neural-tangents efax probdiffeq
+ 
+#pip install -U objax torchsde tensorflow-probability
 
 pip install lineax
  
