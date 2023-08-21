@@ -74,11 +74,9 @@ Thunderbird
 
 [kingToolbox/WindTerm: A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal.](https://github.com/kingToolbox/WindTerm)
 
-
 - 输入法: pop!_Os自带ibus就很好, 添加个字典库[Linux下ibus输入法词库扩展_ibus 词库_Mr Allen的博客-CSDN博客](https://allen-zhu.blog.csdn.net/article/details/110288578?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-110288578-blog-84463354.235%5Ev35%5Epc_relevant_increate_t0_download_v2_base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-110288578-blog-84463354.235%5Ev35%5Epc_relevant_increate_t0_download_v2_base&utm_relevant_index=2)
 
 ibus记得修改以下配置,把各类词典和云词典加上
-
 
 # Setup Linux Environment
 
@@ -312,6 +310,11 @@ rm -rf ~/.cache/vimfiles/repos/github.com/*
 ```
 xrandr --output HDMI-0 --brightness
 ```
+
+- firefox下载xpi文件
+
+Alternatively you can set the Boolean pref browser.altClickSave to true on the about:config page.
+Then you can hold down the Alt key and left-click a link.
 
 # Other applications
 
