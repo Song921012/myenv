@@ -73,8 +73,13 @@ function git_up{
 powershell.exe -noexit "& 'C:\Users\12475\Desktop\myenv\gitup.ps1'"
 }
 
+function git_zoteroup{
+powershell.exe -noexit "& 'C:\Users\12475\Desktop\myenv\zoterogitsync.ps1'"
+}
+
 New-Alias gitsync git_sync
 New-Alias gitup git_up
+New-Alias zoteroup git_zoteroup
 
 function vpngit_up{
 vpnon
