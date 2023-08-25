@@ -30,7 +30,9 @@ pip install -U radian conan flake8 pylint yapf huggingface-hub SAlib deepxde str
 pip install -U Casadi pints elfi POT lifelines Pulp pysindy pykoopman pykoop mosek cvxopt pysr pmlb HROCH pydmd cvxpy probnum POT pyomo gekko dymos
 
 ## torch
-pip install -U gpytorch botorch  torchdyn torchgan torchsde torchcde torchdiffeq torchmetrics torchopt pytorch-lightning  pyro-ppl sbi storchastic
+pip install -U gpytorch botorch  torchgan torchdiffeq torchmetrics torchopt pytorch-lightning  pyro-ppl sbi storchastic
+
+#pip install torchsde torchcde torchdyn
 
 pip install osmnx pyecharts_snapshot
 
