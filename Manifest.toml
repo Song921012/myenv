@@ -2472,9 +2472,9 @@ version = "0.4.1"
 
 [[deps.InfiniteArrays]]
 deps = ["ArrayLayouts", "FillArrays", "Infinities", "LazyArrays", "LinearAlgebra"]
-git-tree-sha1 = "3d48980ed8e9cb751b6152c9ec63bf7c167ed302"
+git-tree-sha1 = "cdf72ddf0403f204c14749ce438fafc5b64c47ea"
 uuid = "4858937d-0d70-526a-a4dd-2d5cb5dd786c"
-version = "0.13.0"
+version = "0.13.1"
 weakdeps = ["DSP", "Statistics"]
 
     [deps.InfiniteArrays.extensions]
@@ -2723,9 +2723,15 @@ version = "2.1.91+0"
 
 [[deps.JuMP]]
 deps = ["LinearAlgebra", "MathOptInterface", "MutableArithmetics", "OrderedCollections", "Printf", "SnoopPrecompile", "SparseArrays"]
-git-tree-sha1 = "3cacc9aa90f3313e0375b1c4ac4641c8d57349ef"
+git-tree-sha1 = "f09279ee9b4f80aaacaf2ac801429dd0c16c57ed"
 uuid = "4076af6c-e467-56ae-b986-b466b2749572"
-version = "1.13.0"
+version = "1.14.0"
+
+    [deps.JuMP.extensions]
+    JuMPDimensionalDataExt = "DimensionalData"
+
+    [deps.JuMP.weakdeps]
+    DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
 
 [[deps.JuliaFormatter]]
 deps = ["CSTParser", "CommonMark", "DataStructures", "Glob", "Pkg", "PrecompileTools", "Tokenize"]
@@ -3303,10 +3309,10 @@ uuid = "2fda8390-95c7-5789-9bda-21331edee243"
 version = "0.13.0"
 
 [[deps.Lux]]
-deps = ["ADTypes", "ChainRulesCore", "ConcreteStructs", "Functors", "LinearAlgebra", "LuxCore", "LuxDeviceUtils", "LuxLib", "Markdown", "Optimisers", "PackageExtensionCompat", "Random", "Reexport", "Setfield", "SparseArrays", "Statistics", "TruncatedStacktraces", "WeightInitializers"]
-git-tree-sha1 = "882138ec1db47de6fecefd347665cafa25d5da8b"
+deps = ["ADTypes", "Adapt", "ChainRulesCore", "ConcreteStructs", "Functors", "LinearAlgebra", "LuxCore", "LuxDeviceUtils", "LuxLib", "Markdown", "Optimisers", "PackageExtensionCompat", "Random", "Reexport", "Setfield", "SparseArrays", "Statistics", "TruncatedStacktraces", "WeightInitializers"]
+git-tree-sha1 = "2d9956ba484e78c6285f8ffb30d02fc2e7addd36"
 uuid = "b2108857-7c20-44ae-9111-449ecde12c47"
-version = "0.5.2"
+version = "0.5.3"
 
     [deps.Lux.extensions]
     LuxComponentArraysExt = "ComponentArrays"
@@ -3337,9 +3343,9 @@ version = "0.1.5"
 
 [[deps.LuxDeviceUtils]]
 deps = ["Adapt", "ChainRulesCore", "Functors", "LuxCore", "PackageExtensionCompat", "Preferences", "Random", "SparseArrays"]
-git-tree-sha1 = "b2c6c9e81d3d430e084058fbe795ef9d074bf226"
+git-tree-sha1 = "e67d2206f6f05f534dccbed1df2b60e452ce4d0d"
 uuid = "34f89e08-e1d5-43b4-8944-0b49ac560553"
-version = "0.1.6"
+version = "0.1.7"
 
     [deps.LuxDeviceUtils.extensions]
     LuxDeviceUtilsComponentArraysExt = "ComponentArrays"
@@ -3449,9 +3455,9 @@ version = "0.4.4"
 
 [[deps.MLJ]]
 deps = ["CategoricalArrays", "ComputationalResources", "Distributed", "Distributions", "LinearAlgebra", "MLJBase", "MLJEnsembles", "MLJFlow", "MLJIteration", "MLJModels", "MLJTuning", "OpenML", "Pkg", "ProgressMeter", "Random", "Reexport", "ScientificTypes", "Statistics", "StatsBase", "Tables"]
-git-tree-sha1 = "1c20aaf741638fc6e185d7ded132b71ebe201cbc"
+git-tree-sha1 = "193f1f1ac77d91eabe1ac81ff48646b378270eef"
 uuid = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
-version = "0.19.4"
+version = "0.19.5"
 
 [[deps.MLJBase]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "ComputationalResources", "Dates", "DelimitedFiles", "Distributed", "Distributions", "InteractiveUtils", "InvertedIndices", "LinearAlgebra", "LossFunctions", "MLJModelInterface", "Missings", "OrderedCollections", "Parameters", "PrettyTables", "ProgressMeter", "Random", "ScientificTypes", "Serialization", "StatisticalTraits", "Statistics", "StatsBase", "Tables"]
