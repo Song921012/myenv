@@ -133,6 +133,11 @@ export KNITRODIR="/opt/knitro-13.1.0-Linux-64"
 #Gurobi
 export PATH=$PATH:/opt/gurobi952/linux64/bin
 
+#mojo
+
+export MODULAR_HOME="/home/aidishage/.modular"
+export PATH="/home/aidishage/.modular/pkg/packages.modular.com_mojo/bin:$PATH"
+
 # PETSC
 #export PETSC_ARCH=arch-linux-c-debug
 #export PETSC_DIR=$HOME/myenv/src/petsc
