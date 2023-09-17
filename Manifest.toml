@@ -78,9 +78,9 @@ weakdeps = ["ChainRulesCore", "Test"]
 
 [[deps.AbstractGPs]]
 deps = ["ChainRulesCore", "Distributions", "FillArrays", "IrrationalConstants", "KernelFunctions", "LinearAlgebra", "PDMats", "Random", "RecipesBase", "Reexport", "Statistics", "StatsBase", "Test"]
-git-tree-sha1 = "64c52bd66b5c8f777b0c34a77a471e7b864c2cba"
+git-tree-sha1 = "10feade61b071ee3f8be0638cbe0a0050eceb57c"
 uuid = "99985d1d-32ba-4be9-9821-2ec096f28918"
-version = "0.5.17"
+version = "0.5.18"
 
 [[deps.AbstractLattices]]
 git-tree-sha1 = "f35684b7349da49fcc8a9e520e30e45dbb077166"
@@ -2984,9 +2984,9 @@ uuid = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 
 [[deps.LazyBandedMatrices]]
 deps = ["ArrayLayouts", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "FillArrays", "LazyArrays", "LinearAlgebra", "MatrixFactorizations", "SparseArrays", "StaticArrays"]
-git-tree-sha1 = "7ac1d1cd3bcabe70f2ff34e8891cbe17468c8cae"
+git-tree-sha1 = "6df81fede1a9604dc44c81da4be8b3aef900c02f"
 uuid = "d7e5e226-e90b-4449-9968-0f923699bf6f"
-version = "0.9.1"
+version = "0.9.2"
 
 [[deps.LazyModules]]
 git-tree-sha1 = "a560dd966b386ac9ae60bdd3a3d3a326062d3c3e"
@@ -5269,9 +5269,9 @@ version = "0.3.6"
 
 [[deps.SciMLSensitivity]]
 deps = ["ADTypes", "Adapt", "ArrayInterface", "Cassette", "ChainRulesCore", "DiffEqBase", "DiffEqCallbacks", "DiffEqNoiseProcess", "DiffRules", "Distributions", "EllipsisNotation", "Enzyme", "FiniteDiff", "ForwardDiff", "FunctionWrappersWrappers", "GPUArraysCore", "LinearAlgebra", "LinearSolve", "Markdown", "OrdinaryDiffEq", "Parameters", "PreallocationTools", "QuadGK", "Random", "RandomNumbers", "RecursiveArrayTools", "Reexport", "ReverseDiff", "SciMLBase", "SciMLOperators", "SimpleNonlinearSolve", "SparseDiffTools", "StaticArraysCore", "Statistics", "StochasticDiffEq", "Tracker", "TruncatedStacktraces", "Zygote", "ZygoteRules"]
-git-tree-sha1 = "dd225a880a9bcd1a862fb9ea540731a70cccb338"
+git-tree-sha1 = "a40975e29fb2a311f41f8541b12020f205e9e0e9"
 uuid = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
-version = "7.38.0"
+version = "7.39.0"
 
 [[deps.ScientificTypes]]
 deps = ["CategoricalArrays", "ColorTypes", "Dates", "Distributions", "PrettyTables", "Reexport", "ScientificTypesBase", "StatisticalTraits", "Tables"]
@@ -5626,9 +5626,9 @@ version = "4.3.1"
 
 [[deps.StanSample]]
 deps = ["CSV", "CompatHelperLocal", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "JSON", "LazyArtifacts", "NamedTupleTools", "OrderedCollections", "Parameters", "Random", "Reexport", "Requires", "Serialization", "StanBase", "TableOperations", "Tables", "Unicode"]
-git-tree-sha1 = "fe24115225f108e2eb9c87d3fe38694af0ff272a"
+git-tree-sha1 = "711fcff4fdf8aec014dcd4a32c4a016e19dabdeb"
 uuid = "c1514b29-d3a0-5178-b312-660c88baa699"
-version = "7.4.2"
+version = "7.4.3"
 
     [deps.StanSample.extensions]
     AxisKeysExt = "AxisKeys"
