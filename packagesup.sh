@@ -16,7 +16,7 @@ myenv
 myenv
 cd cmdstan
 git pull
-make -j6 build  
+make -j20 build  
 ## Ipopt
 #myenv
 #cd Ipopt
