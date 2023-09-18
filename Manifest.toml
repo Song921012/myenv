@@ -11,9 +11,9 @@ uuid = "54578032-b7ea-4c30-94aa-7cbd1cce6c9a"
 version = "0.7.0"
 
 [[deps.ADTypes]]
-git-tree-sha1 = "f2b16fe1a3491b295105cae080c2a5f77a842718"
+git-tree-sha1 = "5d2e21d7b0d8c22f67483ef95ebdc39c0e6b6003"
 uuid = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
-version = "0.2.3"
+version = "0.2.4"
 
 [[deps.AMD]]
 deps = ["LinearAlgebra", "SparseArrays", "SuiteSparse_jll"]
@@ -3798,9 +3798,9 @@ version = "0.7.7"
 
 [[deps.ModelingToolkit]]
 deps = ["AbstractTrees", "ArrayInterface", "Combinatorics", "Compat", "ConstructionBase", "DataStructures", "DiffEqBase", "DiffEqCallbacks", "DiffRules", "Distributed", "Distributions", "DocStringExtensions", "DomainSets", "ForwardDiff", "FunctionWrappersWrappers", "Graphs", "IfElse", "InteractiveUtils", "JuliaFormatter", "JumpProcesses", "LabelledArrays", "Latexify", "Libdl", "LinearAlgebra", "MLStyle", "MacroTools", "NaNMath", "OrdinaryDiffEq", "PrecompileTools", "RecursiveArrayTools", "Reexport", "RuntimeGeneratedFunctions", "SciMLBase", "Serialization", "Setfield", "SimpleNonlinearSolve", "SparseArrays", "SpecialFunctions", "StaticArrays", "SymbolicIndexingInterface", "SymbolicUtils", "Symbolics", "URIs", "UnPack", "Unitful"]
-git-tree-sha1 = "086b3ffdf1611f19b5aa7d89e3cfdd1ff08663d0"
+git-tree-sha1 = "c5ae46b489c8ad029b5b3e76d3264485b43f4378"
 uuid = "961ee093-0014-501f-94e3-6117800e7a78"
-version = "8.69.0"
+version = "8.69.1"
 weakdeps = ["DeepDiffs"]
 
     [deps.ModelingToolkit.extensions]
@@ -4109,9 +4109,9 @@ version = "0.5.4"
 
 [[deps.Octavian]]
 deps = ["CPUSummary", "IfElse", "LoopVectorization", "ManualMemory", "PolyesterWeave", "PrecompileTools", "Static", "StaticArrayInterface", "ThreadingUtilities", "VectorizationBase"]
-git-tree-sha1 = "367cc0806a3cc4132136072be75874223a201f62"
+git-tree-sha1 = "97ff84599dadd9ca9e54d22dd4bebcc4d0bdce93"
 uuid = "6fd5a793-0b7e-452c-907f-f8bfe9c57db4"
-version = "0.3.25"
+version = "0.3.26"
 
     [deps.Octavian.extensions]
     ForwardDiffExt = "ForwardDiff"
