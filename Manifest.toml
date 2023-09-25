@@ -1271,9 +1271,9 @@ version = "0.8.8"
 
 [[deps.DelayDiffEq]]
 deps = ["ArrayInterface", "DataStructures", "DiffEqBase", "LinearAlgebra", "Logging", "OrdinaryDiffEq", "Printf", "RecursiveArrayTools", "Reexport", "SciMLBase", "SimpleNonlinearSolve", "SimpleUnPack"]
-git-tree-sha1 = "89f3fbfe78f9d116d1ed0721d65b0b2cf9b36169"
+git-tree-sha1 = "92f9967824241fe37d02e6dd76afb73b562a3fcf"
 uuid = "bcd4f6db-9728-5f36-b5f7-82caef46ccdb"
-version = "5.42.0"
+version = "5.43.0"
 
 [[deps.DelayEmbeddings]]
 deps = ["Distances", "Distributions", "LinearAlgebra", "Neighborhood", "Random", "Reexport", "StateSpaceSets", "Statistics", "StatsBase"]
@@ -1360,9 +1360,9 @@ weakdeps = ["OrdinaryDiffEq", "Sundials"]
 
 [[deps.DiffEqDevTools]]
 deps = ["DiffEqBase", "DiffEqNoiseProcess", "Distributed", "LinearAlgebra", "Logging", "NLsolve", "RecipesBase", "RecursiveArrayTools", "RootedTrees", "SciMLBase", "Statistics"]
-git-tree-sha1 = "920aa65ef1c888917df3a184de57809bf340e23d"
+git-tree-sha1 = "c6fa194ce4549adc6ff1140eac9a2a8b4cb94262"
 uuid = "f3b72e0c-5b89-59e1-b016-84e28bfd966d"
-version = "2.37.0"
+version = "2.38.0"
 
 [[deps.DiffEqFlux]]
 deps = ["Adapt", "ChainRulesCore", "ConsoleProgressMonitor", "DataInterpolations", "DiffEqBase", "Distributions", "DistributionsAD", "Flux", "ForwardDiff", "Functors", "LinearAlgebra", "Logging", "LoggingExtras", "LuxCore", "Printf", "ProgressLogging", "Random", "RecursiveArrayTools", "Reexport", "SciMLBase", "SciMLSensitivity", "TerminalLoggers", "Zygote", "ZygoteRules"]
@@ -1400,9 +1400,9 @@ weakdeps = ["ReverseDiff"]
 
 [[deps.DiffEqParamEstim]]
 deps = ["Calculus", "Dierckx", "DiffEqBase", "Distributions", "LinearAlgebra", "PenaltyFunctions", "PreallocationTools", "RecursiveArrayTools", "SciMLBase"]
-git-tree-sha1 = "18419c960b6249b636a89d9e9ad7601c43d45095"
+git-tree-sha1 = "e6c7b5f4d57430bc411d426b939db24cb3e27b84"
 uuid = "1130ab10-4a5a-5621-a13d-e4788d82bd4c"
-version = "2.0.1"
+version = "2.1.0"
 
 [[deps.DiffResults]]
 deps = ["StaticArraysCore"]
@@ -1607,9 +1607,9 @@ version = "0.11.8"
 
 [[deps.EnzymeCore]]
 deps = ["Adapt"]
-git-tree-sha1 = "643995502bdfff08bf080212c92430510be01ad5"
+git-tree-sha1 = "3250001c57b9a3e18e1e5a257fb9ec2c012286c6"
 uuid = "f151be2c-9106-41f4-ab19-57ee4f262869"
-version = "0.5.2"
+version = "0.5.3"
 
 [[deps.Enzyme_jll]]
 deps = ["Artifacts", "JLLWrappers", "LazyArtifacts", "Libdl", "TOML"]
@@ -2946,20 +2946,16 @@ version = "4.4.0"
 
 [[deps.Latexify]]
 deps = ["Formatting", "InteractiveUtils", "LaTeXStrings", "MacroTools", "Markdown", "OrderedCollections", "Printf", "Requires"]
-git-tree-sha1 = "8c57307b5d9bb3be1ff2da469063628631d4d51e"
+git-tree-sha1 = "f428ae552340899a935973270b8d98e5a31c49fe"
 uuid = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
-version = "0.15.21"
+version = "0.16.1"
 
     [deps.Latexify.extensions]
     DataFramesExt = "DataFrames"
-    DiffEqBiologicalExt = "DiffEqBiological"
-    ParameterizedFunctionsExt = "DiffEqBase"
     SymEngineExt = "SymEngine"
 
     [deps.Latexify.weakdeps]
     DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-    DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-    DiffEqBiological = "eb300fae-53e8-50a0-950c-e21f52c2b7e0"
     SymEngine = "123dc426-2d89-5057-bbad-38513e3affd8"
 
 [[deps.LatinHypercubeSampling]]
@@ -3420,9 +3416,9 @@ version = "1.9.4+0"
 
 [[deps.MAT]]
 deps = ["BufferedStreams", "CodecZlib", "HDF5", "SparseArrays"]
-git-tree-sha1 = "79fd0b5ee384caf8ebba6c8fb3f365ca3e2c5493"
+git-tree-sha1 = "ed1cf0a322d78cee07718bed5fd945e2218c35a1"
 uuid = "23992714-dd62-5051-b70f-ba57cb901cac"
-version = "0.10.5"
+version = "0.10.6"
 
 [[deps.MCMCChains]]
 deps = ["AbstractMCMC", "AxisArrays", "Dates", "Distributions", "Formatting", "IteratorInterfaceExtensions", "KernelDensity", "LinearAlgebra", "MCMCDiagnosticTools", "MLJModelInterface", "NaturalSort", "OrderedCollections", "PrettyTables", "Random", "RecipesBase", "Statistics", "StatsBase", "StatsFuns", "TableTraits", "Tables"]
@@ -3684,9 +3680,9 @@ version = "1.2.0"
 
 [[deps.MathOptInterface]]
 deps = ["BenchmarkTools", "CodecBzip2", "CodecZlib", "DataStructures", "ForwardDiff", "JSON", "LinearAlgebra", "MutableArithmetics", "NaNMath", "OrderedCollections", "PrecompileTools", "Printf", "SparseArrays", "SpecialFunctions", "Test", "Unicode"]
-git-tree-sha1 = "8bfc1519e9de0564d378b3886b21b9a2f04cbdb5"
+git-tree-sha1 = "5c9f1e635e8d491297e596b56fec1c95eafb95a3"
 uuid = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-version = "1.20.0"
+version = "1.20.1"
 
 [[deps.MathProgBase]]
 deps = ["LinearAlgebra", "SparseArrays"]
@@ -4529,9 +4525,9 @@ version = "1.50.14+0"
 
 [[deps.ParameterizedFunctions]]
 deps = ["DataStructures", "DiffEqBase", "DocStringExtensions", "Latexify", "LinearAlgebra", "ModelingToolkit", "Reexport", "SciMLBase"]
-git-tree-sha1 = "78ab7ecc18b307e00abba28bb29d7ed6bf11b9f7"
+git-tree-sha1 = "611f224132a79ea476621178be37174681e7d93e"
 uuid = "65888b18-ceab-5e60-b2b9-181511a3b968"
-version = "5.15.0"
+version = "5.16.0"
 
 [[deps.Parameters]]
 deps = ["OrderedCollections", "UnPack"]
@@ -5639,22 +5635,22 @@ uuid = "cae243ae-269e-4f55-b966-ac2d0dc13c15"
 version = "0.1.1"
 
 [[deps.StanBase]]
-deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "Documenter", "JSON", "NamedTupleTools", "OrderedCollections", "Parameters", "Random", "Unicode"]
-git-tree-sha1 = "2eb75d957bc160d3e3f5f2c6fe140754318aac1e"
+deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "JSON", "NamedTupleTools", "OrderedCollections", "Parameters", "Random", "Unicode"]
+git-tree-sha1 = "69c914d59381c8ae48264df426cc8faaf266449e"
 uuid = "d0ee94f6-a23d-54aa-bbe9-7f572d6da7f5"
-version = "4.8.2"
+version = "4.8.3"
 
 [[deps.StanDiagnose]]
-deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "Documenter", "Random", "Reexport", "StanBase", "Statistics", "Test", "Unicode"]
-git-tree-sha1 = "20fb34d0072098aafcfa00f593404444890bda2f"
+deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "Random", "Reexport", "StanBase", "Statistics", "Test", "Unicode"]
+git-tree-sha1 = "1c72c746bfa0ff0806b448b02e77a6854c449948"
 uuid = "fb13fc95-9a72-5e81-90ef-432a29d7f4c2"
-version = "4.4.3"
+version = "4.4.4"
 
 [[deps.StanOptimize]]
-deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "Documenter", "NamedTupleTools", "Parameters", "Random", "Reexport", "StanBase", "Statistics", "Test", "Unicode"]
-git-tree-sha1 = "eb551990072731c7f46826f70c857f45b75a6572"
+deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "NamedTupleTools", "Parameters", "Random", "Reexport", "StanBase", "Statistics", "Test", "Unicode"]
+git-tree-sha1 = "296c81c225a4f1199a50e5978fe3c2b63338ae2f"
 uuid = "fbd8da12-e93d-5a64-9231-612a0707ab99"
-version = "4.3.2"
+version = "4.3.3"
 
 [[deps.StanSample]]
 deps = ["CSV", "CompatHelperLocal", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "JSON", "LazyArtifacts", "NamedTupleTools", "OrderedCollections", "Parameters", "Random", "Reexport", "Requires", "Serialization", "StanBase", "TableOperations", "Tables", "Unicode"]
@@ -5675,10 +5671,10 @@ version = "7.4.4"
     MonteCarloMeasurements = "0987c9cc-fe09-11e8-30f0-b96dd679fdca"
 
 [[deps.StanVariational]]
-deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "Documenter", "NamedTupleTools", "Parameters", "Reexport", "StanBase", "StanSample", "Statistics", "Unicode"]
-git-tree-sha1 = "035fee8154b5100eebd274f8e8ccc28ff76e36e9"
+deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "NamedTupleTools", "Parameters", "Reexport", "StanBase", "StanSample", "Statistics", "Unicode"]
+git-tree-sha1 = "a587d43913dd3cc8bed8eb2aa7f1eacc6070c0e8"
 uuid = "6ede68ce-8466-5085-8a79-4c4de3d9cf4a"
-version = "4.3.3"
+version = "4.3.4"
 
 [[deps.StateSpaceSets]]
 deps = ["Distances", "LinearAlgebra", "Neighborhood", "Random", "StaticArraysCore", "Statistics"]
@@ -5790,9 +5786,9 @@ version = "0.15.6"
 
 [[deps.SteadyStateDiffEq]]
 deps = ["DiffEqBase", "DiffEqCallbacks", "LinearAlgebra", "NLsolve", "Reexport", "SciMLBase"]
-git-tree-sha1 = "6e801d0da4c81d9cd6a05d97340404f9892fba85"
+git-tree-sha1 = "2ca69f4be3294e4cd987d83d6019037d420d9fc1"
 uuid = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
-version = "1.16.0"
+version = "1.16.1"
 
 [[deps.Stheno]]
 deps = ["AbstractGPs", "BlockArrays", "ChainRulesCore", "KernelFunctions", "LinearAlgebra", "MacroTools", "Random", "Reexport"]
@@ -5938,9 +5934,9 @@ version = "0.3.0"
 
 [[deps.SymPy]]
 deps = ["CommonEq", "CommonSolve", "Latexify", "LinearAlgebra", "Markdown", "PyCall", "RecipesBase", "SpecialFunctions"]
-git-tree-sha1 = "ed1605d9415cccb50e614b8fe0035753877b5303"
+git-tree-sha1 = "6bc4008d820ae7deff195f85474d065907c08df2"
 uuid = "24249f21-da20-56a4-8eb1-6a02cf4ae2e6"
-version = "1.1.12"
+version = "1.1.13"
 weakdeps = ["SymbolicUtils"]
 
     [deps.SymPy.extensions]
