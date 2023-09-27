@@ -38,9 +38,9 @@ pip install -U gpytorch botorch torchgan torchdiffeq \
 #pip install torchsde torchcde torchdyn
 ## jax
 pip install -U objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax \
- flax numpyro jaxns funsor ott neural-tangents efax probdiffeq
+ flax numpyro jaxns funsor ott efax probdiffeq
  
-#pip install -U objax torchsde tensorflow-probability
+#pip install -U objax torchsde tensorflow-probability neural-tangents
 
 pip install lineax
  
