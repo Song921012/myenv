@@ -1,5 +1,5 @@
 echo "myenv"
-cd C:\Users\12475\Desktop\myenv
+cd C:\Users\aidishage\Desktop\myenv
 git pull
 git add -A
 git commit -m "update"
@@ -7,7 +7,7 @@ git push
 
 
 echo "my working paper"
-cd C:\Users\12475\Desktop\MyPapersNotes
+cd C:\Users\aidishage\Desktop\MyPapersNotes
 git pull
 git add -A
 git commit -m "update"
@@ -23,7 +23,7 @@ git push
 
 
 echo "my study book"
-cd C:\Users\12475\Desktop\MyStudyBook
+cd C:\Users\aidishage\Desktop\MyStudyBook
 git pull
 git add -A
 git commit -m "update"
@@ -31,7 +31,7 @@ git push
 
 
 echo "my notes"
-cd C:\Users\12475\Desktop\MyObsidianNotes
+cd C:\Users\aidishage\Desktop\MyObsidianNotes
 git pull
 git add -A
 git commit -m "update"
@@ -39,7 +39,7 @@ git push
 
 
 echo "otherfiles"
-cd C:\Users\12475\Desktop\Otherfiles
+cd C:\Users\aidishage\Desktop\Otherfiles
 git pull
 git add -A
 git commit -m "update"
@@ -47,38 +47,37 @@ git push
 
 
 echo "completed papers"
-cd C:\Users\12475\Desktop\CompletedPapers
+cd C:\Users\aidishage\Desktop\CompletedPapers
 git pull
 git add -A
 git commit -m "update"
 git push
 echo "MyProjects"
-cd C:\Users\12475\Desktop\MyProjects\CognitiveModel.jl
+cd C:\Users\aidishage\Desktop\MyProjects\CognitiveModel.jl
 git pull
 git add -A
 git commit -m "update"
 git push
 
-cd C:\Users\12475\Desktop\MyProjects\EpiUQSurvey
+cd C:\Users\aidishage\Desktop\MyProjects\EpiUQSurvey
 git pull
 git add -A
 git commit -m "update"
 git push
 
-
-cd C:\Users\12475\Desktop\MyProjects\DelayEpiDeepL
+cd C:\Users\aidishage\Desktop\MyProjects\DelayEpiDeepL
 git pull
 git add -A
 git commit -m "update"
 git push
 
-cd C:\Users\12475\Desktop\MyProjects\EpiDiscovery
+cd C:\Users\aidishage\Desktop\MyProjects\EpiDiscovery
 git pull
 git add -A
 git commit -m "update"
 git push
 
-cd C:\Users\12475\Desktop\MyProjects\EstimatingRtNeuralSDE.jl
+cd C:\Users\aidishage\Desktop\MyProjects\EstimatingRtNeuralSDE.jl
 git pull
 git add -A
 git commit -m "update"
