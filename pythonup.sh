@@ -28,7 +28,7 @@ pip install -U radian conan flake8 pylint yapf huggingface-hub\
   biopython mesa 
 ## inference and optimization
 pip install -U Casadi pints elfi POT lifelines Pulp pysindy pykoopman pykoop\
- mosek cvxopt smcp pysr pmlb HROCH pyoperon pydmd cvxpy probnum POT pylops pyproximal abcpy pyabc\
+ mosek cvxopt smcp pysr pmlb HROCH pyoperon pydmd cvxpy probnum POT pylops pyproximal pyabc\
   pyomo gekko dymos leafmap darts pydeck nlopt \
    dm-haiku pyMetaheuristic emcee quadpy scalene casadi-horizon bayesnewton ruptures
 ## torch
@@ -53,6 +53,7 @@ pip install --upgrade "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-re
 # Installs the wheel compatible with Cuda >= 11.4 and cudnn >= 8.2
 #conda install jax cuda-nvcc -c conda-forge -c nvidia
 #pip install -U "jax[cuda11_cudnn82]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
 #conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 #pip install -U torch torchvision torchaudio
 #pip install -U torch --extra-index-url https://download.pytorch.org/whl/cu116
