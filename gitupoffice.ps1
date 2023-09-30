@@ -15,7 +15,7 @@ git push
 
 
 echo "my personal files"
-cd D:\aidishage\MyPersonalFiles
+cd D:\aidishage\Desktop\MyPersonalFiles
 git pull
 git add -A
 git commit -m "update"
