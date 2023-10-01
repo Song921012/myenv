@@ -5,6 +5,6 @@
 #toInstall <- setdiff(installedPreviously, baseR)
 #install.packages(toInstall)
 
-pkgs<-readRDS("~/myenv/Rpkgs.rds")
+pkgs<-readRDS("C:/Users/aidishage/Desktop/myenv/Rpkgs.rds")
 
 install.packages(rownames(pkgs))

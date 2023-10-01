@@ -40,18 +40,22 @@ conda install -c conda-forge armadillo gcc gxx
 conda install -c conda-forge boost 
 conda install -c conda-forge gsl 
 conda install -c conda-forge py-xgboost 
-conda install -c conda-forge mpi4py
+conda install -c conda-forge mpi4py mpich
+conda install -c conda-forge glmnet
+conda install pybind11 -c conda-forge
 #conda install -c conda-forge dcgp-python # dcgp
 
 pip install Numpy Pandas Matplotlib scipy sympy statsmodels radian flake8 pylint yapf virtualenv jupyter_contrib_nbextensions nbconvert rich pygments scikit-learn DistanceClassifier pmlb eigency seaborn deap icecream
 ## pip3 install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.14.0-py3-none-any.whl
 ## xgboost, randomforest, lgbm, adaboost
 ## HROCH feat ellyn pysr pstree bingo pyopern gplearn bayesr ffx
-pip install HROCH ffx lightgbm  pysr pstree pyoperon gplearn git+https://github.com/ying531/MCMC-SymReg.git bingo-nasa 
+pip install HROCH lightgbm  pysr pstree pyoperon gplearn git+https://github.com/ying531/MCMC-SymReg.git bingo-nasa 
 pip install git+https://github.com/cavalab/feat.git 
 pip install git+https://github.com/cavalab/ellyn.git
 
-## GP-GOMEA
+## Fiail: feat ffx GP-GOMEA
+
+## GP-GOMEA(fail)
 myenv
 git clone https://github.com/marcovirgolin/GP-GOMEA.git
 cd GP-GOMEA
@@ -70,7 +74,7 @@ pip install git+https://github.com/alcides/GeneticEngine.git
 pip install feyn
 
 ## TaylorGP
-pip install git+https://github.com/KGAE-CUP/TaylorGP.git
+pip install git+https://github.com/Song921012/TaylorGP.git
 
 ## E2ET
 pip install git+https://github.com/pakamienny/sympytorch.git@rationals
@@ -83,9 +87,10 @@ pip install git+https://github.com/pakamienny/e2e_transformer.git
 ### 从SRBENCH下载源码，然后安装，并安装torch
 
 ## dc-gp
-conda create -n dcgp -c conda-forge dcgp-python
+conda create -n dcgp -c conda-forge dcgp-python symengine=0.9
+conda activate dcgp
+pip install Numpy Pandas Matplotlib scipy sympy statsmodels radian flake8 pylint yapf virtualenv jupyter_contrib_nbextensions nbconvert rich pygments scikit-learn DistanceClassifier pmlb eigency seaborn deap icecream
 conda deactivate
-
 ## Deep SR
 
 conda create -n deepsr -c conda-forge python=3.7 jupyter jupyterlab tensorflow=1.14 mpich pylint
@@ -93,10 +98,10 @@ conda deactivate && conda activate deepsr
 myenv
 git clone https://github.com/brendenpetersen/deep-symbolic-optimization.git
 cd deep-symbolic-optimization
-pip install "./dso[all]"
+pip install -e ./dso"[all]"
 #failure后再
 conda install -c conda-forge mpi4py
-pip install "./dso[all]"
+pip install -e ./dso"[all]"
 
 #myenv
 #if [ -d deep-symbolic-regression ] ; then

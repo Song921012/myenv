@@ -141,7 +141,8 @@ sudo apt-get install graphviz pandoc inkscape screenkey
 sudo apt install libeigen3-dev libadolc-dev universal-ctags  # eigen3 adolc
 sudo apt-get install -y gnuplot # gnuplot
 sudo apt-get install coinor-libipopt-dev
-sudo apt install paraview flex patchelf
+sudo apt install paraview flex patchelf libgmp-dev
+sudo apt install make build-essential autotools-dev libicu-dev libbz2-dev cmake ninja-build ccache pkg-config libarmadillo-dev python3-dev python3-distutils python3-numpy libboost-all-dev python3-pybind11
 #wget https://apt.llvm.org/llvm.sh                                                                                       
 #chmod +x llvm.sh
 #sudo ./llvm.sh all
