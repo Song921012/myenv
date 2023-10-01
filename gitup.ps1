@@ -52,6 +52,66 @@ git pull
 git add -A
 git commit -m "update"
 git push
+
+echo "WebsitesBooksAwesome"
+
+echo "AI4ScienceBook"
+cd  C:\Users\12475\Desktop\WebBookPapers\AI4ScienceBook
+git pull
+git add -A
+git commit -m "update"
+git push
+echo "MathepiaBook"
+cd  C:\Users\12475\Desktop\WebBookPapers\MathepiaBook
+git pull
+git add -A
+git commit -m "update"
+git push
+echo "MyWebsite"
+cd  C:\Users\12475\Desktop\WebBookPapers\MyWebsite
+git pull
+git add -A
+git commit -m "update"
+git push
+echo "MathepiaWebsite"
+cd  C:\Users\12475\Desktop\WebBookPapers\Mathepia
+git pull
+git add -A
+git commit -m "update"
+git push
+echo "MathepiaPrograms"
+cd  C:\Users\12475\Desktop\WebBookPapers\MathepiaPrograms
+git pull
+git add -A
+git commit -m "update"
+git push
+echo "awesome-sciml"
+cd  C:\Users\12475\Desktop\WebBookPapers\awesome-sciml
+git pull
+git add -A
+git commit -m "update"
+git push
+echo "MathepiaTutorial"
+cd  C:\Users\12475\Desktop\WebBookPapers\MathepiaTutorial
+git pull
+git add -A
+git commit -m "update"
+git push
+echo "MathEpiTutorial"
+cd  C:\Users\12475\Desktop\WebBookPapers\MathEpiDeepLearningTutorial
+git pull
+git add -A
+git commit -m "update"
+git push
+
+echo "chatgpt-sciml"
+cd  C:\Users\12475\Desktop\WebBookPapers\chatgpt-sciml
+git pull
+git add -A
+git commit -m "update"
+git push
+
+
 echo "MyProjects"
 cd C:\Users\12475\Desktop\MyProjects\CognitiveModel.jl
 git pull
@@ -79,6 +139,13 @@ git commit -m "update"
 git push
 
 cd C:\Users\12475\Desktop\MyProjects\EstimatingRtNeuralSDE.jl
+git pull
+git add -A
+git commit -m "update"
+git push
+
+cd C:\Users\12475\Desktop\MyProjects\MathepiaModels.jl
+
 git pull
 git add -A
 git commit -m "update"

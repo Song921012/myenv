@@ -34,21 +34,7 @@ echo "test_repo"
 cd ~/Desktop/Test_repo
 git pull
 git add -A && git commit -m "update" && git push
-echo "MyProjects"
-## git push projects working on
-cd ~/.julia/dev/Mathepia.jl
-git pull
-cd ~/.julia/dev/MathepiaData.jl
-git pull
-cd ~/.julia/dev/MathepiaInference.jl
-git pull
-cd ~/.julia/dev/MathepiaOptimal.jl
-git pull
-cd ~/.julia/dev/MathepiaModels.jl
-git pull
-cd ~/.julia/dev/OptLibrary.jl
-git pull
-cd
+
 echo "completed papers"
 cd ~/Desktop/WebBookPapers/CompletedPapers
 git pull
@@ -95,6 +81,22 @@ echo "chatgpt-sciml"
 cd /home/aidishage/Desktop/MyProjects/chatgpt-sciml
 git pull
 git add -A && git commit -m "update" && git push
+
+
+echo "MyProjects"
+## git push projects working on
+cd ~/.julia/dev/Mathepia.jl
+git pull
+cd ~/.julia/dev/MathepiaData.jl
+git pull
+cd ~/.julia/dev/MathepiaInference.jl
+git pull
+cd ~/.julia/dev/MathepiaOptimal.jl
+git pull
+cd ~/.julia/dev/MathepiaModels.jl
+git pull
+cd ~/.julia/dev/OptLibrary.jl
+git pull
 
 echo "Done"
 cd
