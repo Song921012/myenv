@@ -1811,9 +1811,9 @@ version = "1.16.1"
 
 [[deps.FilePathsBase]]
 deps = ["Compat", "Dates", "Mmap", "Printf", "Test", "UUIDs"]
-git-tree-sha1 = "e27c4ebe80e8699540f2d6c805cc12203b614f12"
+git-tree-sha1 = "9f00e42f8d99fdde64d40c8ea5d14269a2e2c1aa"
 uuid = "48062228-2e41-5def-b9a4-89aafe57970f"
-version = "0.9.20"
+version = "0.9.21"
 
 [[deps.FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
@@ -2304,9 +2304,9 @@ version = "0.4.16"
 
 [[deps.HyperbolicCrossApprox]]
 deps = ["ChebyshevApprox", "LinearAlgebra", "SmolyakApprox", "ThreadPools"]
-git-tree-sha1 = "14807edbc721bd55acfff53ee52af64b4c462e4a"
+git-tree-sha1 = "0943469d75469a80d8c761616ebcba8ba412d8d6"
 uuid = "db4fe9aa-a353-4142-ac3f-608941c5a4fc"
-version = "0.2.6"
+version = "0.2.7"
 
 [[deps.HypergeometricFunctions]]
 deps = ["DualNumbers", "LinearAlgebra", "OpenLibm_jll", "SpecialFunctions"]
@@ -2504,9 +2504,9 @@ weakdeps = ["DSP", "Statistics"]
 
 [[deps.InfiniteLinearAlgebra]]
 deps = ["ArrayLayouts", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "FillArrays", "InfiniteArrays", "LazyArrays", "LazyBandedMatrices", "LinearAlgebra", "MatrixFactorizations", "SemiseparableMatrices"]
-git-tree-sha1 = "9673030911cf3b7a64b2c9d810fed1f8765a3bed"
+git-tree-sha1 = "690ae79c5b0c7bc9153f98181d7f42ea733980d0"
 uuid = "cde9dba0-b1de-11e9-2c62-0bab9446c55c"
-version = "0.7.0"
+version = "0.7.1"
 
 [[deps.InfiniteOpt]]
 deps = ["AbstractTrees", "DataStructures", "Distributions", "FastGaussQuadrature", "JuMP", "LeftChildRightSiblingTrees", "LinearAlgebra", "MutableArithmetics", "Reexport", "SpecialFunctions"]
@@ -3507,9 +3507,9 @@ version = "0.5.1"
 
 [[deps.MLJLinearModels]]
 deps = ["DocStringExtensions", "IterativeSolvers", "LinearAlgebra", "LinearMaps", "MLJModelInterface", "Optim", "Parameters"]
-git-tree-sha1 = "c92bf0ea37bf51e1ef0160069c572825819748b8"
+git-tree-sha1 = "7f517fd840ca433a8fae673edb31678ff55d969c"
 uuid = "6ee0df7b-362f-4a72-a706-9e79364fb692"
-version = "0.9.2"
+version = "0.10.0"
 
 [[deps.MLJModelInterface]]
 deps = ["Random", "ScientificTypesBase", "StatisticalTraits"]
@@ -4229,9 +4229,9 @@ version = "0.3.1"
 
 [[deps.OpenMPI_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "MPIPreferences", "TOML"]
-git-tree-sha1 = "f3080f4212a8ba2ceb10a34b938601b862094314"
+git-tree-sha1 = "e25c1778a98e34219a00455d6e4384e017ea9762"
 uuid = "fe0851c0-eecd-5654-98d4-656369965a5c"
-version = "4.1.5+0"
+version = "4.1.6+0"
 
 [[deps.OpenSSH_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "OpenSSL_jll", "Pkg", "Zlib_jll"]
@@ -4418,9 +4418,9 @@ version = "0.1.4"
 
 [[deps.PDMats]]
 deps = ["LinearAlgebra", "SparseArrays", "SuiteSparse"]
-git-tree-sha1 = "bf6085e8bd7735e68c210c6e5d81f9a6fe192060"
+git-tree-sha1 = "b7c4f29f93b548caa58f703580f4d79ab753c8ac"
 uuid = "90014a1f-27ba-587c-ab20-58faa44d9150"
-version = "0.11.19"
+version = "0.11.21"
 
 [[deps.PGFPlotsX]]
 deps = ["ArgCheck", "Dates", "DefaultApplication", "DocStringExtensions", "MacroTools", "OrderedCollections", "Parameters", "Requires", "Tables"]
@@ -4734,9 +4734,9 @@ version = "0.1.2"
 
 [[deps.PolynomialBases]]
 deps = ["ArgCheck", "AutoHashEquals", "FFTW", "FastGaussQuadrature", "LinearAlgebra", "Requires", "SimpleUnPack", "SpecialFunctions"]
-git-tree-sha1 = "f83125eeab135df4d101492cd570f2f30690b294"
+git-tree-sha1 = "aa1877430a7e8b0c7a35ea095c415d462af0870f"
 uuid = "c74db56a-226d-5e98-8bb0-a6049094aeea"
-version = "0.4.20"
+version = "0.4.21"
 
 [[deps.PolynomialRoots]]
 git-tree-sha1 = "5f807b5345093487f733e520a1b7395ee9324825"
@@ -5492,9 +5492,9 @@ version = "0.1.3"
 
 [[deps.SmolyakApprox]]
 deps = ["ChebyshevApprox", "LinearAlgebra", "ThreadPools"]
-git-tree-sha1 = "c7a43772da8d008906f68fe3baa2333831f02a9e"
+git-tree-sha1 = "914828a4f350555eeb7ccb3e4ce709e06684a29e"
 uuid = "6b19cf85-48de-5d9d-bfff-465abea14fab"
-version = "0.2.3"
+version = "0.2.4"
 
 [[deps.Smoothers]]
 deps = ["Dierckx"]
@@ -5664,9 +5664,9 @@ version = "4.3.3"
 
 [[deps.StanSample]]
 deps = ["CSV", "CompatHelperLocal", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "JSON", "LazyArtifacts", "NamedTupleTools", "OrderedCollections", "Parameters", "Random", "Reexport", "Requires", "Serialization", "StanBase", "TableOperations", "Tables", "Unicode"]
-git-tree-sha1 = "99376200bd9914dfc44ffdcee4fce9268a68ba91"
+git-tree-sha1 = "05f2b5548c5e2fc206c744773e6fcb89a2ecc5f4"
 uuid = "c1514b29-d3a0-5178-b312-660c88baa699"
-version = "7.4.4"
+version = "7.4.5"
 
     [deps.StanSample.extensions]
     AxisKeysExt = "AxisKeys"
@@ -6111,9 +6111,9 @@ version = "0.1.11"
 
 [[deps.TiffImages]]
 deps = ["ColorTypes", "DataStructures", "DocStringExtensions", "FileIO", "FixedPointNumbers", "IndirectArrays", "Inflate", "Mmap", "OffsetArrays", "PkgVersion", "ProgressMeter", "UUIDs"]
-git-tree-sha1 = "b7dc44cb005a7ef743b8fe98970afef003efdce7"
+git-tree-sha1 = "7fd97bd1c5b1ff53a291cbd351d1d3d6ff4da5a5"
 uuid = "731e570b-9d59-4bfa-96dc-6df516fadf69"
-version = "0.6.6"
+version = "0.6.7"
 
 [[deps.TiledIteration]]
 deps = ["OffsetArrays", "StaticArrayInterface"]
