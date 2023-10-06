@@ -257,15 +257,15 @@ version = "0.9.17"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
-git-tree-sha1 = "872f236d5a0c6dd69c41517ab2471a6755aeacf4"
+git-tree-sha1 = "c86f7aaaa273fb09eac9e59f48d362877d4d6df9"
 uuid = "59844689-9c9d-51bf-9583-5b794ec66d30"
-version = "0.3.23"
+version = "0.3.24"
 
 [[deps.ApproxFunOrthogonalPolynomials]]
 deps = ["ApproxFunBase", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "DomainSets", "FastGaussQuadrature", "FastTransforms", "FillArrays", "HalfIntegers", "IntervalSets", "LinearAlgebra", "OddEvenIntegers", "Reexport", "SpecialFunctions", "StaticArrays"]
-git-tree-sha1 = "bd548de5ef31ffa54b2a62bc871e57e6379d5df0"
+git-tree-sha1 = "0f7d866ead044b35880ab498414e43557e83f131"
 uuid = "b70543e2-c0d9-56b8-a290-0d4d6d4de211"
-version = "0.6.47"
+version = "0.6.48"
 weakdeps = ["Polynomials", "Static"]
 
     [deps.ApproxFunOrthogonalPolynomials.extensions]
@@ -717,9 +717,9 @@ version = "1.0.5"
 
 [[deps.CairoMakie]]
 deps = ["Base64", "Cairo", "Colors", "FFTW", "FileIO", "FreeType", "GeometryBasics", "LinearAlgebra", "Makie", "PrecompileTools", "SHA"]
-git-tree-sha1 = "6f2fa27e8609b72e97e36ede7e6aa981d8c7c98d"
+git-tree-sha1 = "74384dc4aba2b377e22703e849154252930c434d"
 uuid = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
-version = "0.10.10"
+version = "0.10.11"
 
 [[deps.Cairo_jll]]
 deps = ["Artifacts", "Bzip2_jll", "CompilerSupportLibraries_jll", "Fontconfig_jll", "FreeType2_jll", "Glib_jll", "JLLWrappers", "LZO_jll", "Libdl", "Pixman_jll", "Pkg", "Xorg_libXext_jll", "Xorg_libXrender_jll", "Zlib_jll", "libpng_jll"]
@@ -1432,9 +1432,9 @@ uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 [[deps.DistributedArrays]]
 deps = ["Distributed", "LinearAlgebra", "Primes", "Random", "Serialization", "SparseArrays", "Statistics"]
-git-tree-sha1 = "8b73f8289d73306e3fc04e8622a2db562e01cd07"
+git-tree-sha1 = "8a2950a2a7fcc87d9d9f07433a96bfa70394a3e6"
 uuid = "aaf54ef3-cdf8-58ed-94cc-d582ad619b94"
-version = "0.6.6"
+version = "0.6.7"
 
 [[deps.Distributions]]
 deps = ["FillArrays", "LinearAlgebra", "PDMats", "Printf", "QuadGK", "Random", "SpecialFunctions", "Statistics", "StatsAPI", "StatsBase", "StatsFuns", "Test"]
@@ -1630,9 +1630,9 @@ version = "0.6.1"
 
 [[deps.EvoTrees]]
 deps = ["BSON", "CUDA", "CategoricalArrays", "Distributions", "MLJModelInterface", "NetworkLayout", "Random", "RecipesBase", "Statistics", "StatsBase", "Tables"]
-git-tree-sha1 = "a1fa1d1743478394a0a7188d054b67546e4ca143"
+git-tree-sha1 = "7499356331862f6139296a0b58d8b64aec47a2bd"
 uuid = "f6006082-12f8-11e9-0c9c-0d5d367ab1e5"
-version = "0.16.1"
+version = "0.16.2"
 
 [[deps.Evolutionary]]
 deps = ["LinearAlgebra", "NLSolversBase", "Random", "StackViews", "Statistics", "UnPack"]
@@ -1990,9 +1990,9 @@ version = "1.8.3"
 
 [[deps.GLMakie]]
 deps = ["ColorTypes", "Colors", "FileIO", "FixedPointNumbers", "FreeTypeAbstraction", "GLFW", "GeometryBasics", "LinearAlgebra", "Makie", "Markdown", "MeshIO", "ModernGL", "Observables", "PrecompileTools", "Printf", "ShaderAbstractions", "StaticArrays"]
-git-tree-sha1 = "d7fe46f077c850f221c1f5b7b746a63c7e82b6b3"
+git-tree-sha1 = "b46b637cf3e1945354e77c016f867198b829d2f6"
 uuid = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
-version = "0.8.10"
+version = "0.8.11"
 
 [[deps.GLPK]]
 deps = ["GLPK_jll", "MathOptInterface"]
@@ -2262,9 +2262,9 @@ version = "2.8.1+1"
 
 [[deps.HiGHS]]
 deps = ["HiGHS_jll", "MathOptInterface", "PrecompileTools", "SparseArrays"]
-git-tree-sha1 = "c3606d14c59c33396df9d0c2664c92b1d6e66506"
+git-tree-sha1 = "92f5dc0dd0dffa7c1bb8485f1f6d99014d5b75a9"
 uuid = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
-version = "1.7.0"
+version = "1.7.1"
 
 [[deps.HiGHS_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl"]
@@ -2744,9 +2744,9 @@ version = "1.15.1"
 
 [[deps.JuliaFormatter]]
 deps = ["CSTParser", "CommonMark", "DataStructures", "Glob", "Pkg", "PrecompileTools", "Tokenize"]
-git-tree-sha1 = "d6bb89d51ec10f6b0110c2aa27721a0cf3d58c7d"
+git-tree-sha1 = "80031f6e58b09b0de4553bf63d9a36ec5db57967"
 uuid = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
-version = "1.0.38"
+version = "1.0.39"
 
 [[deps.JuliaInterpreter]]
 deps = ["CodeTracking", "InteractiveUtils", "Random", "UUIDs"]
@@ -3263,9 +3263,9 @@ uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 [[deps.LoggingExtras]]
 deps = ["Dates", "Logging"]
-git-tree-sha1 = "0d097476b6c381ab7906460ef1ef1638fbce1d91"
+git-tree-sha1 = "c1dd6d7978c12545b4179fb6153b9250c96b0075"
 uuid = "e6f89c97-d47a-5376-807f-9c37f3926c36"
-version = "1.0.2"
+version = "1.0.3"
 
 [[deps.LoopVectorization]]
 deps = ["ArrayInterface", "ArrayInterfaceCore", "CPUSummary", "CloseOpenIntervals", "DocStringExtensions", "HostCPUFeatures", "IfElse", "LayoutPointers", "LinearAlgebra", "OffsetArrays", "PolyesterWeave", "PrecompileTools", "SIMDTypes", "SLEEFPirates", "Static", "StaticArrayInterface", "ThreadingUtilities", "UnPack", "VectorizationBase"]
@@ -3418,9 +3418,9 @@ version = "6.0.3"
 
 [[deps.MCMCDiagnosticTools]]
 deps = ["AbstractFFTs", "DataAPI", "DataStructures", "Distributions", "LinearAlgebra", "MLJModelInterface", "Random", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns", "Tables"]
-git-tree-sha1 = "3e6db72c2ab9cadfa3278ff388473a01fc0cfb9d"
+git-tree-sha1 = "347f10bd635b9b5c9fd0ec0503a3e52c0b0a7a85"
 uuid = "be115224-59cd-429b-ad48-344e309966f0"
-version = "0.3.5"
+version = "0.3.6"
 
 [[deps.METIS_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -3585,15 +3585,15 @@ version = "0.5.11"
 
 [[deps.Makie]]
 deps = ["Animations", "Base64", "CRC32c", "ColorBrewer", "ColorSchemes", "ColorTypes", "Colors", "Contour", "DelaunayTriangulation", "Distributions", "DocStringExtensions", "Downloads", "FFMPEG_jll", "FileIO", "FixedPointNumbers", "Formatting", "FreeType", "FreeTypeAbstraction", "GeometryBasics", "GridLayoutBase", "ImageIO", "InteractiveUtils", "IntervalSets", "Isoband", "KernelDensity", "LaTeXStrings", "LinearAlgebra", "MacroTools", "MakieCore", "Markdown", "Match", "MathTeXEngine", "Observables", "OffsetArrays", "Packing", "PlotUtils", "PolygonOps", "PrecompileTools", "Printf", "REPL", "Random", "RelocatableFolders", "Setfield", "ShaderAbstractions", "Showoff", "SignedDistanceFields", "SparseArrays", "StableHashTraits", "Statistics", "StatsBase", "StatsFuns", "StructArrays", "TriplotBase", "UnicodeFun"]
-git-tree-sha1 = "cf10f4b9d09da50f124ab7bcb530e57f700328f0"
+git-tree-sha1 = "1d16d20279a145119899b4205258332f0fbeaa94"
 uuid = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
-version = "0.19.10"
+version = "0.19.11"
 
 [[deps.MakieCore]]
-deps = ["Observables"]
-git-tree-sha1 = "17d51182db2667962bc7e1d18b74881d0d0adbe6"
+deps = ["Observables", "REPL"]
+git-tree-sha1 = "a94bf3fef9c690a2a4ac1d09d86a59ab89c7f8e4"
 uuid = "20f20a25-4f0e-4fdf-b5d1-57303727442b"
-version = "0.6.7"
+version = "0.6.8"
 
 [[deps.Malt]]
 deps = ["Distributed", "Logging", "RelocatableFolders", "Serialization", "Sockets"]
@@ -4400,9 +4400,9 @@ version = "0.1.4"
 
 [[deps.PDMats]]
 deps = ["LinearAlgebra", "SparseArrays", "SuiteSparse"]
-git-tree-sha1 = "35882aa39079c44ea6c1f07827f98dc78bf1ce91"
+git-tree-sha1 = "528664265c9c36b3ecdb6d721d47aaab52ddf267"
 uuid = "90014a1f-27ba-587c-ab20-58faa44d9150"
-version = "0.11.22"
+version = "0.11.24"
 
 [[deps.PGFPlotsX]]
 deps = ["ArgCheck", "Dates", "DefaultApplication", "DocStringExtensions", "MacroTools", "OrderedCollections", "Parameters", "Requires", "Tables"]
@@ -5083,9 +5083,9 @@ version = "1.0.0"
 
 [[deps.ReplGPT]]
 deps = ["Markdown", "OpenAI", "Preferences", "ReplMaker"]
-git-tree-sha1 = "25b346180fa2e5d195f45ab9111cc83873be6415"
+git-tree-sha1 = "96c6ba1ef719510404f79cf7fe850008fda5c689"
 uuid = "8ef5fce9-1516-4e06-b171-18cb54ddb04b"
-version = "0.3.0"
+version = "0.4.0"
 
 [[deps.ReplMaker]]
 deps = ["REPL", "Unicode"]
@@ -5859,9 +5859,9 @@ version = "5.10.1+6"
 
 [[deps.SummationByPartsOperators]]
 deps = ["ArgCheck", "AutoHashEquals", "FFTW", "InteractiveUtils", "LinearAlgebra", "LoopVectorization", "MuladdMacro", "PolynomialBases", "PrecompileTools", "RecursiveArrayTools", "Reexport", "Requires", "SciMLBase", "SimpleUnPack", "SparseArrays", "StaticArrayInterface", "StaticArrays", "Unrolled"]
-git-tree-sha1 = "da7998ae81a3026f84f05e41747727a1db38be9f"
+git-tree-sha1 = "1b176d69efc152f75341349bd3694e4e67484ec9"
 uuid = "9f78cca6-572e-554e-b819-917d2f1cf240"
-version = "0.5.50"
+version = "0.5.51"
 weakdeps = ["BandedMatrices", "DiffEqCallbacks", "ForwardDiff", "StructArrays"]
 
     [deps.SummationByPartsOperators.extensions]
@@ -6174,9 +6174,9 @@ version = "0.4.78"
 
 [[deps.TransformVariables]]
 deps = ["ArgCheck", "ChangesOfVariables", "DocStringExtensions", "ForwardDiff", "InverseFunctions", "LinearAlgebra", "LogExpFunctions", "Pkg", "Random", "SimpleUnPack", "StaticArrays"]
-git-tree-sha1 = "f8a2c29e3ddcaedec620ff8210b7d6dde66b14c7"
+git-tree-sha1 = "7c0e90364b44cf6bb111b7fb26b61b97e8bcc176"
 uuid = "84d833dd-6860-57f9-a1a7-6da5db126cff"
-version = "0.8.7"
+version = "0.8.8"
 
 [[deps.TransmuteDims]]
 deps = ["Adapt", "ChainRulesCore", "GPUArraysCore", "LinearAlgebra", "Requires", "Strided"]
