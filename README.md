@@ -316,6 +316,10 @@ xrandr --output HDMI-0 --brightness
 Alternatively you can set the Boolean pref browser.altClickSave to true on the about:config page.
 Then you can hold down the Alt key and left-click a link.
 
+- conda
+
+[ImportError: DLL load failed while importing _ctypes: Can't find specified module. · Issue #12531 · conda/conda](https://github.com/conda/conda/issues/12531)
+
 # Other applications
 
 - 软件与更新
