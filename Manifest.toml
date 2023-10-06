@@ -2,7 +2,7 @@
 
 julia_version = "1.9.3"
 manifest_format = "2.0"
-project_hash = "e98d7059c5a7ab0f0147429a540f84c8ded12fc5"
+project_hash = "45a820314c54803492cfb7c758dede2bac99484a"
 
 [[deps.ADNLPModels]]
 deps = ["ColPack", "ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays"]
@@ -1073,12 +1073,6 @@ version = "0.1.3"
 git-tree-sha1 = "d05d9e7b7aedff4e5b51a029dced05cfb6125781"
 uuid = "d38c429a-6771-53c6-b99e-75d170b6e991"
 version = "0.6.2"
-
-[[deps.Convex]]
-deps = ["AbstractTrees", "BenchmarkTools", "LDLFactorizations", "LinearAlgebra", "MathOptInterface", "OrderedCollections", "SparseArrays", "Test"]
-git-tree-sha1 = "af4188609c0620ed4b0e4493ed416d3c8b2dadeb"
-uuid = "f65535da-76fb-5f13-bab9-19810c17039a"
-version = "0.15.3"
 
 [[deps.CoordinateTransformations]]
 deps = ["LinearAlgebra", "StaticArrays"]
@@ -2546,12 +2540,6 @@ deps = ["LinearAlgebra", "Test"]
 git-tree-sha1 = "50b41d59e7164ab6fda65e71049fee9d890731ff"
 uuid = "505f98c9-085e-5b2c-8e89-488be7bf1f34"
 version = "0.3.0"
-
-[[deps.InspectDR]]
-deps = ["Cairo", "Colors", "Graphics", "Gtk", "NumericIO", "Pkg", "Printf"]
-git-tree-sha1 = "17c53328ba0bab3fd19bf9c42387e484acf6740e"
-uuid = "d0351b0e-4b05-5898-87b3-e2a8edfddd1d"
-version = "0.4.3"
 
 [[deps.IntegerMathUtils]]
 git-tree-sha1 = "b8ffb903da9f7b8cf695a8bead8e01814aa24b30"
@@ -4113,12 +4101,6 @@ deps = ["ArrayInterface", "DiffEqBase", "EnumX", "FiniteDiff", "ForwardDiff", "L
 git-tree-sha1 = "e10debcea868cd6e51249e8eeaf191c25f68a640"
 uuid = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 version = "1.10.1"
-
-[[deps.NumericIO]]
-deps = ["Printf"]
-git-tree-sha1 = "5e2bd9bee8b55b754ca61386df207abbfc266ef6"
-uuid = "6c575b1c-77cb-5640-a5dc-a54116c90507"
-version = "0.3.2"
 
 [[deps.OSQP]]
 deps = ["Libdl", "LinearAlgebra", "MathOptInterface", "OSQP_jll", "SparseArrays"]
