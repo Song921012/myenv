@@ -78,6 +78,14 @@ Thunderbird
 
 ibus记得修改以下配置,把各类词典和云词典加上
 
+# Sync between Windows and Linux
+
+Windows: refresh, pythonup, nvim, julia, rustup update
+
+WSL2: vpnrefresh/vpnrefreshall, nvim, julia
+
+Linux: vpnrefresh, nvim, julia
+
 # Setup Linux Environment
 
 注意:特别针对的是POP!_os系统, Ubuntu和Debian系应该也是适用的
