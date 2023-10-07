@@ -25,5 +25,6 @@ pip3 install --no-cache-dir roltrilinos
 pip3 install --no-cache-dir ROL
 pip3 install git+https://github.com/fireshape/fireshape.git
 cd
+deactivate
 source ~/.zshrc
 
