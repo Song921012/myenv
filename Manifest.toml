@@ -241,9 +241,9 @@ version = "0.201.500+0"
 
 [[deps.ApproxFun]]
 deps = ["AbstractFFTs", "ApproxFunBase", "ApproxFunFourier", "ApproxFunOrthogonalPolynomials", "ApproxFunSingularities", "Calculus", "DomainSets", "FastTransforms", "LinearAlgebra", "RecipesBase", "Reexport", "SpecialFunctions", "StaticArrays"]
-git-tree-sha1 = "eba77cc445bf6e39e3ae63904a1001a97aad66e8"
+git-tree-sha1 = "a56337d561e2a7203dc8f5a45d92aded86c3b1ac"
 uuid = "28f2ccd6-bb30-5033-b560-165f7b14dc2f"
-version = "0.13.23"
+version = "0.13.24"
 weakdeps = ["DualNumbers"]
 
     [deps.ApproxFun.extensions]
@@ -257,9 +257,9 @@ version = "0.9.18"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
-git-tree-sha1 = "c86f7aaaa273fb09eac9e59f48d362877d4d6df9"
+git-tree-sha1 = "f0b729dbdc4d23b6a57b4d55765659a72d3a0fec"
 uuid = "59844689-9c9d-51bf-9583-5b794ec66d30"
-version = "0.3.24"
+version = "0.3.25"
 
 [[deps.ApproxFunOrthogonalPolynomials]]
 deps = ["ApproxFunBase", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "DomainSets", "FastGaussQuadrature", "FastTransforms", "FillArrays", "HalfIntegers", "IntervalSets", "LinearAlgebra", "OddEvenIntegers", "Reexport", "SpecialFunctions", "StaticArrays"]
@@ -1936,6 +1936,12 @@ git-tree-sha1 = "aa31987c2ba8704e23c6c8ba8a4f769d5d7e4f91"
 uuid = "559328eb-81f9-559d-9380-de523a88c83c"
 version = "1.0.10+0"
 
+[[deps.FunctionProperties]]
+deps = ["Cassette", "DiffRules"]
+git-tree-sha1 = "663f3171531d52f9a68c089aa89de282001b3d5b"
+uuid = "f62d2435-5019-4c03-9749-2d4c77af0cbc"
+version = "0.1.0"
+
 [[deps.FunctionWrappers]]
 git-tree-sha1 = "d62485945ce5ae9c0c48f124a84998d755bae00e"
 uuid = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"
@@ -2303,9 +2309,9 @@ version = "0.4.16"
 
 [[deps.HyperbolicCrossApprox]]
 deps = ["ChebyshevApprox", "LinearAlgebra", "SmolyakApprox", "ThreadPools"]
-git-tree-sha1 = "009b8977f276ba9b4728d2ef8c53c627a553e3a0"
+git-tree-sha1 = "0b123b75e20cc6ce86d0daa311e7b0258f65a778"
 uuid = "db4fe9aa-a353-4142-ac3f-608941c5a4fc"
-version = "0.2.8"
+version = "0.2.9"
 
 [[deps.HypergeometricFunctions]]
 deps = ["DualNumbers", "LinearAlgebra", "OpenLibm_jll", "SpecialFunctions"]
@@ -3780,9 +3786,9 @@ version = "0.4.13"
 
 [[deps.MethodOfLines]]
 deps = ["Combinatorics", "DiffEqBase", "DomainSets", "IfElse", "Interpolations", "Latexify", "LinearAlgebra", "ModelingToolkit", "OrdinaryDiffEq", "PDEBase", "PrecompileTools", "RuntimeGeneratedFunctions", "SciMLBase", "StaticArrays", "SymbolicUtils", "Symbolics", "TermInterface"]
-git-tree-sha1 = "792b4a8c50bc36ff605509f53697005700096cc0"
+git-tree-sha1 = "d377bd9bd55d87e5eddae7460662a4321e06cd1e"
 uuid = "94925ecb-adb7-4558-8ed8-f975c56a0bf4"
-version = "0.10.0"
+version = "0.10.1"
 
 [[deps.MicroCollections]]
 deps = ["BangBang", "InitialValues", "Setfield"]
@@ -5309,10 +5315,10 @@ uuid = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
 version = "0.3.6"
 
 [[deps.SciMLSensitivity]]
-deps = ["ADTypes", "Adapt", "ArrayInterface", "Cassette", "ChainRulesCore", "DiffEqBase", "DiffEqCallbacks", "DiffEqNoiseProcess", "DiffRules", "Distributions", "EllipsisNotation", "Enzyme", "FiniteDiff", "ForwardDiff", "FunctionWrappersWrappers", "GPUArraysCore", "LinearAlgebra", "LinearSolve", "Markdown", "OrdinaryDiffEq", "Parameters", "PreallocationTools", "QuadGK", "Random", "RandomNumbers", "RecursiveArrayTools", "Reexport", "ReverseDiff", "SciMLBase", "SciMLOperators", "SimpleNonlinearSolve", "SparseDiffTools", "StaticArraysCore", "Statistics", "StochasticDiffEq", "Tracker", "TruncatedStacktraces", "Zygote", "ZygoteRules"]
-git-tree-sha1 = "970238fd38388a6aaf967a42a2b8aed370b4c0de"
+deps = ["ADTypes", "Adapt", "ArrayInterface", "ChainRulesCore", "DiffEqBase", "DiffEqCallbacks", "DiffEqNoiseProcess", "Distributions", "EllipsisNotation", "Enzyme", "FiniteDiff", "ForwardDiff", "FunctionProperties", "FunctionWrappersWrappers", "GPUArraysCore", "LinearAlgebra", "LinearSolve", "Markdown", "OrdinaryDiffEq", "Parameters", "PreallocationTools", "QuadGK", "Random", "RandomNumbers", "RecursiveArrayTools", "Reexport", "ReverseDiff", "SciMLBase", "SciMLOperators", "SimpleNonlinearSolve", "SparseDiffTools", "StaticArraysCore", "Statistics", "StochasticDiffEq", "Tracker", "TruncatedStacktraces", "Zygote", "ZygoteRules"]
+git-tree-sha1 = "7cb3262a1a457e35e650cefee81a1c2fba0de814"
 uuid = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
-version = "7.41.0"
+version = "7.41.1"
 
 [[deps.ScientificTypes]]
 deps = ["CategoricalArrays", "ColorTypes", "Dates", "Distributions", "PrettyTables", "Reexport", "ScientificTypesBase", "StatisticalTraits", "Tables"]
