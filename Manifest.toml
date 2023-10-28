@@ -1601,21 +1601,21 @@ version = "1.0.4"
 
 [[deps.Enzyme]]
 deps = ["CEnum", "EnzymeCore", "Enzyme_jll", "GPUCompiler", "LLVM", "Libdl", "LinearAlgebra", "ObjectFile", "Preferences", "Printf", "Random"]
-git-tree-sha1 = "a8a13f3259f59f1738e14296b9191299226ea6b6"
+git-tree-sha1 = "821daa883570994b4c0f9994de2840cc506a51f3"
 uuid = "7da242da-08ed-463a-9acd-ee780be4f1d9"
-version = "0.11.9"
+version = "0.11.10"
 
 [[deps.EnzymeCore]]
 deps = ["Adapt"]
-git-tree-sha1 = "d8701002a745c450c03b890f10d53636d1a8a7ea"
+git-tree-sha1 = "ab81396e4e7b61f5590db02fa1c17fae4f16d7ab"
 uuid = "f151be2c-9106-41f4-ab19-57ee4f262869"
-version = "0.6.2"
+version = "0.6.3"
 
 [[deps.Enzyme_jll]]
 deps = ["Artifacts", "JLLWrappers", "LazyArtifacts", "Libdl", "TOML"]
-git-tree-sha1 = "6febd718de952cb31717a34f81f98872c065e825"
+git-tree-sha1 = "e248a990a4a917e587c6b7fcf64a4311649a267f"
 uuid = "7cc45869-7501-5eee-bdea-0790c847d4ef"
-version = "0.0.88+0"
+version = "0.0.89+0"
 
 [[deps.EpollShim_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
@@ -3429,9 +3429,9 @@ version = "0.10.6"
 
 [[deps.MCMCChains]]
 deps = ["AbstractMCMC", "AxisArrays", "Dates", "Distributions", "Formatting", "IteratorInterfaceExtensions", "KernelDensity", "LinearAlgebra", "MCMCDiagnosticTools", "MLJModelInterface", "NaturalSort", "OrderedCollections", "PrettyTables", "Random", "RecipesBase", "Statistics", "StatsBase", "StatsFuns", "TableTraits", "Tables"]
-git-tree-sha1 = "8778ea7283a0bf0d7e507a0235adfff38071493b"
+git-tree-sha1 = "3b1ae6bcb0a94ed7760e72cd3524794f613658d2"
 uuid = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
-version = "6.0.3"
+version = "6.0.4"
 
 [[deps.MCMCDiagnosticTools]]
 deps = ["AbstractFFTs", "DataAPI", "DataStructures", "Distributions", "LinearAlgebra", "MLJModelInterface", "Random", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns", "Tables"]
@@ -3711,9 +3711,9 @@ version = "0.5.6"
 
 [[deps.MatrixEquations]]
 deps = ["LinearAlgebra", "LinearMaps"]
-git-tree-sha1 = "a9e74f0d5fc39538d57ee71e09f43e3e5edc146b"
+git-tree-sha1 = "23d650690c95537893d7a666854362c0024a6c99"
 uuid = "99c1a7ee-ab34-5fd5-8076-27c950a045f4"
-version = "2.3.0"
+version = "2.3.1"
 
 [[deps.MatrixFactorizations]]
 deps = ["ArrayLayouts", "LinearAlgebra", "Printf", "Random"]
@@ -4898,9 +4898,9 @@ version = "0.1.1"
 
 [[deps.ProximalOperators]]
 deps = ["IterativeSolvers", "LinearAlgebra", "OSQP", "ProximalCore", "SparseArrays", "SuiteSparse", "TSVD"]
-git-tree-sha1 = "df5a1779a84f0fd66dcc990c259a77a3a8498e29"
+git-tree-sha1 = "af4153db223c4b262747aaa656ed7b30b15c038c"
 uuid = "a725b495-10eb-56fe-b38b-717eba820537"
-version = "0.16.0"
+version = "0.16.1"
 
 [[deps.PyCall]]
 deps = ["Conda", "Dates", "Libdl", "LinearAlgebra", "MacroTools", "Serialization", "VersionParsing"]
@@ -5914,9 +5914,9 @@ weakdeps = ["BandedMatrices", "DiffEqCallbacks", "ForwardDiff", "StructArrays"]
 
 [[deps.Sundials]]
 deps = ["CEnum", "DataStructures", "DiffEqBase", "Libdl", "LinearAlgebra", "Logging", "PrecompileTools", "Reexport", "SciMLBase", "SparseArrays", "Sundials_jll"]
-git-tree-sha1 = "b208d5379feee6c1c9f9660e4294e77e40946884"
+git-tree-sha1 = "71dc65a2d7decdde5500299c9b04309e0138d1b4"
 uuid = "c3572dad-4567-51f8-b174-8c6c989267f4"
-version = "4.20.0"
+version = "4.20.1"
 
 [[deps.Sundials_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "OpenBLAS_jll", "Pkg", "SuiteSparse_jll"]
