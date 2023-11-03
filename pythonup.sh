@@ -37,33 +37,48 @@ pip install -U gpytorch botorch torchgan torchdiffeq \
 #pip install -U pytorch-forecasting neuralprophet
 #pip install torchsde torchcde torchdyn
 ## jax
-pip install -U objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax \
+#pip install -U objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax \
  flax numpyro jaxns funsor ott efax probdiffeq
  
 #pip install -U objax torchsde tensorflow-probability neural-tangents
 
-pip install lineax
+#pip install lineax
  
 #pip install distrax 
 
 pip install osmnx pyecharts_snapshot
 pip install -U "sktime[all_extras]"
 #pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
-pip install --upgrade "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+#pip install --upgrade "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 # Installs the wheel compatible with Cuda >= 11.4 and cudnn >= 8.2
 #conda install jax cuda-nvcc -c conda-forge -c nvidia
 #pip install -U "jax[cuda11_cudnn82]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
-pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
+#pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
 #conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
-#pip install -U torch torchvision torchaudio
+pip install -U torch torchvision torchaudio
 #pip install -U torch --extra-index-url https://download.pytorch.org/whl/cu116
 #pip install -U torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 #pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
-pip install -U dynamax
+#pip install -U dynamax
 
 # install abm framework from [FLAMEGPU/FLAMEGPU2: FLAME GPU 2 is a GPU accelerated agent based modelling framework for C++ and Python](https://github.com/FLAMEGPU/FLAMEGPU2)
 
+# sciml env
 
+conda deactivate
+#conda create -n sciml -c conda-forge  python=$pythonversion
+conda activate sciml
+
+pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx ipython jupyter jupyterlab
+
+pip install -U dynamax lineax objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax \
+ flax numpyro jaxns funsor ott efax probdiffeq
+ 
+pip install -U tensorflow
+
+pip install --upgrade "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+
+conda deactivate
 
 # PyMC python
 
