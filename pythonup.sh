@@ -37,8 +37,7 @@ pip install -U gpytorch botorch torchgan torchdiffeq \
 #pip install -U pytorch-forecasting neuralprophet
 #pip install torchsde torchcde torchdyn
 ## jax
-#pip install -U objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax \
- flax numpyro jaxns funsor ott efax probdiffeq
+#pip install -U objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax flax numpyro jaxns funsor ott efax probdiffeq
  
 #pip install -U objax torchsde tensorflow-probability neural-tangents
 
@@ -71,8 +70,7 @@ conda activate sciml
 
 pip install Numpy Pandas Matplotlib scipy scikit-learn sympy statsmodels networkx ipython jupyter jupyterlab
 
-pip install -U dynamax lineax objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax \
- flax numpyro jaxns funsor ott efax probdiffeq
+pip install -U dynamax lineax objax diffrax jaxopt evosax sgmcmcjax gpjax blackjax optax flax numpyro jaxns funsor ott efax probdiffeq
  
 pip install -U tensorflow
 
