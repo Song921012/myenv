@@ -21,11 +21,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-china-misc-pypkg
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple echarts-united-kingdom-pypkg
   
 # 
-pip install -U radian conan flake8 pylint yapf huggingface-hub\
-  SAlib deepxde streamlit plotly-express\
-  tensorflow gplearn gpflow\
-  pyecharts plotly dash nodepy seaborn keplergl\
-  biopython mesa 
+pip install -U radian conan flake8 pylint yapf huggingface-hub SAlib deepxde streamlit plotly-express tensorflow gplearn gpflow pyecharts plotly dash nodepy seaborn keplergl biopython mesa 
 ## inference and optimization
 pip install -U Casadi pints elfi POT lifelines Pulp pysindy pykoopman pykoop\
  mosek cvxopt smcp pysr pmlb HROCH pyoperon pydmd cvxpy probnum POT pylops pyproximal pyabc\
