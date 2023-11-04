@@ -342,12 +342,6 @@ weakdeps = ["BandedMatrices", "BlockBandedMatrices", "CUDA", "GPUArraysCore", "S
     ArrayInterfaceStaticArraysCoreExt = "StaticArraysCore"
     ArrayInterfaceTrackerExt = "Tracker"
 
-[[deps.ArrayInterfaceCore]]
-deps = ["LinearAlgebra", "SnoopPrecompile", "SparseArrays", "SuiteSparse"]
-git-tree-sha1 = "e5f08b5689b1aad068e01751889f2f615c7db36d"
-uuid = "30b0a656-2188-435a-8636-2ec0e6a096e2"
-version = "0.1.29"
-
 [[deps.ArrayLayouts]]
 deps = ["FillArrays", "LinearAlgebra"]
 git-tree-sha1 = "af43df5704827c8618afd36eb56fcab20d3041ee"
@@ -2230,9 +2224,9 @@ version = "0.10.2+0"
 
 [[deps.Gurobi]]
 deps = ["LazyArtifacts", "Libdl", "MathOptInterface"]
-git-tree-sha1 = "46d7e941a4209aa5e9f007b90e442b425d95e3db"
+git-tree-sha1 = "1eeff1b016fae36fbd4524c40b6ebff44748c811"
 uuid = "2e9cd046-0924-5485-92f1-d5272153d98b"
-version = "1.1.0"
+version = "1.2.0"
 
 [[deps.H5Zblosc]]
 deps = ["Blosc", "HDF5"]
@@ -2828,9 +2822,9 @@ version = "0.13.2"
 
 [[deps.KernelAbstractions]]
 deps = ["Adapt", "Atomix", "InteractiveUtils", "LinearAlgebra", "MacroTools", "PrecompileTools", "Requires", "SparseArrays", "StaticArrays", "UUIDs", "UnsafeAtomics", "UnsafeAtomicsLLVM"]
-git-tree-sha1 = "5f1ecfddb6abde48563d08b2cc7e5116ebcd6c27"
+git-tree-sha1 = "a25bf8ec9f118ce4701da6058e351730e4af6b5a"
 uuid = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
-version = "0.9.10"
+version = "0.9.11"
 weakdeps = ["EnzymeCore"]
 
     [deps.KernelAbstractions.extensions]
@@ -3297,10 +3291,10 @@ uuid = "e6f89c97-d47a-5376-807f-9c37f3926c36"
 version = "1.0.3"
 
 [[deps.LoopVectorization]]
-deps = ["ArrayInterface", "ArrayInterfaceCore", "CPUSummary", "CloseOpenIntervals", "DocStringExtensions", "HostCPUFeatures", "IfElse", "LayoutPointers", "LinearAlgebra", "OffsetArrays", "PolyesterWeave", "PrecompileTools", "SIMDTypes", "SLEEFPirates", "Static", "StaticArrayInterface", "ThreadingUtilities", "UnPack", "VectorizationBase"]
-git-tree-sha1 = "c88a4afe1703d731b1c4fdf4e3c7e77e3b176ea2"
+deps = ["ArrayInterface", "CPUSummary", "CloseOpenIntervals", "DocStringExtensions", "HostCPUFeatures", "IfElse", "LayoutPointers", "LinearAlgebra", "OffsetArrays", "PolyesterWeave", "PrecompileTools", "SIMDTypes", "SLEEFPirates", "Static", "StaticArrayInterface", "ThreadingUtilities", "UnPack", "VectorizationBase"]
+git-tree-sha1 = "0f5648fbae0d015e3abe5867bca2b362f67a5894"
 uuid = "bdcacae8-1622-11e9-2a5c-532679323890"
-version = "0.12.165"
+version = "0.12.166"
 weakdeps = ["ChainRulesCore", "ForwardDiff", "SpecialFunctions"]
 
     [deps.LoopVectorization.extensions]
@@ -3821,9 +3815,9 @@ version = "0.1.14"
 
 [[deps.MicrosoftMPI_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "a7023883872e52bc29bcaac74f19adf39347d2d5"
+git-tree-sha1 = "b01beb91d20b0d1312a9471a36017b5b339d26de"
 uuid = "9237b28f-5490-5468-be7b-bb81f5f5e6cf"
-version = "10.1.4+0"
+version = "10.1.4+1"
 
 [[deps.Missings]]
 deps = ["DataAPI"]
@@ -4178,10 +4172,13 @@ version = "0.3.27"
     HyperDualNumbers = "50ceba7f-c3ee-5a84-a6e8-3ad40456ec97"
 
 [[deps.OddEvenIntegers]]
-deps = ["HalfIntegers"]
-git-tree-sha1 = "e8a235f5a1a6d52597a6ea34a354199e28b1827f"
+git-tree-sha1 = "31db0e54c773e7217b1cd94f4b2cd1b01f75c243"
 uuid = "8d37c425-f37a-4ca2-9b9d-a61bc06559d2"
-version = "0.1.10"
+version = "0.1.11"
+weakdeps = ["HalfIntegers"]
+
+    [deps.OddEvenIntegers.extensions]
+    OddEvenIntegersHalfIntegersExt = "HalfIntegers"
 
 [[deps.OffsetArrays]]
 deps = ["Adapt"]
@@ -4279,9 +4276,9 @@ version = "0.5.5+0"
 
 [[deps.OpenStreetMapX]]
 deps = ["CodecZlib", "DataStructures", "Graphs", "HTTP", "JSON", "LibExpat", "ProtoBuf", "Random", "Serialization", "SparseArrays", "StableRNGs", "Statistics"]
-git-tree-sha1 = "8407b686a193418da6fffb4fb6ef0f9cc01bc937"
+git-tree-sha1 = "4ace81bb47e44b6c4abdfbb56893a55773613c81"
 uuid = "86cd37e6-c0ff-550b-95fe-21d72c8d4fc9"
-version = "0.4.0"
+version = "0.4.1"
 
 [[deps.OpenStreetMapXPlot]]
 deps = ["OpenStreetMapX", "Plots", "PyPlot", "Random"]
@@ -5369,9 +5366,9 @@ version = "0.5.0"
 
 [[deps.Scratch]]
 deps = ["Dates"]
-git-tree-sha1 = "30449ee12237627992a99d5e30ae63e4d78cd24a"
+git-tree-sha1 = "3bac05bc7e74a75fd9cba4295cde4045d9fe2386"
 uuid = "6c6a2e73-6563-6170-7368-637461726353"
-version = "1.2.0"
+version = "1.2.1"
 
 [[deps.SearchSpaces]]
 deps = ["Combinatorics", "Random"]
@@ -5648,10 +5645,10 @@ uuid = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
 version = "3.0.0"
 
 [[deps.SpectralKit]]
-deps = ["ArgCheck", "DocStringExtensions", "SimpleUnPack", "StaticArrays"]
-git-tree-sha1 = "6155bf011b2136c78c863c359f28fb3e016ee306"
+deps = ["ArgCheck", "DocStringExtensions", "StaticArrays"]
+git-tree-sha1 = "78b9022fc79fb96ea182006f7128838dbe18ebc9"
 uuid = "5c252ae7-b5b6-46ab-a016-b0e3d78320b7"
-version = "0.13.0"
+version = "0.14.0"
 
 [[deps.SpeedMapping]]
 deps = ["AccurateArithmetic", "BenchmarkTools", "Coverage", "DocumenterTools", "ForwardDiff", "LinearAlgebra", "MuladdMacro", "SparseArrays"]
