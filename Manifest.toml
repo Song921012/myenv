@@ -11,9 +11,9 @@ uuid = "54578032-b7ea-4c30-94aa-7cbd1cce6c9a"
 version = "0.7.0"
 
 [[deps.ADTypes]]
-git-tree-sha1 = "5d2e21d7b0d8c22f67483ef95ebdc39c0e6b6003"
+git-tree-sha1 = "332e5d7baeff8497b923b730b994fa480601efc7"
 uuid = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
-version = "0.2.4"
+version = "0.2.5"
 
 [[deps.AMD]]
 deps = ["LinearAlgebra", "SparseArrays", "SuiteSparse_jll"]
@@ -1078,10 +1078,10 @@ uuid = "150eb455-5306-5404-9cee-2592286d6298"
 version = "0.6.3"
 
 [[deps.Copulas]]
-deps = ["Combinatorics", "Cubature", "Distributions", "ForwardDiff", "GSL", "MvNormalCDF", "Random", "Roots", "SpecialFunctions", "StatsBase", "TaylorSeries", "WilliamsonTransforms"]
-git-tree-sha1 = "23e3477e3bc54fc612360c425de3f8def4276b09"
+deps = ["Cubature", "Distributions", "ForwardDiff", "GSL", "MvNormalCDF", "Random", "Roots", "SpecialFunctions", "StatsBase", "TaylorSeries"]
+git-tree-sha1 = "f2964e01ce7c1b12d1300e08b44997b1bba76fc7"
 uuid = "ae264745-0b69-425e-9d9d-cf662c5eec93"
-version = "0.1.17"
+version = "0.1.13"
 
 [[deps.Couenne_jll]]
 deps = ["ASL_jll", "Artifacts", "Bonmin_jll", "Cbc_jll", "Ipopt_jll", "JLLWrappers", "Libdl", "Pkg"]
@@ -1701,9 +1701,9 @@ version = "0.1.2"
 
 [[deps.EzXML]]
 deps = ["Printf", "XML2_jll"]
-git-tree-sha1 = "0fa3b52a04a4e210aeb1626def9c90df3ae65268"
+git-tree-sha1 = "380053d61bb9064d6aa4a9777413b40429c79901"
 uuid = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
-version = "1.1.0"
+version = "1.2.0"
 
 [[deps.FFMPEG]]
 deps = ["FFMPEG_jll"]
@@ -1790,9 +1790,9 @@ version = "0.3.1"
 
 [[deps.FastTransforms]]
 deps = ["AbstractFFTs", "FFTW", "FastGaussQuadrature", "FastTransforms_jll", "FillArrays", "GenericFFT", "Libdl", "LinearAlgebra", "Reexport", "SpecialFunctions", "ToeplitzMatrices"]
-git-tree-sha1 = "cdf63c22baba8c3ddb5ef420a1c7befe448152e3"
+git-tree-sha1 = "07de5173a2af3ef586bff5eba9aaab8da73e4def"
 uuid = "057dd010-8810-581a-b7be-e3fc3b93f78c"
-version = "0.15.12"
+version = "0.15.13"
 
 [[deps.FastTransforms_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "FFTW_jll", "JLLWrappers", "LLVMOpenMP_jll", "Libdl", "MPFR_jll", "OpenBLAS_jll", "Pkg"]
@@ -2129,9 +2129,9 @@ version = "1.3.1"
 
 [[deps.GlobalSensitivity]]
 deps = ["Combinatorics", "Copulas", "Distributions", "FFTW", "ForwardDiff", "KernelDensity", "LinearAlgebra", "Parameters", "QuasiMonteCarlo", "Random", "RecursiveArrayTools", "Statistics", "StatsBase", "ThreadsX", "Trapz"]
-git-tree-sha1 = "75c048c5657d890d75696a14e9dcff752d4f5bea"
+git-tree-sha1 = "e155cea640a5792f50c465c70da1dd7083eba8ba"
 uuid = "af5da776-676b-467e-8baf-acd8249e4f0f"
-version = "2.3.0"
+version = "2.4.0"
 
 [[deps.GraphMakie]]
 deps = ["DataStructures", "GeometryBasics", "Graphs", "LinearAlgebra", "Makie", "NetworkLayout", "PolynomialRoots", "SimpleTraits", "StaticArrays"]
@@ -2896,9 +2896,9 @@ weakdeps = ["BFloat16s"]
 
 [[deps.LLVMExtra_jll]]
 deps = ["Artifacts", "JLLWrappers", "LazyArtifacts", "Libdl", "TOML"]
-git-tree-sha1 = "a84f8f1e8caaaa4e3b4c101306b9e801d3883ace"
+git-tree-sha1 = "98eaee04d96d973e79c25d49167668c5c8fb50e2"
 uuid = "dad2f222-ce93-54a1-a47d-0025e8a3acab"
-version = "0.0.27+0"
+version = "0.0.27+1"
 
 [[deps.LLVMOpenMP_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -2984,9 +2984,9 @@ version = "0.15.1"
 
 [[deps.LazyArrays]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra", "MacroTools", "MatrixFactorizations", "SparseArrays"]
-git-tree-sha1 = "c2751b04c877a101a94f5749043651d7e4c81069"
+git-tree-sha1 = "08d56555410b0683cd7b48bff37aa59cbb0ea908"
 uuid = "5078a376-72f3-5289-bfd5-ec5146d43c02"
-version = "1.8.1"
+version = "1.8.2"
 weakdeps = ["StaticArrays"]
 
     [deps.LazyArrays.extensions]
@@ -3242,12 +3242,13 @@ version = "2.1.1"
 
 [[deps.LogDensityProblemsAD]]
 deps = ["DocStringExtensions", "LogDensityProblems", "Requires", "SimpleUnPack"]
-git-tree-sha1 = "a0512ad65f849536b5a52e59b05c59c25cdad943"
+git-tree-sha1 = "9c50732cd0f188766b6217ed6a2ebbdaf9890029"
 uuid = "996a588d-648d-4e1f-a8f0-a84b347e47b1"
-version = "1.5.0"
-weakdeps = ["BenchmarkTools", "Enzyme", "FiniteDifferences", "ForwardDiff", "ReverseDiff", "Tracker", "Zygote"]
+version = "1.7.0"
+weakdeps = ["ADTypes", "BenchmarkTools", "Enzyme", "FiniteDifferences", "ForwardDiff", "ReverseDiff", "Tracker", "Zygote"]
 
     [deps.LogDensityProblemsAD.extensions]
+    LogDensityProblemsADADTypesExt = "ADTypes"
     LogDensityProblemsADEnzymeExt = "Enzyme"
     LogDensityProblemsADFiniteDifferencesExt = "FiniteDifferences"
     LogDensityProblemsADForwardDiffBenchmarkToolsExt = ["BenchmarkTools", "ForwardDiff"]
@@ -3795,9 +3796,9 @@ version = "0.4.13"
 
 [[deps.MethodOfLines]]
 deps = ["Combinatorics", "DiffEqBase", "DomainSets", "IfElse", "Interpolations", "Latexify", "LinearAlgebra", "ModelingToolkit", "OrdinaryDiffEq", "PDEBase", "PrecompileTools", "RuntimeGeneratedFunctions", "SciMLBase", "StaticArrays", "SymbolicUtils", "Symbolics", "TermInterface"]
-git-tree-sha1 = "d377bd9bd55d87e5eddae7460662a4321e06cd1e"
+git-tree-sha1 = "27fc5a30dac6d9ecdfac16dd8005a1013fb38764"
 uuid = "94925ecb-adb7-4558-8ed8-f975c56a0bf4"
-version = "0.10.1"
+version = "0.10.2"
 
 [[deps.MicroCollections]]
 deps = ["BangBang", "InitialValues", "Setfield"]
@@ -4433,9 +4434,9 @@ version = "10.42.0+1"
 
 [[deps.PDEBase]]
 deps = ["DomainSets", "ModelingToolkit", "SciMLBase", "SymbolicUtils", "Symbolics"]
-git-tree-sha1 = "b97f4a1a7ee781135cdcbc2a1014bf0638421c7e"
+git-tree-sha1 = "6a14490f78a3a679098a4a6f4c2d0bbb8ae87867"
 uuid = "a7812802-0625-4b9e-961c-d332478797e5"
-version = "0.1.5"
+version = "0.1.6"
 
 [[deps.PDMats]]
 deps = ["LinearAlgebra", "SparseArrays", "SuiteSparse"]
@@ -5907,10 +5908,10 @@ uuid = "856f2bd8-1eba-4b0a-8007-ebc267875bd4"
 version = "1.10.0"
 
 [[deps.StructuralIdentifiability]]
-deps = ["AbstractAlgebra", "BenchmarkTools", "Combinatorics", "DataStructures", "Dates", "Groebner", "IterTools", "LinearAlgebra", "Logging", "MacroTools", "ModelingToolkit", "Nemo", "ParamPunPam", "PrecompileTools", "Primes", "Random", "SpecialFunctions", "SymbolicUtils", "Symbolics"]
-git-tree-sha1 = "d4dff0945b70fdf09dc5cda1dab69dfa54a75d0d"
+deps = ["AbstractAlgebra", "BenchmarkTools", "Combinatorics", "DataStructures", "Dates", "Groebner", "IterTools", "LinearAlgebra", "Logging", "MacroTools", "ModelingToolkit", "Nemo", "ParamPunPam", "PrecompileTools", "Primes", "Random", "SpecialFunctions", "SymbolicUtils", "Symbolics", "TimerOutputs"]
+git-tree-sha1 = "c691aa32c84b593452ebe8848d3e37550e7e3e58"
 uuid = "220ca800-aa68-49bb-acd8-6037fa93a544"
-version = "0.4.14"
+version = "0.4.15"
 
 [[deps.Stuffing]]
 deps = ["Random"]
@@ -6473,12 +6474,6 @@ deps = ["Colors", "Dates", "Observables", "OrderedCollections"]
 git-tree-sha1 = "fcdae142c1cfc7d89de2d11e08721d0f2f86c98a"
 uuid = "cc8bc4a8-27d6-5769-a93b-9d913e69aa62"
 version = "0.6.6"
-
-[[deps.WilliamsonTransforms]]
-deps = ["Distributions", "Roots", "TaylorSeries"]
-git-tree-sha1 = "fb3d8309785fa242d5641eefff62763f580f597f"
-uuid = "48feb556-9bdd-43a2-8e10-96100ec25e22"
-version = "0.1.0"
 
 [[deps.WinReg]]
 git-tree-sha1 = "cd910906b099402bcc50b3eafa9634244e5ec83b"
