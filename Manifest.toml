@@ -2,7 +2,7 @@
 
 julia_version = "1.10.0-rc1"
 manifest_format = "2.0"
-project_hash = "45a820314c54803492cfb7c758dede2bac99484a"
+project_hash = "c9dc56f0bd9eaca2ca1a4d1a8c310adae6157b44"
 
 [[deps.ADNLPModels]]
 deps = ["ColPack", "ForwardDiff", "LinearAlgebra", "NLPModels", "Requires", "ReverseDiff", "SparseArrays"]
@@ -602,12 +602,6 @@ deps = ["Dates", "LinearAlgebra", "Printf", "Random", "Statistics"]
 git-tree-sha1 = "6bf0985be2c5ea58305d2d04e336684f64fdc12a"
 uuid = "8d3b24bd-414e-49e0-94fb-163cc3a3e411"
 version = "0.2.6"
-
-[[deps.COPT]]
-deps = ["LazyArtifacts", "Libdl", "LinearAlgebra", "MathOptInterface", "Pkg", "Random", "SparseArrays"]
-git-tree-sha1 = "061163c557716e034e2bad77f90bf8f5cea6bbbd"
-uuid = "227a2e2d-e949-4d8e-a1da-7384fe6f0b9f"
-version = "1.1.12"
 
 [[deps.COSMO]]
 deps = ["AMD", "COSMOAccelerators", "DataStructures", "IterTools", "LinearAlgebra", "MathOptInterface", "Pkg", "Printf", "QDLDL", "Random", "Reexport", "Requires", "SparseArrays", "Statistics", "SuiteSparse", "Test", "UnsafeArrays"]
