@@ -2814,9 +2814,9 @@ version = "0.6.7"
 
 [[deps.KernelDensityEstimate]]
 deps = ["DelimitedFiles", "Distributions", "DocStringExtensions", "LinearAlgebra", "Statistics", "Test"]
-git-tree-sha1 = "e51cf6b6da3d76cba3f2bf0febb653065cebbde4"
+git-tree-sha1 = "e6cbc7c7332a8411e5171f607d7f9a4a1d5c44e6"
 uuid = "2472808a-b354-52ea-a80e-1658a3c6056d"
-version = "0.5.11"
+version = "0.5.12"
 
 [[deps.KernelFunctions]]
 deps = ["ChainRulesCore", "Compat", "CompositionsBase", "Distances", "FillArrays", "Functors", "IrrationalConstants", "LinearAlgebra", "LogExpFunctions", "Random", "Requires", "SpecialFunctions", "Statistics", "StatsBase", "TensorCore", "Test", "ZygoteRules"]
@@ -5446,9 +5446,9 @@ version = "1.11.0"
 
 [[deps.SimpleGraphs]]
 deps = ["AbstractLattices", "Combinatorics", "DataStructures", "IterTools", "LightXML", "LinearAlgebra", "LinearAlgebraX", "Optim", "Primes", "Random", "RingLists", "SimplePartitions", "SimplePolynomials", "SimpleRandom", "SparseArrays", "Statistics"]
-git-tree-sha1 = "b608903049d11cc557c45e03b3a53e9260579c19"
+git-tree-sha1 = "c5538efb4e308548fd2623e2778c0b6559b1aaa6"
 uuid = "55797a34-41de-5266-9ec1-32ac4eb504d3"
-version = "0.8.4"
+version = "0.8.5"
 
 [[deps.SimpleNonlinearSolve]]
 deps = ["ArrayInterface", "DiffEqBase", "FiniteDiff", "ForwardDiff", "LinearAlgebra", "PackageExtensionCompat", "PrecompileTools", "Reexport", "SciMLBase", "StaticArraysCore"]
@@ -5462,9 +5462,9 @@ weakdeps = ["NNlib"]
 
 [[deps.SimplePartitions]]
 deps = ["AbstractLattices", "DataStructures", "Permutations"]
-git-tree-sha1 = "dcc02923a53f316ab97da8ef3136e80b4543dbf1"
+git-tree-sha1 = "e9330391d04241eafdc358713b48396619c83bcb"
 uuid = "ec83eff0-a5b5-5643-ae32-5cbf6eedec9d"
-version = "0.3.0"
+version = "0.3.1"
 
 [[deps.SimplePolynomials]]
 deps = ["Mods", "Multisets", "Polynomials", "Primes"]
@@ -5577,9 +5577,9 @@ version = "1.10.0"
 
 [[deps.SparseDiffTools]]
 deps = ["ADTypes", "Adapt", "ArrayInterface", "Compat", "DataStructures", "FiniteDiff", "ForwardDiff", "Graphs", "LinearAlgebra", "PackageExtensionCompat", "Random", "Reexport", "SciMLOperators", "Setfield", "SparseArrays", "StaticArrayInterface", "StaticArrays", "Tricks", "UnPack", "VertexSafeGraphs"]
-git-tree-sha1 = "49068dceed7febe32afe2d7b874172a7c3198cb3"
+git-tree-sha1 = "07272c80c278947baca092df0a01da4a10622ad5"
 uuid = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
-version = "2.12.0"
+version = "2.13.0"
 weakdeps = ["Enzyme", "Symbolics", "Zygote"]
 
     [deps.SparseDiffTools.extensions]
@@ -5903,9 +5903,9 @@ version = "1.10.0"
 
 [[deps.StructuralIdentifiability]]
 deps = ["AbstractAlgebra", "BenchmarkTools", "Combinatorics", "DataStructures", "Dates", "Groebner", "IterTools", "LinearAlgebra", "Logging", "MacroTools", "ModelingToolkit", "Nemo", "ParamPunPam", "PrecompileTools", "Primes", "Random", "SpecialFunctions", "SymbolicUtils", "Symbolics", "TimerOutputs"]
-git-tree-sha1 = "c691aa32c84b593452ebe8848d3e37550e7e3e58"
+git-tree-sha1 = "0089d3dce676fd9073bf8d9fa07e120c6f201634"
 uuid = "220ca800-aa68-49bb-acd8-6037fa93a544"
-version = "0.4.15"
+version = "0.4.16"
 
 [[deps.Stuffing]]
 deps = ["Random"]
@@ -6197,9 +6197,9 @@ version = "0.5.26"
 
 [[deps.Tracker]]
 deps = ["Adapt", "DiffRules", "ForwardDiff", "Functors", "LinearAlgebra", "LogExpFunctions", "MacroTools", "NNlib", "NaNMath", "Optimisers", "Printf", "Random", "Requires", "SpecialFunctions", "Statistics"]
-git-tree-sha1 = "4e35f86bcdcdc2f104f763750d6038dc35e598bc"
+git-tree-sha1 = "b91e3c7039569c7b4525799243a8217f5ed7220f"
 uuid = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
-version = "0.2.28"
+version = "0.2.29"
 weakdeps = ["PDMats"]
 
     [deps.Tracker.extensions]
@@ -6476,9 +6476,9 @@ version = "1.0.0"
 
 [[deps.WoodburyMatrices]]
 deps = ["LinearAlgebra", "SparseArrays"]
-git-tree-sha1 = "de67fa59e33ad156a590055375a30b23c40299d3"
+git-tree-sha1 = "5f24e158cf4cee437052371455fe361f526da062"
 uuid = "efce3f68-66dc-5838-9240-27a6d6f5f9b6"
-version = "0.5.5"
+version = "0.5.6"
 
 [[deps.WordCloud]]
 deps = ["ColorSchemes", "Colors", "FileIO", "ImageTransformations", "Luxor", "Printf", "Random", "Statistics", "Stuffing"]
@@ -6499,9 +6499,9 @@ version = "1.6.1"
 
 [[deps.XGBoost]]
 deps = ["AbstractTrees", "CEnum", "JSON3", "LinearAlgebra", "OrderedCollections", "SparseArrays", "SparseMatricesCSR", "Statistics", "Tables", "XGBoost_jll"]
-git-tree-sha1 = "87f419bbf4fe012a39255bf35ca3f8b9210191cd"
+git-tree-sha1 = "7e1e7295b58a25ddad8d11d3f5c6692acd4437b5"
 uuid = "009559a3-9522-5dbb-924b-0b6ed2b22bb9"
-version = "2.4.1"
+version = "2.5.0"
 weakdeps = ["CUDA", "Term"]
 
     [deps.XGBoost.extensions]
