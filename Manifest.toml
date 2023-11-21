@@ -250,9 +250,9 @@ version = "0.3.25"
 
 [[deps.ApproxFunOrthogonalPolynomials]]
 deps = ["ApproxFunBase", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "DomainSets", "FastGaussQuadrature", "FastTransforms", "FillArrays", "HalfIntegers", "IntervalSets", "LinearAlgebra", "OddEvenIntegers", "Reexport", "SpecialFunctions", "StaticArrays"]
-git-tree-sha1 = "7c25871b91f00228bba9232b29bd0d8ce5be8fa3"
+git-tree-sha1 = "e325b5738ced0fdf2964b587e5cf7a667631507a"
 uuid = "b70543e2-c0d9-56b8-a290-0d4d6d4de211"
-version = "0.6.50"
+version = "0.6.51"
 weakdeps = ["Polynomials", "Static"]
 
     [deps.ApproxFunOrthogonalPolynomials.extensions]
@@ -488,9 +488,9 @@ version = "1.3.2"
 
 [[deps.BifurcationKit]]
 deps = ["ArnoldiMethod", "Arpack", "BlockArrays", "DataStructures", "Dates", "DocStringExtensions", "FastGaussQuadrature", "ForwardDiff", "IterativeSolvers", "KrylovKit", "LinearAlgebra", "LinearMaps", "Parameters", "Printf", "RecipesBase", "RecursiveArrayTools", "Reexport", "Requires", "SciMLBase", "Setfield", "SparseArrays", "StructArrays"]
-git-tree-sha1 = "06824f076758357d86efaf3bb1fd937311bde366"
+git-tree-sha1 = "4d49385d108a351ea1864025226e7e2baa265f72"
 uuid = "0f109fa4-8a5d-4b75-95aa-f515264e7665"
-version = "0.3.0"
+version = "0.3.2"
 
 [[deps.Bijections]]
 git-tree-sha1 = "c9b163bd832e023571e86d0b90d9de92a9879088"
@@ -2820,9 +2820,9 @@ version = "0.5.12"
 
 [[deps.KernelFunctions]]
 deps = ["ChainRulesCore", "Compat", "CompositionsBase", "Distances", "FillArrays", "Functors", "IrrationalConstants", "LinearAlgebra", "LogExpFunctions", "Random", "Requires", "SpecialFunctions", "Statistics", "StatsBase", "TensorCore", "Test", "ZygoteRules"]
-git-tree-sha1 = "c7f8315aa2e47be568be868bf6892e853bc7f1e1"
+git-tree-sha1 = "2e9c8eb5f2acd58fe7b738affe2ca24da171c904"
 uuid = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
-version = "0.10.58"
+version = "0.10.59"
 
 [[deps.Kronecker]]
 deps = ["LinearAlgebra", "NamedDims", "SparseArrays", "StatsBase"]
@@ -3362,9 +3362,9 @@ version = "0.1.6"
 
 [[deps.LuxDeviceUtils]]
 deps = ["Adapt", "ChainRulesCore", "Functors", "LuxCore", "PackageExtensionCompat", "Preferences", "Random", "SparseArrays"]
-git-tree-sha1 = "b104b0be198614ef7da2b41e0fbc91c22f744255"
+git-tree-sha1 = "2d5e75ccdcb9c7a7e7da2e1d3fe979b1b62b76db"
 uuid = "34f89e08-e1d5-43b4-8944-0b49ac560553"
-version = "0.1.9"
+version = "0.1.10"
 
     [deps.LuxDeviceUtils.extensions]
     LuxDeviceUtilsFillArraysExt = "FillArrays"
@@ -4969,9 +4969,9 @@ version = "0.2.16"
 
 [[deps.Quaternions]]
 deps = ["LinearAlgebra", "Random", "RealDot"]
-git-tree-sha1 = "da095158bdc8eaccb7890f9884048555ab771019"
+git-tree-sha1 = "9a46862d248ea548e340e30e2894118749dc7f51"
 uuid = "94ee1d12-ae83-5a48-8b1c-48b8ff168ae0"
-version = "0.7.4"
+version = "0.7.5"
 
 [[deps.QuickHeaps]]
 deps = ["ArrayTools", "DataStructures"]
@@ -6069,9 +6069,9 @@ version = "1.10.0"
 
 [[deps.TaylorIntegration]]
 deps = ["BenchmarkTools", "Dates", "DiffEqBase", "Elliptic", "Espresso", "InteractiveUtils", "LinearAlgebra", "Logging", "Markdown", "PkgBenchmark", "RecursiveArrayTools", "Reexport", "Requires", "StaticArrays", "TaylorSeries"]
-git-tree-sha1 = "94c7126bc51d4b544331b1c33f3293e36b80a5c6"
+git-tree-sha1 = "683a65f05536e34fb428f06c97b2c1b20e5fdd4e"
 uuid = "92b13dbe-c966-51a2-8445-caca9f8a7d42"
-version = "0.14.4"
+version = "0.14.5"
 weakdeps = ["OrdinaryDiffEq"]
 
     [deps.TaylorIntegration.extensions]
@@ -6825,10 +6825,10 @@ uuid = "f638f0a6-7fb0-5443-88ba-1cc74229b280"
 version = "2.0.2+0"
 
 [[deps.liblinear_jll]]
-deps = ["Libdl", "Pkg"]
-git-tree-sha1 = "6a4a6a3697269cb2da57e698e9318972d88de0bb"
+deps = ["Artifacts", "JLLWrappers", "Libdl"]
+git-tree-sha1 = "7f5f1953394b74739eaebd345f4515515a022a5b"
 uuid = "275f1f90-abd2-5ca1-9ad8-abd4e3d66eb7"
-version = "2.30.0+0"
+version = "2.47.0+0"
 
 [[deps.libpng_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg", "Zlib_jll"]
