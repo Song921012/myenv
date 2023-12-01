@@ -70,7 +70,7 @@ pip install -U dynamax lineax objax diffrax jaxopt evosax sgmcmcjax gpjax blackj
  
 pip install -U tensorflow
 
-pip install --upgrade "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install --upgrade "jax[cpu]"
 
 conda deactivate
 
