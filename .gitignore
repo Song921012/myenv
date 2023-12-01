@@ -3,3 +3,5 @@
 /share
 /src
 .Rhistory
+/.CondaPkg
+.DS_Store
