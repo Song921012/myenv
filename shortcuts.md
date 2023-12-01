@@ -1,3 +1,56 @@
+## Mac
+
+### 触控板
+
+单指: (轻点,重按), 轻两下选中词, 轻三下选中一行, 一手重一手滑动是选长行, optional 重滑是选不连续, 重点是查信息预览翻译等
+
+双指: 点按右键, 网页点按放大缩小, 左右是tab, 上下滑动, 放大缩小旋转, 右滑左是通知
+
+三指: (不开拖拽辅助功能-指针-触控板设置)左右滑动是切换全屏幕窗口, 上下是调度中心
+      (开了之后) 三指是拖拽, 上下左右是选中文本
+
+四指: 左右是切换全屏, 上下是调度中心, 拇指收缩是启动台, 拇指放开是桌面
+
+第三方应用:bettertouchtool
+
+### 快捷键
+
+cmd + Q/W/M: 关闭应用/关闭窗口/最小化窗口
+
+cmd + space: spotlight
+
+地球: 切换输入法
+
+移动光标: cmd/fn 上下左右
+
+cmd H: 隐藏应用, cmd opt H 隐藏其他应用 cmd tab;切换应用
+
+ctrl 上/下 调度/应用
+
+cmd f3桌面和应用
+
+iterm2: fn上下左右移动光标, ctrl us删除当前行, ctrl k删除后边
+
+cmd shift .显示隐藏
+
+选中文件预览:空格预览单个,选中opt 空格全屏预览多个
+
+多选文件: 列表模式shift才有效
+
+opt 选中拖拽复制
+
+### 应用
+
+超级右键
+
+超级搜索:Hapigo [HapiGo - 高效启动器](https://hapigo.com/)
+
+anyswitch
+
+Downie4
+
+扩展: copy link, adblock, zotero, infinity
+
 ## Linux
 
 [Arch Linux 中文维基](https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5)
@@ -10,17 +63,16 @@ W+x:关机等
 
 W+n:网络
 
-
 - 应用商店
 
  A+F1: 模糊搜索后enter
- 
+
  C+A+Space:不知道名字
- 
+
  W+f files
- 
+
  W+w firefox
- 
+
  W+e editor
 
  C+A+h htop
@@ -46,7 +98,7 @@ A+r resize
 A+m move
 
 W+hjkl
-W+A+hjkl 
+W+A+hjkl
 
 - 截屏
 
@@ -57,10 +109,6 @@ C+A+prsc 区域
 C+prsc 活动窗口
 
 prsc全屏
-
-
-
-
 
 ### Pop!_OS
 
@@ -154,7 +202,6 @@ xkill
 
 REISUB
 
-
 ## 查询
 
 whoami
@@ -243,7 +290,6 @@ Ctrl+Shift+E  到资源管理器
 
 Ctrl+Alt+X到Tex
 
-
 窗口
 
 Ctrl + R打开最近文件夹
@@ -258,18 +304,17 @@ Ctrl /注释取消注释
 
 Shift + Alt +A 块区域注释
 
-
--   重开一行：光标在行尾的话，回车即可；不在行尾，ctrl `+ enter` 向下重开一行；ctrl+`shift + enter` 则是在上一行重开一行
--   删除一行：光标没有选择内容时，ctrl `+ x` 剪切一行；ctrl +`shift + k` 直接删除一行
--   移动一行：`alt + ↑` 向上移动一行；`alt + ↓` 向下移动一行
--   复制一行：`shift + alt + ↓` 向下复制一行；`shift + alt + ↑` 向上复制一行
-
+- 重开一行：光标在行尾的话，回车即可；不在行尾，ctrl `+ enter` 向下重开一行；ctrl+`shift + enter` 则是在上一行重开一行
+- 删除一行：光标没有选择内容时，ctrl `+ x` 剪切一行；ctrl +`shift + k` 直接删除一行
+- 移动一行：`alt + ↑` 向上移动一行；`alt + ↓` 向下移动一行
+- 复制一行：`shift + alt + ↓` 向下复制一行；`shift + alt + ↑` 向上复制一行
 
 ### 查看信息
 
 跳转悬停，Ctrl，space, Alt， F12中的一个
 
 ==多行操作==
+
 1. Ctrl点击，Ctrl+Alt+上下左右，产生多个cursor
 
 1. shift+Alt上下左右选中
@@ -282,7 +327,7 @@ Ctrl F查找 Ctrl shift F跨越文件查找
 
 F2重命名变量
 
--   ctrl `+ alt + f`： 替换
+- ctrl `+ alt + f`： 替换
 
 ### 格式化
 
@@ -312,7 +357,6 @@ ctrl+alt+V 查看PDF
 
 Ctrl /注释取消注释
 
-
 反向搜索 ctrl+
 
 正向搜索 ctrl+alt+J
@@ -335,8 +379,6 @@ b: 文件改动记录
 
 `gitpod.io/#/`加前缀,在线运行项目
 
-
-
 ## SpaceVim(learder\,命令:和space快捷键, tab-窗口-buffer)
 
 :SPUpdate更新插件
@@ -344,31 +386,31 @@ b: 文件改动记录
 
 ### 最常用
 
-* 用好:h 插件名等
+- 用好:h 插件名等
 
-* SPC f v d打开配置文件
+- SPC f v d打开配置文件
 
-* Space + f 文件; l 代码; b管理buffer (bc清楚保存窗口); s搜索; c注释 (space c l注释); e错误信息
+- Space + f 文件; l 代码; b管理buffer (bc清楚保存窗口); s搜索; c注释 (space c l注释); e错误信息
 
-* s键盘也管理窗口(g垂直分屏,v水平,o关闭其它,c关闭当前), space w管理窗口
+- s键盘也管理窗口(g垂直分屏,v水平,o关闭其它,c关闭当前), space w管理窗口
 
-* :terminal打开terminal（space '也打开shell)
+- :terminal打开terminal（space '也打开shell)
 
-* \ 数字跳tab(按标签跳转) alt前后左右(按位置跳转), space tab跳之前的文件（按时间先后跳转);
+- \ 数字跳tab(按标签跳转) alt前后左右(按位置跳转), space tab跳之前的文件（按时间先后跳转);
 
-* space数字跳buffer窗口, ctrl上下左右.
+- space数字跳buffer窗口, ctrl上下左右.
 
-* f3文件夹树(o打开文件树,d删,r重命名,y复制,x剪,p,a打开文件,A打开文件夹), f2 tagbar, space t t打开tab(r命名, o打开)
+- f3文件夹树(o打开文件树,d删,r重命名,y复制,x剪,p,a打开文件,A打开文件夹), f2 tagbar, space t t打开tab(r命名, o打开)
 
-* space l r运行代码(记得先保存代码!!!), space l s i逐行运行, space l ss运行选中
+- space l r运行代码(记得先保存代码!!!), space l s i逐行运行, space l ss运行选中
 
-* :e 文件路径, :enew, :save, space f o文件所在文件树位置
+- :e 文件路径, :enew, :save, space f o文件所在文件树位置
 
-* 文件搜索: 当前工作路径ctrl p; 当前文件所在路径 space ff
+- 文件搜索: 当前工作路径ctrl p; 当前文件所在路径 space ff
 
-* 内容搜索: space s / 内容,模糊查找当前工作目录, 然后alt r可以开启替换模式, 然后i,a进行修改; space s s buffer找内容
+- 内容搜索: space s / 内容,模糊查找当前工作目录, 然后alt r可以开启替换模式, 然后i,a进行修改; space s s buffer找内容
 
-* 替换修改: 然后alt r可以开启替换模式, 然后i,a进行修改
+- 替换修改: 然后alt r可以开启替换模式, 然后i,a进行修改
 
 ### 单文件操作
 
@@ -399,8 +441,8 @@ ctrl r恢复
 
 ctrl f/b翻页, d/u滚屏
 
-* 选中模式:y复制,/y复制到粘贴板,d删除
-* 跨区域:\y,\p
+- 选中模式:y复制,/y复制到粘贴板,d删除
+- 跨区域:\y,\p
 
 #### 动作(e,w,b,$,0,}{,gg,G,nG,n)
 
@@ -460,9 +502,9 @@ t/T: till直到
 
 ### vim分屏
 
-* ctrl w: s, v水平垂直分
-* :qall, :wall, :only, :close (ctrl w c)
-* ctrl w: w下一个,p前一个,hljk(左右下上),t最上面,b最下面
+- ctrl w: s, v水平垂直分
+- :qall, :wall, :only, :close (ctrl w c)
+- ctrl w: w下一个,p前一个,hljk(左右下上),t最上面,b最下面
 
 tmux和vim结合分屏
 [christoomey/vim-tmux-navigator: Seamless navigation between tmux panes and vim splits](https://github.com/christoomey/vim-tmux-navigator)
@@ -481,22 +523,22 @@ ctrl b I/U更新安装插件
 
 ### attach和detach session
 
-* 新建
+- 新建
 tmux
 tmux new -s session名字
 然后Julia: connect externel repl
 把代码贴入julia repl
 
-* tmux ls列出session
+- tmux ls列出session
 
-* 退出
+- 退出
 ctrl b d 退出窗口不退出session, 退出session要exit
 
 tmux kill-session -t myname
 
 关闭所有session: tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill
 
-* 载入session
+- 载入session
 tmux attach -t session名字
 
 ### Session-窗口-窗格
@@ -528,9 +570,9 @@ o  swap panes
 q  show pane numbers
 x  kill pane
 
-* break pane into window (e.g. to select text by mouse to copy)
+- break pane into window (e.g. to select text by mouse to copy)
 
-* restore pane from window
+- restore pane from window
 space - toggle between layouts
  q (Show pane numbers, when the numbers show up type the key to goto that pane)
 { (Move the current pane left)
@@ -552,12 +594,9 @@ cd ~/.tmux/resurrect/
 ln -sf <file_name> last
 ctrl b ctrl r
 
-
-
 ## Lunarvim
 
 [Keybind overview | LunarVim](https://www.lunarvim.org/docs/keybind-overview)
-
 
 g c 注释
 
