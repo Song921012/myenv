@@ -15,7 +15,7 @@
 
 ### 快捷键
 
-cmd + Q/W/M: 关闭应用/关闭窗口/最小化窗口; fn+F,ctrlcmdf全屏/关闭全屏
+cmd + Q/W/M: 关闭应用/关闭窗口/最小化窗口; fn+F,ctrl+cmd+f全屏/关闭全屏
 
 cmd + space: spotlight
 
