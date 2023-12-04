@@ -14,6 +14,12 @@ Package Manager: [Homebrew — The Missing Package Manager for macOS (or Linux)]
 
 HyperDoc: [HyperDock](https://bahoom.com/hyperdock)
 
+iina: Player
+
+amphetamine: 休眠管理器
+
+AnySwitch:
+
 - Web
 
 Firefox
