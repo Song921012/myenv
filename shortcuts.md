@@ -15,6 +15,8 @@
 
 ### 快捷键
 
+ctrl C, ctrl opt v文件剪切,其他类似
+
 cmd + Q/W/M: 关闭应用/关闭窗口/最小化窗口; fn+F,ctrl+cmd+f全屏/关闭全屏
 
 cmd H: 隐藏应用, cmd opt H 隐藏其他应用 cmd tab;切换应用
