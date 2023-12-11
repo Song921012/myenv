@@ -45,7 +45,15 @@ opt 选中拖拽复制
 
 ### 应用
 
-超级右键
+商店<https://lizhi.shop>
+
+超级右键: 已买
+
+popclip及其插件: 已买
+
+Typora: 已买
+
+Bob及其插件: 已买
 
 超级搜索:Hapigo [HapiGo - 高效启动器](https://hapigo.com/)
 
