@@ -40,6 +40,8 @@ anyswitch
 
 Downie4
 
+清理: tensent lemon
+
 扩展: copy link, adblock, zotero, infinity
 
 - Web
