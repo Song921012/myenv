@@ -12,13 +12,35 @@ Terminal: Iterm2[iTerm2 - macOS Terminal Replacement](https://iterm2.com/index.h
 
 Package Manager: [Homebrew — The Missing Package Manager for macOS (or Linux)](https://brew.sh/)
 
-HyperDoc: [HyperDock](https://bahoom.com/hyperdock)
-
 iina: Player
 
 amphetamine: 休眠管理器
 
-AnySwitch:
+clean: 腾讯柠檬, ccleaner
+
+商店<https://lizhi.shop>
+
+超级右键: 已买
+
+文本选中:popclip及其插件: 已买
+
+Markdown:Typora: 已买
+
+翻译:Bob及其插件: 已买
+
+超级搜索:Hapigo [HapiGo - 高效启动器](https://hapigo.com/); utools
+
+ishot:截屏,录屏
+
+flykey: cmd,cmd, 显示快捷键
+
+ibar: 菜单栏优化
+
+anyswitch
+
+Downie4
+
+扩展: copy link, adblock, zotero, infinity
 
 - Web
 
@@ -36,11 +58,11 @@ netease-cloud-music(Flatpak)
 
 - Media Player
 
-vlc
+iina
 
 - Office
 
-Onlyoffice, WPS, Libre series, okular
+WPS，office
 
 - Email
 

@@ -45,24 +45,6 @@ opt 选中拖拽复制
 
 ### 应用
 
-商店<https://lizhi.shop>
-
-超级右键: 已买
-
-文本选中:popclip及其插件: 已买
-
-Markdown:Typora: 已买
-
-翻译:Bob及其插件: 已买
-
-超级搜索:Hapigo [HapiGo - 高效启动器](https://hapigo.com/)
-
-anyswitch
-
-Downie4
-
-扩展: copy link, adblock, zotero, infinity
-
 ## Linux
 
 [Arch Linux 中文维基](https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5)
