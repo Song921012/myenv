@@ -43,6 +43,8 @@ cmd shift .显示隐藏
 
 opt 选中拖拽复制
 
+ctrl cmd 1: 自动排列
+
 ### 应用
 
 ## Linux
