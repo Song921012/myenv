@@ -40,6 +40,8 @@ anyswitch
 
 Downie4
 
+Input Source Pro输入法自动切换
+
 清理: tensent lemon
 
 扩展: copy link, adblock, zotero, infinity
