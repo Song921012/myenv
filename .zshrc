@@ -21,10 +21,10 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Alias
 ## Upadate
-alias refresh="up && gitup && juliaup && pythonup && othersup && gitup && cd"
-alias vpnrefresh="up && gitup && vpnon && juliaup && othersup && vpnoff && gitup && pythonup && cd"
+alias refresh="up && gitup && juliaupdate && pythonup && othersup && gitup && cd"
+alias vpnrefresh="up && gitup && vpnon && juliaupdate && othersup && vpnoff && gitup && pythonup && cd"
 alias syncup="nvim ~/myenv/gitup.sh"
-alias refreshall="up && quartoup && rustupdate && juliaup && pythonup 
+alias refreshall="up && quartoup && rustupdate && juliaupdate && pythonup 
 && othersup && juliadevup && rup && fireup && cppup && fenicsup && gitup && clean && cd"
 alias up="sudo apt update && sudo apt upgrade"
 alias gitup="vpnon && source ~/myenv/gitup.sh && vpnoff"
