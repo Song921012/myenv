@@ -215,9 +215,9 @@ version = "5.17.1"
 
 [[deps.AlgebraOfGraphics]]
 deps = ["Colors", "Dates", "Dictionaries", "FileIO", "GLM", "GeoInterface", "GeometryBasics", "GridLayoutBase", "KernelDensity", "Loess", "Makie", "PlotUtils", "PooledArrays", "PrecompileTools", "RelocatableFolders", "StatsBase", "StructArrays", "Tables"]
-git-tree-sha1 = "edf0ec1217abc34833c2186685e12720566fc3f4"
+git-tree-sha1 = "3fbdee81b0cdc2b106b681dd2b9d4bdc60ca35a2"
 uuid = "cbdf2221-f076-402e-a563-3d30da359d67"
-version = "0.6.17"
+version = "0.6.18"
 
 [[deps.Alpine]]
 deps = ["Combinatorics", "JuMP", "LinearAlgebra", "MathOptInterface", "Pkg", "Statistics"]
@@ -2692,9 +2692,9 @@ uuid = "f1662d9f-8043-43de-a69a-05efc1cc6ff4"
 version = "0.1.1"
 
 [[deps.IterTools]]
-git-tree-sha1 = "274c38bd733f9d29036d0a73658fff1dc1d3a065"
+git-tree-sha1 = "42d5f897009e7ff2cf88db414a389e5ed1bdd023"
 uuid = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
-version = "1.9.0"
+version = "1.10.0"
 
 [[deps.IterationControl]]
 deps = ["EarlyStopping", "InteractiveUtils"]
@@ -2721,9 +2721,9 @@ version = "0.13.4"
 
 [[deps.JLD2]]
 deps = ["FileIO", "MacroTools", "Mmap", "OrderedCollections", "Pkg", "PrecompileTools", "Printf", "Reexport", "Requires", "TranscodingStreams", "UUIDs"]
-git-tree-sha1 = "c2d0f45afcb5f6209155670bffd100c3b4937ea3"
+git-tree-sha1 = "e65d2bd5754885e97407ff686da66a58b1e20df8"
 uuid = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
-version = "0.4.40"
+version = "0.4.41"
 
 [[deps.JLFzf]]
 deps = ["Pipe", "REPL", "Random", "fzf_jll"]
@@ -3377,9 +3377,9 @@ weakdeps = ["FillArrays"]
 
 [[deps.LoweredCodeUtils]]
 deps = ["JuliaInterpreter"]
-git-tree-sha1 = "ae0d7f38c91fe688d2cc4139bf6622c32f230720"
+git-tree-sha1 = "38756922d32476c8f41f73560b910fc805a5a103"
 uuid = "6f1432cf-f94c-5a45-995e-cdbf5db27b0b"
-version = "2.4.2"
+version = "2.4.3"
 
 [[deps.LsqFit]]
 deps = ["Distributions", "ForwardDiff", "LinearAlgebra", "NLSolversBase", "Printf", "StatsAPI"]
@@ -5200,9 +5200,9 @@ version = "1.15.1"
 
 [[deps.Revise]]
 deps = ["CodeTracking", "Distributed", "FileWatching", "JuliaInterpreter", "LibGit2", "LoweredCodeUtils", "OrderedCollections", "Pkg", "REPL", "Requires", "UUIDs", "Unicode"]
-git-tree-sha1 = "033b3dcf811234b6d0bad28ea5395981c387fad2"
+git-tree-sha1 = "116d71e489abc472efa460cfa2bc0ac7cd0bab54"
 uuid = "295af30f-e4ad-537b-8983-00126c2a3abe"
-version = "3.5.11"
+version = "3.5.12"
 
 [[deps.Richardson]]
 deps = ["LinearAlgebra"]
@@ -5789,9 +5789,9 @@ weakdeps = ["OffsetArrays", "StaticArrays"]
 
 [[deps.StaticArrays]]
 deps = ["LinearAlgebra", "PrecompileTools", "Random", "StaticArraysCore"]
-git-tree-sha1 = "42d5373c10272d14ef49cc68ffc22df3b93c549a"
+git-tree-sha1 = "4e17a790909b17f7bf1496e3aec138cf01b60b3b"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "1.8.2"
+version = "1.9.0"
 weakdeps = ["ChainRulesCore", "Statistics"]
 
     [deps.StaticArrays.extensions]
@@ -6004,9 +6004,9 @@ version = "0.2.6"
 
 [[deps.Surrogates]]
 deps = ["Distributions", "ExtendableSparse", "GLM", "IterativeSolvers", "LinearAlgebra", "QuasiMonteCarlo", "SparseArrays", "Statistics", "Zygote"]
-git-tree-sha1 = "9b362e09d1b8bf1b93da1b9e6b749898277a69fb"
+git-tree-sha1 = "48719c76eb2061bfd681497c6f3c81cce0a9f6cf"
 uuid = "6fc51010-71bc-11e9-0e15-a3fcc6593c49"
-version = "6.8.0"
+version = "6.9.0"
 
 [[deps.SurrogatesAbstractGPs]]
 deps = ["AbstractGPs", "Surrogates"]
