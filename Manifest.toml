@@ -3388,9 +3388,9 @@ weakdeps = ["FillArrays"]
 
 [[deps.LoweredCodeUtils]]
 deps = ["JuliaInterpreter"]
-git-tree-sha1 = "38756922d32476c8f41f73560b910fc805a5a103"
+git-tree-sha1 = "20ce1091ba18bcdae71ad9b71ee2367796ba6c48"
 uuid = "6f1432cf-f94c-5a45-995e-cdbf5db27b0b"
-version = "2.4.3"
+version = "2.4.4"
 
 [[deps.LsqFit]]
 deps = ["Distributions", "ForwardDiff", "LinearAlgebra", "NLSolversBase", "Printf", "StatsAPI"]
@@ -3778,9 +3778,9 @@ version = "0.5.7"
 
 [[deps.MatrixEquations]]
 deps = ["LinearAlgebra", "LinearMaps"]
-git-tree-sha1 = "9b0bd69d44c74185231690f7c8859a7bdcc69fa4"
+git-tree-sha1 = "f765b4eda3ea9be8e644b9127809ca5151f3d9ea"
 uuid = "99c1a7ee-ab34-5fd5-8076-27c950a045f4"
-version = "2.4.0"
+version = "2.4.2"
 
 [[deps.MatrixFactorizations]]
 deps = ["ArrayLayouts", "LinearAlgebra", "Printf", "Random"]
@@ -3856,9 +3856,9 @@ version = "0.7.2"
 
 [[deps.Metaheuristics]]
 deps = ["Distances", "JMcDM", "LinearAlgebra", "Pkg", "Printf", "Random", "Reexport", "Requires", "SearchSpaces", "SnoopPrecompile", "Statistics"]
-git-tree-sha1 = "fda08e881de2665d0a4cfbaf98dd6d24b9439142"
+git-tree-sha1 = "f6edd8373210230637ecbcc116bf8d5ba08a1d89"
 uuid = "bcdb8e00-2c21-11e9-3065-2b553b22f898"
-version = "3.3.3"
+version = "3.3.4"
 
 [[deps.MethodAnalysis]]
 deps = ["AbstractTrees"]
@@ -5750,9 +5750,9 @@ version = "0.1.1"
 
 [[deps.StanBase]]
 deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "JSON", "NamedTupleTools", "OrderedCollections", "Parameters", "Random", "Unicode"]
-git-tree-sha1 = "23a0a42f3180d1ac142bb1bc75fa8451730a463b"
+git-tree-sha1 = "9cc505b1ee2ca4d64fb0d8b46437384d9f73f7bb"
 uuid = "d0ee94f6-a23d-54aa-bbe9-7f572d6da7f5"
-version = "4.10.0"
+version = "4.11.0"
 
 [[deps.StanDiagnose]]
 deps = ["CSV", "DataFrames", "DelimitedFiles", "Distributed", "DocStringExtensions", "Random", "Reexport", "StanBase", "Statistics", "Test", "Unicode"]
@@ -6144,9 +6144,9 @@ version = "1.10.0"
 
 [[deps.TaylorIntegration]]
 deps = ["BenchmarkTools", "Dates", "DiffEqBase", "Elliptic", "Espresso", "InteractiveUtils", "LinearAlgebra", "Logging", "Markdown", "PkgBenchmark", "RecursiveArrayTools", "Reexport", "Requires", "StaticArrays", "TaylorSeries"]
-git-tree-sha1 = "683a65f05536e34fb428f06c97b2c1b20e5fdd4e"
+git-tree-sha1 = "f84798953e8e318cbe480448d8a31d2843304715"
 uuid = "92b13dbe-c966-51a2-8445-caca9f8a7d42"
-version = "0.14.5"
+version = "0.14.6"
 weakdeps = ["OrdinaryDiffEq"]
 
     [deps.TaylorIntegration.extensions]
