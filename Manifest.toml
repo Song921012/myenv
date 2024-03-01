@@ -820,9 +820,9 @@ version = "1.63.0"
 
 [[deps.ChainRulesCore]]
 deps = ["Compat", "LinearAlgebra"]
-git-tree-sha1 = "aef70bb349b20aa81a82a19704c3ef339d4ee494"
+git-tree-sha1 = "575cd02e080939a33b6df6c5853d14924c08e35b"
 uuid = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
-version = "1.22.1"
+version = "1.23.0"
 weakdeps = ["SparseArrays"]
 
     [deps.ChainRulesCore.extensions]
@@ -1548,9 +1548,9 @@ version = "3.4.7"
 
 [[deps.DynamicPPL]]
 deps = ["ADTypes", "AbstractMCMC", "AbstractPPL", "BangBang", "Bijectors", "Compat", "ConstructionBase", "Distributions", "DocStringExtensions", "LinearAlgebra", "LogDensityProblems", "LogDensityProblemsAD", "MacroTools", "OrderedCollections", "Random", "Requires", "Setfield", "Test"]
-git-tree-sha1 = "60a3a231813a89bd796a639d5ce389386e89f4e3"
+git-tree-sha1 = "0d4bfed4de78224797539954341354a36dedbac1"
 uuid = "366bfd00-2699-11ea-058f-f148b4cae6d8"
-version = "0.24.7"
+version = "0.24.8"
 weakdeps = ["ChainRulesCore", "EnzymeCore", "ForwardDiff", "MCMCChains", "ReverseDiff", "ZygoteRules"]
 
     [deps.DynamicPPL.extensions]
@@ -3586,9 +3586,9 @@ version = "0.20.0"
 
 [[deps.MLJBase]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "ComputationalResources", "Dates", "DelimitedFiles", "Distributed", "Distributions", "InteractiveUtils", "InvertedIndices", "LearnAPI", "LinearAlgebra", "MLJModelInterface", "Missings", "OrderedCollections", "Parameters", "PrettyTables", "ProgressMeter", "Random", "RecipesBase", "Reexport", "ScientificTypes", "Serialization", "StatisticalMeasuresBase", "StatisticalTraits", "Statistics", "StatsBase", "Tables"]
-git-tree-sha1 = "4927a192f5b5156f3952f3f0dbbb4b207eef0836"
+git-tree-sha1 = "f4782ed751d4683a2858278ef2997130a82ca710"
 uuid = "a7f614a8-145f-11e9-1d2a-a57a1082229d"
-version = "1.1.1"
+version = "1.1.2"
 weakdeps = ["StatisticalMeasures"]
 
     [deps.MLJBase.extensions]
