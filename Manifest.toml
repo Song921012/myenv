@@ -262,9 +262,9 @@ version = "0.9.26"
 
 [[deps.ApproxFunFourier]]
 deps = ["AbstractFFTs", "ApproxFunBase", "BandedMatrices", "DomainSets", "FFTW", "FastTransforms", "InfiniteArrays", "IntervalSets", "LinearAlgebra", "Reexport", "StaticArrays"]
-git-tree-sha1 = "f0b729dbdc4d23b6a57b4d55765659a72d3a0fec"
+git-tree-sha1 = "f8306959a25ce70d2bc982950ed976ceb51a1234"
 uuid = "59844689-9c9d-51bf-9583-5b794ec66d30"
-version = "0.3.25"
+version = "0.3.26"
 
 [[deps.ApproxFunOrthogonalPolynomials]]
 deps = ["ApproxFunBase", "BandedMatrices", "BlockArrays", "BlockBandedMatrices", "DomainSets", "FastGaussQuadrature", "FastTransforms", "FillArrays", "HalfIntegers", "IntervalSets", "LinearAlgebra", "OddEvenIntegers", "Reexport", "SpecialFunctions", "StaticArrays"]
@@ -2841,9 +2841,9 @@ version = "1.20.0"
 
 [[deps.JuliaFormatter]]
 deps = ["CSTParser", "CommonMark", "DataStructures", "Glob", "Pkg", "PrecompileTools", "Tokenize"]
-git-tree-sha1 = "69f24e5b6ba669da8690ab294b78dd04dde5c6df"
+git-tree-sha1 = "1954b04bf7ce17ed708ce9059d05881f58f07845"
 uuid = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
-version = "1.0.51"
+version = "1.0.52"
 
 [[deps.JuliaInterpreter]]
 deps = ["CodeTracking", "InteractiveUtils", "Random", "UUIDs"]
@@ -3583,9 +3583,9 @@ version = "0.5.4"
 
 [[deps.MLFlowClient]]
 deps = ["Dates", "FilePathsBase", "HTTP", "JSON", "ShowCases", "URIs", "UUIDs"]
-git-tree-sha1 = "ea8a8dea5d252489d930763e5d6af4795930e0e2"
+git-tree-sha1 = "049b39a208b052d020e18a0850ca9d228a11ef16"
 uuid = "64a0f543-368b-4a9a-827a-e71edb2a0b83"
-version = "0.4.5"
+version = "0.4.6"
 
 [[deps.MLJ]]
 deps = ["CategoricalArrays", "ComputationalResources", "Distributed", "Distributions", "LinearAlgebra", "MLJBase", "MLJEnsembles", "MLJFlow", "MLJIteration", "MLJModels", "MLJTuning", "OpenML", "Pkg", "ProgressMeter", "Random", "Reexport", "ScientificTypes", "StatisticalMeasures", "Statistics", "StatsBase", "Tables"]
@@ -3951,15 +3951,15 @@ version = "1.1.0"
 
 [[deps.MixedModels]]
 deps = ["Arrow", "BSplineKit", "DataAPI", "Distributions", "GLM", "JSON3", "LinearAlgebra", "Markdown", "MixedModelsDatasets", "NLopt", "PooledArrays", "PrecompileTools", "ProgressMeter", "Random", "SparseArrays", "StaticArrays", "Statistics", "StatsAPI", "StatsBase", "StatsFuns", "StatsModels", "StructTypes", "Tables", "TypedTables"]
-git-tree-sha1 = "2d2295d30cd41328fba54d43024c5ac343c745ab"
+git-tree-sha1 = "5ca90328dd49dcbcab51170336b4ea6e91fe021a"
 uuid = "ff71e718-51f3-5ec2-a782-8ffcbfa3c316"
-version = "4.22.4"
+version = "4.22.5"
 
 [[deps.MixedModelsDatasets]]
 deps = ["Arrow", "Artifacts", "LazyArtifacts"]
-git-tree-sha1 = "00595020a34b5f42493301e882505742ce4308ca"
+git-tree-sha1 = "5f508af97ecf39645febed8ba2fabf5cfdc682e0"
 uuid = "7e9fb7ac-9f67-43bf-b2c8-96ba0796cbb6"
-version = "0.1.0"
+version = "0.1.1"
 
 [[deps.Mmap]]
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
@@ -6505,9 +6505,9 @@ version = "0.4.1"
 
 [[deps.UnicodePlots]]
 deps = ["ColorSchemes", "ColorTypes", "Contour", "Crayons", "Dates", "LinearAlgebra", "MarchingCubes", "NaNMath", "PrecompileTools", "Printf", "Requires", "SparseArrays", "StaticArrays", "StatsBase"]
-git-tree-sha1 = "92032ca730338662506bb3d0eb562375faf6c06a"
+git-tree-sha1 = "30646456e889c18fb3c23e58b2fc5da23644f752"
 uuid = "b8865327-cd53-5732-bb35-84acbb429228"
-version = "3.6.3"
+version = "3.6.4"
 
     [deps.UnicodePlots.extensions]
     FreeTypeExt = ["FileIO", "FreeType"]
