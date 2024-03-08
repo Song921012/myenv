@@ -4851,9 +4851,9 @@ version = "0.19.40"
 
 [[deps.PlutoDependencyExplorer]]
 deps = ["ExpressionExplorer", "InteractiveUtils", "Markdown"]
-git-tree-sha1 = "dd77d591d2f72c49541dfd245630b3535b4ff7c4"
+git-tree-sha1 = "4bc5284f77d731196d3e97f23abb732ad6f2a6e4"
 uuid = "72656b73-756c-7461-726b-72656b6b696b"
-version = "1.0.3"
+version = "1.0.4"
 
 [[deps.PlutoUI]]
 deps = ["AbstractPlutoDingetjes", "Base64", "ColorTypes", "Dates", "FixedPointNumbers", "Hyperscript", "HypertextLiteral", "IOCapture", "InteractiveUtils", "JSON", "Logging", "MIMEs", "Markdown", "Random", "Reexport", "URIs", "UUIDs"]
@@ -6084,9 +6084,9 @@ version = "7.2.1+1"
 
 [[deps.SummationByPartsOperators]]
 deps = ["ArgCheck", "AutoHashEquals", "FFTW", "InteractiveUtils", "LinearAlgebra", "LoopVectorization", "MuladdMacro", "PolynomialBases", "PrecompileTools", "RecursiveArrayTools", "Reexport", "Requires", "SciMLBase", "SimpleUnPack", "SparseArrays", "StaticArrayInterface", "StaticArrays", "Unrolled"]
-git-tree-sha1 = "d0a12ba2a6347ae601bfee4f9f155392a3b15727"
+git-tree-sha1 = "221142b8eae5eb9481c9797a1a72668ec54daf09"
 uuid = "9f78cca6-572e-554e-b819-917d2f1cf240"
-version = "0.5.53"
+version = "0.5.55"
 weakdeps = ["BandedMatrices", "DiffEqCallbacks", "ForwardDiff", "StructArrays"]
 
     [deps.SummationByPartsOperators.extensions]
