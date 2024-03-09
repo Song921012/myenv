@@ -100,10 +100,10 @@ uuid = "7f219486-4aa7-41d6-80a7-e08ef20ceed7"
 version = "0.8.2"
 
 [[deps.AbstractPPL]]
-deps = ["AbstractMCMC", "DensityInterface", "Random", "Setfield", "SparseArrays"]
-git-tree-sha1 = "917ad8da4becae82028aba80b7e25197f0c76dd1"
+deps = ["AbstractMCMC", "DensityInterface", "Random", "Setfield"]
+git-tree-sha1 = "9774889eac07c2e342e547b5c5c8ae5a2ce5c80b"
 uuid = "7a57a42e-76ec-4ea3-a279-07e840d6d9cf"
-version = "0.7.0"
+version = "0.7.1"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -199,18 +199,20 @@ uuid = "b5ca4192-6429-45e5-a2d9-87aec30a685c"
 version = "0.2.4"
 
 [[deps.Agents]]
-deps = ["CSV", "CommonSolve", "DataFrames", "DataStructures", "Distributed", "Distributions", "Downloads", "Graphs", "JLD2", "LazyArtifacts", "LightOSM", "LinearAlgebra", "Pkg", "ProgressMeter", "Random", "Rotations", "Scratch", "StaticArrays", "StatsBase"]
-git-tree-sha1 = "adb98dc3c06912eb2af18ba80365b9a8a61806c5"
+deps = ["CSV", "CommonSolve", "DataFrames", "DataStructures", "Distributed", "Distributions", "Downloads", "Graphs", "IteratorSampling", "JLD2", "LazyArtifacts", "LightOSM", "LinearAlgebra", "MacroTools", "MixedStructTypes", "Pkg", "PrecompileTools", "ProgressMeter", "Random", "Rotations", "Scratch", "StaticArrays", "StatsBase"]
+git-tree-sha1 = "fd63ff2ca8c41e27ecd561b3a7ba21d5cb497176"
 uuid = "46ada45e-f475-11e8-01d0-f70cc89e6671"
-version = "5.17.1"
+version = "6.0.0"
 
     [deps.Agents.extensions]
     AgentsArrow = "Arrow"
-    AgentsOSMVisualizations = "OSMMakie"
+    AgentsGraphVisualizations = ["Makie", "GraphMakie"]
+    AgentsOSMVisualizations = ["Makie", "OSMMakie"]
     AgentsVisualizations = "Makie"
 
     [deps.Agents.weakdeps]
     Arrow = "69666777-d1a9-59fb-9406-91d4454c9d45"
+    GraphMakie = "1ecd5474-83a3-4783-bb4f-06765db800d2"
     Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
     OSMMakie = "76b6901f-8821-46bb-9129-841bc9cfe677"
 
@@ -2348,15 +2350,15 @@ version = "2.8.1+1"
 
 [[deps.HiGHS]]
 deps = ["HiGHS_jll", "MathOptInterface", "PrecompileTools", "SparseArrays"]
-git-tree-sha1 = "f869b0a17d1a4f13aac08af8d0a050bdb70bccfd"
+git-tree-sha1 = "a216e32299172b83abfe699604584f413ffbb045"
 uuid = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
-version = "1.8.1"
+version = "1.9.0"
 
 [[deps.HiGHS_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "Zlib_jll"]
-git-tree-sha1 = "f596ee3668df8587158bcaef1ae47bf75bc0fe39"
+git-tree-sha1 = "9a550d55c49334beb538c5ad9504f07fc29a13dc"
 uuid = "8fd58aa0-07eb-5a78-9b36-339c94fd15ea"
-version = "1.6.0+1"
+version = "1.7.0+0"
 
 [[deps.Highlights]]
 deps = ["DocStringExtensions", "InteractiveUtils", "REPL"]
@@ -2756,6 +2758,12 @@ version = "0.9.4"
 git-tree-sha1 = "a3f24677c21f5bbe9d2a714f95dcd58337fb2856"
 uuid = "82899510-4779-5014-852e-03e436cf321d"
 version = "1.0.0"
+
+[[deps.IteratorSampling]]
+deps = ["Distributions", "Random", "ResumableFunctions", "StatsBase"]
+git-tree-sha1 = "642b9fdedb1d9bb89f9d6cc7fa053c247a4ab0ad"
+uuid = "ef79a3d2-ae9f-5cd2-ab61-e13847810a6e"
+version = "0.2.5"
 
 [[deps.JLD]]
 deps = ["Compat", "FileIO", "H5Zblosc", "HDF5", "Printf"]
@@ -3230,9 +3238,9 @@ version = "2.54.5+0"
 
 [[deps.Libtask]]
 deps = ["FunctionWrappers", "LRUCache", "LinearAlgebra", "Statistics"]
-git-tree-sha1 = "345a40c746404dd9cb1bbc368715856838ab96f2"
+git-tree-sha1 = "ed1f362b3fd13f00b65e61d98669c652c17663ab"
 uuid = "6f1fad26-d15e-5dc8-ae53-837a1d7b8c9f"
-version = "0.8.6"
+version = "0.8.7"
 
 [[deps.Libtiff_jll]]
 deps = ["Artifacts", "JLLWrappers", "JpegTurbo_jll", "LERC_jll", "Libdl", "Pkg", "Zlib_jll", "Zstd_jll"]
@@ -3617,9 +3625,9 @@ version = "0.2.0"
 
 [[deps.MLJIteration]]
 deps = ["IterationControl", "MLJBase", "Random", "Serialization"]
-git-tree-sha1 = "991e10d4c8da49d534e312e8a4fbe56b7ac6f70c"
+git-tree-sha1 = "1e909ee09417ebd18559c4d9c15febff887192df"
 uuid = "614be32b-d00c-4edb-bd02-1eb411ab5e55"
-version = "0.6.0"
+version = "0.6.1"
 
 [[deps.MLJLinearModels]]
 deps = ["DocStringExtensions", "IterativeSolvers", "LinearAlgebra", "LinearMaps", "MLJModelInterface", "Optim", "Parameters"]
@@ -3635,15 +3643,15 @@ version = "1.9.5"
 
 [[deps.MLJModels]]
 deps = ["CategoricalArrays", "CategoricalDistributions", "Combinatorics", "Dates", "Distances", "Distributions", "InteractiveUtils", "LinearAlgebra", "MLJModelInterface", "Markdown", "OrderedCollections", "Parameters", "Pkg", "PrettyPrinting", "REPL", "Random", "RelocatableFolders", "ScientificTypes", "StatisticalTraits", "Statistics", "StatsBase", "Tables"]
-git-tree-sha1 = "6868ebd0963fd3d6bfd6d5389dddd0219070120e"
+git-tree-sha1 = "dd99a80f39cae8b112823d279dfa08ae872b4f3e"
 uuid = "d491faf4-2d78-11e9-2867-c94bc002c0b7"
-version = "0.16.15"
+version = "0.16.16"
 
 [[deps.MLJTuning]]
 deps = ["ComputationalResources", "Distributed", "Distributions", "LatinHypercubeSampling", "MLJBase", "ProgressMeter", "Random", "RecipesBase", "StatisticalMeasuresBase"]
-git-tree-sha1 = "8d435794dbfba25509f6b32ab5e55779db1bfda2"
+git-tree-sha1 = "42949f1a85c48f390cfce46cb1c4fcda1846b204"
 uuid = "03970b2e-30c4-11ea-3135-d1576263f10f"
-version = "0.8.1"
+version = "0.8.2"
 
 [[deps.MLLabelUtils]]
 deps = ["LearnBase", "MappedArrays", "StatsBase"]
@@ -3770,9 +3778,9 @@ weakdeps = ["RecursiveArrayTools"]
 
 [[deps.Manopt]]
 deps = ["ColorSchemes", "ColorTypes", "Colors", "DataStructures", "Dates", "LinearAlgebra", "ManifoldDiff", "ManifoldsBase", "Markdown", "PolynomialRoots", "Preferences", "Printf", "Random", "Requires", "SparseArrays", "Statistics", "Test"]
-git-tree-sha1 = "1f79737c515e16735c75eae698b002a1e68f893d"
+git-tree-sha1 = "cd72dbb6add1d140d00df38cc4efdbee53b56901"
 uuid = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
-version = "0.4.55"
+version = "0.4.56"
 
     [deps.Manopt.extensions]
     ManoptJuMPExt = "JuMP"
@@ -3960,6 +3968,12 @@ deps = ["Arrow", "Artifacts", "LazyArtifacts"]
 git-tree-sha1 = "5f508af97ecf39645febed8ba2fabf5cfdc682e0"
 uuid = "7e9fb7ac-9f67-43bf-b2c8-96ba0796cbb6"
 version = "0.1.1"
+
+[[deps.MixedStructTypes]]
+deps = ["ExprTools", "MacroTools", "PrecompileTools", "SumTypes"]
+git-tree-sha1 = "1b2c321553b6c9e3bf61de48e06531da97e66ff5"
+uuid = "3d69f371-6fa5-5add-b11c-3293622cad62"
+version = "0.2.10"
 
 [[deps.Mmap]]
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
@@ -4825,9 +4839,9 @@ version = "0.8.19"
 
 [[deps.Plots]]
 deps = ["Base64", "Contour", "Dates", "Downloads", "FFMPEG", "FixedPointNumbers", "GR", "JLFzf", "JSON", "LaTeXStrings", "Latexify", "LinearAlgebra", "Measures", "NaNMath", "Pkg", "PlotThemes", "PlotUtils", "PrecompileTools", "Printf", "REPL", "Random", "RecipesBase", "RecipesPipeline", "Reexport", "RelocatableFolders", "Requires", "Scratch", "Showoff", "SparseArrays", "Statistics", "StatsBase", "UUIDs", "UnicodeFun", "UnitfulLatexify", "Unzip"]
-git-tree-sha1 = "c4fa93d7d66acad8f6f4ff439576da9d2e890ee0"
+git-tree-sha1 = "3c403c6590dd93b36752634115e20137e79ab4df"
 uuid = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-version = "1.40.1"
+version = "1.40.2"
 
     [deps.Plots.extensions]
     FileIOExt = "FileIO"
@@ -5277,6 +5291,12 @@ deps = ["StaticArrays"]
 git-tree-sha1 = "256eeeec186fa7f26f2801732774ccf277f05db9"
 uuid = "ae5879a3-cd67-5da8-be7f-38c6eb64a37b"
 version = "1.1.1"
+
+[[deps.ResumableFunctions]]
+deps = ["Logging", "MacroTools"]
+git-tree-sha1 = "754aeae612461da54756b83e9baf8583f910c0ae"
+uuid = "c5292f4c-5179-55e1-98c5-05642aab7184"
+version = "0.6.9"
 
 [[deps.ReverseDiff]]
 deps = ["ChainRulesCore", "DiffResults", "DiffRules", "ForwardDiff", "FunctionWrappers", "LinearAlgebra", "LogExpFunctions", "MacroTools", "NaNMath", "Random", "SpecialFunctions", "StaticArrays", "Statistics"]
@@ -6081,6 +6101,12 @@ uuid = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
 deps = ["Artifacts", "Libdl", "libblastrampoline_jll"]
 uuid = "bea87d4a-7f5b-5778-9afe-8cc45184846c"
 version = "7.2.1+1"
+
+[[deps.SumTypes]]
+deps = ["MacroTools", "PrecompileTools"]
+git-tree-sha1 = "73dbf987e33aeae99a488348780693b758367dd6"
+uuid = "8e1ec7a9-0e02-4297-b0fe-6433085c89f2"
+version = "0.5.6"
 
 [[deps.SummationByPartsOperators]]
 deps = ["ArgCheck", "AutoHashEquals", "FFTW", "InteractiveUtils", "LinearAlgebra", "LoopVectorization", "MuladdMacro", "PolynomialBases", "PrecompileTools", "RecursiveArrayTools", "Reexport", "Requires", "SciMLBase", "SimpleUnPack", "SparseArrays", "StaticArrayInterface", "StaticArrays", "Unrolled"]
