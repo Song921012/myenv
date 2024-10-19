@@ -2,14 +2,14 @@ echo "myenv"
 cd ~/myenv
 git pull
 git add -A && git commit -m "update" && git push
-echo "hsl"
-cd ~/hsl
-git pull
-git add -A && git commit -m "update" && git push
-echo "clashnode"
-cd ~/clashnode
-git pull
-git add -A && git commit -m "update" && git push
+# echo "hsl"
+# cd ~/hsl
+# git pull
+# git add -A && git commit -m "update" && git push
+# echo "clashnode"
+# cd ~/clashnode
+# git pull
+# git add -A && git commit -m "update" && git push
 echo "my working paper"
 cd ~/Desktop/MyPapersNotes
 git pull
@@ -64,39 +64,39 @@ cd ~/Desktop/WebBookPapers/awesome-sciml
 git pull
 git add -A && git commit -m "update" && git push
 echo "MathepiaTutorial"
-cd ~/Desktop/WebBookPapers/MathepiaTutorial
-git pull
-git add -A && git commit -m "update" && git push
-echo "MathEpiTutorial"
-cd ~/Desktop/WebBookPapers/MathEpiDeepLearningTutorial
-git pull
-git add -A && git commit -m "update" && git push
+# cd ~/Desktop/WebBookPapers/MathepiaTutorial
+# git pull
+# git add -A && git commit -m "update" && git push
+# echo "MathEpiTutorial"
+# cd ~/Desktop/WebBookPapers/MathEpiDeepLearningTutorial
+# git pull
+# git add -A && git commit -m "update" && git push
 
-echo "Zotero"
-cd ~/.zotero
-git pull
-git add -A && git commit -m "update" && git push
+# echo "Zotero"
+# cd ~/.zotero
+# git pull
+# git add -A && git commit -m "update" && git push
 
-echo "chatgpt-sciml"
-cd /home/aidishage/Desktop/MyProjects/chatgpt-sciml
-git pull
-git add -A && git commit -m "update" && git push
+# echo "chatgpt-sciml"
+# cd /home/aidishage/Desktop/MyProjects/chatgpt-sciml
+# git pull
+# git add -A && git commit -m "update" && git push
 
 
-echo "MyProjects"
+##echo "MyProjects"
 ## git push projects working on
-cd ~/.julia/dev/Mathepia.jl
-git pull
-cd ~/.julia/dev/MathepiaData.jl
-git pull
-cd ~/.julia/dev/MathepiaInference.jl
-git pull
-cd ~/.julia/dev/MathepiaOptimal.jl
-git pull
-cd ~/.julia/dev/MathepiaModels.jl
-git pull
-cd ~/.julia/dev/OptLibrary.jl
-git pull
+##cd ~/.julia/dev/Mathepia.jl
+# git pull
+# cd ~/.julia/dev/MathepiaData.jl
+# git pull
+# cd ~/.julia/dev/MathepiaInference.jl
+# git pull
+# cd ~/.julia/dev/MathepiaOptimal.jl
+# git pull
+# cd ~/.julia/dev/MathepiaModels.jl
+# git pull
+# cd ~/.julia/dev/OptLibrary.jl
+# git pull
 
 echo "Done"
 cd
