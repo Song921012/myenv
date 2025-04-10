@@ -330,6 +330,14 @@ Then you can hold down the Alt key and left-click a link.
 
 [ImportError: DLL load failed while importing _ctypes: Can't find specified module. · Issue #12531 · conda/conda](https://github.com/conda/conda/issues/12531)
 
+
+
+- latex字体出问题
+
+  自己定义个文件夹，把路径添加到/usr/local/texlive/2024/texmf.conf文件（sudo权限）的 OSFONTDIR环境变量。缺啥字体就下载啥字体到那个文件夹。
+
+  参考文件夹里texmf.cnf文件写法
+
 # Other applications
 
 - 软件与更新
